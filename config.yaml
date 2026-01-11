@@ -1,0 +1,15 @@
+llm:
+  provider: openai
+  api_key:
+  base_url: https://api.deepseek.com
+  model: "deepseek-chat"
+  temperature: 0.2
+  max_output_tokens: 300
+
+  # 你的“打通结局”目标指令
+  goal_instruction: |
+    You are playing a galgame.
+    Your objective is to reach the best/true ending.
+    Prefer choices that gather key clues or obtain helpful items.
+    Avoid risky actions that may trigger bad endings.
+    Use retrieved memory to stay consistent with earlier hints.

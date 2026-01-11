@@ -1,0 +1,206 @@
+[
+    {
+      "id": "start",
+      "name": "醒来",
+      "memory": {
+        "description": "你在陌生房间醒来，门反锁着，桌上有一张便签：‘别相信第一眼看到的。’",
+        "key_info": ["门反锁", "便签提醒：别相信第一眼看到的"],
+        "location": "陌生房间",
+        "time": "清晨",
+        "characters": [
+          {"name": "你", "role": "主角", "description": "刚醒来，处于困惑状态"}
+        ]
+      },
+      "links": [
+        {"target": "desk", "condition": "检查桌面"},
+        {"target": "door", "condition": "尝试开门"}
+      ]
+    },
+    {
+      "id": "desk",
+      "name": "桌面线索",
+      "memory": {
+        "description": "桌上有一把小钥匙和一张照片。照片背面写着：‘她害怕黑暗。’",
+        "key_info": ["获得：小钥匙", "照片背面信息：她害怕黑暗"],
+        "location": "房间桌旁",
+        "time": "清晨",
+        "characters": [
+          {"name": "你", "role": "主角", "description": "正在搜集线索"}
+        ]
+      },
+      "links": [
+        {"target": "key_taken", "condition": "拿起钥匙"},
+        {"target": "photo_kept", "condition": "把照片收好"}
+      ]
+    },
+    {
+      "id": "door",
+      "name": "门外脚步声",
+      "memory": {
+        "description": "门把手冰冷，外面传来脚步声。你想起便签：‘别相信第一眼看到的。’",
+        "key_info": ["门外有人", "便签提醒再次出现"],
+        "location": "房间门口",
+        "time": "清晨",
+        "characters": [
+          {"name": "你", "role": "主角", "description": "在门口犹豫"},
+          {"name": "未知人影", "role": "未知", "description": "门外走动的人"}
+        ]
+      },
+      "links": [
+        {"target": "bad_end_noise", "condition": "大声呼救"},
+        {"target": "hallway", "condition": "保持安静"}
+      ]
+    },
+    {
+      "id": "key_taken",
+      "name": "拿到钥匙",
+      "memory": {
+        "description": "你拿起钥匙。门外脚步声更近了，你需要决定下一步。",
+        "key_info": ["已获得钥匙", "门外脚步声更近"],
+        "location": "房间内",
+        "time": "清晨",
+        "characters": [
+          {"name": "你", "role": "主角", "description": "手里拿着钥匙"}
+        ]
+      },
+      "links": [
+        {"target": "hallway", "condition": "立刻开门离开"},
+        {"target": "hide", "condition": "先躲起来观察"}
+      ]
+    },
+    {
+      "id": "photo_kept",
+      "name": "收好照片",
+      "memory": {
+        "description": "你把照片收好。你注意到墙上有个暗格。",
+        "key_info": ["已获得线索：她害怕黑暗", "发现墙上暗格"],
+        "location": "房间内",
+        "time": "清晨",
+        "characters": [
+          {"name": "你", "role": "主角", "description": "开始注意环境细节"}
+        ]
+      },
+      "links": [
+        {"target": "secret", "condition": "打开暗格"},
+        {"target": "hallway", "condition": "不动它，去门边听动静"}
+      ]
+    },
+    {
+      "id": "hide",
+      "name": "躲藏观察",
+      "memory": {
+        "description": "你躲进柜子。透过缝隙看到一个人影停在门口，轻声说：‘你醒了？’",
+        "key_info": ["门外人影疑似知道你醒了"],
+        "location": "房间柜子里",
+        "time": "清晨",
+        "characters": [
+          {"name": "你", "role": "主角", "description": "隐藏自己避免暴露"},
+          {"name": "未知人影", "role": "未知", "description": "门口停留并说话"}
+        ]
+      },
+      "links": [
+        {"target": "hallway", "condition": "出声回应"},
+        {"target": "hallway", "condition": "继续沉默"}
+      ]
+    },
+    {
+      "id": "secret",
+      "name": "暗格与灯",
+      "memory": {
+        "description": "暗格里有一盏小灯和一张纸条：‘她害怕黑暗——点亮它。’",
+        "key_info": ["获得：小灯", "纸条强调：点亮它"],
+        "location": "房间暗格处",
+        "time": "清晨",
+        "characters": [
+          {"name": "你", "role": "主角", "description": "获得关键道具"}
+        ]
+      },
+      "links": [
+        {"target": "lamp_taken", "condition": "拿走小灯"},
+        {"target": "hallway", "condition": "忽略小灯"}
+      ]
+    },
+    {
+      "id": "lamp_taken",
+      "name": "灯在手",
+      "memory": {
+        "description": "你拿走小灯。门外人影停住，似乎在等你。",
+        "key_info": ["已获得小灯", "门外人影在等待"],
+        "location": "房间内",
+        "time": "清晨",
+        "characters": [
+          {"name": "你", "role": "主角", "description": "握着小灯，准备行动"},
+          {"name": "未知人影", "role": "未知", "description": "门外等候"}
+        ]
+      },
+      "links": [
+        {"target": "neutral_end", "condition": "打开门面对她"},
+        {"target": "good_end", "condition": "把灯打开再开门"}
+      ]
+    },
+    {
+      "id": "hallway",
+      "name": "走廊与抽泣",
+      "memory": {
+        "description": "你来到走廊，远处传来轻微抽泣声。你想起：‘她害怕黑暗。’",
+        "key_info": ["走廊远处有人抽泣", "线索：她害怕黑暗"],
+        "location": "走廊",
+        "time": "清晨",
+        "characters": [
+          {"name": "你", "role": "主角", "description": "判断该先靠近还是先找光源"}
+        ]
+      },
+      "links": [
+        {"target": "neutral_end", "condition": "循声走去"},
+        {"target": "good_end", "condition": "先找灯开关"}
+      ]
+    },
+    {
+      "id": "bad_end_noise",
+      "name": "坏结局：噪声",
+      "memory": {
+        "description": "你呼救引来不该来的东西。视野迅速被黑暗吞没……",
+        "key_info": ["呼救触发危险"],
+        "location": "房间门口",
+        "time": "清晨",
+        "characters": [
+          {"name": "你", "role": "主角", "description": "来不及反应"}
+        ]
+      },
+      "links": [],
+      "is_ending": true
+    },
+    {
+      "id": "neutral_end",
+      "name": "普通结局",
+      "memory": {
+        "description": "你找到了她，但你什么都没准备。她抬头看你，眼神复杂……（普通结局）",
+        "key_info": ["未点亮光源导致结局平淡"],
+        "location": "走廊尽头",
+        "time": "清晨",
+        "characters": [
+          {"name": "她", "role": "关键人物", "description": "害怕黑暗的人"},
+          {"name": "你", "role": "主角", "description": "没准备好关键道具/行动"}
+        ]
+      },
+      "links": [],
+      "is_ending": true
+    },
+    {
+      "id": "good_end",
+      "name": "真结局",
+      "memory": {
+        "description": "你点亮了灯，黑暗退去。她停止抽泣，轻声说：‘谢谢你。’（真结局）",
+        "key_info": ["点亮光源触发真结局"],
+        "location": "走廊尽头",
+        "time": "清晨",
+        "characters": [
+          {"name": "她", "role": "关键人物", "description": "害怕黑暗的人"},
+          {"name": "你", "role": "主角", "description": "做出了正确选择"}
+        ]
+      },
+      "links": [],
+      "is_ending": true
+    }
+  ]
+  
