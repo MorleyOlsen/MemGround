@@ -10,6 +10,7 @@ from typing import Any, Dict, List
 class Character:
     name: str
     role: str = ""
+    number: int = 0
     description: str = ""
 
 
@@ -59,3 +60,4 @@ class Observation:
 class Decision:
     choice_index: int
     rationale: str
+    choice_text: str = ""

@@ -1,15 +1,32 @@
 llm:
   provider: openai
-  api_key:
+  api_key: "sk-f976c47739e6484fb8a2af8adb5628ee"
   base_url: https://api.deepseek.com
   model: "deepseek-chat"
   temperature: 0.2
   max_output_tokens: 300
 
-  # 你的“打通结局”目标指令
+  # "打通结局"目标指令（目前没用上）
   goal_instruction: |
     You are playing a galgame.
-    Your objective is to reach the best/true ending.
-    Prefer choices that gather key clues or obtain helpful items.
-    Avoid risky actions that may trigger bad endings.
     Use retrieved memory to stay consistent with earlier hints.
+
+embedding:
+  provider: qwen
+  api_key: "sk-c9d043968b3f4e56a72451caa1665628"
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  model: "text-embedding-v4"
+  dim: 1024
+  use_real: true
+
+agent:
+  max_steps: 20
+  retrieve_top_k: 3
+  verbose: true
+  retriever_type: "vector"  # keyword or vector
+  max_memory: 40  # 滑动窗口大小
+
+env:
+  game_type: "type_help"  # kb or type_help
+  scenes_path: "env/type_help/nodes.json"  # for type_help game
+  start_node_id: "Start"  # Start for type_help, start for kb
