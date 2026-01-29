@@ -24,7 +24,9 @@ class FileTracker:
 
     def __init__(self):
         self.unlocked_files: Set[str] = set()  # 已解锁的文件名
-        self.attempted_files: List[str] = []  # 尝试打开的文件名历史
+        self.attempted_files: List[str] = []  # 尝试打开的文件名历史（所有尝试）
+        self.success_files: List[str] = []  # 成功打开的文件
+        self.failed_files: List[str] = []  # 失败的尝试（文件不存在）
         self.file_naming_patterns: List[str] = []  # 发现的命名规则
 
     def unlock_file(self, filename: str) -> bool:
@@ -34,22 +36,39 @@ class FileTracker:
             return True
         return False
 
-    def attempt_file(self, filename: str) -> None:
-        """记录尝试打开文件"""
-        self.attempted_files.append(filename)
+    def attempt_file(self, filename: str, success: bool = True) -> None:
+        """记录尝试打开文件
 
-    def add_pattern(self, pattern: str) -> None:
-        """添加发现的命名规则"""
-        if pattern not in self.file_naming_patterns:
-            self.file_naming_patterns.append(pattern)
+        Args:
+            filename: 文件名
+            success: 是否成功打开（True=成功，False=失败）
+        """
+        self.attempted_files.append(filename)
+        if success:
+            self.success_files.append(filename)
+        else:
+            self.failed_files.append(filename)
+
+    # def add_pattern(self, pattern: str) -> None:
+    #     """添加发现的命名规则"""
+    #     if pattern not in self.file_naming_patterns:
+    #         self.file_naming_patterns.append(pattern)
 
     def get_unlocked_files(self) -> List[str]:
         """获取已解锁文件列表"""
         return sorted(list(self.unlocked_files))
 
     def get_attempted_files(self) -> List[str]:
-        """获取尝试历史"""
+        """获取尝试历史（所有尝试）"""
         return self.attempted_files.copy()
+
+    def get_success_files(self) -> List[str]:
+        """获取成功打开的文件"""
+        return self.success_files.copy()
+
+    def get_failed_files(self) -> List[str]:
+        """获取失败的尝试（文件不存在）"""
+        return self.failed_files.copy()
 
     def is_unlocked(self, filename: str) -> bool:
         """检查文件是否已解锁"""
@@ -90,21 +109,21 @@ class TypeHelpEnv(BaseGameEnv):
     def _initialize_unlocked_files(self) -> None:
         """初始化已解锁的文件列表"""
         # 自动解锁背景节点（非文件类型但用于获取故事背景）
-        background_nodes = ["Background", "message", "00-readme"]
+        background_nodes = ["Background","message","00-readme"]
         for node_name in background_nodes:
             if node_name in self.nodes:
                 self.file_tracker.unlock_file(node_name)
 
         # 从 message 节点获取初始文件列表
-        if "message" in self.nodes:
-            memory = self.nodes["message"].get("memory", {})
-            files = memory.get("files", [])
-            for file in files:
-                # 只解锁完整的文件名（不包含 ???? 的）
-                if "?" not in file:
-                    self.file_tracker.unlock_file(file)
+        # if "message" in self.nodes:
+        #     memory = self.nodes["message"].get("memory", {})
+        #     files = memory.get("files", [])
+        #     for file in files:
+        #         # 只解锁完整的文件名（不包含 ???? 的）
+        #         if "?" not in file:
+        #             self.file_tracker.unlock_file(file)
 
-    # 只能观察到文本信息和当前解锁的信息，不能观察到下一步跳转信息
+    # 只能观察到文本信息，不能观察到下一步跳转信息
     def observe(self) -> Observation:
         """获取当前观察"""
         if self.current_node_id not in self.nodes:
@@ -156,10 +175,10 @@ class TypeHelpEnv(BaseGameEnv):
             text += characters_info
 
         # 添加已解锁文件信息
-        unlocked_files = self.file_tracker.get_unlocked_files()
-        if unlocked_files:
-            files_info = "\n[已解锁的文件]: " + ", ".join(unlocked_files)
-            text += files_info
+        # unlocked_files = self.file_tracker.get_unlocked_files()
+        # if unlocked_files:
+        #     files_info = "\n[已解锁的文件]: " + ", ".join(unlocked_files)
+        #     text += files_info
 
         # 检查是否为结局节点,目前设置当开启到00-final-note文件时作为结束
         is_ending = node_name == "00-final-note"
@@ -186,13 +205,15 @@ class TypeHelpEnv(BaseGameEnv):
         Returns:
             True if file exists and was opened, False otherwise
         """
-        # 记录尝试
-        self.file_tracker.attempt_file(filename)
-
         # 检查文件是否存在
         if filename not in self.nodes:
+            # 记录尝试（失败）
+            self.file_tracker.attempt_file(filename, success=False)
             print(f"[Type Help] File not found: {filename}")
             return False
+
+        # 记录尝试（成功）
+        self.file_tracker.attempt_file(filename, success=True)
 
         # 记录历史
         self.history.append(self.current_node_id)
@@ -240,6 +261,8 @@ class TypeHelpEnv(BaseGameEnv):
         return {
             "unlocked_files": self.file_tracker.get_unlocked_files(),
             "attempted_files": self.file_tracker.get_attempted_files(),
+            "success_files": self.file_tracker.get_success_files(),
+            "failed_files": self.file_tracker.get_failed_files(),
             "patterns": self.file_tracker.file_naming_patterns
         }
 
@@ -250,105 +273,41 @@ class TypeHelpEnv(BaseGameEnv):
         self.file_tracker = FileTracker()
         self._initialize_unlocked_files()
 
+    def get_state(self) -> Dict[str, Any]:
+        """获取环境状态用于checkpoint
 
-def main():
-    """测试Type Help环境的observe输出"""
-    from pathlib import Path
+        Returns:
+            包含环境完整状态的字典
+        """
+        return {
+            "current_node_id": self.current_node_id,
+            "history": self.history.copy(),
+            "file_tracker": {
+                "unlocked_files": list(self.file_tracker.unlocked_files),
+                "attempted_files": self.file_tracker.attempted_files.copy(),
+                "success_files": self.file_tracker.success_files.copy(),
+                "failed_files": self.file_tracker.failed_files.copy(),
+                "file_naming_patterns": self.file_tracker.file_naming_patterns.copy()
+            }
+        }
 
-    # 设置游戏数据路径
-    game_root = Path(__file__).resolve().parent.parent.parent / "env" / "type_help"
+    def restore_state(self, state: Dict[str, Any]) -> None:
+        """从checkpoint恢复环境状态
 
-    # 创建配置
-    config = TypeHelpConfig(
-        game_type="type_help",
-        data_path=game_root,
-        start_node_id="Start"
-    )
+        Args:
+            state: 环境状态字典
+        """
+        self.current_node_id = state["current_node_id"]
+        self.history = state["history"].copy()
 
-    # 初始化环境
-    env = TypeHelpEnv(config)
+        # 恢复文件追踪器状态
+        tracker_state = state["file_tracker"]
+        self.file_tracker.unlocked_files = set(tracker_state["unlocked_files"])
+        self.file_tracker.attempted_files = tracker_state["attempted_files"].copy()
+        self.file_tracker.success_files = tracker_state["success_files"].copy()
+        self.file_tracker.failed_files = tracker_state["failed_files"].copy()
+        self.file_tracker.file_naming_patterns = tracker_state["file_naming_patterns"].copy()
 
-    print("=" * 80)
-    print("Type Help Environment Test")
-    print("=" * 80)
-    print(f"Game data path: {game_root}")
-    print(f"Total nodes loaded: {len(env.nodes)}")
-    print(f"Starting node: {env.current_node_id}")
-    print()
+        print(f"[Env] 已恢复状态: 当前节点={self.current_node_id}, "
+              f"已解锁文件={len(self.file_tracker.unlocked_files)}个")
 
-    # 交互式测试
-    step = 0
-    while True:
-        print("\n" + "=" * 80)
-        print(f"STEP {step}")
-        print("=" * 80)
-
-        # 获取当前观察
-        obs = env.observe()
-
-        print(f"\nNode ID: {obs.node_id}")
-        print(f"Node Name: {obs.name}")
-        print(f"Is Ending: {obs.is_ending}")
-        print()
-
-        print("TEXT:")
-        print("-" * 80)
-        print(obs.text)
-        print("-" * 80)
-        print()
-
-        print("MEMORY INFO:")
-        print(f"  Location: {obs.memory.location}")
-        print(f"  Time: {obs.memory.time}")
-        print(f"  Key Info: {obs.memory.key_info}")
-        print(f"  Characters: {[c.name for c in obs.memory.characters]}")
-        print()
-
-        # 显示文件追踪信息
-        file_info = env.get_file_tracker_info()
-        print("FILE TRACKER:")
-        print(f"  Unlocked: {file_info['unlocked_files']}")
-        print(f"  Attempted: {file_info['attempted_files']}")
-        print(f"  Patterns: {file_info['patterns']}")
-        print()
-
-        # 如果是结局节点，退出
-        if obs.is_ending:
-            print("\n[GAME ENDED]")
-            break
-
-        # 显示选择
-        print("CHOICES:")
-        for choice in obs.choices:
-            print(f"  [{choice.index}] {choice.text}")
-        print()
-
-        # 用户输入
-        try:
-            user_input = input("Enter choice index (or 'q' to quit): ").strip()
-
-            if user_input.lower() == 'q':
-                print("\nExiting test...")
-                break
-
-            choice_idx = int(user_input)
-
-            # 执行选择
-            env.choose(choice_idx)
-            step += 1
-
-        except ValueError:
-            print("\n[ERROR] Invalid input. Please enter a number or 'q'.")
-        except Exception as e:
-            print(f"\n[ERROR] {e}")
-            break
-
-    print("\n" + "=" * 80)
-    print("Test completed!")
-    print(f"Total steps: {step}")
-    print(f"History: {env.history}")
-    print("=" * 80)
-
-
-if __name__ == "__main__":
-    main()

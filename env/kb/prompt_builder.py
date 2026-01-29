@@ -47,37 +47,37 @@ class KBPromptBuilder(BasePromptBuilder):
 
         # 构建完整prompt
         prompt = f"""
-GOAL:
-{self.goal_instruction}
+        GOAL:
+        {self.goal_instruction}
 
-CURRENT SCENE:
-text: {obs.text}
+        CURRENT SCENE:
+        text: {obs.text}
 
-CONTEXT (memory fields):
-location: {obs.memory.location}
-time: {obs.memory.time}
-key_info:
-{chr(10).join(['- '+k for k in (obs.memory.key_info or [])]) if (obs.memory.key_info or []) else '(none)'}
-characters:
-{chars_str}
+        CONTEXT (memory fields):
+        location: {obs.memory.location}
+        time: {obs.memory.time}
+        key_info:
+        {chr(10).join(['- '+k for k in (obs.memory.key_info or [])]) if (obs.memory.key_info or []) else '(none)'}
+        characters:
+        {chars_str}
 
-RETRIEVED PAST MEMORY (may help consistency):
-{retrieved_str}
+        RETRIEVED PAST MEMORY (may help consistency):
+        {retrieved_str}
 
-AVAILABLE CHOICES (choose one index):
-{choices_str}
+        AVAILABLE CHOICES (choose one index):
+        {choices_str}
 
-OUTPUT FORMAT (STRICT JSON ONLY, no extra text):
-{{
-  "choice_index": <int>,
-  "reason": "<brief reason>"
-}}
+        OUTPUT FORMAT (STRICT JSON ONLY, no extra text):
+        {{
+        "choice_index": <int>,
+        "reason": "<brief reason>"
+        }}
 
-RULES:
-- choice_index must be one of the available indices.
-- reason must be concise and explain why this choice is best for the goal.
-- If information is insufficient, choose the safest/most informative option.
-- Pay attention to character relationships and story consistency.
+        RULES:
+        - choice_index must be one of the available indices.
+        - reason must be concise and explain why this choice is best for the goal.
+        - If information is insufficient, choose the safest/most informative option.
+        - Pay attention to character relationships and story consistency.
         """.strip()
 
         return prompt

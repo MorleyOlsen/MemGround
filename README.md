@@ -137,6 +137,20 @@ env:
 - 包含完整的观察、决策和行动历史
 - 支持 JSON 格式导出
 
+
+#### 6.Checkpoint
+# 从最新checkpoint恢复:
+`python galagent.py --resume`
+这会：
+- 自动查找最新的checkpoint文件
+- 恢复所有状态
+- 从保存的步数继续运行
+
+# 从指定checkpoint恢复
+`python galagent.py --resume checkpoints/checkpoint_type_help_long_run_step_500.json`
+
+或者直接通过在代码里修改来实现从指定checkpoint恢复
+
 ## 🔧 添加新游戏
 
 只需 3 步即可添加新游戏类型：

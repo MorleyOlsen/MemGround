@@ -16,6 +16,9 @@ class KBGameUtils(BaseGameUtils):
     - 日志数据格式化
     """
 
+    def __init__(self):
+        super().__init__()
+
     def get_game_context(self, env: Any) -> Dict[str, Any]:
         """获取KB游戏的上下文信息
 
@@ -23,15 +26,20 @@ class KBGameUtils(BaseGameUtils):
             env: KB游戏环境实例
 
         Returns:
-            空字典（KB游戏暂无特殊上下文）
+            包含记忆的上下文字典
         """
-        return {}
+        game_context = {}
+
+        # 获取当前记忆
+        if self.memory_store:
+            game_context.update(self.memory_store.get_memory_context())
+
+        return game_context
 
     def format_log_data(
         self,
         step: int,
         obs: Observation,
-        search_results: str,
         decision: Any,
         game_context: Dict[str, Any],
         retrieval_decision: Optional[Dict[str, Any]] = None
@@ -41,7 +49,6 @@ class KBGameUtils(BaseGameUtils):
         Args:
             step: 当前步数
             obs: 当前观察
-            search_results: 检索结果JSON字符串
             decision: 决策对象
             game_context: 游戏上下文
             retrieval_decision: 检索决策信息
@@ -49,29 +56,32 @@ class KBGameUtils(BaseGameUtils):
         Returns:
             完整的日志数据字典
         """
-        import json
+        # 格式化choices为新格式：{"text": 选择文本, "decision_rationale": 原因}
+        # KB游戏使用choice_index，需要从obs.choices中获取对应的文本
+        choice_text = ""
+        if hasattr(decision, 'choice_index'):
+            for choice in obs.choices:
+                if choice.index == decision.choice_index:
+                    choice_text = choice.text
+                    break
 
-        # 解析检索到的记忆
-        retrieved_memory = []
-        if search_results:
-            data = json.loads(search_results)
-            retrieved_memory = [r["text"] for r in data.get("results", [])]
+        choices = {
+            "text": choice_text,
+            "decision_rationale": decision.rationale
+        }
 
-        # 格式化选项
-        choices_for_log = [{"index": c.index, "text": c.text} for c in obs.choices]
-
-        # 构建日志数据（KB游戏没有特殊字段）
+        # 构建日志数据（KB游戏没有文件追踪字段）
         log_data = {
             "step": step,
             "node_id": obs.node_id,
             "node_name": obs.name,
             "scene_text": obs.text,
-            "choices": choices_for_log,
-            "retrieved_memory": retrieved_memory,
-            "decision_index": decision.choice_index,
-            "decision_rationale": decision.rationale,
+            "choices": choices,
+            "file_retrieval": None,
             "unlocked_files": None,
-            "attempted_files": None
+            "attempted_files": None,
+            "success_files": None,
+            "failed_files": None
         }
 
         # 添加检索决策信息

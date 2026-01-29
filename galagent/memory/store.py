@@ -243,3 +243,170 @@ class MemoryStore:
     def embeddings(self) -> List[List[float]]:
         """获取所有记忆项的embedding列表"""
         return [item.embedding for item in self._items if item.embedding is not None]
+
+    def to_chat_messages(self, role_key: str = "role", include_system: bool = True) -> List[Dict[str, str]]:
+        """将记忆转换为多轮对话格式的消息列表
+
+        Args:
+            role_key: 从meta中提取角色的键名，默认为"role"
+            include_system: 是否包含system角色的消息，默认True
+
+        Returns:
+            格式为 [{"role": "user/assistant/system", "content": "..."}] 的消息列表
+
+        示例:
+            store.add("你好", meta={"role": "user"})
+            store.add("你好！有什么可以帮助你的？", meta={"role": "assistant"})
+            messages = store.to_chat_messages()
+            # [{"role": "user", "content": "你好"},
+            #  {"role": "assistant", "content": "你好！有什么可以帮助你的？"}]
+        """
+        messages = []
+        for item in self._items:
+            role = item.meta.get(role_key, "user")  # 默认为user角色
+
+            # 根据参数决定是否跳过system消息
+            if not include_system and role == "system":
+                continue
+
+            messages.append({
+                "role": role,
+                "content": item.text
+            })
+
+        return messages
+
+    def add_message(self, content: str, role: str = "user", **extra_meta) -> None:
+        """便捷方法：添加一条对话消息到记忆中
+
+        Args:
+            content: 消息内容
+            role: 角色类型，可以是 "user", "assistant", "system"
+            **extra_meta: 额外的元数据
+
+        示例:
+            store.add_message("请帮我分析这个问题", role="user", step=1)
+            store.add_message("好的，让我来分析", role="assistant", step=1)
+        """
+        meta = {"role": role, **extra_meta}
+        self.add(content, meta=meta)
+
+    def delete_oldest(self, count: int = 1) -> int:
+        """删除最早的若干条记忆（用于上下文长度管理）
+
+        Args:
+            count: 要删除的记忆数量，默认为1
+
+        Returns:
+            实际删除的记忆数量
+
+        示例:
+            # 当检测到上下文超长时
+            deleted = store.delete_oldest(5)
+            print(f"删除了 {deleted} 条最早的记忆")
+        """
+        if count <= 0:
+            return 0
+
+        # 计算实际可删除的数量
+        actual_count = min(count, len(self._items))
+
+        if actual_count == 0:
+            return 0
+
+        # 删除最早的记忆
+        for _ in range(actual_count):
+            oldest_item = self._items.pop(0)
+
+            # 从Faiss中删除对应的向量
+            if self.use_faiss and self.faiss_manager:
+                try:
+                    # 计算要删除的faiss ID
+                    oldest_id = self._next_id - len(self._items) - 1
+                    if oldest_id >= 0:
+                        self.faiss_manager.remove_ids([oldest_id])
+                        if self.embedding_config.use_real:
+                            print(f"删除记忆 (ID: {oldest_id}): {oldest_item.text[:30]}...")
+                except Exception as e:
+                    print(f"从Faiss删除向量失败: {e}")
+
+        return actual_count
+
+    def get_total_tokens_estimate(self, chars_per_token: float = 2.5) -> int:
+        """估算当前所有记忆的token数量
+
+        Args:
+            chars_per_token: 每个token的平均字符数，中文约2.5，英文约4
+
+        Returns:
+            估算的总token数
+
+        示例:
+            tokens = store.get_total_tokens_estimate()
+            if tokens > 4000:
+                store.delete_oldest(5)
+        """
+        total_chars = sum(len(item.text) for item in self._items)
+        return int(total_chars / chars_per_token)
+
+
+    def get_memory_context(self) -> Dict[str, Any]:
+        """获取当前存储的记忆作为游戏上下文
+
+        Returns:
+            包含对话历史和记忆统计信息的字典
+            {
+                "conversation_history": List[Dict[str, str]],  # 对话历史
+                "total_items": int,  # 总记忆条数
+                "total_tokens": int,  # 估算的总token数
+            }
+        """
+        return {
+            "conversation_history": self.to_chat_messages(),
+            "total_items": len(self._items),
+            "total_tokens": self.get_total_tokens_estimate(),
+        }
+
+    def get_state(self) -> Dict[str, Any]:
+        """获取记忆存储状态用于checkpoint
+
+        Returns:
+            包含所有记忆项的状态字典
+        """
+        return {
+            "items": [
+                {
+                    "text": item.text,
+                    "meta": item.meta,
+                    "embedding": item.embedding
+                }
+                for item in self._items
+            ],
+            "total_items": len(self._items),
+            "total_tokens": self.get_total_tokens_estimate(),
+            "next_id": self._next_id
+        }
+
+    def restore_state(self, state: Dict[str, Any]) -> None:
+        """从checkpoint恢复记忆存储状态
+
+        Args:
+            state: 记忆状态字典
+        """
+        from galagent.memory.store import MemoryItem
+
+        self._items.clear()
+
+        for item_data in state["items"]:
+            item = MemoryItem(
+                text=item_data["text"],
+                meta=item_data.get("meta", {}),
+                embedding=item_data.get("embedding")
+            )
+            self._items.append(item)
+
+        # 恢复next_id
+        self._next_id = state.get("next_id", len(self._items))
+
+        print(f"[Memory] 已恢复状态: {len(self._items)}条记忆, "
+              f"约{self.get_total_tokens_estimate()}个tokens")

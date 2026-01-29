@@ -20,13 +20,22 @@ embedding:
   use_real: true
 
 agent:
-  max_steps: 20
+  max_steps: 3000
   retrieve_top_k: 3
   verbose: true
   retriever_type: "vector"  # keyword or vector
-  max_memory: 40  # 滑动窗口大小
+  max_memory: 40  # 滑动窗口大小（已弃用）
+  max_context_tokens: 65000  # 最大上下文token数
+
+checkpoint:
+  enabled: true  # 是否启用checkpoint功能
+  interval: 100  # 每隔多少步保存一次checkpoint
+  dir: "checkpoints"  # checkpoint保存目录
+  resume_from: null
+  # 恢复示例（取消注释以从checkpoint恢复）：
+  # resume_from: "checkpoints/checkpoint_type_help_session_step_500.json"
 
 env:
   game_type: "type_help"  # kb or type_help
   scenes_path: "env/type_help/nodes.json"  # for type_help game
-  start_node_id: "Start"  # Start for type_help, start for kb
+  start_node_id: "Background"  # Background for type_help, start for kb

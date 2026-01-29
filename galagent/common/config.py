@@ -36,7 +36,17 @@ class AgentConfig:
     retrieve_top_k: int = 3
     verbose: bool = True
     retriever_type: str = "vector"  # keyword 或 vector
-    max_memory: int = 40  # 记忆滑动窗口大小
+    max_memory: int = 40  # 记忆滑动窗口大小（已弃用，使用max_context_tokens代替）
+    max_context_tokens: int = 4000  # 最大上下文token数
+
+
+@dataclass
+class CheckpointConfig:
+    """Checkpoint配置"""
+    enabled: bool = False  # 是否启用checkpoint
+    interval: int = 100  # 每隔多少步保存一次
+    dir: str = "checkpoints"  # checkpoint保存目录
+    resume_from: Optional[str] = None  # 从指定checkpoint恢复（文件路径）
 
 
 @dataclass
@@ -112,6 +122,18 @@ class ConfigLoader:
             verbose=bool(agent.get("verbose", True)),
             retriever_type=str(agent.get("retriever_type", "vector")),
             max_memory=int(agent.get("max_memory", 40)),
+            max_context_tokens=int(agent.get("max_context_tokens", 4000)),
+        )
+
+    def load_checkpoint_config(self) -> CheckpointConfig:
+        """加载Checkpoint配置"""
+        checkpoint = self._data.get("checkpoint", {})
+
+        return CheckpointConfig(
+            enabled=bool(checkpoint.get("enabled", False)),
+            interval=int(checkpoint.get("interval", 100)),
+            dir=str(checkpoint.get("dir", "checkpoints")),
+            resume_from=checkpoint.get("resume_from"),  # 可以是None
         )
 
     def load_env_config(self) -> EnvConfig:
@@ -138,6 +160,11 @@ def load_embedding_config(path: Path) -> EmbeddingConfig:
 def load_agent_config(path: Path) -> AgentConfig:
     """加载Agent配置"""
     return ConfigLoader(path).load_agent_config()
+
+
+def load_checkpoint_config(path: Path) -> CheckpointConfig:
+    """加载Checkpoint配置"""
+    return ConfigLoader(path).load_checkpoint_config()
 
 
 def load_env_config(path: Path) -> EnvConfig:

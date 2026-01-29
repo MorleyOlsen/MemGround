@@ -15,6 +15,7 @@ from galagent.memory.retriever import KeywordRetrieverTool, VectorRetriever
 from galagent.agent.policy import LLMPolicy
 from galagent.agent.runner import GalgameAgent
 from galagent.common.config import ConfigLoader
+from galagent.common.checkpoint import CheckpointManager
 from galagent.logger import GameLogger
 
 
@@ -73,6 +74,7 @@ async def main_async():
     embedding_config = config_loader.load_embedding_config()
     agent_config = config_loader.load_agent_config()
     env_config = config_loader.load_env_config()
+    checkpoint_config = config_loader.load_checkpoint_config()
 
     # 命令行参数覆盖配置文件
     if args.retriever:
@@ -88,6 +90,7 @@ async def main_async():
     print(f"[OK] Embedding: {embedding_config.provider}/{embedding_config.model} (dim={embedding_config.dim})")
     print(f"[OK] Agent: retriever={agent_config.retriever_type}, top_k={agent_config.retrieve_top_k}, max_memory={agent_config.max_memory}")
     print(f"[OK] Game: {env_config.game_type}")
+    print(f"[OK] Checkpoint: enabled={checkpoint_config.enabled}, interval={checkpoint_config.interval}")
     print()
 
     # 初始化游戏环境
@@ -118,12 +121,34 @@ async def main_async():
     print(f"[OK] GameUtils created for game: {env_config.game_type}")
 
     # 初始化LLM策略
-    policy = LLMPolicy(llm_config, prompt_builder)
+    policy = LLMPolicy(llm_config, prompt_builder, memory_store=store)
     print(f"[OK] LLMPolicy initialized")
+
+    # 初始化CheckpointManager（如果启用）
+    checkpoint_manager = None
+    if checkpoint_config.enabled:
+        checkpoint_manager = CheckpointManager(checkpoint_dir=checkpoint_config.dir)
+        print(f"[OK] CheckpointManager initialized: {checkpoint_config.dir}")
+
+    # 如果需要从checkpoint恢复，先加载以获取logger_session_id
+    logger_session_id = None
+    start_step = 0
+    resume_from = checkpoint_config.resume_from
+
+    if resume_from:
+        checkpoint_data = checkpoint_manager.load_checkpoint(Path(resume_from))
+        logger_session_id = checkpoint_data.get('logger_session_id')
+        start_step = checkpoint_data['step']
+        print(f"[OK] Resuming from checkpoint: step={start_step}, logger_session_id={logger_session_id}")
 
     # 初始化GameLogger
     log_dir = ROOT / "logs"
-    logger = GameLogger(log_dir, env_config.game_type)
+    if resume_from and logger_session_id:
+        # 恢复模式：使用checkpoint中的logger_session_id
+        logger = GameLogger(log_dir, env_config.game_type, session_id=logger_session_id, resume=True)
+    else:
+        # 新建模式
+        logger = GameLogger(log_dir, env_config.game_type)
     print(f"[OK] GameLogger initialized: {logger.session_id}")
 
     # 初始化Agent
@@ -135,7 +160,15 @@ async def main_async():
         config=agent_config,
         game_utils=game_utils,
         logger=logger,
+        checkpoint_manager=checkpoint_manager,
+        checkpoint_interval=checkpoint_config.interval if checkpoint_config.enabled else 0,
+        session_name=f"{env_config.game_type}_session"
     )
+
+    # 如果提供了checkpoint，则从checkpoint恢复状态
+    if resume_from:
+        start_step, _ = agent.load_checkpoint(resume_from)
+        print(f"[OK] State restored, continuing from step {start_step + 1}")
 
     print("\n" + "=" * 70)
     print("Starting Galgame Agent...")

@@ -22,58 +22,87 @@ class DummyPolicy:
 
 class LLMPolicy:
     """
-    # TODO:这里要改一下 没有choice_index，每一步要自己决定
     LLM-driven decision policy.
     It asks the model to output strict JSON: {"choice_index": int, "reason": str}
 
     使用游戏特定的PromptBuilder来构建提示词，实现游戏逻辑解耦
     """
 
-    def __init__(self, config: LLMConfig, prompt_builder: BasePromptBuilder):
+    def __init__(self, config: LLMConfig, prompt_builder: BasePromptBuilder, memory_store=None):
         self.config = config
         self.client = OpenAI(api_key=config.api_key, base_url=config.base_url)
         self.prompt_builder = prompt_builder
 
-    def decide_retrieval(self, obs: Observation) -> Dict[str, Any]:
-        """决定是否需要检索记忆，并生成检索query
+        # 将 memory_store 传递给 prompt_builder
+        if memory_store:
+            self.prompt_builder.set_memory_store(memory_store)
+
+    def _call_llm(self, messages: List[Dict[str, str]], model: Optional[str] = None, temperature: Optional[float] = None) -> str:
+        """调用LLM接口的统一方法
 
         Args:
-            obs: 当前观察
+            messages: 消息列表，格式为 [{"role": "system/user/assistant", "content": "..."}]
+            model: 模型名称，默认使用config中的model
+            temperature: 温度参数，默认使用config中的temperature
 
         Returns:
-            包含 need_retrieval, query, reason 的字典
+            LLM返回的文本内容
         """
-        # 使用prompt builder构建检索决策提示词
-        user_prompt = self.prompt_builder.build_retrieval_decision_prompt(obs)
-
-        messages = [
-            {"role": "system", "content": "You are a careful game-playing agent. Decide if you need to retrieve past memories."},
-            {"role": "user", "content": user_prompt},
-        ]
-
         resp = self.client.chat.completions.create(
-            model=self.config.model,
+            model=model or self.config.model,
             messages=messages,
-            temperature=self.config.temperature,
+            temperature=temperature if temperature is not None else self.config.temperature,
         )
 
         msg = resp.choices[0].message
-        text = msg.content or ""
+        return msg.content or ""
 
-        print("Retrieval decision:", text)
+    def decide_retrieval(self, obs: Observation, game_context: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+        """决定是否需要检索记忆，并生成检索目标
+
+        Args:
+            obs: 当前观察
+            game_context: 游戏特定的上下文信息
+
+        Returns:
+            包含 need_retrieval, query/filenames, reason 的字典
+            - 对于KB游戏: {"need_retrieval": bool, "query": str, "reason": str}
+            - 对于Type Help游戏: {"need_retrieval": bool, "filenames": list, "reason": str}
+        """
+        # 使用prompt builder构建检索决策提示词
+        user_prompt = self.prompt_builder.build_retrieval_prompt(obs, game_context)
+
+        # 如果没有文件检索prompt，回退到通用检索决策
+        if not user_prompt:
+            user_prompt = self.prompt_builder.build_retrieval_decision_prompt(obs)
+
+        messages = [
+            {"role": "user", "content": user_prompt},
+        ]
+
+        text = self._call_llm(messages)
 
         parsed = self._parse_json(text)
 
-        # 提取检索决策信息
-        need_retrieval = parsed.get("need_retrieval", True)  # 默认为True以保持向后兼容
-        query = parsed.get("query", obs.text)  # 默认使用场景文本
+        # 提取检索决策信息（兼容两种格式）
+        need_retrieval = parsed.get("need_retrieval", False)
         reason = parsed.get("reason", "")
 
-        return {
+        # 构建返回结果
+        result = {
             "need_retrieval": need_retrieval,
-            "query": query,
             "reason": reason
         }
+
+        # 根据返回的字段判断游戏类型
+        if "filenames" in parsed:
+            # Type Help游戏：返回文件名列表
+            result["filenames"] = parsed.get("filenames", [])
+        else:
+            # KB游戏：返回query
+            result["query"] = parsed.get("query", obs.text)
+
+        return result
 
     def decide(self, obs: Observation, retrieved_hits: List[str], game_context: Optional[Dict[str, Any]] = None) -> Decision:
         """做出决策
@@ -95,16 +124,8 @@ class LLMPolicy:
             {"role": "user", "content": user_prompt},
         ]
 
-        resp = self.client.chat.completions.create(
-            model=self.config.model,
-            messages=messages,
-            temperature=self.config.temperature,
-        )
-        
-        msg = resp.choices[0].message
-        text = msg.content or ""
-        
-        print("text:",text)
+        text = self._call_llm(messages)
+        print("text:", text)
 
         parsed = self._parse_json(text)
         
@@ -169,3 +190,44 @@ class LLMPolicy:
             return json.loads(s2)
         except Exception:
             return {}
+
+    def generate_story_summary(self, game_context: Optional[Dict[str, Any]] = None) -> str:
+        """生成故事情节总结和推理
+
+        Args:
+            game_context: 游戏特定的上下文信息
+
+        Returns:
+            故事总结文本
+        """
+        # 构建总结提示词
+        system_prompt = """你是一个专业的故事分析师。请根据游戏过程中的所有信息，对故事情节进行深入的总结和推理。"""
+
+        user_prompt = """请根据你在游戏中经历的所有事件、对话和线索，完成以下任务：
+
+        1. **故事梗概**：用2-3段话总结整个故事的主要情节
+        2. **关键线索**：列出你发现的重要线索和信息
+        3. **角色分析**：分析主要角色的动机和关系
+        4. **推理结论**：基于所有信息，推理出故事的真相或核心秘密
+        5. **未解之谜**：列出仍然存在的疑问或未解决的问题
+
+        请以清晰、有条理的方式输出你的分析。"""
+
+        # 如果有游戏上下文，添加到提示词中
+        if game_context:
+            context_info = "\n\n当前游戏状态：\n"
+            if "unlocked_files" in game_context:
+                context_info += f"- 已解锁文件数: {len(game_context['unlocked_files'])}\n"
+            if "read_files" in game_context:
+                context_info += f"- 已读取文件数: {len(game_context['read_files'])}\n"
+            user_prompt += context_info
+
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ]
+
+        # 使用较高的temperature以获得更有创造性的总结
+        summary = self._call_llm(messages, temperature=0.7)
+
+        return summary
