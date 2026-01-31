@@ -52,7 +52,6 @@ class TypeHelpFileRetriever:
             file_info = {
                 "name": filename,
                 "exists": True,
-                "description": memory_data.get("description", ""),
                 "key_info": memory_data.get("key_info", []),
                 "location": memory_data.get("location", ""),
                 "characters": []
@@ -63,7 +62,6 @@ class TypeHelpFileRetriever:
                 file_info["characters"].append({
                     "name": char_data.get("name", ""),
                     "number": char_data.get("number", 0),
-                    "role": char_data.get("role", ""),
                     "description": char_data.get("description", "")
                 })
 
@@ -71,9 +69,43 @@ class TypeHelpFileRetriever:
 
         return results
 
-    def format_retrieved_files(self, file_results: List[Dict[str, Any]]) -> str:
-        """格式化检索到的文件信息为文本（简化版，只保留关键信息）
+    def format_single_file(self, file_info: Dict[str, Any]) -> str:
+        """格式化单个文件信息为文本（通用函数）
 
+        Args:
+            file_info: 文件信息字典，包含 name, location, key_info, characters 等
+
+        Returns:
+            格式化后的文本字符串
+        """
+        if not file_info.get("exists", False):
+            return f"\n[{file_info['name']}] - 文件不存在"
+
+        lines = [f"\n[{file_info['name']}]"]
+
+        # 地点
+        if file_info.get("location"):
+            lines.append(f"地点: {file_info['location']}")
+
+        # 关键信息
+        if file_info.get("key_info"):
+            lines.append("关键信息:")
+            for info in file_info["key_info"]:
+                lines.append(f"  - {info}")
+
+        # 角色（只保留name和number）
+        if file_info.get("characters"):
+            lines.append("人物:")
+            for char in file_info["characters"]:
+                char_str = f"  - {char.get('name', '')}"
+                if char.get("number"):
+                    char_str += f" (编号: {char['number']})"
+                lines.append(char_str)
+
+        return "\n".join(lines)
+
+    def format_retrieved_files(self, file_results: List[Dict[str, Any]]) -> str:
+        """格式化检索到的文件信息为文本
         Args:
             file_results: retrieve_files 返回的结果列表
 
@@ -83,32 +115,4 @@ class TypeHelpFileRetriever:
         if not file_results:
             return "未检索到任何文件"
 
-        lines = [f"检索到 {len(file_results)} 个文件:"]
-
-        for file_info in file_results:
-            if not file_info.get("exists", False):
-                lines.append(f"\n[{file_info['name']}] - 文件不存在")
-                continue
-
-            lines.append(f"\n[{file_info['name']}]")
-
-            # 地点
-            if file_info.get("location"):
-                lines.append(f"  地点: {file_info['location']}")
-
-            # 关键信息
-            if file_info.get("key_info"):
-                lines.append("  关键信息:")
-                for info in file_info["key_info"]:
-                    lines.append(f"    - {info}")
-
-            # 角色（只保留name和number）
-            if file_info.get("characters"):
-                lines.append("  人物:")
-                for char in file_info["characters"]:
-                    char_str = f"    - {char['name']}"
-                    if char.get("number"):
-                        char_str += f" (编号: {char['number']})"
-                    lines.append(char_str)
-
-        return "\n".join(lines)
+        return "\n".join([self.format_single_file(file_info) for file_info in file_results])

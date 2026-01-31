@@ -28,10 +28,12 @@ class LLMPolicy:
     使用游戏特定的PromptBuilder来构建提示词，实现游戏逻辑解耦
     """
 
-    def __init__(self, config: LLMConfig, prompt_builder: BasePromptBuilder, memory_store=None):
+    def __init__(self, config: LLMConfig, prompt_builder: BasePromptBuilder, memory_store=None, game_utils=None, agent_config=None):
         self.config = config
         self.client = OpenAI(api_key=config.api_key, base_url=config.base_url)
         self.prompt_builder = prompt_builder
+        self.game_utils = game_utils
+        self.agent_config = agent_config
 
         # 将 memory_store 传递给 prompt_builder
         if memory_store:
@@ -80,6 +82,18 @@ class LLMPolicy:
             {"role": "user", "content": user_prompt},
         ]
 
+        # 在调用LLM前进行记忆管理
+        if self.game_utils and self.agent_config:
+            full_prompt = user_prompt
+            self.game_utils.manage_memory(
+                self.agent_config.max_context_tokens,
+                self.agent_config,
+                full_prompt=full_prompt,
+                llm_client=self.client,
+                llm_config=self.config,
+                prompt_builder=self.prompt_builder
+            )
+
         text = self._call_llm(messages)
 
         parsed = self._parse_json(text)
@@ -116,13 +130,25 @@ class LLMPolicy:
             决策对象
         """
         # 使用游戏特定的prompt builder构建提示词
-        system_prompt = self.prompt_builder.build_system_prompt()
+        system_prompt = self.prompt_builder.build_system_prompt(game_context)
         user_prompt = self.prompt_builder.build_user_prompt(obs, retrieved_hits, game_context)
 
         messages = [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ]
+
+        # 在调用LLM前进行记忆管理
+        if self.game_utils and self.agent_config:
+            full_prompt = system_prompt + user_prompt
+            self.game_utils.manage_memory(
+                self.agent_config.max_context_tokens,
+                self.agent_config,
+                full_prompt=full_prompt,
+                llm_client=self.client,
+                llm_config=self.config,
+                prompt_builder=self.prompt_builder
+            )
 
         text = self._call_llm(messages)
         print("text:", text)
@@ -201,30 +227,19 @@ class LLMPolicy:
             故事总结文本
         """
         # 构建总结提示词
-        system_prompt = """你是一个专业的故事分析师。请根据游戏过程中的所有信息，对故事情节进行深入的总结和推理。"""
-
-        user_prompt = """请根据你在游戏中经历的所有事件、对话和线索，完成以下任务：
-
-        1. **故事梗概**：用2-3段话总结整个故事的主要情节
-        2. **关键线索**：列出你发现的重要线索和信息
-        3. **角色分析**：分析主要角色的动机和关系
-        4. **推理结论**：基于所有信息，推理出故事的真相或核心秘密
-        5. **未解之谜**：列出仍然存在的疑问或未解决的问题
-
+        system_prompt = """你是一个专业的故事分析师.请根据你在游戏中经历的所有事件、对话和线索，完成以下任务：
+        1. 故事梗概：用2-3段话总结整个故事的主要情节
+        2. 角色分析：分析主要角色的动机和关系
+        3. 推理结论：基于所有信息，推理出故事的真相或核心秘密
         请以清晰、有条理的方式输出你的分析。"""
 
         # 如果有游戏上下文，添加到提示词中
         if game_context:
-            context_info = "\n\n当前游戏状态：\n"
-            if "unlocked_files" in game_context:
-                context_info += f"- 已解锁文件数: {len(game_context['unlocked_files'])}\n"
-            if "read_files" in game_context:
-                context_info += f"- 已读取文件数: {len(game_context['read_files'])}\n"
-            user_prompt += context_info
+            conversation_history = game_context['conversation_history']
+            system_prompt += conversation_history 
 
         messages = [
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
         ]
 
         # 使用较高的temperature以获得更有创造性的总结

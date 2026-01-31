@@ -36,8 +36,10 @@ class AgentConfig:
     retrieve_top_k: int = 3
     verbose: bool = True
     retriever_type: str = "vector"  # keyword 或 vector
-    max_memory: int = 40  # 记忆滑动窗口大小（已弃用，使用max_context_tokens代替）
     max_context_tokens: int = 4000  # 最大上下文token数
+    enable_compression: bool = True  # 是否启用记忆压缩
+    compression_threshold: int = 20  # 对话轮次超过此值时触发压缩
+    compression_count: int = 10  # 每次压缩最早的n轮对话
 
 
 @dataclass
@@ -121,8 +123,10 @@ class ConfigLoader:
             retrieve_top_k=int(agent.get("retrieve_top_k", 3)),
             verbose=bool(agent.get("verbose", True)),
             retriever_type=str(agent.get("retriever_type", "vector")),
-            max_memory=int(agent.get("max_memory", 40)),
             max_context_tokens=int(agent.get("max_context_tokens", 4000)),
+            enable_compression=bool(agent.get("enable_compression", True)),
+            compression_threshold=int(agent.get("compression_threshold", 20)),
+            compression_count=int(agent.get("compression_count", 10)),
         )
 
     def load_checkpoint_config(self) -> CheckpointConfig:

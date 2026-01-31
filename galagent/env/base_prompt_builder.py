@@ -26,8 +26,11 @@ class BasePromptBuilder(ABC):
         self.memory_store = store
 
     @abstractmethod
-    def build_system_prompt(self) -> str:
+    def build_system_prompt(self, game_context: Optional[Dict[str, Any]] = None) -> str:
         """构建系统提示词
+
+        Args:
+            game_context: 游戏特定的上下文信息（可选）
 
         Returns:
             系统提示词字符串

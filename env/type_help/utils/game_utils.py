@@ -6,6 +6,7 @@ from typing import Any, Dict, Optional, List
 
 from galagent.common.schemas import Observation
 from galagent.env.base_game_utils import BaseGameUtils
+from env.type_help.utils.file_retriever import TypeHelpFileRetriever
 
 
 class TypeHelpGameUtils(BaseGameUtils):
@@ -25,6 +26,10 @@ class TypeHelpGameUtils(BaseGameUtils):
     def set_memory_store(self, store):
         """设置记忆存储引用"""
         self.memory_store = store
+    
+    def set_env(self, env):
+        """设置环境引用"""
+        self.env = env
 
     def add_read_file(self, node_id: str, name: str) -> None:
         """添加已读文件到列表
@@ -49,11 +54,8 @@ class TypeHelpGameUtils(BaseGameUtils):
         if not self.read_files:
             return "尚未阅读任何文件"
 
-        lines = ["已阅读的文件:"]
-        for file in self.read_files:
-            lines.append(f"- {file['name']} (ID: {file['id']})")
-
-        return "\n".join(lines)
+        file_names = [f'"{file["name"]}"' for file in self.read_files]
+        return f"已阅读的文件: {', '.join(file_names)}"
 
     def get_read_files_token_estimate(self, chars_per_token: float = 2.5) -> int:
         """估算已读文件列表的token数量
@@ -79,73 +81,27 @@ class TypeHelpGameUtils(BaseGameUtils):
             (格式化的检索结果文本, 检索决策信息字典)
             检索决策信息包含: need_retrieval, filenames, reason
         """
-        from env.type_help.utils.file_retriever import TypeHelpFileRetriever
-
         # 提取检索决策信息
         need_retrieval = retrieval_decision.get("need_retrieval", False)
         filenames = retrieval_decision.get("filenames", [])
 
         if not need_retrieval or not filenames:
-            return None, retrieval_decision
+            return None
 
         # 确保 filenames 是列表
         if not isinstance(filenames, list):
-            return None, retrieval_decision
+            return None
 
         # 使用文件检索器获取文件内容
         if not hasattr(self, 'env'):
-            return None, retrieval_decision
-
+            return None
+        
         retriever = TypeHelpFileRetriever(self.env)
         file_results = retriever.retrieve_files(filenames)
         formatted_result = retriever.format_retrieved_files(file_results)
 
-        if config.verbose:
-            print(f"Retrieved {len(file_results)} files: {filenames}")
+        return formatted_result
 
-        return formatted_result, retrieval_decision
-
-    def set_env(self, env):
-        """设置环境引用"""
-        self.env = env
-
-    def observation(self, obs: Observation) -> str:
-        """简化观察信息，只保留关键内容
-
-        Args:
-            obs: 原始观察对象
-
-        Returns:
-            简化后的观察文本，只包含name, key_info, location, character.name, character.number
-        """
-        lines = [f"文件: {obs.name}"]
-
-        # 从环境中获取节点的memory信息
-        if hasattr(self, 'env') and hasattr(self.env, 'nodes'):
-            node = self.env.nodes.get(obs.name)
-            if node and 'memory' in node:
-                memory = node['memory']
-
-                # 地点
-                if memory.get('location'):
-                    lines.append(f"地点: {memory['location']}")
-
-                # 关键信息
-                if memory.get('key_info'):
-                    lines.append("关键信息:")
-                    for info in memory['key_info']:
-                        lines.append(f"  - {info}")
-
-                # 人物（只保留name和number）
-                if memory.get('characters'):
-                    lines.append("人物:")
-                    for char in memory['characters']:
-                        char_str = f"  - {char.get('name', '')}"
-                        if char.get('number'):
-                            char_str += f" (编号: {char['number']})"
-                        lines.append(char_str)
-
-        return "\n".join(lines)
 
     def post_action_hook(self, obs: Any, decision: Any, action_success: bool = True, step: int = 0) -> None:
         """动作执行后的钩子：记录已读文件并解锁新文件
@@ -156,15 +112,18 @@ class TypeHelpGameUtils(BaseGameUtils):
             action_success: 动作是否执行成功
             step: 当前步数
         """
-        # 如果动作失败（文件不存在），添加失败反馈到记忆
+        # 如果动作失败（文件不存在），只记录到失败列表，不添加到记忆
         if not action_success:
-            if self.memory_store and hasattr(decision, 'choice_text'):
-                failure_msg = f"尝试打开文件 '{decision.choice_text}' 失败：文件不存在。请根据已有信息推断正确的文件名或调整文件名的顺序（数字从小到大）。"
-                self.memory_store.add_message(failure_msg, role="system", step=step)
+            # 失败信息已经通过 file_tracker.attempt_file(filename, success=False) 记录
+            # 不需要添加到记忆中
             return  # 失败时不执行后续操作
 
         # 成功时的处理：添加已读文件到列表
         self.add_read_file(obs.node_id, obs.name)
+
+        # 特判：如果打开了 "04-ST-1-5-8"，删除 "04-ST-?????"
+        if obs.name == "04-ST-1-5-8" and hasattr(self, 'env') and hasattr(self.env, 'file_tracker'):
+            self.env.file_tracker.remove_unlocked_file("04-ST-?????")
 
         # 检查当前节点的memory字段是否有files字段，如果有则解锁这些文件
         if hasattr(self, 'env') and hasattr(self.env, 'nodes'):
@@ -173,44 +132,122 @@ class TypeHelpGameUtils(BaseGameUtils):
                 memory = node['memory']
                 files = memory.get('files', [])
 
-                # 解锁files列表中的文件（只解锁完整的文件名，不包含?的）
+                # 解锁files列表中的文件（只解锁完整和包含?的文件都解锁）
                 for file in files:
-                    if "?" not in file:
-                        self.env.file_tracker.unlock_file(file)
+                    self.env.file_tracker.unlock_file(file)
 
-    def manage_memory(self, max_context_tokens: int, config: Any) -> None:
-        """管理记忆，确保已读文件列表始终保留
+    def _compress_memory(self, count: int, llm_client, llm_config, prompt_builder) -> Optional[str]:
+        """压缩最早的n轮对话
+
+        Args:
+            count: 要压缩的对话轮次数
+            llm_client: LLM客户端
+            llm_config: LLM配置
+            prompt_builder: Prompt构建器
+
+        Returns:
+            压缩后的文本，如果失败则返回None
+        """
+        if not self.memory_store or len(self.memory_store._items) < count:
+            return None
+
+        # 获取最早的n条记忆
+        items_to_compress = self.memory_store._items[:count]
+
+        # 构建对话文本列表
+        conversations = []
+        for item in items_to_compress:
+            role = item.meta.get("role", "user")
+            conversations.append(f"[{role}] {item.text}")
+
+        # 使用prompt_builder构建压缩prompt
+        compression_prompt = prompt_builder.build_compression_prompt(conversations)
+
+        try:
+            # 调用LLM进行压缩
+            response = llm_client.chat.completions.create(
+                model=llm_config.model,
+                messages=[{"role": "user", "content": compression_prompt}],
+                temperature=0.3  # 使用较低的temperature以保持准确性
+            )
+
+            compressed_text = response.choices[0].message.content or ""
+
+            # 删除最早的n条记忆
+            for _ in range(count):
+                if len(self.memory_store._items) > 0:
+                    self.memory_store._items.pop(0)
+
+            # 将压缩后的内容添加到记忆（使用add_message）
+            self.memory_store.add_message(
+                content=f"[压缩记忆] {compressed_text}",
+                role="system",
+                compressed=True
+            )
+
+            # 将刚添加的记忆移到开头
+            if len(self.memory_store._items) > 0:
+                compressed_item = self.memory_store._items.pop()
+                self.memory_store._items.insert(0, compressed_item)
+
+            return compressed_text
+        except Exception as e:
+            print(f"[记忆压缩] 压缩失败: {e}")
+            return None
+
+    def manage_memory(self, max_context_tokens: int, config: Any, full_prompt: str = "", llm_client=None, llm_config=None, prompt_builder=None) -> None:
+        """管理记忆，确保完整prompt不超过token限制
 
         Args:
             max_context_tokens: 最大上下文token数
             config: Agent配置对象
+            full_prompt: 完整的prompt文本（可选，包括system_prompt + user_prompt等所有内容）
+            llm_client: LLM客户端（用于记忆压缩）
+            llm_config: LLM配置（用于记忆压缩）
+            prompt_builder: Prompt构建器（用于构建压缩prompt）
         """
         if not self.memory_store:
             return
 
-        # 计算已读文件列表的token数
-        read_files_tokens = self.get_read_files_token_estimate()
+        # 检查是否启用压缩且对话轮次超过阈值
+        if (hasattr(config, 'enable_compression') and config.enable_compression and
+            hasattr(config, 'compression_threshold') and hasattr(config, 'compression_count')):
 
-        # 计算其他记忆的token数
-        other_memory_tokens = self.memory_store.get_total_tokens_estimate()
+            current_turns = len(self.memory_store._items)
 
-        # 总token数
-        total_tokens = read_files_tokens + other_memory_tokens
+            if current_turns > config.compression_threshold:
+                if config.verbose:
+                    print(f"[记忆压缩] 对话轮次 {current_turns} 超过阈值 {config.compression_threshold}，开始压缩...")
 
-        # 如果超过限制，删除最早的记忆（但保留已读文件列表）
+                # 压缩最早的n轮对话
+                if llm_client and llm_config and prompt_builder:
+                    compressed_text = self._compress_memory(config.compression_count, llm_client, llm_config, prompt_builder)
+
+                    if compressed_text and config.verbose:
+                        print(f"[记忆压缩] 成功压缩 {config.compression_count} 轮对话")
+                        print(f"[记忆压缩] 压缩后内容长度: {len(compressed_text)} 字符")
+                else:
+                    if config.verbose:
+                        print(f"[记忆压缩] 警告: 未提供LLM客户端或Prompt构建器，跳过压缩")
+
+        # 如果提供了完整prompt，直接计算token数
+        if full_prompt:
+            total_tokens = len(full_prompt) / 2.5  # 中文约2.5字符/token
+        else:
+            # 否则使用估算方式（向后兼容）
+            read_files_tokens = self.get_read_files_token_estimate()
+            conversation_history_tokens = self.memory_store.get_total_tokens_estimate()
+            total_tokens = read_files_tokens + conversation_history_tokens
+
+        # 如果超过token限制，删除记忆
         if total_tokens > max_context_tokens:
-            # 计算需要删除的token数
             excess_tokens = total_tokens - max_context_tokens
-
-            # 计算需要删除的记忆条数（假设每条记忆约50 tokens）
             delete_count = max(1, excess_tokens // 50)
-
-            # 删除最早的记忆
-            deleted = self.memory_store.delete_oldest(delete_count)
+            deleted = self.memory_store.delete_by_priority(delete_count)
 
             if deleted > 0 and config.verbose:
-                print(f"[已读文件列表保护] 删除了 {deleted} 条最早的记忆以保留已读文件列表")
-                print(f"  已读文件列表: {read_files_tokens} tokens, 其他记忆: {self.memory_store.get_total_tokens_estimate()} tokens")
+                print(f"[上下文管理] 删除了 {deleted} 条记忆（优先assistant）")
+                print(f"  Prompt token估算: {int(total_tokens)} (限制: {max_context_tokens})")
 
     def get_game_context(self, env: Any) -> Dict[str, Any]:
         """获取Type Help游戏的上下文信息

@@ -1,8 +1,12 @@
 llm:
   provider: openai
-  api_key: "sk-f976c47739e6484fb8a2af8adb5628ee"
+  # api_key: "sk-live-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJNZXRhQ2hhdCIsInN1YiI6IjY5N2NjZjY2Y2Y2YmQ3NTg5ZTNmMWZhOSIsImNsaWVudF9pZCI6ImUzOGNlMDVkY2Q5ZGZlODIyZGNjN2NkZTQ5Y2I2ZmNjIiwiaWF0IjoxNzY5Nzg3NTU5fQ.5CMTs2vEdnvhDlfkXgsSVn8gQZ6GdEDNWVzQUKZj2Jw"
+  api_key: "sk-f976c47739e6484fb8a2af8adb5628ee" 
+  # base_url: https://llm-api.mmchat.xyz/v1
   base_url: https://api.deepseek.com
+  # model: "gpt-5"
   model: "deepseek-chat"
+  # deepseek-reasoner deepseek-chat
   temperature: 0.2
   max_output_tokens: 300
 
@@ -17,19 +21,23 @@ embedding:
   base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   model: "text-embedding-v4"
   dim: 1024
-  use_real: true
+  use_real: false #暂时关闭embedding的生成
 
 agent:
-  max_steps: 3000
+  max_steps: 30
   retrieve_top_k: 3
-  verbose: true
+  verbose: true # 负责管理各项内容是否在控制台输出
   retriever_type: "vector"  # keyword or vector
   max_memory: 40  # 滑动窗口大小（已弃用）
   max_context_tokens: 65000  # 最大上下文token数
-
+  # dpsk-chat 65000 gpt-5：272,000
+  # 记忆压缩配置
+  enable_compression: true  # 是否启用记忆压缩
+  compression_threshold: 20  # 对话轮次超过此值时触发压缩
+  compression_count: 10  # 每次压缩最早的n轮对话
 checkpoint:
   enabled: true  # 是否启用checkpoint功能
-  interval: 100  # 每隔多少步保存一次checkpoint
+  interval: 10  # 每隔多少步保存一次checkpoint
   dir: "checkpoints"  # checkpoint保存目录
   resume_from: null
   # 恢复示例（取消注释以从checkpoint恢复）：
@@ -37,5 +45,5 @@ checkpoint:
 
 env:
   game_type: "type_help"  # kb or type_help
-  scenes_path: "env/type_help/nodes.json"  # for type_help game
+  scenes_path: "dataset/type_help/nodes.json"  # for type_help game
   start_node_id: "Background"  # Background for type_help, start for kb

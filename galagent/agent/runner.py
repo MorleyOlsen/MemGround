@@ -52,13 +52,22 @@ class GalgameAgent:
             self.game_utils.set_env(self.env)
 
     async def run(self) -> None:
-        for step in range(self.start_step, self.start_step + self.config.max_steps):
-            # 获取当前节点的环境信息
-            obs = self.env.observe()
+        # 初始化：observe起始节点并添加到记忆
+        initial_obs = self.env.observe()
 
-            if obs.is_ending is True:
+        simplified_obs = self.game_utils.observation(initial_obs)
+        self.store.add_message(simplified_obs, role="user", step=0, node_id=initial_obs.node_id, name=initial_obs.name)
+
+        for step in range(self.start_step, self.start_step + self.config.max_steps):
+            # 获取游戏上下文（用于检索决策）
+            game_context = self.game_utils.get_game_context(self.env)
+
+            # 获取当前观察（用于决策，但不添加到记忆）
+            current_obs = self.env.observe()
+
+            # 检查是否到达结局
+            if current_obs.is_ending is True:
                 # 生成故事总结
-                game_context = self.game_utils.get_game_context(self.env)
                 story_summary = self.policy.generate_story_summary(game_context)
 
                 print("\n" + "=" * 70)
@@ -70,32 +79,23 @@ class GalgameAgent:
                 # Log ending
                 if self.logger:
                     self.logger.log_ending(
-                        ending_node=obs.node_id,
+                        ending_node=current_obs.node_id,
                         reached_ending=True,
                         story_summary=story_summary
                     )
                 return
 
-            # 简化观察信息并存储到记忆（只保留关键信息）
-            simplified_obs = self.game_utils.observation(obs)
-            self.store.add_message(simplified_obs, role="user", step=step, node_id=obs.node_id, name=obs.name)
-
-            # 获取游戏上下文（用于检索决策）
-            game_context = self.game_utils.get_game_context(self.env)
-
             # 1. 让 policy 决定是否需要检索以及检索什么
-            retrieval_decision = self.policy.decide_retrieval(obs, game_context)
-
+            retrieval_decision = self.policy.decide_retrieval(current_obs, game_context)
             # 2. 使用游戏工具执行具体的检索操作
-            retrieval_result, retrieval_info = self.game_utils.retrieve_information(retrieval_decision, self.config)
+            retrieval_result = self.game_utils.retrieve_information(retrieval_decision, self.config)
 
-            # 如果有检索结果，添加到记忆中
-            if retrieval_result:
-                self.store.add_message(retrieval_result, role="system", step=step)
+            # 检索结果不添加到记忆，而是直接传递给decide方法作为prompt的一部分
+            if retrieval_result and self.config.verbose:
+                print(f"[检索] 检索到 {len(retrieval_decision.get('filenames', []))} 个文件")
 
-            # decide
-            # 不再传递 search_results，让 LLM 从对话历史中获取
-            decision = self.policy.decide(obs, "", game_context)
+            # decide（将检索结果作为参数传递，而不是添加到记忆）
+            decision = self.policy.decide(current_obs, retrieval_result or "", game_context)
 
             # 将决策作为助手消息添加到记忆（对话历史）
             decision_text = f"{decision.choice_text if decision.choice_text else f'选择 {decision.choice_index}'}: {decision.rationale}"
@@ -105,10 +105,13 @@ class GalgameAgent:
             action_result = self.game_utils.execute_action(self.env, decision)
 
             # 动作执行后的钩子（游戏特定处理，如记录已读文件、处理失败情况）
-            self.game_utils.post_action_hook(obs, decision, action_success=action_result, step=step)
+            self.game_utils.post_action_hook(current_obs, decision, action_success=action_result, step=step)
 
-            # 统一的记忆管理（游戏特定逻辑在子类中实现）
-            self.game_utils.manage_memory(self.config.max_context_tokens, self.config)
+            # 只有在动作成功时，才observe新节点并添加到记忆
+            if action_result:
+                new_obs = self.env.observe()
+                simplified_new_obs = self.game_utils.observation(new_obs)
+                self.store.add_message(simplified_new_obs, role="user", step=step+1, node_id=new_obs.node_id, name=new_obs.name)
 
             # log action
             if self.logger:
@@ -118,10 +121,10 @@ class GalgameAgent:
                 # 使用游戏工具格式化所有日志数据
                 log_data = self.game_utils.format_log_data(
                     step=step,
-                    obs=obs,
+                    obs=current_obs,
                     decision=decision,
                     game_context=updated_game_context,
-                    retrieval_decision=retrieval_info  # 传递检索决策信息
+                    retrieval_decision=retrieval_decision
                 )
 
                 # 直接使用格式化后的数据记录日志
@@ -131,11 +134,7 @@ class GalgameAgent:
             if self.checkpoint_manager and (step + 1) % self.checkpoint_interval == 0:
                 self.save_checkpoint(step)
 
-        # Max steps reached without ending
-        print("\n" + "=" * 70)
-        print("达到最大步数！正在生成故事总结...")
-        print("=" * 70 + "\n")
-
+        # 达到最大步数时生成总结
         game_context = self.game_utils.get_game_context(self.env)
         story_summary = self.policy.generate_story_summary(game_context)
 

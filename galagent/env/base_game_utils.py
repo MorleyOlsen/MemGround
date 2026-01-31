@@ -119,13 +119,13 @@ class BaseGameUtils(ABC):
         if not self.memory_store:
             return
 
-        # 默认实现：简单的滑动窗口
+        # 默认实现：优先删除assistant消息的滑动窗口
         current_tokens = self.memory_store.get_total_tokens_estimate()
         if current_tokens > max_context_tokens:
             delete_count = (current_tokens - max_context_tokens) // 50 + 1
-            deleted = self.memory_store.delete_oldest(delete_count)
+            deleted = self.memory_store.delete_by_priority(delete_count)
             if config.verbose:
-                print(f"[上下文管理] 删除了 {deleted} 条最早的记忆，当前token: {self.memory_store.get_total_tokens_estimate()}")
+                print(f"[上下文管理] 删除了 {deleted} 条记忆（优先assistant），当前token: {self.memory_store.get_total_tokens_estimate()}")
 
     def get_console_log_info(
         self,

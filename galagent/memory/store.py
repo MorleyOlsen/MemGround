@@ -50,12 +50,13 @@ class MemoryItem:
 
 
 class MemoryStore:
-    def __init__(self, embedding_config: Optional[EmbeddingConfig] = None, max_memory: int = 40, use_faiss: bool = True):
+    def __init__(self, embedding_config: Optional[EmbeddingConfig] = None, use_faiss: bool = True, verbose: bool = False, memory_log_file: Optional[str] = None):
         self._items: List[MemoryItem] = []
-        self.max_memory = max_memory  # 滑动窗口大小
         self.use_faiss = use_faiss
         self.faiss_manager = None
         self._next_id = 0  # 用于分配唯一ID
+        self.verbose = verbose  # 是否在控制台输出记忆
+        self.memory_log_file = memory_log_file  # 记忆日志文件路径
 
         # 获取项目根目录
         root_path = Path(__file__).resolve().parent.parent.parent
@@ -104,7 +105,10 @@ class MemoryStore:
                 print(f"Faiss重置失败: {e}")
 
     def add(self, text: str, meta: Optional[Dict[str, Any]] = None, embedding: Optional[List[float]] = None) -> None:
-        """添加记忆项，实现滑动窗口逻辑"""
+        """添加记忆项（仅负责添加，不管理窗口大小）
+
+        注意：添加后需要调用 game_utils.manage_memory() 来管理记忆窗口
+        """
         text = (text or "").strip()
         if not text:
             return
@@ -129,24 +133,6 @@ class MemoryStore:
         # 创建新的记忆项
         item_id = self._next_id
         item = MemoryItem(text=text, meta=meta or {}, embedding=embedding)
-
-        # 滑动窗口逻辑：如果超过最大容量，删除最旧的
-        if len(self._items) >= self.max_memory:
-            # 删除最旧的项（索引0）
-            oldest_item = self._items.pop(0)
-
-            # 从Faiss中删除对应的向量
-            if self.use_faiss and self.faiss_manager:
-                try:
-                    # 我们需要记录每个item的faiss_id
-                    # 假设faiss_id就是添加时的顺序ID
-                    oldest_id = item_id - len(self._items) - 1
-                    if oldest_id >= 0:
-                        self.faiss_manager.remove_ids([oldest_id])
-                        if self.embedding_config.use_real:
-                            print(f"从Faiss删除最旧记忆 (ID: {oldest_id}): {oldest_item.text[:30]}...")
-                except Exception as e:
-                    print(f"从Faiss删除向量失败: {e}")
 
         # 添加到内存列表
         self._items.append(item)
@@ -253,13 +239,6 @@ class MemoryStore:
 
         Returns:
             格式为 [{"role": "user/assistant/system", "content": "..."}] 的消息列表
-
-        示例:
-            store.add("你好", meta={"role": "user"})
-            store.add("你好！有什么可以帮助你的？", meta={"role": "assistant"})
-            messages = store.to_chat_messages()
-            # [{"role": "user", "content": "你好"},
-            #  {"role": "assistant", "content": "你好！有什么可以帮助你的？"}]
         """
         messages = []
         for item in self._items:
@@ -290,6 +269,31 @@ class MemoryStore:
         """
         meta = {"role": role, **extra_meta}
         self.add(content, meta=meta)
+
+        # 输出到控制台
+        if self.verbose:
+            step = extra_meta.get('step', '?')
+            role_emoji = {"user": "📄", "assistant": "🤖", "system": "ℹ️"}.get(role, "💬")
+            print(f"\n{role_emoji} [Step {step}] [{role.upper()}]")
+            print(f"  {content[:200]}{'...' if len(content) > 200 else ''}")
+
+        # 输出到文件
+        if self.memory_log_file:
+            try:
+                import json
+                from datetime import datetime
+
+                log_entry = {
+                    "timestamp": datetime.now().isoformat(),
+                    "role": role,
+                    "content": content,
+                    "meta": extra_meta
+                }
+
+                with open(self.memory_log_file, 'a', encoding='utf-8') as f:
+                    f.write(json.dumps(log_entry, ensure_ascii=False) + '\n')
+            except Exception as e:
+                print(f"写入记忆日志失败: {e}")
 
     def delete_oldest(self, count: int = 1) -> int:
         """删除最早的若干条记忆（用于上下文长度管理）
@@ -331,6 +335,60 @@ class MemoryStore:
                     print(f"从Faiss删除向量失败: {e}")
 
         return actual_count
+
+    def delete_by_priority(self, count: int = 1) -> int:
+        """按优先级删除记忆（优先删除assistant消息）
+
+        删除策略：
+        1. 优先删除role为assistant的消息（从最早的开始）
+        2. 如果assistant消息不足，再删除其他消息（从最早的开始）
+
+        Args:
+            count: 要删除的记忆数量，默认为1
+
+        Returns:
+            实际删除的记忆数量
+
+        示例:
+            # 当检测到上下文超长时，优先删除assistant消息
+            deleted = store.delete_by_priority(5)
+            print(f"删除了 {deleted} 条记忆（优先assistant）")
+        """
+        if count <= 0:
+            return 0
+
+        deleted_count = 0
+
+        # 第一阶段：删除assistant消息（从最早的开始）
+        i = 0
+        while i < len(self._items) and deleted_count < count:
+            item = self._items[i]
+            if item.meta.get("role") == "assistant":
+                # 删除这条记忆
+                deleted_item = self._items.pop(i)
+                deleted_count += 1
+
+                # 从Faiss中删除对应的向量
+                if self.use_faiss and self.faiss_manager:
+                    try:
+                        # 计算要删除的faiss ID
+                        item_id = self._next_id - len(self._items) - deleted_count
+                        if item_id >= 0:
+                            self.faiss_manager.remove_ids([item_id])
+                            if self.embedding_config.use_real:
+                                print(f"删除assistant记忆 (ID: {item_id}): {deleted_item.text[:30]}...")
+                    except Exception as e:
+                        print(f"从Faiss删除向量失败: {e}")
+                # 不增加i，因为删除后当前位置是下一个元素
+            else:
+                i += 1
+
+        # 第二阶段：如果还需要删除更多，调用delete_oldest删除最早的其他消息
+        remaining = count - deleted_count
+        if remaining > 0:
+            deleted_count += self.delete_oldest(remaining)
+
+        return deleted_count
 
     def get_total_tokens_estimate(self, chars_per_token: float = 2.5) -> int:
         """估算当前所有记忆的token数量

@@ -20,8 +20,15 @@ class KBPromptBuilder(BasePromptBuilder):
     def __init__(self, goal_instruction: str = "Reach the best ending by making optimal choices."):
         self.goal_instruction = goal_instruction
 
-    def build_system_prompt(self) -> str:
-        """构建KB游戏的系统提示词"""
+    def build_system_prompt(self, game_context: Optional[Dict[str, Any]] = None) -> str:
+        """构建KB游戏的系统提示词
+
+        Args:
+            game_context: 游戏特定的上下文信息（KB游戏暂不使用）
+
+        Returns:
+            系统提示词字符串
+        """
         return "You are a careful game-playing agent. Output strict JSON only."
 
     def build_user_prompt(

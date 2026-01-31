@@ -31,6 +31,7 @@ class GameSession:
     session_id: str
     game_type: str
     start_time: str
+    model: Optional[str] = None  # 使用的LLM模型
     end_time: Optional[str] = None
     total_steps: int = 0
     reached_ending: bool = False
@@ -46,7 +47,7 @@ class GameSession:
 class GameLogger:
     """游戏日志记录器"""
 
-    def __init__(self, log_dir: Path, game_type: str, session_id: Optional[str] = None, resume: bool = False):
+    def __init__(self, log_dir: Path, game_type: str, session_id: Optional[str] = None, resume: bool = False, model: Optional[str] = None):
         """初始化日志记录器
 
         Args:
@@ -54,9 +55,11 @@ class GameLogger:
             game_type: 游戏类型
             session_id: 会话ID（如果要恢复现有session）
             resume: 是否从现有session恢复
+            model: 使用的LLM模型名称
         """
         self.log_dir = log_dir
         self.game_type = game_type
+        self.model = model
         self.log_dir.mkdir(parents=True, exist_ok=True)
 
         # 如果是恢复模式且提供了session_id，则加载现有session
@@ -90,6 +93,7 @@ class GameLogger:
             session_id=self.session_id,
             game_type=self.game_type,
             start_time=datetime.now().isoformat(),
+            model=self.model,
             actions=[]
         )
 
@@ -120,6 +124,7 @@ class GameLogger:
             session_id=session_data['session_id'],
             game_type=session_data['game_type'],
             start_time=session_data['start_time'],
+            model=session_data.get('model'),
             end_time=session_data.get('end_time'),
             total_steps=session_data.get('total_steps', 0),
             reached_ending=session_data.get('reached_ending', False),

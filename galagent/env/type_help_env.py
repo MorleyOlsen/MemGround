@@ -4,83 +4,24 @@ from __future__ import annotations
 
 import json
 from dataclasses import dataclass
-from typing import Any, Dict, List, Optional, Set
+from typing import Any, Dict
 from pathlib import Path
 
 from galagent.common.schemas import Observation, Choice, Memory, Character
 from galagent.env.base_env import BaseGameEnv, GameConfig
+from env.type_help.utils.file_tracker import FileTracker
 
 
 @dataclass
 class TypeHelpConfig(GameConfig):
     """Type Help 游戏配置"""
-    data_path: Path = Path("env/type_help")
+    data_path: Path = Path("dataset/type_help")
     game_type: str = "type_help"
     start_node_id: str = "Start"
 
 
-class FileTracker:
-    """文件解锁追踪器"""
-
-    def __init__(self):
-        self.unlocked_files: Set[str] = set()  # 已解锁的文件名
-        self.attempted_files: List[str] = []  # 尝试打开的文件名历史（所有尝试）
-        self.success_files: List[str] = []  # 成功打开的文件
-        self.failed_files: List[str] = []  # 失败的尝试（文件不存在）
-        self.file_naming_patterns: List[str] = []  # 发现的命名规则
-
-    def unlock_file(self, filename: str) -> bool:
-        """解锁文件"""
-        if filename not in self.unlocked_files:
-            self.unlocked_files.add(filename)
-            return True
-        return False
-
-    def attempt_file(self, filename: str, success: bool = True) -> None:
-        """记录尝试打开文件
-
-        Args:
-            filename: 文件名
-            success: 是否成功打开（True=成功，False=失败）
-        """
-        self.attempted_files.append(filename)
-        if success:
-            self.success_files.append(filename)
-        else:
-            self.failed_files.append(filename)
-
-    # def add_pattern(self, pattern: str) -> None:
-    #     """添加发现的命名规则"""
-    #     if pattern not in self.file_naming_patterns:
-    #         self.file_naming_patterns.append(pattern)
-
-    def get_unlocked_files(self) -> List[str]:
-        """获取已解锁文件列表"""
-        return sorted(list(self.unlocked_files))
-
-    def get_attempted_files(self) -> List[str]:
-        """获取尝试历史（所有尝试）"""
-        return self.attempted_files.copy()
-
-    def get_success_files(self) -> List[str]:
-        """获取成功打开的文件"""
-        return self.success_files.copy()
-
-    def get_failed_files(self) -> List[str]:
-        """获取失败的尝试（文件不存在）"""
-        return self.failed_files.copy()
-
-    def is_unlocked(self, filename: str) -> bool:
-        """检查文件是否已解锁"""
-        return filename in self.unlocked_files
-
-
 class TypeHelpEnv(BaseGameEnv):
-    """Type Help 游戏环境
-
-    这是一个解谜游戏，玩家需要通过输入文件名来探索故事。
-    文件名遵循特定的命名规则，玩家需要推理出规则来解锁新文件。
-    """
+    """Type Help 游戏环境"""
 
     def __init__(self, config: TypeHelpConfig):
         super().__init__(config)
@@ -130,13 +71,28 @@ class TypeHelpEnv(BaseGameEnv):
             raise ValueError(f"Node not found: {self.current_node_id}")
 
         node = self.nodes[self.current_node_id]
-        node_name = node.get("name", "")  # 当前节点的文件名称
-        memory_data = node.get("memory", {})
+        node_name = node.get("name", "")
 
         # 只有一个选择：让LLM输入文件名
         choices = [Choice(index=0, text="输入文件名")]
 
-        # 构建记忆对象
+        # 使用FileRetriever统一获取和格式化文件信息
+        from env.type_help.utils.file_retriever import TypeHelpFileRetriever
+        retriever = TypeHelpFileRetriever(self)
+
+        # 获取文件信息（不包含links）
+        file_results = retriever.retrieve_files([node_name])
+
+        if not file_results or not file_results[0].get("exists", False):
+            raise ValueError(f"Failed to retrieve node data: {node_name}")
+
+        file_info = file_results[0]
+
+        # 格式化为文本
+        text = retriever.format_single_file(file_info).lstrip('\n')
+
+        # 构建Memory对象（从file_info中提取）
+        memory_data = node.get("memory", {})
         characters = []
         for char_data in memory_data.get("characters", []):
             characters.append(Character(
@@ -153,39 +109,12 @@ class TypeHelpEnv(BaseGameEnv):
             characters=characters
         )
 
-        # 构建观察文本text:agent可以看到文件名+关键信息+事件发生的地点+人物名称与编号+已解锁的文件
-        # 后续可以再改写成提供更进一步的拆分信息，观察模型游戏进度是否有变化
-        
-        text = f"当前文件是：{node_name}\n"
-        
-        # 添加关键信息
-        key_info = memory_data.get("key_info", [])
-        if key_info:
-            key_info_text = "\n[关键信息]:\n" + "\n".join([f"- {info}" for info in key_info])
-            text += key_info_text
-
-        # 添加地点信息
-        location=memory_data.get("location", "")
-        if location:
-            text+=f"\n该文件内的事情发生在{location}"
-
-        # 添加人物信息
-        if memory.characters:
-            characters_info = "\n[出现的人物]:\n" + "\n".join([f"- {char.name}，编号为{char.number}" for char in memory.characters])
-            text += characters_info
-
-        # 添加已解锁文件信息
-        # unlocked_files = self.file_tracker.get_unlocked_files()
-        # if unlocked_files:
-        #     files_info = "\n[已解锁的文件]: " + ", ".join(unlocked_files)
-        #     text += files_info
-
-        # 检查是否为结局节点,目前设置当开启到00-final-note文件时作为结束
+        # 检查是否为结局节点
         is_ending = node_name == "00-final-note"
 
         return Observation(
             node_id=self.current_node_id,
-            name=node.get("name", ""),
+            name=node_name,
             text=text,
             choices=choices,
             memory=memory,
@@ -240,21 +169,6 @@ class TypeHelpEnv(BaseGameEnv):
         for file in files:
             if "?" not in file:
                 self.file_tracker.unlock_file(file)
-
-    def try_open_file(self, filename: str) -> bool:
-        """尝试打开文件（供Agent调用）
-
-        Returns:
-            True if file exists and was unlocked, False otherwise
-        """
-        self.file_tracker.attempt_file(filename)
-
-        if filename in self.nodes:
-            self.file_tracker.unlock_file(filename)
-            self.current_node_id = filename
-            self.history.append(filename)
-            return True
-        return False
 
     def get_file_tracker_info(self) -> Dict[str, Any]:
         """获取文件追踪器信息"""

@@ -88,7 +88,7 @@ async def main_async():
 
     print(f"[OK] LLM: {llm_config.provider}/{llm_config.model}")
     print(f"[OK] Embedding: {embedding_config.provider}/{embedding_config.model} (dim={embedding_config.dim})")
-    print(f"[OK] Agent: retriever={agent_config.retriever_type}, top_k={agent_config.retrieve_top_k}, max_memory={agent_config.max_memory}")
+    print(f"[OK] Agent: retriever={agent_config.retriever_type}, top_k={agent_config.retrieve_top_k}, max_context_tokens={agent_config.max_context_tokens}")
     print(f"[OK] Game: {env_config.game_type}")
     print(f"[OK] Checkpoint: enabled={checkpoint_config.enabled}, interval={checkpoint_config.interval}")
     print()
@@ -100,8 +100,7 @@ async def main_async():
     # 初始化记忆存储
     store = MemoryStore(
         embedding_config=embedding_config,
-        max_memory=agent_config.max_memory,
-        use_faiss=True
+        use_faiss=False # 暂时在type_help里感觉没用上faiss，所以先禁用了
     )
 
     # 初始化检索器
@@ -120,8 +119,8 @@ async def main_async():
     game_utils = create_game_utils(env_config)
     print(f"[OK] GameUtils created for game: {env_config.game_type}")
 
-    # 初始化LLM策略
-    policy = LLMPolicy(llm_config, prompt_builder, memory_store=store)
+    # 初始化LLM策略（传入game_utils和agent_config用于记忆管理）
+    policy = LLMPolicy(llm_config, prompt_builder, memory_store=store, game_utils=game_utils, agent_config=agent_config)
     print(f"[OK] LLMPolicy initialized")
 
     # 初始化CheckpointManager（如果启用）
@@ -145,11 +144,17 @@ async def main_async():
     log_dir = ROOT / "logs"
     if resume_from and logger_session_id:
         # 恢复模式：使用checkpoint中的logger_session_id
-        logger = GameLogger(log_dir, env_config.game_type, session_id=logger_session_id, resume=True)
+        logger = GameLogger(log_dir, env_config.game_type, session_id=logger_session_id, resume=True, model=llm_config.model)
     else:
         # 新建模式
-        logger = GameLogger(log_dir, env_config.game_type)
+        logger = GameLogger(log_dir, env_config.game_type, model=llm_config.model)
     print(f"[OK] GameLogger initialized: {logger.session_id}")
+
+    # 设置记忆日志文件路径并更新store配置
+    memory_log_file = log_dir / f"memory_{logger.session_id}.jsonl"
+    store.verbose = agent_config.verbose
+    store.memory_log_file = str(memory_log_file)
+    print(f"[OK] Memory logging enabled: {memory_log_file}")
 
     # 初始化Agent
     agent = GalgameAgent(

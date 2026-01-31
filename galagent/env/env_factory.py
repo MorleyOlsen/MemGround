@@ -36,7 +36,9 @@ def create_game_env(env_config: EnvConfig, root_path: Path) -> BaseGameEnv:
 
     elif game_type == "type_help":
         # Type Help 解谜游戏
-        data_path = root_path / "env" / "type_help"
+        # 从scenes_path中提取data_path（去掉nodes.json）
+        scenes_path = Path(env_config.scenes_path)
+        data_path = root_path / scenes_path.parent
         config = TypeHelpConfig(
             game_type="type_help",
             data_path=data_path,
