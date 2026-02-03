@@ -2,7 +2,7 @@
 """Type Help游戏的工具类"""
 from __future__ import annotations
 
-from typing import Any, Dict, Optional, List
+from typing import Any, Dict, Optional
 
 from galagent.common.schemas import Observation
 from galagent.env.base_game_utils import BaseGameUtils
@@ -20,30 +20,15 @@ class TypeHelpGameUtils(BaseGameUtils):
 
     def __init__(self):
         super().__init__()
-        self.read_files: List[Dict[str, str]] = []  # 已读文件列表 [{"id": node_id, "name": name}, ...]
         self.memory_store = None  # 记忆存储引用
 
     def set_memory_store(self, store):
         """设置记忆存储引用"""
         self.memory_store = store
-    
+
     def set_env(self, env):
         """设置环境引用"""
         self.env = env
-
-    def add_read_file(self, node_id: str, name: str) -> None:
-        """添加已读文件到列表
-
-        Args:
-            node_id: 节点ID
-            name: 文件名
-        """
-        # 检查是否已存在
-        for file in self.read_files:
-            if file["id"] == node_id and file["name"] == name:
-                return
-
-        self.read_files.append({"id": node_id, "name": name})
 
     def get_read_files_text(self) -> str:
         """获取已读文件列表的文本表示（用于添加到prompt）
@@ -51,11 +36,9 @@ class TypeHelpGameUtils(BaseGameUtils):
         Returns:
             格式化后的已读文件列表字符串
         """
-        if not self.read_files:
-            return "尚未阅读任何文件"
-
-        file_names = [f'"{file["name"]}"' for file in self.read_files]
-        return f"已阅读的文件: {', '.join(file_names)}"
+        if hasattr(self, 'env') and hasattr(self.env, 'file_tracker'):
+            return self.env.file_tracker.get_read_files_text()
+        return "尚未阅读任何文件"
 
     def get_read_files_token_estimate(self, chars_per_token: float = 2.5) -> int:
         """估算已读文件列表的token数量
@@ -103,38 +86,17 @@ class TypeHelpGameUtils(BaseGameUtils):
         return formatted_result
 
 
-    def post_action_hook(self, obs: Any, decision: Any, action_success: bool = True, step: int = 0) -> None:
-        """动作执行后的钩子：记录已读文件并解锁新文件
+    def post_action_hook(self, decision: Any, action_success: bool = True, step: int = 0) -> None:
+        """动作执行后的钩子
 
         Args:
-            obs: 当前观察
             decision: 执行的决策
             action_success: 动作是否执行成功
             step: 当前步数
         """
-        # 如果动作失败（文件不存在），只记录到失败列表，不添加到记忆
-        if not action_success:
-            # 失败信息已经通过 file_tracker.attempt_file(filename, success=False) 记录
-            # 不需要添加到记忆中
-            return  # 失败时不执行后续操作
-
-        # 成功时的处理：添加已读文件到列表
-        self.add_read_file(obs.node_id, obs.name)
-
-        # 特判：如果打开了 "04-ST-1-5-8"，删除 "04-ST-?????"
-        if obs.name == "04-ST-1-5-8" and hasattr(self, 'env') and hasattr(self.env, 'file_tracker'):
-            self.env.file_tracker.remove_unlocked_file("04-ST-?????")
-
-        # 检查当前节点的memory字段是否有files字段，如果有则解锁这些文件
-        if hasattr(self, 'env') and hasattr(self.env, 'nodes'):
-            node = self.env.nodes.get(obs.node_id)
-            if node and 'memory' in node:
-                memory = node['memory']
-                files = memory.get('files', [])
-
-                # 解锁files列表中的文件（只解锁完整和包含?的文件都解锁）
-                for file in files:
-                    self.env.file_tracker.unlock_file(file)
+        # 所有逻辑已移到 type_help_env.py 的 choose_by_filename 中
+        # 保留此方法以保持接口一致性
+        pass
 
     def _compress_memory(self, count: int, llm_client, llm_config, prompt_builder) -> Optional[str]:
         """压缩最早的n轮对话
@@ -195,11 +157,10 @@ class TypeHelpGameUtils(BaseGameUtils):
             print(f"[记忆压缩] 压缩失败: {e}")
             return None
 
-    def manage_memory(self, max_context_tokens: int, config: Any, full_prompt: str = "", llm_client=None, llm_config=None, prompt_builder=None) -> None:
+    def manage_memory(self, config: Any, full_prompt: str = "", llm_client=None, llm_config=None, prompt_builder=None) -> None:
         """管理记忆，确保完整prompt不超过token限制
 
         Args:
-            max_context_tokens: 最大上下文token数
             config: Agent配置对象
             full_prompt: 完整的prompt文本（可选，包括system_prompt + user_prompt等所有内容）
             llm_client: LLM客户端（用于记忆压缩）
@@ -240,6 +201,7 @@ class TypeHelpGameUtils(BaseGameUtils):
             total_tokens = read_files_tokens + conversation_history_tokens
 
         # 如果超过token限制，删除记忆
+        max_context_tokens = config.max_context_tokens
         if total_tokens > max_context_tokens:
             excess_tokens = total_tokens - max_context_tokens
             delete_count = max(1, excess_tokens // 50)
@@ -296,7 +258,8 @@ class TypeHelpGameUtils(BaseGameUtils):
         # 格式化choices为新格式：{"text": 文件名, "decision_rationale": 原因}
         choices = {
             "text": decision.choice_text if hasattr(decision, 'choice_text') else "",
-            "decision_rationale": decision.rationale
+            "decision_rationale": decision.rationale,
+            "recall": decision.recall if hasattr(decision, 'recall') else []
         }
 
         # 获取文件追踪信息
@@ -397,8 +360,11 @@ class TypeHelpGameUtils(BaseGameUtils):
         Returns:
             包含已读文件列表的状态字典
         """
+        read_files = []
+        if hasattr(self, 'env') and hasattr(self.env, 'file_tracker'):
+            read_files = self.env.file_tracker.get_read_files()
         return {
-            "read_files": self.read_files.copy()
+            "read_files": read_files
         }
 
     def restore_state(self, state: Dict[str, Any]) -> None:
@@ -407,5 +373,6 @@ class TypeHelpGameUtils(BaseGameUtils):
         Args:
             state: 游戏工具状态字典
         """
-        self.read_files = state["read_files"].copy()
-        print(f"[GameUtils] 已恢复状态: {len(self.read_files)}个已读文件")
+        if hasattr(self, 'env') and hasattr(self.env, 'file_tracker'):
+            self.env.file_tracker.read_files = state["read_files"].copy()
+            print(f"[GameUtils] 已恢复状态: {len(state['read_files'])}个已读文件")

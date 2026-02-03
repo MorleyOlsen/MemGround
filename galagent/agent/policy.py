@@ -86,7 +86,6 @@ class LLMPolicy:
         if self.game_utils and self.agent_config:
             full_prompt = user_prompt
             self.game_utils.manage_memory(
-                self.agent_config.max_context_tokens,
                 self.agent_config,
                 full_prompt=full_prompt,
                 llm_client=self.client,
@@ -95,10 +94,9 @@ class LLMPolicy:
             )
 
         text = self._call_llm(messages)
-
-        parsed = self._parse_json(text)
-
+        
         # 提取检索决策信息（兼容两种格式）
+        parsed = self._parse_json(text)
         need_retrieval = parsed.get("need_retrieval", False)
         reason = parsed.get("reason", "")
 
@@ -142,7 +140,6 @@ class LLMPolicy:
         if self.game_utils and self.agent_config:
             full_prompt = system_prompt + user_prompt
             self.game_utils.manage_memory(
-                self.agent_config.max_context_tokens,
                 self.agent_config,
                 full_prompt=full_prompt,
                 llm_client=self.client,
@@ -161,14 +158,20 @@ class LLMPolicy:
             # Type Help游戏：返回文件名
             filename = parsed.get("choice_text", "")
             reason = parsed.get("reason", "")
+            recall = parsed.get("recall", [])
 
             if not isinstance(reason, str) or not reason.strip():
                 reason = "No reason provided."
 
+            # 确保 recall 是列表
+            if not isinstance(recall, list):
+                recall = []
+
             return Decision(
                 choice_index=0,  # Type Help游戏固定为0
                 rationale=reason.strip(),
-                choice_text=filename
+                choice_text=filename,
+                recall=recall
             )
         else:
             # 传统选择模式（KB游戏等）
@@ -227,20 +230,22 @@ class LLMPolicy:
             故事总结文本
         """
         # 构建总结提示词
-        system_prompt = """你是一个专业的故事分析师.请根据你在游戏中经历的所有事件、对话和线索，完成以下任务：
-        1. 故事梗概：用2-3段话总结整个故事的主要情节
-        2. 角色分析：分析主要角色的动机和关系
-        3. 推理结论：基于所有信息，推理出故事的真相或核心秘密
-        请以清晰、有条理的方式输出你的分析。"""
+        system_prompt = """你是一个专业的故事分析师。请根据你在游戏中经历的所有事件、对话和线索，完成以下任务：
+1. 故事梗概：用2-3段话总结整个故事的主要情节
+2. 角色分析：分析主要角色的动机和关系
+3. 推理结论：基于所有信息，推理出故事的真相或核心秘密
 
-        # 如果有游戏上下文，添加到提示词中
-        if game_context:
-            conversation_history = game_context['conversation_history']
-            system_prompt += conversation_history 
+请以清晰、有条理的方式输出你的分析。"""
 
         messages = [
             {"role": "system", "content": system_prompt},
         ]
+
+        # 如果有游戏上下文，将对话历史作为用户消息添加
+        if game_context and 'conversation_history' in game_context:
+            conversation_history = game_context['conversation_history']
+            user_prompt = f"以下是游戏中的所有对话和事件记录：\n\n{conversation_history}\n\n请基于以上信息，完成故事分析。"
+            messages.append({"role": "user", "content": user_prompt})
 
         # 使用较高的temperature以获得更有创造性的总结
         summary = self._call_llm(messages, temperature=0.7)

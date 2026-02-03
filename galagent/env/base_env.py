@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict
 from pathlib import Path
 
 from galagent.common.schemas import Observation
@@ -24,7 +24,6 @@ class BaseGameEnv(ABC):
     def __init__(self, config: GameConfig):
         self.config = config
         self.current_node_id = config.start_node_id
-        self.history: List[str] = []  # 访问历史
 
     @abstractmethod
     def load_game_data(self) -> None:
@@ -45,7 +44,3 @@ class BaseGameEnv(ABC):
     def reset(self) -> None:
         """重置环境"""
         pass
-
-    def get_history(self) -> List[str]:
-        """获取访问历史"""
-        return self.history.copy()

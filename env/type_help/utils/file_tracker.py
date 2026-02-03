@@ -14,6 +14,7 @@ class FileTracker:
         self.success_files: List[str] = []  # 成功打开的文件
         self.failed_files: List[str] = []  # 失败的尝试（文件不存在）
         self.file_naming_patterns: List[str] = []  # 发现的命名规则
+        self.read_files: List[str] = []  # 已读文件列表（只记录文件名）
 
     def unlock_file(self, filename: str) -> bool:
         """解锁文件"""
@@ -46,6 +47,9 @@ class FileTracker:
         self.attempted_files.append(filename)
         if success:
             self.success_files.append(filename)
+            # 成功打开时，添加到已读文件列表（去重）
+            if filename not in self.read_files:
+                self.read_files.append(filename)
         else:
             self.failed_files.append(filename)
 
@@ -73,3 +77,19 @@ class FileTracker:
     def is_unlocked(self, filename: str) -> bool:
         """检查文件是否已解锁"""
         return filename in self.unlocked_files
+
+    def get_read_files(self) -> List[str]:
+        """获取已读文件列表"""
+        return self.read_files.copy()
+
+    def get_read_files_text(self) -> str:
+        """获取已读文件列表的文本表示（用于添加到prompt）
+
+        Returns:
+            格式化后的已读文件列表字符串
+        """
+        if not self.read_files:
+            return "尚未阅读任何文件"
+
+        file_names = [f'"{file}"' for file in self.read_files]
+        return f"已阅读的文件: {', '.join(file_names)}"

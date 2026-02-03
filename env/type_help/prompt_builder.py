@@ -79,6 +79,7 @@ class TypeHelpPromptBuilder(BasePromptBuilder):
             任务:
             决定是否需要查看之前已读过的文件来帮助做出决策。
             如果需要，请列出你想要查看的文件名（从已阅读的文件列表中选择，最多选择3个最相关的文件）。
+            禁止选择当前记忆中已经存在的文件。
 
             输出格式 (严格按照以下json格式输出):
             {{
@@ -131,6 +132,7 @@ class TypeHelpPromptBuilder(BasePromptBuilder):
         {
         "choice_text": <文件名>,
         "reason": "<简单的原因，用于说明为什么这个选择有利于达成目标>"
+        "recall": <文件名的列表，用于列出你认为和这个选择有关联的文件名称，如果没有则输出空列表>
         }
         """
 
@@ -157,9 +159,9 @@ class TypeHelpPromptBuilder(BasePromptBuilder):
         readed = game_context.get('read_files_text', '')
 
         if failed:
-            recent_failed = failed[-10:]  # 只显示最近10次失败
+            # recent_failed = failed[-10:]  # 只显示最近10次失败 改为全部返回
             file_info_str += f"\n失败的尝试 (这些文件不存在，**不要再次尝试失败的文件名**):\n"
-            file_info_str += ", ".join([f'"{f}"' for f in recent_failed])
+            file_info_str += ", ".join([f'"{f}"' for f in failed])
 
         if readed:
             file_info_str += f"\n{readed}"

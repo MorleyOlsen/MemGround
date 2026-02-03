@@ -61,3 +61,4 @@ class Decision:
     choice_index: int
     rationale: str
     choice_text: str = ""
+    recall: list = field(default_factory=list)  # 与决策相关的文件名列表

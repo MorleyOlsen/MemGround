@@ -54,9 +54,7 @@ class GalgameAgent:
     async def run(self) -> None:
         # 初始化：observe起始节点并添加到记忆
         initial_obs = self.env.observe()
-
-        simplified_obs = self.game_utils.observation(initial_obs)
-        self.store.add_message(simplified_obs, role="user", step=0, node_id=initial_obs.node_id, name=initial_obs.name)
+        self.store.add_message(initial_obs.text, role="user", step=0, node_id=initial_obs.node_id, name=initial_obs.name)
 
         for step in range(self.start_step, self.start_step + self.config.max_steps):
             # 获取游戏上下文（用于检索决策）
@@ -94,24 +92,26 @@ class GalgameAgent:
             if retrieval_result and self.config.verbose:
                 print(f"[检索] 检索到 {len(retrieval_decision.get('filenames', []))} 个文件")
 
-            # decide（将检索结果作为参数传递，而不是添加到记忆）
+            # decide（检索结果作为prompt的一部分但是不添加到记忆）
             decision = self.policy.decide(current_obs, retrieval_result or "", game_context)
 
-            # 将决策作为助手消息添加到记忆（对话历史）
+            # 将决策作为助手消息添加到记忆（对话历史） TODO:单独写一个函数出来
             decision_text = f"{decision.choice_text if decision.choice_text else f'选择 {decision.choice_index}'}: {decision.rationale}"
+            if decision.recall:
+                recall_text = ", ".join(decision.recall)
+                decision_text += f"\n相关文件: {recall_text}"
             self.store.add_message(decision_text, role="assistant", step=step)
 
             # act
             action_result = self.game_utils.execute_action(self.env, decision)
 
             # 动作执行后的钩子（游戏特定处理，如记录已读文件、处理失败情况）
-            self.game_utils.post_action_hook(current_obs, decision, action_success=action_result, step=step)
+            self.game_utils.post_action_hook(decision, action_success=action_result, step=step)
 
             # 只有在动作成功时，才observe新节点并添加到记忆
             if action_result:
                 new_obs = self.env.observe()
-                simplified_new_obs = self.game_utils.observation(new_obs)
-                self.store.add_message(simplified_new_obs, role="user", step=step+1, node_id=new_obs.node_id, name=new_obs.name)
+                self.store.add_message(new_obs.text, role="user", step=step+1, node_id=new_obs.node_id, name=new_obs.name)
 
             # log action
             if self.logger:

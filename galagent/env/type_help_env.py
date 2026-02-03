@@ -141,15 +141,16 @@ class TypeHelpEnv(BaseGameEnv):
             print(f"[Type Help] File not found: {filename}")
             return False
 
-        # 记录尝试（成功）
+        # 记录尝试（成功）并添加到已读文件列表
         self.file_tracker.attempt_file(filename, success=True)
-
-        # 记录历史
-        self.history.append(self.current_node_id)
 
         # 解锁并跳转到文件
         self.file_tracker.unlock_file(filename)
         self.current_node_id = filename
+
+        # 特判：如果打开了 "04-ST-1-5-8"，删除 "04-ST-?????"
+        if filename == "04-ST-1-5-8":
+            self.file_tracker.remove_unlocked_file("04-ST-?????")
 
         # 解锁新节点中提到的文件
         self._unlock_files_in_node(filename)
@@ -183,7 +184,6 @@ class TypeHelpEnv(BaseGameEnv):
     def reset(self) -> None:
         """重置环境"""
         self.current_node_id = self.config.start_node_id
-        self.history.clear()
         self.file_tracker = FileTracker()
         self._initialize_unlocked_files()
 
@@ -195,13 +195,13 @@ class TypeHelpEnv(BaseGameEnv):
         """
         return {
             "current_node_id": self.current_node_id,
-            "history": self.history.copy(),
             "file_tracker": {
                 "unlocked_files": list(self.file_tracker.unlocked_files),
                 "attempted_files": self.file_tracker.attempted_files.copy(),
                 "success_files": self.file_tracker.success_files.copy(),
                 "failed_files": self.file_tracker.failed_files.copy(),
-                "file_naming_patterns": self.file_tracker.file_naming_patterns.copy()
+                "file_naming_patterns": self.file_tracker.file_naming_patterns.copy(),
+                "read_files": self.file_tracker.read_files.copy()
             }
         }
 
@@ -212,7 +212,6 @@ class TypeHelpEnv(BaseGameEnv):
             state: 环境状态字典
         """
         self.current_node_id = state["current_node_id"]
-        self.history = state["history"].copy()
 
         # 恢复文件追踪器状态
         tracker_state = state["file_tracker"]
@@ -221,6 +220,7 @@ class TypeHelpEnv(BaseGameEnv):
         self.file_tracker.success_files = tracker_state["success_files"].copy()
         self.file_tracker.failed_files = tracker_state["failed_files"].copy()
         self.file_tracker.file_naming_patterns = tracker_state["file_naming_patterns"].copy()
+        self.file_tracker.read_files = tracker_state.get("read_files", []).copy()
 
         print(f"[Env] 已恢复状态: 当前节点={self.current_node_id}, "
               f"已解锁文件={len(self.file_tracker.unlocked_files)}个")

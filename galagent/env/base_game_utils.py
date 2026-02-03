@@ -107,13 +107,12 @@ class BaseGameUtils(ABC):
         # 默认实现：不进行检索
         return None, retrieval_decision
 
-    def manage_memory(self, max_context_tokens: int, config: Any) -> None:
+    def manage_memory(self, config: Any) -> None:
         """管理记忆存储
 
         统一的记忆管理接口，子类可以重写以实现游戏特定的记忆保护逻辑
 
         Args:
-            max_context_tokens: 最大上下文token数
             config: Agent配置对象
         """
         if not self.memory_store:
@@ -121,6 +120,7 @@ class BaseGameUtils(ABC):
 
         # 默认实现：优先删除assistant消息的滑动窗口
         current_tokens = self.memory_store.get_total_tokens_estimate()
+        max_context_tokens = config.max_context_tokens
         if current_tokens > max_context_tokens:
             delete_count = (current_tokens - max_context_tokens) // 50 + 1
             deleted = self.memory_store.delete_by_priority(delete_count)
@@ -144,15 +144,3 @@ class BaseGameUtils(ABC):
             格式化的控制台日志字符串，如果不需要则返回None
         """
         return None
-
-    def observation(self, obs: Observation) -> str:
-        """简化观察信息
-
-        Args:
-            obs: 原始观察对象
-
-        Returns:
-            简化后的观察文本，默认返回原始text
-        """
-        # 默认实现：返回原始观察文本
-        return obs.text

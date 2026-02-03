@@ -5,7 +5,7 @@ llm:
   # base_url: https://llm-api.mmchat.xyz/v1
   base_url: https://api.deepseek.com
   # model: "gpt-5"
-  model: "deepseek-chat"
+  model: "deepseek-reasoner"
   # deepseek-reasoner deepseek-chat
   temperature: 0.2
   max_output_tokens: 300
@@ -39,7 +39,7 @@ checkpoint:
   enabled: true  # 是否启用checkpoint功能
   interval: 10  # 每隔多少步保存一次checkpoint
   dir: "checkpoints"  # checkpoint保存目录
-  resume_from: null
+  resume_from: "checkpoints/checkpoint_type_help_session_step_29.json"
   # 恢复示例（取消注释以从checkpoint恢复）：
   # resume_from: "checkpoints/checkpoint_type_help_session_step_500.json"
 
