@@ -248,6 +248,7 @@ class LLMPolicy:
         except Exception:
             return {}
 
+    # TODO：这个还没有转换成英文版
     def generate_story_summary(self, game_context: Optional[Dict[str, Any]] = None) -> str:
         """生成故事情节总结和推理
 
@@ -259,11 +260,11 @@ class LLMPolicy:
         """
         # 构建总结提示词
         system_prompt = """你是一个专业的故事分析师。请根据你在游戏中经历的所有事件、对话和线索，完成以下任务：
-1. 故事梗概：用2-3段话总结整个故事的主要情节
-2. 角色分析：分析主要角色的动机和关系
-3. 推理结论：基于所有信息，推理出故事的真相或核心秘密
+        1. 故事梗概：用2-3段话总结整个故事的主要情节
+        2. 角色分析：分析主要角色的动机和关系
+        3. 推理结论：基于所有信息，推理出故事的真相或核心秘密
 
-请以清晰、有条理的方式输出你的分析。"""
+        请以清晰、有条理的方式输出你的分析。"""
 
         messages = [
             {"role": "system", "content": system_prompt},

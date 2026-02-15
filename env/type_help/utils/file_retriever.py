@@ -40,7 +40,7 @@ class TypeHelpFileRetriever:
                 results.append({
                     "name": filename,
                     "exists": False,
-                    "error": "文件不存在"
+                    "error": "No file found"
                 })
                 continue
 
@@ -79,27 +79,27 @@ class TypeHelpFileRetriever:
             格式化后的文本字符串
         """
         if not file_info.get("exists", False):
-            return f"\n[{file_info['name']}] - 文件不存在"
+            return f"\n[{file_info['name']}] - No file found"
 
         lines = [f"\n[{file_info['name']}]"]
 
         # 地点
         if file_info.get("location"):
-            lines.append(f"地点: {file_info['location']}")
+            lines.append(f"location: {file_info['location']}")
 
         # 关键信息
         if file_info.get("key_info"):
-            lines.append("关键信息:")
+            lines.append("key info:")
             for info in file_info["key_info"]:
                 lines.append(f"  - {info}")
 
         # 角色（只保留name和number）
         if file_info.get("characters"):
-            lines.append("人物:")
+            lines.append("characters:")
             for char in file_info["characters"]:
                 char_str = f"  - {char.get('name', '')}"
                 if char.get("number"):
-                    char_str += f" (编号: {char['number']})"
+                    char_str += f" (number: {char['number']})"
                 lines.append(char_str)
 
         return "\n".join(lines)
@@ -113,6 +113,6 @@ class TypeHelpFileRetriever:
             格式化后的文本字符串，只包含name, key_info, location, character.name, character.number
         """
         if not file_results:
-            return "未检索到任何文件"
+            return "No files found"
 
         return "\n".join([self.format_single_file(file_info) for file_info in file_results])

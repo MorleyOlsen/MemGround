@@ -47,7 +47,11 @@ env:
   game_type: "dust"
   scenes_path: "dataset/The_dust_settles/nodes.json"
   start_node_id: "start"
+  test_language: "ch"  
 
   # game_type: "type_help"  # kb or type_help
-  # scenes_path: "dataset/type_help/nodes.json"  # for type_help game
+  # scenes_path: "dataset/type_help-en/nodes.json"  # for type_help game
   # start_node_id: "Background"  # Background for type_help, start for kb
+  # test_language: "en" # ch or en
+  # enable_hint: false  # 是否启用失败次数提示功能
+  # hint_failure_threshold: 15  # 触发提示的连续失败次数阈值

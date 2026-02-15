@@ -19,9 +19,13 @@ class DustPromptBuilder(BasePromptBuilder):
     - 锁机制（问答解锁、钥匙解锁）
     """
 
-    def __init__(self, goal_instruction: str = ""):
+    def __init__(self, goal_instruction: str = "", test_language: str = "ch"):
         super().__init__(goal_instruction)
-        self.goal_instruction = "通过推理和排序，用尽可能少的次数解锁所有事件并重构完整故事"
+        self.test_language = test_language  # ch or en
+        if test_language == "en":
+            self.goal_instruction = "Unlock all events and reconstruct the complete story with as few attempts as possible through reasoning and ordering"
+        else:
+            self.goal_instruction = "通过推理和排序，用尽可能少的次数解锁所有事件并重构完整故事"
 
     def build_system_prompt(self, game_context: Optional[Dict[str, Any]] = None) -> str:
         """构建 Dust 游戏的系统提示词
@@ -32,6 +36,13 @@ class DustPromptBuilder(BasePromptBuilder):
         Returns:
             系统提示词
         """
+        if self.test_language == "en":
+            return self._build_system_prompt_en(game_context)
+        else:
+            return self._build_system_prompt_ch(game_context)
+
+    def _build_system_prompt_ch(self, game_context: Optional[Dict[str, Any]] = None) -> str:
+        """构建中文系统提示词"""
         base_prompt = f"""你是一名推理游戏智能体，正在玩一个名为Dust的推理解谜游戏。
 
             游戏目标：{self.goal_instruction}
@@ -51,7 +62,7 @@ class DustPromptBuilder(BasePromptBuilder):
             - 当有足够信息时，再提交角色事件排序以获得分数和钥匙
             - 当有钥匙时才尝试去解锁重要的黄色锁事件
             - 遇到粉色/紫色锁时，根据已有信息推断答案
-            - 开头为“对话-”的节点不参与人物事件的排序
+            - 开头为"对话-"的节点不参与人物事件的排序
             - 提示：伊甸幼儿园角色下只有一个事件
             """
 
@@ -108,6 +119,84 @@ class DustPromptBuilder(BasePromptBuilder):
         print("system_prompt:",base_prompt)
         return base_prompt
 
+    def _build_system_prompt_en(self, game_context: Optional[Dict[str, Any]] = None) -> str:
+        """构建英文系统提示词"""
+        base_prompt = f"""You are a reasoning game agent playing a puzzle game called Dust.
+
+            Game Objective: {self.goal_instruction}
+
+            Game Mechanics:
+            1. Keyword Discovery: When reading event text for the first time, keywords hidden within will be automatically discovered and added to your keyword pool.
+            2. Event Unlocking: Use keywords to unlock new events associated with that keyword. After unlocking, you'll know the event name but need to actively read it to get the full content.
+            3. Event Reading: Select an event from the readable event pool to read. After reading, you'll get the complete narrative, key information, etc.
+            4. Character Event Ordering: Each event involves multiple characters. You need to infer the chronological order of events from each character's perspective. Submitting correct orderings earns points.
+            5. Scoring and Keys: For each correctly ordered event pair (an "earlier-later" relationship from a character's perspective that are consecutive), you earn 1 point. Accumulating a certain score automatically gives you a key. Already scored event pairs won't be scored again.
+            6. Lock Mechanism:
+            - Pink and Purple locks: Unlock by answering questions
+            - Yellow lock: Unlock by consuming 1 key
+
+            Strategy Suggestions:
+            - Prioritize reading unlocked events to extract keywords and character information, use discovered keywords to unlock more events
+            - Submit character event orderings when you have sufficient information to earn points and keys
+            - Only try to unlock important yellow-locked events when you have keys
+            - When encountering pink/purple locks, infer answers based on available information
+            - Nodes starting with "对话-" (Dialogue-) do not participate in character event ordering
+            - Hint: There is only one event under the 伊甸幼儿园 (Eden Kindergarten) character
+            """
+
+        # 添加当前游戏状态信息
+        if game_context and 'dust_state' in game_context:
+            state = game_context['dust_state']
+            base_prompt += f"\n\nCurrent Game State:"
+            base_prompt += f"\n- Keys: {state.get('keys', 0)}"
+            base_prompt += f"\n- Available Keywords ({len(state.get('keyword_pool', []))}): {sorted(state.get('keyword_pool', []))}"
+            base_prompt += f"\n- Readable Events ({len(state.get('event_pool', []))}): {state.get('event_pool', [])}"
+            base_prompt += f"\n- Read Events ({len(state.get('read_events', []))}): {sorted(state.get('read_events', []))}"
+
+            # 锁定事件信息
+            locked_events = state.get('locked_events', {})
+            if any(locked_events.values()):
+                base_prompt += f"\n- Locked Events:"
+
+                # 获取锁信息（用于显示问题）
+                lock_info_list = game_context.get('lock_info', [])
+
+                for lock_type in ['pink', 'purple', 'yellow']:
+                    events = locked_events.get(lock_type, [])
+                    if events:
+                        if lock_type in ['pink', 'purple']:
+                            # 对于粉色和紫色锁，显示事件名和对应的问题
+                            base_prompt += f"\n  - {lock_type} (requires answering question):"
+                            for event_name in sorted(events):
+                                # 查找该事件的锁信息
+                                question = ""
+                                for lock_info in lock_info_list:
+                                    if lock_info.get('sub_name') == event_name or lock_info.get('name') == event_name:
+                                        question = lock_info.get('question', '')
+                                        break
+
+                                if question:
+                                    base_prompt += f"\n    * {event_name}: {question}"
+                                else:
+                                    base_prompt += f"\n    * {event_name}"
+                        else:
+                            # 黄色锁只显示事件名
+                            base_prompt += f"\n  - {lock_type} (requires key): {sorted(events)}"
+
+            # 当前排序情况和判断结果
+            character_orders = state.get('character_orders', {})
+            order_gt = game_context.get('order_gt', [])
+
+            if character_orders and order_gt:
+                # 使用 trace 结构生成详细的排序分析
+                trace = build_trace_structure(character_orders, order_gt)
+                trace_description = describe_trace(trace)
+
+                base_prompt += f"\n\n**Current Submitted Ordering Analysis**:\n{trace_description}"
+
+        print("system_prompt:",base_prompt)
+        return base_prompt
+
     def build_user_prompt(
         self,
         obs: Observation,
@@ -124,6 +213,13 @@ class DustPromptBuilder(BasePromptBuilder):
         Returns:
             完整的用户提示词
         """
+        if self.test_language == "en":
+            return self._build_user_prompt_en(obs, retrieved_hits, game_context)
+        else:
+            return self._build_user_prompt_ch(obs, retrieved_hits, game_context)
+
+    def _build_user_prompt_ch(self, obs: Observation, retrieved_hits: List[str], game_context: Optional[Dict[str, Any]] = None) -> str:
+        """构建中文用户提示词"""
         # 获取对话历史
         conversation_history = ""
         if game_context and 'conversation_history' in game_context:
@@ -162,7 +258,49 @@ class DustPromptBuilder(BasePromptBuilder):
         - 只提交你有充分信息可以确定顺序的事件对，不确定的不要提交
         - answer_lock 的答案需要根据已读事件中的信息推断
         """
-        # print("user_prompt:",prompt.strip())
+
+        return prompt.strip()
+
+    def _build_user_prompt_en(self, obs: Observation, retrieved_hits: List[str], game_context: Optional[Dict[str, Any]] = None) -> str:
+        """构建英文用户提示词"""
+        # 获取对话历史
+        conversation_history = ""
+        if game_context and 'conversation_history' in game_context:
+            conversation_history = game_context['conversation_history']
+
+        # 构建完整 prompt
+        prompt = f"""
+        Historical Memory:
+        {conversation_history if conversation_history else "(None)"}
+        """
+
+        # 如果有检索到的记忆，添加到 prompt
+        if retrieved_hits:
+            prompt += f"\nRetrieved Relevant Information:\n"
+            prompt += "\n".join([f"{hit}" for hit in retrieved_hits])
+
+        # 输出格式说明
+        prompt += """
+
+        Please select the next action based on the current game state. Output format (strictly follow this JSON format):
+        {
+        "action_type": <action type number: integer from 0-4>,
+        "action_params": {
+            // Fill in different parameters based on action type:
+            // 0 (unlock_keyword - use keyword to unlock events): {"keyword": "keyword"}
+            // 1 (read_event - read an event): {"event_name": "event name"}
+            // 2 (submit_orders - submit character event ordering): {"orders": {"character1": ["event1", "event2", ...], "character2": [...]}}
+            // 3 (unlock_with_key - unlock yellow lock with key): {"event_name": "event name"}
+            // 4 (answer_lock - answer question to unlock pink/purple lock): {"event_name": "event name", "answer": "answer"}
+        },
+        "rationale": "<detailed explanation of your reasoning process and why you chose this action>"
+        }
+
+        Notes:
+        - submit_orders orders parameter format: Each character corresponds to an event list, events in the list are arranged in chronological order from that character's perspective (earliest to latest)
+        - Only submit event pairs where you have sufficient information to determine the order; don't submit uncertain ones
+        - answer_lock answers need to be inferred from information in the read events
+        """
 
         return prompt.strip()
 
@@ -176,13 +314,20 @@ class DustPromptBuilder(BasePromptBuilder):
         Returns:
             检索提示词
         """
+        if self.test_language == "en":
+            return self._build_retrieval_prompt_en(obs, game_context)
+        else:
+            return self._build_retrieval_prompt_ch(obs, game_context)
+
+    def _build_retrieval_prompt_ch(self, obs: Observation, game_context: Optional[Dict[str, Any]] = None) -> str:
+        """构建中文检索提示词"""
         # 获取已读事件列表
         read_events = []
         conversation_history=""
         if game_context and 'dust_state' in game_context:
             read_events = game_context['dust_state'].get('read_events', [])
             conversation_history = game_context['conversation_history']
-        
+
         if not read_events:
             return ""
 
@@ -203,6 +348,39 @@ class DustPromptBuilder(BasePromptBuilder):
         - 如果不需要检索，设置 need_retrieval 为 false，filenames 为空列表
         - filenames 中的事件名必须来自已读事件列表，已经存在在记忆中的事件不要再次检索
         - 尽可能减少检索内容，只检索对当前推理有帮助的事件，不要检索所有事件
+        """
+
+        return prompt.strip()
+
+    def _build_retrieval_prompt_en(self, obs: Observation, game_context: Optional[Dict[str, Any]] = None) -> str:
+        """构建英文检索提示词"""
+        # 获取已读事件列表
+        read_events = []
+        conversation_history=""
+        if game_context and 'dust_state' in game_context:
+            read_events = game_context['dust_state'].get('read_events', [])
+            conversation_history = game_context['conversation_history']
+
+        if not read_events:
+            return ""
+
+        prompt = f"""
+        Historical Memory: {conversation_history}
+        You have already read the following events: {sorted(read_events)}
+
+        If you need to review the detailed content of certain events to help with reasoning, you can request to retrieve these events.
+
+        Output format (strictly follow this JSON format):
+        {{
+        "need_retrieval": true/false,
+        "filenames": ["event name1", "event name2", ...],
+        "reason": "<brief explanation of why you need to view these events>"
+        }}
+
+        Notes:
+        - If retrieval is not needed, set need_retrieval to false and filenames to an empty list
+        - Event names in filenames must come from the read events list, don't retrieve events that already exist in memory
+        - Minimize retrieval content, only retrieve events helpful for current reasoning, don't retrieve all events
         """
 
         return prompt.strip()

@@ -142,7 +142,7 @@ class TypeHelpGameUtils(BaseGameUtils):
 
             # 将压缩后的内容添加到记忆（使用add_message）
             self.memory_store.add_message(
-                content=f"[压缩记忆] {compressed_text}",
+                content=f"[compress memory] {compressed_text}",
                 role="system",
                 compressed=True
             )
@@ -218,7 +218,7 @@ class TypeHelpGameUtils(BaseGameUtils):
             env: Type Help游戏环境实例
 
         Returns:
-            包含记忆、文件追踪信息和已读文件列表的上下文字典
+            包含记忆、文件追踪信息、已读文件列表和角色名称信息的上下文字典
         """
         game_context = {}
 
@@ -232,6 +232,10 @@ class TypeHelpGameUtils(BaseGameUtils):
 
         # 添加已读文件列表的文本表示
         game_context['read_files_text'] = self.get_read_files_text()
+
+        # 添加角色名称信息
+        if hasattr(env, 'get_character_names_text'):
+            game_context['character_names_text'] = env.get_character_names_text()
 
         return game_context
 

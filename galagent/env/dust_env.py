@@ -22,6 +22,7 @@ class DustConfig(GameConfig):
     start_node_id: str = "start"
     key_threshold: int = 5  # 获得一把钥匙所需的分数
     ocr_appcode: str = "244a6973290f4311b061fc1b4969aa4c"  # 阿里云 OCR APPCODE TODO：之后给他改到config.yaml里
+    test_language: str = "ch"  # ch or en (Chinese or English prompts)
 
 
 class DustEnv(BaseGameEnv):

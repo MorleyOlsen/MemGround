@@ -43,7 +43,10 @@ def create_game_env(env_config: EnvConfig, root_path: Path) -> BaseGameEnv:
         config = TypeHelpConfig(
             game_type="type_help",
             data_path=data_path,
-            start_node_id=env_config.start_node_id
+            start_node_id=env_config.start_node_id,
+            test_language=env_config.test_language,
+            enable_hint=env_config.enable_hint,
+            hint_failure_threshold=env_config.hint_failure_threshold
         )
         return TypeHelpEnv(config)
 
@@ -54,7 +57,8 @@ def create_game_env(env_config: EnvConfig, root_path: Path) -> BaseGameEnv:
         config = DustConfig(
             game_type="dust",
             data_path=data_path,
-            start_node_id=env_config.start_node_id
+            start_node_id=env_config.start_node_id,
+            test_language=env_config.test_language
         )
         return DustEnv(config)
 
@@ -82,12 +86,12 @@ def create_prompt_builder(env_config: EnvConfig, goal_instruction: str) -> BaseP
     elif game_type == "type_help":
         # 导入Type Help游戏的prompt builder
         from env.type_help.prompt_builder import TypeHelpPromptBuilder
-        return TypeHelpPromptBuilder(goal_instruction)
+        return TypeHelpPromptBuilder(goal_instruction, test_language=env_config.test_language)
 
     elif game_type == "dust":
         # 导入Dust游戏的prompt builder
         from env.dust.prompt_builder import DustPromptBuilder
-        return DustPromptBuilder(goal_instruction)
+        return DustPromptBuilder(goal_instruction, test_language=env_config.test_language)
 
     else:
         raise ValueError(f"Unknown game type: {game_type}")

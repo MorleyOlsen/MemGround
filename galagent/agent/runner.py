@@ -99,7 +99,7 @@ class GalgameAgent:
             decision_text = f"{decision.choice_text if decision.choice_text else f'选择 {decision.choice_index}'}: {decision.rationale}"
             if decision.recall:
                 recall_text = ", ".join(decision.recall)
-                decision_text += f"\n相关文件: {recall_text}"
+                decision_text += f"{recall_text}"
             self.store.add_message(decision_text, role="assistant", step=step)
 
             # act

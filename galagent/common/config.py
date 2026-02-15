@@ -57,6 +57,9 @@ class EnvConfig:
     game_type: str = "kb"  # kb, type_help, etc.
     scenes_path: str = "dataset/scenes.json"
     start_node_id: str = "start"
+    test_language: str = "ch"  # ch or en (Chinese or English prompts)
+    enable_hint: bool = False  # 是否启用失败次数提示功能 (仅type_help)
+    hint_failure_threshold: int = 15  # 触发提示的连续失败次数阈值 (仅type_help)
 
 
 class ConfigLoader:
@@ -148,6 +151,9 @@ class ConfigLoader:
             game_type=str(env.get("game_type", "kb")),
             scenes_path=str(env.get("scenes_path", "dataset/scenes.json")),
             start_node_id=str(env.get("start_node_id", "start")),
+            test_language=str(env.get("test_language", "ch")),
+            enable_hint=bool(env.get("enable_hint", False)),
+            hint_failure_threshold=int(env.get("hint_failure_threshold", 15)),
         )
 
 
