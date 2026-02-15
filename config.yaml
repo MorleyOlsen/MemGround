@@ -24,7 +24,7 @@ embedding:
   use_real: false #暂时关闭embedding的生成
 
 agent:
-  max_steps: 30
+  max_steps: 300
   retrieve_top_k: 3
   verbose: true # 负责管理各项内容是否在控制台输出
   retriever_type: "vector"  # keyword or vector
@@ -33,17 +33,21 @@ agent:
   # dpsk-chat 65000 gpt-5：272,000
   # 记忆压缩配置
   enable_compression: true  # 是否启用记忆压缩
-  compression_threshold: 20  # 对话轮次超过此值时触发压缩
-  compression_count: 10  # 每次压缩最早的n轮对话
+  compression_threshold: 100  # 对话轮次超过此值时触发压缩
+  compression_count: 80  # 每次压缩最早的n轮对话
 checkpoint:
   enabled: true  # 是否启用checkpoint功能
-  interval: 10  # 每隔多少步保存一次checkpoint
+  interval: 20  # 每隔多少步保存一次checkpoint
   dir: "checkpoints"  # checkpoint保存目录
-  resume_from: "checkpoints/checkpoint_type_help_session_step_29.json"
+  resume_from: null
   # 恢复示例（取消注释以从checkpoint恢复）：
   # resume_from: "checkpoints/checkpoint_type_help_session_step_500.json"
 
 env:
-  game_type: "type_help"  # kb or type_help
-  scenes_path: "dataset/type_help/nodes.json"  # for type_help game
-  start_node_id: "Background"  # Background for type_help, start for kb
+  game_type: "dust"
+  scenes_path: "dataset/The_dust_settles/nodes.json"
+  start_node_id: "start"
+
+  # game_type: "type_help"  # kb or type_help
+  # scenes_path: "dataset/type_help/nodes.json"  # for type_help game
+  # start_node_id: "Background"  # Background for type_help, start for kb

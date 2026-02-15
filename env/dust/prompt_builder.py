@@ -1,0 +1,236 @@
+# env/dust/prompt_builder.py
+"""Dust 推理游戏的 Prompt 构建器"""
+from __future__ import annotations
+
+from typing import Any, Dict, List, Optional
+
+from galagent.common.schemas import Observation
+from galagent.env.base_prompt_builder import BasePromptBuilder
+from env.dust.utils.scoring import build_trace_structure, describe_trace
+
+
+class DustPromptBuilder(BasePromptBuilder):
+    """Dust 推理游戏的 Prompt 构建器
+
+    游戏特点：
+    - 关键词发现与事件解锁
+    - 事件阅读与信息收集
+    - 人物视角下的事件排序
+    - 锁机制（问答解锁、钥匙解锁）
+    """
+
+    def __init__(self, goal_instruction: str = ""):
+        super().__init__(goal_instruction)
+        self.goal_instruction = "通过推理和排序，用尽可能少的次数解锁所有事件并重构完整故事"
+
+    def build_system_prompt(self, game_context: Optional[Dict[str, Any]] = None) -> str:
+        """构建 Dust 游戏的系统提示词
+
+        Args:
+            game_context: 游戏上下文，包含游戏状态信息
+
+        Returns:
+            系统提示词
+        """
+        base_prompt = f"""你是一名推理游戏智能体，正在玩一个名为Dust的推理解谜游戏。
+
+            游戏目标：{self.goal_instruction}
+
+            游戏机制：
+            1. 关键词发现：首次阅读事件文本时，会自动发现其中隐含的关键词，这些关键词会全部添加到你的关键词池中。
+            2. 事件解锁：使用关键词可以解锁与该关键词关联的新事件。解锁后你会知道事件的名称，但需要主动阅读才能获得完整内容。
+            3. 事件阅读：从可阅读事件池中选择一个事件进行阅读，阅读后获得该事件的完整叙述、关键信息等。
+            4. 人物事件排序：每个事件涉及多个角色。你需要推断事件在各角色视角下的发生顺序。提交正确的排序可以获得积分。
+            5. 计分与钥匙：每正确排序一对事件（某角色视角下的"较早-较晚"且连续发生的关系），获得 1 分，累积一定分数后自动获得钥匙，已经计分的事件对不会重复计分
+            6. 锁机制：
+            - 粉色锁 (pink) 和 紫色锁 (purple)：通过回答问题解锁
+            - 黄色锁 (yellow)：消耗 1 把钥匙解锁
+
+            策略建议：
+            - 优先阅读已解锁的事件，从中提取关键词和角色信息，使用发现的关键词解锁更多事件
+            - 当有足够信息时，再提交角色事件排序以获得分数和钥匙
+            - 当有钥匙时才尝试去解锁重要的黄色锁事件
+            - 遇到粉色/紫色锁时，根据已有信息推断答案
+            - 开头为“对话-”的节点不参与人物事件的排序
+            - 提示：伊甸幼儿园角色下只有一个事件
+            """
+
+        # 添加当前游戏状态信息
+        if game_context and 'dust_state' in game_context:
+            state = game_context['dust_state']
+            base_prompt += f"\n\n当前游戏状态："
+            base_prompt += f"\n- 钥匙: {state.get('keys', 0)}"
+            base_prompt += f"\n- 可使用的关键词 ({len(state.get('keyword_pool', []))}): {sorted(state.get('keyword_pool', []))}"
+            base_prompt += f"\n- 可阅读事件 ({len(state.get('event_pool', []))}): {state.get('event_pool', [])}"
+            base_prompt += f"\n- 已阅读事件 ({len(state.get('read_events', []))}): {sorted(state.get('read_events', []))}"
+
+            # 锁定事件信息
+            locked_events = state.get('locked_events', {})
+            if any(locked_events.values()):
+                base_prompt += f"\n- 锁定事件:"
+
+                # 获取锁信息（用于显示问题）
+                lock_info_list = game_context.get('lock_info', [])
+
+                for lock_type in ['pink', 'purple', 'yellow']:
+                    events = locked_events.get(lock_type, [])
+                    if events:
+                        if lock_type in ['pink', 'purple']:
+                            # 对于粉色和紫色锁，显示事件名和对应的问题
+                            base_prompt += f"\n  - {lock_type} (需要回答问题):"
+                            for event_name in sorted(events):
+                                # 查找该事件的锁信息
+                                question = ""
+                                for lock_info in lock_info_list:
+                                    if lock_info.get('sub_name') == event_name or lock_info.get('name') == event_name:
+                                        question = lock_info.get('question', '')
+                                        break
+
+                                if question:
+                                    base_prompt += f"\n    * {event_name}: {question}"
+                                else:
+                                    base_prompt += f"\n    * {event_name}"
+                        else:
+                            # 黄色锁只显示事件名
+                            base_prompt += f"\n  - {lock_type} (需要钥匙): {sorted(events)}"
+
+            # 当前排序情况和判断结果
+            character_orders = state.get('character_orders', {})
+            order_gt = game_context.get('order_gt', [])
+
+            if character_orders and order_gt:
+                # 使用 trace 结构生成详细的排序分析
+                trace = build_trace_structure(character_orders, order_gt)
+                trace_description = describe_trace(trace)
+
+                base_prompt += f"\n\n**当前已提交的排序分析**：\n{trace_description}"
+
+        print("system_prompt:",base_prompt)
+        return base_prompt
+
+    def build_user_prompt(
+        self,
+        obs: Observation,
+        retrieved_hits: List[str],
+        game_context: Optional[Dict[str, Any]] = None
+    ) -> str:
+        """构建 Dust 游戏的用户提示词
+
+        Args:
+            obs: 当前观察
+            retrieved_hits: 检索到的记忆（暂时不用）
+            game_context: 游戏上下文
+
+        Returns:
+            完整的用户提示词
+        """
+        # 获取对话历史
+        conversation_history = ""
+        if game_context and 'conversation_history' in game_context:
+            conversation_history = game_context['conversation_history']
+
+        # 构建完整 prompt
+        prompt = f"""
+        历史记忆:
+        {conversation_history if conversation_history else "（无）"}
+        """
+
+        # 如果有检索到的记忆，添加到 prompt
+        if retrieved_hits:
+            prompt += f"\n检索到的相关信息:\n"
+            prompt += "\n".join([f"{hit}" for hit in retrieved_hits])
+
+        # 输出格式说明
+        prompt += """
+
+        请根据当前游戏状态选择下一步动作。输出格式 (严格按照以下 JSON 格式):
+        {
+        "action_type": <动作类型编号: 0-4 的整数>,
+        "action_params": {
+            // 根据动作类型填写不同参数：
+            // 0 (unlock_keyword 使用关键词解锁事件): {"keyword": "关键词"}
+            // 1 (read_event 阅读事件): {"event_name": "事件名"}
+            // 2 (submit_orders 提交人物事件排序): {"orders": {"角色1": ["事件1", "事件2", ...], "角色2": [...]}}
+            // 3 (unlock_with_key 用钥匙解锁黄色锁): {"event_name": "事件名"}
+            // 4 (answer_lock 回答问题解锁粉色/紫色锁): {"event_name": "事件名", "answer": "答案"}
+        },
+        "rationale": "<详细说明你的推理过程和选择该动作的原因>"
+        }
+
+        注意事项：
+        - submit_orders 的 orders 参数格式：每个角色对应一个事件列表，列表中的事件按该角色视角下的时间顺序排列（从早到晚）
+        - 只提交你有充分信息可以确定顺序的事件对，不确定的不要提交
+        - answer_lock 的答案需要根据已读事件中的信息推断
+        """
+        # print("user_prompt:",prompt.strip())
+
+        return prompt.strip()
+
+    def build_retrieval_prompt(self, obs: Observation, game_context: Optional[Dict[str, Any]] = None) -> str:
+        """构建检索提示词，让模型决定是否需要查看已读事件的详细内容
+
+        Args:
+            obs: 当前观察
+            game_context: 游戏上下文
+
+        Returns:
+            检索提示词
+        """
+        # 获取已读事件列表
+        read_events = []
+        conversation_history=""
+        if game_context and 'dust_state' in game_context:
+            read_events = game_context['dust_state'].get('read_events', [])
+            conversation_history = game_context['conversation_history']
+        
+        if not read_events:
+            return ""
+
+        prompt = f"""
+        历史记忆：{conversation_history}
+        你已经阅读过以下事件: {sorted(read_events)}
+
+        如果你需要回顾某些事件的详细内容来帮助推理，可以请求检索这些事件。
+
+        输出格式 (严格按照以下 JSON 格式输出):
+        {{
+        "need_retrieval": true/false,
+        "filenames": ["事件名1", "事件名2", ...],
+        "reason": "<简要说明为什么需要查看这些事件>"
+        }}
+
+        注意：
+        - 如果不需要检索，设置 need_retrieval 为 false，filenames 为空列表
+        - filenames 中的事件名必须来自已读事件列表，已经存在在记忆中的事件不要再次检索
+        - 尽可能减少检索内容，只检索对当前推理有帮助的事件，不要检索所有事件
+        """
+
+        return prompt.strip()
+
+    def build_compression_prompt(self, conversations: List[str]) -> str:
+        """构建记忆压缩的prompt
+
+        Args:
+            conversations: 需要压缩的对话列表
+
+        Returns:
+            压缩prompt
+        """
+        conversations_text = "\n\n".join(conversations)
+
+        prompt = f"""
+                你是一名推理游戏智能体，正在玩一个名为Dust的推理解谜游戏。
+                游戏机制：
+                1. 关键词发现：阅读事件文本时，会自动发现其中隐含的关键词（tags），这些关键词会被添加到你的关键词池中。
+                2. **事件解锁**：使用关键词可以解锁与该关键词关联的新事件。解锁后你会知道事件的名称，但需要主动阅读才能获得完整内容。
+                3. **事件阅读**：从可阅读事件池中选择一个事件进行阅读，阅读后获得该事件的完整叙述、关键信息等。
+                4. **人物事件排序**：每个事件涉及多个角色。你需要推断事件在各角色视角下的发生顺序。提交正确的排序可以获得积分。
+                5. **计分与钥匙**：每正确排序一对事件（某角色视角下的"较早-较晚"关系），获得 1 分，累积一定分数后自动获得钥匙，已经计分的事件对不会重复计分
+                6. **锁机制**：
+                - **粉色锁 (pink)** 和 **紫色锁 (purple)**：通过回答问题解锁
+                - **黄色锁 (yellow)**：消耗 1 把钥匙解锁
+                将以下对话内容进行压缩总结，只保留你认为有助于推理人物与事件对应及顺序关系等关键信息。
+                对话内容：{conversations_text}
+                """
+
+        return prompt

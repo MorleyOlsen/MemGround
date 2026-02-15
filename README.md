@@ -20,15 +20,23 @@ python galAgent.py --help
 ```
 GameAI/
 ├── galAgent.py                 # 主程序入口
+├── dataset                     # 存放游戏的数据集
 ├── config.yaml                 # 全局配置文件
 ├── env/                        # 游戏数据目录
 │   ├── kb/                     # KB游戏数据
+│   │   ├── prompt_builder.py   # KB游戏Prompt构建器
+│   │   └── utils/
+│   │       └── game_utils.py   # KB游戏工具类
 │   └── type_help/              # Type Help游戏数据
-│       └── nodes.json          # 游戏节点定义
+│       ├── prompt_builder.py   # Type Help游戏Prompt构建器
+│       └── utils/
+│           ├── file_tracker.py # 文件追踪器
+│           ├── file_retriever.py # 文件检索器
+│           └── game_utils.py   # Type Help游戏工具类
 ├── galagent/                   # 核心代码包
 │   ├── agent/                  # 智能体模块
-│   │   ├── policy.py           # LLM决策策略
-│   │   └── runner.py           # Agent运行器
+│   │   ├── policy.py           # LLM决策策略（检索决策+行动决策+故事总结）
+│   │   └── runner.py           # Agent运行器（主循环+checkpoint）
 │   ├── env/                    # 游戏环境模块
 │   │   ├── base_env.py         # 游戏环境基类
 │   │   ├── base_prompt_builder.py  # Prompt构建器基类
@@ -38,19 +46,20 @@ GameAI/
 │   │   ├── kb_env.py           # KB游戏环境
 │   │   └── type_help_env.py    # Type Help游戏环境
 │   ├── memory/                 # 记忆系统模块
-│   │   ├── store.py            # 记忆存储（集成Faiss）
+│   │   ├── store.py            # 记忆存储（对话历史+压缩）
 │   │   ├── retriever.py        # 检索器（关键词/向量）
 │   │   ├── FaissManager.py     # Faiss索引管理器
 │   │   └── db_tool.py          # 数据库工具
 │   ├── common/                 # 公共模块
-│   │   ├── schemas.py          # 数据结构定义
+│   │   ├── schemas.py          # 数据结构定义（Observation, Decision, etc.）
 │   │   ├── config.py           # 配置加载器
 │   │   └── openai_harmony.py   # OpenAI兼容层
 │   ├── logger/                 # 日志模块
 │   │   └── game_logger.py      # 游戏日志记录器
-│   └── tool/                   # 工具模块
-│       └── tool.py             # 游戏工具
+│   └── checkpoint/             # Checkpoint模块
+│       └── manager.py          # Checkpoint管理器
 ├── logs/                       # 日志输出目录
+├── checkpoints/                # Checkpoint保存目录
 └── faiss_data/                 # Faiss索引持久化目录
 ```
 
@@ -60,11 +69,20 @@ GameAI/
 
 **文件追踪系统 (FileTracker)**
 ```python
+# 文件解锁和追踪
 file_tracker.unlock_file("01-QU-1-11")           # 解锁文件
-file_tracker.attempt_file("04-ST-2-3-5-8")       # 记录尝试
+file_tracker.attempt_file("04-ST-2-3-5-8", success=True)  # 记录尝试（自动添加到已读列表）
 file_tracker.get_unlocked_files()                # 获取已解锁列表
-file_tracker.add_pattern("XX-YY-Z")              # 添加命名规则
+file_tracker.get_read_files()                    # 获取已读文件列表（去重）
+file_tracker.get_success_files()                 # 获取成功打开的文件（含重复）
 ```
+
+**文件追踪数据结构**
+- `unlocked_files`: 当前已解锁的文件（Set）
+- `attempted_files`: 所有尝试历史（包括成功和失败，含重复）
+- `success_files`: 成功打开的文件历史（含重复，用于日志）
+- `failed_files`: 失败的尝试历史（含重复）
+- `read_files`: 已读文件列表（去重，用于Prompt）
 
 **自动解锁背景节点**
 - `Background` - 背景信息
@@ -78,18 +96,22 @@ file_tracker.add_pattern("XX-YY-Z")              # 添加命名规则
 - 出现的人物及编号 (characters)
 - 已解锁的文件列表
 
+**特殊逻辑**
+- 打开文件时自动解锁节点中提到的新文件
+- 支持特判逻辑（如打开 "04-ST-1-5-8" 时删除 "04-ST-?????"）
+
 ### 2. 记忆系统
 
-**MemoryStore 集成 FaissManager (store.py)**
-- 使用 `ThreadSafeFaissManager` 管理向量索引
-- 支持余弦相似度（Inner Product）检索
-- 自动归一化 embedding 向量
-- 索引持久化到磁盘 (`faiss_data/memory.index`)
+**MemoryStore 对话历史管理 (store.py)**
+- 存储完整的对话历史（user/assistant消息）
+- 支持记忆压缩（使用LLM总结最早的n轮对话）
+- 提供 `get_memory_context()` 获取格式化的对话历史
+- 自动管理记忆token数量
 
-**滑动窗口机制**
-- 默认保留最近 40 条记忆 (可配置 `max_memory`)
-- 超过限制时自动删除最旧记忆
-- 同步删除 Faiss 索引中对应的向量
+**记忆压缩机制**
+- 当对话历史过长时，自动压缩最早的对话
+- 使用LLM生成简洁的总结
+- 保留最近的对话以保持上下文连贯性
 
 **检索方式 (retriever.py)**
 - `VectorRetriever`: 使用 Faiss 进行高效向量检索
@@ -99,14 +121,32 @@ file_tracker.add_pattern("XX-YY-Z")              # 添加命名规则
 
 ### 3. LLM 决策策略 (policy.py)
 
-**两阶段决策**
-1. **检索决策**: 判断是否需要检索历史记忆
+**三阶段决策**
+1. **检索决策**: 判断是否需要检索文件内容
+   - Type Help: 决定打开哪些文件
+   - KB: 决定是否需要检索知识库
 2. **行动决策**: 基于当前观察和检索结果做出选择
+   - 输出格式包含 `choice_text`、`reason`、`recall`（相关文件列表）
+3. **故事总结**: 游戏结束时生成完整的故事分析
+   - 故事梗概
+   - 角色分析
+   - 推理结论
+
+**Decision 数据结构**
+```python
+@dataclass
+class Decision:
+    choice_index: int           # 选择索引
+    rationale: str              # 决策理由
+    choice_text: str = ""       # 文件名（Type Help游戏）
+    recall: list = []           # 相关文件列表（用于记忆）
+```
 
 **游戏特定 Prompt 构建**
 - 使用 `BasePromptBuilder` 接口
 - 每个游戏实现自己的 prompt 逻辑
 - 支持系统提示词和用户提示词定制
+- Prompt 中包含已读文件列表（去重）
 
 ### 4. 配置系统 (config.yaml)
 
@@ -132,24 +172,57 @@ env:
 
 ### 5. 游戏日志 (GameLogger)
 
+**日志内容**
 - 自动记录每个游戏会话
 - 保存到 `logs/{game_type}/{session_id}/` 目录
 - 包含完整的观察、决策和行动历史
 - 支持 JSON 格式导出
 
+**Type Help 游戏日志字段**
+```json
+{
+  "step": 1,
+  "node_id": "01-QU-1-11",
+  "node_name": "01-QU-1-11",
+  "scene_text": "文件内容...",
+  "choices": {
+    "text": "02-ST-2-3",
+    "decision_rationale": "根据线索...",
+    "recall": ["01-QU-1-11", "00-readme"]
+  },
+  "file_retrieval": {
+    "need_retrieval": true,
+    "opened_files": ["Background", "message"],
+    "reason": "需要查看背景信息"
+  },
+  "unlocked_files": ["01-QU-1-11", "02-ST-2-3"],
+  "attempted_files": ["01-QU-1-11", "02-ST-2-3"],
+  "success_files": ["01-QU-1-11", "02-ST-2-3"],
+  "failed_files": []
+}
+```
 
-#### 6.Checkpoint
-# 从最新checkpoint恢复:
-`python galagent.py --resume`
-这会：
-- 自动查找最新的checkpoint文件
-- 恢复所有状态
-- 从保存的步数继续运行
+### 6. Checkpoint 系统
+
+**自动保存**
+- 定期保存游戏状态（默认每10步）
+- 保存到 `checkpoints/` 目录
+- 包含环境状态、记忆状态、游戏工具状态
+
+**恢复运行**
+```bash
+# 从最新checkpoint恢复
+python galagent.py --resume
 
 # 从指定checkpoint恢复
-`python galagent.py --resume checkpoints/checkpoint_type_help_long_run_step_500.json`
+python galagent.py --resume checkpoints/checkpoint_type_help_long_run_step_500.json
+```
 
-或者直接通过在代码里修改来实现从指定checkpoint恢复
+**Checkpoint 内容**
+- 环境状态：当前节点、文件追踪器状态
+- 记忆状态：对话历史
+- 游戏工具状态：已读文件列表
+- 运行状态：当前步数
 
 ## 🔧 添加新游戏
 

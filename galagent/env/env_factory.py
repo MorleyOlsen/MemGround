@@ -11,6 +11,7 @@ from galagent.env.base_prompt_builder import BasePromptBuilder
 from galagent.env.base_game_utils import BaseGameUtils
 from galagent.env.kb_env import KBEnv, KBEnvConfig
 from galagent.env.type_help_env import TypeHelpEnv, TypeHelpConfig
+from galagent.env.dust_env import DustEnv, DustConfig
 
 
 def create_game_env(env_config: EnvConfig, root_path: Path) -> BaseGameEnv:
@@ -46,6 +47,17 @@ def create_game_env(env_config: EnvConfig, root_path: Path) -> BaseGameEnv:
         )
         return TypeHelpEnv(config)
 
+    elif game_type == "dust":
+        # Dust 推理游戏
+        scenes_path = Path(env_config.scenes_path)
+        data_path = root_path / scenes_path.parent
+        config = DustConfig(
+            game_type="dust",
+            data_path=data_path,
+            start_node_id=env_config.start_node_id
+        )
+        return DustEnv(config)
+
     else:
         raise ValueError(f"Unknown game type: {game_type}")
 
@@ -72,13 +84,18 @@ def create_prompt_builder(env_config: EnvConfig, goal_instruction: str) -> BaseP
         from env.type_help.prompt_builder import TypeHelpPromptBuilder
         return TypeHelpPromptBuilder(goal_instruction)
 
+    elif game_type == "dust":
+        # 导入Dust游戏的prompt builder
+        from env.dust.prompt_builder import DustPromptBuilder
+        return DustPromptBuilder(goal_instruction)
+
     else:
         raise ValueError(f"Unknown game type: {game_type}")
 
 
 def get_supported_game_types() -> list[str]:
     """获取支持的游戏类型列表"""
-    return ["kb", "type_help"]
+    return ["kb", "type_help", "dust"]
 
 
 def create_game_utils(env_config: EnvConfig) -> BaseGameUtils:
@@ -101,6 +118,11 @@ def create_game_utils(env_config: EnvConfig) -> BaseGameUtils:
         # 导入Type Help游戏的工具类
         from env.type_help.utils.game_utils import TypeHelpGameUtils
         return TypeHelpGameUtils()
+
+    elif game_type == "dust":
+        # 导入Dust游戏的工具类
+        from env.dust.utils.game_utils import DustGameUtils
+        return DustGameUtils()
 
     else:
         raise ValueError(f"Unknown game type: {game_type}")

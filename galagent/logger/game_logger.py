@@ -23,6 +23,20 @@ class ActionLog:
     attempted_files: List[str] = None  # type_help游戏专用：所有尝试
     success_files: List[str] = None  # type_help游戏专用：成功打开的文件
     failed_files: List[str] = None  # type_help游戏专用：失败的尝试
+    # Dust 游戏专用字段
+    action_type: Any = None  # Dust 游戏：动作类型
+    action_params: Dict[str, Any] = None  # Dust 游戏：动作参数
+    current_node_id: str = None  # Dust 游戏：当前节点ID
+    keyword_pool: List[str] = None  # Dust 游戏：关键词池
+    known_events: List[str] = None  # Dust 游戏：已知事件
+    event_pool: List[str] = None  # Dust 游戏：可阅读事件池
+    read_events: List[str] = None  # Dust 游戏：已阅读事件
+    locked_events: Dict[str, List[str]] = None  # Dust 游戏：锁定事件
+    score: int = None  # Dust 游戏：得分
+    keys: int = None  # Dust 游戏：钥匙数
+    character_orders: Dict[str, List[str]] = None  # Dust 游戏：角色事件排序
+    order_judgements: List[Dict] = None  # Dust 游戏：排序判断结果
+    awarded_pairs: List[List] = None  # Dust 游戏：已计分事件对
 
 
 @dataclass
@@ -143,7 +157,21 @@ class GameLogger:
         unlocked_files: Optional[List[str]] = None,
         attempted_files: Optional[List[str]] = None,
         success_files: Optional[List[str]] = None,
-        failed_files: Optional[List[str]] = None
+        failed_files: Optional[List[str]] = None,
+        # Dust 游戏专用参数
+        action_type: Any = None,
+        action_params: Optional[Dict[str, Any]] = None,
+        current_node_id: Optional[str] = None,
+        keyword_pool: Optional[List[str]] = None,
+        known_events: Optional[List[str]] = None,
+        event_pool: Optional[List[str]] = None,
+        read_events: Optional[List[str]] = None,
+        locked_events: Optional[Dict[str, List[str]]] = None,
+        score: Optional[int] = None,
+        keys: Optional[int] = None,
+        character_orders: Optional[Dict[str, List[str]]] = None,
+        order_judgements: Optional[List[Dict]] = None,
+        awarded_pairs: Optional[List[List]] = None
     ) -> None:
         """记录一次行动"""
         action = ActionLog(
@@ -155,9 +183,23 @@ class GameLogger:
             choices=choices,
             file_retrieval=file_retrieval,
             unlocked_files=unlocked_files,
-            attempted_files=attempted_files,
-            success_files=success_files,
-            failed_files=failed_files
+            attempted_files=None,  # 不记录
+            success_files=None,  # 不记录
+            failed_files=failed_files,
+            # Dust 游戏字段
+            action_type=action_type,
+            action_params=action_params,
+            current_node_id=current_node_id,
+            keyword_pool=keyword_pool,
+            known_events=known_events,
+            event_pool=event_pool,
+            read_events=read_events,
+            locked_events=locked_events,
+            score=score,
+            keys=keys,
+            character_orders=character_orders,
+            order_judgements=order_judgements,
+            awarded_pairs=awarded_pairs
         )
 
         self.session.actions.append(action)

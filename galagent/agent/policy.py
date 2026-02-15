@@ -151,10 +151,38 @@ class LLMPolicy:
         print("text:", text)
 
         parsed = self._parse_json(text)
-        
-        
+
+
+        # 检查是否为 Dust 游戏的动作格式
+        if "action_type" in parsed:
+            # Dust 游戏：返回动作类型和参数
+            action_type = parsed.get("action_type", 0)
+            action_params = parsed.get("action_params", {})
+            rationale = parsed.get("rationale", "")
+
+            # 确保 action_type 是整数
+            if isinstance(action_type, str):
+                try:
+                    action_type = int(action_type)
+                except ValueError:
+                    action_type = 0
+
+            # 将整个动作信息序列化为 choice_text
+            choice_text = json.dumps({
+                "action_params": action_params
+            }, ensure_ascii=False)
+
+            if not isinstance(rationale, str) or not rationale.strip():
+                rationale = "No reason provided."
+
+            return Decision(
+                choice_index=action_type,
+                rationale=rationale.strip(),
+                choice_text=choice_text,
+                recall=[]
+            )
         # 检查是否为文字输入模式（eg: Type Help游戏）
-        if "choice_text" in parsed:
+        elif "choice_text" in parsed:
             # Type Help游戏：返回文件名
             filename = parsed.get("choice_text", "")
             reason = parsed.get("reason", "")
