@@ -32,7 +32,9 @@ class TypeHelpEnv(BaseGameEnv):
         self.file_tracker = FileTracker()
         self.character_names = []  # 存储角色名称和编号信息
         self.node_links: Dict[str, List[str]] = {}  # 存储节点链接关系: {from: [target1, target2, ...]}
+        self.node_predecessors: Dict[str, List[str]] = {}  # 反向映射: {target: [from1, from2, ...]}
         self.consecutive_failures = 0  # 连续失败次数计数器
+        self.hint_unlocked_files: List[str] = []  # 通过hint自动解锁的文件列表
         self.load_game_data()
 
     def load_game_data(self) -> None:
@@ -55,6 +57,9 @@ class TypeHelpEnv(BaseGameEnv):
 
         # 加载节点链接关系
         self._load_node_links()
+
+        # 用 nodes.json 的 in_degree 覆盖 node_predecessors，确保 hint 条件使用完整前置节点列表
+        self._build_predecessors_from_indegree()
 
         # 初始化：解锁起始节点中提到的文件
         self._initialize_unlocked_files()
@@ -96,9 +101,38 @@ class TypeHelpEnv(BaseGameEnv):
                             if from_node not in self.node_links:
                                 self.node_links[from_node] = []
                             self.node_links[from_node].append(target_node)
+                            if target_node not in self.node_predecessors:
+                                self.node_predecessors[target_node] = []
+                            self.node_predecessors[target_node].append(from_node)
         except Exception as e:
             print(f"[Type Help] Warning: Failed to parse all_links_with_recall.json: {e}")
             self.node_links = {}
+            self.node_predecessors = {}
+
+    def _build_predecessors_from_indegree(self) -> None:
+        """用 nodes.json 中每个节点的 in_degree 字段覆盖 node_predecessors。
+
+        all_links_with_recall.json 每个节点只记录了一条最直接的前置边，
+        而 in_degree 才是完整的前置节点列表。hint 触发条件要求所有前置节点
+        均已解锁，因此必须使用 in_degree 作为 node_predecessors 的数据源。
+        过滤掉不存在的节点引用和重复项，避免 hint 永远无法触发。
+        """
+        for node_name, node_data in self.nodes.items():
+            in_degree = node_data.get("in_degree", [])
+            # 去重并过滤不存在的节点，保持原顺序
+            seen = set()
+            valid = []
+            for p in in_degree:
+                if p in self.nodes and p not in seen:
+                    valid.append(p)
+                    seen.add(p)
+                elif p not in self.nodes:
+                    print(f"[Type Help] Warning: in_degree of '{node_name}' references non-existent node '{p}', skipping.")
+            if valid:
+                self.node_predecessors[node_name] = valid
+            elif node_name in self.node_predecessors:
+                # in_degree 为空则清除旧的（可能来自 all_links 的）记录
+                del self.node_predecessors[node_name]
 
     def get_character_names_text(self) -> str:
         """获取格式化的角色名称信息文本
@@ -228,8 +262,10 @@ class TypeHelpEnv(BaseGameEnv):
         # 记录尝试（成功）并添加到已读文件列表
         self.file_tracker.attempt_file(filename, success=True)
 
-        # 重置连续失败计数（成功打开文件）
-        self.consecutive_failures = 0
+        # 只有成功打开新的未解锁文件才重置连续失败计数
+        is_new_unlock = not self.file_tracker.is_unlocked(filename)
+        if is_new_unlock:
+            self.consecutive_failures = 0
 
         # 解锁并跳转到文件
         self.file_tracker.unlock_file(filename)
@@ -258,24 +294,26 @@ class TypeHelpEnv(BaseGameEnv):
             if "?" not in file:
                 self.file_tracker.unlock_file(file)
 
-    def _get_next_unlocked_target(self, current_node: str) -> str:
-        """获取当前节点的下一个未解锁的目标节点
+    def _get_next_unlocked_target(self) -> str:
+        """遍历所有已解锁节点，找到所有前置节点均已解锁的目标中time id最低的未解锁节点"""
+        candidates = []
+        for node in self.file_tracker.unlocked_files:
+            for target in self.node_links.get(node, []):
+                if not self.file_tracker.is_unlocked(target):
+                    # 检查该目标的所有前置节点是否都已解锁
+                    predecessors = self.node_predecessors.get(target, [])
+                    if all(self.file_tracker.is_unlocked(p) for p in predecessors):
+                        candidates.append(target)
+        if not candidates:
+            return ""
 
-        Args:
-            current_node: 当前节点名称
+        def _time_id(name: str) -> int:
+            try:
+                return int(name.split("-")[0])
+            except (ValueError, IndexError):
+                return 9999
 
-        Returns:
-            下一个未解锁的目标节点名称，如果没有则返回空字符串
-        """
-        # 获取当前节点的所有目标节点
-        targets = self.node_links.get(current_node, [])
-
-        # 找到第一个未解锁的目标节点
-        for target in targets:
-            if not self.file_tracker.is_unlocked(target):
-                return target
-
-        return ""
+        return min(candidates, key=_time_id)
 
     def _auto_unlock_hint(self) -> None:
         """自动解锁提示：当连续失败次数达到阈值时，解锁下一个目标节点"""
@@ -284,11 +322,12 @@ class TypeHelpEnv(BaseGameEnv):
 
         if self.consecutive_failures >= self.config.hint_failure_threshold:
             # 获取下一个未解锁的目标节点
-            next_target = self._get_next_unlocked_target(self.current_node_id)
+            next_target = self._get_next_unlocked_target()
 
             if next_target:
                 # 解锁该节点
                 self.file_tracker.unlock_file(next_target)
+                self.hint_unlocked_files.append(next_target)
                 print(f"[Type Help Hint] 连续失败 {self.consecutive_failures} 次，自动解锁提示文件: {next_target}")
                 # 重置连续失败计数器
                 self.consecutive_failures = 0
@@ -302,7 +341,9 @@ class TypeHelpEnv(BaseGameEnv):
             "attempted_files": self.file_tracker.get_attempted_files(),
             "success_files": self.file_tracker.get_success_files(),
             "failed_files": self.file_tracker.get_failed_files(),
-            "patterns": self.file_tracker.file_naming_patterns
+            "patterns": self.file_tracker.file_naming_patterns,
+            "hint_unlocked_files": self.hint_unlocked_files.copy(),
+            "consecutive_failures": self.consecutive_failures,
         }
 
     def reset(self) -> None:
@@ -310,6 +351,7 @@ class TypeHelpEnv(BaseGameEnv):
         self.current_node_id = self.config.start_node_id
         self.file_tracker = FileTracker()
         self.consecutive_failures = 0  # 重置连续失败计数器
+        self.hint_unlocked_files = []
         self._initialize_unlocked_files()
 
     def get_state(self) -> Dict[str, Any]:
@@ -321,6 +363,7 @@ class TypeHelpEnv(BaseGameEnv):
         return {
             "current_node_id": self.current_node_id,
             "consecutive_failures": self.consecutive_failures,
+            "hint_unlocked_files": self.hint_unlocked_files.copy(),
             "file_tracker": {
                 "unlocked_files": list(self.file_tracker.unlocked_files),
                 "attempted_files": self.file_tracker.attempted_files.copy(),
@@ -339,6 +382,7 @@ class TypeHelpEnv(BaseGameEnv):
         """
         self.current_node_id = state["current_node_id"]
         self.consecutive_failures = state.get("consecutive_failures", 0)
+        self.hint_unlocked_files = state.get("hint_unlocked_files", []).copy()
 
         # 恢复文件追踪器状态
         tracker_state = state["file_tracker"]

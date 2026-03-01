@@ -1,6 +1,7 @@
 # galagent/agent/policy.py
 from __future__ import annotations
 import json
+import time
 from typing import Any, Dict, List, Optional
 from openai import OpenAI
 
@@ -30,7 +31,7 @@ class LLMPolicy:
 
     def __init__(self, config: LLMConfig, prompt_builder: BasePromptBuilder, memory_store=None, game_utils=None, agent_config=None):
         self.config = config
-        self.client = OpenAI(api_key=config.api_key, base_url=config.base_url)
+        self.client = OpenAI(api_key=config.api_key, base_url=config.base_url, timeout=120.0)
         self.prompt_builder = prompt_builder
         self.game_utils = game_utils
         self.agent_config = agent_config
@@ -50,14 +51,21 @@ class LLMPolicy:
         Returns:
             LLM返回的文本内容
         """
-        resp = self.client.chat.completions.create(
-            model=model or self.config.model,
-            messages=messages,
-            temperature=temperature if temperature is not None else self.config.temperature,
-        )
-
-        msg = resp.choices[0].message
-        return msg.content or ""
+        for attempt in range(3):
+            try:
+                resp = self.client.chat.completions.create(
+                    model=model or self.config.model,
+                    messages=messages,
+                    temperature=temperature if temperature is not None else self.config.temperature,
+                )
+                msg = resp.choices[0].message
+                return msg.content or ""
+            except Exception as e:
+                print(f"[LLM] 调用失败 (attempt {attempt + 1}/3): {e}")
+                if attempt < 2:
+                    time.sleep(5)
+        print("[LLM] 连续失败3次，跳过本步骤")
+        return ""
 
     def decide_retrieval(self, obs: Observation, game_context: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
         """决定是否需要检索记忆，并生成检索目标
@@ -248,7 +256,6 @@ class LLMPolicy:
         except Exception:
             return {}
 
-    # TODO：这个还没有转换成英文版
     def generate_story_summary(self, game_context: Optional[Dict[str, Any]] = None) -> str:
         """生成故事情节总结和推理
 
@@ -258,8 +265,17 @@ class LLMPolicy:
         Returns:
             故事总结文本
         """
-        # 构建总结提示词
-        system_prompt = """你是一个专业的故事分析师。请根据你在游戏中经历的所有事件、对话和线索，完成以下任务：
+        is_english = getattr(self.prompt_builder, 'test_language', 'ch') == 'en'
+
+        if is_english:
+            system_prompt = """You are a professional story analyst. Based on all the events, dialogues, and clues you experienced in the game, complete the following tasks:
+        1. Story Summary: Summarize the main plot of the entire story in 2-3 paragraphs
+        2. Character Analysis: Analyze the motivations and relationships of the main characters
+        3. Reasoning Conclusion: Based on all the information, deduce the truth or core secret of the story
+
+        Please present your analysis in a clear and organized manner."""
+        else:
+            system_prompt = """你是一个专业的故事分析师。请根据你在游戏中经历的所有事件、对话和线索，完成以下任务：
         1. 故事梗概：用2-3段话总结整个故事的主要情节
         2. 角色分析：分析主要角色的动机和关系
         3. 推理结论：基于所有信息，推理出故事的真相或核心秘密
@@ -270,13 +286,14 @@ class LLMPolicy:
             {"role": "system", "content": system_prompt},
         ]
 
-        # 如果有游戏上下文，将对话历史作为用户消息添加
         if game_context and 'conversation_history' in game_context:
             conversation_history = game_context['conversation_history']
-            user_prompt = f"以下是游戏中的所有对话和事件记录：\n\n{conversation_history}\n\n请基于以上信息，完成故事分析。"
+            if is_english:
+                user_prompt = f"The following are all dialogues and event records from the game:\n\n{conversation_history}\n\nPlease complete the story analysis based on the above information."
+            else:
+                user_prompt = f"以下是游戏中的所有对话和事件记录：\n\n{conversation_history}\n\n请基于以上信息，完成故事分析。"
             messages.append({"role": "user", "content": user_prompt})
 
-        # 使用较高的temperature以获得更有创造性的总结
         summary = self._call_llm(messages, temperature=0.7)
 
         return summary

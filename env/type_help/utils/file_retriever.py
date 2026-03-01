@@ -54,6 +54,7 @@ class TypeHelpFileRetriever:
                 "exists": True,
                 "key_info": memory_data.get("key_info", []),
                 "location": memory_data.get("location", ""),
+                "scenes": memory_data.get("scenes", []),
                 "characters": []
             }
 
@@ -62,7 +63,8 @@ class TypeHelpFileRetriever:
                 file_info["characters"].append({
                     "name": char_data.get("name", ""),
                     "number": char_data.get("number", 0),
-                    "description": char_data.get("description", "")
+                    "description": char_data.get("description", ""),
+                    "key_info": char_data.get("key_info", []),
                 })
 
             results.append(file_info)
@@ -87,20 +89,32 @@ class TypeHelpFileRetriever:
         if file_info.get("location"):
             lines.append(f"location: {file_info['location']}")
 
+        # 场景描述
+        if file_info.get("scenes"):
+            lines.append("scenes:")
+            for scene in file_info["scenes"]:
+                lines.append(f"  - {scene.get('name', '')}: {scene.get('description', '')}")
+                for elem in scene.get("key_elements", []):
+                    lines.append(f"    * {elem}")
+
         # 关键信息
         if file_info.get("key_info"):
             lines.append("key info:")
             for info in file_info["key_info"]:
                 lines.append(f"  - {info}")
 
-        # 角色（只保留name和number）
+        # 角色（name、number、description、key_info）
         if file_info.get("characters"):
             lines.append("characters:")
             for char in file_info["characters"]:
                 char_str = f"  - {char.get('name', '')}"
                 if char.get("number"):
                     char_str += f" (number: {char['number']})"
+                if char.get("description"):
+                    char_str += f": {char['description']}"
                 lines.append(char_str)
+                for ci in char.get("key_info", []):
+                    lines.append(f"    * {ci}")
 
         return "\n".join(lines)
 

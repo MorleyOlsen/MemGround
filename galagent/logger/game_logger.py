@@ -23,6 +23,8 @@ class ActionLog:
     attempted_files: List[str] = None  # type_help游戏专用：所有尝试
     success_files: List[str] = None  # type_help游戏专用：成功打开的文件
     failed_files: List[str] = None  # type_help游戏专用：失败的尝试
+    hint_unlocked_files: List[str] = None  # type_help游戏专用：hint自动解锁的文件（累计）
+    consecutive_failures: int = None  # type_help游戏专用：当前连续失败次数
     # Dust 游戏专用字段
     action_type: Any = None  # Dust 游戏：动作类型
     action_params: Dict[str, Any] = None  # Dust 游戏：动作参数
@@ -61,7 +63,7 @@ class GameSession:
 class GameLogger:
     """游戏日志记录器"""
 
-    def __init__(self, log_dir: Path, game_type: str, session_id: Optional[str] = None, resume: bool = False, model: Optional[str] = None):
+    def __init__(self, log_dir: Path, game_type: str, session_id: Optional[str] = None, resume: bool = False, model: Optional[str] = None, truncate_after_step: Optional[int] = None):
         """初始化日志记录器
 
         Args:
@@ -74,6 +76,7 @@ class GameLogger:
         self.log_dir = log_dir
         self.game_type = game_type
         self.model = model
+        self.truncate_after_step = truncate_after_step
         self.log_dir.mkdir(parents=True, exist_ok=True)
 
         # 如果是恢复模式且提供了session_id，则加载现有session
@@ -129,10 +132,29 @@ class GameLogger:
                 unlocked_files=action.get('unlocked_files'),
                 attempted_files=action.get('attempted_files'),
                 success_files=action.get('success_files'),
-                failed_files=action.get('failed_files')
+                failed_files=action.get('failed_files'),
+                hint_unlocked_files=action.get('hint_unlocked_files'),
+                consecutive_failures=action.get('consecutive_failures'),
+                action_type=action.get('action_type'),
+                action_params=action.get('action_params'),
+                current_node_id=action.get('current_node_id'),
+                keyword_pool=action.get('keyword_pool'),
+                known_events=action.get('known_events'),
+                event_pool=action.get('event_pool'),
+                read_events=action.get('read_events'),
+                locked_events=action.get('locked_events'),
+                score=action.get('score'),
+                keys=action.get('keys'),
+                character_orders=action.get('character_orders'),
+                order_judgements=action.get('order_judgements'),
+                awarded_pairs=action.get('awarded_pairs'),
             )
             for action in session_data['actions']
         ]
+
+        # 不截断已有记录，直接保留全部历史，新步骤追加在后面
+        # if self.truncate_after_step is not None:
+        #     actions = [a for a in actions if a.step <= self.truncate_after_step]
 
         self.session = GameSession(
             session_id=session_data['session_id'],
@@ -158,6 +180,8 @@ class GameLogger:
         attempted_files: Optional[List[str]] = None,
         success_files: Optional[List[str]] = None,
         failed_files: Optional[List[str]] = None,
+        hint_unlocked_files: Optional[List[str]] = None,
+        consecutive_failures: Optional[int] = None,
         # Dust 游戏专用参数
         action_type: Any = None,
         action_params: Optional[Dict[str, Any]] = None,
@@ -186,6 +210,8 @@ class GameLogger:
             attempted_files=None,  # 不记录
             success_files=None,  # 不记录
             failed_files=failed_files,
+            hint_unlocked_files=hint_unlocked_files,
+            consecutive_failures=consecutive_failures,
             # Dust 游戏字段
             action_type=action_type,
             action_params=action_params,

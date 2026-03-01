@@ -112,7 +112,7 @@ async def main_async():
         print(f"[OK] Using KeywordRetrieverTool")
 
     # 创建游戏特定的Prompt构建器
-    prompt_builder = create_prompt_builder(env_config, llm_config.goal_instruction)
+    prompt_builder = create_prompt_builder(env_config, llm_config.goal_instruction, agent_config)
     print(f"[OK] PromptBuilder created for game: {env_config.game_type}")
 
     # 创建游戏特定的工具类
@@ -144,7 +144,7 @@ async def main_async():
     log_dir = ROOT / "logs"
     if resume_from and logger_session_id:
         # 恢复模式：使用checkpoint中的logger_session_id
-        logger = GameLogger(log_dir, env_config.game_type, session_id=logger_session_id, resume=True, model=llm_config.model)
+        logger = GameLogger(log_dir, env_config.game_type, session_id=logger_session_id, resume=True, model=llm_config.model, truncate_after_step=start_step)
     else:
         # 新建模式
         logger = GameLogger(log_dir, env_config.game_type, model=llm_config.model)

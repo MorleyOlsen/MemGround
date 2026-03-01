@@ -17,9 +17,10 @@ class TypeHelpPromptBuilder(BasePromptBuilder):
     - 需要根据已解锁文件推断新文件名
     """
 
-    def __init__(self, goal_instruction, test_language: str = "ch"):
+    def __init__(self, goal_instruction, test_language: str = "ch", provide_naming_rules: bool = False):
         self.goal_instruction = goal_instruction
         self.test_language = test_language  # ch or en
+        self.provide_naming_rules = provide_naming_rules
 
     # 总的提示
     def build_system_prompt(self, game_context: Optional[Dict[str, Any]] = None) -> str:
@@ -43,9 +44,28 @@ class TypeHelpPromptBuilder(BasePromptBuilder):
         策略：
         1. 优先打开已经解锁但尚未查看过的文件可以帮助你获取更多信息。
         2. 文件名中包含问号的部分是需要你来进行猜测的
-        2. 对于已经失败的文件，**不要再次尝试同一个已经失败的文件名**，要尝试其他的组合方式。
-        3. 在猜测文件名时，仔细分析已解锁文件中的命名模式，例如数字的含义，数字大小的排序关系，字母的含义等等
-        4. 对于角色的编号，不要猜测文本信息中未出现的数字过大的编号
+        3. 对于已经失败的文件，**不要再次尝试同一个已经失败的文件名**，要尝试其他的组合方式。
+        4. 在猜测文件名时，仔细分析已解锁文件中的命名模式，例如数字的含义，数字大小的排序关系，字母的含义等等
+        5. 对于角色的编号，不要猜测文本信息中未出现的数字过大的编号
+        6. **重点关注人员流动信息**：仔细阅读对话和场景描述，提取以下线索来推断下一个文件名：
+           - 某角色说"我要去XXX"、"去XXX找他"、被叫去某个地点——说明该角色会出现在下一个时间段的该地点文件中
+           - 某角色离开当前场景——他将不再出现在当前地点的后续文件中，而会出现在新地点的文件中
+           - 新角色进入场景——说明这些角色编号应该加入当前地点后续文件的编号列表中
+           - 多人相约前往同一地点——这些人的编号应同时出现在目标地点的文件名中
+        7. **重点阅读每个节点文本的开头和结尾**：人员流动信息往往集中在这两处——开头描述了谁进入了场景或从哪里来，结尾描述了谁离开、去往何处，或约定了下一步行动。
+        """
+
+        # 命名规则说明（开关控制）
+        if self.provide_naming_rules:
+            base_prompt += """
+
+        **文件命名规则**：
+        文件名格式为：`[两位时间编号]-[两字母地点代码]-[角色编号1]-[角色编号2]-...`
+        - **时间编号**：两位数字，表示时间顺序（如 01、02、03 ...），数字越大越靠后
+        - **地点代码**：两个大写字母，表示场景地点（如 LI、KI、DI、EN、QU 等）
+        - **角色编号**：出现在该时间和地点的角色编号，多个编号之间用 `-` 分隔，**按升序排列**
+        - 示例：`03-LI-1-4-5` 表示时间段 03、地点 LI、角色 1、4、5 都在场
+        - 特殊文件（如 `00-readme`、`00-invitation`）以 `00` 开头，是背景参考文件，不遵循上述规则
         """
 
         # 添加已解锁文件列表到系统提示
@@ -69,6 +89,25 @@ class TypeHelpPromptBuilder(BasePromptBuilder):
         3. For failed files, **do not try the same failed filename again**; try other combinations.
         4. When guessing filenames, carefully analyze the naming patterns in unlocked files, such as the meaning of numbers, the ordering relationship of number sizes, the meaning of letters, etc.
         5. For character numbers, do not guess numbers that are too large and haven't appeared in the text information.
+        6. **Focus on character movement information**: Carefully read dialogues and scene descriptions to extract these clues for deducing the next filename:
+           - A character says "I'm going to [location]", "Go find him at [location]", or is summoned to a location — this character will appear in the next time slot's file for that location
+           - A character leaves the current scene — they will no longer appear in subsequent files of the current location, but will appear in files of the new location
+           - New characters enter the scene — their numbers should be added to the current location's subsequent file name
+           - Multiple characters heading to the same location — all their numbers should appear together in the target location's filename
+        7. **Pay special attention to the beginning and end of each node's text**: Character movement clues tend to concentrate there — the opening describes who enters the scene or where they came from, while the ending describes who leaves, where they are going, or what action is planned next.
+        """
+
+        # Naming rules (switch-controlled)
+        if self.provide_naming_rules:
+            base_prompt += """
+
+        **File Naming Rules**:
+        The filename format is: `[two-digit time number]-[two-letter location code]-[character number 1]-[character number 2]-...`
+        - **Time number**: Two digits indicating chronological order (e.g. 01, 02, 03 ...), larger numbers mean later in time
+        - **Location code**: Two uppercase letters representing the scene location (e.g. LI, KI, DI, EN, QU, etc.)
+        - **Character numbers**: Numbers of characters present at that time and location, separated by `-`, **listed in ascending order**
+        - Example: `03-LI-1-4-5` means time slot 03, location LI, characters 1, 4, and 5 are present
+        - Special files (e.g. `00-readme`, `00-invitation`) start with `00` and are background/reference files that do not follow the above pattern
         """
 
         # Add unlocked file list to system prompt
@@ -148,11 +187,11 @@ class TypeHelpPromptBuilder(BasePromptBuilder):
             If needed, list the filenames you want to review (select from the read files list, maximum 3 most relevant files).
             Do not select files that already exist in current memory.
 
-            Output format (strictly follow this JSON format):
+            Output format (strictly follow this JSON format, all text values must be in English):
             {{
             "need_retrieval": true/false,
             "filenames": ["filename1", "filename2", ...],
-            "reason": "<brief explanation of why you need to view these files>"
+            "reason": "<brief explanation in English of why you need to view these files>"
             }}
 
             """.strip()
@@ -214,6 +253,13 @@ class TypeHelpPromptBuilder(BasePromptBuilder):
         文件操作记录：{file_info_str}；"""
 
         prompt += """
+        （内部推理，不要输出分析过程）在做决策前，请在内部思考以下要素：
+        【人员流动分析】从当前节点和历史记忆中分析（重点阅读每个节点文本的**开头**和**结尾**，那里往往集中了最多的人员流动信息）：
+          - 哪些角色提到要前往某个地点（或被要求前往）？→ 目标地点 + 这些角色编号
+          - 哪些角色离开了当前场景？→ 他们将出现在新地点的文件中
+          - 哪些新角色进入了场景？→ 他们的编号应加入后续文件名
+        基于以上分析和文件命名规则，直接输出以下 JSON，不要输出任何其他内容：
+
         输出格式 (严格按照以下json格式输出):
         {
         "choice_text": <文件名>,
@@ -258,10 +304,17 @@ class TypeHelpPromptBuilder(BasePromptBuilder):
         File operation records: {file_info_str};"""
 
         prompt += """
-        Output format (strictly follow this JSON format):
+        (Internal reasoning only — do NOT output the analysis) Before deciding, think through the following internally:
+        [Character Movement Analysis] From the current node and historical memory, analyze (pay special attention to the **beginning** and **end** of each node's text — that is where character movement clues are most concentrated):
+          - Which characters mentioned going to (or were directed to) a location? → Target location + their numbers
+          - Which characters left the current scene? → They will appear in files of the new location
+          - Which new characters entered the scene? → Their numbers should appear in subsequent filenames
+        Based on this analysis and the file naming rules, output ONLY the following JSON in English, nothing else. Do NOT output any analysis, explanation, or text outside the JSON.
+
+        Output format (strictly follow this JSON format, all text values must be in English):
         {
         "choice_text": <filename>,
-        "reason": "<brief reason explaining why this choice helps achieve the goal>"
+        "reason": "<one sentence in English, max 20 words, explaining why this choice helps achieve the goal>"
         "recall": <list of filenames that you think are related to this choice, or empty list if none>
         }
         """
@@ -329,7 +382,12 @@ class TypeHelpPromptBuilder(BasePromptBuilder):
         """
         conversations_text = "\n\n".join(conversations)
 
-        prompt = f"""将以下内容进行压缩总结，只保留关键信息（例如重要的文件名、文件主要内容、角色、事件顺序等等）。
+        if self.test_language == "en":
+            prompt = f"""Summarize the following content, keeping only the key information (e.g. important filenames, main content of files, characters, sequence of events, etc.).
+                Conversation content: {conversations_text}
+                """
+        else:
+            prompt = f"""将以下内容进行压缩总结，只保留关键信息（例如重要的文件名、文件主要内容、角色、事件顺序等等）。
                 对话内容：{conversations_text}
                 """
 

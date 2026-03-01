@@ -66,12 +66,13 @@ def create_game_env(env_config: EnvConfig, root_path: Path) -> BaseGameEnv:
         raise ValueError(f"Unknown game type: {game_type}")
 
 
-def create_prompt_builder(env_config: EnvConfig, goal_instruction: str) -> BasePromptBuilder:
+def create_prompt_builder(env_config: EnvConfig, goal_instruction: str, agent_config=None) -> BasePromptBuilder:
     """根据游戏类型创建对应的Prompt构建器
 
     Args:
         env_config: 环境配置
         goal_instruction: 游戏目标指令
+        agent_config: Agent配置（可选，用于传递功能开关）
 
     Returns:
         游戏特定的Prompt构建器实例
@@ -86,12 +87,20 @@ def create_prompt_builder(env_config: EnvConfig, goal_instruction: str) -> BaseP
     elif game_type == "type_help":
         # 导入Type Help游戏的prompt builder
         from env.type_help.prompt_builder import TypeHelpPromptBuilder
-        return TypeHelpPromptBuilder(goal_instruction, test_language=env_config.test_language)
+        return TypeHelpPromptBuilder(
+            goal_instruction,
+            test_language=env_config.test_language,
+            provide_naming_rules=getattr(env_config, 'provide_naming_rules', False),
+        )
 
     elif game_type == "dust":
         # 导入Dust游戏的prompt builder
         from env.dust.prompt_builder import DustPromptBuilder
-        return DustPromptBuilder(goal_instruction, test_language=env_config.test_language)
+        return DustPromptBuilder(
+            goal_instruction,
+            test_language=env_config.test_language,
+            show_order_judgements_history=getattr(agent_config, 'show_order_judgements_history', True)
+        )
 
     else:
         raise ValueError(f"Unknown game type: {game_type}")

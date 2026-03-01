@@ -93,10 +93,16 @@ def judge_character_orders(
                 })
                 continue
 
-            # 判定排序正确性：两个事件都属于该角色且 earlier_num与 later_num差1（相邻）
-            is_correct = (earlier_num != -1 and later_num != -1 and later_num - earlier_num == 1)
+            # 判定排序正确性
+            if earlier_num == -1 or later_num == -1:
+                result = "unknown"  # 存在事件不属于该角色，无法判断
+            elif later_num - earlier_num == 1:
+                result = "correct"  # 顺序正确且连续
+            elif later_num > earlier_num:
+                result = "correct_not_consecutive"  # 顺序正确但不连续
+            else:
+                result = "incorrect"  # 顺序错误
 
-            result = "correct" if is_correct else "incorrect"
             order_judgements.append({
                 "character": character,
                 "earlier": earlier_event,
@@ -104,8 +110,8 @@ def judge_character_orders(
                 "result": result
             })
 
-            # 如果正确，计分并记录
-            if is_correct:
+            # 如果正确且连续，计分并记录
+            if result == "correct":
                 new_points += 1
                 current_awarded_pairs.add(pair_key)
 

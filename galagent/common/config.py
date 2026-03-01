@@ -40,6 +40,7 @@ class AgentConfig:
     enable_compression: bool = True  # 是否启用记忆压缩
     compression_threshold: int = 20  # 对话轮次超过此值时触发压缩
     compression_count: int = 10  # 每次压缩最早的n轮对话
+    show_order_judgements_history: bool = True  # 是否将所有历史排序判定展示给大模型
 
 
 @dataclass
@@ -60,6 +61,7 @@ class EnvConfig:
     test_language: str = "ch"  # ch or en (Chinese or English prompts)
     enable_hint: bool = False  # 是否启用失败次数提示功能 (仅type_help)
     hint_failure_threshold: int = 15  # 触发提示的连续失败次数阈值 (仅type_help)
+    provide_naming_rules: bool = False  # 是否在prompt中明确告知文件命名规则 (仅type_help)
 
 
 class ConfigLoader:
@@ -130,6 +132,7 @@ class ConfigLoader:
             enable_compression=bool(agent.get("enable_compression", True)),
             compression_threshold=int(agent.get("compression_threshold", 20)),
             compression_count=int(agent.get("compression_count", 10)),
+            show_order_judgements_history=bool(agent.get("show_order_judgements_history", True)),
         )
 
     def load_checkpoint_config(self) -> CheckpointConfig:
@@ -154,6 +157,7 @@ class ConfigLoader:
             test_language=str(env.get("test_language", "ch")),
             enable_hint=bool(env.get("enable_hint", False)),
             hint_failure_threshold=int(env.get("hint_failure_threshold", 15)),
+            provide_naming_rules=bool(env.get("provide_naming_rules", False)),
         )
 
 

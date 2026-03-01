@@ -56,6 +56,17 @@ class GalgameAgent:
         initial_obs = self.env.observe()
         self.store.add_message(initial_obs.text, role="user", step=0, node_id=initial_obs.node_id, name=initial_obs.name)
 
+        # 早停：连续 N 步无自主新节点则终止
+        _EARLY_STOP_STEPS = 200
+        steps_no_new_self_unlock = 0
+        if hasattr(self.env, 'get_file_tracker_info'):
+            _ft = self.env.get_file_tracker_info()
+            _prev_self_unlock_count = len(
+                set(_ft.get('unlocked_files', [])) - set(_ft.get('hint_unlocked_files', []))
+            )
+        else:
+            _prev_self_unlock_count = 0
+
         for step in range(self.start_step, self.start_step + self.config.max_steps):
             # 获取游戏上下文（用于检索决策）
             game_context = self.game_utils.get_game_context(self.env)
@@ -69,7 +80,8 @@ class GalgameAgent:
                 story_summary = self.policy.generate_story_summary(game_context)
 
                 print("\n" + "=" * 70)
-                print("故事总结与推理")
+                is_en = getattr(getattr(self.policy, "prompt_builder", None), "test_language", "ch") == "en"
+                print("Story Summary & Reasoning" if is_en else "故事总结与推理")
                 print("=" * 70)
                 print(story_summary)
                 print("=" * 70 + "\n")
@@ -102,26 +114,55 @@ class GalgameAgent:
                 decision_text += f"{recall_text}"
             self.store.add_message(decision_text, role="assistant", step=step)
 
-            # act
-            action_result = self.game_utils.execute_action(self.env, decision)
+            # act（捕获单步执行异常，避免一次失败终止整个运行）
+            try:
+                action_result = self.game_utils.execute_action(self.env, decision)
+            except Exception as e:
+                print(f"[Runner] Step {step} execute_action 失败，跳过本步: {e}")
+                action_result = False
 
             # 动作执行后的钩子（游戏特定处理，如记录已读文件、处理失败情况）
             self.game_utils.post_action_hook(decision, action_success=action_result, step=step)
+
+            # 早停检查：连续 N 步未自主发现新节点则提前终止
+            if hasattr(self.env, 'get_file_tracker_info'):
+                _ft = self.env.get_file_tracker_info()
+                _cur = len(set(_ft.get('unlocked_files', [])) - set(_ft.get('hint_unlocked_files', [])))
+                if _cur > _prev_self_unlock_count:
+                    steps_no_new_self_unlock = 0
+                else:
+                    steps_no_new_self_unlock += 1
+                _prev_self_unlock_count = _cur
+
+                if steps_no_new_self_unlock >= _EARLY_STOP_STEPS:
+                    print(f"\n[早停] 连续 {_EARLY_STOP_STEPS} 步未自主发现新节点，提前终止。")
+                    if self.logger:
+                        self.logger.log_ending(
+                            ending_node=current_obs.node_id,
+                            reached_ending=False,
+                            story_summary=f"早停：连续 {_EARLY_STOP_STEPS} 步未自主解锁新节点。"
+                        )
+                    return
 
             # 只有在动作成功时，才observe新节点并添加到记忆
             if action_result:
                 new_obs = self.env.observe()
                 self.store.add_message(new_obs.text, role="user", step=step+1, node_id=new_obs.node_id, name=new_obs.name)
+            else:
+                new_obs = None
 
             # log action
             if self.logger:
                 # 重新获取游戏上下文以包含最新的文件追踪信息（execute_action后的更新）
                 updated_game_context = self.game_utils.get_game_context(self.env)
 
+                # 使用动作执行后的观察结果记录日志（如果动作失败则使用执行前的观察）
+                log_obs = new_obs if action_result else current_obs
+
                 # 使用游戏工具格式化所有日志数据
                 log_data = self.game_utils.format_log_data(
                     step=step,
-                    obs=current_obs,
+                    obs=log_obs,
                     decision=decision,
                     game_context=updated_game_context,
                     retrieval_decision=retrieval_decision

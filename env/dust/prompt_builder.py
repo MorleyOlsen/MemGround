@@ -9,6 +9,46 @@ from galagent.env.base_prompt_builder import BasePromptBuilder
 from env.dust.utils.scoring import build_trace_structure, describe_trace
 
 
+def _format_judgements_history(order_judgements, lang="ch"):
+    """将历史排序判定按角色分组格式化为可读文本"""
+    if lang == "ch":
+        result_map = {
+            "correct": "顺序正确且连续（已得分）",
+            "correct_not_consecutive": "顺序正确但不连续（未得分）",
+            "incorrect": "顺序错误",
+            "unknown": "无法判断，存在事件不属于该角色",
+            "ignored": "已计分（跳过）"
+        }
+    else:
+        result_map = {
+            "correct": "correct and consecutive (scored)",
+            "correct_not_consecutive": "correct order but not consecutive (not scored)",
+            "incorrect": "wrong order",
+            "unknown": "cannot judge, some events don't belong to this character",
+            "ignored": "already scored (skipped)"
+        }
+
+    # 按角色分组，规范化角色名（去除首尾空白），并对相同 (earlier, later) 对只保留最新结果
+    by_char = {}
+    for j in order_judgements:
+        char = j["character"].strip()
+        by_char.setdefault(char, {})
+        pair_key = (j["earlier"], j["later"])
+        by_char[char][pair_key] = j["result"]  # 覆盖旧结果，保留最新
+
+    lines = []
+    for char, pair_map in by_char.items():
+        lines.append(f"{char}:")
+        for (earlier, later), result in pair_map.items():
+            label = result_map.get(result, result)
+            if earlier == later:
+                lines.append(f"  {earlier}: {label}")
+            else:
+                lines.append(f"  {earlier} -> {later}: {label}")
+        lines.append("")
+    return "\n".join(lines)
+
+
 class DustPromptBuilder(BasePromptBuilder):
     """Dust 推理游戏的 Prompt 构建器
 
@@ -19,9 +59,10 @@ class DustPromptBuilder(BasePromptBuilder):
     - 锁机制（问答解锁、钥匙解锁）
     """
 
-    def __init__(self, goal_instruction: str = "", test_language: str = "ch"):
+    def __init__(self, goal_instruction: str = "", test_language: str = "ch", show_order_judgements_history: bool = True):
         super().__init__(goal_instruction)
         self.test_language = test_language  # ch or en
+        self.show_order_judgements_history = show_order_judgements_history
         if test_language == "en":
             self.goal_instruction = "Unlock all events and reconstruct the complete story with as few attempts as possible through reasoning and ordering"
         else:
@@ -50,20 +91,29 @@ class DustPromptBuilder(BasePromptBuilder):
             游戏机制：
             1. 关键词发现：首次阅读事件文本时，会自动发现其中隐含的关键词，这些关键词会全部添加到你的关键词池中。
             2. 事件解锁：使用关键词可以解锁与该关键词关联的新事件。解锁后你会知道事件的名称，但需要主动阅读才能获得完整内容。
-            3. 事件阅读：从可阅读事件池中选择一个事件进行阅读，阅读后获得该事件的完整叙述、关键信息等。
+            3. 事件阅读：
+               - 未阅读事件：从未阅读事件列表中选择事件进行首次阅读，阅读后获得完整内容并自动发现关键词
+               - 已阅读事件：可以重新阅读已阅读事件列表中的任何事件以回顾内容
             4. 人物事件排序：每个事件涉及多个角色。你需要推断事件在各角色视角下的发生顺序。提交正确的排序可以获得积分。
             5. 计分与钥匙：每正确排序一对事件（某角色视角下的"较早-较晚"且连续发生的关系），获得 1 分，累积一定分数后自动获得钥匙，已经计分的事件对不会重复计分
             6. 锁机制：
             - 粉色锁 (pink) 和 紫色锁 (purple)：通过回答问题解锁
             - 黄色锁 (yellow)：消耗 1 把钥匙解锁
 
-            策略建议：
-            - 优先阅读已解锁的事件，从中提取关键词和角色信息，使用发现的关键词解锁更多事件
-            - 当有足够信息时，再提交角色事件排序以获得分数和钥匙
-            - 当有钥匙时才尝试去解锁重要的黄色锁事件
-            - 遇到粉色/紫色锁时，根据已有信息推断答案
-            - 开头为"对话-"的节点不参与人物事件的排序
+            策略建议（按优先级排序）：
+            1. 优先使用关键词解锁新事件：当有可用关键词时，优先使用关键词解锁新事件，以扩展可探索的内容
+            2. 优先阅读未阅读事件：阅读未阅读事件列表中的事件，从中提取关键词和角色信息
+            3. 当无未阅读事件且无关键词时，尝试提交排序：
+               - 排序策略：先确定每个事件属于哪个角色，确认事件归属正确后，再在该角色的所有事件中推断时间顺序
+               - 即使信息不完整也可以尝试，正确的排序会获得分数和钥匙
+            4. 当有钥匙时，解锁黄色锁事件：使用钥匙解锁重要的黄色锁事件
+            5. 当有足够信息时，回答问题解锁粉色/紫色锁：根据已读事件推断答案
+            6. 如需回顾细节，可以从已阅读事件列表中选择事件重新阅读
+
+            注意事项：
+            - 开头为"对话-"的节点（如"对话-1"、"对话-2"等）不包含任何重要推理信息，不参与人物事件的排序，无需反复阅读，也不要因为对话节点中的内容影响你对事件归属或顺序的判断
             - 提示：伊甸幼儿园角色下只有一个事件
+            - 不要过早解锁大量锁定事件，优先探索无锁事件
             """
 
         # 添加当前游戏状态信息
@@ -72,7 +122,7 @@ class DustPromptBuilder(BasePromptBuilder):
             base_prompt += f"\n\n当前游戏状态："
             base_prompt += f"\n- 钥匙: {state.get('keys', 0)}"
             base_prompt += f"\n- 可使用的关键词 ({len(state.get('keyword_pool', []))}): {sorted(state.get('keyword_pool', []))}"
-            base_prompt += f"\n- 可阅读事件 ({len(state.get('event_pool', []))}): {state.get('event_pool', [])}"
+            base_prompt += f"\n- 未阅读事件 ({len(state.get('event_pool', []))}): {state.get('event_pool', [])}"
             base_prompt += f"\n- 已阅读事件 ({len(state.get('read_events', []))}): {sorted(state.get('read_events', []))}"
 
             # 锁定事件信息
@@ -116,6 +166,12 @@ class DustPromptBuilder(BasePromptBuilder):
 
                 base_prompt += f"\n\n**当前已提交的排序分析**：\n{trace_description}"
 
+            if self.show_order_judgements_history:
+                order_judgements = state.get('order_judgements', [])
+                if order_judgements:
+                    base_prompt += f"\n\n**历史排序判定记录（所有提交）**：\n"
+                    base_prompt += _format_judgements_history(order_judgements, lang="ch")
+
         print("system_prompt:",base_prompt)
         return base_prompt
 
@@ -128,20 +184,29 @@ class DustPromptBuilder(BasePromptBuilder):
             Game Mechanics:
             1. Keyword Discovery: When reading event text for the first time, keywords hidden within will be automatically discovered and added to your keyword pool.
             2. Event Unlocking: Use keywords to unlock new events associated with that keyword. After unlocking, you'll know the event name but need to actively read it to get the full content.
-            3. Event Reading: Select an event from the readable event pool to read. After reading, you'll get the complete narrative, key information, etc.
+            3. Event Reading:
+               - Unread Events: Select events from the unread events list for first-time reading to get full content and discover keywords
+               - Read Events: You can re-read any event from the read events list to review their content
             4. Character Event Ordering: Each event involves multiple characters. You need to infer the chronological order of events from each character's perspective. Submitting correct orderings earns points.
             5. Scoring and Keys: For each correctly ordered event pair (an "earlier-later" relationship from a character's perspective that are consecutive), you earn 1 point. Accumulating a certain score automatically gives you a key. Already scored event pairs won't be scored again.
             6. Lock Mechanism:
             - Pink and Purple locks: Unlock by answering questions
             - Yellow lock: Unlock by consuming 1 key
 
-            Strategy Suggestions:
-            - Prioritize reading unlocked events to extract keywords and character information, use discovered keywords to unlock more events
-            - Submit character event orderings when you have sufficient information to earn points and keys
-            - Only try to unlock important yellow-locked events when you have keys
-            - When encountering pink/purple locks, infer answers based on available information
-            - Nodes starting with "对话-" (Dialogue-) do not participate in character event ordering
+            Strategy Suggestions (in priority order):
+            1. Prioritize using keywords to unlock new events: When keywords are available, use them to unlock new events and expand explorable content
+            2. Prioritize reading unread events: Read events from the unread events list to extract keywords and character information
+            3. When no unread events and no keywords, try submitting orderings:
+               - Ordering strategy: First determine which character each event belongs to, then after confirming correct event attribution, infer the chronological order within that character's events
+               - Even if incomplete information, you can try - correct orderings earn points and keys
+            4. When you have keys, unlock yellow-locked events: Use keys to unlock important yellow-locked events
+            5. When you have sufficient information, answer questions to unlock pink/purple locks: Infer answers based on read events
+            6. You can select events from the read events list to re-read if you need to review details
+
+            Important Notes:
+            - Nodes starting with "对话-" (e.g. "对话-1", "对话-2") contain no important reasoning information, do not participate in character event ordering, do not need to be repeatedly read, and must not influence your judgment on event attribution or ordering
             - Hint: There is only one event under the 伊甸幼儿园 (Eden Kindergarten) character
+            - Don't unlock too many locked events too early, prioritize exploring unlocked events
             """
 
         # 添加当前游戏状态信息
@@ -150,7 +215,7 @@ class DustPromptBuilder(BasePromptBuilder):
             base_prompt += f"\n\nCurrent Game State:"
             base_prompt += f"\n- Keys: {state.get('keys', 0)}"
             base_prompt += f"\n- Available Keywords ({len(state.get('keyword_pool', []))}): {sorted(state.get('keyword_pool', []))}"
-            base_prompt += f"\n- Readable Events ({len(state.get('event_pool', []))}): {state.get('event_pool', [])}"
+            base_prompt += f"\n- Unread Events ({len(state.get('event_pool', []))}): {state.get('event_pool', [])}"
             base_prompt += f"\n- Read Events ({len(state.get('read_events', []))}): {sorted(state.get('read_events', []))}"
 
             # 锁定事件信息
@@ -193,6 +258,12 @@ class DustPromptBuilder(BasePromptBuilder):
                 trace_description = describe_trace(trace)
 
                 base_prompt += f"\n\n**Current Submitted Ordering Analysis**:\n{trace_description}"
+
+            if self.show_order_judgements_history:
+                order_judgements = state.get('order_judgements', [])
+                if order_judgements:
+                    base_prompt += f"\n\n**Historical Ordering Judgements (all submissions)**:\n"
+                    base_prompt += _format_judgements_history(order_judgements, lang="en")
 
         print("system_prompt:",base_prompt)
         return base_prompt

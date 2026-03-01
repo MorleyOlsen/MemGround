@@ -272,11 +272,15 @@ class TypeHelpGameUtils(BaseGameUtils):
         attempted_files = None
         success_files = None
         failed_files = None
+        hint_unlocked_files = None
+        consecutive_failures = None
         if file_tracker_info:
             unlocked_files = file_tracker_info.get("unlocked_files", [])
             attempted_files = file_tracker_info.get("attempted_files", [])
             success_files = file_tracker_info.get("success_files", [])
             failed_files = file_tracker_info.get("failed_files", [])
+            hint_unlocked_files = file_tracker_info.get("hint_unlocked_files", [])
+            consecutive_failures = file_tracker_info.get("consecutive_failures", 0)
 
         # 构建日志数据
         log_data = {
@@ -289,7 +293,9 @@ class TypeHelpGameUtils(BaseGameUtils):
             "unlocked_files": unlocked_files,
             "attempted_files": attempted_files,
             "success_files": success_files,
-            "failed_files": failed_files
+            "failed_files": failed_files,
+            "hint_unlocked_files": hint_unlocked_files,
+            "consecutive_failures": consecutive_failures,
         }
 
         # 添加文件检索决策信息
