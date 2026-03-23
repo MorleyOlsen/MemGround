@@ -50,13 +50,13 @@ from galagent.memory.store import MemoryStore
 GAME_CONFIG: Dict[str, Optional[Dict]] = {
     "no_case_should_remain_unsolved": {
         "qa_path":    "dataset/no_case_should_remain_unsolved-en/qa/no_case_should_remain_unsolved_qa_eval.json",
-        "stories_dir": "dataset/no_case_should_remain_unsolved-en/stories",
+        "stories_dir": "dataset/no_case_should_remain_unsolved-en/qa/stories",
         "story_name": "no_case_should_remain_unsolved_en",
         "language":   "en",
     },
     "type_help": {
         "qa_path":    "dataset/type_help-en/qa/type_help_qa_eval.json",
-        "stories_dir": "dataset/type_help-en/stories",
+        "stories_dir": "dataset/type_help-en/qa/stories",
         "story_name": "type_help_en",
         "language":   "en",
     },

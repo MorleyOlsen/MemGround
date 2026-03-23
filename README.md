@@ -522,8 +522,8 @@ dataset/
 │   ├── qa/
 │   │   ├── type_help_qa_eval.json        # QA evaluation questions
 │   │   ├── human_adj.csv                 # Human-annotated adjacency matrix
-│   │   └── node_id_map.csv               # Node ID ↔ name mapping (for analysis)
-│   └── stories/                          # Story text assets
+│   │   ├── node_id_map.csv               # Node ID ↔ name mapping (for analysis)
+│   │   └── stories/type_help_en/         # Story text assets (used by QA)
 │
 ├── no_case_should_remain_unsolved-en/
 │   ├── data/
@@ -531,8 +531,8 @@ dataset/
 │   │   ├── dialogue-en.json              # NPC dialogue texts
 │   │   └── order_gt-en.json              # Ground-truth event ordering
 │   ├── qa/
-│   │   └── no_case_should_remain_unsolved_qa_eval.json  # QA evaluation questions
-│   └── stories/                          # Story text assets
+│   │   ├── no_case_should_remain_unsolved_qa_eval.json  # QA evaluation questions
+│   │   └── stories/no_case_should_remain_unsolved_en/  # Story text assets (used by QA)
 │
 └── trpg_en/
     ├── stories/
