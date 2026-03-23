@@ -1,0 +1,252 @@
+{
+  "section": "14. Dragon Slaying Battle: Bow and Arrow and Vital Points",
+  "description": "The investigators work together to aim silver arrows at the dragon's vital points, confirming the tattoo location. The \"Dragon Slaying\" battle nears its end.",
+  "conversation": [
+    {
+      "speaker": "player8",
+      "text": "#Exert all effort, attack an enemy again"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player8>'s Sword 50 Prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra Dodge 45"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player3>'s Dodge 45 Prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "The two severely wounded knights possess a golden spirit, but their bodies tell them that emotions are useless in the face of reality. Both are now within two meters of the crossbows. The moment their attacks miss, the archers expressionlessly take half a step back, quickly draw their bows and nock arrows. The cold arrowheads uniformly aim at the exposed chests and throats of the two. The taut bowstrings hum in the air. The next second, the arrow volley is released; the whistling of the arrows cutting through the air is sharp as the whisper of death. Iron-gray streaks of cold light tear through the air, heading straight for the vital points of the two wounded!"
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra Shield 50"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player8>'s Shield 50 Prayer:"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Dodge left and right, jump!"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player7>'s 35 Prayer:"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Prayer]"
+    },
+    {
+      "speaker": "player3",
+      "text": ".rab 50"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player3>'s 50 Prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".rab 50"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player3>'s 50 Prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".r2d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player7",
+      "text": ".r2d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player7",
+      "text": ".r1d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player3",
+      "text": "Amidst the sharp whistling of arrows cutting through the air, an iron arrow slams hard into player7's chest. The arrowhead strikes the metal rings of the chainmail, emitting a piercing clang. The arrowhead fails to fully penetrate, but the impact still sends player7 staggering backward, crashing heavily against the ruined altar. Although the chainmail blocks a fatal piercing, his ribs may be fractured, and whether the arrowhead has injured his lungs remains unknown. Cold sweat trickles down his temple, mixing with blood and grime, and his complexion visibly turns ashen."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player3>'s 40 Prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".rab 40"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player3>'s 40 Prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".rab 40"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player3>'s 40 Prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".r4d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player3",
+      "text": "( Then player8, roll for armor ()"
+    },
+    {
+      "speaker": "player8",
+      "text": ".r1d8"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm going to roll..."
+    },
+    {
+      "speaker": "player8",
+      "text": ".r1d8"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm going to roll..."
+    },
+    {
+      "speaker": "player3",
+      "text": "(Because it's deducted one by one, there's no major injury (0"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Better to capture him alive!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The poet takes the chance to slide on his knees to player7 and player8, pulling out two glass vials labeled \"Holy Oil\" from his chest. \"Drink! If you don't die, it's a win!\" He pries open their jaws and pours it directly. \"Don't ask about the recipe—it's cleaner than the Pope's bathwater anyway!\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Capture the one with the eyepatch alive!\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Take advantage of the chaos to quickly drag Martinos back, open the first aid kit, and use bandages to bind the blood vessels in the injured limbs to prevent blood loss."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Rub my own body, which has been burned by the dragon and pierced by arrows who knows how many times."
+    },
+    {
+      "speaker": "player8",
+      "text": ".st hp1"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player8>'s coc7 attribute registration completed, 1 piece of data updated this time."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Rush in front of the two and administer emergency measures to them."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player6>'s Medicine 50 prayer:"
+    },
+    {
+      "speaker": "player9",
+      "text": "#Take off my own field first aid kit and hand it over to this lady with both hands. \"Please, I'm not good at healing either.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "(Then another First Aid is needed (0"
+    },
+    {
+      "speaker": "player9",
+      "text": "#Take out a cross, sprinkle some holy water on these two, and briefly chant a prayer. \"…………Amen.\" Then draw my sword and charge forward to slash at those cultists."
+    },
+    {
+      "speaker": "player6",
+      "text": "#player7's condition is giving player6 a headache."
+    },
+    {
+      "speaker": "player3",
+      "text": "(.r1d2)"
+    },
+    {
+      "speaker": "player6",
+      "text": "#She decides to check on player7's condition."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player6>'s First Aid 50 prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "player9 obtains some scimitars and crossbows, and of course, blue robes."
+    },
+    {
+      "speaker": "player6",
+      "text": ".rd10"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm going to roll..."
+    },
+    {
+      "speaker": "player3",
+      "text": "Of course, you also discover that beneath that metal eyepatch is an eye that has already begun to rot."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Open it and take a look."
+    },
+    {
+      "speaker": "player3",
+      "text": "A quarto-sized wax paper with Latin and Greek inscriptions: He shall descend upon the Bloody Tower at the request of his favorite child and supplicant. This city shall be stained red with blood and fire."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Take a deep breath and continue reading."
+    },
+    {
+      "speaker": "player3",
+      "text": "Three scrolls of paper describing the ritual to perceive the Flayed Ones."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Look!"
+    },
+    {
+      "speaker": "player3",
+      "text": "A small diamond-shaped clay box that can be opened from the middle and is sealed with wax. It bears warnings in Greek and Latin, cautioning that opening it will bring death."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Not opening anymore, stopping here"
+    }
+  ],
+  "start_line": 4048,
+  "end_line": 4358
+}

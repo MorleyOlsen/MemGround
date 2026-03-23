@@ -1,0 +1,10 @@
+{
+  "section": "07-ED-10",
+  "description": "Eve Dauer rests alone in Edmund Galley’s room, during which thunder occurs and a distinctive knocking sound is heard.",
+  "conversation": [
+    {
+      "speaker": "dialogue",
+      "text": "Description: Eve Dauer rests alone in Edmund Galley’s room, during which thunder occurs and a distinctive knocking sound is heard.\nLocation: Edmund Galley’s room (Edmund's room)\nKey Information:\n  - Eve Dauer is asleep and makes faint snoring sounds.\n  - There is a single thunderclap outside, but it does not affect her sleep.\n  - Someone knocks on the door in a clearly distinctive pattern.\n  - After the knocking, Eve Dauer wakes up and allows the visitor to enter.\nCharacters:\n  [Eve Dauer (Eve Dauer)] Person No. 10, resting in Edmund Galley’s room.\n    · Is asleep in this node.\n    · Responds after hearing the knocking and allows the visitor to enter."
+    }
+  ]
+}

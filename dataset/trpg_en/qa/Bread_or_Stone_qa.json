@@ -1,0 +1,986 @@
+[
+  {
+    "qa": [
+      {
+        "question": "Combining the reasons for the train suspension with the newspaper content, analyze the comprehensive reasons why the investigators decided to stay in Węgrów instead of going to other cities.",
+        "answer": "First, the train required three days of repairs due to anarchists blowing up the switches, forcing passengers to be stranded; this is the objective premise. Second, newspaper reports about the archaeological excavation caught Bai Lan's attention; he identified the artifacts as Byzantine relics from the Crusades period, possessing extremely high academic value. Ultimately, driven by interest in this archaeological discovery and the reality of needing to wait for railway repairs, everyone agreed to stay locally for exploration.",
+        "evidence": [
+          "D01:4",
+          "D01:10",
+          "D01:16",
+          "D01:23",
+          "D01:25"
+        ],
+        "category": 3,
+        "id": 1,
+        "depth": 3
+      },
+      {
+        "question": "Johnson's words and actions during the platform inspection and his performance in the alley fight show a huge contrast. What character trait does this contradiction reveal?",
+        "answer": "On the platform facing the police officer, Johnson deliberately emphasized his age, non-communist status, and compliance, even proactively handing over his documents to show innocence, acting like a harmless ordinary citizen. However, in the subsequent alley fight, he struck ruthlessly, using a spear to directly pierce an enemy's skull, displaying high combat proficiency and a cold side. This contrast reveals him as a seasoned, deeply concealed character skilled in disguise and with extensive practical experience, knowing how to appear weak before official forces to avoid trouble.",
+        "evidence": [
+          "D01:17",
+          "D01:19",
+          "D01:66",
+          "D01:71",
+          "D01:72"
+        ],
+        "category": 2,
+        "id": 2,
+        "depth": 2
+      },
+      {
+        "question": "During the street attack, how did Player4 (Bailan)'s shooting check result directly determine the initial direction of the combat?",
+        "answer": "Player4 made two handgun checks at the start of combat, achieving a success and a hard success respectively. This high-level performance is narrated as precise shots hitting the heart and lungs of the gun-wielding enemy, directly causing the most threatening gunman to die on the spot. This not only instantly halved the enemy's combat strength but also shifted the team from passive defense to advantageous encirclement, creating a safe environment for Johnson to deal with the remaining enemies.",
+        "evidence": [
+          "D01:41",
+          "D01:42",
+          "D01:52",
+          "D01:63"
+        ],
+        "category": 5,
+        "id": 3,
+        "depth": 1
+      },
+      {
+        "question": "What is the connection between Player8 (Yamina)'s behavioral logic when seeking help and her real situation?",
+        "answer": "Player8 was being closely pursued by a knife-wielding thug and a gunman, in extreme danger and unable to escape alone. She chose to rush towards the investigators on the roadside and pretend to intimately hug Bai Lan to use the \"acquaintance\" illusion to confuse the pursuers, hoping they would hesitate due to witnesses or mistakenly think she had backup. This quick-witted act of using strangers as cover reflects her desperate situation and strong on-the-spot reaction ability.",
+        "evidence": [
+          "D01:33",
+          "D01:35",
+          "D01:39",
+          "D01:70"
+        ],
+        "category": 1,
+        "id": 4,
+        "depth": 2
+      },
+      {
+        "question": "Comparing Johnson's two spear attack checks in combat, how is the numerical difference reflected in the narrative description?",
+        "answer": "Johnson's first attack was only a regular success (D100=36/50), narrated as being dodged by the opponent, causing only a superficial wound. The second attack achieved an extreme success (D100=4/50), narrated as upgraded to a fatal blow, with the spear cleaving down and piercing the skull, causing immediate death. This narrative escalation from \"graze\" to \"instant kill\" precisely corresponds to the qualitative leap in dice results from regular success to extreme/hard success.",
+        "evidence": [
+          "D01:51",
+          "D01:58",
+          "D01:66",
+          "D01:71"
+        ],
+        "category": 5,
+        "id": 5,
+        "depth": 1
+      },
+      {
+        "question": "What deep influence did the current political atmosphere in Węgrów have on the investigators' decision to flee the scene immediately after the gunfight?",
+        "answer": "A bomb attack just occurred locally, police are on high alert, strictly checking anarchists and communists, and several foreigners have already been taken away. In this high-pressure environment, investigators getting involved in a street gunfight and leaving corpses could easily be labeled as terrorists or radical organization members by the police. Therefore, even though they acted in self-defense, to avoid an unexplainable prison sentence, they must completely disappear before the police arrive.",
+        "evidence": [
+          "D01:4",
+          "D01:16",
+          "D01:21",
+          "D01:67",
+          "D01:71"
+        ],
+        "category": 4,
+        "id": 6,
+        "depth": 3
+      },
+      {
+        "question": "In the hospital scene, player4 tried to obtain the doctor's address by showing his identity. What narrative consequence did this failed check cause?",
+        "answer": "Player4 attempted to persuade the nurse to reveal the doctor's address through a Credit Rating check, but the result was 41/40 (failure). This caused the nurse to insist on professional ethics and refuse to disclose private information, only offering a message book, forcing the investigators to find another way or recruit locals to find clues.",
+        "evidence": [
+          "D02:34",
+          "D02:38",
+          "D02:39",
+          "D02:46"
+        ],
+        "category": 5,
+        "id": 7,
+        "depth": 1
+      },
+      {
+        "question": "How did the pharmacist's refusal to prescribe medicine directly lead to player9 joining the investigators' team?",
+        "answer": "The pharmacist refused player9's request for painkillers for his sister due to unpaid debts, putting him in a desperate situation needing money urgently. Precisely because of this, when player9 saw the out-of-town investigators, he proactively approached to sell himself as a \"helper who can shoot\" for an advance on salary, thus joining the team.",
+        "evidence": [
+          "D02:53",
+          "D02:54",
+          "D02:55",
+          "D02:77"
+        ],
+        "category": 1,
+        "id": 8,
+        "depth": 2
+      },
+      {
+        "question": "How did the investigators determine their next step to go to Zvonarska Street? What clues need to be combined?",
+        "answer": "First, player8 obtained the encrypted note left by her father at the hotel front desk, reading \"Zagreb/Clock/King.\" Subsequently, the newly joined local player9, relying on familiarity with local geography, interpreted these keywords as Zvonarska Street between the crossroads of Zagrebacka and Kralja Zvonimia, thus pinpointing the specific location.",
+        "evidence": [
+          "D02:8",
+          "D02:11",
+          "D02:63",
+          "D02:66"
+        ],
+        "category": 3,
+        "id": 9,
+        "depth": 3
+      },
+      {
+        "question": "What deep impact did the letter obtained at the hotel have on player8's state of mind?",
+        "answer": "The hotel had no record of the person, and the left letter was interpreted by companions as a \"distress letter\" and \"entrusting final affairs,\" shattering player8's original simple expectation of finding a relative. She shifted from previous calmness to obvious anxiety (clenching hands, holding forehead) and realized the dangerous situation, thus immediately deciding to seek shelter and help from her father's comrade, Dr. Berenzada.",
+        "evidence": [
+          "D02:8",
+          "D02:9",
+          "D02:13",
+          "D02:15"
+        ],
+        "category": 4,
+        "id": 10,
+        "depth": 3
+      },
+      {
+        "question": "Combining the bookstore clerk's explanation and player6's actions, what state can be seen regarding the \"hunting\" action currently?",
+        "answer": "Currently, \"hunting\" is only in the administrative preparation stage, not yet started. Player6 signed the documents and paid the deposit but explicitly stated \"when I want to hunt\" to come get the gun, and the clerk emphasized strict terms and the guide's supervisory authority, indicating the investigators currently do not possess hunting rifles and have not entered the hunting area.",
+        "evidence": [
+          "D02:2",
+          "D02:6",
+          "D02:4",
+          "D02:1"
+        ],
+        "category": 3,
+        "id": 11,
+        "depth": 3
+      },
+      {
+        "question": "Why did Professor Moric specifically choose to leave a note in English instead of the local language? What motivation is implied behind this?",
+        "answer": "Dr. Moric used English to leave the letter to set a reading barrier, ensuring the information would only be read by specific people (like his highly educated daughter or foreign investigators), thus avoiding the eyes of most ordinary locals. This indicates he was in a dangerous state requiring high secrecy or even guarding against local forces, distrusting the surrounding environment.",
+        "evidence": [
+          "D03:46",
+          "D03:53",
+          "D03:55"
+        ],
+        "category": 1,
+        "id": 12,
+        "depth": 2
+      },
+      {
+        "question": "Combining the bookstore old man's recollection of Professor Moric's state and the items left by the professor, what situation can be inferred that the professor was in at that time?",
+        "answer": "The doctor was in an extremely hurried state, fleeing or seeking emergency refuge while sensing danger. He entered the store panting, directly specified his daughter to pick up the book, and a receipt pointing to the next clue (warehouse) was tucked inside, indicating he could no longer handle subsequent matters personally and had to use this cryptic method for handover.",
+        "evidence": [
+          "D03:14",
+          "D03:17",
+          "D03:32"
+        ],
+        "category": 3,
+        "id": 13,
+        "depth": 3
+      },
+      {
+        "question": "What contradiction exists between player8's reaction when asking about her father's condition in the bookstore and her subsequent words and actions? What does this reveal about her psychological state?",
+        "answer": "When asking about her father's condition, she appeared urgent and even somewhat distraught (leaning over the table), but later showed extreme suspicion towards the English clue left by her father, even thinking it was forged. This contradiction reveals she both desperately wants to find her father and, due to the bizarre situation, holds high vigilance and insecurity towards all clues.",
+        "evidence": [
+          "D03:15",
+          "D03:50",
+          "D03:53"
+        ],
+        "category": 2,
+        "id": 14,
+        "depth": 2
+      },
+      {
+        "question": "What is the connection between the \"books related to Roman history\" mentioned by the bookstore old man and the actual book content and inserted items? What does this mean for the investigators?",
+        "answer": "The book title \"The History of the Decline and Fall of the Roman Empire\" itself is a cover or code; its actual function is as a container to transmit the receipt and note tucked inside. This means investigators should not focus solely on the book's academic content but treat it as a physically directional clue container guiding them to the next location.",
+        "evidence": [
+          "D03:6",
+          "D03:32",
+          "D03:36"
+        ],
+        "category": 4,
+        "id": 15,
+        "depth": 3
+      },
+      {
+        "question": "player4 tried to search for local records about the \"Crusader's Tomb\" in the library but found nothing. What does this result imply?",
+        "answer": "Although there are monographs on Crusader studies on the shelves, there is absolutely no local documentation, hinting that the local \"Crusader's Tomb\" might not be a publicly recorded historical site, or related history has been intentionally erased/concealed. This increases the location's mystery, indicating conventional academic channels cannot uncover the truth.",
+        "evidence": [
+          "D03:5",
+          "D03:44",
+          "D03:45"
+        ],
+        "category": 3,
+        "id": 16,
+        "depth": 3
+      },
+      {
+        "question": "How did the awkward situation where player8 could not present the key in front of the warehouse manager affect the current pace of action?",
+        "answer": "This situation directly interrupted the originally smooth \"pickup\" operation, forcing the team to backtrack and search for the missed clue (key). This not only delayed time but also made the team realize the previous puzzle-solving (about the Roman bathhouse) might have been misunderstood, requiring re-examination of the clues.",
+        "evidence": [
+          "D03:72",
+          "D03:73",
+          "D03:77"
+        ],
+        "category": 4,
+        "id": 17,
+        "depth": 3
+      },
+      {
+        "question": "player8's answer when the doctor asked about \"symptoms\" reflects what psychological state and coping strategy?",
+        "answer": "Player8 directly answered \"The symptom is my father is missing,\" this act of breaking the conventional doctor-patient dialogue context, on one hand, shows her anxious psychology of desperately wanting to save her father, with no mind for small talk or pretense; on the other hand, she uses this abrupt answer to quickly seize control of the conversation, forcing the doctor to switch from routine diagnosis mode to her needed topic of finding someone. This is a direct and efficient negotiation strategy.",
+        "evidence": [
+          "D04:55",
+          "D04:56",
+          "D04:58",
+          "D04:61"
+        ],
+        "category": 1,
+        "id": 18,
+        "depth": 2
+      },
+      {
+        "question": "Combining the cement plant guard's identity background and player6's Listen check result, what activity can be inferred to be actually going on inside the cement plant?",
+        "answer": "The guards are all veterans with severe injuries, extremely loyal to Dr. Golan, indicating this is a tightly protected private territory. Player6, through an extreme success Listen check, heard various animal sounds like dogs, sheep, pigs, and chimpanzees, combined with the pervasive foul odor in the air, completely contradicts the industrial nature of a \"cement factory.\" Overall, Dr. Golan is likely using this abandoned factory as cover to conduct some kind of live animal experimentation or secret research involving multiple species inside.",
+        "evidence": [
+          "D04:25",
+          "D04:40",
+          "D04:46",
+          "D04:47",
+          "D04:48"
+        ],
+        "category": 3,
+        "id": 19,
+        "depth": 3
+      },
+      {
+        "question": "What contradiction exists between Dr. Golan's description of player8's father (Dr. Dragomir Moric)'s mental state and his justification of his own actions?",
+        "answer": "Dr. Golan claimed the doctor was \"unable to eat or sleep\" and \"mentally deranged\" due to the unearthed artifacts, accusing the doctor of wanting to destroy the artifacts as madness. However, the doctor himself secretly keeps many animals in the cement factory and arranges armed guards; this secretive and highly guarded behavior suggests he is the one using the artifacts for some dangerous attempt. He describes the doctor's vigilance towards danger as \"crazy,\" actually to conceal his own greed for the artifact's power or disregard for the doctor's warnings, trying to shift blame onto the missing person's mental state.",
+        "evidence": [
+          "D04:65",
+          "D04:72",
+          "D04:75",
+          "D04:47"
+        ],
+        "category": 2,
+        "id": 20,
+        "depth": 2
+      },
+      {
+        "question": "What deep influence did player6's Listen check (Extreme success) have on the subsequent investigation direction?",
+        "answer": "This extreme success check not only exposed the cement factory's disguise, allowing investigators to confirm abnormal biological activity inside (dogs, sheep, chimpanzees, etc.), thus shifting the investigation focus from simply finding a person to suspicion about the content of Dr. Golan's \"research.\" This discovery provides crucial intelligence support for subsequently questioning the doctor or infiltrating the factory again, making the team realize the doctor might be involved in illegal biological experiments.",
+        "evidence": [
+          "D04:45",
+          "D04:46",
+          "D04:47",
+          "D04:48"
+        ],
+        "category": 5,
+        "id": 21,
+        "depth": 1
+      },
+      {
+        "question": "How did the cement plant guard's attitude towards Dr. Golan pose an obstacle to the investigators' goal of trying to enter the factory?",
+        "answer": "The guards are not just hired security but devoted followers who owe the doctor their lives (\"each owes Dr. Berenzada their life\"). This bond based on emotion and gratitude is more solid than mere monetary employment, meaning investigators cannot gain passage through bribery or simple intimidation. This absolute loyalty forces investigators to obtain the doctor's personal permission or resort to extreme violence/infiltration to enter, greatly increasing investigation difficulty.",
+        "evidence": [
+          "D04:33",
+          "D04:40",
+          "D04:38",
+          "D04:31"
+        ],
+        "category": 4,
+        "id": 22,
+        "depth": 3
+      },
+      {
+        "question": "Synthesizing the taxi driver's reaction and the environmental description of the cement plant, what kind of social perception status can be seen regarding this location locally?",
+        "answer": "The taxi driver showed obvious disdain for the cement factory (\"even stray dogs wouldn't go there\") and confusion about the investigators' purpose, indicating the place is seen by the public as a worthless ruin. This social perception of \"abandoned for years\" precisely serves as Dr. Golan's natural protective cover, using people's avoidance psychology and the environment (foul odor, barbed wire) to successfully establish a secret base undisturbed at the city's edge.",
+        "evidence": [
+          "D04:18",
+          "D04:25",
+          "D04:44",
+          "D04:50"
+        ],
+        "category": 3,
+        "id": 23,
+        "depth": 3
+      },
+      {
+        "question": "Why did player8 choose to use the reason of \"looking for her father\" when facing the front desk Ms. Odak? What is the logical chain behind it?",
+        "answer": "Player8 used previously obtained clues (Lazar being her father's student) to construct a \"searching for lost family\" vulnerable image to gain sympathy. By emphasizing the \"chaotic world\" and \"only channel,\" she elevated the simple act of finding someone to the height of familial ethics, thereby lowering the other party's guard and successfully obtaining Vesna's address.",
+        "evidence": [
+          "D05:6",
+          "D05:8",
+          "D05:55"
+        ],
+        "category": 1,
+        "id": 24,
+        "depth": 2
+      },
+      {
+        "question": "Combining multiple details from the on-site search, what specific event can be inferred to have happened in Vesna's apartment?",
+        "answer": "Combining the clean blank area on the living room floor, broken glass, scattered files, and bloodstains and teeth remaining in the bathroom, it can be inferred Vesna suffered a violent attack. The attacker not only killed or severely injured her but also wrapped the body in a blanket (causing the floor blank), attempted to clean the scene to conceal bloodstains, and finally took key files.",
+        "evidence": [
+          "D05:34",
+          "D05:37",
+          "D05:63"
+        ],
+        "category": 3,
+        "id": 25,
+        "depth": 3
+      },
+      {
+        "question": "In this Section, player4, player8, and player3 had drastically different results when making \"Library Use\" checks. What situation did this lead to narratively?",
+        "answer": "Player8 and player3's checks both failed (94/70), causing them to be at a loss facing the scattered files, unable to piece together effective information. Player4's subsequent check succeeded (75/89), not only salvaging the situation but directly discovering the key clues \"Lazar\" and the note, pushing the plot from mere search to tracking a specific location.",
+        "evidence": [
+          "D05:45",
+          "D05:48",
+          "D05:50",
+          "D05:53"
+        ],
+        "category": 5,
+        "id": 26,
+        "depth": 1
+      },
+      {
+        "question": "The reaction shown by player9 after an Extreme success Spot Hidden check reveals what implied supernatural threat exists in the current scene?",
+        "answer": "Player9 rolled an extreme success Spot Hidden (11/80) and subsequently made a Sanity/Perception-related hidden roll (D100=15). Although he remained relatively calm due to experience, his fingers turning cold and saying \"Vesna... he seems to be watching us\" indicates he sensed some kind of gaze or presence beyond the physical, hinting the missing person might exist on-site in an abnormal form.",
+        "evidence": [
+          "D05:71",
+          "D05:74",
+          "D05:75",
+          "D05:76"
+        ],
+        "category": 5,
+        "id": 27,
+        "depth": 1
+      },
+      {
+        "question": "Ms. Odak's attitude towards Vesna shows an obvious contradiction. What deep information does this contradiction reveal?",
+        "answer": "Mrs. Odak, on one hand, despises Vesna as a \"gossip writer\" who rose through tactics; on the other hand, she is very aware of Vesna's movements and keeps her related items. This shows that while verballying Vesna to maintain her professional superiority, she actually closely monitors Vesna's work and might even be aware of the dangerous events Vesna was investigating.",
+        "evidence": [
+          "D05:8",
+          "D05:11",
+          "D05:53"
+        ],
+        "category": 2,
+        "id": 28,
+        "depth": 2
+      },
+      {
+        "question": "How did the emergence of the \"Rose Garden\" clue, combined with previous search results, affect the investigators' action plan?",
+        "answer": "After confirming Vesna might have been killed (bloodstains, teeth) and her residence cleaned, the appearance of \"Rose Garden\" on the note shifts the investigation direction from \"finding the missing person themselves\" to \"tracing the missing person's last known whereabouts.\" This prompts investigators to leave the crime scene and turn to this new location to search for possible \"people's fragments\" or other evidence.",
+        "evidence": [
+          "D05:53",
+          "D05:63",
+          "D05:69"
+        ],
+        "category": 4,
+        "id": 29,
+        "depth": 3
+      },
+      {
+        "question": "Why did player4 propose \"going back to the hospital to find the doctor\" and then quickly turn to deciding to go to the \"cement plant\"? What is the logical chain behind this?",
+        "answer": "Player4 initially suggested returning to the hospital to handle the body and find the doctor, but after learning from the hospital front desk that the doctor is \"not on duty in the afternoon\" and \"has his own research,\" combined with the earlier mentioned suspicion that \"the cement factory hasn't been entered yet,\" he inferred the doctor might be conducting secret research at the cement factory. Therefore, he quickly changed strategy, deciding to go directly to the cement factory to find the truth, rather than waiting idly at the hospital.",
+        "evidence": [
+          "D06:1",
+          "D06:9",
+          "D06:13",
+          "D06:15",
+          "D06:16"
+        ],
+        "category": 1,
+        "id": 30,
+        "depth": 2
+      },
+      {
+        "question": "Based on player4's reaction to the flayed corpse and his subsequent words and actions, what key information can be inferred that he is concealing?",
+        "answer": "When player4 saw the skinned corpse, he said it looked \"familiar\" and mentioned it \"related to the original purpose of the trip,\" then deliberately avoided his teammates' questions and even took out his pocket watch to check the time, showing an attitude of both nostalgia and indifference. This implies he not only knows \"that group\" responsible for this atrocity, but also that this trip itself is related to these dangerous forces or some cult ritual. However, he chooses to bear this secret alone, unwilling to involve his teammates too deeply.",
+        "evidence": [
+          "D06:5",
+          "D06:7",
+          "D06:19"
+        ],
+        "category": 2,
+        "id": 31,
+        "depth": 2
+      },
+      {
+        "question": "Considering the commotion in the general hospital lobby and the abnormal behavior of the soldiers guarding the cement plant, what nature can be inferred about \"Dr. Golan's research\"?",
+        "answer": "The insane patient in the hospital lobby mentioned \"creatures bigger than humans,\" while the soldiers guarding the cement factory were not only fully armed and had burns, but also showed signs like \"unfamiliar with the right hand,\" suggesting prosthetics or body modification. Combined with the livestock sounds from the cement factory and the \"wolf-headed, snake-tailed\" monster encountered by player9, it can be inferred that Dr. Golan's research involves inhumane biological modification or grafting experiments, and the test subjects have begun to go out of control or are being used to arm the guards.",
+        "evidence": [
+          "D06:23",
+          "D06:32",
+          "D06:45",
+          "D06:71"
+        ],
+        "category": 3,
+        "id": 32,
+        "depth": 3
+      },
+      {
+        "question": "What decisive impact did player9's critical success check during the failed stealth attempt and monster attack have on the current infiltration operation?",
+        "answer": "Although player9 failed his stealth check and attracted the monster's attention, he rolled a critical success in the subsequent brawl check, directly splitting the monster's mouth in half and silently catching the corpse. This series of actions not only instantly eliminated the imminent combat threat but, more importantly, prevented the monster from making noise or screams, thus preserving the team's stealth at the last moment without alerting nearby guards, allowing the infiltration to continue.",
+        "evidence": [
+          "D06:68",
+          "D06:73",
+          "D06:76",
+          "D06:77",
+          "D06:79"
+        ],
+        "category": 5,
+        "id": 33,
+        "depth": 1
+      },
+      {
+        "question": "The change in attitude of the cement plant guard soldiers towards player4 and others reveals what kind of alert state the area is in?",
+        "answer": "The soldiers were initially indifferent, merely collecting items on behalf of others. But when player4 and others tried to make further contact or linger, the soldiers immediately raised their guns to drive them away, emphasizing that \"the research is at a critical moment.\" This rapid escalation from perfunctory to armed threat, combined with the tight barbed wire and fully armed configuration, indicates the area is under extremely high-level security, and the activities (research) inside are at a highly unstable critical stage, tolerating no external interference.",
+        "evidence": [
+          "D06:32",
+          "D06:35",
+          "D06:47"
+        ],
+        "category": 4,
+        "id": 34,
+        "depth": 3
+      },
+      {
+        "question": "What does player6's decision to \"cut the barbed wire\" instead of directly climbing over it after a successful stealth check mean tactically?",
+        "answer": "Although player6 succeeded in his stealth check, he did not choose to climb over individually but used tools to create a gap. This shows he prioritized teamwork over individual heroism. Cutting the barbed wire opened a relatively safe passage for teammates with weaker stealth abilities (like player9 and player3), reducing the overall risk of exposure for the team, demonstrating his tactical acumen in the infiltration operation.",
+        "evidence": [
+          "D06:46",
+          "D06:60",
+          "D06:69"
+        ],
+        "category": 5,
+        "id": 35,
+        "depth": 1
+      },
+      {
+        "question": "In this section, the monster failed multiple brawl checks. What physiological defect of this creature does this series of mechanical failures reveal on a narrative level?",
+        "answer": "The monster's multiple failed checks were not merely bad luck but direct narrative evidence of the incoordination of its grafted body. The chimpanzee upper body tried to attack, but the wild boar torso serving as its lower body fled in the opposite direction out of fright. This internal conflict of limb intentions caused its attack movements to become distorted and ineffective.",
+        "evidence": [
+          "D07:20",
+          "D07:51",
+          "D07:52",
+          "D07:59"
+        ],
+        "category": 5,
+        "id": 36,
+        "depth": 1
+      },
+      {
+        "question": "Player 8 held a firearm at the beginning of the combat but never fired it. What considerations were behind this decision?",
+        "answer": "Player 8 was in a state of stealthy infiltration, worried that the loud noise of gunfire would alert other enemies in the facility (tipping them off). Only after the combat caused enough commotion and the number of monsters increased did he judge that maintaining silence was no longer meaningful, thus switching to preparing to use firearms.",
+        "evidence": [
+          "D07:34",
+          "D07:60",
+          "D07:72"
+        ],
+        "category": 1,
+        "id": 37,
+        "depth": 2
+      },
+      {
+        "question": "Based on the details of the monster's physiological structure and previous investigation clues, what technical means can be inferred that the mastermind possesses?",
+        "answer": "The monster was seamlessly grafted from different species (chimpanzee, pig, cat) without suture marks, showing this was not simple surgery but some advanced biological fusion technology violating natural laws. Combined with the previously mentioned \"Dr. Golan,\" it suggests the antagonist possesses the mad scientific ability or supernatural power to create unnatural symbiotic organisms.",
+        "evidence": [
+          "D07:20",
+          "D07:24",
+          "D07:74",
+          "D07:75"
+        ],
+        "category": 3,
+        "id": 38,
+        "depth": 3
+      },
+      {
+        "question": "Player 6 performed multiple spear skill checks while fighting the monster. How did the changes in the check results specifically drive the narrative direction of the combat?",
+        "answer": "Player 6's initial hard success, while striking the theoretical heart location, only caused the cat head on the monster's chest to fail, not killing it. This narratively reinforced the abnormality of the monster's construction. The subsequent successful check, combined with the description, finally completely dismantled the monster's mobility by destroying the throat, a key area, ending the combat.",
+        "evidence": [
+          "D07:40",
+          "D07:43",
+          "D07:62",
+          "D07:67"
+        ],
+        "category": 5,
+        "id": 39,
+        "depth": 1
+      },
+      {
+        "question": "The calm after the combat triggered a Sanity Check (San Check). What deep-seated fear does this timing choice reveal that the investigators are facing?",
+        "answer": "During combat, the investigators were dominated by adrenaline and survival instinct, with no time to consider the monster's nature. After the fight, when they calmly examined the corpse, they realized this kind of \"seamlessly connected\" creature was biologically impossible. This subversion of common sense and natural law was the root cause of their sanity loss.",
+        "evidence": [
+          "D07:74",
+          "D07:77",
+          "D07:79"
+        ],
+        "category": 4,
+        "id": 40,
+        "depth": 3
+      },
+      {
+        "question": "What contradiction exists between the investigators' original intention to remain hidden and the actual combat process, and what does this contradiction imply about the current situation?",
+        "answer": "The investigators initially carefully used environmental noise to cover their tracks, but after encountering monsters, intense physical conflict and destruction erupted (like breaking windows, monster roars). This passive shift from stealth to assault suggests the facility's internal defense mechanisms are highly aggressive, and mere covert action is difficult to sustain, with the situation sliding toward full-scale conflict.",
+        "evidence": [
+          "D07:7",
+          "D07:20",
+          "D07:67",
+          "D07:72"
+        ],
+        "category": 2,
+        "id": 41,
+        "depth": 2
+      },
+      {
+        "question": "Why did Player 8 suggest using the factory's heavy machinery to confront Dr. Golan?",
+        "answer": "Player 8, by reading the diary, speculated that Golan might have created some huge monster, believing ordinary human flesh and blood could not contend with such an entity. After successfully finding the crusher's instruction manual, he realized these industrial machines could serve as powerful weapons to crush those blasphemous creations.",
+        "evidence": [
+          "D08:40",
+          "D08:41",
+          "D08:50",
+          "D08:54"
+        ],
+        "category": 1,
+        "id": 42,
+        "depth": 2
+      },
+      {
+        "question": "Comparing the search checks performed by the three characters in the office in this chapter, what key role did Player 8's success play in formulating subsequent actions?",
+        "answer": "Player 4 and Player 3's Spot Hidden checks both failed; they could only see messy scrap paper, unable to obtain effective information. Player 8's successful check directly discovered the factory equipment manuals and maps. This key clue shifted the team from mere searching to formulating tactical plans to use the hydraulic press and crusher against the enemies.",
+        "evidence": [
+          "D08:30",
+          "D08:36",
+          "D08:39",
+          "D08:40",
+          "D08:41"
+        ],
+        "category": 5,
+        "id": 43,
+        "depth": 1
+      },
+      {
+        "question": "Based on the content of the notebook and the investigators' reactions, what is the fundamental reason why Dr. Golan was judged to be no longer human and must be executed?",
+        "answer": "The notebook revealed Golan used a black dagger to conduct experiments defying biological principles, like making severed limbs continue to twitch and cross-species skin grafts, indicating his obsession with supernatural power. The investigators considered this behavior not only a violation of the doctor's duty to heal but also an arrogant sin, showing his spiritual and moral alienation.",
+        "evidence": [
+          "D08:16",
+          "D08:18",
+          "D08:19",
+          "D08:25"
+        ],
+        "category": 3,
+        "id": 44,
+        "depth": 3
+      },
+      {
+        "question": "Player 9's pistol check during the assault on Dr. Golan changed from failure to hard success. What kind of combat process does this reflect narratively?",
+        "answer": "The first pistol check failure corresponded to the chaos of breaking in and the sudden turn of Dr. Golan, causing the initial shot to miss. The subsequent hard success and regular success reflected Player 9's rapid adjustment in an extremely short time, recovering calm from the failed ambush and firing consecutive precise shots to kill the target.",
+        "evidence": [
+          "D08:71",
+          "D08:74",
+          "D08:76",
+          "D08:78"
+        ],
+        "category": 5,
+        "id": 45,
+        "depth": 1
+      },
+      {
+        "question": "What contradiction exists between Dr. Golan's own perception of his actions in his diary and the investigators' evaluation of him?",
+        "answer": "In his diary, Golan viewed his actions as exploration of life's essence and a challenge to existing scientific theories, showing a pure thirst for knowledge. However, the investigators interpreted this exploration as unforgivable arrogance and sin, believing he betrayed his moral duty as a doctor. This mismatch in perspective reveals the opposition between madness and reason.",
+        "evidence": [
+          "D08:16",
+          "D08:19",
+          "D08:25"
+        ],
+        "category": 2,
+        "id": 46,
+        "depth": 2
+      },
+      {
+        "question": "According to the diary entries, what specific factors caused Dr. Golan to transform from a kind post-war doctor into a madman conducting horrific experiments?",
+        "answer": "The turning point was a bone-handled black dagger brought by Dragomir. This weapon's supernatural properties ignited Golan's intense, pure curiosity. This obsession with unknown power overwhelmed his original humanity and professional ethics, inducing him to begin conducting biological experiments defying common sense.",
+        "evidence": [
+          "D08:14",
+          "D08:16",
+          "D08:25"
+        ],
+        "category": 1,
+        "id": 47,
+        "depth": 2
+      },
+      {
+        "question": "When facing an entity with his father's voice and appearance, why did Player 8 not only not stop but resolutely choose to fire continuously?",
+        "answer": "Although Player 8 recognized it was her father's voice and felt comforted, she knew her real father would never allow himself to exist in such a \"blasphemous form.\" Through the surrounding environment's foul stench, strange tactile sensations, and the entity's unharmed reaction to gunshots, she concluded the being before her was just a monster wearing her father's skin. Therefore, shooting was both self-defense and a way to \"free\" her father's soul from this twisted shell.",
+        "evidence": [
+          "D09:15",
+          "D09:19",
+          "D09:41",
+          "D09:45"
+        ],
+        "category": 1,
+        "id": 48,
+        "depth": 2
+      },
+      {
+        "question": "What severe sensory contradictions exist in the descriptions of \"the Doctor\" in this chapter, and what truth do these contradictions hint at?",
+        "answer": "The \"Doctor's\" voice was described as having a comforting, warm tone, and he waved naturally, but this contrasted extremely with his environment (a mountain of flesh emitting a sweet, rotten stench and rusty, bloody odor) and his physiological state of showing no reaction to bullets piercing his face. This contradiction between warm paternal behavior and terrifying physical reality suggests the creature is not human but a mimic monster adept at imitating prey's memories to lure targets.",
+        "evidence": [
+          "D09:15",
+          "D09:31",
+          "D09:40",
+          "D09:46"
+        ],
+        "category": 2,
+        "id": 49,
+        "depth": 2
+      },
+      {
+        "question": "Considering the process of Player 8's capture, what specific factors collectively led to this tragic outcome?",
+        "answer": "First, Player 8 actively closed the distance to identify her father, stepping into the monster's attack range. Second, facing the monster's disguise, her two shooting checks failed, causing no hindrance. Finally, the monster displayed a body structure beyond reason (countless arms) and terrain manipulation ability (raising the ground), physically overwhelming the lone investigator.",
+        "evidence": [
+          "D09:25",
+          "D09:35",
+          "D09:39",
+          "D09:54",
+          "D09:56"
+        ],
+        "category": 3,
+        "id": 50,
+        "depth": 3
+      },
+      {
+        "question": "What profound impact did Player 8's final shout before being devoured have on the surviving teammates?",
+        "answer": "Player 8's shout not only declared her personal sacrifice but, more crucially, pointed out the only way to break the current situation—\"activate the hydraulic press.\" This statement forcibly redirected her teammates' goal from an unwinnable frontal assault or mere escape to using environmental mechanisms for counterattack, directly prompting Player 4, despite extreme fear, to decide to go to the machinery control platform to execute the revenge plan.",
+        "evidence": [
+          "D09:55",
+          "D09:57",
+          "D09:70",
+          "D09:73"
+        ],
+        "category": 4,
+        "id": 51,
+        "depth": 3
+      },
+      {
+        "question": "Comparing the reactions of Player 4 and Player 9 after their Sanity Checks (SC), what different psychological mechanisms does this difference reveal in how they face despair?",
+        "answer": "Player 4 failed his Sanity check (D100=70/53). After losing 3 Sanity, he instead displayed a nearly numb calmness, directly talking about \"revenge\" and preparing to operate the machinery, showing a defense mechanism of detaching emotion into after mental trauma. In contrast, Player 9 succeeded his Sanity check (D100=68/73). Although he preserved his sanity, he made the most common-sense judgment to \"flee,\" indicating that while, he was dominated by biological instinctual fear, prioritizing survival over counterattack.",
+        "evidence": [
+          "D09:60",
+          "D09:70",
+          "D09:71",
+          "D09:73"
+        ],
+        "category": 5,
+        "id": 52,
+        "depth": 1
+      },
+      {
+        "question": "Player 8 failed two consecutive shooting checks (D100=50 and 64). How did this mechanical result accelerate her death narratively?",
+        "answer": "Narratively, these two failures manifested as bullets merely grazing or missing vital spots, causing no physical hindrance or stagger to the approaching monster. If the checks had succeeded, perhaps a moment to retreat could have been gained. But consecutive misses left Player 8 defenseless as the monster closed in, ultimately being surrounded by countless arms and dragged into the flesh mountain. The mechanical powerlessness directly corresponded to the irreversible desperate situation in the plot.",
+        "evidence": [
+          "D09:35",
+          "D09:39",
+          "D09:40",
+          "D09:54"
+        ],
+        "category": 5,
+        "id": 53,
+        "depth": 1
+      },
+      {
+        "question": "Why did player9 choose to abandon defense and throw the dagger when facing an invincible monster?",
+        "answer": "After failing to destroy the dagger with his large knife, player9 realized conventional physical attacks were ineffective and his weapon was destroyed. Facing the absolute power gap with the monster, there was no chance of survival. To preserve the key item from being devoured by the monster and hoping his teammates could complete the unfinished task (destroying or taking the dagger), he chose to sacrifice himself as bait to buy time, passing the dagger—the key item—to player4, who still had a chance to escape.",
+        "evidence": [
+          "D10:6",
+          "D10:7",
+          "D10:25",
+          "D10:27"
+        ],
+        "category": 1,
+        "id": 54,
+        "depth": 2
+      },
+      {
+        "question": "Based on player4's series of actions during the escape process, what can be inferred about his true attitude towards the current situation?",
+        "answer": "Although player4 displayed and helplessness, like sighing and closing the door, letting his teammate sacrifice, he did not abandon the core of solving the problem—that dagger. During his escape, he still tried to find the hydraulic press to destroy the dagger. After failing, he attempted to notify the police via letter. This shows he was not merely escaping but, in extreme despair, still trying to use rational means to find some kind of end or remedy for this disaster.",
+        "evidence": [
+          "D10:5",
+          "D10:33",
+          "D10:36",
+          "D10:48"
+        ],
+        "category": 2,
+        "id": 55,
+        "depth": 2
+      },
+      {
+        "question": "Considering player9's sacrifice, player4's failed attempt, and the final evacuation outcome, what conclusion does this series of events collectively point to?",
+        "answer": "player9's failed attempt proved brute force could not supernatural threats, while player4's failed technical attempt (hydraulic press) hinted at the powerlessness of human technological means. Combined with the final scene where everyone could only withdraw like \"severed puppets\" and witness the distant explosion, this collectively points to the classic Cthulhu Mythos theme of \"humanity's and futility in the face of cosmic horror.\" Individual sacrifice and struggle cannot change the fate of destruction.",
+        "evidence": [
+          "D10:6",
+          "D10:42",
+          "D10:51"
+        ],
+        "category": 3,
+        "id": 56,
+        "depth": 3
+      },
+      {
+        "question": "In this section, the multiple consecutive brawl and trample checks by player5 (GM) and player9's failed dodge, what sense of despair did they build narratively?",
+        "answer": "The GM's consecutive multiple attack checks (Fighting 80, Trample 40), mostly successful or hard successes, mechanically simulated the monster's, giving the players no breathing room. Although player9 rolled a decent d10=9 at the last moment, the \"penalty die for being\" caused the final to fail. This mechanical inevitability of failure perfectly echoed the narrative sense of \"mortals cannot mythos creatures,\" rendering the character's death as an irresistible.",
+        "evidence": [
+          "D10:11",
+          "D10:19",
+          "D10:22",
+          "D10:24"
+        ],
+        "category": 5,
+        "id": 57,
+        "depth": 1
+      },
+      {
+        "question": "How did the archaeological discovery mentioned in the newspaper gradually evolve into the supernatural crisis in the cement plant?",
+        "answer": "Initially, newspapers published photos about the archaeological discovery of the Crusader's Tomb, which attracted Professor Moric's attention. According to Dr. Golan's diary, Professor Moric later brought back a black flint dagger with the ability to resurrect corpses from the tomb and gave it to the doctor. The doctor used this dagger to conduct experiments defying physiology at the cement factory, ultimately leading to the monster's birth and the protagonists'.",
+        "evidence": [
+          "D01:10",
+          "D02:10",
+          "D08:14",
+          "D08:16"
+        ],
+        "category": 2,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "01",
+          "02",
+          "08"
+        ],
+        "id": 58,
+        "depth": 2
+      },
+      {
+        "question": "How did Player8's perception of his father Moric transform from the initial mention to finally facing the truth?",
+        "answer": "Initially, Player8 was just trying to find her missing father, thinking he might be in trouble. At the bookstore, learning her father had left four days ago, she began to feel uneasy and ominous. By reading Dr. Golan's diary, she learned it was her father who opened the nightmare, bringing that cursed dagger. Finally, at the cement factory, she had to face the fact that her father had become a monster and resolved to end his suffering.",
+        "evidence": [
+          "D02:8",
+          "D03:17",
+          "D08:14",
+          "D09:8",
+          "D09:19"
+        ],
+        "category": 1,
+        "cross_section_count": 4,
+        "cross_section_ids": [
+          "02",
+          "03",
+          "08",
+          "09"
+        ],
+        "id": 59,
+        "depth": 2
+      },
+      {
+        "question": "Considering the disappearance case of reporter Vesna, the condition of the discovered corpses, and the doctor's diary, what is the truth behind the series of events happening in Węgrów?",
+        "answer": "Reporter Vesna disappeared while investigating the cement factory's secrets and was later found and skinned. Combined with Dr. Golan's diary, it's known the doctor used the black-bladed dagger brought by Moric for limb resurrection experiments; skinning and dismemberment were part of the experiments. This indicates the so-called serial cases were not ordinary murders but experiments using a supernatural dagger.",
+        "evidence": [
+          "D05:8",
+          "D06:7",
+          "D08:16"
+        ],
+        "category": 4,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "05",
+          "06",
+          "08"
+        ],
+        "id": 60,
+        "depth": 3
+      },
+      {
+        "question": "How did Player9's fate as a guide progress step by step from being hired to its tragic conclusion?",
+        "answer": "Player9 was initially hired as a local guide solely to raise funds for his sister's medical expenses. While infiltrating the cement factory, he demonstrated exceptional climbing and stealth abilities, even decisively shooting and killing Dr. Golan when confronted. However, when facing the final supernatural monster, his proud weapon (the greatsword) proved completely ineffective and was shattered. Ultimately, to protect his employer and his sister, he chose to sacrifice himself by staying behind to cover their escape.",
+        "evidence": [
+          "D04:6",
+          "D07:4",
+          "D08:3",
+          "D10:4",
+          "D10:7"
+        ],
+        "category": 5,
+        "cross_section_count": 4,
+        "cross_section_ids": [
+          "04",
+          "07",
+          "08",
+          "10"
+        ],
+        "id": 61,
+        "depth": 1
+      },
+      {
+        "question": "How did Player4's attitude towards this journey evolve psychologically from the station to the final confrontation?",
+        "answer": "At the station, Player4 maintained an archaeologist's curiosity, showing interest in artifacts. As the investigation deepened, after seeing the flayed corpse, he became cold and world-weary, lamenting \"I've seen too much.\" While reading the doctor's diary, he displayed contempt for the antagonist's arrogance. Finally, when facing an unbeatable monster, he exhibited extreme rationality and pragmatism, attempting to destroy the dagger and decisively withdrawing.",
+        "evidence": [
+          "D01:14",
+          "D06:1",
+          "D06:7",
+          "D08:19",
+          "D10:2"
+        ],
+        "category": 1,
+        "cross_section_count": 4,
+        "cross_section_ids": [
+          "01",
+          "06",
+          "08",
+          "10"
+        ],
+        "id": 62,
+        "depth": 2
+      },
+      {
+        "question": "What core role did the \"black flint dagger\" mentioned in Dr. Golan's diary play throughout the story?",
+        "answer": "This dagger is a key artifact brought back by Professor Moric from the archaeological site, possessing the supernatural power to reanimate dead flesh. It was not only the source of Dr. Golan's horrific experiments, leading to the journalist's death and the corpses' mutations, but also the core artifact the protagonists attempted but failed to destroy in the final boss battle. Its indestructible nature directly caused Player9's weapon to shatter.",
+        "evidence": [
+          "D08:14",
+          "D08:16",
+          "D09:2",
+          "D10:6"
+        ],
+        "category": 3,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "08",
+          "09",
+          "10"
+        ],
+        "id": 63,
+        "depth": 3
+      },
+      {
+        "question": "Comparing Player9's performance during the infiltration and their final confrontation with the monster, what does this reflect about the power dynamics in the story?",
+        "answer": "Player9 succeeded in both his Climb (Hard) and Stealth (Hard) checks during infiltration, and in the gunfight, he killed the doctor with three shots, demonstrating his high combat proficiency within human limits. However, when facing the supernatural monster, his greatsword attack was ineffective and shattered, and he himself was trampled. This contrast greatly highlights the insignificance and powerlessness of humanity in the face of supernatural forces within the Cthulhu Mythos backdrop.",
+        "evidence": [
+          "D07:9",
+          "D08:3",
+          "D10:6",
+          "D10:18"
+        ],
+        "category": 5,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "07",
+          "08",
+          "10"
+        ],
+        "id": 64,
+        "depth": 1
+      },
+      {
+        "question": "Only by combining the newspaper from Section 01 and the diary from Section 08 can one infer what the true origin point of the Węgrów crisis was?",
+        "answer": "The newspaper in Section 01 showed archaeological photos but did not mention a specific date. The diary in Section 08 clearly recorded that Moric brought the dagger on December 28, 1922, and began experiments on January 1, 1923. Combining these, it's clear the crisis originated from the archaeological excavation in late 1922 and rapidly deteriorated within the few days before the investigators' arrival (1923).",
+        "evidence": [
+          "D01:10",
+          "D08:14",
+          "D08:16"
+        ],
+        "category": 3,
+        "cross_section_count": 2,
+        "cross_section_ids": [
+          "01",
+          "08"
+        ],
+        "id": 65,
+        "depth": 3
+      },
+      {
+        "question": "How did Player8's personal motive to find their father lead the entire team into the final life-and-death crisis?",
+        "answer": "In Section 02, Player8 clarified her goal of finding her father, Moric, which prompted the team to hire Player9 and investigate deeply. This clue led them from the bookstore to the cement factory, ultimately not only uncovering the truth of the doctor's experiments but also directly confronting the monster mutated from Player8's father, forcing the team into a doomed battle with heavy casualties.",
+        "evidence": [
+          "D02:15",
+          "D04:6",
+          "D09:8",
+          "D10:7"
+        ],
+        "category": 2,
+        "cross_section_count": 4,
+        "cross_section_ids": [
+          "02",
+          "04",
+          "09",
+          "10"
+        ],
+        "id": 66,
+        "depth": 2
+      },
+      {
+        "question": "From a global perspective, what metaphor or intention was actually contained within the \"letter/book\" Professor Moric left for his daughter?",
+        "answer": "In Section 03, Moric hastily left behind books and specified for his daughter to retrieve them. In Section 09, the monster he became claimed \"the letter led you here.\" This reveals a cruel truth: the clues he left were not mere relics but more like a cry for help or a trap, leading his daughter to the truth and also to destruction, forcing her to personally end her father's profane form.",
+        "evidence": [
+          "D03:17",
+          "D09:17",
+          "D09:19"
+        ],
+        "category": 4,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "03",
+          "09",
+          "10"
+        ],
+        "id": 67,
+        "depth": 3
+      },
+      {
+        "question": "Why did Player4 suggest \"finding a doctor to collect the body\" upon seeing the corpse, and how did this action become deeply ironic in the subsequent plot?",
+        "answer": "When discovering the corpse in Section 06, Player4, based on common sense, suggested finding Dr. Berenzada (Golan) to handle it. However, after reading the diary in Section 08, they discovered this doctor was the very perpetrator who created the corpse and conducted the horrific experiments. This reversal of trust and truth greatly enhanced the plot's irony and horror.",
+        "evidence": [
+          "D06:3",
+          "D06:16",
+          "D08:8",
+          "D08:16"
+        ],
+        "category": 3,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "06",
+          "08",
+          "10"
+        ],
+        "id": 68,
+        "depth": 3
+      },
+      {
+        "question": "How did Player6 (Johnson)'s behavioral patterns throughout the incident reflect his survival wisdom as an \"ordinary person\"?",
+        "answer": "Player6 focused on practical survival issues from the start (finding lodging, buying a map). When facing danger (e.g., infiltrating in Section 07), he chose to cautiously pick locks rather than act recklessly. When finally facing the indescribable monster, he was also the first to choose withdrawal and self-preservation. This consistent caution and \"knowing when to back down\" strategy allowed him to survive the extremely dangerous investigation.",
+        "evidence": [
+          "D01:7",
+          "D07:6",
+          "D07:16",
+          "D10:2"
+        ],
+        "category": 1,
+        "cross_section_count": 4,
+        "cross_section_ids": [
+          "01",
+          "07",
+          "10"
+        ],
+        "id": 69,
+        "depth": 2
+      },
+      {
+        "question": "Considering the guide terms from Section 02 and the outcome in Section 10, did Player9's actions violate the initial employment agreement?",
+        "answer": "The guide terms mentioned in Section 02 emphasized \"protection is also supervision\" and \"providing supporting fire when necessary.\" In Section 10, Player9 not only provided supporting fire (killing the doctor) but also chose to sacrifice himself to protect his employer's escape when facing a certain-death situation. He not only fulfilled the agreement but transcended the monetary relationship, fulfilling the protector's duty with his life.",
+        "evidence": [
+          "D02:4",
+          "D08:3",
+          "D10:7"
+        ],
+        "category": 3,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "02",
+          "08",
+          "10"
+        ],
+        "id": 70,
+        "depth": 3
+      }
+    ]
+  }
+]

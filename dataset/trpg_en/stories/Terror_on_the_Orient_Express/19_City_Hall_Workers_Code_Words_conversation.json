@@ -1,0 +1,448 @@
+{
+  "section": "19. City Hall: Workers' Code Words",
+  "description": "Investigate City Hall, the flat cap worker's mysterious code words: \"Time Problem\" and \"Did a Little Tampering\"",
+  "conversation": [
+    {
+      "speaker": "player3",
+      "text": "The crowd in the tavern gradually dispersed, and the coachman had long returned to the carriage to wait for you."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go back to sleep, I'm so tired.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go, it's time to rest a bit.\""
+    },
+    {
+      "speaker": "player13",
+      "text": "For now, let's head back to the inn we booked to rest."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Do you want me to keep watch? I usually work at night; seems I'll have to adjust my sleep schedule later?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Preparing to return to the hotel."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Standing at the tavern entrance, saying to everyone that I'm feeling very energetic tonight."
+    },
+    {
+      "speaker": "player3",
+      "text": "Professor, you folks are finally out! \"Old Louis whistled loudly, tightened his frayed scarf, then breathed white air into his palms."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Getting into the carriage."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Carrying the sack, clattering and clanging, boarding the carriage first."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Climbing into the carriage limply, throwing the wallet to Bailan, asking her to help pay later, and taking a short nap."
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Louis's pipe paused mid-air, squinting to examine Johnson's dusty trouser cuffs. When did our elegant Miss Bailan start taking in vagrants? He winked at Johnson, his frost-reddened nose wrinkling into a smile."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Glancing over, looking displeased at Old Louis, retorting, \"You're the vagrant! I just don't care for neat dressing; I'm here on vacation~~~\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Snoring sounds."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Two friends\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Louis's pipe nearly fell from his mouth; he quickly caught it with his reddened hands. The Parisian wind specializes in curing stubbornness! He laughed heartily, tossing a wool blanket to Johnson, \"Cover up quick, with those thin clothes of yours, don't catch a chill.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#Taking a small file from the leather jacket, rustling while filing nails, turning head away, obediently wrapped in the blanket."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Adjusting the blanket, snoring sounds."
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Louis cracked a loud whip in the air, Lightning's horseshoes tapping a crisp rhythm on the stones. After a bumpy ride, we're at the Ritz! Old Louis lifted the carriage curtain, letting in the bright outside lights."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra constitution"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it shall be answered. <player4>'s constitution wish:"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Holding up both hands under the night sky, examining the manicured nails by the moonlight."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Though a bit bumpy, it's tolerable."
+    },
+    {
+      "speaker": "player3",
+      "text": "The tavern landlady's special mint drink earlier took effect; you feel an unprecedented comfort."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Not bad.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Louis grinned at Johnson's bulging bag, \"If you lug that 'travel bag' into the lobby, you might be mistaken for a coal delivery boy!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Goodnight, everyone.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#Pouting, \"It's not that; it's my tools of the trade...\", jumping off the carriage, wiping hands clean with a cloth strip, returning the blanket to Old Louis with both hands, \"Thank you, old man.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Waking up groggily, eyes looking at player4 as if asking if the money was paid."
+    },
+    {
+      "speaker": "player4",
+      "text": "#player4, having been busy all day, decides to sleep."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"I'll just stay inside to borrow some warmth, I can spend the night leaning on the corridor windowsill.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "When player2 gets up, they find the wallet has been placed on their lap, while Old Louis is stuffing a few coins into his pocket."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Suddenly realizing they were staring at the wrong person, shakes their head and gets off the car."
+    },
+    {
+      "speaker": "player3",
+      "text": "Seven o'clock sharp! He flicks the reins and drives into the fog, rest easy and go back to sleep, my living alarm clock is more accurate than the bells of Notre Dame!"
+    },
+    {
+      "speaker": "player13",
+      "text": "Wakes up early, does a simple wash-up, then goes to the front desk to check out, afterwards heads to the tavern entrance to wait for the rendezvous."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Smells pretty good, I'll go get breakfast later, looking at it makes me hungry.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Actually, you all came out after having breakfast."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Today we're going to the City Hall, right?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Brings Old Henry some bread as usual."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Yes, we need to investigate.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#This time also packed two extra strips of bacon and a fried egg."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Yes, I also need to go get my passport fixed\" #Reminds everyone."
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Yo.\" Seeing everyone come out, twists neck and walks over. \"About today's search content, do you have any ideas?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"This investigation is about the whereabouts of a statue, but this time we've changed our approach.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Holy Mary! He hurriedly wipes his hands on his apron before taking the greased paper package. Lightning suddenly turns its head and bites his sleeve. He laughs and scolds, slapping the horse's nose: Greedy devil! Then breaks off half a strip of bacon and stuffs it into the horse's mouth, turning to wink at player2. If you spoil him like this, tomorrow this old fellow will be demanding to have breakfast at the Ritz!"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It's their problem if they don't serve him\" #Pats the horse's head."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That historically somewhat famous Count.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We'll trouble you to take us to the City Hall today.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Louis smears bacon grease on the reins and cracks a loud whip: Off to the City Hall! Lightning's horseshoes tap out a brisk rhythm on the main road."
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Good horse.\" Strokes the horse's neck. \"For a while, I really wanted to transfer to the cavalry.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Yes, cavalry has always been a symbol of honor.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#Takes out a cigarette from the leather jacket, pulls out a lighter, flicks it open with a click to light up, leans on the carriage side and blows smoke rings."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Feels a faint headache, hoping this uneasy feeling disappears soon."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Cough, runs pretty fast.\" #The carriage's jolting makes Johnson swallow some ash."
+    },
+    {
+      "speaker": "player3",
+      "text": "Cavalry? Old Louis taps the carriage floor with his boot heel. In 1918, I saw German Uhlans at the Marne. He lifts his trouser leg, revealing a crescent-shaped scar on his calf. That bastard warhorse bites harder than its master's saber!"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Takes out paper and pen from the coat pocket, casually opens the briefcase, takes out a manuscript sheet, uses the pen to sketch the past on it. Looking down, inadvertently notices a few added marks on the travel bag, reaches out a hand, gently strokes those medals representing the past."
+    },
+    {
+      "speaker": "player3",
+      "text": "In front of the City Hall square, Old Louis sharply pulls the reins, stopping the carriage steadily beside the stone lion statue."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Feels shouldn't suffer alone, extends a finger to tease player4."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"After all, training a cavalryman requires a lot of time.\" #Nods silently, moves fingers away from the case, closes the briefcase again."
+    },
+    {
+      "speaker": "player3",
+      "text": "In the morning light, the neo-Renaissance architectural complex stands majestically, with over twenty marble steps crowded with people carrying briefcases. A doorman in a double-breasted uniform is scolding a worker trying to paste a flyer on the base of the Henry IV statue."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"But, love the job you do.\" Nimbly jumps off the carriage."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Holds onto the handle to prevent falling. \"Wow, this cigarette isn't even finished yet, the old man's carriage is really fast.\" #Looks at the still-sparking cigarette, snuffs it out. Only three cigarettes left in the pack, so tosses it to Old Louis. \"Thanks for the blanket yesterday, old man.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go. Apart from the school's academic affairs office, I haven't really been to places like this much.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#Gathers the burlap sack and gets off the carriage."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thought of a reason yet, everyone?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If it's a cultural relics investigation, then Professor Bailan can step in.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Louis catches the cigarette pack mid-air like a throwing star—whoosh! He lifts the wool blanket under the carriage seat, magically pulls out half a bottle of apple wine. The lightning-fast, life-risking runs all rely on this old buddy remembering the grass in the alley behind the city hall! He unscrews the cap and takes a big gulp, the liquor dripping down his gray beard onto his front."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Logically speaking, we should be here for a cultural relics investigation. That noble has been dead for so long. Grave robbers often claim they're here for archaeology too.\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"But I'm a bit worried the French won't give me a good look... Maybe I should wait outside?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Or there's another illegal method.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"And then wait for him to get shot to death?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It won't come to that.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I still think archaeological research is more reliable.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"No problem, no problem. I've been here long enough, my legs run fast and nimble. As long as the mansion's courtyard wall isn't too high, I can climb in myself.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Quietly walks ahead, goes to the front desk to inquire about related matters."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We're just here to ask around, it shouldn't be that serious, right?\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"If possible, of course it's best to resolve things in a reasonable and legal way.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "@player12. The worker flings a sheet of still-wet ink paper, with crudely printed characters blurring in blue: Oppose Exploitation of Railway Workers! Below the title is a comparison table of bread prices, and at the bottom is a printed image of a crushed pocket watch, its broken hands pointing to the eight-hour mark."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Glances around to observe where the more decently dressed people are queuing."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Wanders among the crowd of workers, seeing if any are crying in misery or if the workers have injuries—usually some accident triggers a strike."
+    },
+    {
+      "speaker": "player3",
+      "text": "Your gaze finally settles on the independent counter under the left archway, where an old gentleman in a silver-gray waistcoat is lightly tapping the floor with an ivory-handled cane, followed by two attendants carrying document boxes."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Using sign language: \"The marshal's construction materials? Didn't the war just end a few years ago? Is he building a bunker?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Tries to translate Professor Bailan's meaning into polite expression as best as possible."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Applying for a cultural relics investigation regarding the old residence of Count Fenanik. The applicant is a professor from Miskatonic University in the US. Need to know the approximate location.\" #Quietly writes on a piece of paper, leaves own signature, and slips over a small tip."
+    },
+    {
+      "speaker": "player3",
+      "text": "The bandaged worker glances around and quickly signs: The marshal is building an air-raid shelter for his villa!"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Tries to persuade him that our related documents are on the way and will arrive soon, but the school's deadline is very, very tight."
+    },
+    {
+      "speaker": "player5",
+      "text": ".st show"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Then takes out some additional tip as compensation for making an exception."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s current registered personal information is as follows:"
+    },
+    {
+      "speaker": "player2",
+      "text": ".rab Persuade"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you expect will surely receive a response, <player2>'s Persuade invocation:"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Salutes with one hand to indicate \"Marshal\", points at self to indicate \"yes\", with an indignant expression, pushes nose up to make a pig snout to indicate \"a beast\", makes pistol shapes with both hands and shoots at each other to indicate \"war\", pretends to run quickly in place, asks \"Is war coming?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "(Actions with visuals are indeed better for RP)"
+    },
+    {
+      "speaker": "player3",
+      "text": "Huh? No. 6 Old Monastery Site, after renovation, is Dr. Lomien's residence. He came to pay property tax just last week."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Alright, thank you. Do you have contact information for this gentleman?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The clinic's phone is Garon District Exchange 2948—but on Tuesdays you'll have to dial three times! That surgery maniac cuts from 8 AM till dark, the operator always says the line's busy..."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Jots it down in a little notebook"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Points at the workers to indicate \"you\""
+    },
+    {
+      "speaker": "player2",
+      "text": ".stshow Psychology"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2>'s current registered personal information is as follows:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".stshow Psychology"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s current registered personal information is as follows:"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Forms a triangle and releases it to indicate collapse, then flattens the gesture———"
+    },
+    {
+      "speaker": "player3",
+      "text": "✋→🚧 (Clearing the site)"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Laughs heartily, comforting them."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Checks what day of the week it is today."
+    },
+    {
+      "speaker": "player3",
+      "text": "Monday"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Before leaving, curiously asks which railway they are workers for, then enters the city hall to regroup with companions."
+    }
+  ],
+  "start_line": 5605,
+  "end_line": 5915
+}

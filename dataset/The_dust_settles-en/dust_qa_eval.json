@@ -1,0 +1,873 @@
+[
+  {
+    "qa": [
+      {
+        "id": 1,
+        "question": "Based on the dialogue, after Choi Donggeon's wife passed away, how did the two children (Siwon and Myeong-ho) respectively cope with or adapt to life without their mother?",
+        "answer": "After his wife passed away, Siwon became very dependent on the nanny, Shin Hyejin, and always called her mom. Meanwhile, Myeong-ho always carried an umbrella with him whenever he went out, because his mother had promised on her deathbed that she would make the rain stop if he ever forgot it.",
+        "evidence": [
+          "D52:0",
+          "D51:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "Ms. Shin Hui-jing is",
+          "You mean the umbrella"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Ms. Shin Hui-jing is], Choi Donggeon mentioned that after his wife suddenly passed away, Siwon became very close to the nanny, Shin Hyejin, and usually called her mom.",
+            "node_name": "Ms. Shin Hui-jing is"
+          },
+          {
+            "step": 2,
+            "answer": "In [You mean the umbrella], Choi Donggeon mentioned that before his wife passed away, she made a promise to Myeong-ho that if he forgot his umbrella, she would make the rain stop. Since then, Myeong-ho always carries an umbrella in his hand whenever he goes out.",
+            "node_name": "You mean the umbrella"
+          }
+        ],
+        "character": "Choi Donggeon",
+        "char_tag": "Siwon’s father"
+      },
+      {
+        "id": 2,
+        "question": "Based on Song Minyoung's account, what specific behaviors did Siwon's father, Jin Kangshi, exhibit in his treatment of the child?",
+        "answer": "Jin Kangshi rarely visited the child, only seeing him once a year on Siwon's birthday, and he often ignored phone calls. When the child was seriously ill, he never once prayed for him. Furthermore, since the middle of last year, he repeatedly told Song Minyoung that he was tight on money and couldn't afford the child support.",
+        "evidence": [
+          "D02:0",
+          "D01:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "You called Siwon’s dad",
+          "Looks like you got mom"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [You called Siwon’s dad], Song Minyoung mentioned that they only meet once a year on Siwon's birthday, rarely contact each other otherwise, and Jin Kangshi doesn't answer her calls.",
+            "node_name": "You called Siwon’s dad"
+          },
+          {
+            "step": 2,
+            "answer": "In [Looks like you got mom], Song Minyoung mentioned that he never prayed when the child was seriously ill, and starting from mid-last year, he claimed he couldn't afford child support. Overall, Jin Kangshi rarely visited the child, only seeing him once a year on Siwon's birthday, and frequently ignored phone calls. When the child was severely ill, he never prayed for him. Furthermore, since mid-last year, he repeatedly told Min-young that he was tight on money and couldn't scrape together the child support.",
+            "node_name": "Looks like you got mom"
+          }
+        ],
+        "character": "Song Minyoung",
+        "char_tag": "Siwon’s mother"
+      },
+      {
+        "id": 3,
+        "question": "Based on the dialogue, what are the complete birth and death details of Jin Kangshi's deceased biological daughter?",
+        "answer": "Jin Kangshi's daughter was born prematurely during the 23rd week of his wife's pregnancy, weighing less than 700 grams at birth. She survived for only 108 days with her parents before passing away, and was later buried in a cemetery.",
+        "evidence": [
+          "D47:0",
+          "D46:0",
+          "D45:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "Siwon’s name has",
+          "Why Have You Only Come Now",
+          "Why Did You turn yourself in"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Siwon’s name has], Jin Kangshi mentioned that his daughter was born prematurely during the 23rd week of his wife's pregnancy, weighing less than 700 grams.",
+            "node_name": "Siwon’s name has"
+          },
+          {
+            "step": 2,
+            "info": "In [Why Have You Only Come Now], Jin Kangshi explains that their daughter lived with them for a total of only 108 days before passing away.",
+            "node_name": "Why Have You Only Come Now"
+          },
+          {
+            "step": 3,
+            "answer": "In [Why Did You turn yourself in], Jin Kangshi mentioned that the day Min-young was discharged from the hospital was their daughter's birthday, and they went to the cemetery to see her. Taking everything into consideration, their daughter was extremely premature, survived for only 108 days before passing away, and was buried.",
+            "node_name": "Why Did You turn yourself in"
+          }
+        ],
+        "character": "Jin Kangshi",
+        "char_tag": "former English instructor"
+      },
+      {
+        "id": 4,
+        "question": "How has Jin Kangshi's way of responding to his ex-wife's pain over losing their child changed from the past to the present?",
+        "answer": "In the past, Jin Kangshi chose to run away, divorcing his wife five or six years ago because he could not bear to face her empty eyes and suffering. Now, he chooses to step forward and take the blame for his ex-wife, even kneeling to beg the police to classify it as a cold case, in order to protect her psychological defenses.",
+        "evidence": [
+          "D42:0",
+          "D41:0",
+          "D44:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "You and Siwon’s Mom",
+          "You’re Not Reflecting",
+          "What do you mean, a cold case?"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [You and Siwon’s Mom], Jin Kangshi admitted that five or six years ago, unable to face his wife's pain after losing their child, he chose to divorce and run away.",
+            "node_name": "You and Siwon’s Mom"
+          },
+          {
+            "step": 2,
+            "info": "In [You’re Not Reflecting], the police point out that Jin Kangshi is now trying to take the punishment for kidnapping the child on behalf of Ms. Min-young.",
+            "node_name": "You’re Not Reflecting"
+          },
+          {
+            "step": 3,
+            "answer": "In [What do you mean, a cold case?], Jin Kangshi begs the police on his knees to let the case remain a cold case forever. Overall, while he previously chose divorce to escape his ex-wife's pain, he has now shifted to actively taking the blame for her and desperately protecting her emotional anchor.",
+            "node_name": "What do you mean, a cold case?"
+          }
+        ],
+        "character": "Jin Kangshi",
+        "char_tag": "former English instructor"
+      },
+      {
+        "id": 5,
+        "question": "How did Shin Hyejin's statement to the police change regarding her exact whereabouts at the time of Siwon's disappearance?",
+        "answer": "Shin Hyejin initially implied that she was with the children and claimed to have questioned Myeong-ho, who was nearby. When the police pointed out that she wasn't actually at the playground, she finally admitted that she had been hiding behind the flowerbed at the time, and that the child went missing because she took a short break after getting too tired from standing on her tiptoes.",
+        "evidence": [
+          "D27:0",
+          "D28:0",
+          "D26:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "What about your son—was he also",
+          "As I Understand, You Were",
+          "To a fourth-grade in elementary"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [What about your son—was he also], Shin Hyejin initially did not deny the police's question, \"You went to the playground together, right?\" She stated that \"Myeong-ho was right there the whole time,\" and that she had \"questioned him for a long time, trying to get some clues out of him.\"",
+            "node_name": "What about your son—was he also"
+          },
+          {
+            "step": 2,
+            "info": "In [As I Understand, You Were], the police explicitly pointed out, \"As I understand, you didn't go to the playground that day,\" and Shin Hyejin admitted that she told Myeong-ho \"not to say anything.\"",
+            "node_name": "As I Understand, You Were"
+          },
+          {
+            "step": 3,
+            "answer": "In [To a fourth-grade in elementary], Shin Hyejin finally admitted that she was hiding behind the flowerbed watching them at the time, and confessed that the accident happened because \"standing on tiptoes for so long was too tiring, so I took a short break.\"",
+            "node_name": "To a fourth-grade in elementary"
+          }
+        ],
+        "character": "Shin Hyejin",
+        "char_tag": "Nanny, Love Blossom Employee"
+      },
+      {
+        "id": 6,
+        "question": "Based on the stationery store clerk's description, what characteristics did Myeong-ho show when taking care of his younger sister Siwon, and what recent changes have occurred regarding their visits to the store together?",
+        "answer": "Myeong-ho acted exceptionally mature and responsible, always standing behind his younger sister to help her pick out the things she liked. Recently, however, there was a change in who accompanied them. Myeong-ho's mother used to bring them together frequently, but lately, it has almost always been Myeong-ho coming alone or bringing Siwon with him.",
+        "evidence": [
+          "D22:0",
+          "D24:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "You seem to know a lot",
+          "I heard Siwon often"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [You seem to know a lot], the clerk mentioned that although Choi Myeong-ho was young, he was exceptionally mature and steady, always standing behind his younger sister to help her pick out the things she liked.",
+            "node_name": "You seem to know a lot"
+          },
+          {
+            "step": 2,
+            "answer": "In [I heard Siwon often], the clerk mentioned that Choi Myeong-ho's mother used to bring them here together frequently, but she hasn't been seen lately. It's almost always Myeong-ho coming alone, or Myeong-ho bringing Siwon along.",
+            "node_name": "I heard Siwon often"
+          }
+        ],
+        "character": "Apollo Stationery Store",
+        "char_tag": "Sells School Supplies, Junk Food, Surprises and Expectations"
+      },
+      {
+        "id": 7,
+        "question": "How did Choi Gwijja's statements to the police about Siwon's dad change before and after she learned he had turned himself in?",
+        "answer": "Before learning about his surrender, Choi Gwijja claimed that Siwon's dad hadn't been in contact for a long time and would absolutely never take the child away secretly. After finding out he had turned himself in, Gwijja immediately changed her story, claiming that everything he said was a lie, and took the blame herself by stating that she was the one who instructed him to do it.",
+        "evidence": [
+          "D17:0",
+          "D16:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "When Was the Last time You Saw 2",
+          "He said he took Si"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [When Was the Last time You Saw 2], Choi Gwijja told the police that Siwon's father hadn't been in contact for a long time, and insisted that he wasn't the type of person to secretly take the child away.",
+            "node_name": "When Was the Last time You Saw 2"
+          },
+          {
+            "step": 2,
+            "answer": "In [He said he took Si], when the police informed her that Siwon's dad had turned himself in, Choi Gwijja immediately changed her story, saying that everything he said was a lie, and claimed that she was the one who instructed him to do so.",
+            "node_name": "He said he took Si"
+          }
+        ],
+        "character": "Choi Gwijja",
+        "char_tag": "Siwon’s grandmother"
+      },
+      {
+        "id": 8,
+        "question": "Based on the dialogue, what specific actions did Choi Gwijja take both publicly and privately to cover up the fact that her daughter Min-young brought home someone else's child?",
+        "answer": "Choi Gwijja lied to the subdistrict office, claiming her granddaughter was doing fine, and falsely told the police that the child often ran off on her own but would return by nightfall. Privately, she called Siwon's dad, planning to distract Min-young herself so that Siwon's dad could take the opportunity to take the child away.",
+        "evidence": [
+          "D15:0",
+          "D18:0",
+          "D19:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "On the day of new student enrollment",
+          "You went to pick up Siwon.",
+          "Do You Mean Minyoung"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [On the day of new student enrollment], when Choi Gwijja received a call from the subdistrict office, she lied, saying her granddaughter was doing well and they didn't need to worry.",
+            "node_name": "On the day of new student enrollment"
+          },
+          {
+            "step": 2,
+            "info": "In [You went to pick up Siwon.], Choi Gwijja tried to mislead the police, falsely claiming that Siwon often ran around alone and would come back by himself in the evening.",
+            "node_name": "You went to pick up Siwon."
+          },
+          {
+            "step": 3,
+            "answer": "In [Do You Mean Minyoung], Choi Gwijja explains that she secretly called Siwon's dad, planning to distract Min-young herself so that Siwon's dad could take the child away.",
+            "node_name": "Do You Mean Minyoung"
+          }
+        ],
+        "character": "Choi Gwijja",
+        "char_tag": "Siwon’s grandmother"
+      },
+      {
+        "id": 9,
+        "question": "Based on multiple statements, why was Choi Donggeon's nanny, Shin Hyejin, not with the children at the playground, and what is she hiding?",
+        "answer": "Choi Myeong-ho asked Shin Hyejin not to come to the playground and to let him and Siwon go by themselves, because he didn't want his mother in heaven to be heartbroken seeing Siwon call Hyejin \"Mom\". After Siwon went missing, Hyejin told Myeong-ho not to tell anyone that she wasn't with them, attempting to hide the fact that she wasn't present at the time.",
+        "evidence": [
+          "D33:0",
+          "D36:0",
+          "D28:0"
+        ],
+        "category": 3,
+        "depth": 3,
+        "needs": [
+          "It’s not your fault, Myeongho, and",
+          "Can you tell me you",
+          "As I Understand, You Were"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [It’s not your fault, Myeongho, and], Choi Myeong-ho admitted that he was the one who told the auntie (Shin Hyejin) not to come to the playground, because he didn't want his mother in heaven to be sad seeing Siwon call the auntie \"Mom\".",
+            "node_name": "It’s not your fault, Myeongho, and"
+          },
+          {
+            "step": 2,
+            "info": "In [Can you tell me you], Choi Myeong-ho mentioned that after Siwon disappeared, the auntie told him not to tell anyone that she wasn't with them.",
+            "node_name": "Can you tell me you"
+          },
+          {
+            "step": 3,
+            "answer": "Overall, in [As I Understand, You Were], Shin Hyejin admitted to the police that she told Myeong-ho not to say anything and took the blame for losing Siwon upon herself, hiding the fact that she was not with the children at the time.",
+            "node_name": "As I Understand, You Were"
+          }
+        ],
+        "character": "cross",
+        "char_tag": "Cross-Character"
+      },
+      {
+        "id": 10,
+        "question": "Based on multiple testimonies, what is Jin Kangshi's true motive for turning himself in, and what were his actual actions after taking Siwon away?",
+        "answer": "Jin Kangshi turned himself in to take the blame for his ex-wife Min-young (Song Minyoung), because he learned that Min-young had taken Siwon away, and his mother-in-law had already reported Min-young. In fact, after Kangshi found Siwon near the playground, he fed her dinner and showed her the way home. After ringing the doorbell and seeing Siwon's father come out, he even knelt down to apologize to him.",
+        "evidence": [
+          "D41:0",
+          "D45:0",
+          "D48:0"
+        ],
+        "category": 2,
+        "depth": 3,
+        "needs": [
+          "You’re Not Reflecting",
+          "Why Did You turn yourself in",
+          "Where Is Siwon Now"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [You’re Not Reflecting], the police point out that Jin Kangshi is lying. He cannot even answer the details of Siwon's disappearance, and they reveal that he is trying to take the punishment for Ms. Min-young because his mother-in-law has already reported her own daughter.",
+            "node_name": "You’re Not Reflecting"
+          },
+          {
+            "step": 2,
+            "info": "In [Why Did You turn yourself in], Jin Kangshi admitted he heard that Siwon's mother had reported it to the police, and when his mother-in-law told him about this, he was worried about Min-young's condition.",
+            "node_name": "Why Did You turn yourself in"
+          },
+          {
+            "step": 3,
+            "answer": "Overall, in [Where Is Siwon Now], Jin Kangshi stated that after feeding Siwon dinner, he took her back, walked near the playground to let her find her way home, rang the doorbell, waited for her parents to come out, and knelt down to apologize to Siwon's father. This proves that he turned himself in to take the blame for his ex-wife, and that he actually brought the child back home.",
+            "node_name": "Where Is Siwon Now"
+          }
+        ],
+        "character": "cross",
+        "char_tag": "Cross-Character"
+      },
+      {
+        "id": 11,
+        "question": "Based on multiple statements, where did Choi Myeong-ho go and what did he do after leaving Siwon before she went missing?",
+        "answer": "Choi Myeong-ho told Siwon to stay put, while he ran to the Apollo Stationery Store next to the playground, which was just up a flight of stairs. He went there not only to buy candy for Siwon, but also spent a long time picking out a birthday card for the nanny, Shin Hyejin.",
+        "evidence": [
+          "D36:0",
+          "D25:0",
+          "D24:0"
+        ],
+        "category": 2,
+        "depth": 3,
+        "needs": [
+          "Can you tell me you",
+          "It’s Not Your Fault, Either",
+          "I heard Siwon often"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Can you tell me you], Choi Myeong-ho explained that he told Siwon to stay put while he ran to the stationery store just up the stairs next to the playground to buy her some candy.",
+            "node_name": "Can you tell me you"
+          },
+          {
+            "step": 2,
+            "info": "In [I heard Siwon often], the clerk at the Apollo Stationery Store mentioned that Myeong-ho has frequently been coming alone lately, or bringing Siwon along.",
+            "node_name": "I heard Siwon often"
+          },
+          {
+            "step": 3,
+            "answer": "Taking everything into account, in [It’s Not Your Fault, Either], the police revealed that besides buying candy at the stationery store that day, the owner mentioned Choi Myeong-ho spent a long time picking out and buying a birthday card for Shin Hyejin.",
+            "node_name": "It’s Not Your Fault, Either"
+          }
+        ],
+        "character": "cross",
+        "char_tag": "Cross-Character"
+      },
+      {
+        "id": 12,
+        "question": "Based on the information provided by the domestic service center, what is Shin Hyejin's current employment and work status?",
+        "answer": "Shin Hyejin has been employed as a nanny by Choi Donggeon since July 1, 2009. Employees at the domestic service center stated that she is busy taking care of the child every day and hasn't been to the office in a long time, adding that she is not the type of person to slack off at work.",
+        "evidence": [
+          "D11:0",
+          "D10:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "Nanny Employment Proof",
+          "The afternoon of February 3"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Nanny Employment Proof], the document clearly states that the employer, Choi Donggeon, has employed Shin Hyejin as a nanny from July 1, 2009, to the present.",
+            "node_name": "Nanny Employment Proof"
+          },
+          {
+            "step": 2,
+            "answer": "In [The afternoon of February 3], the domestic service center employee mentioned that Shin Hyejin was \"busy looking after the child every day, and hasn't shown up at the office for a long time,\" and explicitly stated that \"she isn't the type to slack off at work.\" Combining these two pieces of information reveals her long-term employment and diligent work ethic.",
+            "node_name": "The afternoon of February 3"
+          }
+        ],
+        "character": "Love Crystal Home Service Center",
+        "char_tag": "Nanny Placement, Caregiver Placement"
+      },
+      {
+        "id": 13,
+        "question": "Based on multiple dialogues, after Choi Gwijja discovered that her daughter Min-young brought home someone else's child, what three specific countermeasures did she take to protect her daughter from punishment?",
+        "answer": "Choi Gwijja first called Siwon's dad, planning to distract Min-young herself so he could take the opportunity to take the child away. Secondly, during the initial police investigation, she lied that the child often ran around alone and would come back by himself at night, attempting to make the police stop the investigation. Finally, upon learning that Siwon's dad had turned himself in, she immediately claimed to the police that she was the one who instructed him to do so, attempting to take the blame upon herself.",
+        "evidence": [
+          "D19:0",
+          "D18:0",
+          "D16:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "Do You Mean Minyoung",
+          "You went to pick up Siwon.",
+          "He said he took Si"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Do You Mean Minyoung], Choi Gwijja mentioned that in order to prevent her delirious daughter from becoming a kidnapper, she called Siwon's dad and planned to \"find a way to distract Min-young, and then you can take the child away.\"",
+            "node_name": "Do You Mean Minyoung"
+          },
+          {
+            "step": 2,
+            "info": "In [You went to pick up Siwon.], during the police investigation, Choi Gwijja tried to downplay the incident, falsely claiming, \"That child Siwon often runs around alone,\" and stating, \"The child will come running back on his own by evening,\" urging the police to go back without worrying.",
+            "node_name": "You went to pick up Siwon."
+          },
+          {
+            "step": 3,
+            "answer": "In [He said he took Si], when the police informed her that Siwon's father had turned himself in, Choi Gwijja immediately changed her story, claiming \"Everything he said is a lie,\" \"I made him do it,\" and \"It's all my fault.\" Overall, she protected her daughter through three measures: secretly transferring the child, lying to the police, and actively taking the blame.",
+            "node_name": "He said he took Si"
+          }
+        ],
+        "character": "Choi Gwijja",
+        "char_tag": "Siwon’s grandmother"
+      },
+      {
+        "id": 14,
+        "question": "Why did Jin Kangshi falsely claim to be the kidnapper? How did he ultimately want the police to handle this missing person case?",
+        "answer": "Jin Kangshi falsely confessed to being the kidnapper in order to take the fall for his ex-wife. Because she could not accept the fact that their child was dead and reported him missing, he wanted to protect her only hope for living. Ultimately, he knelt and begged the police to stop looking for Siwon, pleading for the incident to remain a cold case forever.",
+        "evidence": [
+          "D41:0",
+          "D45:0",
+          "D44:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "You’re Not Reflecting",
+          "Why Did You turn yourself in",
+          "What do you mean, a cold case?"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [You’re Not Reflecting], the police point out that Jin Kangshi knows nothing about the details of the kidnapping and expose that his surrender was an attempt to \"bear the punishment for her,\" meaning he is taking the fall for his ex-wife.",
+            "node_name": "You’re Not Reflecting"
+          },
+          {
+            "step": 2,
+            "info": "In [Why Did You turn yourself in], Jin Kangshi stated that his ex-wife reported the case to \"make Siwon a permanently missing child, which is better than accepting the fact that she is already dead.\"",
+            "node_name": "Why Did You turn yourself in"
+          },
+          {
+            "step": 3,
+            "answer": "Overall, Jin Kangshi falsely claimed to be the kidnapper to take the fall for his ex-wife. To cater to his ex-wife's psychological state, In [What do you mean, a cold case?], he \"knelt down and begged\" the police to \"stop looking for Siwon,\" hoping to make this case \"a cold case forever.\"",
+            "node_name": "What do you mean, a cold case?"
+          }
+        ],
+        "character": "Jin Kangshi",
+        "char_tag": "former English instructor"
+      },
+      {
+        "id": 15,
+        "question": "Why did Myeong-ho initially hide from the police the fact that the aunt wasn't at the playground?",
+        "answer": "Because the auntie had told Myeong-ho not to tell anyone that she wasn't with them at the time. At the same time, Myeong-ho thought the auntie was a good person, and telling the truth would make her look like a bad person. Besides, he believed that the cause of the incident was actually his own fault.",
+        "evidence": [
+          "D36:0",
+          "D37:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "Can you tell me you",
+          "If I tell you"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Can you tell me you], Myeong-ho mentioned that after Siwon went missing, Auntie told him not to tell anyone that she wasn't with them, and to just not say anything at all.",
+            "node_name": "Can you tell me you"
+          },
+          {
+            "step": 2,
+            "answer": "In [If I tell you], Myeong-ho said that if he told the truth, it would make the auntie look like a bad person. But he believes she is a good person and that everything is actually his own fault, so he chose to keep it a secret.",
+            "node_name": "If I tell you"
+          }
+        ],
+        "character": "Choi Myeong-ho",
+        "char_tag": "Siwon’s Older Brother"
+      },
+      {
+        "id": 16,
+        "question": "At the time of the incident, was Auntie really at the playground with Myeong-ho and Siwon?",
+        "answer": "The auntie was not with them at the time of the incident. Although Choi Myeong-ho initially told the police that they were all together, he later confessed that he had told the auntie not to come to the playground, and that she was the only one who rushed over after Siwon went missing.",
+        "evidence": [
+          "D34:0",
+          "D33:0",
+          "D36:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "Then listen to me.",
+          "It’s not your fault, Myeongho, and",
+          "Can you tell me you"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Then listen to me.], when the police asked if Mom, Siwon, and Choi Myeong-ho were all together at the time, Myeong-ho initially replied, \"Yes, we were all together.\"",
+            "node_name": "Then listen to me."
+          },
+          {
+            "step": 2,
+            "info": "But in [It’s not your fault, Myeongho, and], Myeong-ho confessed that he actually told the auntie not to come to the playground and to stay away from them.",
+            "node_name": "It’s not your fault, Myeongho, and"
+          },
+          {
+            "step": 3,
+            "answer": "In [Can you tell me you], Myeong-ho further explained that after Siwon disappeared, only the auntie came over alone, which confirms that the auntie was indeed not with them at the time of the incident.",
+            "node_name": "Can you tell me you"
+          }
+        ],
+        "character": "Choi Myeong-ho",
+        "char_tag": "Siwon’s Older Brother"
+      },
+      {
+        "id": 17,
+        "question": "Why did Myeong-ho tell Auntie not to come to the playground?",
+        "answer": "Because Myeong-ho's mother said before she died that she would watch over them from heaven. Myeong-ho felt that if the auntie was with them at the playground, they would look like a family. He was afraid his mother would be sad if she saw Siwon calling the auntie \"Mom,\" so he asked the auntie to stay a bit further away from them.",
+        "evidence": [
+          "D32:0",
+          "D33:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "Everything Auntie said",
+          "It’s not your fault, Myeongho, and"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Everything Auntie said], Myeong-ho mentioned that his mom once told him that even if she passed away, she would watch over them from heaven.",
+            "node_name": "Everything Auntie said"
+          },
+          {
+            "step": 2,
+            "answer": "In [It’s not your fault, Myeongho, and], Choi Myeong-ho explained that if they were all at the playground together, they would look like a family. If their mother in heaven saw Siwon calling their aunt \"Mom,\" she would be sad. To keep their mother from being sad, he asked his aunt not to come.",
+            "node_name": "It’s not your fault, Myeongho, and"
+          }
+        ],
+        "character": "Choi Myeong-ho",
+        "char_tag": "Siwon’s Older Brother"
+      },
+      {
+        "id": 18,
+        "question": "What exactly happened before and after Siwon went missing?",
+        "answer": "Before the disappearance, Myeong-ho told the auntie not to come to the playground, so only he and Siwon were there. Later, Myeong-ho went to a nearby stationery store to buy candy for Siwon, telling him to stay right where he was. When he returned after buying the candy, he found that Siwon was already gone.",
+        "evidence": [
+          "D33:0",
+          "D36:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "It’s not your fault, Myeongho, and",
+          "Can you tell me you"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [It’s not your fault, Myeongho, and], Choi Myeong-ho explained that he was the one who told the auntie not to come to the playground, leaving just him and Siwon to go alone.",
+            "node_name": "It’s not your fault, Myeongho, and"
+          },
+          {
+            "step": 2,
+            "answer": "In [Can you tell me you], Myeong-ho described how he told Siwon to stay put while he ran to the stationery store next to the playground to buy candy. When he returned a short while later, he found that Siwon had disappeared.",
+            "node_name": "Can you tell me you"
+          }
+        ],
+        "character": "Choi Myeong-ho",
+        "char_tag": "Siwon’s Older Brother"
+      },
+      {
+        "id": 19,
+        "question": "How were Myeong-ho's attitude and behavior towards \"lying\" influenced?",
+        "answer": "The aunt once taught Myeong-ho that people sometimes need white lies, and after Siwon went missing, she asked him to hide the fact that she wasn't present. Influenced by this, Myeong-ho believed that staying silent wasn't a bad lie, because he felt that telling the truth would make the good aunt look like a bad person.",
+        "evidence": [
+          "D32:0",
+          "D36:0",
+          "D37:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "Everything Auntie said",
+          "Can you tell me you",
+          "If I tell you"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Everything Auntie said], Myeong-ho mentioned that his aunt once told him that people sometimes need white lies, and lying itself isn't inherently bad.",
+            "node_name": "Everything Auntie said"
+          },
+          {
+            "step": 2,
+            "info": "In [Can you tell me you], after Siwon went missing, the auntie told Choi Myeong-ho to say nothing, just like the monkeys in the temple, to hide the fact that she wasn't with them.",
+            "node_name": "Can you tell me you"
+          },
+          {
+            "step": 3,
+            "answer": "In [If I tell you], Myeong-ho is influenced by this and asks the police why saying nothing is a bad lie, believing that telling the truth would make the nice auntie look like a bad person.",
+            "node_name": "If I tell you"
+          }
+        ],
+        "character": "Choi Myeong-ho",
+        "char_tag": "Siwon’s Older Brother"
+      },
+      {
+        "id": 20,
+        "question": "Based on the dialogue, what was the direct sequence of events that led to Siwon being left unattended at the playground and ultimately going missing?",
+        "answer": "Song Minyoung originally took Siwon to the playground, but left to help open the door when the fire alarm went off at the grandmother's house. Although the grandmother promised to pick up the child from the playground, she hadn't done so by the time the two met downstairs. As a result, Siwon was left unattended during this time and went missing.",
+        "evidence": [
+          "D07:0",
+          "D06:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "Calm down first.",
+          "I’m coming right now."
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Calm down first.], Song Minyoung frantically reported to Officer Jeon, clearly stating that Siwon had gone missing at the playground.",
+            "node_name": "Calm down first."
+          },
+          {
+            "step": 2,
+            "answer": "In [I’m coming right now.], Song Minyoung explains that she had to go open the door because the fire alarm at the grandmother's house went off. The grandmother promised to pick up the child at the playground, but when they met up, the grandmother hadn't picked him up, leading to the child's disappearance. Overall, Minyoung originally had Siwon at the playground but left to help open the door due to the fire alarm. Although the grandmother promised to pick him up at the playground, she hadn't done so when they met downstairs, resulting in Siwon being left unattended and going missing during that time.",
+            "node_name": "I’m coming right now."
+          }
+        ],
+        "character": "Song Minyoung",
+        "char_tag": "Siwon’s mother"
+      },
+      {
+        "id": 21,
+        "question": "How did Song Minyoung's view on whether Jin Kangshi took the child change over time?",
+        "answer": "Song Minyoung initially speculated that Jin Kangshi might have taken the child because he couldn't afford the child support. However, she later changed her mind, believing that Kangshi wasn't that kind of person, and provided the police with a lead about a suspicious woman who frequently hung around the playground.",
+        "evidence": [
+          "D01:0",
+          "D05:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "Looks like you got mom",
+          "Do you really think it was"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Looks like you got mom], Song Minyoung speculated that if Jin Kangshi really took the child, it might be because he mentioned mid-last year that he was tight on money and couldn't afford child support.",
+            "node_name": "Looks like you got mom"
+          },
+          {
+            "step": 2,
+            "answer": "In [Do you really think it was], Song Minyoung subsequently overturned this speculation, believing that Jin Kangshi did not have that kind of personality, and pointed out that a suspicious woman in her thirties or forties often wandered around the playground. Overall, Minyoung initially speculated that Kangshi might have taken the child because he couldn't scrape together the child support. However, she later changed her mind, believing that Kangshi was not that kind of person, and provided the police with a clue about a suspicious woman who frequently loitered near the playground.",
+            "node_name": "Do you really think it was"
+          }
+        ],
+        "character": "Song Minyoung",
+        "char_tag": "Siwon’s mother"
+      },
+      {
+        "id": 22,
+        "question": "Based on the dialogue, what was Siwon's physical condition after birth and his early childhood environment like?",
+        "answer": "Siwon was a premature baby born at seven months. At birth, the doctors warned of potential complications and required numerous consent forms to be signed. Because Song Minyoung underwent postpartum surgery and was hospitalized for a long time, she was unable to care for him personally, so Siwon grew up in the hospital staring at the ceiling.",
+        "evidence": [
+          "D08:0",
+          "D09:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "Enrollment notice recei",
+          "Did Siwon ever"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Enrollment notice recei], Song Minyoung mentioned that Siwon was born premature at seven months, and the doctor had warned that there might be complications, making her sign a bunch of consent forms.",
+            "node_name": "Enrollment notice recei"
+          },
+          {
+            "step": 2,
+            "answer": "In [Did Siwon ever], Song Minyoung stated that she underwent surgery and was hospitalized for a long time when she gave birth to Siwon, resulting in her being unable to care for him. Siwon grew up staring at the hospital ceiling since he was little. Overall, Siwon was a premature baby born at seven months. At birth, the doctor warned of potential complications and required them to sign numerous consent forms. Because Minyoung underwent surgery after giving birth and was hospitalized for a long time, unable to care for him personally, Siwon grew up staring at the hospital ceiling.",
+            "node_name": "Did Siwon ever"
+          }
+        ],
+        "character": "Song Minyoung",
+        "char_tag": "Siwon’s mother"
+      },
+      {
+        "id": 23,
+        "question": "After Choi Donggeon's wife passed away, what behaviors or emotional anchors did Myeong-ho and Siwon each exhibit when facing the loss of their mother?",
+        "answer": "Siwon became emotionally attached to the nanny, Shin Hyejin, and always called her Mom. Myeong-ho, on the other hand, honored his mother's memory by carrying an umbrella every time he went out, because she had promised him before she passed away that if he ever forgot his umbrella, she would make the rain stop.",
+        "evidence": [
+          "D52:0",
+          "D50:0",
+          "D51:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "Ms. Shin Hui-jing is",
+          "Myeongho also and Siwon",
+          "You mean the umbrella"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Ms. Shin Hui-jing is], Choi Donggeon mentioned that after his wife passed away, Siwon was very close to the nanny, Shin Hyejin, and always called her mom.",
+            "node_name": "Ms. Shin Hui-jing is"
+          },
+          {
+            "step": 2,
+            "info": "In [Myeongho also and Siwon], Choi Donggeon mentioned that Myeong-ho overcame the pain of losing his family in his own way, holding onto an item every time he went out.",
+            "node_name": "Myeongho also and Siwon"
+          },
+          {
+            "step": 3,
+            "answer": "In [You mean the umbrella], Choi Donggeon explains that Myeong-ho always takes an umbrella when going out because of a promise his late wife made to Myeong-ho: if he forgot his umbrella on a rainy day, his mom would make the rain stop. Overall, Siwon placed his emotional attachment on the nanny, while Myeong-ho honors his mother's memory by carrying an umbrella.",
+            "node_name": "You mean the umbrella"
+          }
+        ],
+        "character": "Choi Donggeon",
+        "char_tag": "Siwon’s father"
+      },
+      {
+        "id": 24,
+        "question": "In the case of Siwon's disappearance, how did Choi Donggeon's attitude toward the police change? What caused this change?",
+        "answer": "Choi Donggeon was initially very angry and dissatisfied with the police, believing they were wasting time and not actively searching for Siwon, who might have been kidnapped. Later, he apologized to the police because Siwon was returned three days after going missing, but he was so preoccupied with his own situation that he failed to promptly contact the police who were still looking for the child.",
+        "evidence": [
+          "D54:0",
+          "D53:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "Is there anything near the playground",
+          "Is Siwon Okay Now"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Is there anything near the playground], Choi Donggeon is highly emotional, accusing the police of wasting time by leisurely asking questions. He believes Siwon might have been kidnapped by criminals and expresses anger at the police's handling of the situation.",
+            "node_name": "Is there anything near the playground"
+          },
+          {
+            "step": 2,
+            "answer": "In [Is Siwon Okay Now], Choi Donggeon apologizes to the police, stating that Siwon was brought back three days after going missing, but he only thought of himself and didn't contact them earlier despite knowing the police were still looking for the child. This shows that his attitude shifted from angry accusation to guilty apology, because the child had returned safely but he failed to notify the police in time.",
+            "node_name": "Is Siwon Okay Now"
+          }
+        ],
+        "character": "Choi Donggeon",
+        "char_tag": "Siwon’s father"
+      },
+      {
+        "id": 25,
+        "question": "How did Shin Hyejin's perception of Myeong-ho's attitude toward her change?",
+        "answer": "Shin Hyejin originally thought Myeong-ho hated her because he had once told her to stay away. But when the police showed her a carefully chosen birthday card from Myeong-ho, she realized that he didn't actually hate her completely, and she blamed herself for not understanding the pain he had suffered.",
+        "evidence": [
+          "D26:0",
+          "D25:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "To a fourth-grade in elementary",
+          "It’s Not Your Fault, Either"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [To a fourth-grade in elementary], Shin Hyejin stated that Myeong-ho must have really hated her secretly observing them, and mentioned that Myeong-ho once told her to stay away from them.",
+            "node_name": "To a fourth-grade in elementary"
+          },
+          {
+            "step": 2,
+            "answer": "In [It’s Not Your Fault, Either], the police tell Shin Hyejin that Myeong-ho carefully picked out a birthday card for her at the stationery store. Shin Hyejin tears up, expressing that she always thought Myeong-ho hated her, and feels foolish for not understanding the pain he had been through.",
+            "node_name": "It’s Not Your Fault, Either"
+          }
+        ],
+        "character": "Shin Hyejin",
+        "char_tag": "Nanny, Love Blossom Employee"
+      },
+      {
+        "id": 26,
+        "question": "Regarding the unreported new students in the district, what specific actions did the subdistrict office director take, and which specific students were involved?",
+        "answer": "The director of the subdistrict office confirmed that four new students in the jurisdiction failed to report for enrollment. They have contacted the parents by phone and requested police assistance to forge the home visit procedures. These four unreported new students are Seo Ho-jun, Kim Beom, Hwang In-cheol, and Kim Siwon.",
+        "evidence": [
+          "D12:0",
+          "D14:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "Is this the subdistrict office",
+          "Unreported New Student Enrollment"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Is this the subdistrict office], the director mentioned that four children in the district had not reported for enrollment. He had already spoken with the parents and requested police assistance to go through the formalities, pretending that someone had already been sent for a home visit.",
+            "node_name": "Is this the subdistrict office"
+          },
+          {
+            "step": 2,
+            "answer": "In [Unreported New Student Enrollment], the names of these 4 unreported students are clearly listed: Seo Hojun, Kim Beom, Hwang Incheol, and Kim Siwon. Overall, it can be seen that the director took action regarding these 4 specific students by contacting their parents and requesting police assistance to follow standard procedures.",
+            "node_name": "Unreported New Student Enrollment"
+          }
+        ],
+        "character": "Rongju Subdistrict Office",
+        "char_tag": "Issues Various Certificates, Child Welfare Services"
+      },
+      {
+        "id": 27,
+        "question": "What is the direct reason the subdistrict office director asked the police to provide the employee list and bank card numbers?",
+        "answer": "Since four new students in the district failed to report for enrollment, the director needed to go through the motions and pretend the police had already sent someone for a home visit. To pay the dispatch subsidy for assisting with this matter, the director asked the police to provide a list of the relevant officers and their bank account numbers for processing.",
+        "evidence": [
+          "D14:0",
+          "D12:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "Unreported New Student Enrollment",
+          "Is this the subdistrict office"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In [Unreported New Student Enrollment], the document shows that a total of 4 new students in the district failed to report on time.",
+            "node_name": "Unreported New Student Enrollment"
+          },
+          {
+            "step": 2,
+            "answer": "In [Is this the subdistrict office], to handle the situation of these 4 unreported children, the director requested police assistance for the door-to-door visit process and stated that a dispatch allowance would be provided. Therefore, the police need to send the staff list and bank account numbers after receiving the official letter.",
+            "node_name": "Is this the subdistrict office"
+          }
+        ],
+        "character": "Rongju Subdistrict Office",
+        "char_tag": "Issues Various Certificates, Child Welfare Services"
+      }
+    ]
+  }
+]

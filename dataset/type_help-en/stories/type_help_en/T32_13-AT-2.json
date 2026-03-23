@@ -1,0 +1,10 @@
+{
+  "section": "13-AT-2",
+  "description": "At night, Annie Beaumont returns to the Attic to rest, closes the window, and falls asleep. No abnormal incidents occur all night.",
+  "conversation": [
+    {
+      "speaker": "dialogue",
+      "text": "Description: At night, Annie Beaumont returns to the Attic to rest, closes the window, and falls asleep. No abnormal incidents occur all night.\nLocation: Attic（Attic）\nKey Information:\n  - Annie Beaumont enters the Attic alone and locks the door from the inside.\n  - She notices a window is left open and closes it.\n  - She then falls asleep; during the night there are only thunder sounds and normal turning-over noises.\n  - This node clearly records Annie Beaumont’s solitude and stable sleep state at night.\n  - The narrator confirms that no other abnormal events occur during this time period.\nCharacters:\n  [Annie Beaumont（Annie Beaumont）] Person No. 2.\n    · Returns to the Attic at night and locks the door from the inside.\n    · Finds the window not closed and shuts it.\n    · Falls asleep without disturbance."
+    }
+  ]
+}

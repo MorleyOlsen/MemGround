@@ -1,0 +1,264 @@
+{
+  "section": "13. Hunting the Dragon: Pre-Battle Preparations",
+  "description": "The bow and arrow crafting plan is proposed. The investigators complete their final preparations, determined to slay the dragon.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Look for cover, hide behind it."
+    },
+    {
+      "speaker": "player3",
+      "text": "(Because you could have recruited a dozen soldiers in the square.)"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Raise shield to block."
+    },
+    {
+      "speaker": "player3",
+      "text": "Four iron arrows pierce player8's body almost simultaneously: one penetrates below the collarbone, one plunges into the abdomen, and two others sink deep into the thighs. The impact staggers him back two steps, slamming him heavily against the ruined altar. player8's fingers twitch, grasping the arrow shaft embedded in his abdomen, dark red blood frothing in his throat. His knees slowly bend, his armor scraping against the ground with a grating screech, before he finally collapses to his knees. His head droops, as if merely taking a weary nap. Blood snakes down the grooves of his armor, pooling into a small crimson puddle in the cracks of the stone bricks."
+    },
+    {
+      "speaker": "player8",
+      "text": ".r27-4d8"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra70"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player8>'s 70 Wish:"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Why resort to violence right away?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The poet's lute clatters to the ground with a \"clang,\" its neck snapping instantly. He staggers, trying to grab player8's shoulder plate, but jerks his hand back upon touching the arrow shaft. \"Damn... this thing's stuck tighter than a Venetian courtesan's hairpin...\" He switches to lightly kicking the knight's boot with his toe, his voice growing shriller. \"Get up! I still have to take you all to drink the most expensive wine in Constantinople—\"Damn it! Damn it! Damn it!\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Dart forward to try and drag the dying player8 back."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player6>'s Agility 70 Wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": "player6's boot heel crushes stained glass as she dashes over, trying to move player8 to a concealed spot, but she didn't anticipate the weight of player8's heavy armor, making it impossible for her to move an inch."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Pat the poet on the shoulder. \"Do you think you can go back and get reinforcements now?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Continue raising the shield to guard against the arrow rain, pressing Martin's head down, covering his figure as we advance toward the ruins' exit."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player9>'s Shield 65 Wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Shit! The square! Right, the square!\" He points sharply outside the church. \"Those mercenaries may be dumber than donkeys, but at least they can block arrows!\" \"Listen, you zealot, I'll go rally people. You guard this tin can, don't let that rotten-eyed priest turn him into jerky!\" Before the words fade, he's already darting toward the passage above the ruins and scrambling out."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Hand him the Judas Finger."
+    },
+    {
+      "speaker": "player3",
+      "text": "(What is this (0"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Step out of cover to see if I can charge up and knock out an archer."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player7>'s 70 Wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra Dodge 40"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player3>'s Dodge 40 Wish:"
+    },
+    {
+      "speaker": "player7",
+      "text": ".r1d6+1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player3",
+      "text": "player7 punches an archer in the jaw, instantly knocking him flying and unconscious to the ground."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Gritting through physical discomfort, draw sword and slash at the nearest enemy."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player8>'s Sword 50 Wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra Dodge 45"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player3>'s Dodge 45 prayer: D100=10/45 Hard success - At least can put up a fight against others' successes now..."
+    },
+    {
+      "speaker": "player3",
+      "text": "An enemy wielding a scimitar nimbly dodges player8's feeble attack. A new wave of arrows rains down from three directions simultaneously. Five arrows spread in a fan shape block the route to the central courtyard, their trajectories noticeably lowered, specifically aiming at leg and torso height. Two poisoned arrows skim horizontally across the floor tiles, targeting player6's arms. Three lobbed arrows trace high parabolic arcs, predicting the path of dodging towards the relief wall."
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra shield 50"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player8>'s Shield 50 prayer: D100=61/50 Failure - Life is good precisely because it is meaningless, allowing each to bestow their own meaning."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Try to dodge .ra Dodge 60"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player6>'s Dodge 60 prayer: D100=58/60 Success - Yay, Qiduo won't be accused of having excessive lead content anymore."
+    },
+    {
+      "speaker": "player7",
+      "text": "#What to do, only seriously jump left and right .ra 35"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player7>'s 35 prayer: D100=89/35 Failure - Life is good precisely because it is meaningless, allowing each to bestow their own meaning."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Lie on side and curl legs, reducing body size, covering self with shield to avoid arrow rain. .ra Shield 65"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player9>'s Shield 65 prayer: D100=3/65 Extreme success! img style=max-width: 300px src=data/images/pictures/Extreme success.pn / - Amazing! Eh, it's not some chosen one... Qiduo is absolutely neutral..."
+    },
+    {
+      "speaker": "player7",
+      "text": "(Protect the low HP)"
+    },
+    {
+      "speaker": "player3",
+      "text": "player9 suddenly lifts the shield, blocking in front of player8, the shield surface tilted at forty-five degrees—the explosive sounds of iron arrows striking metal erupt one after another, sparks flying at the shield's edge. Two deflected arrows, as if endowed with will, spin and pierce the chests of the scimitar-wielders attacking from left and right: the blade of the left monk freezes three inches from player7's throat, the white fletching still quivering on his robe; the right swordsman's spinning slash halts abruptly, the serrated back of the blade grazing player6's cloak, while he himself is pinned through the collarbone by another ricocheted arrow. Foul blood gushes from their wounds, splattering on the broken hand of the Madonna statue with a corrosive hiss. .r1d5"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright alright, I'm going to roll... <player3>'s roll: 1d5=2 - Acceptable, I guess."
+    },
+    {
+      "speaker": "player3",
+      "text": ".r4d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright alright, I'm going to roll... <player3>'s roll: 4d6=[4d6=18, 6+3+3+6]=18 - Acceptable, I guess."
+    },
+    {
+      "speaker": "player3",
+      "text": "( player7 passes two armor checks)"
+    },
+    {
+      "speaker": "player7",
+      "text": ".r2d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright alright, I'm going to roll... <player7>'s roll: 2d6=[2d6=10, 6+4]=10 - Acceptable, I guess."
+    },
+    {
+      "speaker": "player3",
+      "text": "(As long as one has never been seriously injured, then one won't die (0"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Rush to player7's side and pray he must hold on .ra First Aid 50"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player6>'s First Aid 50 prayer: D100=14/50 Hard success - Because time forever forks, leading to countless futures."
+    },
+    {
+      "speaker": "player3",
+      "text": "player6's eyes sharpen, she dashes forward, grabs player7's collar and pulls him behind a broken pillar. Her movements are swift as lightning. She grips the arrow shaft with one hand, a dagger flashes coldly, slicing off the arrowhead close to the flesh, the action clean and decisive, causing no secondary vibration to the arrowhead. Finally, she uses the dagger to cut open player7's robe sleeve, twists the fabric into a rope, and ties it tightly above the wound on his shoulder. The monk's face is deathly pale, but his breathing has stabilized."
+    },
+    {
+      "speaker": "player9",
+      "text": "#player9 starts raising the shield and pulling Martinos back, body blocking him so he won't get hit by more arrows. .ra Shield 65"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player9>'s Shield 65 prayer: D100=96/65 Failure - I heard that having high favorability with Qiduo makes dice lighter... Not sure, want to try again?"
+    },
+    {
+      "speaker": "player3",
+      "text": "(Then the following shield check has no bonus die (0 (Then an extra dodge is needed (0 (I added this drama myself, sorry (0"
+    },
+    {
+      "speaker": "player7",
+      "text": "@player3 () #Looking for the crossbowman who just shot me, to give him a fist, brother .ra Brawl"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player7>'s Brawl prayer: D100=55/25 Failure - I heard that having high favorability with Qiduo makes dice lighter... Not sure, want to try again?"
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra 70"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player7>'s 70 prayer: D100=51/70 Success - Yay, Qiduo won't be accused of having excessive lead content anymore."
+    },
+    {
+      "speaker": "player7",
+      "text": ".r1d6+1d3"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm going to roll..."
+    },
+    {
+      "speaker": "player3",
+      "text": "player7 punches the crossbowman in the abdomen, but he doesn't go down."
+    },
+    {
+      "speaker": "player7",
+      "text": ".sthp1"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player7>'s coc7 attribute registration is complete. 1 piece of data was updated this time."
+    }
+  ],
+  "start_line": 3736,
+  "end_line": 4047
+}

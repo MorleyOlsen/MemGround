@@ -1,0 +1,780 @@
+{
+  "section": "5. Judicial Square: Ambush and Escape",
+  "description": "Investigating Brandt's suspicious behavior, ambushed by over ten people at Judicial Square, sent an emergency distress signal, Andrew drove through the encirclement",
+  "conversation": [
+    {
+      "speaker": "player5",
+      "text": "\"Ah, a murder case?\" This clue far exceeded previous expectations, leaving them shocked as well."
+    },
+    {
+      "speaker": "player3",
+      "text": "Look at the photo."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What does this have to do with Haddin?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "In the photo, a man in police uniform lies on the ground, his chest soaked with blood; another man in plain clothes kneels beside him, seemingly searching his chest. Although the photo appears to have been taken at night without flash, the details are presented nearly perfectly under the illumination of the police car's headlights."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison remains silent, observing these clues."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Who took this photo?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Who took this photo?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"This photo was mailed to me on June 30th. The envelope had no signature but was marked for Redman—that is, me—to open personally. I was also very surprised when I opened it. Because no witnesses were found in the previous police and prosecutor's investigation, yet this mysterious photo is not only very clear but also directly provides a new lead.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"This photo arrived at quite the opportune time.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Being able to capture a photo from this angle and sending it to the prosecutor's office after such a long time, it's highly likely the photo was taken by an accomplice who wanted to harm Haddin due to internal strife.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I have no expertise in photography; perhaps you can glean some clues from the photo?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled in many areas."
+    },
+    {
+      "speaker": "player4",
+      "text": "Amateur Alison tries to look."
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like shackles, and are you now betting on the untraceable one?"
+    },
+    {
+      "speaker": "player2",
+      "text": "You are all clueless about photography."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"...To be honest, we are also currently tracking Haddin's whereabouts. As for the public warrant, my suggestion is to delay it to avoid alerting the target.\" After a pause, \"Based on this photo and the clues we have, this should be a murder.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s Photography check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"In that case, I'll proceed as planned. Annie wasn't keen on this plan anyway.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Haddin might be involved with multiple parties; the situation is complex. Some of them are very unfavorable to him.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I think the sender's intention in mailing you the photo was precisely to have you issue a public warrant for him, making it difficult for him to hide and forcing him to reveal his whereabouts.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Speaking of that lecture you mentioned, that was back in January, right? It was a large professional lecture for prosecutors, judges, and lawyers. It's been too long; I don't really remember.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I saw in the file that the murdered officer was investigating former Nazi officials' crimes. Haddin is extremely interested in Nazis. I wonder if you have any leads regarding this aspect?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No, no, I have no impression of Haddin. Otherwise, I would have recognized him the moment I saw the photo.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I wonder if the victim had any family. The previous investigation should have included the victim's activities and social connections from his final period.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If you need the photo, you can take a copy. I'm sorry, but the original cannot be given to you; it's already archived at the prosecutor's office.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We are very interested in the content of his last investigation into Nazi crimes.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Then take a copy of this photo."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Schultz was indeed privately investigating Nazis. This wasn't part of his official duties. The customs section he belonged to is, to my knowledge, the most fair and diligent department. They have cracked several major smuggling cases in the past six months.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "It seems we need to visit the customs section."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Perhaps you could ask his colleagues about Schultz's relatives. They have clearly stated they do not wish to be disturbed further, so unfortunately...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We may need an official reason to question the officers in the Anti-Smuggling Division,\" David hinted."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hmm... Well then, I can provide two documents with the word 'Search Warrant' written on them.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thank you for the valuable clues and assistance.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David also expressed sincere gratitude."
+    },
+    {
+      "speaker": "player2",
+      "text": "Redman rummaged through his desk drawer and pulled out two sheets of paper."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Of course, we will use your assistance with discretion.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "After making your next plans, you left the Frankfurt Prosecutor's Office."
+    },
+    {
+      "speaker": "player1",
+      "text": "The recording of the story Algorithm of the Heart has resumed, currently 1919 texts recorded."
+    },
+    {
+      "speaker": "player3",
+      "text": "Head to the Anti-Smuggling Division."
+    },
+    {
+      "speaker": "player2",
+      "text": "After leaving the Prosecutor's Office, you went to the police station. After presenting Redman's search warrant, Andreas Rilke, the Section Chief of the Anti-Smuggling Division, received you."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We want to understand Mr. Schultz's work during his lifetime, especially anything related to neo-Nazis.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"That's unfortunate. Schultz's investigations into Nazis were entirely based on his personal interest. In other words, he was a volunteer Nazi hunter, and we don't know more either.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"This might be related to his death in the line of duty and is an important lead. Why was he so passionate about this?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The primary duty of the Anti-Smuggling Division is to combat smuggling syndicates. I thought Prosecutor Hermann was fully aware of this before. Why bring it up again now?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It's truly regrettable to lose such a police officer. There have been new developments in the case of his murder. We hope to investigate his belongings to see if we can find more clues.\" Alison stepped forward with a friendly smile."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"There's been a breakthrough in the evidence recently.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"So you're saying the work of the Anti-Smuggling Division doesn't overlap with neo-Nazi organizations, correct?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"On an official level, the Federal Court has been committed to advancing the pursuit and trial of Nazi war criminals. On a civilian level, volunteer organizations dedicated to hunting down remaining Nazi elements are constantly emerging.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David pondered these words for a moment, feeling Rilke wasn't very concerned about this matter. \"Then we'd like to understand the situation on the day of the incident. The victim wasn't on duty at the time. Who recalled him temporarily and for what reason?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Do you really think Schultz's personal belongings would still be here? Sorry, the case happened over two months ago. His personal effects were taken away by his relatives long ago.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David wants to gauge Rilke's attitude towards Schultz. He really doesn't seem like a superior who lost a capable subordinate."
+    },
+    {
+      "speaker": "player2",
+      "text": "As soon as David's words left his mouth, Rilke's expression changed slightly. After a brief silence, his eyes narrowed a little. \"Sorry, scheduling matters are internal affairs of the Anti-Smuggling Division! The Anti-Smuggling Division is the hardest-working and most incorruptible department in all of Frankfurt. It's normal to have temporary work arrangements requiring overtime. No comment!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like shackles, and at this moment, will you gamble on the one with no trace to follow?"
+    },
+    {
+      "speaker": "player5",
+      "text": "Oh ho, after seeing the change in Rilke's expression, he showed an intrigued look. Is it really that incorruptible?"
+    },
+    {
+      "speaker": "player2",
+      "text": "You feel that although Rilke appears concerned on the surface, it's somewhat insincere posturing."
+    },
+    {
+      "speaker": "player4",
+      "text": "Rilke's attitude made Alison somewhat suspicious. There's definitely more to this than meets the eye."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The entire police station is working hard on this case. Not everyone is willing to waste time on such pointless questioning. If you want to continue playing guessing games here, we don't have time to entertain you!\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We came here for Schultz, who died in the line of duty! You can't treat us like this!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Two tall, burly policemen rushed in, one hand on the baton at their waist. \"Please leave the police station!\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew yelled a couple of times at the top of his lungs."
+    },
+    {
+      "speaker": "player5",
+      "text": "Using the cover of others in front, turn on the eavesdropping device, then plop down on the sofa, casually stuffing the device into a sofa crevice."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Get lost, now!\" A police officer was already growing impatient, pressing his baton against Andrew's chest."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Alright, alright, we're leaving.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Hurriedly push Andrew to leave. Let's go, let's go, don't linger."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If you don't leave now, I won't be able to consider Prosecutor Redman's face anymore. Are you trying to assault an officer?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "While walking out, observe the reactions of the Customs Investigation Section staff. \"We're all on the same side, no need for such roughness.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We were just asking routine questions, is this really necessary?\" Unwillingly, slowly get up and shuffle away."
+    },
+    {
+      "speaker": "player2",
+      "text": "Rilke indignantly directs the police to escort you out. The Customs Investigation Section clerks are somewhat baffled, but obviously no one would be foolish enough to clash with the Section Chief for a few people of unknown origin."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew returns to his own car, waiting to discuss further with the superiors."
+    },
+    {
+      "speaker": "player5",
+      "text": "Get in the car and drive off in a flash, keeping an eye out on the road for anyone following."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled at many things. <player5>'s personal attributes are: Stealth:50. Let me see, you're quite skilled at many things. <player3>'s personal attributes are: Stealth:60. Let me see, you're quite skilled at many things. <player6>'s personal attributes are: Stealth:50."
+    },
+    {
+      "speaker": "player5",
+      "text": "While leaving, observe the environment around the Customs Investigation Bureau, checking if there are positions where one could park at a distance and observe the bureau's entrance with binoculars. \"Let's circle back later to keep watch. I feel this Customs Investigation Section Chief is very suspicious. One of us will watch the bureau entrance, another will keep an eye on the surroundings, and we'll stay in radio contact.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Yes, sir!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 and Schiller park at a slight distance from the square, using binoculars to monitor the police station entrance."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Okay, everyone stay safe.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "When observing personnel or vehicle movements, verbally describe their features and license plate numbers (if visible), having Schiller help record the comings and goings of people and vehicles at the police station entrance."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew diligently carries out his task."
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 concentrates intently on surveillance, while Schiller keeps watch nearby and assists player5."
+    },
+    {
+      "speaker": "player4",
+      "text": "Then Alison and Johnsen drive to the address of the Mirror Newspaper recorded on the letter. It shouldn't be off-work time yet, right?"
+    },
+    {
+      "speaker": "player3",
+      "text": "On the way, watch for any tails following; if there are, shake them off."
+    },
+    {
+      "speaker": "player2",
+      "text": "While chatting with Jackson, you learn that the Mirror Newspaper is a publication that started after World War II. Although its history isn't long, it holds a significant market share in Frankfurt. It mainly reports local news, documenting all aspects of Frankfurt city post-WWII. In terms of written content, it's practically Frankfurt's \"encyclopedia.\" Locals even prioritize checking the newspaper building's library and archives over the Frankfurt Library when searching for local information. The two of you successfully arrive at the Mirror Newspaper building, an impressive Bauhaus-style structure."
+    },
+    {
+      "speaker": "player3",
+      "text": "Compare this. Is it similar in outline to the Haddin building plans?"
+    },
+    {
+      "speaker": "player2",
+      "text": "The sketch obtained from the lines only has a few incomplete parts. The embassy could be ruled out because it was small and simple enough to be obviously mismatched with the sketch at a glance. Right now, you can't tell at all whether it looks similar or not."
+    },
+    {
+      "speaker": "player3",
+      "text": "Before getting out of the car, David checks for any surveillance. After confirming it's safe, he gets out and enters the newspaper building."
+    },
+    {
+      "speaker": "player4",
+      "text": "Watch for any tails. Check your equipment. Enter the building discreetly."
+    },
+    {
+      "speaker": "player2",
+      "text": "Inside the building, people come and go. No one pays you any attention. Many citizens are browsing in the library and archives."
+    },
+    {
+      "speaker": "player4",
+      "text": "Find a staff member, state your purpose, and ask where you should go to visit this journalist."
+    },
+    {
+      "speaker": "player2",
+      "text": "A passing journalist hurriedly tells you Margaret Young's office location before continuing to dash upstairs."
+    },
+    {
+      "speaker": "player4",
+      "text": "Go find her office."
+    },
+    {
+      "speaker": "player3",
+      "text": "Follow Alison."
+    },
+    {
+      "speaker": "player2",
+      "text": "Margaret greeted you. She was a Caucasian woman of average height, wearing a dark brown professional suit; she had beautiful shoulder-length brown hair with a slight natural curl; her features were delicate, and she wore a faint smile, exuding a lively and approachable youthful aura; yet, one could still see the faint dark circles under her eyes that she tried hard to conceal, perhaps caused by long nights of writing. \"Hello, I don't believe we've met before, right?\" \"Do you have some news leads to tell me?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David followed a step behind Alison, closing the door as their conversation began."
+    },
+    {
+      "speaker": "player4",
+      "text": "Present the disguised identity from the Foreign Office, smile. \"Sorry for the sudden visit. We are Mr. Haddin's colleagues. He seems to have encountered some problems recently. We learned he has been corresponding with you and hope to understand his situation from you.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"He might not be safe right now. We need your support.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Margaret stared into your eyes, clearly weighing whether to trust you. Finally, she nodded, her tone gentle but alert: \"It's not convenient here. Please follow me.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Follow her."
+    },
+    {
+      "speaker": "player3",
+      "text": "David followed cautiously."
+    },
+    {
+      "speaker": "player2",
+      "text": "Margaret left her workstation and led you to a small room near the stairs. Along the way, you could see her workstation was neat and orderly, typical of a strong career woman, with tidy files and her camera beside them."
+    },
+    {
+      "speaker": "player3",
+      "text": "Mentally express sincere admiration for such an outstanding woman."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Alright, it's quieter here. No one usually comes. May I ask how you knew Mr. Haddin and I were corresponding?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Let Alison speak. Communication between women is more likely to build trust."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We found your letters among the things he left behind, confirming you were his helper. That's why we came to you.\" Alison appeared very sincere."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Things he left behind? Sigh, it seems Mr. Haddin received my warning. I hope he's safe.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"He seems to have commissioned you to investigate something, and you warned him. We want to know, what exactly is threatening our colleague?\" \"Although Haddin is not in good health, he has been a great help to others in his work.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"That's a long story. On the evening of June 30th, after meeting Mr. Haddin, out of curiosity, I followed him and saw him meet with another group of unidentified individuals; after their meeting ended, I decided to continue following those 'mysterious figures'—in such a situation, no journalist could suppress their curiosity. I overheard their conversation: they believed Haddin had 'defected' and were going to eliminate him. Realizing the extreme danger, I immediately went to Mr. Haddin's residence but couldn't find him. I had to write a letter and put it in his mailbox, hoping he would receive the message and be aware of the danger.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison looked at her with a grave expression, actually observing her micro-expressions, hoping to use psychology to judge if her words concealed anything or if she was lying."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Psychology check result: D100=40/75 Success. Move forward quickly, be decisive. No danger ahead."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray felt the other party was very sincere."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Goodness, how could he encounter such a thing... Do you know the specific identity of that organization? Also, could you tell us what Mr. Haddin commissioned you to investigate? It's very important for us to understand his situation.\" Alison appeared shocked and then urgently expressed concern for her colleague."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Did you call Haddin on the afternoon of the 30th?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No, after I heard their plan to eliminate Haddin, I immediately left to notify Mr. Haddin.\" \"No, Mr. Haddin is a man of strong sense of justice but somewhat mysterious. He didn't leave me contact information; he only called me unilaterally.\" \"Regarding Mr. Haddin's commission, it's like this: I've published some investigative reports on Nazi fugitives. Mr. Haddin proactively approached me expressing willingness to cooperate in the investigation; he never mentioned his own identity, only said he was British; I thought he had a strong sense of justice, so I helped him organize some materials, and we met a few times afterward.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yes, he was very concerned about this area... Do you have backups of these materials? It might help us understand who wants to harm him.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Of course, they are all clues and related investigations about where Nazi fugitives fled to. You can make copies later. Since you are Mr. Haddin's colleagues, have you seen any strange people coming to see Haddin?\" \"I think since Mr. Haddin is part of a mysterious organization, he must have had dealings with the organization.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No, I think generally strange people wouldn't dare to come to a place like the embassy casually. We indeed know less about this aspect than you do.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Or, aside from social activities with colleagues, did he go to any unusual places?\" \"Also, regarding Mr. Haddin's correspondence, did anyone else go to his residence to look for him?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"He loved reading and also went to the Frankfurt library. I wonder if he ever came to the newspaper's library and archives room?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Haddin was not in good health and hardly participated in social activities. To be honest, we don't know much about this helpful colleague's private life.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"He did come, but only to check some reports on Nazi activities in Frankfurt. He didn't interact much with others. Did he know anyone at the Frankfurt library?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We will go there to ask later. Your enthusiasm and thoughtfulness are truly touching.\" Alison bowed her head to express gratitude."
+    },
+    {
+      "speaker": "player3",
+      "text": "David shook his head, indicating he didn't know either. \"You should also be careful about your own safety.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Please also be careful not to blindly seek help from the authorities. There are Nazi sympathizers among the police and judicial officials. Many former Nazi war criminals have not only escaped prosecution but have also climbed to high positions.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What are you saying? There are Nazi sympathizers among the police and judicial officials too?\" Alison was very shocked but immediately lowered her voice. \"No wonder Haddin encountered such things... We will definitely keep it secret. You have helped us so much; we cannot put you at risk.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David also gave her his assurance."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You must have seen my contact information on the letter. We can contact each other by phone if anything comes up later.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thank you very much for your help. If things are resolved smoothly, we will come to thank you in person.\" Alison shook her hand."
+    },
+    {
+      "speaker": "player3",
+      "text": "David also shook hands with this principled lady."
+    },
+    {
+      "speaker": "player4",
+      "text": "Make copies of Haddin's materials, then go to the archives room to look."
+    },
+    {
+      "speaker": "player2",
+      "text": "According to Margaret's description, there were three mysterious individuals. They met with Haddin in a café. She didn't hear the content of their conversation. After Haddin left, the mysterious individuals went behind the café to smoke and discussed how to deal with Haddin. Margaret eavesdropped by the wall and heard their plan."
+    },
+    {
+      "speaker": "player3",
+      "text": "Ask if Margaret could recognize these two people if she saw their photos."
+    },
+    {
+      "speaker": "player2",
+      "text": "Margaret said she could, if they appeared with the same faces as then."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"One more thing, we received this photo anonymously in the past few days. The person in it is Harvey. We don't believe Harvey would do such a thing... Perhaps it's a smear tactic by that organization. Could you analyze this photo from a professional photography perspective?\" Alison showed her the photo."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"How could this be!......\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Secretly taken by a professional... Who would do such a thing...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If this photo is real, it's hard to imagine such a shocking photo not being used as a front-page news headline.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yes, we also find it strange what the purpose of sending such a photo at this time is. The police officer in the photo seems to belong to the Customs Investigation Bureau. Do you know anything about them?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If it's a forgery, the other party's skill must be extremely high. I can't easily determine the authenticity of this photo because yours is also a reprint.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We are completely clueless about photography. Thank you for your analysis.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I've also heard about the struggle between the Customs Investigation Bureau and smuggling syndicates. After the war, the largest smuggling syndicate in the Frankfurt city area was 'Hermes,' but in the past six months, it has been heavily cracked down by customs police and retreated to the Aschaffenburg district. It has been replaced by a new smuggling syndicate called the 'Freikorps.'\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"What do you know about neo-Nazi organizations? Do they have any connections with smuggling syndicates?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The Thule Tradition Association is the most rampant neo-Nazi organization in Frankfurt, promoting extreme nationalism. The police have been cracking down on them in recent years.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David nodded. \"Then, do you know about anti-Nazi volunteer organizations?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Those who hunt Nazis are usually small, closely-knit groups. They don't formally register because they might face retaliation. But some organizations do carry out related activities. For example, the South German Civil Radio Association often holds 'interesting' themed team-building activities to increase member participation, like investigating radio clues about underground Nazis.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David noted this information."
+    },
+    {
+      "speaker": "player4",
+      "text": "After expressing thanks, bid farewell to her."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Library Use check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "In the entertainment section of a certain year, Gray found a short article of two to three hundred words: odeSSa is an urban legend, claiming that a group of former SS members, to escape trial, changed their identities, formed an underground organization, and attempted to return to the political stage in the future. The article was published a few years ago, with no author or any evidence cited, filled with conspiracy theories and gossipy flavor."
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like shackles, and at this moment, will you gamble on the untraceable one?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray saw the term SS and instinctively linked odeSSa with the SS. \"ode\" is a prefix meaning \"old\" or \"veteran\" in some languages. The uppercase \"SS\" represents the SS. \"a\" is the first letter of \"organization\" in some languages (like \"association\" in English)."
+    },
+    {
+      "speaker": "player4",
+      "text": "Also look for records related to mysterious beasts and prohibited drugs."
+    },
+    {
+      "speaker": "player3",
+      "text": "David buries himself in the pile of old documents, searching for local architectural blueprints to see if any match that drawing."
+    },
+    {
+      "speaker": "player2",
+      "text": "Library and Extreme Difficulty Architecture"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Library check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "@player2 Combined check"
+    },
+    {
+      "speaker": "player3",
+      "text": "David, look through the content about factories on the William Outer Ring Road and the Gu Weiqi apartment again."
+    },
+    {
+      "speaker": "player2",
+      "text": "No related news"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Library check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "No related news found."
+    },
+    {
+      "speaker": "player4",
+      "text": "I want to check the authors of that book."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Library check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "George Guvich: 35 years old, visiting professor in the Department of Neuropsychology at Frankfurt University, psychologist, member of the European Psychoanalytic Society."
+    },
+    {
+      "speaker": "player4",
+      "text": "Does the report explain what this problem of other minds is?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Dr. George Guvich, through long-term research and combining the collective achievements of academia, discovered many special neural clusters—these clusters become active when observed experimental subjects exhibit actions of 'self-mind'. Through further research, he confirmed a causal relationship between the two. By using machines to monitor indicators of these brainwave characteristics, one can determine whether a person is using self-consciousness or unconsciousness when acting. To link the invisible consciousness with the visible brainwave characteristics, Guvich and Pitz collaborated. Pitz used advanced computer algorithms to encode and analyze the characteristics of the EEG. Ultimately, they obtained a way to observe a person's \"intensity of consciousness\". Pitz named the algorithm he designed the \"Algorithm of the Heart\"."
+    },
+    {
+      "speaker": "player4",
+      "text": "Oh right, check the art gallery."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Library check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "In yesterday's Spiegel advertisement section, you found the relevant information."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Schiller thinks everything is fine, feels so quiet, no bustling crowds around the square, quite different from before."
+    },
+    {
+      "speaker": "player6",
+      "text": "The surroundings are perfectly fine. Andrew diligently records in his little notebook according to the leader's instructions."
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 make an Idea check."
+    },
+    {
+      "speaker": "player6",
+      "text": "As for lookout, what lookout?"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s Idea check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 feels something is off, an uncomfortable prickling sensation on the back."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Huh? Isn't it a bit too quiet around here?\" Feeling something off about the surroundings while turning to check Schiller's notes, immediately becomes alert and observes the surroundings using the rearview mirror."
+    },
+    {
+      "speaker": "player2",
+      "text": "Make a Spot Hidden check."
+    },
+    {
+      "speaker": "player1",
+      "text": "The mountains and soil listen to your hopes; regardless of the karma and retribution, fate already slumbers in your palm."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"No, it's fine.\" Andrew looks up from his notebook, glancing around a few times."
+    },
+    {
+      "speaker": "player2",
+      "text": "But you don't detect anything wrong, yet the inner prickling sensation grows stronger. Your intuition tells you something is off."
+    },
+    {
+      "speaker": "player5",
+      "text": "Intuition feels something is wrong, starts the car preparing to drive to the newspaper office."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"It's pretty quiet around here, I'll notice immediately if anyone approaches.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "On the road, be wary of any vehicles that approach abruptly or tail you."
+    },
+    {
+      "speaker": "player2",
+      "text": "The main road leaving Justice Square is currently blocked by a delivery truck."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled at many things."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"...Damn, we're probably being watched. Schiller, grab your gun and load one for me too, we need to find another way out.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I'll take over driving.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled at many things."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew attempts to take over driving in this emergency, hoping his driving skill can be of some use right now."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled at many things."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Hey, are large trucks allowed in downtown Frankfurt?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "You haven't found any alternative paths. What's worse, over a dozen people have gotten off the delivery truck. They appear scattered but are actually moving towards you like a fishing net."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Damn, now we know how that cop died. You drive, I'll contact the embassy.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew quickly switches seats, preparing to make an emergency escape through the green belt."
+    },
+    {
+      "speaker": "player5",
+      "text": "Emergency contact the Frankfurt station to call for backup."
+    },
+    {
+      "speaker": "player6",
+      "text": "Prepare to drive."
+    }
+  ],
+  "start_line": 1262,
+  "end_line": 1577
+}

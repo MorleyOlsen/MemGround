@@ -1,0 +1,10 @@
+{
+  "section": "04-HE-4",
+  "description": "Tony Dauer enters Helen Dauer's room alone, opens the box containing the pocket watch and takes the item. During this, the sound of a glass bottle shattering comes from afar, and he then quickly leaves.",
+  "conversation": [
+    {
+      "speaker": "dialogue",
+      "text": "Description: Tony Dauer enters Helen Dauer's room alone, opens the box containing the pocket watch and takes the item. During this, the sound of a glass bottle shattering comes from afar, and he then quickly leaves.\nLocation: Helen Dauer's room（Helen's room）\nKey Information:\n  - Person No. 4, Tony Dauer, enters Helen Dauer's room (Helen's room) alone.\n  - As he enters the room, the sound of a glass bottle shattering comes from afar, consistent with the recurring sound clue in other nodes.\n  - Tony Dauer says he remembers the name on the box and realizes it may cause trouble.\n  - A clear sound of the box being opened can be heard.\n  - Tony Dauer states that he “can't just leave it alone,” implying he actively takes the item from the box.\n  - Tony Dauer then leaves the room without contacting anyone else.\nCharacters:\n  [Tony Dauer（Tony Dauer）] Person No. 4, Helen Dauer's son.\n    · Enters Helen Dauer's room alone.\n    · Recognizes the name on the box and realizes the potential trouble.\n    · Opens the box and takes the item inside.\n    · Quickly leaves the room after taking the item."
+    }
+  ]
+}

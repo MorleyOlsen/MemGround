@@ -1,0 +1,10 @@
+{
+  "section": "08-ED-4-10",
+  "description": "In Edmund Galley’s room, Tony Dauer entrusts an important item to Eve Dauer for safekeeping. After explicitly stating it is connected to John Hobbes, he leaves alone and never returns.",
+  "conversation": [
+    {
+      "speaker": "dialogue",
+      "text": "Description: In Edmund Galley’s room, Tony Dauer entrusts an important item to Eve Dauer for safekeeping. After explicitly stating it is connected to John Hobbes, he leaves alone and never returns.\nLocation: Edmund Galley’s room (Edmund's room)\nKey Information:\n  - Tony Dauer hands an important, expensive-looking item of unknown origin to Eve Dauer for safekeeping and demands secrecy from others.\n  - Tony Dauer explicitly states the item is connected to John Hobbes and judges that John Hobbes is looking for it.\n  - Eve Dauer doubts the item’s origin and asks whether it was stolen, but still agrees to hide it for now.\n  - Tony Dauer says John Hobbes is in the Kitchen (Kitchen) talking with Edmund Galley.\n  - Tony Dauer distinguishes John Hobbes from Oswald (Oswald) and denies that Oswald is related to the item.\n  - Oswald has a comical small mustache.\n  - Tony Dauer mentions that earlier, when everyone gathered in the Living room (Living room), Oswald and Annie Beaumont appeared together in the Attic (Attic).\n  - Tony Dauer says he needs to go out to fetch another important item and instructs Eve Dauer not to let strangers into the room.\n  - Tony Dauer slams the door when leaving Edmund Galley’s room, and never returns to that room afterward.\nCharacters:\n  [Tony Dauer (Tony Dauer)] Person No. 4, Eve Dauer’s younger brother.\n    · Hands an important item to Eve Dauer to hide.\n    · Explicitly states the item is connected to John Hobbes.\n    · Leaves the room at the end of the node and does not return.\n  [Eve Dauer (Eve Dauer)] Person No. 10, Tony Dauer’s older sister.\n    · Accepts and temporarily safeguards the important item Tony Dauer hands over.\n    · Doubts the item’s origin but does not refuse to help hide it."
+    }
+  ]
+}

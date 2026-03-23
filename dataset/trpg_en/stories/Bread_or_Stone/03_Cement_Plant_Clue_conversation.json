@@ -1,0 +1,584 @@
+{
+  "section": "3. Cement Plant Clue",
+  "description": "The clue points to the cement plant. Investigators pursue ancient weapons and a mysterious organization, with magical swords from the dragon war of that year surfacing.",
+  "conversation": [
+    {
+      "speaker": "player4",
+      "text": "#准备进入书店看一看，翻看一下最近的日报以及关于那场考古相关的书籍"
+    },
+    {
+      "speaker": "player5",
+      "text": "The wooden door opened, and a silver-haired old man wearing gold-rimmed glasses leaned against the doorframe to scrutinize the visitors. His greeting, with a heavy Austrian accent, carried a note of surprise. The sound of rustling paper came from inside the room. A woman wearing an apron peeked out from behind a bookshelf, holding a half-wrapped brown paper parcel in her hand, and nodded in greeting to everyone."
+    },
+    {
+      "speaker": "player9",
+      "text": "#After bringing the employers inside, quietly stand to the side."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Long time no see... um...\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Scratches head at the sight of the numerous books and also stands properly."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The local Crusader's Tomb.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The old man adjusted his gold-rimmed glasses: \"The Crusader's Tomb is indeed worth studying. However, if you're looking for works related to Roman history, Edward Gibbon's *The History of the Decline and Fall of the Roman Empire* has been reserved and is currently stored here awaiting collection by the buyer's daughter.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Which gentleman reserved it?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The old man pushed his glasses up onto his forehead and carefully examined the visitor: \"You mentioned Dr. Moric... May I ask if you are the lady who reserved the book for pickup?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Push someone forward."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"She is, she is\" #pointing at someone"
+    },
+    {
+      "speaker": "player8",
+      "text": "#Pull down the hood and nod. \"Yes, my father is Dragomir Moric. I am his daughter, player8 Moric.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Mr. Cole slowly walked behind the oak counter, took out a brown paper parcel carefully tied with hemp twine. His fingertips lightly traced the edges of the package, then he handed over the book with a gentle reminder: \"Please take good care of it. This is a precious first edition.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Carefully take the book. \"Thank you, sir. I will definitely take good care of it.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The old man turned and took a ledger from the counter drawer. His thin fingers traced the date column: \"The last time I saw your father was four days ago, in the afternoon.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Mutter quietly, \"Four days ago?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"...Actually, a more curious question is... the content of this book.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm... I don't remember the specifics clearly,\" the old man pushed his glasses and fell into thought. \"But I remember he rushed in breathlessly to reserve this book and directly said you would pick it up.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Slightly lower head and frown, then give a slight bow to the old gentleman, quickly holding the backpack to prevent the book from being jostled."
+    },
+    {
+      "speaker": "player5",
+      "text": "The old man gave a slight nod, the chain of his gold-rimmed glasses swaying gently. He turned to organize the brown paper scrolls on the counter. The slanting sunlight from the window dyed his silver hair a pale gold."
+    },
+    {
+      "speaker": "player6",
+      "text": ".st show Library Use"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s current registered information is as follows:"
+    },
+    {
+      "speaker": "player8",
+      "text": ".st show Library Use"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player8>'s current registered information is as follows:"
+    },
+    {
+      "speaker": "player8",
+      "text": "#Automatic pathfinding to the cafe"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"How about going to the nearby library?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Alright.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How about I read it? And let a local see if there are any strange annotations.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Take them to the nearby library."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Sure, sure, I'll watch beside you.\" #nodding"
+    },
+    {
+      "speaker": "player5",
+      "text": "The investigators arrive at the nearest library and push open the oak door. The dome chandelier casts dappled light onto rows of bookshelves."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Decides to find a quiet place first to look at this book, opens the package, and carefully examines all its contents."
+    },
+    {
+      "speaker": "player5",
+      "text": "You open the hard cover, and yellowed slips of paper and folded receipts slide out from between the pages, gently spinning onto the table."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Uses the dagger to help unwrap the package, gesturing with it, and throws the waste paper back into the trash can."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm, miss, come take a look at this.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Stands quietly to the side."
+    },
+    {
+      "speaker": "player5",
+      "text": "And indeed, the content of the pages is just a standard historical narrative of Rome, from the city on seven hills by the Tiber to the fall of Constantinople."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Who is Sali?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Sali isn't a person.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"OK, anyway, it gives us some direction for the next step.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"So basically, we need to go get the key.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"You guys study this first.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Let's go, let's go.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Right now?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#The professor gets up and prepares to go to a nearby bookshelf to look through history books related to the Crusader's Tomb."
+    },
+    {
+      "speaker": "player5",
+      "text": "The third row of the bookshelf indeed displays several monographs on Crusader studies, with gilt spines bearing titles like \"Records of Holy Land Archaeology\" and \"Chronicles of the Knightly Orders.\" But you find all the literature focuses on Jerusalem and contains no records involving any local tombs."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"I still think it's very strange.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Kido received! Continuing to record Bread or Stone (Węgrów 1923) for you. Currently, 700 text entries have been recorded, time elapsed: 4 hours, 16 minutes, 29 seconds."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Well, dear lady.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Last time, the story told how the investigators failed to find Dr. Berenzada at the hospital and instead met player9, who was raising funds for his sister's medical expenses. After hiring this local guide, the group, through him, understood the clues left by player8's father, then went to the Eximious Bookstore to obtain the book deposited by Professor Moric. The invoice and note tucked inside the book pointed the investigators in a new direction."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Propping head up \"I feel like we're being led by the nose.\" #Hand slams table."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"To be honest, the one leading us by the nose is your father.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"It's at the bathhouse? Then let's go, let's go, no point worrying so much.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"The problem is, I'm not entirely sure if this was left by my father.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Can you recognize your father's handwriting?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Things like this can be forged if someone is determined.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Relax, we'll cross that bridge when we come to it.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Overall, everything feels eerie.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "It is now 8 PM."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"If you all need to go to the reliable Sali, I can lead the way.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "“Breaking enemy formations like sunlight piercing through clouds (foreign edition)”"
+    },
+    {
+      "speaker": "player6",
+      "text": "“Better sooner than later, let's go check right away, in case we happen to catch it.”"
+    },
+    {
+      "speaker": "player5",
+      "text": "At 8:20 PM, you arrive at the reliable Saly Warehouse near the train station. This well-maintained building appears sturdy and dry, specifically used for storing goods and luggage temporarily after trains depart."
+    },
+    {
+      "speaker": "player4",
+      "text": "#After arriving at this warehouse, first briefly observe if there are any people nearby acting suspiciously or watching this area."
+    },
+    {
+      "speaker": "player5",
+      "text": "At the train station exit, a few scattered passengers can be seen dragging suitcases, with occasional carriages and cars driving along the street."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Step forward and talk to that manager, “Buddy, ‘reliable Saly’?”"
+    },
+    {
+      "speaker": "player5",
+      "text": "The manager adjusts his glasses and says: “Yes, this is the reliable Saly.” He points to the patrolling guards and adds, “We are known for safety; all guards are equipped with standard-issue revolvers.”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“We need to retrieve something.”"
+    },
+    {
+      "speaker": "player5",
+      "text": "“To retrieve goods, you need to present the receipt and storage locker key, and also register the account name.”"
+    },
+    {
+      "speaker": "player6",
+      "text": "“Here to pick up an item, it's this girl's” #points at player8"
+    },
+    {
+      "speaker": "player8",
+      "text": "“Ah, the name is, Bara Tutic”"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Winks and makes faces, signaling her"
+    },
+    {
+      "speaker": "player5",
+      "text": "“Please show the documents and key”"
+    },
+    {
+      "speaker": "player8",
+      "text": "#Rummages through the bag, showing an awkward smile “Wait, let me go back and get it”"
+    },
+    {
+      "speaker": "player5",
+      "text": "The manager places his hands behind his back, maintaining an upright posture as he continues guarding his post."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Deploy troops, Roman Baths"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Blitz Rome"
+    },
+    {
+      "speaker": "player5",
+      "text": "The Węgrów area was historically the Roman colonial city Colonia Aurelia Cibalae, but the ancient bath ruins are located in an area far from the warehouse."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Look for a bathhouse"
+    },
+    {
+      "speaker": "player4",
+      "text": "“By the way, where did your father hide the key?”"
+    },
+    {
+      "speaker": "player5",
+      "text": "Moonlight spreads over the surface of the continuous storage buildings. Not far away, the outline of the train station appears in the night. With a long whistle, a train slowly departs from the platform. You turn around and find a small park on the other side of the road."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Points at self, showing an expression of “you're asking me? who should I ask?”"
+    },
+    {
+      "speaker": "player5",
+      "text": "Hmm, there's no bathhouse you're looking for nearby."
+    },
+    {
+      "speaker": "player8",
+      "text": "“Let's first find where there's water”"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Prepare to go into the small park and look for a fountain"
+    },
+    {
+      "speaker": "player5",
+      "text": "In the center of the garden stands a spacious pavilion surrounded by flowers and plants. Next to the pavilion is placed a ceramic birdbath, now filled with sludge."
+    },
+    {
+      "speaker": "player8",
+      "text": "“Emmmmm”"
+    },
+    {
+      "speaker": "player5",
+      "text": "The birdbath is carved from grayish-white marble, with grapevine relief decorations on the rim. The sludge inside is mixed with fallen leaves. The statue of Emperor Valerian stands atop the basin wearing Roman battle attire, holding a scroll in his right hand and a short sword in his left."
+    },
+    {
+      "speaker": "player8",
+      "text": "“By the way, I think there's something in the East called yakitori”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“Don't you know? I only know to check inside this basin.”"
+    },
+    {
+      "speaker": "player5",
+      "text": "The mud in the birdbath has a viscous, dark brown gelatinous texture, with a moist, reflective film of water on the surface, and fragments of dead leaves firmly embedded in the sludge."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"It feels a bit like torture.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Skewers.\" #Put on gloves and prepare to examine the mud inside."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Dismemberment by five horses? That sounds delicious.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Actually, in the ancient East, there's something called roasted squab.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Not delicious.\" #Go to the front desk to get dry towels for subsequent cleaning."
+    },
+    {
+      "speaker": "player5",
+      "text": "Bai Lan's fingertips repeatedly probe the viscous mud; the sticky sludge wraps around her arm, creating resistance. Finally, she carefully digs out a key and, by moonlight, identifies the engraved number \"187\"."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sigh, as expected. Let's go, we should head back.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Roast pork sounds delicious too.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Hand the key to player8. #Then prepare to look around and observe if there's anything unusual; caution is always right."
+    },
+    {
+      "speaker": "player5",
+      "text": "The garden is enveloped in the quiet night, with only the occasional breeze gently rustling the leaves."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Wipe the key and put it in the bag. \"Feels like we can think about what to eat tonight on the way. Castration, the Romans' greatest invention.\" #Go pick up the package ()."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"It's getting late, isn't it, gentlemen?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The administrator takes the receipt and key, leading everyone to the crate marked with the black number 187. This eight-foot-long, four-foot-high box is tightly sealed with nails. Inside, dozens of items wrapped in burlap are densely packed in straw filler. A notebook secured with rope to the inside of the lid is particularly eye-catching."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Quietly take out the notebook and prepare to see its contents."
+    },
+    {
+      "speaker": "player5",
+      "text": "The notebook's pages are filled with Serbo-Croatian and unique personal shorthand symbols. These interwoven writings form a special textual system, clearly only decipherable by relatives who have lived together long-term."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Protect the employer's privacy and silently step aside."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Sneak away."
+    },
+    {
+      "speaker": "player5",
+      "text": "You obtain this notebook."
+    },
+    {
+      "speaker": "player8",
+      "text": "#player8, check."
+    },
+    {
+      "speaker": "player5",
+      "text": "Dozens of burlap-wrapped items remain in the container."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Put away the notebook and give it a rough look."
+    },
+    {
+      "speaker": "player5",
+      "text": "@player8"
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra Library"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player8>'s Library wish: D100=51/70 Success -Success! The success rate of historical records has increased."
+    },
+    {
+      "speaker": "player5",
+      "text": "This leather-bound booklet records Dr. Dragomir Moric's observation notes at the Crusader tomb excavation site. It would take about four hours to fully decipher the text."
+    },
+    {
+      "speaker": "player8",
+      "text": "#See what else is there."
+    },
+    {
+      "speaker": "player5",
+      "text": "There are also two boxes, thirty-two scrolls, and eighteen books."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Pat player9. \"Good work, bro.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "(Does that mean player9 should carry it?)"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Prepare to work with a few people to figure out how to move these things back to the hotel."
+    },
+    {
+      "speaker": "player5",
+      "text": "After collaborative effort, the items were moved to the roadside. You hailed a passing car. Finally, these archaeological materials were safely transported to your hotel room."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Roast suckling pig, search."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Tidy up personal matters, then also go find food."
+    },
+    {
+      "speaker": "player5",
+      "text": "[A roadside stall]"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Buy a coffee and a piece of bread, prepare to enter study mode, ready to start researching all the previously left materials."
+    },
+    {
+      "speaker": "player3",
+      "text": "#A glass of milk + bread, stay behind to help with research."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Library Use"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will receive a response. <player4>'s Library Use wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": "(I'll try too 0"
+    },
+    {
+      "speaker": "player8",
+      "text": "#Eat first, need energy to read after eating."
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra Library"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will receive a response. <player3>'s Library wish:"
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Eat eat eat eat\""
+    },
+    {
+      "speaker": "player5",
+      "text": "You successfully find a roast suckling pig shop. The roast suckling pig wafts an enticing aroma, with a golden, oily, crispy skin sprinkled with rosemary and coarse sea salt. A light touch with a knife and fork produces a crisp cracking sound from the skin, revealing perfectly pink-white meat inside. Overflowing fat slowly seeps into the accompanying roasted garlic cloves and potatoes along the grain. Each bite carries the smoky fragrance of fruitwood roasting and a tender chewiness."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Eating is awesome!\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Not saying a word, just relentlessly twisting the big pig trotter."
+    },
+    {
+      "speaker": "player5",
+      "text": "The young doctor and Professor Biran complete the document organization at 2 AM, confirming that this batch of archives consisting of thirty-two scrolls and eighteen books are Latin-recorded texts of the Sacred Shield Society. The three core documents are respectively: The Messenger of Albalin, The Great Wisdom, and the Records of Titus Corvus."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Chewing"
+    },
+    {
+      "speaker": "player8",
+      "text": "#Pack one portion to take back for the young doctor and Biran to eat."
+    },
+    {
+      "speaker": "player5",
+      "text": "As for the specific content of the three texts, a significant amount of time is required for reading."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Reading"
+    },
+    {
+      "speaker": "player5",
+      "text": "Summary of the contents of Dr. Moric's notebook: This notebook contains discoveries from the Crusader's Tomb in Węgrów, a 13th-century basement belonging to the Sacred Shield Society. The common goal of the Sacred Shield Society is to hunt dangerous heretics and guard dangerous evil artifacts. This society was founded by Regent Yolanda of Constantinople and Pope Honorius III in 1218. The underground vault was created by Sir Miho of Dubrovnik, a founding member of the society, with the assistance of several Frankish knights (David, Martinus, Renaud, and Eloise). It was used to store evil items and documents seized by Count Baldwin, Yolanda's brother, during the Fourth Crusade. The most dangerous item in the collection is the Serpent's Claw, also known as the Flaying Blade, an evil knife with Satanic power once wielded by Sayf al-Din, a mortal enemy of Christendom. The first record of the Flaying Blade appears in the military records of troops serving Emperor Constantine in the early 4th century AD, see the Records of Titus Corvus. A dangerous religion that worships flayed human skin and abominable creations considers the Flaying Blade sacred. The society believed that crushing could destroy the Serpent's Claw, but their era lacked such power. The content of the last page is: Prepare to talk with Golan, check the Bratovich Cement Plant. Write to player8... Yamina, if you see this, please ensure everything here is sent to Dr. R. Jordanov, Director of Ancient History, National Archaeological Museum, Sofia, Bulgaria."
+    },
+    {
+      "speaker": "player8",
+      "text": "#A foreboding feeling rises."
+    }
+  ],
+  "start_line": 662,
+  "end_line": 991
+}

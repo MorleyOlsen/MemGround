@@ -1,0 +1,244 @@
+{
+  "section": "9. Hans and the Cult's Interior",
+  "description": "Interrogate the cult member Hans to extract internal intelligence on the Alcanje organization; the investigators gradually uncover the enemy's structure and the true purpose of the Talisman.",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": "June 1st"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Meal"
+    },
+    {
+      "speaker": "player2",
+      "text": "So everyone squeezed into the innermost booth of the restaurant, four burly men blocking the aisle like bookshelves."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Sighed inwardly, then continued eating"
+    },
+    {
+      "speaker": "player2",
+      "text": "As you were dining, the table leg suddenly broke, causing the table to tilt. Soup bowls and documents slid to the floor. The four burly men reached out to steady the table edge, but the translation manuscript was already soaked in the spilled borscht. Other guests turned to look, and a waiter hurried over with a mop."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Look at the manuscript"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Step forward to help"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Look at the burly men, then look past them to see the surroundings"
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 quickly pulled out the undamaged first half of the diary. The ink on the French pages was smudged but still legible."
+    },
+    {
+      "speaker": "player5",
+      "text": "#In Italian \"Have you seen any Turks?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "So the translation is completely unsalvageable, soaked through."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The translation is ruined. Could you ask your boss to send another copy?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 suddenly felt the muscle fibers of the chicken in their mouth writhing strangely, as if still breathing. Then, the knife cut into the chicken breast, and pale maggots boiled out. They dragged mucus over the plate rim, leaving shiny trails on the linen tablecloth."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Spit out the chicken"
+    },
+    {
+      "speaker": "player2",
+      "text": "It seems no one around noticed this scene."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Look at the burly men \"Did you do this?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player2",
+      "text": "Hans frowned in confusion, \"What do you mean?\""
+    },
+    {
+      "speaker": "player6",
+      "text": ".sc 1/1D3"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Huh!\" #Check hand and knife again carefully"
+    },
+    {
+      "speaker": "player2",
+      "text": "player6 frantically shook their hand, throat squeezing out an incoherent scream."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thought not\" #Clapped hands lightly, lowered voice \"Someone doesn't want us peaceful, we should give them some trouble too, knock something loose\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The waiter ran over in panic, \"Do you need help, everyone?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Ouch ouch ouch\" #Holding head"
+    },
+    {
+      "speaker": "player2",
+      "text": "( Can make a Spot Hidden check)"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Ask teammates to help look"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you wish for, it will surely be answered. <player5>'s Spot Hidden prayer:"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Look around"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you wish for, it will surely be answered. <player6>'s Spot Hidden prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 noticed that although the three Turks at the neighboring table seemed to be chatting casually, their gaze remained fixed on the investigators' table. player6 saw a pale man in a black trench coat quickly lower his head to avoid eye contact, then turn and hurriedly walk into the kitchen passageway."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra侦查"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will surely receive a response. <player4>'s investigation prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 is eating."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Devouring furiously"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I'm fine for now, but I saw a suspicious person heading towards the kitchen passageway.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'll go too, don't split up.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "player6 and player4 rush into the kitchen passageway. The head chef waves a soup ladle and roars: Kitchen area, no unauthorized entry!"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Pat Hans, signaling him to follow Xiao Tang, then lead the others and the three burly men outside."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Where's that person? The one you saw.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "I did see a person in a black trench coat rush in here."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Come with me to the back.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Check if there are any other exits."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Look for the person in the black trench coat."
+    },
+    {
+      "speaker": "player2",
+      "text": "You discover the kitchen is enclosed, with no way out."
+    },
+    {
+      "speaker": "player6",
+      "text": "Excuse me, did you see anyone come in just now? That person is very important to us."
+    },
+    {
+      "speaker": "player2",
+      "text": "The chef slams the cleaver into the chopping board, not even a fly has flown in here!"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Beat a hasty retreat."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Since things have come to this, let's come out first."
+    },
+    {
+      "speaker": "player2",
+      "text": "The alley behind the restaurant is empty, only damp brick walls and scattered garbage bins."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Check for ventilation ducts and the structure of this damn building."
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 looks up and sees a ventilation opening less than 30 centimeters square in the corner of the ceiling, its wire mesh caked with grease. The building is a typical Trieste row house; the restaurant occupies the ground floor of the arcade, and the shutters on the four floors of residential apartments above are all tightly closed."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Check if the Turks have followed out."
+    },
+    {
+      "speaker": "player2",
+      "text": "No Turks have followed into the back alley; only the three burly men stand like statues waiting in the wind."
+    },
+    {
+      "speaker": "player1",
+      "text": "Qiduo received! Resuming recording for you—Cold Wind Howls—Trieste 1923. Currently recorded text: 2472 entries, time elapsed: 11 hours, 55 minutes, 35 seconds."
+    },
+    {
+      "speaker": "player2",
+      "text": "Last time, the story said:"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Ask the burly men what time this restaurant closes."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Pick up a cup of tea and take a sip."
+    },
+    {
+      "speaker": "player2",
+      "text": "The burly man raises his hand to check his watch and says in a low voice that it's currently 2 PM; the restaurant usually closes at 10 PM."
+    }
+  ],
+  "start_line": 2482,
+  "end_line": 2792
+}

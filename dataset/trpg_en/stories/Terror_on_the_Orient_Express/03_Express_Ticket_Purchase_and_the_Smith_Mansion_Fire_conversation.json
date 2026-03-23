@@ -1,0 +1,532 @@
+{
+  "section": "3. Express Ticket Purchase and the Smith Mansion Fire",
+  "description": "Rush to Victoria Station to buy tickets, visit Professor Smith at night only to find the mansion engulfed in flames, a mysterious figure emerges from the fire carrying an unconscious injured person and disappears into the night",
+  "conversation": [
+    {
+      "speaker": "player5",
+      "text": "\"When are you all planning to go back?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Tomorrow? Feels like things here are pretty much wrapped up.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Barring any surprises, it should be tomorrow.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then before we leave, let's visit Professor Smith again and treat him to a meal.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Speaking of which, should we visit Professor Smith once more before leaving? To say goodbye.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"There's no harm in that.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then let's go, be uninvited guests one more time.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Go to Smith's house"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Prepare to go to Smith's house to confirm the order"
+    },
+    {
+      "speaker": "player3",
+      "text": "At nine in the evening, as you drive towards the direction of the Smith residence, you notice a bright light in the distant, silent darkness... a deep black plume of smoke rising straight into the sky from the light."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm, it's on fire.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"As expected, something unexpected happened.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "When you enter the street of the Smith residence, you realize it's not lights or fireworks, but a house fiercely ablaze, and that house is the one you raided last night!"
+    },
+    {
+      "speaker": "player4",
+      "text": "oh guys, its so hot now"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go, we should check out the situation.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Try to crack a joke to lighten the mood"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It's as hot as a house on fire.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I hope Professor Smith doesn't turn into Professor Scorch.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'll call the police first.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "In the distant firelight, you see a figure carrying someone slowly walking out of the flames."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Take out phone to call the police"
+    },
+    {
+      "speaker": "player5",
+      "text": "#See if this figure looks familiar."
+    },
+    {
+      "speaker": "player3",
+      "text": "player4's mind somehow combines mobile and phone into a single word."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Give up on the idea of calling the police"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Look at the figure, and also scan the surroundings for nearby pedestrians."
+    },
+    {
+      "speaker": "player3",
+      "text": "You approach and find the figure is James Beddoes, who is panting heavily while carrying Professor Smith."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh my god.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Professor Smith's clothes are almost completely burned off, and his skin has extensive injuries."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Take over Professor Smith to check his condition."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Search for nearby pedestrians."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Don't worry, I'm a doctor. Please let me check the situation.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Beddoes discovers you and anxiously asks for help, \"Thank heavens, save us.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"What caused the fire for you two?\" #While helping the two, preparing to take them away from this dangerous place."
+    },
+    {
+      "speaker": "player3",
+      "text": "Many passersby gather around, some watching, some trying to put out the fire with buckets, some screaming loudly. The firefighters should arrive soon."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra First Aid"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player4>'s First Aid prayer: D100=75/70 Failure - Well... just missed by a bit."
+    },
+    {
+      "speaker": "player3",
+      "text": "Professor Smith's burns are very severe. player4 tries to remove the tattered clothing from his body, but the clothes have stuck to his wounds. The fabric player4 removes tears Smith's wounds a second time."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra First Aid"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player4>'s First Aid prayer: D100=22/70 Hard Success - That should be able to compete with others' successes, right...?"
+    },
+    {
+      "speaker": "player4",
+      "text": "Calm down, calm down, think about what you learned in school. #Clenching teeth and carefully treating the wound."
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 stops in time to avoid further injury, takes out first aid tools from the backpack, and simply treats the wound. Beddoes quickly thanks you. Then he says, \"Please help take us to 2 Cheapside Street.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm, where is this?\" \"Sir, both of you are seriously injured and need to go to the hospital.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Thank you very much. The professor was framed by a group of people who have a grudge against him.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Forget it, let's go first...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"So we can't go to the hospital; it's a public place.\" \"Those damned criminals will harm the professor again.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go. I can treat your wounds.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We need to go somewhere they don't know.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"On the way, let the doctor treat the wounds simply first, and also tell us what exactly happened, so we can better protect the professor.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "[First Aid]"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No time to lose.\" #Helping Beddoes carry the professor into the car."
+    },
+    {
+      "speaker": "player3",
+      "text": "You get into the car and leave the place. After a while, the surrounding noise fades into the silence of the night. Only then does the professor struggle to sit up, gasping for breath to greet you, completely unlike his usual booming voice. The professor begins to speak weakly with trembling words. \"Cough... I feel I can't speak for much longer... so I'll be brief...\" \"I have been tracking an evil artifact, the Sedefekar Simulacrum... It's a statue, a source of powerful magic...\" \"In the late 18th century, it was dismantled... Fragments are scattered across Europe... I intended to retrieve the fragments and destroy them...\" \"My speech at the Challenger Lecture event... aimed to attract people who might help him, but my enemies soon found me.\" \"Just a short while ago, Beddoes and I were attacked at home by Turkish madmen... I believe they are also searching for the Sedefekar Simulacrum... but for evil purposes...\" \"The Turks tried to burn us alive... but Beddoes saved me...\" \"And of course, you.\" \"My notes were burned in the fire... They might also have fallen into the hands of the Turks... In any case... the statue must absolutely not fall into their hands...\" \"I beg you to collect the simulacrum fragments before those assassins succeed...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"What are the characteristics of these fragments?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"I still have some remaining assets and notes at 2 Cheapside Street... I will give them all to you there... as payment and clues...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Will you pay?\" #Rubbing hands like a fly."
+    },
+    {
+      "speaker": "player3",
+      "text": "After saying these words, Professor Smith coughs, begins to gasp heavily, and can no longer speak. Your car also stops at the destination: 2 Cheapside Street. It is located in a dirty building on an ordinary street. The valet helps the professor out of the car and opens the house. The house is full of dust, indicating it is not often used."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Follow into the house."
+    },
+    {
+      "speaker": "player3",
+      "text": "After helping Professor Smith into bed, the valet rummages in a cabinet and pulls out a suitcase and a small notebook."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Before closing the door, cautiously observe the surroundings to see if anyone else is paying attention to this place."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Fan the dust in front of the face, follow the professor into the house."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Spot Hidden"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will be answered. <player5>'s Investigation Wish:"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Take a look at the room's furnishings."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then Bailan will find that there are no other people on this street."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Take the small notebook and briefly flip through it."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Read the notebook together with player4."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"This is all the property we have left.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Shrugs shoulders. \"You know, my boss doesn't really care about these things.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"But we still very much hope you can help. We have nothing left to give you; the fire burned everything we had.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But I think she would like your plan.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It's okay, Professor. I'm happy to help.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Thank you again for your generosity.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think my Lord would not want to see evil running rampant in the world either.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You should thank my boss. If she knew a whole room of your books was burned, she'd probably be rolling around in bed.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm, no problem. Leave this matter to us.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So, should we refund the plane tickets? Hope there won't be too much handling fee.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hope so.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Rubs forehead. \"I need to tell my boss first.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Please... depart as soon as possible..\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Pick up the suitcase and hurry out to the nearest telegraph office to send a telegram to Claire and report the professor's situation."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then you can receive a reply in about 17 hours."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Sigh, we have to set off next...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "It is now 11 PM."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Forgot about the damn time difference. \"I'll send it after I get on the train.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think we should sleep first and make specific arrangements tomorrow? It's already late.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That's true, but we need to stay alert.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Let's find a place to sleep nearby first. I need to wait for the telegram anyway, though I might not get it.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Okay.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Prayers received! Continuing to record the horror of the Orient Express for you. Currently recorded texts: 693, time used: 3 hours 19 minutes 46 seconds."
+    },
+    {
+      "speaker": "player3",
+      "text": "January 5th"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Check if the telegram has been sent back."
+    },
+    {
+      "speaker": "player3",
+      "text": "The telegram will arrive at 4 PM today."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Shake the other two awake, indicating it's time to go."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Should we decide where to go first?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We should learn about this train first.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"A route that traverses Europe, the European gentlemen love this train.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I really don't know much about Europe...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm, and where is the starting station?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"To be honest, aside from a few business trips, I'm not much better off than you.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "So,"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Walk over and sit beside him, order a coffee. \"The weather is quite nice today, isn't it, sir?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "He sizes you up, then puts down his coffee, takes off his hat, and greets you."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Quite lucky for a traveler like me.\" #Return the greeting. \"Please excuse me for not wearing a hat.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"May I ask what brings you here, sir?\" the other party inquires politely."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It's like this, my friends and I have come from afar, wanting to see the sights of London and the renowned Orient Express. To be precise, it was initiated by another friend who couldn't make it.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"So you'd like me to recommend places worth visiting in London, is that it?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Because she was held up by local matters, and she booked the tickets.\" #Frown, putting on a pained expression. \"So we don't know the train's departure point.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Oh, the Orient Express has many departure points. The nearest train station from here is Victoria Station, about a mile south of Buckingham Palace.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Ask the other two. \"Shall we go and board here? How about Paris for the first stop?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Thank you for the directions, have a pleasant day.\" Drink the coffee in hand in one gulp and go to meet up with companions."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"You're welcome. It's my pleasure to give directions to a respectable gentleman.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"My respects to you again, my kind friend.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm... So the nearest departure point is also quite close from here.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Shall we go?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "A newspaper boy comes up to you. \"Ladies and gentlemen, would you like to buy a newspaper?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Habitually take out pounds, deciding to buy a newspaper to see the situation."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is that so? One copy, thank you.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Also check if there are any reports related to last night's fire."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"A man named Mohammed died three times in a row!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Let's go, although I wanted to wait for the boss's telegram.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Shall we go, let's set off?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Then turns and walks towards the vehicle"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Prepares to head to the station"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So where's our first stop?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Are you as rich as the boss, able to charter the entire train?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We probably can only go by train first, so wherever the train goes, we'll go there first.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Exactly.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh, I thought we had to buy tickets from the starting station to the terminal station.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Then"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Walks to the ticket office, indicating a need for three tickets"
+    },
+    {
+      "speaker": "player3",
+      "text": "In the early morning, a queue had already formed in the ticket hall of Victoria Station. In front of the wooden ticket windows, people stamped their feet to ward off the cold. Ticket clerks pushed hard cardboard tickets through the iron grilles, their fingers slightly stained blue from ink. Half an hour later, it was finally your turn. The clerk mechanically repeated the fares and departure times, his voice carrying the distinctive weariness of a London accent."
+    }
+  ],
+  "start_line": 623,
+  "end_line": 933
+}

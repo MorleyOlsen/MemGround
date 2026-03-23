@@ -1,0 +1,452 @@
+{
+  "section": "12. Post-Battle Cleanup: Star Fury Medal",
+  "description": "After the battle, Johnson obtains the cursed Star Fury Medal. A strong impulse drives him to walk north. The investigators discuss how to handle this dangerous relic.",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": "The doctor walked out of the emergency room and whispered to Johnson and Bolan waiting outside that he was sorry, the injured person couldn't be saved. He asked if the two were family of the deceased."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hmm... I know, not family, she was my student.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I'm sorry, we did our best. Now you need to confirm the identity of the deceased, then come with me to the office to sign some documents. After that, you'll have to contact a funeral home yourselves—the one on the corner, Pavanetto, is good, they know how to handle these things. Remember to go to the town hall to register before next week, the people there will tell you what materials to bring.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Okay, I'll cooperate, please lead the way.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "An hour later, you finished the procedures and slowly walked out of the office. The empty corridor echoed only with your own footsteps. Cold air carrying the smell of disinfectant crept into your nostrils. Distant, muffled bell sounds drifted in. The twilight light cast long shadows through the high windows. This silence felt heavier than any crying. You stopped at the end of the corridor, glanced at each other but couldn't find words. Only the occasional sound of carriage wheels from outside the window pierced this dead silence."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Although I wasn't very familiar with that lively young girl, sigh, but after all, it's a life.\" #Sighed."
+    },
+    {
+      "speaker": "player2",
+      "text": "Meanwhile, player4 and player5 watched as the picture frame on the wall crashed to the floor and shattered into pieces. Their hair was lifted by an invisible current of air. The fireplace suddenly erupted with eerie blue-green flames. Tables and chairs began to shake violently and then flipped over into the air. The blinds clattered, automatically rolling up to the top. All the windows violently exploded inward. A gale carrying the howl of the Bora wind filled the entire room. Paper and debris spun madly in the air."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Damn, what the hell?\" #Moved closer to Professor Bolan to ensure her safety."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Quietly stood here observing the surroundings, hands in pockets, expression appearing rather indifferent."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's happening?\" #Immediately leaned back against the wall, alert to the surroundings."
+    },
+    {
+      "speaker": "player7",
+      "text": "#With the other hand, pulled out a steel rebar spear, preparing to defend against enemies."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The natives are using their power.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Makes sense.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "All four people on both sides noticed a man in a black trench coat standing not far away. His face was pale. That man glanced in your direction, then quickly turned and ducked into a side corridor."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Flicked a cigarette towards the wind."
+    },
+    {
+      "speaker": "player2",
+      "text": "The Bora wind crushed the cigarette, the airflow carrying the tobacco shreds towards the corner where the man disappeared."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How about...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Is that like pointing the way?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Shall we follow?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Shrugged. \"Let's go then.\" (The reckless duo.)"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go, follow him.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#gogogo"
+    },
+    {
+      "speaker": "player4",
+      "text": "#gogogo, let's head out."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Decided to follow together."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Simultaneously looked around, wary of that man covered in mucus from earlier. \"Be careful, since we've decided to chase.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The four followed the pale man's trail to Via Marco Polo. This street was narrow and winding, the buildings on both sides faded from their former glory. They reunited in front of a deserted villa; the figure of that pale man had already vanished. The villa's lintel was carved with patterns of Bacchus and his followers. The wooden parts were cracked and damaged, appearing dilapidated and blurred compared to the exquisite carvings in the sketch."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Uh... this isn't their home base, is it?!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hard to say.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Oh, we've regrouped. That lively young girl, the doctors couldn't save her.\" #Told the two this tragic news."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"In this weather, potted plants and such are hard to find.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Moment of Silence"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Observe a Moment of Silence"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Let's go, take a look inside...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The villa's exterior plaster is peeling off in large patches, revealing the bricks beneath. The window glass is shattered, the frames are rotten and askew, roof tiles are missing, weeds spread from the corners to the steps, and the entire building is enveloped in an atmosphere of desolate silence."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"By the way, does the name Bacchus ring a bell for you?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"No, but let's check this place out first.\" #Light a lighter, approach the door, and look inside by its flame."
+    },
+    {
+      "speaker": "player2",
+      "text": "The door is tightly locked with a thick iron chain, which is heavily rusted, looking like it hasn't been opened for a long time."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think he went through all the trouble to lure us here.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Lift the chain and carefully gauge the gaps between its links, which look somewhat corroded. Take out a small hacksaw from the sack, set up a small vise, and start sawing with a clattering sound."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it shall be answered. <player7>'s Locksmith invocation:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Johnson skillfully opens the lock. The four of them push the door open and enter the villa. The howling wind outside is shut out, but an unnatural chill still permeates the interior. The investigators cautiously step across the sagging floorboards as several rats quickly scurry into holes in the corners. The building appears to have once been an inn. To the left is a reception desk covered in cobwebs and decaying; to the right, an open door leads to a dining area."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go in and take a look.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Behind the front desk extends a corridor leading to the rear of the building, next to a staircase going up to the rooms. At the end of the corridor is a set of stairs leading down, clearly to the basement."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Use the lighter to burn away the cobwebs and see what's inside the counter."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"In short, don't split up.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The inside of the counter is covered in thick dust, scattered with severely decayed papers. The entire surface is riddled with holes and cracks from rodent gnawing."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Well, we can't afford to lose another companion.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Not advisable. If that little girl hadn't tried to play the hero and fight alone with her knightly spirit, she could still be here chatting and relieving the boredom now.\" #Shake head."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright, let's go to the basement first.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The four descend the stairs. The steps creak but the structure remains stable, and they safely reach the bottom of the basement. In the distance is a stepped wall made of large, skillfully stacked cut stones, sloping towards the ceiling. These stone steps serve as shelves, holding broken wine racks. Some steps also have a few empty, rotting sacks scattered about."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Looks like this is the wine cellar.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "(Can roll Spot Hidden or Archaeology.)"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra Archaeology"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it shall be answered. <player3>'s Archaeology invocation:"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Simply use the spear to poke through the wine racks and sacks to avoid touching anything dirty."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it shall be answered. <player7>'s Spot Hidden invocation:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Bolan carefully examines the peculiar wall and gradually recognizes it as part of the structure of an ancient amphitheater. The curved outline of the outside street actually follows the boundary of this amphitheater."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Spot Hidden"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it shall be answered. <player4>'s Spot Hidden invocation:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Johnson uses the spear to poke through the pile of debris, stirring up a cloud of dust. player4 discovers a rat hole in the corner, with fine gnawing marks scattered around its edges."
+    },
+    {
+      "speaker": "player3",
+      "text": "#While recording the surrounding terrain, cautiously continue deeper."
+    },
+    {
+      "speaker": "player2",
+      "text": "The basement space is not large; reaching that stone wall marks the end, with no other passages."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra spot hidden"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will surely receive a response. <player5>'s spot hidden prayer:"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Light the lighter and probe into that rat hole, crouch down and tilt my head to see what kind of space is inside."
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 discovers a faint light coming from the corridor above the stairs. A few seconds later, the light source reaches the top of the stairs, and all investigators can see it comes from a small man dressed in antique black clothing. He carries a leather satchel. Light emanates from his entire body, though the wall at the top of the stairs is faintly visible through his form. His face is familiar to them—they have investigated him and seen his portrait before—this is the ghost of John Winkelmann (Sanity loss 0/1D4)."
+    },
+    {
+      "speaker": "player4",
+      "text": ".sc 0/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player7",
+      "text": ".sc 0/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player3",
+      "text": ".sc 0/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 lets out a short gasp, steps back abruptly, face instantly losing color, fingers tightly clutching the hem of their clothes."
+    },
+    {
+      "speaker": "player5",
+      "text": ".sc 0/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player2",
+      "text": "The ghost slowly descends the stairs, its movements sluggish and stiff as if moving through water, its posture immediately reminding the investigators of the supernatural footage Professor Smith showed. The old stairs make no sound from its steps, and the ghost itself is completely silent. It seems unaware of the investigators' presence, walks directly to the bottom of the stairs and stops, looking upward as if listening to some sound. The investigators can see its pale skin already showing signs of decay, and a pierced wound hole is visible on its neck, from which a maggot crawls out and falls. Slowly seeping black fluid slides down its skin. The maggot disappears like a phantom the moment it touches the ground."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Rub my slightly numb knees from kneeling, then rush forward in surprise to steady player4."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Take a close look at his wound."
+    },
+    {
+      "speaker": "player2",
+      "text": "The wound edges are neat and sharp, clearly caused by a sharp weapon like a dagger. The skin around the wound is completely dried and blackened, with no signs of blood flow."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ah, so we found it just like that?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It seems so.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Searching far and wide with great effort.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Gaining it still required quite some work.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "(Previously followed player4 into the car.)"
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Ha, physical labor is my thing.\" #Proceed to use the spear to pry that stone slab, then use small tools to dig."
+    },
+    {
+      "speaker": "player2",
+      "text": "After the slab is moved aside, a large piece of rotten leather is revealed underneath, its material cracked and split, showing the outline of that golden medal within."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It really is a medal...\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Humming a work chant tune heard on construction sites before."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The problem is, the fragments are in his hands. Should we really give this thing to him?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Myself, refill the soil, tamp it down firmly, and cover it with the slab."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Feels like it should be real.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Anyway, it counts as some bargaining chip.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Already designated as Old Man Fei's worker bee.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"That cave they mentioned.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Bitter"
+    },
+    {
+      "speaker": "player7",
+      "text": "\"You guys decide, I'll have a smoke.\" #After finishing work, wipes sweat with a hand, lights a cigarette and puffs away in the corner."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Go to that cave and trade the medal with them for the fragment.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"No need to bring the medal.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Makes some sense, but I'm afraid we might not come back.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The medal lies flat on the dirt, its surface covered in a thin layer of dust, edges stained with bits of rotten leather. The metal has a matte sheen in the dim light. Who's going to pick it up?"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Finishes the cigarette, grinds the butt against the wall. \"If it's a bargaining chip, we should take it. I'll do it, I'm not that afraid of these ghosts and gods.\" #Wraps the leather and tucks it inside his chest pocket."
+    },
+    {
+      "speaker": "player2",
+      "text": "As Johnson's fingers touch the medal, a shock like an electric current shoots up his arm. A chill air surges from the medal's surface. He hears a distant, mournful howl, and a strange coldness spreads along his arm, reaching straight for his heart."
+    },
+    {
+      "speaker": "player7",
+      "text": ".sc 1/1d3"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I get it, everyone's watching."
+    },
+    {
+      "speaker": "player2",
+      "text": "Johnson suddenly feels the surrounding air become warm and comfortable, as if bathed in spring sunlight. The medal glows with an enchanting luster in his eyes. He can't help but clutch it tightly to his chest, with no intention of putting it away."
+    },
+    {
+      "speaker": "player7",
+      "text": "#The brain, still numb from the nicotine, provided some resistance against the cold."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Are you okay? Put it in your pocket for now?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Pats Johnson's cheek. \"How do you feel?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Hehehe...\" #A bit of drool escapes, snaps awake after being patted, shakes head vigorously. \"I'm fine, I'm fine.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it's what you wish for, it will be answered. <player7>'s POW wish:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Johnson holds the medal firmly against his chest, his gaze unwilling to leave it for a moment. A powerful impulse rises from deep within, driving him to want to walk north."
+    }
+  ],
+  "start_line": 3413,
+  "end_line": 3722
+}

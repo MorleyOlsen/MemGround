@@ -1,0 +1,192 @@
+{
+  "section": "1. Final Gathering: Dolores' Confession",
+  "description": "The final gathering before the adventure party disbands. Dolores confesses to everyone that she has fallen in love with all her teammates and reveals her plan to learn fusion evil arts from the Evil God. The teammates react in various ways.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "——start——"
+    },
+    {
+      "speaker": "player3",
+      "text": ".rd3 Lu, Bo, Xi"
+    },
+    {
+      "speaker": "player6",
+      "text": "Due to Lu, Bo, Xi, <Ziqi> rolled d3=2"
+    },
+    {
+      "speaker": "player4",
+      "text": "Adventuring together... I was never happy... (sobbing)"
+    },
+    {
+      "speaker": "player5",
+      "text": "Is that so, Miss Hidariva. Of course, I'm not surprised to hear you say that, because I feel the same way. But if that's the case, why are you crying?"
+    },
+    {
+      "speaker": "player2",
+      "text": "player4, what are you saying? Wasn't it you who said we'd be an adventuring party for life? Why are you the first to leave? You're always like this, promising forever, then abandoning me!"
+    },
+    {
+      "speaker": "player3",
+      "text": "Even though these things happened, even though... (I clutch the hem of my clothes) I did many bad things! Those people, they died! Even though I understand your feelings might not be for me, but, player2—"
+    },
+    {
+      "speaker": "player2",
+      "text": "My feelings... have always been for each and every one of you! Aren't you the same? player3?"
+    },
+    {
+      "speaker": "player3",
+      "text": "Intent: I want to fuse everyone into a single entity, never to part. Calamity: I intensified the party's division."
+    },
+    {
+      "speaker": "player6",
+      "text": "<Ziqi> rolled 7d6=[7d6=27, 5+4+6+4+4+2+2]=27"
+    },
+    {
+      "speaker": "player4",
+      "text": "Of course I wanted to be an adventuring party for life. But you, you, and you, you guys! So boring! So dull! I can't vent my overflowing energy with you! No one can handle my surging emotions! You boring people! No one! I was never happy being in an adventuring party with you!"
+    },
+    {
+      "speaker": "player5",
+      "text": "Regarding the party's disbandment, player5 only feels a slight regret. If not for the fact that they've been together for quite some time, he might not even feel regret, because he thinks the party members spend too much time on personal emotions. In such a party, dealing with teammates' emotions takes half the day, where's the energy left to uphold justice!"
+    },
+    {
+      "speaker": "player3",
+      "text": "I activate the spell from my priest's staff; the healing magic now emits an ominous glow. My body begins to grow strange fleshy masses, extending and entangling towards my teammates... Just as I'm about to entwine everyone together, I suddenly freeze, the flesh unable to continue growing..."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But it was player4 who gathered us together... You said player5's sword is the sharpest, player3 and I always love everyone, player8 would gaze at you deeply, you found it interesting... Now you think we're boring? No, we must stay together!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "@player3 player6 count: 5 (I love you, and everyone!) Because at this moment, player5 stops me, pointing to the nearby village and质问: \"Did those villagers die because of this?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Huh? Little player5, what are you saying? Dolores just made them stay together forever, right? Don't they look very happy?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "I press back the things growing from my body, hiding behind player2: \"Quick, convince everyone! We're on the same side, you also support me fusing everyone together, right?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Dolores, please explain immediately why you know such evil arts, and how the villagers died last time. Otherwise, I'll have to point my sword at you.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Love is the most useless thing in the world. If anyone disagrees, can you fight me? I want to fight.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Actually, player4 is also responsible!\" I point at player4. \"You're also responsible!\" I point at player5. \"Could it be that the justice you represent to eliminate includes yourself?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Everyone in that village was already dying from the plague, right... Rather than dying painfully from illness, little Dolores just let them die happily, didn't she?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Intent: I want Dolores to admit her sins and abandon the idea of fusing people together. Calamity: Not only did I fail to make Dolores confess, but I also accidentally hurt others who tried to stop me."
+    },
+    {
+      "speaker": "player6",
+      "text": "<Xiaoyue> rolled 7d6=[7d6=25, 5+5+3+5+1+4+2]=25"
+    },
+    {
+      "speaker": "player5",
+      "text": "I point my sword at Dolores, \"But did they really feel happy because you fused them together? No, they died in fear and confusion, in pain. You're just deceiving yourself. Tell me, why did you really do this? Otherwise, I'll have to swear an Oath of Enmity against you.\" Hearing this, Dolores kneels on the ground, sobbing. \"Wuwu, I just wanted everyone to be together. That transcendent being I met that day... she told me if I learned this spell... loved ones would never be separated again... people who love each other but don't communicate, don't understand, I never want to see such things happen again. Because I know how painful that is, that's why I don't want it.\" Hearing this, my heart tightens. \"The transcendent being you mentioned, it couldn't be some Evil God, could it! You made a deal with an Evil God...\" Dolores just cries and shakes her head, refusing to say what price she paid to learn this spell."
+    },
+    {
+      "speaker": "player4",
+      "text": "player4 doesn't like difficult words. Since it seems to be Dolores's fault now, I urgently want to fight her to vent my overflowing energy. (So I excitedly jump around)"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Huh? But wasn't everyone there that day? Little player3 said she saw everyone suffering and wanted everyone to be together forever... She happened to have a transcendent spell, didn't we all默许 her to use it...? We even said we wanted to stay together like that too.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Intent: Want to fight Dolores and then carry her around everyone for a few laps. Calamity: Lost the fight, was stopped by everyone, failed to have a satisfying release and ended up憋着."
+    },
+    {
+      "speaker": "player6",
+      "text": "<Shiliang Yuan Nai> rolled 7d6=[7d6=22, 3+4+2+3+5+4+1]=22"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Anyway, it's Dolores's fault, right?\" player4兴奋地 jumps around, cracks knuckles, rubs hands together, and pounces. Dolores is当然 not unskilled, but under player4's strong and forceful attacks, she becomes somewhat疲惫. The two spar until drenched in sweat, but player4 shakes his head, roars, and launches an even fiercer assault, successfully finding an opening and knocking Dolores down."
+    },
+    {
+      "speaker": "player2",
+      "text": "Meanwhile, on the other side"
+    },
+    {
+      "speaker": "player4",
+      "text": "player4 said while stretching and moving around, feeling a bit unsatisfied."
+    },
+    {
+      "speaker": "player2",
+      "text": "@player2 player6 count 5 Why can't we all be together+3 While player4 was carrying player3 and running laps, player2 asked player5 in confusion."
+    },
+    {
+      "speaker": "player6",
+      "text": "<PigeonCat> rolled 9d6=[9d6=30, 1+4+1+5+4+3+2+4+6]=30"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"...Huh? Little player5, why are you saying that about little Dolores? Wasn't it that we saw the people in this village sick and dying, and little Dolores said she had a powerful spell to make everyone happy together forever, and you said but isn't that killing? We said but they aren't really living like this either, and you accepted it...?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "[Image]"
+    },
+    {
+      "speaker": "player3",
+      "text": "[Image]"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"And you, player4, didn't you say first that you were the leader and would take responsibility for everything, so why are you now saying you're just that kind of person and telling us to leave you...? You clearly said we'd form an adventure party for life! And little player8, she just watched everyone back then and said she wanted to be with us forever too... (sobbing) Didn't we promise to always be together?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Alright, I'm going to introduce Inspiration. My Inspiration trait is: \"Not Healing\" +1"
+    },
+    {
+      "speaker": "player4",
+      "text": "@景见liart (Great)"
+    },
+    {
+      "speaker": "player3",
+      "text": "Let me explain how this Inspiration will change the conflict."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'd like to take on everything, but I only want to take on the fun stuff. These annoying matters are too boring, no excitement. I'm more suited for battling monsters on the battlefield, or winning a championship at Olympia, or being a genius blacksmith forging swords all day. Scheming and intrigue are too troublesome!\""
+    },
+    {
+      "speaker": "player3",
+      "text": ".r8d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "<Ziqi> rolled 8d6=[8d6=23, 6+3+1+2+6+2+1+2]=23"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Why... how could I have condoned such a thing...\" player5 murmured, holding their head."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Because—because!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Huh, huh? But little player8 didn't seem to erase my memories! Little player8 really does love us! That's wonderful!\""
+    }
+  ],
+  "start_line": 0,
+  "end_line": 228
+}

@@ -1,0 +1,288 @@
+{
+  "section": "British Museum: Maya Exhibition",
+  "description": "On January 1, 1923, the new Maya artifact exhibition hall at the British Museum opened. Professor Smith invited the investigators to visit. The relief depicting blood sacrifices and the tradition of the god-king foretell horror.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "A new story begins, wish you all a pleasant journey! Recording of the horror on the Orient Express has now commenced... Wait, a piece of paper flew out... Even the five-star critic MacArthur couldn't help but sigh."
+    },
+    {
+      "speaker": "player3",
+      "text": "So, the time is Monday, January 1, 1923. Invited by Professor Smith, three members of Miskatonic University have traveled thousands of miles across the Atlantic to London, England. You arrived here two days before the Challenger Lecture begins, and now you are standing in the British Museum with Professor Smith. On January 1, 1923, the British Museum opened a new exhibition hall including the Maudslay Collection, featuring ancient stone carvings from early Maya tribes in southern Mexico and Central America. Professor Smith hopes you can spend two days familiarizing yourselves with the city and attend his lecture on the third day. Hmm, coincidentally, a new exhibition hall opened on January 1st. So you are here to visit and incidentally get to know each other."
+    },
+    {
+      "speaker": "player2",
+      "text": "#The first stop is an English-speaking country, a good time for slacking off has arrived."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"In the 1880s, archaeologist Dr. Alfred P. Maudslay discovered these stone carvings from ruined jungle temples during his expeditions. Now, these antiquities are being opened to the public for exhibition.\" Professor Smith introduces this new exhibition hall to you."
+    },
+    {
+      "speaker": "player4",
+      "text": "#A look of awe."
+    },
+    {
+      "speaker": "player3",
+      "text": "You can see many jungle artifacts, stone carvings, stone pillars, and tools used by primitive people inside the exhibition hall. \"Oh, you haven't met each other yet, let me introduce you.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The boss would be very interested.\" #Gesturing to Professor Bailan beside him, although he doesn't pay the salary."
+    },
+    {
+      "speaker": "player3",
+      "text": "@player7 \"This is Mr. Gungnir, the spokesperson for the Rhode Island Yellow Book Society.\" (Huh? Smith is introducing (0)"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Frowning \"Professor, don't be so blunt.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hmm, okay?\" Professor Smith feels a bit awkward."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Anyway,\" #Hands hanging down \"It's not good to expose that you're also a heavy user.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Haha....\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hello everyone, I am a medical student from Miskatonic University. I am honored to be invited by Mr. Smith to attend the lecture, and I am very pleased to meet you all.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"A talented young person, pleased to meet you.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "(Bailan isn't from the Yellow Book Society (0)"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It's an honor to meet you all here.\" #Nodding politely, extending a hand to shake with everyone, with a gentle yet courteous smile."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Shake hands with Bailan in a friendly manner."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Extend a hand and shake Bailan's hand."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"player4 - Durgan and... Bailan - Sha\" Professor Smith nods as he introduces."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Just call me player4, Professor Smith.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Thank you very much for coming from afar. Please enjoy the city properly these two days.\" \"London is a very beautiful city.\" Then he leads you inside. In the center of the exhibition hall, several fragments of Maya lintels from the 4th-6th centuries AD are displayed. The reliefs on them, though weathered for millennia, still clearly show intricate ritual scenes."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That's right, I was fortunate enough to have been here before. It truly is a very beautiful place. I still remember the past by the River Thames.\" #Then follows inside."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Follows the professor inside, idly looking around at the exhibits."
+    },
+    {
+      "speaker": "player3",
+      "text": "Cool-toned light falls upon the ancient relics carved from limestone and obsidian."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh... Professor Bailan is really well-traveled and knowledgeable.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The most eye-catching is a limestone lintel from the Palenque ruins. The relief on it depicts a solemn and bloody bloodletting ritual—a noble wearing a feathered headdress holds an obsidian dagger, piercing his own tongue, blood dripping onto a bark paper scroll; at his feet, a captive is bound kneeling, eyes vacant, with sacrificial symbols carved on the neck. The nearby display panel explains: \"The Maya believed that blood was the link between the divine realm and the human world, and the sacrifice of captives was a sacred feast offered to the gods.\" In glass cases on both sides of the hall, small stone carvings and pottery figurines are displayed."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Internally ranting about how this damp, hot city environment mixed with fog and industrial exhaust can also be shamelessly called beautiful."
+    },
+    {
+      "speaker": "player3",
+      "text": "The professor examines these collections with great interest."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Frowning upon seeing such a bloody and cruel ritual."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Eyes sweep over these ancient artifacts \"Live sacrifice, communication with the gods.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hmm... There is the title 'k'uhul ajaw' on the lintel edge. This ritual might... be related to the 'Divine King Blood Sacrifice' tradition in Maya kingship mythology.\" Professor Smith analyzed while taking notes in his notebook."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Watching the exhibits expressionlessly, not particularly shocked by such a bloody scene."
+    },
+    {
+      "speaker": "player3",
+      "text": "After about an hour of browsing, you have finished touring this exhibition hall."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"What is Divine King Blood Sacrifice? Is it about pleading for answers from ancient gods?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "(Can make an Archaeology roll)"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It's alright, Professor. Please attend to your own matters.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Then Professor Smith recommends a cost-effective hotel to you."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Archaeology"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you hope for, it will receive a response. <player5>'s Archaeology prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Occult"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you hope for, it will receive a response. <player4>'s Occult prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Then Bailan can analyze that these offerings were used for deities to consume, to bless the ruler's life and rebirth."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Watching these history experts babble here like a Muggle."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So, shall we stay together? That way we can look out for each other.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Briefly explain to companions about this bizarre, bloody ritual."
+    },
+    {
+      "speaker": "player2",
+      "text": "#player2 nods to player4. \"The boss said accommodation expenses can be reimbursed.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"!! That's great!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "London's sunset slowly sinks into the River Thames. Twilight coats the spires of the British Museum with a layer of dark gold. The river surface shimmers with rust-colored ripples. Barges and steam ferries trail long plumes of coal smoke. Gas lamps along the streets light up one after another, their dim yellow halos seeping into the thin mist."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I think so too. Having a generous boss is really great.\" #player2 sways his short upper body in agreement with your statement."
+    },
+    {
+      "speaker": "player3",
+      "text": "You are very tired after the long journey."
+    },
+    {
+      "speaker": "player4",
+      "text": "#The college student who already lacks exercise decides to sleep."
+    },
+    {
+      "speaker": "player2",
+      "text": "#As a country bumpkin who grew up and lived in Rhode Island, expresses dissatisfaction with England's heavily industrialized and polluted environment by coughing."
+    },
+    {
+      "speaker": "player3",
+      "text": "@player8"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Slee~p"
+    },
+    {
+      "speaker": "player3",
+      "text": "January 2, 1923. The chill in London has not yet dissipated. player5, wrapped in an overcoat, stops before an old bookstall, fingers brushing over a yellowed South American expedition notebook; player4 prays in a London church; while player2 silently follows behind them, eyes vigilantly scanning the crowd as if ready to deal with invisible threats at any moment. They have afternoon tea at a tearoom in Russell Square. Bailan talks about nightmares of the rainforest, player4 listens with a smile, while player2 just silently stirs the sugar cubes. As dusk falls, the three stroll along the Thames embankment. The halos of gas lamps shatter into golden ripples on the river surface. In the distance, the dull chime of Big Ben marking the hour can be heard."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Sits up straight."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The reason I use the term 'associated phenomenon' is because those haunted things do not occur only for a specific observer. As we have seen, hauntings can happen whether there are human witnesses or not. Therefore, human perception of such phenomena is secondary to the phenomenon itself.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#In my seat, like a student in a public lecture, utterly bored but having to put on an attentive face, actually just thinking about when we can eat."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Listening seriously while thinking. After all, having seen many bizarre things, one always maintains some vigilance."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Recalling knowledge seen in the library, nodding thoughtfully."
+    },
+    {
+      "speaker": "player3",
+      "text": "Bailan felt the back of her head being brushed by hair, which interrupted her train of thought."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Looking back"
+    },
+    {
+      "speaker": "player3",
+      "text": "Then you see a man behind you, about under forty years old, with such a thick beard that you would mentally categorize him as a 'foreigner.' He was passing behind you and accidentally bumped into you. Seeing you look back, he made an apologetic gesture and hurried away."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm...\" #Silently watching where this person disappears to"
+    },
+    {
+      "speaker": "player3",
+      "text": "That person disappeared at the exit."
+    },
+    {
+      "speaker": "player2",
+      "text": "(Are you typing, or waiting for me to RP?)"
+    },
+    {
+      "speaker": "player3",
+      "text": "Then the challenger's speech ended, and everyone dispersed."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Walking over to Bailan and player4"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No... I was listening to the speech the whole time.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"No, just met a strange person.\""
+    }
+  ],
+  "start_line": 0,
+  "end_line": 310
+}

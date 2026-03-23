@@ -1,0 +1,424 @@
+{
+  "section": "8. Winkelmann Diary: The Talisman Crisis",
+  "description": "Discovered Winkelmann's manuscript diary, detailing the Talisman Crisis from June 3-7: The Talisman must be delivered to the Postumia Cave, and the Arkanje cult is in pursuit.",
+  "conversation": [
+    {
+      "speaker": "player3",
+      "text": "#Slacking off and turning into a letter"
+    },
+    {
+      "speaker": "player2",
+      "text": "[Accidentally entering a tide zone]"
+    },
+    {
+      "speaker": "player1",
+      "text": "Qiduo received! Continuing to record the howling cold wind—Trieste 1923, currently 1989 texts recorded, time elapsed 9 hours 12 minutes 52 seconds"
+    },
+    {
+      "speaker": "player2",
+      "text": "You encountered the red-haired man Caesar Druni in the library, subdued and interrogated him, learning he is a monitor sent by Termona, revealing the R'lyeh Cultist's attempt to find the eighth medal. Caesar was torn apart by tentacles inside his body while ranting madly, and you disposed of the scene overnight. This morning player6 appeared inexplicably fatigued, all avoided the hotel breakfast and went out, encountering a strong Bora wind, player4, player5, and Bolan were successively blown over by the gale. Currently lying scattered on the streets"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Crawling toward player4"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Find something to stabilize myself as much as possible"
+    },
+    {
+      "speaker": "player2",
+      "text": "Then Bolan successfully grabs an exposed drainage pipe on the ground"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Try to grab something to control my body"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Wait for the wind to die down a bit before looking for others"
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 barely hugs a lamppost"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Hug player4's thigh"
+    },
+    {
+      "speaker": "player2",
+      "text": "Everyone squeezes into a small restaurant filled with the aroma of coffee, hastily swallowing fried eggs and bread by the window, Gousheng licks milk from a saucer. Although the Bora wind still howls outside, the condensation on the glass temporarily isolates the chaos outside."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So where do we go next\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Okay\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"I fully agree\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Crawling, giving a thumbs up, no objection"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think I should go to the strange person, professor goes to the collector?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Preparing to go hire a translator."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Who's coming with me?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What about me, me\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Translator crawling"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright, the two of us hire a translator\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Damn it, someone with eyes help me up\""
+    },
+    {
+      "speaker": "player2",
+      "text": "You find a young man holding a multilingual guide sign in a sheltered spot outside the restaurant. He is wrapped in an oversized sheepskin coat, the sign crookedly written with German/Italian/Slovenian words."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Wind too strong, crouch low to reduce wind resistance"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How much?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Then the sign reads English/German/Italian/Slovenian"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Disdainfully helping player5 up"
+    },
+    {
+      "speaker": "player2",
+      "text": "The guide rubs his frostbitten fingers, twenty lira\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"How long\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"One day\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Do we need to cover your food and lodging?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The guide grinned, showing neat new teeth. A meal will do."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think he's good, let's go with him.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "He adjusted his backpack straps and stood up. \"Also, if it runs past midnight, there's a five lira night shift fee.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ok, no problem.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Squinting eyes \"20, includes meals, night shift included.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Split into two groups and set off."
+    },
+    {
+      "speaker": "player2",
+      "text": "Marco opened the door a crack, his single eye scanning everyone gloomily. What now? His burly arm blocked the doorway."
+    },
+    {
+      "speaker": "player5",
+      "text": "(Barbecue, should we be more forceful?"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Well... it's like this.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Marco's single eye narrowed slightly. He silently stepped back, clearing the way. The master is in the study dealing with letters. He said gruffly."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Yes, and it's no small trouble.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Go communicate."
+    },
+    {
+      "speaker": "player2",
+      "text": "Antonio entered the living room leaning on a silver-inlaid cane, his empty sleeve elegantly tucked into his suit buttonhole. \"What troubles have my friends encountered?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Sigh... alright, perhaps we don't need to let things get so tense.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"In a sense, though he did a decent job delivering messages.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Languidly"
+    },
+    {
+      "speaker": "player2",
+      "text": "Antonio elegantly tilted the silver teapot. \"Trieste always greets guests with trouble.\" He gently pushed the teacup across the table. \"But elegant solutions are often hidden in the aroma of tea.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Therefore, we might be able to reach some form of cooperation. We will search for the whereabouts of that item for you.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Yes, sincere cooperation between us will surely yield greater results.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Antonio gently set down his teacup. \"Forgive my curiosity, but what exactly are you all searching for?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Taps the table"
+    },
+    {
+      "speaker": "player2",
+      "text": "Antonio chuckled, ripples forming in his teacup. \"Surveillance?\" Four one-eyed, burly men identical to Marco silently appeared in the doorway. \"Being surveilled often means you've touched upon the truth. I look forward to you achieving results that satisfy me.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Well, this matter isn't particularly important.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Give me men.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We are concerned that that group might interfere with your search for the medal.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Antonio elegantly spread his right hand. \"As for the Skin Brotherhood? Sounds like sailors' tales of sea monsters. I haven't heard of it, but my study does have a few 17th-century Mediterranean books of strange tales.\" His cane pointed towards the slightly ajar oak door at the end of the corridor. \"Feel free to browse—Marco will prepare coffee for you.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We might need to ask for your help at some point to get some assistants to prevent our failure.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Your bodyguards, they look very strong.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Four burly men approach. Hans will be responsible for your safety. Antonio lightly taps one of them with the tip of his cane. They are particularly skilled at... dealing with overly curious onlookers."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"A good deal.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Meanwhile,"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hello, sir.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Grausinger suddenly stands up. His teeth grip a stack of yellowed paper scraps, his empty sleeves flapping wildly against player4's knees."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This sudden visit is a bit presumptuous.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Grausinger's pupils suddenly light up. He pushes aside a pile of rotten food cans with his knee, bites a leather-bound diary with his teeth, and stuffs it into player4's hand."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Open it and look."
+    },
+    {
+      "speaker": "player2",
+      "text": "The diary's content is in German. The guide translates for you, but the handwriting is chaotic and blurry, making it seem very difficult: Escaped from them... returned to Trieste in Rome, although von Junz believes this cult might be survivors from a more distant era... ... seem to prefer living (dwelling?) in underground caves. There are many karst caves nearby (the name originates from \"Grast\", the Slovenian name for this place), perhaps providing ideal... ... from elsewhere (Andromeda Nebula? Secret of the Worms), they can manifest as... ... \"mermaids\"... through the skin visible... internal organs... pulsating bright... ... Ghatanothoa. Some are believed to worship the wind-walkers, Itha (itha)...... overheard them discussing some task their master gave the cult many years ago, but not yet fulfilled. The unspecified punishment is... ... fingers, toes, eyes, limbs... grafted into the body... perhaps moving according to its own will, or obeying... ... ordered to remain vigilant and collect all items with magical power to offer to the invisible..."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Them? You mean escaping from the skin brotherhood?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Grausinger nods frantically, blood seeping from his toothless gums. He bangs his forehead against the earlier French part of the diary."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh, you mean the first half.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "After hitting the diary, a yellowed photo drifts onto the moldy carpet."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is it convenient to give us the diary? I might need to find someone who knows French.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "A young Grausinger with both arms intact, smiling and hugging a woman in a dress and a little boy holding a toy boat. Behind the three, the Alpine foothills are full of edelweiss. The back of the photo is written in pen: Mittenwald, 1909."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This is... your family.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Grausinger uses his head to push open the door, his empty sleeves whipping the air like a whip. He kicks over a tin bucket with his bare feet, making a loud noise, then uses his stumps to roughly shove player4 onto the street, constantly hissing and spitting towards the northeast."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Northeast? The skin brotherhood is in the northeast?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Grausinger shakes his head frantically, bites the diary with his teeth and flips to the back part."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So it's those lunatics who serve the reptiles?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "He shrinks back into the darkness in terror."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The Cave of Winds is their lair?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Grausinger bites a pen with his teeth and scribbles a passage on the inside of the door panel: After leaving the Wind Cave—sever the umbilical cord connected to the myth! Otherwise, you will become paving stones for the Old Ones like me! Then he slams the door shut."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Silence."
+    },
+    {
+      "speaker": "player2",
+      "text": "[Strayed into the tide area]."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We've obtained important information. Let's go.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "(So where to meet up?)"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "Oh, what's going on? #Raise hands to chest level."
+    },
+    {
+      "speaker": "player2",
+      "text": "@player3 @player5"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ahem...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Gou Sheng darts out from player4's arms, emitting a threatening growl at the thugs' shiny leather shoes."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh? Alright.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "After Bolan's explanation, the four thugs instantly return to their previous state."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Uh, how about we grab a meal? You guys...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Suddenly, you notice Montanelli's butler has silently approached you at some point, placing a document folder tied with red silk on the coffee table."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's this?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The four thugs stand motionless like statues, as if they didn't hear your words."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Silence"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The master is already familiar with that diary. Lord Antonio has informed us of the details. Since we are temporary teammates now, we will immediately give you the translated content.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh, I see.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Then the butler leaves the area."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Let's take a look at the fully translated content."
+    },
+    {
+      "speaker": "player2",
+      "text": "May 3rd"
+    }
+  ],
+  "start_line": 2172,
+  "end_line": 2481
+}

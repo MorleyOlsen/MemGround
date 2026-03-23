@@ -1,0 +1,472 @@
+{
+  "section": "27. Scrap Yard: Statue Clue",
+  "description": "Heading to the scrap yard to find the statue, \"Good luck to us and good luck to you.\" The scrap yard owner reluctantly cooperates.",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": ";"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Pretending to be slightly busy, cautiously bypassing this area, preparing to see if I can smoothly enter the prop room from the side door."
+    },
+    {
+      "speaker": "player3",
+      "text": "You pass through the chaotic backstage, seeing actors not yet called for rehearsal gathered in small groups—some sobbing softly, others suddenly bursting into song, emotions swinging violently between sorrow and excitement. Portraits of Caterina are everywhere; in those photos adorned with rose wreaths, her gaze seems to truly follow everyone who passes by."
+    },
+    {
+      "speaker": "player5",
+      "text": "Oh no, my skepticism is rising again. The fragment wouldn't be on that person. This strange ability to influence. No matter how high the looks, it shouldn't be like this."
+    },
+    {
+      "speaker": "player12",
+      "text": "#First, take a medium-sized object in the prop room to carry, so as not to arouse suspicion."
+    },
+    {
+      "speaker": "player3",
+      "text": "Just as Bailan tries to slip quietly toward the side door, she suddenly hears a strange clattering sound—turning to see a row of plaster arms, legs, and heads strung together with hemp rope being dragged down the corridor. Those pale limbs collide with each other, emitting a teeth-grating friction sound. Before she can react, a chariot wheel studded with fake gems suddenly detaches and rolls toward you at an unnaturally fast speed. You scramble to dodge, forced into that passageway. In the dim passage, the surroundings become increasingly bizarre—several actors playing Egyptian soldiers stagger past, the fake blood on their costumes looking as fresh as if just splashed on. These actors wear exaggerated smiles, loudly singing a triumphant march, their prop spears trembling and constantly striking the ground. Suddenly, a rumbling sound comes from deep within the corridor—dozens of wooden severed heads roll like bowling balls, their hollow eye sockets glowing eerily under the kerosene lamps. You are forced to retreat into a darker side passage, backs pressed against the cold walls."
+    },
+    {
+      "speaker": "player2",
+      "text": ".ra luck"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered, <player2>'s luck prayer: D100=45/40 Failure - Well... just a little off."
+    },
+    {
+      "speaker": "player12",
+      "text": ".ra luck"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered, <player12>'s luck prayer: D100=46/30 Failure - Well... just a little off."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra luck"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered, <player5>'s luck prayer: D100=79/50 Failure - According to the law of conservation of luck, next time for sure!"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra luck"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered, <player4>'s luck prayer: D100=89/40 Failure - Well... just a little off."
+    },
+    {
+      "speaker": "player3",
+      "text": "The investigators are completely lost in the labyrinthine backstage corridors. Their hushed pleas for help are swallowed entirely by the darkness; the corridor walls seem to slowly contract and expand, as if breathing. At a certain corner, a group of chorus members in costumes suddenly appears, walking backward, wearing Egyptian god masks with the backs facing forward. When the investigators try to approach and ask for directions, these people dissipate like smoke around the corner. Something whispers in the darkness; listening carefully, it's lines from Aida. The room nameplates on both sides of the corridor flicker before your eyes, changing to different room names with each blink. The sense of time is completely disrupted—Toscanini's roars sound both distant and close at hand, as if happening simultaneously in the past and future."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Frowning, taking out a marker pen, leaving marks on the nearby wall to ensure I don't walk the same path repeatedly."
+    },
+    {
+      "speaker": "player3",
+      "text": "Most terrifyingly, they begin to find this madness perfectly reasonable. player4 finds himself nodding along to a non-existent rhythm; Bailan finds the marks her marker pen leaves on the wall are the cursed patterns from her left arm. Here, the laws of reality have been altered; they have entered a world full of tricks and deception and are becoming engrossed in it. They are backstage, fallen into a party hosted by the artistic clockwork demon."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Using the crowbar to forcefully strike the ground, listening for echoes to ensure we haven't been transported to an empty area."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Knocking player4's head \"Stop nodding, act normal.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Trying to snap out of it."
+    },
+    {
+      "speaker": "player3",
+      "text": "When the third group of slave actors wearing metal shackles leaps past the corridor with eerie laughter, the investigators feel a strong wave of dizziness—the clanging sounds of those shackles are like a hypnotic pendulum, making one involuntarily want to give up all investigation."
+    },
+    {
+      "speaker": "player2",
+      "text": ".ra 70"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered, <player2>'s 70 prayer: D100=52/70 Success - Success! The historical success rate has increased."
+    },
+    {
+      "speaker": "player3",
+      "text": "(.sc 0/1)"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sc 0/1"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone is watching. —————————————— <player5>'s Sanity Check: d100=63/53 Failure Sanity change: 53 ➯ 52 (deduct 1=1 point) - If it's just 1 or 2 points, it's okay, eh, is it almost bottoming out?—"
+    },
+    {
+      "speaker": "player12",
+      "text": ".sc 0/1"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone is watching. —————————————— <player12>'s Sanity Check: d100=97/66 Failure Sanity change: 66 ➯ 65 (deduct 1=1 point) - Only by offering life will you gain life."
+    },
+    {
+      "speaker": "player3",
+      "text": "Bailan suddenly feels the statues in the prop room are not important at all; these frenzied performances before her eyes are the true reality of the world. Her fingers trace the peeling paint on the wall, finding it more beautiful than any archaeological discovery."
+    },
+    {
+      "speaker": "player2",
+      "text": ".sc 0/1"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... Another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player3",
+      "text": "Johnson stood in the center of the corridor laughing heartily, believing the entire kidnapping was a brilliant piece of improvisational theater. As the slave actors danced around him, he almost joined their ranks."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Kick Johnson hard"
+    },
+    {
+      "speaker": "player4",
+      "text": ".sc 0/1"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... Another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player3",
+      "text": "The backstage had now become a vortex of dreams and madness, every prop whispering to give up."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Tap the props, look for sound devices"
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 has not heard the whispers of the props."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's wrong with you all?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Some not particularly interesting segments.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#At this point, a purely Muggle decision: check out the prop room."
+    },
+    {
+      "speaker": "player3",
+      "text": "Pushing open the door, you're hit by the heavy smell of fabric, paint, and tobacco mixed together. The cramped prop room is as crowded as a Pullman carriage, with fabric rolls, spools, and design sketches piled against all four walls."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hello, ma'am.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hello, ma'am.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "(Barbecue"
+    },
+    {
+      "speaker": "player3",
+      "text": "Louisa looks up from her design, ash falling onto the gold dust: Non-staff are not allowed. She squints her smoke-yellowed eyes, what are you here for?"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Apologies for disturbing your work at this time, but we have a more urgent matter concerning the case of the lead actress of this grand opera, our dear star lady.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We are detectives hired by Ms. Caterina's agent to investigate her disappearance. We've traced some clues to the prop room, that's why we're here.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Translate blah blah blah"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This is the pass specially approved for us by Mr. Rossi, please take a look.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"There seem to be some hidden clues in this prop room, a white statue. I wonder if you've seen it, ma'am.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Louisa takes the pass, glances at it casually, and continues revising her design: Detectives? That fool Rossi finally willing to spend money? She points her pen tip towards six plaster statues in the corner: The newly purchased mannequins are all over there, take a look yourselves."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thank you, ma'am.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "One of the elderly women in black suddenly speaks simultaneously. player2 can understand: The seventh one was too big—it was moved somewhere downstairs. Louisa translates without looking up: They say the seventh old mannequin was recently moved downstairs."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Alright, thank you.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I think we'd better not separate.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ok\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Briefly inspect the 6 statues."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Oh\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Professor Bailan approaches the six plaster mannequins and carefully examines their material. These new statues are made of ordinary plaster, with smooth polished surfaces and metal bolts at the joints, completely standard tailor's dummies."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Gently tap to determine if it's solid or hollow inside"
+    },
+    {
+      "speaker": "player3",
+      "text": "Solid."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Recall"
+    },
+    {
+      "speaker": "player3",
+      "text": "The furnishings here are exactly the same as in the dream."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Search for the cabinet containing the statue according to memory"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Then, shouldn't we go downstairs to look?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Dear lady, has anyone taken the things that were previously inside this cabinet?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Indeed, let's go downstairs and take a look.\" #Preparing to act."
+    },
+    {
+      "speaker": "player3",
+      "text": "Louisa stretched her neck to glance, ash falling on the design draft: Ah, the old mannequin used to stand right there. She pointed her pencil at the floor. Last month, during the rehearsal of the second act of Aida, Toscanini had a sudden idea and insisted on moving it downstairs to serve as Radamès' armor stand."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Run, run!"
+    },
+    {
+      "speaker": "player3",
+      "text": "I suggest you go during the day—since that thing was moved downstairs, four night-shift prop masters have already quit. That statue was unsettling even when it was up here. By the way, let me tell you, of the over twenty employees who have resigned in the past six years, thirteen were involved in Aida prop maintenance. Louisa said, looking down, gold dust slipping through her fingers. The reason I'm fine is probably because I only handle costume design."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Since things have come to this, player2 goes downstairs and sees the stone statue. Now that he has seen it, he observes it."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That really is a troublesome matter.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Pushing open the heavy fire door reveals a brightly lit rehearsal hall. Toscanini stands with his back to the door, angrily tapping the music stand with his baton: Aida's lament should sound like a cry for help drowned by the Nile! Not your constipated moaning! The actors nervously repeat their lines, sweat soaking their costumes."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Nothing, what now?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Points at himself \"Me, go negotiate with this kind of lunatic, really?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hey, I have a good idea.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "What are you rats muttering about?! \"Toscanini suddenly turns around, bloodshot eyes fixed directly on you."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Shields the group, \"Alright, alright, calm down.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sir, please calm down first! We are detectives investigating the disappearance of Ms. Caterina. We can help you resolve your current predicament!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Toscanini's face instantly turns beet red: Detectives?! He sputters, my prima donna is missing, and you useless lot are sniffing around backstage like dogs in heat!"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Building on the companion's words, trying hard to convince him we are here to help."
+    },
+    {
+      "speaker": "player3",
+      "text": "He grabs a timpani mallet and hurls it at the wall: Do you know what time it is?! There are only—he yanks his bowtie loose—thirty-seven hours until the premiere! And you are disturbing the only person who can make these tone-deaf fools sound less like braying donkeys!"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Thinking whether to retort or how to proceed?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This is the place Ms. Caterina frequented most. Our being here is perfectly reasonable!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But, just as only pigs can find truffles, you have to let the pigs try, don't you?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Who let you in?! Toscanini grabs player4's tie, yanking him off balance. My theater is not a damned tourist attraction! He roars towards the second floor, Guards! Throw these trespassing vermin out!"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"And there are clues pointing here.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Observe if the maestro has something on him."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Whisper in his ear."
+    },
+    {
+      "speaker": "player1",
+      "text": "The currently registered personal information for <player4> is as follows:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra persuade"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player4>'s Persuade prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Toscanini takes a deep breath, barely suppressing his anger, and asks in a slightly calmer tone: Alright, what exactly do you want? What are you searching for? What are you looking at?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Last month, did you move a statue down from upstairs?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The one that was originally placed in the cabinet.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Toscanini's frown deepens: That old model? Yes, I had it moved backstage. I thought it was more suitable as a armor stand for Radamès. He eyes player4 suspiciously, What? Does a broken statue have something to do with Caterina's disappearance?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We have reason to believe this matter is related to Miss Caterina.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "His fingers unconsciously rub his neck, where the skin seems somewhat red."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Narrow eyes to carefully observe that area"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Stealthily stand to the side of a companion, quietly observing the neck"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Simultaneously continue speaking"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It's mainly related to the group that kidnapped her.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That's no ordinary statue; several forces have come for it.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "You carefully observe Toscanini's neck and find it's just a common rash, possibly caused by anger or collar friction. No curse markings, no abnormal swelling—just the kind of skin condition any long-term sleep-deprived, irritable artist might have."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We cannot disclose more information. Is the reason sufficient now, sir?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Toscanini frowns deeply: You'll have to ask Marco for the specifics—He turns and shouts towards the backstage, Marco! Come here!"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Who handled this matter?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Toscanini's face instantly turns purplish-red: You idiot! He grabs Marco by the collar, spittle flying, That was the armor stand for Radamès I personally designated! A key prop for the second act of Aida!"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Watch the show"
+    },
+    {
+      "speaker": "player3",
+      "text": "Marco's legs tremble with fear: B-but, Maestro... the warehouse records show you signed the disposal form.... And it was so old, the joints were loose... Toscanini angrily throws the sheet music on the ground: What I signed was for a 1872 Scala Opera House antique! Go find it back immediately!"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Was it sold or how was it disposed of?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Observe his expression"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"At least, your reason is needed.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "He turns to the investigators, saying through gritted teeth: It seems you'll have to try your luck at the scrapyard or the collector's place—if that thing hasn't already been chopped into firewood!"
+    }
+  ],
+  "start_line": 8096,
+  "end_line": 8406
+}

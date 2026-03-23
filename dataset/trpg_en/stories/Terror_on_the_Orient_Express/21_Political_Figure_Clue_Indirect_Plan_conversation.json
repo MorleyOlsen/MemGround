@@ -1,0 +1,524 @@
+{
+  "section": "21. Political Figure Clue: Indirect Plan",
+  "description": "The clue points to a political background that is difficult to pry into. The investigators discuss the pros and cons and plan a more indirect investigation route.",
+  "conversation": [
+    {
+      "speaker": "player12",
+      "text": ".sc0/1d3"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... Another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Holy moly!\" #Shivers"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sc0/1d3"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... Another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"This scene feels somewhat familiar to me.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Looks like a torture chamber, is this really what you wanted?\" #Raises the lighter high, gas is sufficient, turns it to maximum to provide light for her, helps out with the other hand."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Spot"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it's what you wish for, it will be answered, <player5>'s Spot Prayer:"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Looking around, \"Tsk tsk, like a horror movie scene, wonder what the corpse looked like before it turned into bones.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it's what you wish for, it will be answered, <player12>'s Spot Prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Johnson notices a faint glow coming from a room deep inside."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Archaeology"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it's what you wish for, it will be answered, <player5>'s Archaeology Prayer:"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Huh? Is that fluorescent stone? Still glowing, hey miss, look at that.\" #Points at it, curiously approaches the glowing area."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm, let me see what that is.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "In this prison cell, dozens of glowing roses bloom among piles of bones. Emerald green petals drip black pus, violet-colored flower hearts extend filamentous pistils that pierce into the eye sockets of skulls. Orange roses emerge from between rib gaps, grass-green buds pulsate like hearts within chest cavities. Among the intertwined thorns of the roses, you see a statue's left arm lying horizontally atop a pile of bones."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"What is this thing?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Oh! Look at that, isn't that the statue fragment you said you were looking for? Looks really weird.\" #Points at that statue left arm."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Glowing roses, and that seems to be the statue.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"You don't have to tell me, it's weird. This is a stone cell, there's no soil, how can flowers bloom?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The roots of the roses emerge from cracks in the walls or floor."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"And it's not even rose blooming season, it's the middle of winter.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Simultaneously sniffs to see if there's any strange fragrance here."
+    },
+    {
+      "speaker": "player3",
+      "text": "The scent of roses."
+    },
+    {
+      "speaker": "player12",
+      "text": ".st show Throw"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player12>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st show Throw"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player12",
+      "text": "#First picks up a stone and throws it into the black pus to see the effect."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Take out the dagger and try to clear out a dirt pit within 5 meters of the rose."
+    },
+    {
+      "speaker": "player3",
+      "text": "The stone draws a parabola and falls into the black, pus-like rain threads, sizzling like meat frying in hot oil. A fist-sized rock collapses into a honeycomb shape within three seconds. A vine-like whip suddenly lashes out at the stone, smashing it against the adjacent stone wall into powder."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wow, what a fierce flower.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player12",
+      "text": ".sc 1/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Take a sharp, deep breath, heart skipping a beat."
+    },
+    {
+      "speaker": "player3",
+      "text": "Johnson frantically throws his spear at the rose bushes, hitting a skeleton. The splintered bones scatter like popping corn kernels."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Thinking about how I never really believed in God since childhood, being dragged to church by Old John to celebrate the old man upstairs's birthday. But seeing this living flower for the first time in my life, I couldn't help it. The twisted, horrifying scene floods my eyes, reshaping my worldview. After throwing the spear, Johnson feels dizzy and lands on his butt."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Take a deep breath. Although aware that putting a blood-covered wound directly into the soil is prone to infection, I have no choice but to do it."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Oh, my dear Satan. Before, when you talked about that unbound flesh cult using magic, I didn't believe a word. Now it seems... I've gotten myself into something big.\" #Turns pale with fright, looking at Professor Bailan."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ah, what comes next might be a bit...\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Okay\" #Obediently closes eyes."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Ignore any consequences, plunge both hands into the soil, silently recite that ancient, wordless incantation, as always, like an admonition no one understands."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Well, I'm not squeamish about blood, but bleeding like this isn't good either. After we get out, maybe find that doctor to take a look?\" #Asks with eyes closed."
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-10 san-1-1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s \"Sanity\" change: 51 ➯ 49 (deduct -1-1d4=-2)"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-10"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s \"Magic Points\" change: 2 ➯ -8 (deduct -10=-10)"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp1"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s coc7 attribute registration completed. 1 piece of data updated this time."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Oh, clatter clatter, what's growing?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "As the humus under Professor Bailan's hands emits a green fluorescence, the roses in the room instantly wither into ash. The emerald vines dry up and snap like snakes drained of blood. Six massive arms covered in fluorescent moss burst forth from the earth."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Control those arms, grab that statue, and bring it to my side."
+    },
+    {
+      "speaker": "player3",
+      "text": "Darkness deprives Johnson of sight, and fear floods in doubly through other senses: the skeleton makes eggshell-cracking脆响 under the tentacles' squeeze. Mycelium on the ground crawls up your calves, bringing a prickly itch. The mycelium oozes a swamp-bottom-like stench. (.sc 1/1d4)"
+    },
+    {
+      "speaker": "player12",
+      "text": ".sc 1/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player3",
+      "text": "You successfully obtain the arm. The arm is smooth, seemingly ordinary, like porcelain, only cold to the touch. The porcelain-like surface has repeating strange patterns."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Hiss, a bit itchy. Miss, when can I open my eyes? I'm feeling a bit spooked. It's too dark.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Pull hands out of the soil, wipe everything off hands with a handkerchief."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Instinctively shift backward a bit"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Only after all the strange phenomena completely disappear do I speak up to remind, \"OK, you can open your eyes now.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Suddenly, the faint gray mist in this room condenses into a milky white vortex without warning, the gas stinging everyone's corneas like ice needles. Your vision is temporarily swallowed by the blinding milky white. After regaining sight, you find the mist sliding along the stone wall toward the exit, picking up half a tattered veil as it passes the torture rack, the fabric fluttering in the airflow like..."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Opening my eyes to see the statue has already moved. \"Wow, it really is magic, ha, haha.\" Force a dry laugh, avoiding Bailan like avoiding a ghost, quickly pick up the spear."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We can leave now.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "Goodness, got stuck with a few divine beings... #Mutter to myself and follow along."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player12>'s \"Sanity\" change: 62 ➯ 65 (increase 1d4=3)"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Dragging my body, exhausted from vomiting, I leave"
+    },
+    {
+      "speaker": "player3",
+      "text": "You walk out of the basement, exit the courtyard gate, and find player2 helping player4 walk while thanking the doctor at the house door"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st san＋1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s \"Sanity\" change: 49 ➯ 52 (increase 1d4=3)"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Walk around to the door, call out to the doctor, \"Sir, can you take a look at this lady's injury? She accidentally cut her hand.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Not a big impact, just need a little treatment to prevent infection.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"A ready-made doctor is right here, what's the harm in taking a look? It's not like I'm paying anyway\" #Blink my eyes"
+    },
+    {
+      "speaker": "player3",
+      "text": "The doctor walks over to check the situation, goes back inside, fetches a medical kit, and disinfects and bandages Bailan's wound."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Doctor, please help\" #Force a smile"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Extend my hand, waiting for the doctor to bandage it"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"All done and auspicious, so can you help me with the ID and passport matters?\" #Plead on the way, clasping hands together and shaking them"
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Louis flicks the frost particles off the carriage seat with his whip tip, the chestnut horse snorts white mist and tries to nibble the moss on Johnson's coat. Whoa! He yanks back the reins—this old buddy thinks you're a mobile hayfield! Your next leg of the journey is... back to the Ritz for a calming drink, or..."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"For God's sake\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Request received! Continuing to record the horror of the Orient Express for you. Currently recorded text: 5837 entries, time elapsed: 28 hours, 42 minutes, 0 seconds"
+    },
+    {
+      "speaker": "player3",
+      "text": "Last time we left off, you obtained the left arm statue."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Call Old Henry and ask him to give us another ride to the town hall"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Time to go.\" #Wrap the statue well and place it in the suitcase"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Pale-faced"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Pat player4's head \"I'll buy you ice cream later\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Then let's evacuate. Right, what's in hand won't run away\" #Nod and go find Old Louis to get on the carriage"
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Henry pats Lightning's neck and shouts, \"Let's go!\" The carriage creaks and starts moving, heading forward along the cobblestone road. After turning a few corners, the carriage stops at the town hall square. The square is bustling with people, newspaper-selling children running around."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Take Henry Johnson to the front desk"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Get off the carriage, excitedly rub my hands together"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Silent"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Looking at his clothes"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Size isn't an issue, it's about maintaining upper-class 'propriety'\" #Suppressing a half-smile"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"In his state, anything I say is useless\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"When I have money, I'll pay you back for the dry cleaning\" #Rubbing hands excitedly."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Wishing my handbag had clean clothes"
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 did bring spare clothes"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Slapping forehead \"Look at my memory\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#Taking it and changing out of work clothes right there, putting on the new shirt and pants."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Looking him up and down"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Let's go in then, the waistband is a bit tight.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The hair is still a bit...\" #Thinking for a moment, but it can be explained"
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 and Johnson enter the town hall, the marble floor feels cool underfoot. A bespectacled woman sits at the front desk, looking up to ask what they need?"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"I'm player12, here to reapply for my passport and ID documents, lost them previously\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The woman hands over two forms Fill these out first, the pen next to it is in an inkwell."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Zoning out"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Taking the forms, looking them over, dipping the pen for ink and filling out the information quickly."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Having Henry fill out the form first"
+    },
+    {
+      "speaker": "player3",
+      "text": "The bespectacled woman takes the forms, pushes up her glasses, examining them carefully. Mr. Johnson, right? She pulls out a thick registry book, occupation listed as locksmith, please pay a 20-franc processing fee. She points to a small metal box on the counter, already containing a few banknotes."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Leaning on the counter, speaking quickly and politely \"It's like this, miss\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The woman puts the 20 francs in the box, a slight smile curling her lips upon seeing the extra tip. Thank you, sir, she says, taking a brass number tag from a drawer. Please take this to the photography room on the second floor, come back in three days to collect the passport after the photo. She places the tag on the counter, metal lightly clacking against wood."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Thank you, miss\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thanks\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Following behind"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Alright, alright\" #Taking the number tag and quickly going to take the photo, returning to regroup"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Leading Johnson back to the carriage, storing his worn-out clothes properly"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mr. player2, we really owe you\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Just a slight understanding\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"That's right, a section of tunnel collapsed\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We still have over three days\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Transporting a bunch of building materials Pétain used for his villa, all junk.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Do you think there's still time to save people now?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Cleaned up, destroyed the evidence.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#shrugs \"These things do happen sometimes.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Uh... I think it's hard for us to help them.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Tasiga you.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The Marshal definitely won't see us, right?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Everything's settled, maybe we should go to the Orient Express first and ask the attendant if the train will be suspended because of this?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I also think there's no need to delay here any longer.\""
+    }
+  ],
+  "start_line": 6227,
+  "end_line": 6538
+}

@@ -1,0 +1,444 @@
+{
+  "section": "12. Approaching Hakugyokurou",
+  "description": "The group approaches Hakugyokurou and witnesses the Saigyou Ayakashi frantically absorbing Spring Energy. Gensokyo's spring is being stolen bit by bit, and everyone feels the pressure.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "\"I suppose you could say so.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I've been looking for that woman. If you know who it is, please tell me.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Although not exactly suspicious, she is indeed a very strange woman.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"A space full of eyes? That sounds terrifying...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Is this the kind of person you're looking for?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er tries hard to recall the image Youmu described in his mind."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Your face is so red. Did I accidentally leave something like oleander on your face earlier because I was too nervous?\" #Tilting head in thought 🤔 \"Well, probably not, I guess?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "She hangs the sword back at her waist, pondering."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Yakumo Yukari, that's her name. Your master's good friend, Yuyuko's friend, Yakumo Yukari.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yakumo Yukari... I think I've heard that name in stories from my childhood...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Her...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh? What's wrong, Miss Youmu?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I don't know.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It gives me the creeps. Usually, at times like this, someone is peeping.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I have a feeling Yakumo Yukari definitely knows something more.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"An illusion...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"That would be really bad...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It doesn't matter. The current goal is to make Yuyuko stop collecting Spring Energy.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Yes.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The Hakurei shrine maiden, why isn't that guy here yet.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It seems we're reaching the end of the journey... everyone.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"If you can't do it, please don't force yourself.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er comments on the Hakurei shrine maiden from the side."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Activate Mind's Eye perception."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Soul Hunt' check: Roll: 1D20+6d4=2+{1+1+3+3+1+1}(10)=12 Challenge: 10 Success Success Level: 1"
+    },
+    {
+      "speaker": "player3",
+      "text": ".sh6d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "In Ge Qing's Mind's Eye, at that very moment, there indeed was a sense of being watched."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Can Youmu cook? By the way, what do you all eat here? You're half-living too, right?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Goo...d...eve...ning\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Startled inwardly, wisely withdraws perception."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Cooking, of course I can...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Lady Yuyuko, huh.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "[CQ:mface,summary=[Yuyuko is craving],url=https://gxh.vip.qq.com/club/item/parcel/item/ec/ec98882b42756401518b0f0fcac10d67/raw300.gif,emoji_id=ec98882b42756401518b0f0fcac10d67,emoji_package_id=236877,key=c3d7d39a3b744954]"
+    },
+    {
+      "speaker": "player4",
+      "text": "[CQ:mface,summary=[hug],url=https://gxh.vip.qq.com/club/item/parcel/item/c6/c6dae1174d8be6e887867c95bf36f857/raw300.gif,emoji_id=c6dae1174d8be6e887867c95bf36f857,emoji_package_id=237768,key=1e481c87260c49a9]"
+    },
+    {
+      "speaker": "player1",
+      "text": "[CQ:mface,summary=[Yukari shrugs],url=https://gxh.vip.qq.com/club/item/parcel/item/1d/1d3c553c1716bcc334c73222a68c6f12/raw300.gif,emoji_id=1d3c553c1716bcc334c73222a68c6f12,emoji_package_id=236877,key=c3d7d39a3b744954]"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But do people in the Netherworld need to eat?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Actually, I've been wondering about that too.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Speaking of which, the many cherry blossoms here are beautiful, all thanks to the Spring Energy. Yuyuko probably wants the cherry trees to bloom fully in the Netherworld.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Yuyuko made a thoughtful expression."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"If they bloomed, it would indeed be beautiful, but it would just be a false bloom...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Does a spirit like Lady Yuyuko even need to eat... or something.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Don't think like that. If she eats, it must be because she's hungry.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hmm.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Gently taps Yuyuko's head"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Is... that so?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So willful.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"If possible, please stop her.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Just as willful as we are.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"But I'm not one to talk.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So that's the reason...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Have confidence. This journey is for a righteous cause.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "After fighting Yuyuko to your heart's content,"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Next, we'll have to face that... Saigyouji Yuyuko.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Also the bedchamber of the Princess of Spirits."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Yeah, don't be afraid. She might be surprisingly easy to talk to.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"From what she said earlier, her personality seems similar to ours.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I... I hope so.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Maybe?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sigh... I don't want to fight anymore, it hurts...\" #Holding the wound from being bitten by the Devourer earlier"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Lady Yuyuko is a bit stubborn, but she's a good person. Please let me tend to your battle wounds as compensation.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Ouch...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Yuyu says this as the half-ghost behind her flies out with bandages."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thank you, even though I just did something like that to you...\" #flusteredly expressing thanks"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"It can help bandage you up, though it's not much use.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Let Yuyu bandage me up."
+    },
+    {
+      "speaker": "player1",
+      "text": "The mochi behind the girl flies over and expertly wraps the two injured parties into mummy-like shapes."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Probably?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Probably.\""
+    },
+    {
+      "speaker": "player2",
+      "text": ".st mp+6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... updated: [MP]: 6+6=12"
+    },
+    {
+      "speaker": "player2",
+      "text": ".st hp+3"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... updated: [HP]: 2+3=5"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st mp+3"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer of Luo Xueyu]'s 'Existence Record'... updated: [MP]: 10+3=13"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st hp-2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjouin Long'er]'s 'Existence Record'... updated: [HP]: 6-2=4"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Alright, let's get going.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thank you, Miss Yuyu.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Thanks.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"It's nothing, please do your best.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So beautiful...\" #muttering to myself while looking at the place I'm in."
+    },
+    {
+      "speaker": "player1",
+      "text": "The air floats with a clear, cold fragrance, a complex scent mixing fir, old books, and some unknown spice. Countless pale pink Spring Energy light points, like summoned fireflies, silently converge towards the depths of the courtyard, disappearing behind that dense emerald green."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But even with so much Spring Energy, it's still so cold.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Just the moment you see that building,"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Sniffing the surrounding scent, walking slowly towards Hakugyokurou. \"I never thought I'd come to Hakugyokurou while still alive.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "It is probably what the half-ghost girl mentioned,"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Such a beautiful place.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "This space is terrifyingly quiet, with only the flowing light points, as if all sound has been quietly absorbed by the white building and the ink-green vegetation. Walking along the courtyard, countless Spring Energy light points still guide the way ahead."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"So this is that demon tree...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Looking towards the demon tree"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Will cutting this down restore the Spring Energy?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Right at the center of the vortex, beside the torrent of energy strong enough to tear souls apart, a figure sat peacefully on the thickest horizontal branch"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Um... hello?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "It was a young woman with long cherry blossom-colored hair, her strands almost blending with the falling sakura petals around her. She wore an ornate kimono with intricate patterns, and beneath the hem, a pair of pale bare feet dangled leisurely, swaying gently to some silent rhythm."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hey! Princess of the Netherworld.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl was slightly tilting her head up. Her exquisite profile, illuminated by the swirling Spring Energy, appeared somewhat translucent and unreal. Her pink eyes gazed vacantly at the eternally gray sky of the Netherworld, her fingers unconsciously twirling a strand of hair. Her entire being exuded a laziness and boredom utterly at odds with the earth-shattering spectacle before her, as if this act of draining the vitality of all Gensokyo was, to her, nothing more than a boring game to pass the time."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"This Spring Energy should be returned.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Use ability on self, blending vitality and death energy to become a living-dead state."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Y... yes!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hmm...?\""
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-1"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjoin Long'er]'s 'Existence Record'... updated: [MP]: 11-1=10"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Ah... guests.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Uh... hello?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Have you come to view the flowers?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We'd like to ask you... to please return this Spring Energy.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Flower viewing isn't fun unless everyone is together.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Let's all watch together www\""
+    }
+  ],
+  "start_ts": "2025-10-28 01:23:38",
+  "end_ts": "2025-10-28 23:31:56"
+}

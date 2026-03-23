@@ -1,0 +1,452 @@
+{
+  "section": "15. Dragon Slaying Complete: Evil God Approaches",
+  "description": "Eloise stops the cult's blood sacrifice ritual, the dragon is slain, the \"Dragon Slaying\" honor is achieved, a greater darkness—the aura of an evil god—is approaching",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "Qiduo received! Continuing to record the horror of the Orient Express for you. Currently, 3904 texts have been recorded, taking 18 hours, 37 minutes, and 47 seconds. Huh? A piece of paper flew out when opening the file. You have been warned."
+    },
+    {
+      "speaker": "player3",
+      "text": "So, as the story last time said, player7 and player8 lay in the camp, receiving treatment from the army doctor there. @player8 @player7 ( .st hp+1d3)"
+    },
+    {
+      "speaker": "player8",
+      "text": ".st hp+1d3"
+    },
+    {
+      "speaker": "player7",
+      "text": ".sthp+1d3"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player8>'s \"HP\" changed: 1 ➯ 3 (increase 1d3=2). <player7>'s \"HP\" changed: 1 ➯ 3 (increase 1d3=2)"
+    },
+    {
+      "speaker": "player3",
+      "text": "Then the two will wake up tomorrow morning. What did player9 and player6 do during dusk and night————"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"They fainted, shall we go to the dock, or report to the Count?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The last rays of the setting sun slantingly pierce the broken dome of the church, dyeing the entire space a bloody red. The collapsed Madonna statue, broken arrows, scattered armor fragments are all gilded with a dim yellow halo, as if even the ruins are burning. @player12"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"I agree with this proposal, let's go.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Aha! That leper old man!\" The poet grabs the slacking mercenary captain, \"You, send four men to carry the wounded to the barracks—wait, first take off their armor! Lest the army doctor helps himself.\" \"Oh! Noble player9!\" The poet kneels on one knee, speaking in a recitative tone, \"Your loyalty to the Count is truly tear-jerking—but please allow your humble poet to offer a word of advice...\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Ask the poet \"We plan to report to the Count, will you come with us?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Think about it, if we go to report now covered in blood, missing limbs, what would the Count's first reaction be?\" He lowers his voice, \"'Heavens! How did my knights end up like this!'—then without a word, throw us into the barracks. The mission? Another day!\" \"But if we go to the dock first...\" He winks, \"That leper old man is a mysticism expert, might casually heal our wounds. Then when you stand before the Count refreshed, wouldn't it better showcase your competence?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Makes sense, let's go then.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Hmm... true, it's not good to see the Count like this either.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Also, are you planning to hand this celestial book directly to the Count, then listen to him mutter for three hours 'what is this written?', or first find that bandaged old pedant at the dock to translate it?\" The poet points at the scroll player6 just found. \"Choose one, sir—be a good student handing in a blank paper, or bring reference answers to see the headmaster?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"To the dock, to the dock.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"I'm a rough person who can't read this thing, but the Count indeed needs it translated for his review.\" #Nods"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Then without delay, let's set off!\" The poet slides and spins, the broken-string lute somehow already slung behind his back. He kicks aside the arrow shafts at his feet, singing in a raspy voice, \"Ding dong! The lost lambs are going to sea~ Left hand dragon's blood~ Right hand holy relic~\" The setting sun dyes the Golden Horn a bloody red. On the shimmering water, Venetian warships and merchant ships are moored orderly, sails crisscrossing. And in a quiet corner near the Petrion Gate, a sinister modified cargo ship floats alone—that is the Plague Ship."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Follow the poet to the dock."
+    },
+    {
+      "speaker": "player3",
+      "text": "Its towering fore and aft cabins stand like two tombstones. The rotten hull is covered in mold spots and suspicious black stains. The twin sails hang limply, as if never filled by wind. The twenty oar positions are empty, only a few hunched figures sit there, their arms covered in festering sores, silent as ghosts. Upon approaching, a foul stench of decay assaults—like rotten fish, pus, and moldy bandages mixed together. Faint lights occasionally peek from below deck, illuminating only a few numb faces: lepers curled in the shadows. At the stern, a tall, thin figure draped in a black robe stands quietly. His movements are unusually light, the shadows under his hood unfathomable, only the bandages occasionally showing at his cuffs hint at his identity—Brother Melovac. A rickety small boat is tied to the dock, seemingly the only way to board. The poet steps onto the rocking boat, the planks immediately emitting an ominous creak. He carelessly spreads his arms, swaying twice like a tightrope walker. \"Come on, cowards!\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Look around, then follow onto the boat. #Lower voice \"We won't get infected with leprosy too, will we?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Lower voice \"Shouldn't, just keep our distance.\" #Follow onto the boat, looking at the poet's demeanor \"Is he really just a poet?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"He's someone around the Count, we small fries better not inquire too much.\" #Very softly"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Whatever, we're just here to report back anyway.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The three row the small boat closer to the Plague Ship. The rotten hull looks even more dilapidated up close, mold spots and suspicious stains spreading on the planks. The poet deliberately slaps the water with his oar, splashing foul water all over the nearest leper's head. The patient shows no reaction, not even blinking his festering eyelids. \"See! Even the passengers are so polite—\" The poet pokes the suspicious black stain on the hull with his oar tip, \"Just the decor is a bit too... realistic.\" When boarding, the silent lepers mechanically lower the rope ladder, their festering fingers avoiding touching anyone. The deck is filled with a pungent smell of decay and medicinal herbs mixed. The black-robed Brother Melovac stands quietly at the stern, his voice hoarse and low, yet unexpectedly clear: \"Are you sent by the Count?\" No greetings, no pleasantries, as if he had long anticipated their arrival."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Yes, sir.\" #Slightly bows."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Keep distance from these lepers, board the ship, kneel on one knee to salute, \"Yes, sir.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The poet swiftly slides to player6's side, his elbow pretending to accidentally bump her, quickly whispering in a low voice: Hurry and show this hot potato to the bandaged lord—his mouth under the hood might be rotten, but he definitely knows more than those clerks at the Count's mansion!"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Promptly present the item."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then the poet suddenly steps back two paces, his boot heel clicking on the deck, bowing exaggeratedly towards the monk: Ta-da! The moment of witnessing a miracle! What our ice beauty carries in her bosom is no ordinary parchment!"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"That's true. We found this scroll but can't read the text. To save His Lordship the trouble, we hope you can translate it.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Brother Melovak slowly raises his bandage-wrapped hand to take the scroll. His hood tilts slightly downward, as if silently examining the contents. His body beneath the black robe is as still as a statue, with only the subtle trembling at his cuffs hinting at intense focus."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Hold my breath, not daring to make a sound."
+    },
+    {
+      "speaker": "player9",
+      "text": "#My eyes dart around as I look the monk up and down, checking for anything unusual, like similar tattoos on his arms."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ah... traces of the Skinless One. This ritual requires—a bowl of water, snake scales, a raven's black feather, corrupted wax... and...\" His hood turns slightly towards the three of you. \"A piece of living human skin.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "This person is so strange, why is his whole body wrapped in bandages?"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"With all due respect, what is the treasure?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The evil simulacrum of Sedifical, of course.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Could you tell us more details? It will help us proceed.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Classic leper attire. The bandages hide a rotting body."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"How much snake scale, feather, and corrupted wax is needed approximately? We'll note it down and report back to the Count for the ritual.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Who is Sedifical? Is 'ta' a person or...?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Sedifical...\" His voice suddenly turns grim. \"A madman who offered himself to the 'Skinless One,' hiding in the shadows of Constantinople for decades, weaving his web like a spider.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What about the Skinless One? Is 'ta' some kind of Great Old One?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Three snake sheds, two raven wing feathers, half an ounce of shroud wax.\" He suddenly tilts his head, a wet swallowing sound coming from the shadows of his hood. \"As for the skin... the Count probably won't want to carve his own.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Glance at the poet to gauge his loyalty to the Count."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I'm not entirely clear. Is this spell used to reveal the statue's location?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "His bandaged fingers tap three times on the ship's rail. The rotten wood echoes hollowly. Then a leper approaches. The monk whispers something to him. Moments later, the leper brings a rusty iron box, neatly arranged inside: dried viper scales, several raven feathers, and Middle Eastern beeswax. \"If you're in a hurry to die...\" The monk nudges the box towards player9 with his foot. \"Ready-made ingredients. Just missing the living human garnish.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Accept it with both hands. \"Understood. I will proceed with the task.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Oh! My dear tin-can knight—\" He dramatically clutches his chest. \"That look in your eyes... surely you're not thinking of asking me to contribute some 'artistic material'?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "Listening to all this Skinless One and occult stuff... I don't really understand anyway, so I'll just nod."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Nod vigorously in agreement."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Yes.\" His reply is as sharp as a knife cut. \"The water mirror will reflect Sedifical's armor.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Not at all, I was just seeking your opinion.\" #Show a healthy smile."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Are the Unfettered Flesh and Sedifical on the same side?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Unfettered Flesh?\" A phlegmy laugh rumbles in his throat. \"A childish game played by Venetian upstarts... The 'Skinless One' they worship is just residue from ancient Roman sewer murals.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Also, we encountered a crimson eye.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The Crimson Eye... a favorite trick of the Skinless One's followers. The enchanted eyeball spies for its master. Once it's fattened up...\" He suddenly makes an exploding gesture with two bandaged fingers. \"Boom! Brain matter makes the best pigment.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Shudder."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Hearing such a horrifying death, even the battle-hardened player9 feels a secret tremor of fear."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"No, it is not contagious.\" His voice regained that decayed yet calm tone, \"The Crimson Eye requires active casting—it is not a plague, but a tool.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Is this explosion controlled by that master, meaning he can die if he wishes?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Yes.\" His reply was as sharp as a knife cut, \"The caster can detonate it with a single thought.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Though it feels absurd, I feel a sense of relief inside."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"I saw tattoos on the upper arms of the believers. Do the tattoos appear elsewhere?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The tattoos are to mark the believers. All the devout fanatics have them.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Then, my lord, we now know how to find the simulacrum, but how do we find Sedifical?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"A foolish question.\" His decayed voice suddenly seeped with sarcasm, \"The simulacrum is the trap, the person is the sword—find one, and you will inevitably encounter the other.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"My lord, we also encountered a fire-breathing dragon. Do you have any methods?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The old lizard of Anatolia...\" His voice sounded squeezed from a rotting chest, \"The mithril spear Saint George used is in the crypt of Saint Mokios Church. But if you go dig now, I'm afraid it's too late.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Then, are there any mithril items in Constantinople? We could melt them down to forge a few weapons; that might still be in time.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"My lord, you truly don't know, those fanatics of Unfettered Flesh fight like they don't care about their lives. Two of our friends are bedridden and nearly lost their lives. Do you have any methods for healing wounds here? Or perhaps handy tools?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"In the sacristy of the Holy Apostles Church, three silver ingots from Saint George's time are still buried.\" His claw-like finger pointed to the northwest corner of the city, \"Enough to make a silver sword—if you dare to rob God's corner.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"God bless the Count. The silverware in that corner is God's will.\" #Said solemnly, without hesitation to dig up God's corner."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I mean, do these cultists have any weaknesses or the like?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"For the safety of the Count and all the soldiers of the city!\""
+    },
+    {
+      "speaker": "player6",
+      "text": "(Give me a big sniper rifle)"
+    },
+    {
+      "speaker": "player3",
+      "text": "He lifted the lid of a box taken from his waist pouch. Inside were several pieces of ointment black as charcoal, emitting a pungent mix of sulfur and herbal scent. \"Apply it to the wound; it can burn away the foul poison left by the cultists—of course, it will also give you nightmares for three days.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Thank you so much.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "(Will lose SAN)"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Now, do you wish to continue asking questions... or go hunting?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Your subordinate takes leave. Please translate this scroll.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Thank you for answering our questions.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Alright, let's return to the military camp first to select people for digging up the silverware.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "He shrugs, his tone unusually straightforward, \"Let's head back under the cover of night.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Sigh, sir, what happened?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Rubs my body, which has been brutally tortured by burns and stab wounds."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"I'm actually still alive.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Surprised that I can still maintain a human form."
+    },
+    {
+      "speaker": "player9",
+      "text": "#In the morning, leaning over a bucket to scoop water and wash my face, patting my face."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"I thought I'd be sliced into pieces of bread like Jesus.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Gentlemen!\" He turned and tapped the bed frame with a wine bottle, \"Allow me to announce today's itinerary—'Step one! Report back to the Count! Step two! Mine mithril! Step three! Slay the dragon! Step four! Seize the simulacrum!'\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Agreed.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Your process is like trying to stuff an elephant into a refrigerator.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"What's a refrigerator?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"What a strange saying.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#player7 searched all the knowledge he had ever learned"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"I'll go gather a few idle buddies to mine mithril first. You can pay me back later.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Oh—!\" The poet immediately clutched his chest in mock heartache, \"Are you嫌弃 the plan is too simple? Then we can modify step four—step four, when player8 is being chased by the dragon, perform a 'tin can being kicked flying'!\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Adjusts his armor and equipment, hand on his sword hilt, and goes to the dormitory door to find people."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"So what exactly is a refrigerator?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "player9 made a round in the military camp and finally only managed to drag over two reluctant Venetian sappers and a sleepy-eyed blacksmith. \"Mithril?\" The blacksmith sprayed spittle all over player9's face, \"Sir, you might as well ask me to dig up the gold-inlaid floor tiles of the Hagia Sophia! This damned city has been picked clean, even the nails pried out by the Crusader lords!\""
+    },
+    {
+      "speaker": "player7",
+      "text": ".sthp+2d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player7>'s \"Hit Points\" changed: 3 ➯ 8 (increase 2d4=5)"
+    },
+    {
+      "speaker": "player8",
+      "text": ".sthp+2d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player8>'s \"Hit Points\" changed: 3 ➯ 7 (increase 2d4=4)"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Watch your tone, I'm not saying I won't pay. You two follow me for at most a day, then you get paid.\" #Shakes his own money pouch, still has some savings. \"Besides, you two didn't go plunder elsewhere, so you won't get any spoils anyway. Might as well come with me, wages are negotiable, grab your shovels.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"The key is, where do we dig?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Deal!\" The blacksmith snatched the money and turned to yell at the sappers, \"What are you standing around for? Grab your tools! If we can't dig up mithril, at least we can pry a couple of church floor tiles back!\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"We're heading to the sacristy of the Church of the Holy Apostles, it's not far. Finish early, get paid early, and I'll settle the final payment later.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The group arrived at the sacristy of the Church of the Holy Apostles. The blacksmith and sappers grumbled as they pried up floor tiles. After折腾了大半天, they finally dug out three blackened silver ingots from the damp soil—they did contain a small amount of mithril, but far from enough to forge a decent weapon, only勉强可做 arrowheads or dagger tips, with limited effectiveness against a dragon. The blacksmith吐槽道, \"Told you! This stuff isn't even enough to pick Saint George's teeth!\""
+    }
+  ],
+  "start_line": 4359,
+  "end_line": 4669
+}

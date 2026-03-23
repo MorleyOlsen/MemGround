@@ -1,0 +1,424 @@
+{
+  "section": "10. Dragon Traces Appear: Silver Weapon Research",
+  "description": "Dragonfire explodes at their heels, the dragon's existence is confirmed, investigators discuss the difference between orichalcum and silver, and pursue weapons that can counter the dragon.",
+  "conversation": [
+    {
+      "speaker": "player3",
+      "text": "The eyeball exploded like a ripe berry, yellow-green pus mixed with brain fragments splattering onto the four of them. The priest's skull was crushed as if by an invisible hand, yet the remaining facial muscles twisted into a grotesque smile. His body fell heavily, raising a cloud of dust, while the residue of the burst eyeball still emitted an eerie green smoke on the stone floor. The basement fell into dead silence, with only the dripping sound of pus from player6's cheek."
+    },
+    {
+      "speaker": "player6",
+      "text": ".sc 0/1D4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player7",
+      "text": ".sc 0/1D4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player3",
+      "text": "Bradick froze in place, a few drops of turbid yellow mucus hanging on the strings. He slowly looked down at the brain matter splattered on his green coat, then looked up at the priest's mutilated head, his Adam's apple bobbing. Gods above... His voice seemed squeezed through his teeth, his fingers nervously plucking the strings, producing a few discordant notes. I'll... never eat grapes again in my life..."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"...You should talk less.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Wiping the blood plasma off face"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Thinking"
+    },
+    {
+      "speaker": "player3",
+      "text": "Bradick's cheek, smeared with brain matter, twitched: Plums? He stared at player7's face covered in yellow mucus, suddenly grinning with a smile uglier than crying. Ha! Right—at least plum pits won't explode in your face..."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Your associative ability is still too strong.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "But once we find that scroll... I'll make those blue-robed bastards eat every single eyeball that got blown out!"
+    },
+    {
+      "speaker": "player8",
+      "text": "\"If this continues, you'll be sitting at the same table as the cultists next door for dinner.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Following his words with a darkly humorous tone \"No one can guarantee he won't grow inside your mouth, and then...\" #Leaving it for this imaginative guy to fill in."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"...\""
+    },
+    {
+      "speaker": "player8",
+      "text": ".sc 0/1D4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player3",
+      "text": "Holy shit! He grabbed player7's shoulder armor and shook it violently. Is now the time for you to unleash your perverted imagination?! Suddenly letting go, he nervously patted the areas where mucus had gotten on himself. Let's go! The Seventh Mountain! Now! Immediately! Right away! Unless you want to try plums growing from human flesh potted plants!"
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Alright, then let's go.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Wait, give me a moment.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The priest's body had nothing but mucus and a few tattered cloth remnants."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Shrugging shoulders \"I bet three copper coins we're dead if we dare take the main road.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Also, that group from earlier will probably come looking for trouble with us again.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Speeding up the looting process."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Dragging the poet to run."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"There's nothing left, let's go quickly.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "In his impression, Melovak was a hunched, emaciated old man, always wrapped in a dirty gray cloak, with only whitish eyebrows and a festering nose tip visible under the hood."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Recalling how much he knows about this kind of witchcraft and whether he might be able to provide help."
+    },
+    {
+      "speaker": "player3",
+      "text": "He might be able to provide help."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Our next goal is to find this, uh, whatchamacallit, flesh and blood.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Well, the Count said these ghostly things might be in the sewers.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Turning to the poet \"Do we still have time to seek the help of the old leper, or how far is that place from here?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"The problem is if we go to the sewers now...\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"But the priest's dying wish was for us to go to St. Mochius Church.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"But splitting up doesn't seem like a particularly good method.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I agree, separating is practically asking for death.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Shakes the poet \"What do you think?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Bradick was shaken until his lute strings rattled and brain matter dripped onto his boot tips. He grimaced and shook off player7's hand: Christ's hemorrhoids! If you ask me—first go to the Seventh Hill to snatch the scroll, then find the leper old man."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"He's right.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Do you think we can handle the kind of monster that makes heads explode out of thin air?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"That head exploded because of parasitism, right?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Listen, old chap... He unusually dropped the jesting tone, if those blue-robed bastards could really make heads pop at will— The lute neck pointed at the priest's corpse, we'd already be a quartet with this Father by now. I bet they need to get that ceramic armor first, or... at least stand in some evil ritual circle."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I think so too. If they really had that means, why go through all this trouble?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"You might be right. We must understand that method.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"So, what do you all say?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Dear player6, that's the most sensible suggestion I've ever heard— Bradick flicked off the last bit of yellow slime clinging to his lute, exaggeratedly sniffed his sleeve, and immediately made a gagging expression. He pointed at a nearby smashed fountain, though that thing is probably mixed with some knight's vomit now..."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"How about I find an inn?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Knuckles cracking"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Let's go, let's go, I can't stand myself anymore.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"I don't think we have the luxury to find a place to wash up.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"At least changing clothes is always good.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Three votes to one, you win.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Hearing this, Bradick suddenly tapped player8's shoulder armor with his lute neck, making a dull clang: My dear knight, has your holy head been soaked in pus too? He gestured exaggeratedly towards the distant streets billowing black smoke, the only 'inns' still open now are probably of two kinds—either a Venetian brothel's cellar, where the fee is extortion or betrayal; or a Greek-run underground butcher shop, where payment is your boots or sword. And after you take off that protective gear...."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"How about just changing clothes?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"That's a good idea.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Alright, let's just change then.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Let's find clothes first.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Nimbly changes clothes, stuffing the blood-stained garments into another bag,顺手 using the old clothes to wipe the blood off his face."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Imitates the action."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Follows suit."
+    },
+    {
+      "speaker": "player3",
+      "text": "You arrive at the reservoir, ah-ha, Justinian's bathhouse is truly... a world of its own. The poet says with a teasing tone. Sunlight seeps through cracks in the dome, casting shimmering golden patterns on the dark water surface. Dozens of Corinthian stone pillars rise like silent giants from the unfathomable depths, supporting this forgotten underground palace. The air is thick with a damp, moldy smell, mixed with a faint, elusive fishy odor."
+    },
+    {
+      "speaker": "player8",
+      "text": "#First, cautiously observe the surroundings for any places where someone could hide."
+    },
+    {
+      "speaker": "player3",
+      "text": "The water surface is eerily calm, occasionally bubbling up a string or two of air before quickly disappearing. In the distant shadows, something seems to be slowly writhing—but perhaps it's just a trick of the light."
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra Spot"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player8>'s Spot prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "On the water surface twenty yards away, a spine covered in bluish-black scales is slowly surfacing, like a rotten log."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Draw sword"
+    },
+    {
+      "speaker": "player7",
+      "text": "(Take the knight's first."
+    },
+    {
+      "speaker": "player3",
+      "text": "The water suddenly erupts—the creature player8 spotted bursts from the water, raising its serpent-like long neck as tall as a mast, emitting a terrifying clicking sound with each breath. Its body resembles a deformed crocodile, yet larger than a warship, casting a terrifying, blurred silhouette beneath the water."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"!!!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Lord player8! Your sword should taste blood now—but I suggest not touching the warts on its neck; they say even the Byzantine empress's poison isn't as nasty as those! Friar player7! Pray that Saint George didn't wear a diaper under his armor—because this lady's 'fiery passion' is fiercer than a groom's wedding night—duck!!!\" The poet throws himself to the ground."
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra Dodge 35"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player8>'s Dodge 35 prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".r3d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra Dodge 35"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player7>'s Dodge 35 prayer:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Dodge 35"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player6>'s Dodge 35 prayer:"
+    },
+    {
+      "speaker": "player7",
+      "text": ".st hp-6"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player7>'s \"Hit Points\" change: 14 ➯ 8 (deduct -6=-6)"
+    },
+    {
+      "speaker": "player6",
+      "text": ".st hp-6"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s \"Hit Points\" change: 12 ➯ 6 (deduct -6=-6)"
+    },
+    {
+      "speaker": "player8",
+      "text": ".st hp-6"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player8>'s \"Hit Points\" change: 12 ➯ 6 (deduct -6=-6)"
+    },
+    {
+      "speaker": "player6",
+      "text": ".st hp+6"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s \"Hit Points\" change: 6 ➯ 12 (increase 6=6)"
+    },
+    {
+      "speaker": "player7",
+      "text": ".st hp+1d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player7>'s \"Hit Points\" change: 8 ➯ 11 (increase 1d6=3)"
+    },
+    {
+      "speaker": "player3",
+      "text": "The residual heat of the flames still distorts the air. The poet peeks half his soot-blackened face from behind a pillar, the ends of his blond hair still smoking. Ah-ha! Looks like our paladin has finally learned to lie flat—though the timing is truly goddamn awful!"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player3>'s First Aid 60 Wish: D100=51/60 Success - Great, Qiduo won't be accused of having excessive lead content anymore."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Stop the chatter and drag that idiot away quickly.\" (nb)"
+    },
+    {
+      "speaker": "player3",
+      "text": "The poet yanks off his scorched embroidered belt, dips it in the reservoir water, and slaps it onto player8's soot-blackened forehead. \"Wake up, tin can!\" he shouts into the knight's ear while wringing the belt. He quickly pries open the knight's gorget and stuffs the soaked cloth scraps into the armor gaps. When the knight coughs violently and opens his eyes, he sees the poet pouring the last half-flask of wine over his smoking helmet. \"Welcome back to the world, sir. By the way, you now smell more of alcohol than a drunken nun in Paris.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"How are you?\" #Runs to the knight's side."
+    },
+    {
+      "speaker": "player3",
+      "text": "The poet yells at the top of his lungs, \"That three-hundred-year-old Anatolian beauty's weakness is her underwater abdomen... provided you can swim, otherwise run!\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"I'm not Egyptian, I can't walk on the seabed.\" #Jumps up and runs fast."
+    },
+    {
+      "speaker": "player8",
+      "text": ".st hp+1"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player8>'s \"Hit Points\" change: 6 ➯ 7 (increase of 1=1)"
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Run or what? I really feel this creature isn't something we can handle.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"I'm not Saint George, at best I'm one percent of Judas.\" \"Let's just run.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The poet suddenly stops and grabs player7, who's still charging headlong. \"Stop! Brother monk, your escape route is more treacherous than an indulgence—that big hole at the original entrance, do you think that beauty won't follow us?!\" He gasps for breath, pointing at the inconspicuous shadow high on the west wall. \"See that? The Virgin Mary left us a dog hole!\" As the dragon crashes through a stone pillar behind them with a roar, he gestures rapidly."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Let's go, let's go, let's go. If we don't run now, we'll become roast meat.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"A forty-foot slope. Climb up and we can make that 'great beauty' get stuck at the entrance, just staring!\" He suddenly pulls player7 to dodge against the wall as a blast of dragon fire explodes right behind their heels. \"Of course—provided we don't get turned into charcoal-grilled humans first!\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"You're right, brother.\""
+    }
+  ],
+  "start_line": 2802,
+  "end_line": 3113
+}

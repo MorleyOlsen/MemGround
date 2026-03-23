@@ -1,0 +1,344 @@
+{
+  "section": "18. Final Battle: Reimu's Arrival",
+  "description": "Reimu arrives late to join the battle, the shield collapses, the concentrated Spring Energy flood engulfs the courtyard, the Saigyou Ayakashi reaches its full bloom threshold, everyone works together to prevent its complete flowering, and the anomaly is brought to an end.",
+  "conversation": [
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Soul Hunt' check: Roll: 1D20+8d4+1d6=12+{2+2+3+3+2+2+2+1}(17)+{2}(2)=31 Challenge: 10 Success Success Level: 5"
+    },
+    {
+      "speaker": "player3",
+      "text": ".sh8d4+1d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Soul Hunt' check: Roll: 1D20+8d4+1d6=14+{3+4+3+1+1+3+2+3}(20)+{3}(3)=37 Challenge: 10 Success Success Level: 6"
+    },
+    {
+      "speaker": "player3",
+      "text": ".sh8d4+1d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "The dust settles."
+    },
+    {
+      "speaker": "player3",
+      "text": ".stmp-4shm-12"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Existence Record'... Updated: [MP]: 5-4=1 [SHM]: 20-12=8"
+    },
+    {
+      "speaker": "player1",
+      "text": "But then stabilizes again."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Whew... We need to put in some effort too, Suncan.\" #Xueyu slowly releases her hand. After Suncan falls to the ground, it sinks into her shadow. Then that shadow rapidly expands, expands, until the ground everyone is standing on turns completely black. On this black ground, countless blood-red eyes appear. They all look towards Yuyuko's location and assault the target in waves, like waves surging towards a ship at sea, except these waves are composed of countless \"mouths\" that are chewing. And Xueyu disappears into this black tide... Until \"Let's start biting... from here!\" #With these words, Xueyu suddenly bursts out from a wide-open giant mouth. The originally heavy and hard-to-wield Saw Cleaver now feels like a mere branch in Xueyu's hands as she wildly swings it. Once, then again. Each heavy swing of the Saw Cleaver is accompanied by chewing and crunching sounds from nowhere. And with each of Xueyu's slashes, the tide of \"chewing\" grows smaller, seemingly gathering onto the blade with each strike that hits the ground. \"Next is... digestion!\" #Xueyu's expression suddenly becomes fanatical. The entire tide has now completely gathered onto the blade. Carrying a hunger that seems to devour everything, this insatiable red light finally slashes down."
+    },
+    {
+      "speaker": "player6",
+      "text": "[The Great Writer]'s 'Soul Hunt' check: Roll: 1D20+2d4+3d4+3d4+2d4=10+{1+3}(4)+{4+3+2}(9)+{4+1+4}(9)+{3+1}(4)=36 Challenge: 10 Success Success Level: 6"
+    },
+    {
+      "speaker": "player1",
+      "text": ".shx10+2d4+3d4+3d4+2d4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer Luo Xueyu]'s 'Soul Hunt' check: Roll: 1D20+8d4*2=19+{1+4+4+4+1+4+3+3}(24)*2=67+(3d6*2={6+5+3}(14)*2=28)=95 Challenge: 10 Success Success Level: 17 SHM: 42+28=70"
+    },
+    {
+      "speaker": "player4",
+      "text": ".sh8d4*2~3d6*2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer Luo Xueyu]'s 'Existence Record'... Updated: [SHM]: 70-30=40"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st mp-3"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer Luo Xueyu]'s 'Existence Record'... Updated: [MP]: 8-3=5"
+    },
+    {
+      "speaker": "player4",
+      "text": ".sh8d4*2~3d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "As Xueyu whispers and releases her hand, the moment Suncan falls into the shadow, the light in the Hakugyokurou courtyard seems completely drained. The jade tiles beneath everyone's feet vanish, replaced by an endless, churning plane of pure black, as if connected to some greedy stomach. Upon this pure darkness, countless blood-red eyes suddenly open. They are densely packed, like spores of a plague, their pupils uniformly locking onto Yuyuko. Then, beneath the eyes, they split open—countless giant mouths filled with sharp teeth, constantly opening and closing, chewing! They layer upon layer, transforming into waves of crimson tide, silently yet violently surging towards the central Princess of Spirits. And Xueyu's figure has completely merged into this hungry darkness. The instant the deathly mouths are about to touch their target— \"Let's start biting... from here!\" A roar erupts from a suddenly gaping giant mouth right below Yuyuko! Xueyu shoots out like a stalking predator. The originally heavy Saw Cleaver now feels weightless in her hands, wildly swung with a frenzied posture. Each slash heavily strikes the surrounding dark tide! With each swing, grating chewing sounds come from the blade, and the surging tide of mouths also contracts, condenses, as if being voraciously \"eaten\" and absorbed by the Saw Cleaver. \"Next is... digestion!\" A distorted, fanatical smile blooms on Xueyu's face. When the last bit of the dark tide is completely sucked into the blade, the Saw Cleaver has utterly transformed into a boiling, ominous deep red. It carries an insatiable hunger, an absolute will to devour everything, and slashes down towards the barrier! Crack—! A clear, sharp shattering sound rings out. On the sturdy barrier constructed from Saigyou Ayakashi petals and the laws of the Netherworld, a vicious crack appears in response!"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st shm23"
+    },
+    {
+      "speaker": "player6",
+      "text": "[player4]'s 'Existence Record' [Elusive Devourer Luo Xueyu]... Saved."
+    },
+    {
+      "speaker": "player1",
+      "text": "Yuyuko strokes the barrier."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Loses strength and collapses to the ground \"So hungry...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Reimu, let me handle this!\" #Long'er takes a card from the card case at his waist and swipes it across the belt at his waist. Cherished Life: Kamikaze Attack of the Immortal. Before the sound even finishes falling, the floor of Hakugyokurou is stomped into a large crater by immense force. Long'er's right elbow has already slammed into the barrier before UUZ, shattering it into countless fine cracks. His left hand doesn't stop, taking another card and swiping it across his waist. Flame Sign: Self-Destructing Flame Great Cyclone. Flames erupt from the black-armored knight's body, transforming into a cyclone. While shattering the barrier, it propels the knight to leap high into the air. Long'er draws an arc in the sky, his right hand swiping down the final card, assuming a kicking pose. The blinding white flames on his foot and the erupting flames behind him make his entire body resemble a falling meteor, crashing down towards Yuyuko! Kaifuu Kaisei Soaring Kick!"
+    },
+    {
+      "speaker": "player6",
+      "text": "[The Great Writer]'s 'Soul Hunt' check: Roll: 1D20+2d4+3d4+3d4+2d4+2d4=10+{2+2}(4)+{4+1+3}(8)+{1+3+3}(7)+{4+1}(5)+{3+4}(7)=41 Challenge: 10 Success Success Level: 7"
+    },
+    {
+      "speaker": "player1",
+      "text": ".shx10+2d4+3d4+3d4+2d4+2d4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjouin Ryuuji]'s 'Soul Hunt' check: Roll: 1D20+7d4*2=12+{1+2+2+1+2+4+1}(13)*2=38+(3d6={6+4+4}(14)=14)=52 Challenge: 10 Success Success Level: 9 SHM: 42+14=56"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sh7d4*2~3d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjouin Ryuuji]'s 'Existence Record'... Updated: [SHM]: 56-40=16"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"This is my power, the bonds that connect me to others!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mr. Tenjouin! So cool!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "As Long'er swiped the final card across his belt, time seemed to be forcibly stretched. The edges of the crater under his feet had rubble slowly flying backward."
+    },
+    {
+      "speaker": "player3",
+      "text": "#A playful gaze"
+    },
+    {
+      "speaker": "player1",
+      "text": "Cherishing Life: Before the pitch-black spiritual light brought by the Undying Body's Sacrificial Strike could fully saturate Long'er's arm guards, his elbow, carrying the resolve to pierce the underworld, heavily slammed onto the already cracked barrier. \"Crack\" The cracks on the barrier instantly multiplied and spread, like a shattered crystalline spider web."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I... we succeeded?\" #Looking at the scene before her in disbelief"
+    },
+    {
+      "speaker": "player1",
+      "text": "Not a light laugh, but an elegant smile."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hooray!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Long'er pierced through the barrier, kicking towards the Saigyou Ayakashi,"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ugh.\" #Sitting down on the ground and de-transforming"
+    },
+    {
+      "speaker": "player1",
+      "text": "They passed through the underworld gate,"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It's over...\" #Lying down on the ground and closing her eyes peacefully \"This way... Miss Yuuka will surely acknowledge me, right?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#As the Spring Energy disperses, Lina's body begins to shrink \"I finally grew up, though...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Patting off the dust and getting up"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Perhaps a false spring isn't suitable for this tree.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But my tree was genuinely bullied, so I'll bully back.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Aside from some dust on her clothes,"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go, I'm still waiting to go back and eat.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'm hungry too...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Food!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Seeing the Spring Energy returned, the giant eye nodded its 'head', retreated into the void, the crack gradually closed, and the surrounding eye phantoms disappeared. Ge Qing finally stopped maintaining her meditation pose, standing up with some difficulty."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Walking up to the Saigyou Ayakashi and biting it \"So... so hard...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Reimu:"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Is it over?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"It's over, right?\" Reimu smiled."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It's over. It seems the Princess of the Underworld has withdrawn her decision.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Yuyuko laughs at Lina biting the Saigyou Ayakashi."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Cough... how did you even get hurt?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"What are you laughing at? If I had just grown up, maybe I could have bitten through it.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Adorable, but don't let the Saigyou Ayakashi hurt you.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Walking over and picking up Lina, placing her on her shoulder"
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl gently swings her feet, seeming to be in a good mood."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I'll make the bitten spot grow lots and lots of cherries to spite this tree.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"...Where's my staff?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#makes a funny face"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Alright, your goal is accomplished www\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Lady Yuyuko!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Let's save it for next time www\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go eat something delicious together next time!\" #smiles along with Sunku."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Okay~\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#walks outside to see if Youmu is there."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Is this a promise?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Youmu? Where are you?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "No one responds."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Strange... where did I lose it?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hmm...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You should bring your princess to Hakurei Shrine for a meal later. She might be too proud to come on her own.\" #finds Youmu."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hakurei Shrine?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Thanks.\" #transforms the thin needle back into the shape of a staff."
+    },
+    {
+      "speaker": "player1",
+      "text": "Youmu sighs."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm... You have a point. Then come tomorrow.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The Reverse Butterfly gently bows its head towards Ge Qing, then dissipates."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"A banquet... can I go too?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"She's the type who doesn't show her emotions easily. Perhaps that's the poise of a noble family. See you tomorrow.\" #says goodbye and leaves with teammates."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Won't the shrine maiden eat me if I go?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Is she that kind of person?\""
+    }
+  ],
+  "start_ts": "2025-10-30 01:45:14",
+  "end_ts": "2025-10-30 02:31:54"
+}

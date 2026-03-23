@@ -1,0 +1,696 @@
+{
+  "section": "6. Andrew's Coma and Rescue",
+  "description": "Andrew lies unconscious in the car, gradually regaining consciousness after being rescued. The driver Rabin miraculously appears to save him, and the agents regroup amidst the crisis.",
+  "conversation": [
+    {
+      "speaker": "player6",
+      "text": "\"Trust me, I'm quite a good driver.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Attack at Justice Plaza, over ten people, come quickly.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Frankfurt station received."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I hope we can last ten minutes.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s Drive Auto check result:"
+    },
+    {
+      "speaker": "player5",
+      "text": "Pull out the submachine gun and prepare to lay down suppressive fire on them."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Oh dear, what's wrong with this car?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Damn it, Schiller, hurry up, isn't the sidewalk quite spacious?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Schiller accidentally collided with a roadside tree."
+    },
+    {
+      "speaker": "player6",
+      "text": "Schiller glanced at the sidewalk and decided to give it his all and try again from the green belt."
+    },
+    {
+      "speaker": "player1",
+      "text": "The mountains and soil listen to your wishes. Whatever the karma and retribution, fate has already slumbered in your palm."
+    },
+    {
+      "speaker": "player5",
+      "text": "Switch off the safety of the submachine gun, hide the gun body behind the car door, only lean out half my head, and stare nervously at the approaching crowd nearby."
+    },
+    {
+      "speaker": "player2",
+      "text": "Schiller floors the accelerator and charges forward again, this time more directly, breaking the tree."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s CON check result:"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Fuck, Schiller, where the hell are you driving!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s CON check result:"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Sorry, sorry, sorry!!!!!!!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "player5, having leaned their head out, directly had an intimate collision with the window frame and passed out."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Boss! Boss! Wake up! What should I do!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The car's condition isn't great either; black smoke is pouring out from the damaged hood."
+    },
+    {
+      "speaker": "player6",
+      "text": "Have to grip the steering wheel with my left hand, hold the pistol in my right hand, lie down on the steering wheel pretending to be dead, and keep observing the rearview mirror."
+    },
+    {
+      "speaker": "player2",
+      "text": "One person smashes the car window with a baseball bat."
+    },
+    {
+      "speaker": "player6",
+      "text": "Time for a sharp turn and reverse."
+    },
+    {
+      "speaker": "player2",
+      "text": "Schiller pretends to be dead in the driver's seat. Roll Luck."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s Luck check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Luckily, the glass shards didn't cut the carotid artery or anything like that."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew is panicking inside, thinking if this person attacks him again, he'll pull the trigger with his trembling hand."
+    },
+    {
+      "speaker": "player2",
+      "text": "Taking advantage of him reaching through the window to open the door, Andrew fires first."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're good at quite a few things."
+    },
+    {
+      "speaker": "player2",
+      "text": "This person was shot in the head by you."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew pulls the driver down, trying to keep him from possible gunfire. Also gives him two slaps."
+    },
+    {
+      "speaker": "player1",
+      "text": "Three checks for <player2>'s Handgun 55, results:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Andrew falls into a coma. His thoughts drift far, far away."
+    },
+    {
+      "speaker": "player6",
+      "text": "Young people are in good health, they fall asleep as soon as they hit the pillow."
+    },
+    {
+      "speaker": "player2",
+      "text": "Returned to the time of eating hodgepodge in Scotland."
+    },
+    {
+      "speaker": "player1",
+      "text": "The story record of the Algorithm of the Heart has continued to open, currently 2574 texts recorded. Continue! There will definitely be gains today!"
+    },
+    {
+      "speaker": "player2",
+      "text": "The agents split into two groups. Andrew and player5 stayed near the police station to keep watch, while Gray and David went to the Spiegel newspaper office and received Margaret's help. You obtained a lot of intelligence you wanted to know from the newspaper's library and archives."
+    },
+    {
+      "speaker": "player4",
+      "text": "After bidding farewell to the reliable reporter and the library with vast amounts of information, return to the car with David. \"This trip was quite fruitful. I hope everything goes smoothly on their end too.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Contact Andrew and the driver via radio. \"Yeah, hope we can finish up and go home soon.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "David receives no response. Besides occasional flickering noise on the radio, there is no warm or hopeful reply; the other end remains silent."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's going on, is this thing broken?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"What's going on? Aren't they in the car?\" Wondering internally, \"Either try contacting again in half an hour, or contact the Frankfurt station directly.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Weren't they keeping watch in the car? Did they encounter some situation and both went out? Ask the Frankfurt station, hope they haven't run into trouble.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David contacts the Frankfurt station to inquire about the situation of the other two. \"Have you received any messages from the other two agents? We currently can't reach them.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Three quarters of an hour ago, we received a distress signal from Andrew and player5. They reported being surrounded by an unidentified group near the Rule of Law Square. However, when the nearest Frankfurt station agents arrived, they were not found. There was a car accident and signs of a gunfight at the scene. We are currently making every effort to locate the two.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Should we prioritize completing the mission or searching for our companions? David is a bit indecisive. He turns his gaze to Gray."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How could this happen?! Weren't they at the police station entrance? What did they encounter?\" Alison finds it hard to believe. \"Should we request instructions from headquarters?\" Alison feels the situation is getting out of control."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We will report the situation to headquarters, and we will continue to monitor the situation. Johnsen and Gray will continue to prioritize completing the work.\" Reply to the Frankfurt station. Contact headquarters, inform the boss that things are out of control, we've even lost people inside. David starts the car and slowly circles along the main streets according to the map, observing for any followers."
+    },
+    {
+      "speaker": "player4",
+      "text": "Let David drive, I'll pay attention to whether anyone or any car is following us."
+    },
+    {
+      "speaker": "player2",
+      "text": "Roll Spot Hidden."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Spot Hidden check result: D100=33/25 Fail. Truly unfortunate! As bad as if all your money from selling hawthorns was robbed! But you will try again tomorrow. <player4>'s Spot Hidden check result: D100=37/60 Success. A close success. Adventurer, boldness always has its rewards."
+    },
+    {
+      "speaker": "player2",
+      "text": "No suspicious individuals or following vehicles detected for now."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then David drives a few more circles, goes through the downtown area to confirm no one is following, then heads to the safe house provided by the Frankfurt station."
+    },
+    {
+      "speaker": "player4",
+      "text": "After arriving, observe if there are any abnormal situations near the safe house."
+    },
+    {
+      "speaker": "player2",
+      "text": "You circle several times, confirm no one is following, and drive towards the Frankfurt safe house."
+    },
+    {
+      "speaker": "player3",
+      "text": "Go."
+    },
+    {
+      "speaker": "player2",
+      "text": "But after driving for a while, you find the intersection ahead blocked by several rows of neatly placed orange-yellow barriers. Several road workers wearing reflective vests and safety helmets are gathered together, seemingly repairing something."
+    },
+    {
+      "speaker": "player3",
+      "text": "Check the map to see if there are other routes to the safe house? Turn on the car radio, listen for any traffic condition related broadcasts."
+    },
+    {
+      "speaker": "player4",
+      "text": "Observe the clothing and items these workers are carrying. Do they look like they are carrying any weapons?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Spot Hidden."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then David waits for Gray to assess the situation before taking a detour."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray notices that although their actions appear professional, subtle details reveal a hint of deliberate affectation—they don't show the haste and disorder typical of routine maintenance, but instead proceed methodically, intentionally stalling, as if waiting for a predetermined moment."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"These people aren't right, let's take a detour,\" Alison urgently tells her colleague."
+    },
+    {
+      "speaker": "player3",
+      "text": "Immediately steer away from this road and take another route."
+    },
+    {
+      "speaker": "player2",
+      "text": "David and Gray alertly turn around and take another road."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled at many things."
+    },
+    {
+      "speaker": "player2",
+      "text": "This road is visibly much more remote compared to the original one, taking a detour around a circle."
+    },
+    {
+      "speaker": "player3",
+      "text": "So remote, so terrifying. David concentrates, trying to drive with a clear mind."
+    },
+    {
+      "speaker": "player2",
+      "text": "However, the advantage is there aren't many cars; if anyone is tailing us, it would be obvious at a glance."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison is on edge. \"What kind of force is after us?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Neo-Nazis or something else, who knows? We're just here to retrieve a document.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "After passing the second-to-last intersection, your tense nerves finally relax a bit. Turning at the last intersection will lead straight to the Frankfurt station safe house."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Idea check result:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Anyway, slow down first; if anything seems wrong, immediately turn around and flee."
+    },
+    {
+      "speaker": "player2",
+      "text": "Your peripheral vision catches the rearview mirror inside the car. The reflection hits you like a thunderbolt straight to your forehead, causing an involuntary shudder—a large truck is rushing toward you at at least eighty miles per hour."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Get out of the way!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Then David immediately hits the accelerator to speed up. If there's a side road, immediately swerve into it to evade. If not, screw whoever is doing maintenance, just crash through."
+    },
+    {
+      "speaker": "player1",
+      "text": "There's such a thing?"
+    },
+    {
+      "speaker": "player3",
+      "text": "Have Gray ready the submachine gun to open fire."
+    },
+    {
+      "speaker": "player4",
+      "text": "Quickly send a message to Frankfurt station requesting backup, then ready your weapons to face the enemy."
+    },
+    {
+      "speaker": "player2",
+      "text": "David directly crashes through the barriers; those road workers had already taken cover to the side."
+    },
+    {
+      "speaker": "player3",
+      "text": "David curses Frankfurt station in his mind, immediately steering into the street with the safe house. \"I'll slow down at the safe house entrance later. You get out with the submachine gun and pistol, and I'll keep leading them in circles.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Still splitting up? Wouldn't it be better to leave together through the sewers?\" Alison grips the smoke grenade on her person."
+    },
+    {
+      "speaker": "player2",
+      "text": "After this intersection, you encounter no more barriers and gradually approach the bustling city area."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Alright, let's stick together. We've had enough of the downsides of splitting up.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The hustle and bustle of everyday life brings you a sense of security; attacking in a public place would count as a terrorist act."
+    },
+    {
+      "speaker": "player3",
+      "text": "Near the bustling area, they probably won't dare to ram our car at eighty miles per hour. David parks the car opposite the safe house and enters with all equipment."
+    },
+    {
+      "speaker": "player4",
+      "text": "Quickly enter the safe house with the document and equipment."
+    },
+    {
+      "speaker": "player2",
+      "text": "You park the car opposite the safe house."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray notices something is off. It's rush hour right now, but the neighborhood where the safe house is located is eerily quiet. Moreover, you see police officers not far away."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2> wants to discuss something with me privately? Well done, I won't tell anyone the content."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Continue contacting the Frankfurt station, or should we just head back to the embassy district for refuge?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Why is it so quiet, and why are there police in this area?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"How did the Frankfurt station's safe house security get so compromised?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "This police officer seems to have spotted your car. He turns his head and says something into his walkie-talkie, then raises his pistol and takes cover behind a wall."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"They're coming for us. Charge the safe house or drive away?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The Frankfurt police are working against us.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Send a message to the Frankfurt station."
+    },
+    {
+      "speaker": "player2",
+      "text": "The Frankfurt station does not respond."
+    },
+    {
+      "speaker": "player3",
+      "text": "Continue driving towards the downtown area, thinking of a solution."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"**! I'm starting to suspect the Frankfurt station is leading us into a trap. Whatever direction we go, run fast.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"I'll drop you off in the busiest part of downtown, and I'll keep driving to draw them away. Miss Gray, get ready to disguise yourself and get out.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Okay, be careful.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David observes the surroundings, stops the car in the most crowded place to let Alison out, and continues driving in circles himself."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison uses whatever she has on hand to change her appearance as drastically as possible in the eyes of others."
+    },
+    {
+      "speaker": "player1",
+      "text": "Attribute modification command, supporting the following sub-commands:"
+    },
+    {
+      "speaker": "player2",
+      "text": "The cosmetics Gray has on hand are not enough for you to apply a heavy makeup that even your own mother wouldn't recognize."
+    },
+    {
+      "speaker": "player4",
+      "text": "Then the only option is to quickly find the nearest public phone booth and call the boss."
+    },
+    {
+      "speaker": "player3",
+      "text": "David keeps an eye on the rearview mirror, waiting for Gray to get out of the car before continuing to draw the attention of those sons of bitches."
+    },
+    {
+      "speaker": "player2",
+      "text": "Several police cars swarm towards this direction like ants."
+    },
+    {
+      "speaker": "player4",
+      "text": "Quickly call the boss and report the situation. We're being targeted by the local police."
+    },
+    {
+      "speaker": "player3",
+      "text": "Relying on the memorized map to circle around the police, pistol already at the ready. Hoping Gray can find help in time, but for now, David can only pray for his own luck."
+    },
+    {
+      "speaker": "player4",
+      "text": "Also, the Frankfurt station is unreliable."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're good at quite a few things."
+    },
+    {
+      "speaker": "player2",
+      "text": "As soon as the call connects, before you can even start explaining in detail, you can hear Turner's malicious voice, \"Congratulations, now that you're enjoying wealth and honor, you still want to drag your superiors down with you?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Can my spy knowledge determine what Turner's words mean?"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"What, not planning to admit it? Or have you eaten too much Soviet sausage and forgotten how to speak English? Should we switch to Russian? You'll need to get used to it more in the future.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Completely baffled by his words, \"We encountered major trouble during the mission. Two colleagues have been attacked and are missing. Now we're being pursued by local police, and the Frankfurt station's safe house is also under surveillance.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Oh, you don't know? Let me fill you in then.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We met with Soviet agents? All four of us, with some Soviet agent whose identity was confirmed by headquarters?\" Alison expresses doubt."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But, two and a half hours ago, headquarters received a report from the Frankfurt station that Lev Mikhailovich player5 and player6 mysteriously disappeared, suspected to have defected to the KGB station in Frankfurt.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The Frankfurt station notified us that Andrew and player5 were attacked, called for help, and have gone missing, and demanded we go to the safe house. When we arrived, we only found a truck attempting a direct assassination and heavily armed police lying in wait.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "There is silence on the other end of the phone for a few seconds."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What kind of chance?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Listen, Brandt, who accused you, is a senior, high-ranking official in MI6, and he has photos as evidence. I'm just a small section chief in a marginal department, and your direct superior. Defending you would be suspicious and baseless, understand?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We understand your difficulty. So what chance do we have to change this?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You have only one chance: uncover the truth of this matter! Brandt wouldn't falsely accuse you for no reason; you must be involved in something. And the only thing you encountered in Frankfurt is that bastard Haddin's escape and disappearance case, understand?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We'll do our best. Hope we're lucky enough.\" Alison already understands she's lost all support in a foreign land."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Also, your fake identities are compromised. Remember Standard Bank?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We remember. We'll activate that identity.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hurry! Headquarters already inquired about me. I temporarily brushed it off. Go to the headquarters safe house and the bank to get what you need before tomorrow. I can't guarantee the bank and safe house will be safe after tonight!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Received. Hope we can return to report.\" Alison is filled with determination."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Lastly, headquarters decrypted a telegram: 'Osprey begins driving away the fish.' Radio call sign: Troupe.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Received. Thank you for the warning.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You can say you have enemies everywhere now. You must stay on high alert at all times! If anything happens to you, I'll do my best to arrange for your relatives.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Take out the map and find the bank's location. Is it far from where I am now?"
+    },
+    {
+      "speaker": "player3",
+      "text": "David, relying on his familiarity with the map, drives through the downtown area. At a turn, using the cover of the turn, he opens the car door and jumps out, letting the car continue forward. He rolls on the ground to dissipate force and then dives into a shopping mall."
+    },
+    {
+      "speaker": "player1",
+      "text": "The story Algorithm of the Heart recording has resumed. Currently recorded text: 2909."
+    },
+    {
+      "speaker": "player2",
+      "text": "@player3 David's truck crashes into the storefront of a street-side shop. The shop owner, suffering an unwarranted disaster, screams in shock, attracting the crowd's attention."
+    },
+    {
+      "speaker": "player3",
+      "text": "David leaves the scene without hesitation amidst the chaos and looks for an opportunity, such as a mall restroom, to disguise himself."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Disguise check result:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Since a quick and successful disguise isn't possible, David memorizes the map and uses complex terrain to shake off pursuit."
+    },
+    {
+      "speaker": "player2",
+      "text": "Disguising in a restroom tests one's skill, and with limited time, David only changes his hairstyle."
+    },
+    {
+      "speaker": "player3",
+      "text": "David takes off his jacket, leaving only his suit, walks to the next bus stop on the commercial street, and takes a bus to the bank."
+    },
+    {
+      "speaker": "player4",
+      "text": "I want to see how far I am from the bank."
+    },
+    {
+      "speaker": "player2",
+      "text": "The bank is in the city center, not far from you."
+    },
+    {
+      "speaker": "player4",
+      "text": "Then Alison blends into a crowded place, finds a restroom, and tries disguising again."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Disguise check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "It is now 19:30 Central European Summer Time."
+    },
+    {
+      "speaker": "player4",
+      "text": "Then Alison will research how to get to the headquarters safe house."
+    },
+    {
+      "speaker": "player2",
+      "text": "The headquarters safe house is located in Offenbach. Unless you have a car, it will take some effort to get there."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison estimates how long it would take to get there by taxi and how much it would cost. Then, use clothes to slightly cover the face and try to hail a taxi to take me to a location one block away from the safe house."
+    },
+    {
+      "speaker": "player1",
+      "text": "Mountains and soil listen to your wishes. Regardless of what karma and retribution may be, fate has already fallen asleep in your palm."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray waited 10 minutes before finding a car willing to take him to Offenbach, and it cost an extra 10 Marks."
+    },
+    {
+      "speaker": "player4",
+      "text": "Is his radio on?"
+    },
+    {
+      "speaker": "player2",
+      "text": "The car radio is playing a pop song."
+    },
+    {
+      "speaker": "player4",
+      "text": "Then pay him an extra 15 Marks, tell him I want to rest for a while, and ask him to turn off the radio."
+    },
+    {
+      "speaker": "player2",
+      "text": "The driver readily agrees to this request and doesn't speak to you the entire way."
+    },
+    {
+      "speaker": "player5",
+      "text": "After making the call, I suddenly realize the bank is closed at this hour. For safety's sake, I should meet up with my teammates first. However, there's still a guy covered in blood lying in the back seat. After some thought, I'll first change my outfit simply, turn up my collar and put on a hat to cover my face, then drive towards Offenbach. On the way, I'll stop at small shops to buy a blanket, some cosmetics, clothes for disguise, and some medicine, finally taking small roads out of the city. On the way, I'll turn on the radio to listen for any related news. The blanket is to cover the guy in the back seat."
+    },
+    {
+      "speaker": "player6",
+      "text": "Just asleep, and he also took a tumble."
+    },
+    {
+      "speaker": "player2",
+      "text": "[Background music fades, transitioning to a news broadcast tone]"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"??? Why do these people sound so much like us?\" After a moment, I figure out the reason and angrily slap the steering wheel. \"Damn it, those bitch-born sons of dogs at the Frankfurt station. I knew that old man was no good.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Lying obediently in the back seat."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That old bastard is in cahoots with those smugglers, right? When I catch you someday, I'll definitely practice my skills on you.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "player5's angry strike makes the car shake. Andrew, in his drowsy state, wakes up groggily."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Mom, I'm hungry.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Cursing non-stop while taking small roads out of the city, occasionally checking the rearview mirror to see if anyone is following."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I want stew. My stomach hurts.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So you're not dead? It wasn't a waste of effort saving you then. Do you remember what happened before you passed out?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Where am I... I'm alive!\""
+    }
+  ],
+  "start_line": 1578,
+  "end_line": 1892
+}

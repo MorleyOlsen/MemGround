@@ -1,0 +1,440 @@
+{
+  "section": "22. Dreamlands Express: New Passengers",
+  "description": "The attendant wearing a bird-beak mask, with a Siamese cat on his shoulder, introduces with a gentle smile, \"The Dreamlands Express is heading to the City of Gold,\" as three mysterious new passengers appear.",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": "\"If the person is still alive, we might barely be able to move a pawn, let alone a political figure that even the boss finds troublesome.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"When I asked the workers earlier, I remember asking about the location of the collapsed tunnel. Should we go take a look? With these workers on strike, we can't leave now anyway.\" #points at the protesting crowd of workers in the distance."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Go check out the scene? It might affect our Orient Express trip.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#nods in agreement"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Makes sense.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Sir, let's go check the scene.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Alright then.\" #gets on the carriage"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Probably buried directly in the dirt.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Louis cracked his whip, and the carriage turned towards the outskirts. The further they went towards the construction site, the more dilapidated the houses by the roadside became, until finally it was all muddy roads. At the collapse site, a crooked wire fence surrounded the area, with a \"No Entry\" sign hanging on it. The tunnel entrance looked like a dark, gaping mouth, with collapsed concrete blocks still piled up, reinforcing bars sticking out like bones. A broken hard hat lay in the muddy water, with a few pages of waterlogged work orders scattered nearby. In the distance, two uniformed guards were dozing, their toolbox open, revealing a few wrenches."
+    },
+    {
+      "speaker": "player5",
+      "text": "#looks around to see if anyone is watching"
+    },
+    {
+      "speaker": "player3",
+      "text": "There's a man in a flat cap smoking behind the utility pole on the left, but he seems more like he's waiting for a workmate. A stray cat is rummaging through garbage by the scrap pile on the right. One of the dozing guards turns over, his uniform cap covering his face. In the distance, a coal truck drives by, kicking up a cloud of dust, but it doesn't seem like anyone is specifically watching. The wind whistles through the wire fence."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Maybe go straight in?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#pokes Johnson \"What do you think?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Waiting for the foreman to hand out the strike subsidy,\" he says, eyeing player2 sideways. \"You're new, huh? Never seen you before.\" The man has a fresh scratch on his finger, and his work jacket cuff is stained with cement."
+    },
+    {
+      "speaker": "player2",
+      "text": "#scratches head \"You got me.\" #takes out a cigarette \"Want one?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The man takes the cigarette and taps it on his fingernail. \"Thanks.\" He pulls out a match and strikes it, the flame illuminating his stubbly chin. \"Which crew are you with?\" he asks, blowing smoke, while glancing at player2's hands."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I just started today. The foreman hasn't assigned me yet. He just told me to come ask you experienced guys first, to learn from you.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The man suddenly stubs out the cigarette. \"Rookie,\" he scoffs. \"Newcomers here are all personally trained by Jacques.\" He pats the dust off his pants and stands up, his eyes narrowing into slits under the shadow of his flat cap. \"Who are you really? Sent by the construction company?\" His hand moves towards the iron wrench tucked at his waist."
+    },
+    {
+      "speaker": "player2",
+      "text": "#raises hands in surrender"
+    },
+    {
+      "speaker": "player3",
+      "text": "The man suddenly grabs player2's arm and pulls him behind the utility pole, his grip painfully strong. \"Prove it,\" he says, his breath smelling of smoke in player2's face. \"Tell me three things only workers at the collapse site would know.\" The tip of his wrench presses against player2's ribs."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I only know it was to build a villa for that bastard Pétain.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#steps forward trying to pull him away, saying: \"The materials Marshal Pétain wanted were all substandard. The workers sabotaged them in retaliation. Many child laborers died during the emergency repairs.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We're just travelers stranded here, unable to leave.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Now do you believe we're here to help you?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The man releases player2's collar, takes two steps back, and sizes them up. \"How do you know about the materials?\" His voice suddenly turns wary. Just then, a small figure covered in coal dust emerges from behind the scrap pile; on closer look, it's a teenage boy. \"Jacques!\" the boy squeaks. \"They're the ones who distracted the guards at the town hall square this morning!\" The man pauses, his wrench clattering to the ground. \"Alright, I believe you. How are you planning to help us?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We need evidence, whether legal or not.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Uh, what kind of help do you need? First of all, we're just a group of out-of-town travelers.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#continues in a low voice \"We just need to expose it.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The man stares at player2 for a few seconds, then suddenly grins, revealing a gap where a front tooth is missing. \"You're an interesting one,\" he says, wiping tobacco bits from his beard. \"Alright then, want to expose it?\" He kicks a piece of rubble at his feet. \"The support pillars at the east end of the tunnel, the concrete crumbles with a tap. The account book is buried in the metal box under the scrap pile.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Eyes light up \"So thorough\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wow, just fully prepared.\" #Praise in English he doesn't understand"
+    },
+    {
+      "speaker": "player3",
+      "text": "The man rubs the calluses on his fingers and shakes his head, the reporter from Le Figaro was arrested right after taking photos last time. The little boy squatting nearby suddenly interjects: But that British reporter from the Daily News was fine! The man kicks a pile of gravel, foreign reporters are useful, but they only stay for two days and then leave."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Tsk, sigh, the local judicial system.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Let us give it a try. Can you get me a sample, the sooner the better?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The man directly pulls out a piece of cement fragment wrapped in oiled paper from his work clothes inner pocket. Take it, this is what I hid during the east side collapse."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Okay, brother.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Then let's go, let's go.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go, we'll contact the newspaper.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#First, have Old Henry drive back to the hotel at lightning speed to send a telegram to the boss, have her contact to send the ledger data, our own newspaper's correspondent in France, then continue to pressure Old Henry to drive us to the Athena Hotel."
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Henry cracks his whip, Lightning bolts off galloping. The carriage jolts violently, player2 almost twists an ankle jumping off at the post office door. The telegraph operator yawns while tapping the keyboard. Outside the window, a bicycle-riding newsboy flashes by. Twenty minutes later, the carriage stops before the gilded revolving door of the Athena Hotel. The bellboy in red uniform frowns at their mud-splattered clothes."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Return to the carriage to change back into original clothes."
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Henry wipes the carriage footboard with his sleeve. You change clothes faster than Lightning pees."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"A basic social skill.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Get off the carriage, tip the bellboy, this kind of thing isn't his fault."
+    },
+    {
+      "speaker": "player3",
+      "text": "The bellboy's fingertips tremble as he takes the coin, almost dropping it. Thank you, sir. He secretly slips the coin into his white glove."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Nod \"Are there any rooms available on the 2nd floor?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Open another room for this gentleman.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The bellboy trots to the front desk to ask, returning with a jingling key ring. \"Room 218 is available.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Pay for this accommodation with own wallet, heart aching."
+    },
+    {
+      "speaker": "player3",
+      "text": "The clerk suddenly says: Do you need help taking your luggage upstairs?"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I'll manage it myself.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The clerk purses his lips and closes the register, the pen nib scraping against the inkwell rim with a grating sound."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Carry own luggage upstairs, tidy up a bit, then go find the reporter."
+    },
+    {
+      "speaker": "player3",
+      "text": "The door hinge of room 218 lacks oil, emitting a long creak when pushed open. Light still shines from under the crack of the diagonally opposite room 214, a pair of men's leather shoe shadows pacing back and forth."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Pick it up and hand it to him."
+    },
+    {
+      "speaker": "player3",
+      "text": "He freezes for two seconds, takes it. Good heavens, you came just in time! He points at the button on player2's collar. Did Jacques finally send someone? A kettle's shrill whistle comes from inside the room. The reporter kicks the doorframe: Damn it, my tea!"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Give the materials to him."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Did you hear the reporter wailing?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The reporter takes the cement sample and ledger, quickly flips to the last page, pointing at a line of numbers: Look at this, the construction material procurement price is three times the market rate! He opens his own notebook for comparison: I checked the supplier, it's a shell company owned by Pétain's cousin."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So it's money laundering\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"In fact, I'm planning to go to the analysis institute\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The reporter is stuffing the ledger into his briefcase, then takes out a business card upon hearing this: \"Go to 17 Rue Saint-Michel, find Lavoisier\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You guys are quite well-prepared\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The reporter grins, showing his canine teeth: \"In this line of work, if you're not well-prepared...\" He taps his left leg, which makes a metallic sound. \"Learned that the hard way in Berlin last year.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"America, the owner of some magazine\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Understood,\" the reporter notes in his notebook."
+    },
+    {
+      "speaker": "player2",
+      "text": "("
+    },
+    {
+      "speaker": "player3",
+      "text": "Then, just now, through the carriage window, Old Henry wiped his nose with his sleeve and handed a pack of peppermints to player4. \"Suck on these during the journey, prevents motion sickness.\" Lightning stomped restlessly, making the reins jingle. He suddenly pulled out a crumpled photo and handed it to player2: \"My nephew runs a repair shop in Istanbul, go find him if you get into trouble.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Finally give Old Henry an extra amount of money that doesn't look like a tip"
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Henry's eyes widen as he feels the thickness of the envelope, and Lightning comes over to sniff it. \"This is enough to buy ten Lightnings!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Listen, pal, these times aren't very peaceful. If, I mean if, something happens, you take this money and go to Rhode Island.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Henry suddenly stands still, raising his whip high above his head and drawing a circle in the air—this is the farewell gesture of the coachmen."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It doesn't necessarily have to be left behind in the form of money. Let me think, gold would be a good choice.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Farewell, pals. May God bless you with a perfect adventure.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Goodbye, pal. Wishing you good health!\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Safe travels!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Wave goodbye"
+    },
+    {
+      "speaker": "player3",
+      "text": "The train begins to move. You last see him stuffing the envelope into his inner pocket, only to have his hat snatched by Lightning. Old Henry chases after his hat, his figure growing smaller and smaller until it becomes a tiny black dot."
+    },
+    {
+      "speaker": "player12",
+      "text": "Ah! After staying for a year, we can finally set off again!"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Bid farewell"
+    },
+    {
+      "speaker": "player3",
+      "text": "It's now 8 PM. You arrive at the dining car. The crystal chandelier sways slightly with the bumps, and the silverware reflects scattered specks of light. Waiters push trolleys distributing caviar, and a chef is flambéing crêpes Suzette over a flame in the corner. Each table covered with linen tablecloths holds fresh roses, and bubbles continuously rise in the champagne glasses. An American businessman at the next table complains about the strike delaying business; the clinking of knives and forks against porcelain plates mixes with the impromptu performance of a Hungarian band."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Food!"
+    },
+    {
+      "speaker": "player3",
+      "text": "The waiter presents silver-plated trays: The appetizer is sturgeon caviar drizzled with lemon juice, served on a bed of sour cream pancakes."
+    },
+    {
+      "speaker": "player12",
+      "text": "Fancy! We don't usually eat this well!"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Munch munch, trying to snatch player4's dessert"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Twist off a rabbit leg and take a big bite; knives and forks are quite troublesome"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Lean against the side and start writing a diary"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Fight over the dessert"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Having tasted enough rabbit meat, now try these chocolate tarts and croissants. Munch munch"
+    },
+    {
+      "speaker": "player2",
+      "text": "#As a member of the Gentlemen's Alliance"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Left the dining car and returned to their own sleeping berth to sleep."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Attempt to sell books to player4"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Ahhh~~~\" #Yawned, \"Wishing everyone a good night and sweet dreams, I'm going to sleep first.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No, no, reading on the train is very easy to get dizzy, I haven't recovered from throwing up today.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#After washing up, lay in bed and fell into a refined sleep."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'm going to sleep first, what a long day.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Bored, prepared to wash up, reminded Professor Bailan to be careful."
+    },
+    {
+      "speaker": "player5",
+      "text": "#After finishing writing the things, stuffed the letter into an envelope, then prepared to rest."
+    },
+    {
+      "speaker": "player3",
+      "text": "After sleeping for an unknown amount of time, you open your eyes and find yourselves standing on an ancient street paved with cobblestones. A golden mist envelops the surroundings, making it unclear whether it's dawn or dusk. The slippery stones underfoot have moss growing in their crevices. A group of cats stroll leisurely on the street, some curled up in corners, others nimbly leaping over stone steps. Not far away, a moss-covered stone arch bridge spans a rushing river. The water gurgles over rounded stones, producing a crisp sound. The mist blurs the outlines of distant houses; only the nearby flagstone path and the cat group are clearly visible. You must walk carefully to avoid stepping on those lazy cats."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Have I returned to the Middle Ages?\" #Examined their own strange appearance."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Yes, this is the place.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The voice is clear and bright with a hint of vitality, sounding like a young man's voice. The tone is light yet polite, like a well-trained train attendant reminding passengers. However, the voice comes suddenly and fades quickly, leaving only the rustling footsteps of the cat group and occasional meows around."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Walked along the street towards that high platform, avoiding those nimble cats, and shouted: \"Sir, where is this?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Crouched down to look at the cats."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Found a quiet spot to stand, checked the things in their suitcase and the statue, straightened their clothes, and looked around."
+    },
+    {
+      "speaker": "player3",
+      "text": "The echo reverberated briefly in the empty street, but no one answered. Only a few Siamese cats glanced up at you before continuing to trot forward."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Went to find the uniformed attendant and asked: \"Hello, where does this train go?\""
+    }
+  ],
+  "start_line": 6539,
+  "end_line": 6849
+}

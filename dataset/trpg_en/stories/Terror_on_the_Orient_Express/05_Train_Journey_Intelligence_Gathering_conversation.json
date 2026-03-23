@@ -1,0 +1,368 @@
+{
+  "section": "5. Train Journey: Intelligence Gathering",
+  "description": "Pursuing passenger identities during the train journey, arriving at the hotel in the evening, carriage rushing through the night, all clues converge",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": "(go)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show Library"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player2",
+      "text": ".st show Library"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Morning light seeps through the gaps in the curtains, casting a faint golden line on the carpet."
+    },
+    {
+      "speaker": "player5",
+      "text": ".st show Library"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player3",
+      "text": "The aroma of freshly baked croissants snakes its way from the corridor through the door crack."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Sniff"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Maintain the most standard routine. Wake up before 8, change clothes simply, then wait for companions in the lobby downstairs."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Good morning, Professor Bailan\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If there's anything the French can be proud of\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Good morning, everyone. Today, let's first go to the library to look up information about that Count.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It's their cooking\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Naturally, it's their culinary culture.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Pierre appears silently by the pillar, holding a silver tray with white gloves. \"Guests, the head chef has specially prepared white truffle scrambled eggs for the distinguished guests of the Orient Express, using butter freshly delivered from Provence last night.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thank you very much, then we won't stand on ceremony.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Regardless of the two impatient teammates, Mr. Gungnir thinks since he paid, he should eat."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go, get something to eat first.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Shows an expression of never having seen the world before."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Lazily ties the bow tie, takes out the napkin from the chest and prepares for the meal."
+    },
+    {
+      "speaker": "player3",
+      "text": "The glass windows filter the morning light into a champagne color, projecting onto the tablecloths; the roses at the center of each table bear morning dew. The light sound of silver knives on porcelain plates, the fine flow from coffee pot spouts, and a string trio echoing in the corner reach your ears."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Coffee, bread, scrambled eggs, salad—I am the person with the healthiest diet in the world, if I hadn't stuffed 4 breads and 3 servings of scrambled eggs."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Intends to find a glass of juice to drink."
+    },
+    {
+      "speaker": "player3",
+      "text": "Professor Bailan: Blood orange juice + a drop of absinthe. player4: Ginger honey sparkling water (for motion sickness prevention). player2: Chilled Muscat grape juice."
+    },
+    {
+      "speaker": "player5",
+      "text": "#A cup of black coffee without anything added is enough to sweep away the morning fatigue, restoring a full-blooded state. Professor Bailan savors the lava cake in front of him."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Pack a breakfast for the coachman."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Wipe the corner of the mouth."
+    },
+    {
+      "speaker": "player2",
+      "text": "(gogogo)"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go, maybe the coachman is already waiting for us at the door.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'm ready, let's go.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Lightning's mane gleamed in the morning light, clearly having been meticulously brushed. The coachman leaned against the carriage shaft, toying with a coin in his hand—exactly the tip player2 gave last night."
+    },
+    {
+      "speaker": "player4",
+      "text": "#awkwardly rubs nose"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Don't say that, my friend, have you had breakfast?\" #waves the bread in hand"
+    },
+    {
+      "speaker": "player3",
+      "text": "The coachman's stomach let out a loud rumble at the perfect moment, and he embarrassedly rubbed his nose."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But things made by family are always better than others', aren't they?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"There's an atmosphere called the feeling of home.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The coachman suddenly stopped adjusting the reins, his gaze softening. \"What you said... is like my old buddy here—no fancy new saddle fits him as well as the pad made from my old coat.\" Then he suddenly laughed, pulling out a handkerchief embroidered with crooked letters from his pocket. \"Look, my daughter stitched this... the needlework is messier than a spider's web, but if I ever forget to bring it—\" He made a comical chest-leaking motion, but carefully folded the handkerchief and tucked it back inside his coat. \"Even the north wind from Paris would dare bully me!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#tries to move past the topic after the coachman finishes breakfast \"Then we should get going, right?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The carriage briskly turned the last corner, wheels rolling over newly laid pavement. \"We're here!\" He jumped down, boots crunching a patch of morning frost. \"Going through the main gate would mean queuing until noon, but we—\" He winked, pulling a brass key from his pocket and spinning it on his finger. \"have a 'special passage.'\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#doesn't understand the language, but seems to grasp what's about to happen"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Ha, it seems I didn't misjudge you, Louis, you're truly a local expert.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hey, this is my turf!\" He proudly patted his chest."
+    },
+    {
+      "speaker": "player4",
+      "text": "#looks at player2 communicating fluently with the locals in French, feeling very impressed"
+    },
+    {
+      "speaker": "player2",
+      "text": "#follows Old Henry to quickly scram"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What did he say?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Jean-Louis expertly led the three through a hidden side corridor, the air filled with the scent of parchment and oak bookshelves. Occasionally, librarians pushing carts laden with ancient books passed by; seeing him, they just nodded and smiled, clearly long accustomed to it."
+    },
+    {
+      "speaker": "player5",
+      "text": "#silently nods, indeed a correct decision."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"He said to let us leave quickly.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#follows closely behind"
+    },
+    {
+      "speaker": "player3",
+      "text": "Sunlight filtered through the glass, casting halos on the oak floor. Towering bookshelves stood like a maze, the air floating with scents of paper, ink, and old leather. Ladders leaned against the shelves, librarians pushed carts with brass wheels piled with books awaiting reshelving. The coachman stood at the threshold of the side door, hat tilted, spinning that coin in his hand. \"Alright, lords, 'Lightning' is urging me back.\" \"Lightning\" stamped its hooves impatiently outside. He backed away while walking out."
+    },
+    {
+      "speaker": "player4",
+      "text": "#captivated by the sight of the library"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"About what time should I come back to pick you up?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#looks at Professor Bailan for opinion"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So many books.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Around 7 tonight should be fine, I think.\" #first takes out two-thirds of the fare"
+    },
+    {
+      "speaker": "player3",
+      "text": "As Jean-Louis took the coins, his fingers quickly brushed against his lapel—ensuring sweat wouldn't dampen the bills—then made the coin somersault between his knuckles like a magic trick. \"Your prepaid sincerity rings louder than the bells of Notre Dame!\" Before he finished, \"Lightning\" suddenly grabbed his collar from behind and pulled. The coachman laughed heartily as he was dragged back to the driver's seat. \"Alright then! Seven sharp—I'll have this old fellow come fetch you under the stars!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#pays respects to this coachman"
+    },
+    {
+      "speaker": "player3",
+      "text": "Then the carriage quickly sped off."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Our Lightning needs to eat, doesn't it?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Look for information about the Count and that fragment."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Read Professor Smith's notes again."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Look for information about the Count's past and the location of his old residence."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely be answered. <player5>'s Library prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Search for information related to the Sedifical statue and where it was taken during the Napoleonic Wars."
+    },
+    {
+      "speaker": "player3",
+      "text": "The Count's Villa"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Library"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely be answered. <player4>'s Library prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 repeatedly scribbles over the spelling of Sedifical on an index card, ultimately mistakenly queries the Sadducal statue and rummages through military archives in the religious history section, drawing suspicious glances from the librarian. When old Marcel proactively asks if he needs help, he insists, \"I can do it myself.\" Three hours later, when Professor Bailan easily finds the entry, player4 is staring blankly at the door sign—he never figured out the French classification label system and spent the afternoon fruitlessly searching through piles of architectural drawings."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Watching player4 stare blankly at the labels, turn to old Marcel beside him."
+    },
+    {
+      "speaker": "player4",
+      "text": "It shouldn't be... The notes were very detailed... Damn French, what kind of broken language is this?"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Old sir, my friend is quite stubborn, you know, a kid who just got into a PhD program tends to have a bit of an inflated ego.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Marcel lifts his cloudy gray eyes from above his reading glasses, the wrinkles at the corners of his mouth slowly folding into a knowing smile. \"These young PhDs...\" he mutters deliberately loud enough for player4 to hear, but his gnarled fingers have already deftly pulled out a leather-bound register."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely be answered. <player3>'s Library Use 80 prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Marcel, hunched over, drags out a package wrapped in mold-spotted parchment from the depths of the ancient book cabinet. As he unties the faded silk ribbon, dust dances in the beam of light."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Thank you.\" #Browse these books and then translate the contents for my two teammates who can understand what the books are saying."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Just now I noticed that lady was looking for this Count, so I took the liberty of investigating a bit.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Wow, you are truly an extremely competent librarian.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"As for the statue's whereabouts during the Napoleonic era, no relevant records were found. It was just personal luggage; such things wouldn't be mentioned in the library.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Prayer received! Continuing to record the horror of the Orient Express for you. Currently recorded texts: 1363, time elapsed: 7 hours, 5 minutes, 36 seconds."
+    },
+    {
+      "speaker": "player3",
+      "text": "As the story last told,"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Shake Bailan and player4. \"Friends, time to make a move.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Jean-Louis leans against the carriage shaft, an unlit cigarette dangling from his mouth. Seeing the three stumble over, he grins."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"They,\" #patting the two companions, \"are indeed such people.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Lightning, let's go!\" The whip cracks crisply in the air. \"We'll take a shortcut—\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Dazed and confused."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"As a friend of mine once said, there are two kinds of people in the world: those who die from exhaustion and those who die from boredom. I think these two definitely aren't the second kind.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ah, it's not that serious. They probably won't work themselves to death. One must devote limited time to infinite work.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The carriage rolls over damp cobblestones, its wheels reflecting shimmering light under the gas street lamps. Lightning's horseshoe splashes water from a puddle, startling a stray cat at the alley entrance. When player4 wakes up groggily, he sees Jean-Louis driving with one hand, accepting a stolen butter roll from a bakery boy with the other. \"Passing by the bakery's back alley, you can still snag a piece of freshly baked sourdough!\" He winks."
+    }
+  ],
+  "start_line": 1245,
+  "end_line": 1556
+}

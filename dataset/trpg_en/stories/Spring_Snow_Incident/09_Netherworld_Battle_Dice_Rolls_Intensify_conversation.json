@@ -1,0 +1,232 @@
+{
+  "section": "9. Netherworld Battle: Dice Rolls Intensify",
+  "description": "The battle is unavoidable, with frequent skill checks and ability activations from each character, intertwined with Soul Hunt checks, leading to constant numerical changes.",
+  "conversation": [
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjoin Long'er]'s 'Soul Hunt' check: Roll: 1D20+Psychic Power(3)d4+2d4+1d6=13+{1+3+1}(5)+{4+2}(6)+{5}(5)=29 Challenge: 10 Success Success Level: 4"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sh psychic power d4+2d4+1d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjoin Long'er]'s 'Existence Record'... updated: [SHM]: 24+9=33"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjoin Long'er]'s 'Existence Record'... updated: [MP]: 10-2=8"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Consider this payback for your sneak attack.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Click, click"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Take a compromising photo of Youmu continuously slashing Spring Energy with a phone"
+    },
+    {
+      "speaker": "player1",
+      "text": "The trajectory of Youmu's sword swings begins to rewind like a jammed film reel, the slashed sword light shattering into reverse Spring Energy. A flicker of surprise crosses her face."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Why didn't you think you were vile when you sneak attacked me?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"She... she looks very angry, Mr. Tenjoin...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Retort back"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Isn't the one hiding here secretly taking everyone's spring even more vile?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The half-phantom girl turns her head away \"Hmph\" her face slightly red."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"D-do we really have to fight? Miss.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"If you insist on going in, then yes.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Ah, did what I just say strike a chord with this young lady?\" #Seeing the other party's flushed face, asks while turning her head."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I cannot judge the right or wrong of this matter, although I apologize for the trouble...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We know you're going to fight us.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Vile is vile then.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Bring it on.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "She lets out a sigh of relief."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Bringing back spring is our duty too, we will not back down.\" #Grips the weapon in hand tightly."
+    },
+    {
+      "speaker": "player1",
+      "text": "A pale hand draws Hakurouken, but Roukanken at her left waist remains sheathed."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Mhm mhm, won't let you have it.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "She makes a slash in the air, declaring the start of the battle."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s Fortune Calculation: 1D20=1"
+    },
+    {
+      "speaker": "player2",
+      "text": ".rd20"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s Fortune Calculation: 1D20=10"
+    },
+    {
+      "speaker": "player5",
+      "text": ".rd20"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjouin Long'er]'s Fortune Calculation: 1D20=7"
+    },
+    {
+      "speaker": "player3",
+      "text": ".rd20"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s Fortune Calculation: 1D20=19"
+    },
+    {
+      "speaker": "player4",
+      "text": ".rd20"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer Luo Xueyu]'s Fortune Calculation: 1D20=8"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You're using Niten Ichi-ryū, but you're not drawing your sword?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Observer Lina Xueyu Long'er Youmu"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You seem pretty confident.\" #laughs"
+    },
+    {
+      "speaker": "player4",
+      "text": "#leans in to listen to what Devourer says \"I, I will devour you completely!\" #shouts in a weak tone"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Before the fight, Long'er looks down the stone steps of Hakugyokurou to see if Mokou followed."
+    },
+    {
+      "speaker": "player1",
+      "text": ".rh"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer] activated the 'Cognitive Veil' calculation."
+    },
+    {
+      "speaker": "player1",
+      "text": "You don't see a familiar figure, but you feel an inexplicable sense of reassurance."
+    },
+    {
+      "speaker": "player5",
+      "text": "#smiles, Long'er snaps back to reality, turns around, and warms up for battle."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Enters Fury #The moment the opponent draws her sword, Ge Qing leaps behind her, immediately follows up with a sweeping kick to trip her, and as she's suspended in the air, uses a knee strike to keep her airborne. Leaping into the air himself, Ge Qing's attacks become increasingly fierce, each punch leaving afterimages. Her speed continuously accelerates, finally ending with a flying kick that sends Youmu back to the ground."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s 'Soul Hunt' Check: Roll: 1D20+3d4+2d4+2d4-3d4=16+{1+2+3}(6)+{1+3}(4)+{3+2}(5)-{3+3+3}(9)=22 Challenge: 10 Success Success Level: 3"
+    },
+    {
+      "speaker": "player1",
+      "text": ".sh3d4+2d4+2d4-3d4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Soul Hunt' Check: Roll: 1D20+10d4+1d6=13+{4+1+1+4+4+4+2+2+3+4}(29)+{2}(2)=44 Challenge: 10 Success Success Level: 7"
+    },
+    {
+      "speaker": "player3",
+      "text": ".sh10d4+1d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Existence Record'... Updated: [MP]: 10-4=6 [SHM]: 18+2=20"
+    },
+    {
+      "speaker": "player3",
+      "text": "#The attacks look fierce, but they don't feel like much upon impact. As the dust settles, Youmu stands up as if nothing happened."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Dust fills the air, but in an instant, sword light cuts through it."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I don't know what just happened, but I won't fall behind either.\" #Takes out the microphone again and simultaneously throws a few seeds into the air. As Lina sings, the seeds grow into abnormally large cherries that fly straight at Youmu."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Soul Hunt' Check: Roll: 1D20+5d4+1d6=3+{2+3+2+4+2}(13)+{4}(4)=20 Challenge: 10 Success Success Level: 2"
+    },
+    {
+      "speaker": "player2",
+      "text": ".sh5d4+1d6"
+    }
+  ],
+  "start_ts": "2025-10-27 22:44:02",
+  "end_ts": "2025-10-27 23:29:59"
+}

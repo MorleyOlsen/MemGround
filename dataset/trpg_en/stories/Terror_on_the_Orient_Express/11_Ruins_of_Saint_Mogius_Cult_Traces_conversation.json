@@ -1,0 +1,324 @@
+{
+  "section": "11. Ruins of Saint Mogius: Cult Traces",
+  "description": "The Saint Mogius Church has become ruins, with dragon traces and cult activities widespread. A \"Devil Simulacrum\" tracking scroll is hidden in a secret compartment.",
+  "conversation": [
+    {
+      "speaker": "player3",
+      "text": "\"Quick! This ramp is steeper than a Venetian prostitute's conscience!\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Then I suggest you find prostitutes elsewhere.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The poet urges you all to quickly climb the ramp and enter the high opening."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Run with all your might"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Escape, must escape, can only escape"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player7>'s 50 Wish:"
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra Agility 70"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player8>'s Agility 70 Wish:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Agility 60"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player6>'s Agility 60 Wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra Agility 45"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player3>'s Agility 45 Wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": "player7 slipped and fell, while the other three successfully climbed the steep slope and entered the opening. \"Da—vid—!\" The dragon's shadow loomed down like death, its massive body stirring a foul, stinking wind. Its short wings beat the damp air of the reservoir, scales scraping against stone pillars, sparks flying. player7 sat slumped on the middle of the ramp, looking up directly into those lava-like vertical pupils—the dragon's maw opened, deadly fire churning deep in its throat."
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra Dodge"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player7>'s Dodge Wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".r3d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player3",
+      "text": "(Sigh)"
+    },
+    {
+      "speaker": "player7",
+      "text": ".r1d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player7",
+      "text": ".st hp-4"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player7>'s \"HP\" change: 11 ➯ 7 (Deduct -4=-4)"
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra 70"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player7>'s 70 Wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": "The dragon's flames poured down like molten gold from God, instantly engulfing the fallen figure. The monk's silhouette first turned into a glowing red outline in the fire—his hand holding the cross still reaching upward—then collapsed like a candle. \"Da...\" The poet's fingers gripping the edge of the opening bled. When the smell of charring surged into the opening with the heatwave, he retched reflexively but clenched his teeth, making no sound."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Judas preserve us!\" #Scramble and continue running."
+    },
+    {
+      "speaker": "player3",
+      "text": "The dragon tilted its head in confusion, clearly not expecting someone to withstand its breath attack without turning into roast meat."
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Agility 70"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player6>'s Agility 70 Wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": "player6's skirt swept over the scorched earth, fast as lightning—\"Swish!\" The poet didn't even have time to finish blinking before the monk was hoisted into the air by the back of his collar, like an overcooked mouse. player7's boots were still smoking, his whole body dangling in mid-air, while player6's breathing wasn't even disturbed, and she immediately returned to the inside of the opening."
+    },
+    {
+      "speaker": "player7",
+      "text": "(Sweating"
+    },
+    {
+      "speaker": "player1",
+      "text": "Qiduo received! Continuing to record the horror of the Orient Express for you. Currently, 2913 texts have been recorded, time elapsed: 15 hours, 48 minutes, 16 seconds. Huh? A piece of paper flew out when opening the file. The sorrows and joys of mankind are not interconnected; I only find them noisy."
+    },
+    {
+      "speaker": "player3",
+      "text": "The poet staggers and rolls in through the hole, gets up covered in dust, squints and looks around—\"Ha! Welcome to the Byzantine luxury underground suite—\" He coughs twice hoarsely, \"Equipped with antique furniture, and... uh... a few long-sleeping distinguished guests.\" This is an underground tomb, filled with the scent of dust and ancient death. Dim light leaks in through the broken hole, outlining neatly arranged stone burial slabs. Most are well-preserved, but three have been violently smashed, with bones scattered messily on the ground. The empty eye sockets of the skulls stare upward, as if silently accusing. Suddenly, you discover a Frankish knight lying face up on the cold stone floor of the tomb, wisps of white smoke rising from the gaps in his armor. His sword lies two steps away, the blue-glazed family crest on the hilt already cracked."
+    },
+    {
+      "speaker": "player7",
+      "text": "Touch the singed beard."
+    },
+    {
+      "speaker": "player3",
+      "text": "The poet squats down and pokes the knight's blood-stained cheek with a broken string pick. \"Look at this uninvited sleeping beauty—\" He turns his head and raises an eyebrow at his companions, \"Wearing armor with Frankish heraldry, lying more peacefully than a Byzantine emperor.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Right index finger ☝🏻"
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra First Aid 50"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player6>'s First Aid 50 wish: D100=55/50 Failure - Life is good precisely because it is meaningless, allowing each to bestow their own meaning."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Push the maid aside, the charred carbon figure signals to handle it himself. #Open this divine person's helmet, first slap him twice to see the reaction. Then begin mouth-to-mouth resuscitation. .ra55"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player7>'s 55 wish: D100=78/55 Failure - I heard that having a higher favorability with Qiduo makes the dice lighter... Not sure, want to try again?"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Walk to player9's side."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Shrug, indicating there's nothing to be done."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Check this person's condition."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"What should we do?\""
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra First Aid 50"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player6>'s First Aid 50 wish: D100=46/50 Success - Activate skill!"
+    },
+    {
+      "speaker": "player3",
+      "text": "Two loud slaps land on player9's face. The knight's head is knocked to one side, and pale red fingerprints immediately appear on his pale cheek. player7 pinches player9's nose, leans down, and prepares for mouth-to-mouth resuscitation. But just as his mouth is about to touch player9's, player9 suddenly coughs out a mouthful of black smoke. Before his eyes even open, his hand instinctively grabs player7's neck, almost knocking him over! The poet laughs and slaps his thigh."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Feeling that the right hand doesn't seem to be holding a sword hilt, years of campaigning make the discomfort intense. Eyes snap open, hands grope around, grasp the sword, and then see player7 clearly. \"*Expletive* What the hell, a dragon? Who are you...?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Points at himself, this carbonized person."
+    },
+    {
+      "speaker": "player3",
+      "text": "player6 flips the person onto their side. A knee clad in leather armor presses against his back, and the palm slaps three times between the shoulder blades. \"Cough! Cough! Cough!\" A clump of mucus mixed with black ash sprays from player9's mouth. player6 lets go, allowing player9, who has regained autonomous breathing, to curl up on the ground, coughing violently."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Guess what I just touched.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"It's good you're okay. Why did I see a dragon? Good heavens.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Pats the head that hasn't fully cleared yet, releases this priest. #Touches his face, \"Ouch, stinging.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Bandage his own wounds. .ra55"
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Well, sir, may I ask who you are?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player7>'s 55 wish: D100=92/55 Failure - I heard that having a higher favorability with Qiduo makes the dice lighter... Not sure, want to try again?"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Say to the poet: \"Sir, my skills are lacking. Looking at his injuries, could you please have someone bandage him?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"I feel like I'm about to see my aunt in Magdala.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Looking at this strange clump of spit-out mucus, \"Thank you for saving me.\" #Gets up, right hand lightly taps the plate armor, \"Frankish knight player9, sworn to Count Baldwin. Did you also encounter that giant dragon?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"I always feel your bandaging methods are a bit awkward.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Ahem, a bit rusty.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "What is this? #Gently poke the mucus with the tip of the sword."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Try to identify the mucus."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"That dragon... it's like a monster only recorded in ancient texts. Although I feel it's wrong for us to come here to rob our own brethren, leaving it unchecked is dangerous for everyone. I must report to Count Baldwin. May I ask where we are now?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Check if I've seen similar drugs before."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you hope for will surely receive a response. <player6>'s Medicine 60 prayer:"
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Sir, do you remember what just happened?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "It's just a mixture of dragonfire ash and human secretions. More than treatment, he needs... to wash his face."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Try to recall exactly which dragon that is, and whether it can communicate, etc."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Sir, it's nothing serious. Just wash it off.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"I went to check the city's underground reservoir. A dragon appeared there, fighting three Nordic mercenaries. All three died. It scared me, so I desperately crawled into this hole to save my life.\" #Points at the hole he crawled through."
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra75"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you hope for will surely receive a response. <player7>'s 75 prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Anatolia. This dragon has no language ability, only beast-level intelligence. Its actions are purely driven by predatory instinct. The only \"control\" method recorded in history is St. George's mithril weapon (or similar holy damage), or killing it outright."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Continue to recall where that weapon should be now, and whether this dragon has any special abilities."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Clank clank, squat by the reservoir to check the water quality. If it's clean, scoop some water to wash."
+    },
+    {
+      "speaker": "player3",
+      "text": "According to the legend of St. George, the weapon that can completely kill the Anatolian Dragon is St. George's mithril spear, Ascalon. Legend says the spearhead was soaked in holy blood, granting absolute lethality against evil. This weapon was last recorded as being stored in the crypt of the St. George Monastery in Antioch, secretly guarded by the Eastern Orthodox Church. Besides conventional fire breath and tough physique, the dragon's most dangerous special ability is its highly corrosive blood. Contact with wounds causes muscle dissolution. Legend says St. George nearly died from touching the dragon's blood. Additionally, its scales offer strong resistance to ordinary weapons; only silver weapons or sanctified arms can effectively penetrate."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Splash splash, squelch squelch."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Are you all planning to hold a memorial service here?\" The poet kicks aside the scattered bones on the ground. He raises his voice, pointing toward the reservoir direction—the dull thuds of the dragon crashing against the stone walls are vibrating through the tomb chamber. \"That thing won't wait for us to finish the eulogy!\""
+    }
+  ],
+  "start_line": 3114,
+  "end_line": 3424
+}

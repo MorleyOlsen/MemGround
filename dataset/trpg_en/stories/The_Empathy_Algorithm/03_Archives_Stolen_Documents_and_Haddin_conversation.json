@@ -1,0 +1,932 @@
+{
+  "section": "3. Archives: Stolen Documents and Haddin",
+  "description": "Upon entering the vault, the document pouch was found empty, the seal was forged, a size 43 shoe print was discovered, investigation pinpointed suspect Arthur Haddin, confirmed his sudden flight on June 30th, Russian dossier appeared",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled in many areas."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"He's been missing for several days. There might not be much useful information left at his home. Since he's so interested in supernatural and Nazi-related things, perhaps we should first look into the lectures he attended. We might get more information that way,\" Alison suggested."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled in many areas."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I have a feeling this trip won't be very safe. We might need some means of self-defense. I hope we can get the Deputy's support in this regard.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "You decide not to rashly activate the headquarters' top-secret safe house for now, and instead head to the local safe house prepared by the Frankfurt station."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew gets behind the wheel of the small car, hoping he's already familiar enough with the local road rules."
+    },
+    {
+      "speaker": "player4",
+      "text": "Stay alert on the way to the safe house to see if we're being followed."
+    },
+    {
+      "speaker": "player5",
+      "text": "Carefully drive the other sedan, following behind Andrew."
+    },
+    {
+      "speaker": "player2",
+      "text": "Used to Britain's unique right-hand drive cars, driving a left-hand drive car feels a bit novel for the first time. However, it doesn't hinder the trained agents. After a brief familiarization, you all hit the road with ease."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I feel like there's a car following us. The driver looks somewhat familiar.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David memorizes the city map along the way, separately planning escape routes to both safe houses."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew drives while occasionally glancing at the small mirror above."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Driving a left-hand drive car always feels a bit awkward. God forbid we get into a traffic accident.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David checks the following car through the rearview mirror."
+    },
+    {
+      "speaker": "player5",
+      "text": "Treat Andrew's car as the target, sticking close to it in the traffic flow. \"Consider it practice.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "You remain tense the whole way, but fortunately, nothing unexpected happens, and you arrive safely at the local Frankfurt safe house."
+    },
+    {
+      "speaker": "player6",
+      "text": "Drive steadily towards the destination, showing off some driving skills along the way, putting on a little show for the colleague following behind."
+    },
+    {
+      "speaker": "player2",
+      "text": "The safe house is located in an ordinary residential area. From the outside, it looks like a typical detached villa."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew parks the car by the roadside."
+    },
+    {
+      "speaker": "player3",
+      "text": "David hopes that by the end of this drive, he'll have memorized the entire city map, including the alleys."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I'll wait in the car. Call me if anything comes up, in German, of course.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ganz vorsichtig, mann.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "After getting out of the car, look around to assess the situation, then follow towards the safe house."
+    },
+    {
+      "speaker": "player5",
+      "text": "Park at a street corner farther from Andrew, keep watch on the surroundings from inside the car, and wait for them to retrieve the items."
+    },
+    {
+      "speaker": "player2",
+      "text": "Everything around seems normal. July 4th is a Tuesday, a weekday afternoon in a residential area with little pedestrian traffic."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew decides to read some leisure books in the car, like that book on information science (or pseudoscience) he just found, which was completely incomprehensible at first glance."
+    },
+    {
+      "speaker": "player4",
+      "text": "Enter the house to retrieve the items."
+    },
+    {
+      "speaker": "player3",
+      "text": "David and Gray enter the safe house one after the other, quickly familiarize themselves with the interior layout, and locate the weapon storage."
+    },
+    {
+      "speaker": "player2",
+      "text": "In the center of the safe house living room sits a brown leather multi-person sofa covered with a warm blanket. The walls are beige, decorated with simple paintings and family photos. The floor is covered with a brown carpet. The room also has a large wooden bookshelf holding a few books, magazines, and some ornaments. A black-and-white television sits in the corner, with a small statue placed on top of it."
+    },
+    {
+      "speaker": "player5",
+      "text": "Take out that Russian document, study it while occasionally glancing around with peripheral vision."
+    },
+    {
+      "speaker": "player3",
+      "text": "Carefully open the hidden compartment and check the condition of the weapons."
+    },
+    {
+      "speaker": "player2",
+      "text": "Inside are 6 .45 caliber pistols with matching silencers and ammunition. Two .45 caliber submachine guns and ammunition. Two Lee-Enfield No.4 sniper rifles and ammunition."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew is a novice, having only fired pistols, and not even very proficiently at that."
+    },
+    {
+      "speaker": "player2",
+      "text": "2 grenades, 2 smoke grenades."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled at many things. <player5>'s personal attributes are: Shotgun: 25."
+    },
+    {
+      "speaker": "player2",
+      "text": "Four bundles of C4 explosives."
+    },
+    {
+      "speaker": "player4",
+      "text": "Did we receive sniper rifle training in agent training?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Medical supplies and equipment sufficient for minor surgical procedures, several common anesthetics, binoculars, camera and film, everyday hardware tools, lockpicking tools, dictionaries and shorthand cards in multiple languages, city street maps and underground pipeline maps."
+    },
+    {
+      "speaker": "player3",
+      "text": "Tuck two pistols behind the waist, disassemble the two submachine guns simply and stuff them into a bag found in the house—a tennis racket bag would be better. Put a bundle of C4 into a clothes pocket. Also take ammunition, leaving the sniper rifles untouched by David."
+    },
+    {
+      "speaker": "player2",
+      "text": "Moreover, deep in the hidden compartment is a secret door; passing through it leads to a secret passage that connects directly to the city's sewer system."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The firepower is sufficient; I hope we won't need to use it.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s Computer Use check result: D100=54/40 Failure. Sorry, I just had an itch to try, didn't expect to make you fail."
+    },
+    {
+      "speaker": "player3",
+      "text": "Take another pistol and ammunition, concealed under the trench coat, this is for Andrew."
+    },
+    {
+      "speaker": "player1",
+      "text": "The mountains and soil listen to your wishes; whatever the causes and karmic retribution, fate already slumbers in your palm. <player5>'s Russian check result: D100=26/60 Hard success. Copying books was indeed useful, trust my experience. <player5>'s Library Use check result: D100=98/20 Critical failure! Life's disappointments are nine out of ten, just ups and downs and downs... I meant to comfort you."
+    },
+    {
+      "speaker": "player6",
+      "text": "Can only flip back and forth, hoping to glean something from this half-understood text, but to no avail."
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 still only understood the title."
+    },
+    {
+      "speaker": "player4",
+      "text": "Put the remaining three pistols with matching silencers and ammunition into the bag. Put the grenades and smoke grenades into inner coat pockets. Also take a bundle of C4. Prepare two backpacks, each containing a set of medical tools, lockpicking tools, camera, and binoculars."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Cyka blyat, what the hell is all this written?\" Can't understand the mystical ramblings in the book at all, angrily slams the book shut with force."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"These things could cause quite a commotion; I hope we won't need to use them.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"I hope we don't encounter any police checks on the way.\" Let's go, get in the car!"
+    },
+    {
+      "speaker": "player4",
+      "text": "Check the safe house's structure once more, pick up the bag, and return to Rabin's car."
+    },
+    {
+      "speaker": "player3",
+      "text": "Distribute the weapons."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The firepower is very ample, even including two sniper rifles and various explosives, plus plenty of other tools. The preparation is really thorough.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew takes a pistol. For the other items, he just looks at them enviously for a while."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then I'll switch with Alison; I'll go to Rabin's car and give him the C4, a pistol, and ammunition."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"They were surely prepared for more professional agents; never thought they'd be activated by us today.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Give him the silencer too."
+    },
+    {
+      "speaker": "player4",
+      "text": "I'll carry two pistols, a smoke grenade hidden in an inner coat pocket, and a bag containing lockpicking tools, medical supplies, and pistol ammunition."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew also places the hardware tools under the driver's seat; they might come in handy later."
+    },
+    {
+      "speaker": "player3",
+      "text": "Forgot to mention, David takes the street maps and underground pipeline maps, as well as the camera and film."
+    },
+    {
+      "speaker": "player5",
+      "text": "Take the weapon passed over by David and put it away safely."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled at many things."
+    },
+    {
+      "speaker": "player3",
+      "text": "Give the items to Rabin, and David, read that book."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Russian check result:"
+    },
+    {
+      "speaker": "player6",
+      "text": "Get in the car and settle down. Andrew first drives around the small town for a while, then heads to the target location."
+    },
+    {
+      "speaker": "player2",
+      "text": "Frankfurt, as a financial hub, naturally boasts prosperity no less than London's, with all kinds of high-end restaurants lining the streets. Your stomachs, having missed lunch, betray you with an untimely growl."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Should we get something to eat?\" Andrew asks Ms. Gray in the passenger seat in a somewhat meek tone."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Of course, it's better to work on a full stomach,\" Alison is already used to Andrew's unique sense of humor. \"You could also try learning some foreign dishes.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "At this very moment, David is still raging helplessly at the book."
+    },
+    {
+      "speaker": "player4",
+      "text": "Then use the radio to discuss lunch arrangements with colleagues."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We're out and about for once, let's find a decent place to try Frankfurt sausages and German pork knuckle.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew nods repeatedly while driving."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I don't have many requirements for food, just clean and hygienic is fine.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "His eyes are already searching for a restaurant with plenty of customers."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Folks, remember to stash the pieces in your pockets before heading to the restaurant.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Drive slowly following Andrew, occasionally scanning the storefronts and pedestrians along the street."
+    },
+    {
+      "speaker": "player4",
+      "text": "Check that the two pistols, fitted with silencers and fully loaded, are lying safely in the inner pockets of the clothes."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew looks down at his waist and abdomen, hoping nothing looks out of place, then immediately raises his head to look at the road."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Found a restaurant you like?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "You recall Jackson mentioned an authentic place called Zum Gemalten Haus in Frankfurt's old town."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Shall we try our friend's recommendation?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Great, this is the one. Grateful to Jackson. Andrew feels he could listen to his chatter for a whole day without getting tired, Frankfurt is so novel."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Drive there."
+    },
+    {
+      "speaker": "player3",
+      "text": "Go."
+    },
+    {
+      "speaker": "player6",
+      "text": "Even though work hasn't started yet, one must always eat."
+    },
+    {
+      "speaker": "player2",
+      "text": "This restaurant lives up to its reputation. The locally brewed apple cider is perfectly balanced between sweet and sour, with a refreshing fruity aroma; the Frankfurt sausages are rich in fat but not greasy, with a delicate spice flavor that lingers pleasantly; the pork knuckle has a crispy, fragrant skin, yet the meat is extremely tender, almost easily cut without a knife and fork. Each bite of pork carries a rich meaty aroma, with fat permeating every fiber, making it a perfect match with beer."
+    },
+    {
+      "speaker": "player6",
+      "text": "Try hard to savor the food, guessing the ingredients and cooking techniques of the dishes."
+    },
+    {
+      "speaker": "player3",
+      "text": "Don't drink and drive, don't drive after drinking. Not to mention David is an Anglican priest. He doesn't drink alcohol."
+    },
+    {
+      "speaker": "player2",
+      "text": "This entire meal only cost 100 Marks, which is a drop in the bucket compared to the 3000 Mark budget."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew still wants to drink a little; a little drink makes driving steadier."
+    },
+    {
+      "speaker": "player4",
+      "text": "Elegantly using knife and fork to savor the delicacies, Alison, as a doctor, also dislikes drinking alcohol."
+    },
+    {
+      "speaker": "player3",
+      "text": "Make sure the four of them eat different foods to prevent poisoning all four at once from food poisoning."
+    },
+    {
+      "speaker": "player2",
+      "text": "As the saying goes, a full belly and warm clothes lead to thoughts of patriotism; after eating and drinking your fill, you are full of drive and ready to work hard for Great Britain."
+    },
+    {
+      "speaker": "player6",
+      "text": "After finishing the meal, it's time to go back to work. Andrew enjoys this brief moment, thinking he'll find a way to replicate it later, making a monkey version."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Mmm, delicious 😋\" German cuisine lives up to its reputation, making Rabin, who has suffered from British food, unable to help but eat heartily, relying only on willpower to maintain basic table manners."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Stay alert, everyone. There might still be accomplices near his residence; we should try not to make too much noise.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I could eat this place's pork knuckle and sausages for a month, no, three months.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew feels sorry for Rabin the driver."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Later, one car's people will go in to investigate, while the other car's people stay on standby to keep watch.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'm really looking forward to it then.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew boldly boasts, even though he's only had one meal."
+    },
+    {
+      "speaker": "player2",
+      "text": "You previously learned from the consulate staff that Haddin's address is in the diplomatic apartment area."
+    },
+    {
+      "speaker": "player6",
+      "text": "The diplomatic apartment area, just thinking about it is full of all sorts of strange creatures. Andrew braces himself with 120% focus, constantly smacking his lips, reminiscing about the taste of apple wine and pork knuckle."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We better hide our gear well.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"It seems we don't even have keys; we'll have to get out and pick the lock... doesn't seem very wise.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "You arrive at the entrance checkpoint of the diplomatic apartment area. You can see it's heavily armed with high security measures; even intelligence agency agents would find it difficult to infiltrate. This means it's very hard for outsiders to invade or blend in to surveil a building for a long time."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're good at quite a few things."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"This, this, should we drive further? I don't think it's very wise...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We have diplomatic status; entering and exiting here shouldn't be strange, right?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Do we?\" Andrew is a bit flustered."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Yes, we do.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew steels himself and drives inside."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Otherwise, how did we come by plane?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"That just proves we entered legally. I thought only the leaders had diplomatic status...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "After verifying your identities, security lets you through normally."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew drives toward Haddin's home. \"When we get there, you all provide cover, and we'll pick the lock.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "You continue driving to the B building apartment where Haddin lives."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Of course, it would be great if he left the key under the doormat; that would save us the trouble.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Drive in, park right next to Haddin's home, observe the surroundings, and after confirming no abnormalities, get out of the car."
+    },
+    {
+      "speaker": "player3",
+      "text": "Get off the car one after another with Rabin. After observing the surroundings, enter the apartment."
+    },
+    {
+      "speaker": "player4",
+      "text": "Keep an eye out for any suspicious individuals approaching while in the car."
+    },
+    {
+      "speaker": "player6",
+      "text": "Wait obediently in the driver's seat."
+    },
+    {
+      "speaker": "player2",
+      "text": "You enter the apartment lobby. The concierge looks like he has been waiting for a while."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hello, we are here under orders from the Foreign Ministry to search Haddin's residence.\" Show credentials."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"That's right, sorry to keep you waiting.\" Show credentials."
+    },
+    {
+      "speaker": "player2",
+      "text": "The lobby here is as normal as any apartment you've seen, with the concierge's desk on the right and a bulletin board beside it."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"When did Haddin leave?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "There's an elevator on the left and stairs ahead."
+    },
+    {
+      "speaker": "player3",
+      "text": "David, go call the other two over."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Understood,\" nods. \"Has anyone else entered or left Haddin's room during that time?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Take the bag and enter the apartment."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No,\" the concierge shakes his head."
+    },
+    {
+      "speaker": "player6",
+      "text": "Time to get to work. Andrew turns off the car and follows Ms. Gray upstairs."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Please take us inside to have a look.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Gives a slight nod, then walks to the bulletin board to examine its contents."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Of course, let me get the keys first. Please wait in the lobby for a moment.\" The concierge turns and enters the duty room."
+    },
+    {
+      "speaker": "player3",
+      "text": "David should be mindful of whether the concierge is lying."
+    },
+    {
+      "speaker": "player6",
+      "text": "If there are windows here, Andrew will go look out of them, admiring the surrounding scenery."
+    },
+    {
+      "speaker": "player2",
+      "text": "There is only one notice on the bulletin board at the moment."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"A spy who has been undercover for years suddenly withdrew on the 30th, without even having time to pack his things and materials. If it wasn't because of a risk of exposure at the embassy, then what could it be?\" Thinks to himself while looking at the notice."
+    },
+    {
+      "speaker": "player2",
+      "text": "The diplomatic apartment's greenery is quite nice, but what's more noteworthy is the row of resident mailboxes by the windows."
+    },
+    {
+      "speaker": "player4",
+      "text": "Notice the resident mailboxes and go check if there are any letters left in Haddin's mailbox."
+    },
+    {
+      "speaker": "player5",
+      "text": "Walk to the resident mailboxes and open the one corresponding to Haddin."
+    },
+    {
+      "speaker": "player2",
+      "text": "Haddin's mailbox is locked."
+    },
+    {
+      "speaker": "player5",
+      "text": "Go to the duty room and ask the administrator if he has a mailbox key."
+    },
+    {
+      "speaker": "player4",
+      "text": "Shrugs and waits to ask the concierge for the key."
+    },
+    {
+      "speaker": "player2",
+      "text": "The concierge happens to come out of the duty room at this moment."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Can you open Haddin's mailbox?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The mailbox? I'm sorry, no. We place great emphasis on communication privacy here. Unless a resident specifically requests it, we do not keep backup keys for the mailboxes.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Then can we open it by other means?\" Andrew asked the doorman in a faint voice. \"We are all colleagues, and the consulate has approved it.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But if you have other ways to open it, we won't stop you.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew looked at his colleagues, seeking their guidance."
+    },
+    {
+      "speaker": "player4",
+      "text": "Take out lockpicking tools and prepare to pick the lock."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Locksmith check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "The doorman looks very sincere."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Take a look at this,\" passing the letter to colleagues for them to read."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew frowned. So this guy was about to be purged and fled for his life, rather than being afraid of the truth coming out."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm? This is getting interesting now.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What newspaper can investigate its own organization? That's too scary.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Then we should go check the apartment as soon as possible.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Take the keys and go to Haddin's apartment."
+    },
+    {
+      "speaker": "player2",
+      "text": "The doorman leads you to Haddin's room."
+    },
+    {
+      "speaker": "player5",
+      "text": "After entering the room, first take out the bug detector and check each room."
+    },
+    {
+      "speaker": "player3",
+      "text": "David remembers to turn off the bug detector. Can't waste electricity."
+    },
+    {
+      "speaker": "player2",
+      "text": "Although the living room's decor and furniture meet middle-class standards, the owner of the house doesn't seem to have bothered with more upkeep. If not for the bookshelf full of books and some messy items on the coffee table, this would almost be an uninhabited showroom."
+    },
+    {
+      "speaker": "player3",
+      "text": "David goes to search the bedroom."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison heads straight for the bookshelf, scanning Haddin's book collection."
+    },
+    {
+      "speaker": "player2",
+      "text": "The bedroom furnishings are also very simple, with only a bed, wardrobe, nightstand, desk, and chair, equally plain."
+    },
+    {
+      "speaker": "player4",
+      "text": "Pick up those academic works and flip through them."
+    },
+    {
+      "speaker": "player3",
+      "text": "David searches every cabinet in the bedroom, including under the bed and between cabinet seams."
+    },
+    {
+      "speaker": "player2",
+      "text": "Nothing strange is hidden inside; the content is still about brain science and computer networks."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Judging by the letter's date, the June 30th phone call probably wasn't from that reporter. Haddin's newly discovered files likely haven't been sent out yet. If he fled in a hurry after the call, who was notifying him? This is more complicated than we initially thought.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Finding nothing from flipping through the books, look at the coffee table."
+    },
+    {
+      "speaker": "player5",
+      "text": "Go to the bathroom, check all drawers and cabinets, as well as the trash can and toilet."
+    },
+    {
+      "speaker": "player2",
+      "text": "On the coffee table surface, besides tea sets, there is a silver badge with strange symbols. The ribbon below has a line of text: Thule Tradition Society."
+    },
+    {
+      "speaker": "player6",
+      "text": "Then Andrew goes to the kitchen; he's very familiar with this area."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yes, he was working for some organization and received threats from within it. Based on his unique preference for black magic and Nazis, this organization probably researches these things too.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Education check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray recalls some knowledge about West German society and Jackson's introduction: The Thule Tradition Society is a neo-right-wing organization in post-war West Germany. They promote ideas like \"Germany's WWII history has been smeared\" and \"Jews are actually guilty,\" and are considered a typical neo-Nazi organization. However, the organization itself is relatively loose, usually only engaging in protests and demonstrations, with occasional small-scale vandalism and crimes against foreigners, closely monitored by West German police."
+    },
+    {
+      "speaker": "player4",
+      "text": "Carefully take out these materials to read."
+    },
+    {
+      "speaker": "player2",
+      "text": "Mainly some correspondence, in which Haddin used a pseudonym to inquire about the activities and founders of the Thule Traditional Association. The association's replies were illogical and full of exaggeration. Haddin replied agreeing with their ideas, \"could help them within his capabilities,\" and \"combat those who slander Germany.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This guy is still supporting this neo-Nazi organization.\" Share your findings with colleagues."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"He seems a bit too curious.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Feels like some kind of sting operation.\" Andrew chimes in from the kitchen."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"From a spy's perspective, his interests are a bit too broad.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David is lying flat on the floor looking under the bed."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What kind of spy gets involved with such hot potatoes? Even I know to avoid trouble. He must have other motives.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Check the various corners of the living room again, and the trash can."
+    },
+    {
+      "speaker": "player2",
+      "text": "No other valuable items found."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Neo-Nazis, shamanism, computer and neuroscience, plus private investigations. Makes you wonder how many organizations he's really working for.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Then wait for the teammates' findings."
+    },
+    {
+      "speaker": "player2",
+      "text": "@player3 The wardrobe and bedside table are all normal."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Idea check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "While preparing to check the desk drawer, David feels the drawer is slightly harder to pull, as if the slide rails are rusty or connected to something."
+    },
+    {
+      "speaker": "player3",
+      "text": "David cautiously stops. He crawls under the desk to check the drawer slide rails, hoping it's not connected to a bomb."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Mechanical Repair check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "David can't figure it out."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Guys, anyone know mechanics? This drawer seems to have something.\" Call for backup."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew emerges from the kitchen, feeling summoned."
+    },
+    {
+      "speaker": "player4",
+      "text": "Bring lockpicking tools to the front of the drawer."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I know a little about gears too.\" Andrew squats down, but he yields the center position to the senior colleague."
+    },
+    {
+      "speaker": "player4",
+      "text": "Signal for Andrew to go ahead."
+    },
+    {
+      "speaker": "player1",
+      "text": "Mountains and soil listen to your hopes. Whatever the causes and effects, fate already slumbers in your palm."
+    },
+    {
+      "speaker": "player3",
+      "text": "David crawls out from under the desk."
+    },
+    {
+      "speaker": "player2",
+      "text": "Andrew didn't figure out what this thing is either."
+    },
+    {
+      "speaker": "player6",
+      "text": "Doesn't seem to be going smoothly. Andrew is sweating profusely; he's sweated too much today."
+    },
+    {
+      "speaker": "player4",
+      "text": "Seeing Andrew failed, Alison first tries to shake the drawer to feel where it's stuck, then pokes and prods the slide rails with tools, trying to find the key issue."
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like shackles, and now you gamble on that untraceable chance?"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Any ideas?\" Andrew looks at the senior colleague, one of his life mentors, full of expectation."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray noticed something unusual: a simple yet ingenious device was embedded in the drawer, connected to the inside of the drawer handle via a thin wire. Opening it recklessly would directly trigger the device, but the consequences of triggering it were unknown."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This is a trigger device. Opening it recklessly might activate the mechanism. I haven't managed to disarm it yet,\" Alison shook her head."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"If we can't open the drawer, how about opening the cabinet?\" Andrew suggested boldly."
+    },
+    {
+      "speaker": "player5",
+      "text": "@player6 \"I think that's a good idea. Perhaps we can try opening this space from another angle.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"But that also carries significant risks, as we still don't understand how this thing works.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like shackles, and now you must gamble on that which leaves no trace?"
+    },
+    {
+      "speaker": "player6",
+      "text": "The method worked."
+    },
+    {
+      "speaker": "player2",
+      "text": "Andrew changed his approach, easily dismantled the device, and retrieved the documents inside."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Well done, Schiller.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Medical report. The content of this report was: Arthur Haddin was in the late stages of cancer, and doctors recommended conservative treatment to prolong his life."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Couldn't have done it without the cultivation and guidance of all the leaders and colleagues...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Rental contract: a safe deposit box contract with Standard Bank. The lessee's name was Arthur Haddin, but there was no key."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What is ODESSA?\" Andrew asked curiously."
+    },
+    {
+      "speaker": "player2",
+      "text": "None of you know anything about this."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I don't know either. Can anyone understand these letters?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"But it seems knowing what this thing is isn't particularly auspicious.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Another mysterious organization, one that existed since the Nazi era... ODESSA?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew shook his head vigorously."
+    },
+    {
+      "speaker": "player1",
+      "text": "Mountains and soil listen to your wishes. Regardless of the karma and retribution, fate already slumbers in your palm."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"So our Haddin has Russian friends too. How rare.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The handwriting is too scribbled; player5, accustomed to standard script, finds it a bit hard to read."
+    }
+  ],
+  "start_line": 631,
+  "end_line": 945
+}

@@ -1,0 +1,800 @@
+{
+  "section": "9. Haddin Factory: Death Scene",
+  "description": "Tracked to Haddin's hideout, found him already dead. David took photos of the death scene, collected clues, and then headed to the Hermes Club.",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": "He rummaged through a stack of papers on the table and casually pulled out a crumpled file. \"These types of incidents can be traced back to the early 19th century and have continued to the present day,\" he said. \"In all reports, the targets of these 'strange beasts' almost always share a common point: they were obsessed with mysticism, magic, or some lesser-known fields of study, and—they typically consumed some kind of 'Eastern' forbidden drug.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"When was the most recent attack?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"1958, Hamburg.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Have there been any recent signs of activity in Frankfurt?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"All eyewitnesses mentioned that it was a smoke-like 'beast'—yes, they all said the thing appeared out of thin air, but the problem is, none of the descriptions of its specific form were the same.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"How rare. So what do you need us to do? You must have made some preparations beforehand to recruit people, right?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "He scratched his head, \"What do you mean what I need you to do? I'm recruiting volunteers, not employees.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "So this recruitment ad was just for a simple hobbyist group. Andrew gained a whole new understanding of the matter."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Did you think this was a bounty and came for the reward money? Then I'm afraid you're not welcome here.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Mr. Winter, have there been any applicants before?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Truly unbelievable, quite astonishing,\" showing great interest while flipping through the materials."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No, generally speaking, radio enthusiasts are a minority, and weird tale enthusiasts are even fewer. By the way, are you interested in radio? You can still join our club and participate in all our team-building activities.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Oh? What kind of team-building activities are there?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Recently, the association has been conducting investigation activities on two themes: 'Nazi Fugitive Communication Radio' and 'Strange Beast Attacks.' The latter is the one you're interested in.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Nazi fugitive communication radio? That sounds interesting too. Can I learn more about the specific content of the activity?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You know, what our association is most proud of is our historical records of various niche radio broadcasts, probably the most comprehensive in all of Europe. We even have records of radio stations that only broadcast meaningless sounds, strange languages, or numbers.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "This association seems to do everything, but it looks like there are quite a few people, and they even have a dedicated activity venue."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"This means that the information broadcast by those Nazi fugitives using radios is also highly likely to be in the historical records.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wow, that's really cool.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Chasing these things is very dangerous; you need to ensure your own safety too.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Haha, thanks for the reminder. At least so far, we haven't encountered anything.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Any results from tracking these radio stations now?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I'm willing to contribute. Is it possible even if time is tight?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No, shortwave radio records are as vast as the sea, unless you know the exact frequency in Hertz of a valuable station.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Gives Andrew a meaningful look. We happen to know three radio stations."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Otherwise, it's like looking for a needle in a haystack.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Approaches those volunteers: \"Hey guys, how's it going? Any findings?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No, filtering out meaningless radio stations is already troublesome enough. After filtering, the radio information still needs its encryption method cracked; without a codebook, it's just too difficult.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Which radio station information is currently more suspicious?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"All the ones on this list.\" He casually picks up a form with hundreds of densely packed entries."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let me see.\" Picking up the form and examining it carefully, checking if there's a frequency Haddin was listening to."
+    },
+    {
+      "speaker": "player2",
+      "text": "You skim through it; there shouldn't be."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew checks if there are any signals that became active around 6.30 and 7.1 as mentioned before. Those that fit this timing characteristic."
+    },
+    {
+      "speaker": "player2",
+      "text": "Absolutely not. Tracking Nazi fugitives is definitely not something that would involve such recently active signals. The radio frequencies inside are at least 10 years old."
+    },
+    {
+      "speaker": "player6",
+      "text": "In a way, this seems to indicate that the call signs we previously learned about come from newly involved personnel, or other sleeper agents."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Actually, we've previously investigated some matters related to Nazis. We noticed a frequency, shortwave 4625kHz. Is there a record of this frequency here?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You can look it up by number yourself. Our archival classification work is quite effective.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison searches through it herself."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Do you have the Frankfurt library catalog index here?\" Andrew directly asks Mr. Winter."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hmm, of course. Although we don't go to the library often, it's nice to have it on the association's shelves for show.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"That's great. We might be able to use it.\" Andrew walks to the bookshelf to find that book, also looking for anything else that interests him."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray successfully found the transmission history records of the channel heard in Haddin's home, but the content is extensive and requires decryption using the library catalog index."
+    },
+    {
+      "speaker": "player1",
+      "text": "The mountains and soil listen to your wishes. Whatever the causes and effects, fate already slumbers in your palm."
+    },
+    {
+      "speaker": "player2",
+      "text": "Andrew and player5 accidentally knocked over a row of ink bottles next to them, completely soaking the latter part of the records. So Gray spent four hours reading the undestroyed content, while the other two tried to salvage the damaged records to avoid being killed in a rage by the president. This radio's call sign is Academy. In the communication history, four members are mentioned: Aquinas as the leader, and Kant, Nietzsche, and Hypatia."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ah, sorry... We'll compensate for the damage.\" Apologizing repeatedly for the mistake."
+    },
+    {
+      "speaker": "player2",
+      "text": "This radio station has been operating in the Frankfurt area since 1955;"
+    },
+    {
+      "speaker": "player1",
+      "text": "The record of the story Algorithm of the Heart has continued to open. Currently, 4134 texts have been recorded."
+    },
+    {
+      "speaker": "player6",
+      "text": "Last time, we obtained several key pieces of information from the Radio Association."
+    },
+    {
+      "speaker": "player2",
+      "text": "Right. However, the reckless player5 and Schiller damaged a large amount of material, leading to an unpleasant parting between you and the Radio Association. A livid Winter declared you unwelcome here."
+    },
+    {
+      "speaker": "player5",
+      "text": "Leaving the Radio Association in disgrace, meeting up with companions in the car."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Personal grudge. It seems he wanted to take revenge on a certain person or organization, but was stopped by the forces behind him. After that, he acted on his own, thus becoming hunted by the organization.\" Alison analyzes the situation."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Although we know nothing about all this, we can now confirm that Haddin is indeed a spy.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"'Homeland' should refer to the Soviets, but 'pawnshop' and 'wedding ring' are a bit unclear.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What force would Haddin have such a huge personal grudge against, that he would take major action even at the risk of being hunted by multiple parties?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mysterious beasts, Soviet prisoners—perhaps related to these two documents.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Because the Soviets previously formed a secret cooperation with the neo-Nazis, and Haddin has some old grudge with the Nazis.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"1946... What happened that year?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"There are at least three parties here. If it's the Soviets and neo-Nazis, what is the third party?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Where do we go next? We still know nothing about what Haddin intends to do. We need to find that guy.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Perhaps we can go check out that poverty alleviation agency. We might even get some soup. They seem like good people.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "So, filled with doubts, you drove to the William Outer Ring Road factory."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"This location is really treacherous.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Originally a munitions factory? Who knows what secrets are hidden here now. A rash visitor might alert the enemy."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I hope we can make it back the same way.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We still know almost nothing about this place. Should we observe for a while first?\" Andrew recalled his last stakeout, where he got hit hard on the head."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It really is a place suitable for hiding secrets. We'd better be prepared.\" Alison checked her equipment."
+    },
+    {
+      "speaker": "player2",
+      "text": "Once bitten, twice shy. The cautious Schiller and Gray observed the factory area from a distance."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player6",
+      "text": "Clang! Clang! Clang!"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I hope we won't be ambushed.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Schiller stuck his head out the window to observe, but the weather wasn't cooperating. A light rain began to fall, and a gust of wind swept leaves and dust into your face. You felt the leaf stem hit your eye hard."
+    },
+    {
+      "speaker": "player6",
+      "text": "Ouch, my eye! Schiller futilely pulled his head back in, trying to brush the dust from under his eyelid."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's wrong, Schiller?\" Alison turned to check on her colleague, then looked back out the window. \"The situation here isn't great. Two of the buildings have skylights now.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Dust got in my eye. It's practically destroying me.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No big deal, it'll pass after a while.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "You drove into the compound. You could immediately see a small car parked at the entrance of the intact middle building, engine off, seemingly empty. The ground inside the compound was dirt, muddy and full of puddles after the rain."
+    },
+    {
+      "speaker": "player4",
+      "text": "Any signs of recent activity nearby?"
+    },
+    {
+      "speaker": "player6",
+      "text": "Is the car covered in dirt, or does it look clean?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Only the sound of pattering rain. The factory buildings look long abandoned, overgrown with weeds."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I feel uneasy. Perhaps we should approach carefully. The rain provides good cover.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"This car has been here for a while.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No fresh signs of activity nearby, but we can't rule out someone staying inside long-term. I'll take the front; you two watch the rear directions. We'll advance slowly.\" Alison decided to proceed cautiously."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Everyone, stay alert.\" Carefully approach the parked car, observing for footprints nearby."
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 cautiously approaches the vehicle, looking through the windows. The interior, trunk, and glove compartment hold nothing noteworthy."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew got out of the car, sometimes helplessly opening his eyes wide, sometimes having to squint."
+    },
+    {
+      "speaker": "player2",
+      "text": "No footprints anywhere."
+    },
+    {
+      "speaker": "player4",
+      "text": "Go to the entrance and observe the factory door. Is it locked?"
+    },
+    {
+      "speaker": "player2",
+      "text": "@player4"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Our target should be the intact No. 2 factory in the middle.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Then player5, combining the fragments, deduces that this intact factory building sandwiched in the middle must be the No. 2 factory. The meticulous Gray discovers a familiar-looking device. You've seen a similar self-destruct device in Haddin's home study, but on a much larger scale. Any attempt to push the door open without inspection would trigger the device."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Careful! It's a device similar to Haddin's drawer. Opening the door recklessly will trigger the mechanism.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Huh?\" Andrew, still troubled by his own eyeball, feels this not-so-clear world in confusion."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison takes a careful look at how to disarm this device. Can the experience from Haddin's house be applied here?"
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like shackles, and will you now gamble on the one that leaves no trace? <player4>'s Mechanical Repair check result: D100=50/10 Failure. Truly unfortunate! As bad as all your money from selling hawthorns being robbed! But you'll try again tomorrow."
+    },
+    {
+      "speaker": "player6",
+      "text": ".stshow Mechanical Repair"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Good grief, they installed something like this here too. I'm getting more and more curious.\" \"Could this be Haddin's car?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're good at quite a few things. <player5>'s personal attributes: Mechanical Repair:10"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I can't fix this thing, can you guys take a look?\" Alison can pick locks, but isn't very good at fixing things. Then take out lockpicking tools and try to disarm it by referencing the structure of the mechanism seen at Haddin's house."
+    },
+    {
+      "speaker": "player6",
+      "text": "The blind Andrew is probably not a good choice right now."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Locksmith check result: D100=75/60 The result is suc... oh no, it's a failure. Perhaps there's still a way to remedy it. Let me see, you're good at quite a few things. <player5>'s personal attributes: Locksmith:1"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Andrew, let me take a look at your eyes.\" Alison cups Andrew's face."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Medicine check result: D100=48/80 Success. A close success. Adventurer, boldness always has its rewards."
+    },
+    {
+      "speaker": "player2",
+      "text": "Alison gives Andrew a set of eye exercises, successfully relieving his discomfort."
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like shackles, and will you now gamble on the one that leaves no trace? <player5>'s Mechanical Repair check result: D100=14/10 Failure. Truly unfortunate! As bad as all your money from selling hawthorns being robbed! But you'll try again tomorrow."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew half-squats, accepting the doctor's professional treatment. This kind of thing really needs a second person's help; it's hard to see one's own eyes by oneself."
+    },
+    {
+      "speaker": "player1",
+      "text": "Mountains and soil listen to your wishes. Regardless of what kind of karma and retribution, fate already slumbers in your palm. <player6>'s Mechanical Repair check result: D100=20/40 Hard Success. Copying books was indeed useful. Trust my experience."
+    },
+    {
+      "speaker": "player2",
+      "text": "Then Andrew successfully disarms the self-destruct device on the main door."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison holds her gun ready to shoot."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Finally able to be of some use.\" Andrew stands up from the ground, squinting his eyes to look into the darkness."
+    },
+    {
+      "speaker": "player5",
+      "text": "Draw the pistol, release the safety."
+    },
+    {
+      "speaker": "player2",
+      "text": "You kick the door open with guns raised, leap in, roll on the ground, and look for cover. But your high alertness is clearly misplaced. Your entry only stirs up a cloud of dust."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Maybe we should check the car later. Cars came in, but none went out. That's very strange.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The factory interior is empty, with only a table and a clue board placed in the corner. The wind from the opened door makes the clue board, covered in sticky notes and photos, sway slightly."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Which great detective is working a case here?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Someone's secret base, planning something here.\" Andrew goes to feel for the light switch, if there is one."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wow, so cool.\" Walks towards the clue board: \"I never thought our Mr. Haddin was a great detective.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Andrew turns on the factory lights. The bright fluorescent lights are clearly helpful for your investigation."
+    },
+    {
+      "speaker": "player6",
+      "text": "Are there no exits in this room other than the main door? Andrew decides to search for one, at least to find out where the car's owner went and why they abandoned the car on the spot."
+    },
+    {
+      "speaker": "player2",
+      "text": "The clue board was covered with sticky notes and photos, looking like a tangled mess at first glance. Andrew decided to explore deeper into the factory building. As you gradually approached, you smelled a faint, rotting scent of blood."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew felt afraid. He turned and ran back to report the smell of blood to his companions."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's going on? Let's go take a look together.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew had to grip his pistol. He wasn't very used to such things, though he had been forced to use one not long ago. He returned to the spot where he had smelled the blood and cautiously explored further in."
+    },
+    {
+      "speaker": "player4",
+      "text": "Keep ready to shoot at any moment, slowly advancing with Andrew."
+    },
+    {
+      "speaker": "player2",
+      "text": "Your gaze, aligned with the gun barrels, slowly swept over every part of the factory. When it fell upon the pile of fragments on the ground, all of you involuntarily stopped in your tracks. It was a scattered, charred pile of fragments, as if torn apart by some force. The outlines of flesh and blood were already blurred, twisted like a pile of discarded rags. But amidst this chaotic mess of corpse parts, one head remained intact—the scalp torn, the face mangled, but the features... could still be recognized as belonging to someone. Arthur Haddin."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"G-good evening, sir.\" Andrew stammered, frightened."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"This...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Does this count as completing our mission?\" Alison, having seen plenty of mangled flesh, still had the energy to make a pale joke."
+    },
+    {
+      "speaker": "player5",
+      "text": "Completely unexpected that the target they had been chasing for days would appear before them in this way."
+    },
+    {
+      "speaker": "player2",
+      "text": "Arthur Haddin—the key person you tracked here, the answer you had been trying to find. His clues should have led you to deeper truths... And now, he was nothing but a pile of scattered, unrecognizable flesh and blood."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Even if we caught Haddin now, even if we got the documents, I'm afraid it still wouldn't clear our names. Unless we can get enough evidence to bring down that evil old man.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison took out a mask, scalpel, bone saw, and other items, attempting to glean some useful information from this pile."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Medicine check result: D100=65/80 Success. A close call. Adventurer, boldness always has its rewards."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray discovered a hard glass sphere in the left eye socket of the skull; this was Haddin's prosthetic eye. The wear marks on the left eye socket confirmed that this corpse had indeed worn a prosthetic eye long-term, and it wasn't a post-mortem forgery. The severance marks on the dismembered parts were too decayed to determine the cause, but you know that even if a self-destruct mechanism's explosion was triggered, it absolutely couldn't have blown a human body to this extent. Therefore, the corpse parts must have another cause."
+    },
+    {
+      "speaker": "player5",
+      "text": "@player6 \"I think so.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Based on the degree of decay, the time of death can be estimated to be about 5 days ago."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Actually, 'not showing up for work' doesn't mean he fled; it means he's dead.\" \"He didn't die at his own workstation, but died here?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"He probably died about five days ago... The device at the entrance wouldn't have blown him up like this. He died for some other reason.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Additionally, you found a handkerchief in the trousers pocket of the corpse parts, with some kind of dried water stain on it."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"A classic locked-room murder case.\" \"An impossible crime, probably.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Was it his own organization that got to him, or someone else?\" Carefully take out the handkerchief with gloved hands."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I don't think so.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Can you guys see anything special about this handkerchief?\" Alison examines it carefully."
+    },
+    {
+      "speaker": "player2",
+      "text": "An ordinary handkerchief. Only the dried water stain is somewhat strange; it can definitely be determined it's not pure water."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Medicine check result: D100=32/80 Hard Success. Copying from books really is useful. Trust my experience."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray can confirm that the water stain on the handkerchief is a trace of a common fluorescent agent, transparent and colorless under normal light."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"A fluorescent agent. It should glow under special light.\" Is there anything else noteworthy in the back of the factory?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Apart from the corpse parts, there's nothing else noteworthy. You all return to the table and clue board again."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I wonder if he wiped something he wrote with it, or simply got it on somewhere.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "There were many things on the table weighed down by an ink bottle."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"He should have left some information on it.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I thought of that just now; the neat cross-section doesn't seem to quite match.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Under the ink bottle was first the original floor plan of the Museum of Modern Art, with traces of carbon paper on the back."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"He... seems to want to travel to the future...? What's the purpose of such a one-way trip? Won't he be hunted by Tengu?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"It seems we'll encounter Haddin there again. But why didn't he destroy these things? Isn't he afraid someone might follow in his footsteps and cause trouble?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Perhaps these things no longer matter to him. Now that his body is here, does it mean the Haddin who traveled to the future is dead?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Perhaps so.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So, our question is, how do we prove our innocence now?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The story record of the Algorithm of the Heart has resumed, currently 4383 texts recorded."
+    },
+    {
+      "speaker": "player2",
+      "text": "Last time we said, \"So, our question is, how do we prove our innocence now?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"What should we do now?\" David was full of doubts."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Although we've been closely following Haddin, so far, not only have we failed to grasp any leverage over the old man, but even Haddin has died.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Perhaps we still have a chance to save Haddin in the future? Otherwise, how can we prove our innocence?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Perhaps a little blackmail material on the old man would do, maybe a lot, it must be irrefutable. Haddin would certainly be a good witness, but from the information we have, he doesn't seem like someone easily subdued.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Brandt planned this in advance. He took our photo as soon as we met; he must have intended to pin the blame on us from the start. What exactly is he trying to cover up?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I wonder if the news of the missing file has already reached home. I hope this blame doesn't fall on our heads.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Saving him is probably not possible. Haddin on the 6th traveled from the 30th; if he loses consciousness, he returns to his original time.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"That was a generally confidential file, about unknown beast attacks. I suppose it's related to this 'dog' Haddin is investigating?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Haddin's personal grudge likely doesn't have long-term, stable support. So, those with a strong desire regarding him should be his long-term collaborators or his long-term enemies. Considering the old man has been in Frankfurt for a long time, it's hard to believe he'd let an enemy operate under his nose.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We actually accepted the time travel setting so easily,\" Alison quipped, then continued studying Haddin's clue board."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"In all the reports, these 'strange beasts' attacks almost always have one thing in common: the targets were obsessed with mysticism, magic, or some lesser-known studies, and—they usually took some 'Eastern' forbidden drug.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Since the clairvoyance, I don't think I'll be surprised by anything I see anymore,\" David said weakly."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"No matter where the victims were or what defensive measures they took when attacked, their final outcome was the same,\" he said softly. \"All bodily fluids sucked dry, limbs torn apart, the scene horrific.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Of course, I'd also like to take a few days to catch my breath and put these crazy ideas aside.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"These are the Radio Society's descriptions of Chinese secret drugs and mysterious beasts. I think what's recorded in the notes is exactly this stuff.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"From the signs, Haddin might have died from this thing. I wonder if such information could earn us favor with the Radio Society, though it's full of risks of exposure.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "@player3 \"I'd actually quite like to experience it too; it's a rare and wonderful experience in the world.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"And there's that Solomon House visiting the elderly activity; it looks very likely to be Nazis in disguise.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We've already gotten enough information from the Radio Society; the clues Haddin collected are more crucial.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We'd better catch Haddin's handler or colleagues, get evidence of the old man's treason to clear our names.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Perhaps we should make contact with Hermes' people.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"That makes sense. Now we have more clues.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I think news of Haddin's death might also be valuable to the journalist. That manner of death is quite... novel.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"That's a good idea.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You mean... commission the journalist to look up some information for us?\" Strokes chin. \"Not a bad idea.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We have no money and no credibility. We can only rely on her goodwill.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Speaking of which, this... Dr. Gurevich? He had some interactions with both Haddin and Lehmann. Feels like he's a key figure too, but we don't know where to find him yet.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"I think Gurevich runs a psychology clinic in Frankfurt city. Also, as we saw before, Karl Pitz lives at Frankfurt University.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Not sure if he'd be interested in Lehmann's death. We're just going around delivering obituaries to everyone.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We could just look up his clinic on a map.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"He might not know Lehmann or Haddin. It's just that Haddin was investigating Gurevich.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Hermes might be friends! Seeing as we got beaten up by the Free Corps.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This delivery mission is really complicated.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I think we'd better go meet the Hermes group first. We share a common enemy. With their influence, they should be able to provide us some help.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Maybe we should contact the journalist first, get her to brief us on the targets we're about to face.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"A phone call should suffice. Let's get started then!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hope she doesn't hang up immediately after receiving our call.\""
+    }
+  ],
+  "start_line": 2524,
+  "end_line": 2839
+}

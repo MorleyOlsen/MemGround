@@ -1,0 +1,94 @@
+llm:
+  provider: openai
+  # api_key: "YOUR_API_KEY_HERE"           # Replace with your OpenAI-compatible API key
+  # base_url: http://127.0.0.1:8000/v1     # Or e.g. https://api.openai.com/v1
+  # model: gpt-4o                          # Model name, e.g. gpt-4o, qwen3-32b, deepseek-chat
+  temperature: 0.2
+  max_output_tokens: 600
+  base_url: https://api.deepseek.com
+  model: "deepseek-reasoner"
+  api_key: "sk-f976c47739e6484fb8a2af8adb5628ee" 
+  goal_instruction: |
+    You are playing a galgame.
+    Use retrieved memory to stay consistent with earlier hints.
+
+judge_llm:
+  provider: openai
+  api_key: "sk-f976c47739e6484fb8a2af8adb5628ee"     # API key for the judge LLM (can be same as above)
+  base_url: https://api.deepseek.com
+  model: "deepseek-reasoner"
+  temperature: 0.0
+  max_output_tokens: 1024
+
+embedding:
+  provider: qwen
+  api_key: "YOUR_EMBEDDING_API_KEY_HERE" # Replace with your embedding API key
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  model: "text-embedding-v4"
+  dim: 1024
+  use_real: false  # Set to true to enable real-time embedding generation
+
+agent:
+  max_steps: 1
+  retrieve_top_k: 3
+  verbose: true
+  retriever_type: "vector"   # "keyword" or "vector"
+  max_context_tokens: 65000
+  enable_compression: true   # Enable memory compression
+  compression_threshold: 100 # Trigger compression after N turns
+  compression_count: 80      # Compress earliest N turns each time
+
+mem_agent:
+  use_mem: false
+  # To enable A-mem (local) or Mem0 (cloud), uncomment and configure:
+  # mem_name: "a_mem"
+  # use_mem: true
+  # clear_on_start: false
+  # amem_embedding_model: "all-MiniLM-L6-v2"
+  # amem_llm_backend: "openai"
+  # amem_llm_model: "gpt-4o-mini"
+
+checkpoint:
+  enabled: true
+  interval: 20               # Save checkpoint every N steps
+  dir: "checkpoints"
+  resume_from: null
+  # To resume from a checkpoint, uncomment and set the path:
+  # resume_from: "checkpoints/checkpoint_type_help_session_step_39.json"
+
+# ── Game Environment Configuration ──────────────────────────────────────────
+# Uncomment ONE game block at a time.
+
+# ── Type Help (file puzzle game) ─────────────────────────────────────────────
+env:
+  # game_type: "type_help"
+  # scenes_path: "dataset/type_help-en/nodes.json"
+  # start_node_id: "Background"
+  # test_language: "en"
+  # enable_hint: true
+  # hint_failure_threshold: 50
+  # provide_naming_rules: false  # Set to true to show file naming rules in prompt
+
+# ── The Dust Settles (mystery investigation game) ────────────────────────────
+# env:
+#   game_type: "dust"
+#   scenes_path: "dataset/The_dust_settles-en/nodes.json"
+#   start_node_id: "start"
+#   test_language: "en"
+#   show_order_judgements_history: false  # Show all past ordering judgements in prompt (dust only)
+
+# ── TRPG (tabletop RPG comprehension) ────────────────────────────────────────
+env:
+  game_type: "trpg"
+  trpg:
+    story_name: "Terror_on_the_Orient_Express"
+    # story_name: "Cold_Wind_Howling"
+    # story_name: "Spring_Snow_Incident"
+    # story_name: "Bread_or_Stone"
+    # story_name: "The_Empathy_Algorithm"
+    # story_name: "Fall_of_the_Kingdom"
+    # story_name: "Long_Road_Home"
+    # story_name: "Snowball_Adventure_Party_Disbands"
+    stories_dir: "dataset/trpg_en/stories"
+    qa_dir: "dataset/trpg_en/qa"
+    test_language: "en"

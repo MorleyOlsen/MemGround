@@ -1,0 +1,400 @@
+{
+  "section": "13. Final Reconnaissance: Cave Entrance",
+  "description": "The investigators reconnoiter the path leading deeper, rolling to discover the cave entrance, making final preparations to throw the Talisman into the lake.",
+  "conversation": [
+    {
+      "speaker": "player7",
+      "text": "#Holding the medal tightly, staring intently at it, and speaking with his mouth: \"Hmm... I can't take my eyes off it...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Whispering to player4 \"Is there any way to knock him out for a little while?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No need, right?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Don't you think, if we take this thing to the collector\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Forget all that\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You lost your gun, can you beat the collector?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"His informants are all dead now\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The Turks did it, his men were incompetent.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Any evidence?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We have the medal, he has to believe it.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I don't think he's someone easy to talk to.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The premise is he can't just snatch it.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"You're right, he could also just treat us like a stray dog on the roadside, kick us to death and take the medal.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That's why we can't carry it on us.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"A bit humorous\""
+    },
+    {
+      "speaker": "player5",
+      "text": "(Without Xiao Tang, we should just be cautious.)"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Alright then, we can go directly to the cave to take a look.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Then let's just go.\" #Staring at the medal"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go, then please lead the way.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"If you really can't, can't you put it in your clothes?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"No, I'm hard-controlled.\" #Staring at the medal, shaking head."
+    },
+    {
+      "speaker": "player2",
+      "text": "The four walk out of the villa. The Bora wind violently sweeps across the land. player4, player5, and Bolan struggle to steady themselves in the gale. Only Johnson stands unaffected, as if a calm, windless area surrounds him."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Keep up!"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We seem to have found the origin of the wind.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The last ray of the setting sun is about to sink below the horizon. Dusk envelops the street like a thin veil. The north wind howls, carrying sand and dust. Johnson clearly hears a tearing wail mixed within the wind. The sound doesn't seem to come from a human or animal, carrying an ancient sorrow, piercing Johnson's eardrums like an ice pick and echoing within his skull. (.sc 1/1d6)"
+    },
+    {
+      "speaker": "player7",
+      "text": ".sc 1/1d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"What did you say?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The wailing sound from the north seems to transform into an invisible pull, causing Johnson's feet to uncontrollably turn northward."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Pricking up ears to listen."
+    },
+    {
+      "speaker": "player2",
+      "text": "Just wailing, no language"
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Ah, damn my foot\" #Tensing muscles and pulling back hard"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Don't worry, follow the direction of the guidance\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"It seems like a monster is calling me over there, be careful\" #Shouting"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What we're looking for is the monster\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#That is not affected by the wind, so Johnson directly runs to his companion's side, seeing if his companions can benefit from this effect."
+    },
+    {
+      "speaker": "player2",
+      "text": "Cannot benefit"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Postumia Cave\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Check if this place is on the map\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The map of Trieste does not have this place"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ask the locals for directions\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Raising hands in surrender"
+    },
+    {
+      "speaker": "player2",
+      "text": "You walk out of this decaying street and onto a relatively bustling street"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This, what do we do\""
+    },
+    {
+      "speaker": "player5",
+      "text": "(taxi! taxi!)"
+    },
+    {
+      "speaker": "player2",
+      "text": "A yellow taxi suddenly screeches to a halt by the roadside. A stubble-faced driver rolls down the window and shouts: Where to?"
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Alright alright\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#gogogo"
+    },
+    {
+      "speaker": "player2",
+      "text": "The taxi arrives at the train station in the night. The square in front of the station at seven o'clock is lit by dim yellow lights. The electronic schedule board flashes with departure information. Late-returning travelers drag their suitcases hurriedly through the cold wind."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Pays the money"
+    },
+    {
+      "speaker": "player2",
+      "text": "You pay the money"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Opens eyes, yawns, gets out of the car holding the medal."
+    },
+    {
+      "speaker": "player2",
+      "text": "Johnson pushes the car door open and steps into the station square. The violent Bora wind swirls with scraps of paper and sand grains, but the hem of his clothes remains perfectly still. The medal in his arms glows with a steady faint light under the station lights. The other three, having just gotten out of the car, are staggered by the strong wind and have to shield their faces from the blowing dust and sand."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Such an awesome medal\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Bro, let me touch the medal\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Unfortunately, this glory is mine alone to enjoy\" #Seeing this scene, Johnson can't help but recite a line from some movie he can't quite place."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I'm freezing my ass off\""
+    },
+    {
+      "speaker": "player2",
+      "text": "You enter the station. The people inside the train station seem busy with their own affairs, but their gazes envelop the four like an invisible spiderweb, especially Johnson who is tightly clutching the medal. The waiting hall is filled with a tacitly understood tension."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"No way, this thing is warm\" #Pouting, turning head and back away"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Remaining vigilant of the surroundings"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Buy tickets, board the train"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"You put it in his pocket\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Lead the way to the ticket office and find the staff, \"Hello, I'd like a ticket to Postumia, departing now.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The clerk behind the ticket window silently hands out four tickets to the Postumia Caves."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Pull out two fingers, struggling to pinch my own ticket."
+    },
+    {
+      "speaker": "player2",
+      "text": "The locals in the waiting area lower their heads to adjust their collars, Turkish tourists adjust their camera lenses, but no one takes a step closer."
+    },
+    {
+      "speaker": "player7",
+      "text": "#While waiting, squat on the ground, bury my head staring at the medal, trying to look less conspicuous."
+    },
+    {
+      "speaker": "player2",
+      "text": "Your train has arrived."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Board the train, and cautiously observe the surroundings and stay with companions, prepare for combat."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Let's board."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Stand up and closely follow everyone onto the train."
+    },
+    {
+      "speaker": "player2",
+      "text": "An oppressive silence fills the train carriage. Passengers each stare down at books or out the window, but the investigators can clearly feel hidden gazes from different directions."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Feeling somewhat restless, actively shift closer to the window seat."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Maybe we should get off? Can't do much with the whole city watching us.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Three hours later, the train arrives. Passengers silently crowd around the four as they disembark. In the distant darkness stands an even deeper, massive circular silhouette—the cave entrance they seek, like a black hole devouring light in the night."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Johnson, can you feel the call now?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Johnson feels the call coming from due north."
+    },
+    {
+      "speaker": "player5",
+      "text": "#To the cave, let's go!"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's done is done, let's go.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Hmm, due north is not the location of the cave."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Follow the guidance, go straight."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Let's go, let's go."
+    },
+    {
+      "speaker": "player2",
+      "text": "The cave entrance is blocked by a heavy metal door. The door surface is covered in rivets, and a huge lock is deeply embedded in the rock, clearly specially reinforced and difficult to open."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh, great.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Clanging sounds of fighting come from inside."
+    },
+    {
+      "speaker": "player5",
+      "text": "(Seems like a bit too much?"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Listen carefully."
+    },
+    {
+      "speaker": "player2",
+      "text": "The clashing sound of metal weapons comes from behind the door, mixed with angry shouts in Turkish and Italian. Chaotic footsteps echo in the cave, clearly indicating intense conflict inside."
+    },
+    {
+      "speaker": "player3",
+      "text": ".st show Stealth"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What are you talking about?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 puts their ear close to the door and finds it moves slightly; the lock is open."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Try to hide my figure"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will receive a response. <player4>'s stealth prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Find a place to hide"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Signal player5 with my eyes to open the door"
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 cautiously pushes open the heavy door panel. The scene inside the cave gradually becomes clear in the swaying beam of light. Countless flashlight beams crisscross like wildly dancing silver snakes, illuminating the two sides in the melee. A R'lyeh Cultist's chest splits open, and thick tentacles emerge, coiling a Brotherhood member around the waist and lifting them into the air. The trapped person desperately swings a dagger but cannot pierce the slimy skin. Not far away, another cultist raises a gun and shoots accurately, the bullet hitting a Brotherhood member's chest. However, the gunshot shakes loose stalactites that fall like natural spears from above, instantly piercing the shooter's shoulder. Shouts in Turkish and Italian collide and echo between the rock walls. The smell of blood mixed with gunpowder permeates the damp air."
+    },
+    {
+      "speaker": "player4",
+      "text": "OMG"
+    }
+  ],
+  "start_line": 3723,
+  "end_line": 4033
+}

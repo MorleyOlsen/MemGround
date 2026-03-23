@@ -1,0 +1,10 @@
+{
+  "section": "24-DI-1",
+  "description": "John Hobbes answers the phone and speaks with K, discussing the possibility that someone else may be hiding in the house and Annie Beaumont’s cause of death. After the call, John wanders around the house and eventually enters the Attic.",
+  "conversation": [
+    {
+      "speaker": "dialogue",
+      "text": "Description: John Hobbes answers the phone and speaks with K, discussing the possibility that someone else may be hiding in the house and Annie Beaumont’s cause of death. After the call, John wanders around the house and eventually enters the Attic.\nLocation: Dining room（Dining room）\nKey Information:\n  - John Hobbes answers the phone; K asks whether he can handle the current situation.\n  - John says there may be someone else in the house, guessing someone is hiding and may be trying to frame him.\n  - K confirms the Galley villa has been unoccupied since Elizabeth Galley died. K says Annie Beaumont was the only known resident, but she died long ago.\n  - John mentions finding a corpse in the Chapel and a note; K asks whether Annie Beaumont is still with John Hobbes (K recalls Annie Beaumont).\n  - John says he is unsure of Annie’s whereabouts, then lies that she may be in the next room—while deep down he knows Annie is dead.\n  - After learning Annie Beaumont is dead, K is shocked and demands John find her.\n  - After hanging up, John moves around the house and eventually enters the Attic (Attic).\nCharacters:\n  [John Hobbes（John Hobbes）] Person No. 1, a visitor.\n    · Speaks with K on the phone and mentions the possibility of someone hiding in the house.\n    · Says Annie might be in the next room, though he later knows she is dead.\n    · After the call, wanders around and ultimately enters the Attic.\n  [K] The person on the other end of the phone call.\n    · Asks whether John can manage the situation; is shocked to learn Annie Beaumont is dead.\n    · Demands John find Annie and provides information about the Galley villa."
+    }
+  ]
+}

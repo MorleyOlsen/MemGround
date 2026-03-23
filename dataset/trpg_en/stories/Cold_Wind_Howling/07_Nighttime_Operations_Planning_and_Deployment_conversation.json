@@ -1,0 +1,352 @@
+{
+  "section": "7. Nighttime Operations: Planning and Deployment",
+  "description": "Under the cover of night, the investigators rest at the hotel and formulate their next plan, with characters interacting while slacking off.",
+  "conversation": [
+    {
+      "speaker": "player4",
+      "text": "\"Unfortunately, I am a medical student.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar scoffs at the medical student? You have no idea what you're messing with!"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ah, I understand now.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh dear.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Oh, you mean a deity, right?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"But what I see before me is just a human.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"To be honest, we've probably seen more than you've heard of.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Gag his mouth for me.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then why don't you guess whether the people your master is spying on have any understanding of this sort of thing?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely be answered. <player5>'s intimidating prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "[Quality]"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Gags Caesar's mouth."
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar writhes violently in the ropes, veins bulging on his forehead, throat emitting muffled roars like a trapped beast."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Next, I will soak these pieces of paper, one by one, and then stick them, one by one, onto your face.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar suddenly stops struggling, sweat-soaked red hair plastered to his pale forehead. He bends his bound knees and thumps them heavily on the floor, throat emitting a muffled whimper."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Sneaks out quietly."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Removes the sock used to gag him."
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar coughs up saliva tinged with blood. \"I'll talk... I'll tell you everything...\" The lock of black hair droops limply behind his ear. \"Termona is looking for Winkelmann's eighth medal... He hopes you can find it, so he sent me to follow you.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ah, wouldn't it have been easier to cooperate earlier?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar's pupils suddenly dilate. \"R'lyeh is the Lord of the Caverns...\" His voice suddenly becomes chant-like and hollow. \"His breath becomes the Bora, His scales are the origin of stalactites... We shall attain eternal life within His abdomen...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What do you want? What happened three years ago?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The medal is part of the key... to open the passage for His descent...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Remains silent."
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar blinks blankly. \"Three years ago? I've only been following Termona for eleven months...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Tell us how you got involved with your master.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I heard the call of the Lord in my dreams at night, went to the Postumia Cave, and then joined the divine organization. Since then, I have devoted my life to the God.\" Caesar trembles, revealing a ghastly smile. \"But... Termona's left hand... was taken back by Him personally. On days when the medal cannot be found, the Bora takes the limbs of the believers... first fingers... then the whole arm... We can only try to find any mysterious items to barely appease the God.\" The wind outside the window suddenly turns mournful and howls."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I see. Do you have any other questions?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"For now, he's not an enemy.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Wait, Termona's left hand...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Glances outside."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Did your master connect something else to him?\""
+    },
+    {
+      "speaker": "player5",
+      "text": ".sc1/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player3",
+      "text": ".sc 1/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player4",
+      "text": ".sc 1/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar's collar suddenly tore open, revealing a pale, constantly writhing tentacle. See? This is both a blessing and a curse... The tip of that tentacle split open into a star-shaped maw. Termona's left hand can now flip through ten books at once!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So what's your blessing?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar muttered obsessively: Find the medal... R'lyeh will grant any wish. Wealth, immortality... even bringing the dead back to life."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This thing, maybe all the cultists are infected.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wishful thinking, have you heard of the Monkey's Paw?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar suddenly convulsed violently, the tentacles burrowing into his eye sockets and mouth like frenzied pythons. \"Impossible, Lord R'lyeh! Lord R'lyeh!\" Blood gushed from his seven orifices. With the wet sound of viscera being torn, he collapsed in a pool of blood. The tentacles twitched one last time and retracted into his chest cavity, leaving only a hollow cavity."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hmm, we can check if he's still alive.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Too bad he's dead.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player2",
+      "text": "Because the tentacles tore the skin into pieces,"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Take a nap first, go to the Dreamlands to complain to Cat Mom."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm, who's responsible for dumping the body?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Pacing back and forth outside the door."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Tired, I'm resting first.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Don't rush, let's clean up the body first.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Sleep!"
+    },
+    {
+      "speaker": "player1",
+      "text": "Qiduo doesn't understand—oh no, going to get my salary docked by the head maid again."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Willpower"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it's what you wish for, it will surely be answered. <player5>'s Willpower Prayer:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Willpower"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it's what you wish for, it will surely be answered. <player6>'s Willpower Prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra Willpower"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it's what you wish for, it will surely be answered. <player3>'s Willpower Prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra willpower"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you expect, it will be answered, <player4>'s willpower wish:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".st san-1d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s \"Sanity\" change: 78 ➯ 72 (deduction -1d6=-6)"
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra san"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you expect, it will be answered, <player6>'s san wish:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".st san+6"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s \"Sanity\" change: 72 ➯ 78 (increase 6=6)"
+    },
+    {
+      "speaker": "player6",
+      "text": ".st mp-6"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s \"Magic Points\" change: 16 ➯ 10 (deduction -6=-6)"
+    },
+    {
+      "speaker": "player2",
+      "text": "[Big Hand]"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Stretches and checks the time"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Getting up, good night Makka Pakka."
+    },
+    {
+      "speaker": "player2",
+      "text": "[Melancholy]"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Not planning to have breakfast at this hotel"
+    },
+    {
+      "speaker": "player2",
+      "text": "The Bora wind turns the streets into a howling maze of gray and white, cobblestones slam against building exteriors like cannonballs. The entire street's chain railings are shaking violently, a vendor's cart is overturned, oranges roll into the gutter and are instantly coated in ice. In the distance, the harbor foghorn continues its mournful, wailing alarm."
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra strength"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you expect, it will be answered, <player6>'s strength wish:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra strength"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you expect, it will be answered, <player5>'s strength wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra strength"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you expect, it will be answered, <player3>'s strength wish:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra strength"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you expect, it will be answered, <player4>'s strength wish:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 is the first to be knocked over by the gale, the back of their head hits a lamppost base with a dull thud. player5's fingers dislocate as they try to grab a store's iron grating, and they crash into a pile of stacked wooden crates. Bolan's wool coat inflates like a balloon from the wind, carrying her across the street and slamming into a mailbox, scattered letters envelop her limp body like snowflakes."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Crawl back to the inn"
+    }
+  ],
+  "start_line": 1862,
+  "end_line": 2171
+}

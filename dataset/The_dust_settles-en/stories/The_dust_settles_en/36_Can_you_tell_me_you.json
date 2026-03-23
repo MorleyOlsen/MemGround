@@ -1,0 +1,10 @@
+{
+  "section": "Can you tell me you",
+  "description": "",
+  "conversation": [
+    {
+      "speaker": "dialogue",
+      "text": "Police: Can you tell me what happened the last time you saw Xiyuan?\nRespondent: ...Before...\nRespondent: When we went home together, we would go to the stationery store to buy candy for Xiyuan.\nRespondent: But because Auntie hasn’t been going to the amusement park with us recently, Xiyuan hadn’t had any candy for several days.\nRespondent: I told Xiyuan to stay there and not move, then I ran to the stationery store to buy candy for her.\nRespondent: The stationery store is right next to the amusement park. You just have to climb a flight of stairs. It’s really very close.\nRespondent: I was only gone for a short while. I ran there.\nRespondent: But Xiyuan...\nRespondent: ...was gone.\nRespondent: I called her many times...\nRespondent: But she didn’t come. Only Auntie came over.\nRespondent: Auntie told me... not to tell anyone, not to say that Auntie wasn’t with us.\nRespondent: She told me not to say anything...\nRespondent: Like the monkeys we saw at the temple..."
+    }
+  ]
+}

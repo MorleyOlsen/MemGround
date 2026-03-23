@@ -1,0 +1,220 @@
+{
+  "section": "10. Netherworld Battle: Dice Roll Continuation",
+  "description": "The battle continues, with fortune calculation dice rolls in succession, abilities of characters like Lina activate in turn, and values are continuously updated.",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": ".rd20"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Lina, the Blooming Fairy]'s fortune calculation: 1D20=15"
+    },
+    {
+      "speaker": "player1",
+      "text": ".rd2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s fortune calculation: 1D2=2"
+    },
+    {
+      "speaker": "player2",
+      "text": ".st shm-10"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Lina, the Blooming Fairy]'s 'Existence Record'... updated: [SHM]: 22-10=12"
+    },
+    {
+      "speaker": "player2",
+      "text": ".st shm+4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Lina, the Blooming Fairy]'s 'Existence Record'... updated: [SHM]: 12+4=16"
+    },
+    {
+      "speaker": "player1",
+      "text": ".sh 10+3d4+2d4"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Fruit Ninja!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Sticky juice splattered on the tachi, scattering tiny sparks. Youmu's wrist trembled imperceptibly. The sensation of being hit by fruit caused her pupils to briefly contract. She pursed her lips, then returned to normal."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"So amazing...\" #Shrinks back a few steps, intimidated. \"Though you still didn't dodge it in the end.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Gently strokes the Glutton beside her. Following the motion of Xueyu's caress, the deformed creature rapidly expands. The eyes on its body stare fixedly at Youmu before it, and its狰狞的大嘴 drools with贪欲的涎水. Then, as if unable to suppress its appetite, it viciously bites a chunk of flesh from Xueyu's left shoulder. \"You also want to devour something, right? I can feel your hunger...\" #The next moment, the Glutton expands to a size that blots out the sky and rushes towards Youmu not far away. In the corner shrouded by shadow, Xueyu appears dragging her血迹沸腾的锯肉刀. The folded锯肉刀 unfolds with a swing. This heavy weapon even presses down the surrounding Spring Energy. Within the pink twilight, under the遮天贪食的巨口, that flash of red light descends in that instant."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Luo Xueyu, the Elusive Devourer]'s 'Soul Hunt' check: Roll: 1D20+8d4+2d6=20+{1+4+1+3+4+2+4+2}(21)+{2+4}(6)=47 Challenge: 10 Critical Success Success Level: 8+1(Critical Success)=9"
+    },
+    {
+      "speaker": "player4",
+      "text": ".sh 8d4+2d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Luo Xueyu, the Elusive Devourer]'s 'Existence Record'... updated: [MP]: 13-3=10"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st shm+6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Luo Xueyu, the Elusive Devourer]'s 'Existence Record'... updated: [SHM]: 19+6=25"
+    },
+    {
+      "speaker": "player1",
+      "text": ".sh 3d4+2d4+2d4+3d4"
+    },
+    {
+      "speaker": "player4",
+      "text": "#The Glutton greedily licks the flesh and blood on the ground and the wound on Luo Xueyu. \"Hiss... ouch ouch ouch...\" #As if suddenly snapping back to reality, Xueyu's冷漠的表情 reverts to her usual look, and she starts covering her wound."
+    },
+    {
+      "speaker": "player1",
+      "text": "Thinking this, Youmu's expression grows more serious."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Go away now\" #Pushes the Glutton away from the wound."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"A very powerful opponent.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Terrifying..., fortunate that such power is only held by a naive fairy."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I apologize for my disrespect.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh? Sorry sorry sorry\" #Quickly bows."
+    },
+    {
+      "speaker": "player1",
+      "text": "The half-phantom behind her looks at the wound with concern."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I, I didn't mean to.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Youmu pats the half-phantom's head, then draws Roukan Sword."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So... so scary...\" #Hides behind the Glutton."
+    },
+    {
+      "speaker": "player1",
+      "text": "The half-ghost girl's pupils emit an inexplicable light; as she draws her second sword, her aura intensifies further."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Super-Soul Awakening"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjōin Long'er]'s 'Soul Hunt' check: Roll: 1D20+12d4+2d6=11+{1+2+3+4+3+1+3+3+4+1+2+4}(31)+{6+3}(9)=51 Challenge: 10 Success Success Level: 9"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sh12d4+2d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s 'Soul Hunt' check: Roll: 1D20+5d4+2d4+2d4+3d4=10+{4+3+2+3+2}(14)+{2+3}(5)+{2+1}(3)+{2+2+4}(8)=40 Challenge: 10 Success Success Level: 6"
+    },
+    {
+      "speaker": "player1",
+      "text": ".shx10+5d4+2d4+2d4+3d4"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st shm-30+18"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjōin Long'er]'s 'Existence Record'... updated: [SHM]: 33-30+18=21"
+    },
+    {
+      "speaker": "player1",
+      "text": "Long'er's fist suddenly clenches tightly, the surrounding space groaning under unbearable strain. Color recedes like a tide—the tender glow of Spring Energy, the luster of the bluestone steps, even the cold light flowing on Youmu's blade—all freeze into black and white like an old silent film. Immediately after, this remaining contrast of light and dark is swallowed by surging ink, complete darkness enveloping everything. In this abyss that devours light, only Long'er's low voice echoes: \"Have you heard of black holes?\" As he speaks, countless stars suddenly burst forth in the darkness, swirling frantically around everyone, finally intertwining into a massive ∞ symbol. The symbol pulsates as if alive, abruptly erupting with a dazzling torrent of particles, rushing towards Youmu like a breached galaxy. Can... this really be blocked... Even so, Youmu merely grits her teeth, both swords drawn, her figure becoming a silver flash within the particle storm. \"Spell Card Two: Mind's Eye Delusion Slash!\" Her shout resonates with the ringing of her blades, each swing precisely severing a stream of particles. Scattered energy fragments explode around her, like a star-dust woven haori draped over her. But the wound on her left shoulder heaves violently with each swing, the pain making the girl frown. The moment the particle torrent collides with her sword's perimeter, a spray of blood flowers blooms from the girl's left shoulder. She seems unaware, the trajectories of her twin blades growing increasingly fierce. Every splattered drop of blood freezes into ice crystals in the darkness, only to be swept into crimson mist by the next sword wind. The explosive sounds of the tachi shattering particles are dense as a downpour, and in the gaps of this metallic storm, one can hear her suppressed panting and the light sound of blood droplets hitting the stone steps—tap, tap, like a death-ticking second hand. One slash, two slashes, in the night, only silver-white sword light flashes. A thousand slashes, ten thousand slashes, the silver-white sword light illuminates the very night. The net woven by sword light continuously contracts, each parry tearing the shoulder wound deeper. As the black hole begins to collapse, she charges forward against the galaxy-like torrent, blood-stained silver hair dancing wildly in the particle storm. Until the final moment, when that particle beam pierces her defense and strikes her chest, you finally see she is already drenched in blood. In the tremor of the tachi leaving her hand and embedding into the stone steps, she kneels on one knee, using blood-stained fingers to desperately press against the ground, preventing herself from completely collapsing. On the steps, the girl kneels, breathing heavily. Behind her are the two tachi that left her hand. \"Huff... huff...\" It seems... I'm about to fail in my duty. The gardener looks at the gate to the Netherworld behind her. And at the enemies before her. Even knowing that Lady Yuyuko's actions are wrong..."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Are you... are you alright...\" #Steps forward concernedly, wanting to help the other up."
+    },
+    {
+      "speaker": "player1",
+      "text": "Even though it really, really hurts all over. But— The girl slowly stands up, drawing the twin swords from her back. I still have to fight. As Luoxueyu walks in front of Youmu. The girl has already assumed her stance."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"......\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Even if her body is like a ragged doll. Even if she could collapse at any moment."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"You... are you going to stand up again?\" #Looks at the girl before her with concerned eyes."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I'm sorry, but I cannot fall yet.\" As she speaks, she flourishes her sword. The tachi appears increasingly sharp under the girl's blood. \"I'm beginning...\" \"Don't die, okay?\" A silver glint flashes in the girl's right eye. \"Human Ghost · Future Eternity Slash!\" .r1d4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s Fortune Calculation: 1D4=2"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-3"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjōin Long'er]'s 'Existence Record'... updated: [MP]: 8-3=5"
+    },
+    {
+      "speaker": "player2",
+      "text": ".stmp-2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... updated: [MP]: 10-2=8"
+    },
+    {
+      "speaker": "player1",
+      "text": "Youmu's blood-stained figure suddenly blurs, the trajectories of her tachi slash leave scorching silver traces in the air. The moment Future Eternity Slash is unleashed, the Spring Energy light flow along the entire staircase is severed. Before the blade arrives, the fierce sword pressure has already cracked the stone slabs beneath your feet. Youmu's figure instantly blurs at the boundary between motion and stillness; she maintains her sheathing stance, yet seven solidified afterimages simultaneously bloom like shattered mirrors. Each afterimage depicts a different stage of the slash: drawing, swinging, charging, spinning... as if tearing the entire sword technique's timeline into seven sharp fragments. The initial silver arc still trembles in the air, subsequent slashes have already sprouted from the void like vines, they entwine the Spring Energy's flowing light, cutting the scattered cherry petals into finer crystals. And the target of this sword intent is, ahead, the nearest one to herself—Lina. Before Lina's retreating heel even touches the ground, three beams of blade light have already intertwined like thorns at her landing point as if foretold; when she raises her hand to block, the tachi's phantom has already pierced through the gaps in her defense, blooming seven neat cuts on her sleeve—each precisely slicing the fabric without harming the skin. Only when the silver glint Youmu flicks from her blade clatters against the stone steps do you realize with shock that what fills the sky are not cherry blossoms, but moonlight cut into petal shapes. The Netherworld plants behind her within ten zhang still maintain their complete forms, but every leaf reflects the afterimage of the slash just performed; time itself seems insignificant under this strike."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s 'Soul Hunt' check: Roll: 1D20+5d4+2d4+2d4+5d4=17+{4+2+1+1+4}(12)+{2+2}(4)+{3+2}(5)+{1+3+2+3+3}(12)=50 Challenge: 10 Success Success Level: 8"
+    },
+    {
+      "speaker": "player1",
+      "text": ".sh5d4+2d4+2d4+5d4"
+    }
+  ],
+  "start_ts": "2025-10-27 23:30:00",
+  "end_ts": "2025-10-28 00:36:17"
+}

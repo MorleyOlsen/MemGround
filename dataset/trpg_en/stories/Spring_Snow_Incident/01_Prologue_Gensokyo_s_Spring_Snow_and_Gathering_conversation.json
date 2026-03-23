@@ -1,0 +1,404 @@
+{
+  "section": "Prologue: Gensokyo's Spring Snow and Gathering",
+  "description": "Gensokyo is covered by endless spring snow. Each character notices the anomaly and heads to the Hakurei Shrine to gather. Reimu has already set off first. After getting acquainted, everyone decides to jointly investigate the mystery of the missing Spring Energy. Long'er attempts to use his ability to open a door but fails due to insufficient range.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "Gensokyo is being eroded by a gentle disaster, an endless curtain of snow shrouds the heavens and earth. Branches that should be sprouting new buds are laden with icicles, and rivers have solidified into pale amber. The chimneys of the Human Village emit thin wisps of cooking smoke, snow has collapsed dilapidated shacks, and even the waterfall of Youkai Mountain has become a frozen sculpture. Eastern Gensokyo, Sunflower Field. This is one of the few places still retaining vitality. The golden sunflowers always face northeast, yearning for the nourishment of sunlight. But the sunlight is blocked by thick snow clouds. Among the sunflowers, a young girl is using large shears to deal with weeds. Beside her, a deformed monster follows, responsible for collecting the cut weeds. As if sensing something, the girl busy weeding looks up. A tall woman with green hair has appeared beside her at some point, holding a parasol for her. \"What's wrong?\" the girl asks. The woman pokes her cheek with a finger, frowning at the sky. \"This snow... it's been falling for a while, hasn't it? Let's go ask that freeloading shrine maiden what she's doing.\" Hearing this, the girl nods, puts away the tools beside her, and then heads in the direction of Hakurei Shrine. Not far away at the same time, a place very close to the Sunflower Field. This was once a plain. For unknown reasons, since a few days ago, many lush cherry trees have grown here. Accompanying them is a lively fairy. She calls herself Lina. And now, Lina is very anxious. \"What to do, what to do? It's clearly spring, but the heavy snow keeps falling nonstop. If this continues, the cherry trees will wither.\" Lina looks at the cherry trees with some heartache, and a bit fearfully towards the east. There's a very scary shrine maiden there. It's said she eats all fairies. But she also seems to moonlight as someone who resolves incidents. Should I go ask that scary shrine maiden for help? Lina struggles with this thought. Finally, gritting her teeth, she flutters her wings and sets off in the same direction as the gardening girl, seeking help simultaneously. Similar to the two girls, two men also have Hakurei Shrine as their destination. South of Hakurei Shrine, Bamboo Forest of the Lost. This is a forbidden zone for outsiders. Because of a certain Lunar Princess, the ever-growing bamboo here makes it nearly impossible for outsiders to find their way. But Long'er is not an outsider. Ever since being picked up and taken home by a certain carefree immortal, entering and exiting the bamboo forest has become routine for him. Like right now. \"This inexplicable spring snow... Is this an incident?\" At the entrance to the Bamboo Forest of the Lost, Long'er leans against an emerald bamboo, stretches out his hand. Snowflakes melt in his palm. Long'er closes his eyes. In his mind is the figure of a certain eccentric, elusive blonde-haired strange woman. \"Let's consider it repaying a favor, to go ask what's going on. And maybe investigate clues about that woman while we're at it.\" Thinking this, Long'er looks towards the direction of Hakurei Shrine. And now, Hakurei Shrine. Long'er, Luoxueyu, and Lina arrive here almost simultaneously. Before them is a large torii. Hakurei Shrine is not far ahead. Although they don't know each other, they each have their own purposes."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Could they all be people looking for the shrine maiden, just like me?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "So everyone steps over the snow-covered torii. The stone steps of the sandō are covered in fresh snow, stone lanterns on both sides cast faint halos of light in the pale world. The water in the chozuya has frozen into an ice mirror, reflecting the lead-gray sky. When everyone finally steps onto the open area before the haiden, the vast shrine is silent except for the howling wind and snow. But contrasting with the lonely shrine's atmosphere is..."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So many people... I'm a bit scared...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "In front of the Offering Box."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is someone actually worshipping? I don't think I've heard the youkai mention it.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "A veiled woman is there worshipping. It is Ge Qing. Having sensed the anomaly here."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"So many people... I probably won't get eaten, right?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "She also groped her way here. Arriving a step ahead of the others, Ge Qing is also just worshipping here. What she senses is that in the Living Quarters, there seems to be no one."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Still as swift and decisive as ever...\" #Turning to the others, \"If you wish to worship, please come here.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Is the head of the Hakurei household home?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Um... that, I'm not here to worship.\" #Takes two small steps back."
+    },
+    {
+      "speaker": "player1",
+      "text": "No response."
+    },
+    {
+      "speaker": "player5",
+      "text": "Walks towards the woman who is worshipping."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"...Not here.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "You are at the haiden. player2(2948436720) 2025-10-24 23:29:55 \"Um... Shrine Maiden-sama, you can eat this cherry, it's very tasty, please don't eat me...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"What's that?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Not home?\" #Heads towards the inner hall to look."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I, I have something to ask that shrine maiden!\" #Shouts out as if having made a firm resolution."
+    },
+    {
+      "speaker": "player1",
+      "text": "The haiden where you are is shrouded in an eerie silence. The vermilion-lacquered wooden pillars form a stark contrast with the pale snow. To the right of the front plaza, there is a huge sacred tree now covered in icicles. Facing the tree, under the eaves of the residential area, it looks very cozy here. There is a cup of tea on the table. Ahead, there should be a door connecting to the bedroom. On the wall of the living area, there seems to be a map posted."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"I am not the shrine maiden of this place.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Eek!\" #Hearing the loud shout nearby, immediately hides beside a pillar."
+    },
+    {
+      "speaker": "player1",
+      "text": "Long'er walks towards the living quarters."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Head of the Hakurei household, are you not home?\" #Shouting."
+    },
+    {
+      "speaker": "player1",
+      "text": "There is still no one here. The tea on the table is still lukewarm. The owner seems to have left not long ago."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I heard that on days like this, that shrine maiden would stay in her room to keep warm...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"She has some matters to attend to. If you don't mind, you can tell me, and I'll relay the message for you.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"May I ask... who are you?\" #Looks at the other person with slight confusion."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The tea is still warm, but the person is gone. She must have just left.\" #Uses psychic power on the teacup! Connection of Life and Death!"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Who are you?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Just a pilgrim, with some acquaintance with the shrine maiden here.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjouin Long'er]'s 'Hunt Soul' check: Roll: 1D20+Psychic Power(3)d4+1d4=9+{4+2+2}(8)+{2}(2)=19 Challenge: 10 Success Success level: 2"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sh psychic power d4+1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "The teacup on the table trembled slightly, then let out a long sigh, its tone exactly like that of a certain unscrupulous shrine maiden."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hey, cup, can you tell me where the Hakurei head went?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Ah, so cold, so tired, why can't teacups stay under the kotatsu?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I, I want to ask that shrine maiden to end this disaster.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Just now, she was shouting about resolving the incident or something, drew a circle on the map, and hurried off in a rush.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Where is that map?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I also want to find the shrine maiden to resolve the incident... otherwise, my grove will...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"......, coincidentally, that should be the purpose of her trip.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Gently taps the rim of the cup with a finger."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Later... you're so annoying.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Won't bother you anymore.\" #Goes to the back to pick up Hakurei Reimu's map and see where she went."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Feels like this cup has a temper similar to that shrine maiden's rumored personality.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The map is pinned to the wall."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Speaking of which... are you all youkai?\" #Looking at the others, trembling."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Bows three times to the cup. \"Shouldn't be disrespectful to the shrine maiden's belongings.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Indeed, she is truly lazy by nature.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "On the old wooden wall, a hand-drawn map of Gensokyo is firmly fixed with three talisman nails. The map shows frayed edges under the flickering candlelight, and the talisman nail pinning the location of the Terakoya is seeping faint red ink like spiderwebs, slowly staining the wooden wall panel below. [CQ:image,file=80E2D38CD7A7B5220A3D275C50C1C1F7.jpg,subType=0,url=https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhT-cUQhDkSNpqkQGJWxkPtELFUvCRjSmQYg_woonaDqtZW9kAMyBHByb2RQgL2jAVoQF_9ElPNadVOx_WgUaCVkznoCVAyCAQJneg&spec=0&rkey=CAMSMF9Y6Gy_TgFNecVHsAGkUWVFfxmlamLpicfz66xApcgbvbSAyqpTk12081kan8sXBA,file_size=101586]"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I'm Lina, a fairy living near the Sunflower Field.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I think so too.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"...I'm human.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The cup says this:"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Casually waves a hand to dispel the ability, turning the cup back into an inanimate object."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hello, Miss Reimu.\" #Bows to the cup."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ge Qing.\" #Places the cane horizontally and bows."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh, sorry, sorry, didn't quite recognize you... I just left the Human Village recently.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Memorizes the location of the Terakoya."
+    },
+    {
+      "speaker": "player1",
+      "text": "Long'er's ability withdrawal caused the cup to revert to an ordinary cup."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"My name is Luo Xueyu, very pleased to meet everyone.\" #bows towards the group"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go, the Hakurei head should have gone to this Terakoya. I'm Tenjouin Long'er, you can call me whatever.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Long'er silently memorized the location of the Terakoya: from Hakurei Shrine west, through a small forest to reach the Human Village."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Alright, for the sake of our grove, I'll risk it this time.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"If we hurry, we might still catch up with the Hakurei head.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yeah! I want to do something too!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Actually, we could just wait for her to handle it alone...\" #recalling Reimu's usual attitude \"Never mind...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#turns and walks outside"
+    },
+    {
+      "speaker": "player1",
+      "text": "As everyone steps out of the shrine gate"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This? What is this?\" #staring dumbfounded at this magnificent sight"
+    },
+    {
+      "speaker": "player1",
+      "text": "At the same time, you notice something unusual"
+    },
+    {
+      "speaker": "player3",
+      "text": "#cannot see"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The sacred tree's life force has been stripped away.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Wh-what happened to the sacred tree?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"So pitiful...\" #throws herself onto the sacred tree, trying to revive it with her own life force"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"A bad feeling...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Don't try. Even if you revive it, its life force will just be drained again and it will die.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The branches of that huge sacred tree have turned into dried-up sticks"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This... what should we do? If that shrine maiden sees this, she'll surely be very sad and angry...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"This incident is extraordinary, we must hurry.\" #steps down the stairs one by one"
+    },
+    {
+      "speaker": "player4",
+      "text": "#recalling the flowers in the field, can't help but sigh"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hmm... but if those pink things can be recovered, it should still be restored, right?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We must quickly find the culprit before the life force of all Gensokyo is drained.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This... is this current scene the draining of life force?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "You descend the last stone step of the shrine and stop at a fork in the road. The mountain path you came from on the left is covered by fresh snow, leaving only a faint outline. The Birch Forest on the right stands silently within the curtain of snow, each branch wrapped in a transparent coat of ice."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Such heavy snow...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "There are many trees in the Birch Forest, and pink light points occasionally drift out, but the withering speed isn't as fast."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Who knows. Right now, finding the Hakurei head is most important.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I know the way better! Maybe I can help.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Infinite, boundless illusion.\" Long'er gazes at the snowflakes falling all over the sky, softly recites his Spell Card. The surrounding snowflakes begin to gather and condense before him, forming a gate made of snowflakes that looks as if it would scatter with a single blow."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjōin Long'er]'s 'Soul Hunt' check: Roll: 1D20+Psychic Power(3)d4+2d4=3+{1+2+4}(7)+{3+1}(4)=14 Challenge: 10 Success Success Level: 1"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sh Psychic Power d4+2d4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjōin Long'er]'s 'Existence Record'... Updated: [MP]: 13-3=10"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I happen to have a familiar place in the Human Village, Keine's private school. We should be able to get there just by pushing the door open.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Another door...?"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Amazing...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"A convenient ability\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thank you\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The snow door before Long'er trembled violently the moment it took shape, with countless snowflakes intricately weaving into an arched doorframe. Inside, swirling light and shadow faintly revealed the eaves of the Terakoya. But the next second, the entire structure suddenly collapsed and scattered—what appeared behind the door was still that birch forest hung with icicles, only now the location was dozens of meters deeper into the woods. On the snow-covered ground, a few pink light points that had come against the wind remained."
+    }
+  ],
+  "start_ts": "2025-10-24 23:04:24",
+  "end_ts": "2025-10-24 23:59:52"
+}

@@ -1,0 +1,380 @@
+{
+  "section": "9. Melee and Teammate Crisis",
+  "description": "Teammates in crisis during the melee, a difficult choice between retreat and stay, investigators protecting each other amid gunfire and threats",
+  "conversation": [
+    {
+      "speaker": "player5",
+      "text": "Three gunshots tore through the air, two bullets precisely piercing Dr. Golan's skull and heart. He fell backward into the darkness like a severed puppet, the dagger slipping from his loosened fingers and striking the concrete floor with a clear, ringing echo. Throughout the process, the howls of the livestock continued to surge, the scorching waves of sound carrying the scent of blood reverberating through the workshop."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Be on high alert and slowly approach the doctor"
+    },
+    {
+      "speaker": "player5",
+      "text": "The doctor lay in a pool of dark red blood, his stiffened face frozen in a final expression of shock. That dagger lay quietly in deeper shadows, its tip reflecting a faint glimmer of light."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Fire three more shots"
+    },
+    {
+      "speaker": "player5",
+      "text": "The muzzle flashes briefly illuminated the blood pool, bullets piercing the already still body and splattering fresh blood."
+    },
+    {
+      "speaker": "player9",
+      "text": "Should be dead."
+    },
+    {
+      "speaker": "player8",
+      "text": "(Ya's position doesn't seem to allow protecting the dagger)"
+    },
+    {
+      "speaker": "player4",
+      "text": "#After hearing the gunshots, prepare to follow up"
+    },
+    {
+      "speaker": "player5",
+      "text": "player8 stepped into the shadows of the main workshop, amidst the surging roars of beasts, a hoarse middle-aged male voice suddenly rang out: \"player8?\" Her entire body stiffened as if struck by lightning... This was her father's voice."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Are you unharmed?\" #Observe him"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"I'm fine, mission accomplished.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"player8... my daughter...\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Steady your mind, draw your pistol"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Look towards the source of the voice"
+    },
+    {
+      "speaker": "player5",
+      "text": "player8 confirmed... that voice was indeed the Professor's, carrying the comforting, warm tone from memory."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Quietly stand to the side observing this family drama"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Come here quickly... how did you get here?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Holster the gun and stand guard to the side"
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Your letters led me here. Don't panic, Father, I will soon release you from your suffering, from this blasphemous state.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I was being hunted by an organization called the Brotherhood of the Skin for possessing that evil dagger. Dr. Golan hid me. I knew the clues I left would lead you here. You are indeed clever and capable. What was that gunfire just now?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Not seeing the person, only hearing the voice, cross arms but don't release the grip on the pistol, trying to gauge if this person is lying"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Come here, let me see you... it's been years, hasn't it... The Professor stands on the platform waving to you. (Psychology check)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Psychology"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you wish for, it will receive a response. <player4>'s Psychology prayer: D100=56/76 Success"
+    },
+    {
+      "speaker": "player8",
+      "text": "#Aim at the head of that creature that looks like Father. To aim more accurately, I need to get closer. Yes, closer. So, slowly walk forward."
+    },
+    {
+      "speaker": "player5",
+      "text": "The other's voice is mechanical and cold. You cannot discern any emotion, nor can you conclude whether it's a lie or the truth. \"Come here...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mina-san\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#When feeling that the head can be pierced"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How about asking something interesting instead.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Pull the trigger"
+    },
+    {
+      "speaker": "player5",
+      "text": "player8 steps forward, ascending the gentle slope toward the father above. The slope is covered in a strange, soft, thick substance that feels odd, like a soaked carpet. The air is filled with a sweet, putrid stench mixed with the metallic scent of a slaughterhouse, growing stronger as they approach the platform. In their ears, the roars of livestock echo."
+    },
+    {
+      "speaker": "player4",
+      "text": "#While saying this, the pistol is already aimed at the shadowy figure above."
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra Firearms"
+    },
+    {
+      "speaker": "player5",
+      "text": "The doctor reveals a benevolent smile in the darkness."
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely be answered. <player8>'s Firearms prayer:"
+    },
+    {
+      "speaker": "player9",
+      "text": "#Seeing companions raise their guns, also prepares to shoot."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"My daughter...\" he begins, \"Please don't misunderstand Dr. Golan... He is my benefactor...\""
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra Handgun"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely be answered. <player8>'s Handgun prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "The bullet grazes the professor's face, but his expression remains unchanged."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Oh being that was once my father, be prepared, for you are no longer human.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Come closer, let me see how much you've grown...\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Even if you imitate his tone, you are definitely not him.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Walks over with a flashlight, ready to shoot."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"My father would never allow a blasphemous existence like you to remain in this world.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"My daughter...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Quietly hides behind everyone."
+    },
+    {
+      "speaker": "player5",
+      "text": "Another hand touches her cheek."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Rapidly fires all remaining bullets."
+    },
+    {
+      "speaker": "player5",
+      "text": "Another hand grips her calf."
+    },
+    {
+      "speaker": "player9",
+      "text": "(About to get a lunchbox."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Triple shot with the handgun."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Aim for the head, the face, the heart."
+    },
+    {
+      "speaker": "player5",
+      "text": "The movements continue incessantly—the eighth, the ninth... These arms silently emerge from the darkness behind the doctor, varying in skin color and thickness, some covered in coarse hair, others with sharp claws at the fingertips."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Shouts with their last breath, \"Go start the hydraulic press, crush this monster!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Below the base, dozens of legs belonging to humans, wolves, and sheep kick at the air and ground in a completely disjointed, frenzied rhythm. They lack any coordination, each acting independently, yet they generate a dizzying propulsive force, allowing this flesh mound to ooze forward in a viscous, determined flow."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Quick... run, we can't defeat it.\""
+    },
+    {
+      "speaker": "player4",
+      "text": ".sc 1d4/1d10"
+    },
+    {
+      "speaker": "player9",
+      "text": ".sc 1d4/1d10"
+    },
+    {
+      "speaker": "player10",
+      "text": "Eh... Another sanity check? I understand, everyone's watching"
+    },
+    {
+      "speaker": "player9",
+      "text": ".jrrp"
+    },
+    {
+      "speaker": "player10",
+      "text": "Today your blood pressure was angered to 147, vital signs are stable. Hope today is <player9>'s lucky day ☘"
+    },
+    {
+      "speaker": "player3",
+      "text": ".sc 1d4/1d10"
+    },
+    {
+      "speaker": "player10",
+      "text": "Eh... Another sanity check? I understand, everyone's watching"
+    },
+    {
+      "speaker": "player6",
+      "text": ".sc 1d4/1d10"
+    },
+    {
+      "speaker": "player10",
+      "text": "Eh... Another sanity check? I understand, everyone's watching"
+    },
+    {
+      "speaker": "player9",
+      "text": ".ra Go eat a big portion Qiduo 69"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire, if it's what you hope for, it will surely be answered, <player9>'s Go eat a big portion Qiduo 69 wish:"
+    },
+    {
+      "speaker": "player5",
+      "text": "[Thanks]"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Or perhaps I've experienced many things, calm as always, facing the fact of a companion's death"
+    },
+    {
+      "speaker": "player9",
+      "text": "#Quickly flee"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ah... monster... monster\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Calmly prepare to return to the mechanical control platform over there."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Follow behind player9 and flee \"Wait, wait for me\""
+    },
+    {
+      "speaker": "player5",
+      "text": "When that distorted monster fully appeared before their eyes, a primal tremor seized everyone's heart... Someone involuntarily took half a step back, someone's knuckles turned white from clenching, in the face of this creation beyond comprehension, all thoughts of resistance turned into a bitter feeling of suffocation in the throat. How can humanity's fragile flesh and blood possibly contend with such an existence?"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Constitution"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire, if it's what you hope for, it will surely be answered, <player4>'s Constitution wish:"
+    },
+    {
+      "speaker": "player9",
+      "text": ".ra Constitution"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire, if it's what you hope for, it will surely be answered, <player9>'s Constitution wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra Constitution"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire, if it's what you hope for, it will surely be answered, <player3>'s Constitution wish:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Constitution"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire, if it's what you hope for, it will surely be answered, <player6>'s Constitution wish:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show"
+    },
+    {
+      "speaker": "player10",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player5",
+      "text": "(The monster initially at the square, the slowest player9 is two squares in front of It, Emma and Johnson are one square in front, Bylan is two squares in front)"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Spend an action point, first see if there are any places that can create obstacles to help teammates escape"
+    },
+    {
+      "speaker": "player5",
+      "text": "Bylan can see that his position is at the main workshop door. If he closes the door now, he can survive."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Run out of the workshop"
+    },
+    {
+      "speaker": "player9",
+      "text": "“Run! Don't worry about me!”"
+    },
+    {
+      "speaker": "player5",
+      "text": "player9 suddenly finds the skinning blade right at his feet."
+    },
+    {
+      "speaker": "player9",
+      "text": "“Remember to save my sister after you get out.”"
+    }
+  ],
+  "start_line": 2646,
+  "end_line": 2976
+}

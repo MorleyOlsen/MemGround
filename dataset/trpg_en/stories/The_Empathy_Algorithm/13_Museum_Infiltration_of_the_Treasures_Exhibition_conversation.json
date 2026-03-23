@@ -1,0 +1,764 @@
+{
+  "section": "13. Museum: Infiltration of the Treasures Exhibition",
+  "description": "Entering the museum's treasures exhibition area, the dim and oppressive hall displays permanently sealed secret archives from various countries. After Alison expresses her thanks and goes downstairs, the others disguise themselves as visitors to conduct an in-depth investigation.",
+  "conversation": [
+    {
+      "speaker": "player6",
+      "text": "Andrew checks carefully first, having to be cautious since Haddin has pulled some nasty stunts before."
+    },
+    {
+      "speaker": "player2",
+      "text": "Inside the drawer are the lease contract for a safe deposit box at Frankfurt Standard Bank along with the accompanying documents, and the key is also there."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Oh ho, looks like we're in luck.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Great! Where's the Mark? Has it already been turned from cold Reichsmarks into warm goods in Andrew's arms?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Speaking of which, it's odd that he doesn't have a complete list of test subjects here.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Excellent, achieved without any effort.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Speaking of which, why did those people disappear half a year ago?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Not sure what happened half a year ago, although we've already encountered many things related to this timeframe.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Guvich also left half a year ago. Seems something big happened half a year ago.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Yes. This is probably a very important turning point.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"If he was replaced, then who are these three test subjects?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hopefully, the contents of this safe deposit box tomorrow can clear up some of our confusion.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We'll go first thing tomorrow morning.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's withdraw first, then go back and rest a bit.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Let's go, folks.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Before leaving, casually check the cash register and take any Mark that can be easily grabbed."
+    },
+    {
+      "speaker": "player4",
+      "text": "Clean up the scene, disguise it as if a clumsy thief had rummaged through (although Andrew indeed fits the part), confirm no critical information that could trace back to us is left behind."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2> rolled 6d100=[6d100=331, 90+65+32+76+53+15]=331"
+    },
+    {
+      "speaker": "player2",
+      "text": "The cash register also has over three hundred Mark scattered inside."
+    },
+    {
+      "speaker": "player3",
+      "text": "A thief never leaves empty-handed, take it."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Barely recouped some losses.\" Although not much, it's still a decent sum of money."
+    },
+    {
+      "speaker": "player6",
+      "text": "Mark is good."
+    },
+    {
+      "speaker": "player5",
+      "text": "Quickly get in the car and drive off, circle around, then find a small alley to change the license plate before driving back to the safe house to rest."
+    },
+    {
+      "speaker": "player2",
+      "text": "After looting the psychology clinic, you make your getaway. The truth is getting closer and closer."
+    },
+    {
+      "speaker": "player1",
+      "text": "The story record of the Algorithm of the Heart continues, currently 6111 texts recorded."
+    },
+    {
+      "speaker": "player2",
+      "text": "In the early hours of July 6th, after thoroughly looting the Guvich Psychology Clinic, you return to the temporary residence to rest and wake up promptly at 6 AM."
+    },
+    {
+      "speaker": "player3",
+      "text": "David gets up, tidies the bed, and cleans every corner thoroughly, leaving no trace behind."
+    },
+    {
+      "speaker": "player2",
+      "text": "If all college students could do this before moving out, landlords would be one step closer to financial freedom. David erases as much evidence of their stay as possible."
+    },
+    {
+      "speaker": "player6",
+      "text": "Anyway, that's it for today. player6 is lying on the floor. Will there be a second night's sleep? Not very confident."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Time to get up, Andrew. We have a tough battle ahead today.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew left the embrace of Mother Earth, ready to tidy himself up a bit, at least enough to avoid drawing unnecessary attention on the street."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It's still early, should we call the boss first? We also need to know headquarters' stance.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We definitely need a good breakfast this morning.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We should go to the bank and see what good stuff is hidden in the safe deposit box.\" Alison stuffed a small mirror into her pocket. \"It's best if we all carry a mirror, in case any of us needs it.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Efficiently packed up belongings, carefully checked own disguise before departure."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Disguise check result: D100=11/42 Hard Success. You can manage this well in such an environment,不愧是我的同伴. Let me see, you're good at quite a few things. <player6>'s personal attribute: Disguise:60. <player6>'s Disguise check result: D100=18/60 Hard Success. Copying from books果然有用, trust my experience."
+    },
+    {
+      "speaker": "player2",
+      "text": "The stylist contacted by journalist Margaret for you is indeed top-notch, but a full day has passed, and you need to touch up some areas where the makeup has worn off."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Disguise check result: D100=83/60. The result is suc... oh no, it's a failure, maybe there's still a way to补救. <player5>'s Disguise check result: D100=87/60 Failure. Sorry, I just had an itch, didn't expect to make you fail."
+    },
+    {
+      "speaker": "player2",
+      "text": "You hastily touched up your appearance to make yourselves look more like the ID photos rather than your original faces under the foundation."
+    },
+    {
+      "speaker": "player5",
+      "text": "Drive further away and find a remote public phone booth to call the boss."
+    },
+    {
+      "speaker": "player3",
+      "text": "David was ready, he checked the safe house one more time to ensure all traces were cleared, and left with his accomplices."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison yawned and spaced out in the car."
+    },
+    {
+      "speaker": "player3",
+      "text": "David closed his eyes and prayed."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew felt hungry."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Have you seen London at half past three in the morning?\" Turner's voice carried deep exhaustion, but he spoke in his distinctive tone."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Boss, I remember the time difference between the UK and West Germany isn't that big.\" joked, \"Alright, no more digressions. First, we found Haddin.\" \"But it's not that simple. Let me finish.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Really? So what are you doing now, having breakfast with Haddin?\" \"Fine, I'm all ears.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Haddin is dead, body parts in the factory at 43 William Outer Ring Road. But he's not completely dead; he seems to have taken some mysterious drug that allows time travel, to this afternoon. I'm not making this up, our cousins think so too—they tried to contact us, asking us to kill Haddin this afternoon—of course, we'll listen to you, boss. Also, the waters behind this事件 are actually very deep.\" paused."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Regarding our cousins, I have some news too, want to hear it?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Sure, but it's not some recording of our conversation, is it?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Radio call sign, Pawnshop, transmission time July 5th, 'one more cat chasing the mouse, from the cousins' house.'\" \"You've been targeted by them,暂时还不知道他们对你们的态度如何.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ah, no wonder, but the mouse probably isn't their main focus, what they want goes deeper, boss listen to me continue.\" \"Haddin was investigating an organization formed by Nazi remnants, believed to possess a神奇魔法, yes you heard right, magic. This magic can transfer a person's soul into another's body—and according to Haddin's investigation—this is what we found near his body, some Nazis transferred into other people via this magic, the possessed might show symptoms类似精神分裂, and the time节点集中在半年前. However, there exists a特殊的人, whose self-awareness is very weak, after possession they don't show精神分裂, but直接像换了个人一样.\" Finished quickly and took a deep breath. \"And our cousins are very interested in the whereabouts of these Nazi remnants, even tried to pry information from us.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hmm, Operation Paperclip 2.0,此事平平无奇, so what's the关键问题.\" \"How are you going to prove your innocence.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Of course, the above is just our推理 based on currently obtained线索, not necessarily accurate. There's not much time left before Haddin's行动时间 this afternoon. I want to know headquarters' stance on the Haddin matter, and what else we need to do to prove our loyalty.\" \"With our limited skills,估计没法直接把布兰特抓住让他为我们作证.\" \"Also, has Brandt's behavior been异常 in the past six months?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"So after all your investigating, Haddin is gone and the missing files aren't found either? Where are you calling from, East Berlin? What's the起因? MI6 Frankfurt Station Chief Peter Brandt accused you of叛国投靠了苏联人. Either Brandt or your side is lying, but the organization tends to trust someone who has been忠诚可靠 in the past more.\" \"Hmm... Brandt has been somewhat神经衰弱 lately,经常去一个心理诊所, which is also why his earlier application to transfer back to headquarters was approved. A man about to retire总要升个官.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Okay boss, we'll find a way to prove our loyalty, whether it's the missing files or evidence of Brandt's叛变.\" \"One last question, what is headquarters'立场 regarding Haddin's行动 this afternoon—the cousins' stance is to kill Haddin. If we try to阻止, we might clash with the cousins.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Remember what I say! CIA is a bunch of dicks! If you mess up these arrogant bastards' plans, even if you really are Soviet spies, we'll go easier on you when we take you down!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Received.\" \"We'll complete the mission!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Continue your investigation direction! Since Haddin is involved in a Nazi残渣阴谋, then I think Brandt is involved,前提是你们没有辜负我的信任!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Okay, boss!\" Hung up the phone, returned to the car to brief同伴. \"Two things: one, that old bastard Brandt确实有问题; two, headquarters' attitude towards Haddin's行动 this afternoon is to screw up the CIA's plan.\" \"Remember what I say! CIA is a bunch of dicks! If you mess up these arrogant bastards' plans, even if you really are Soviet spies, we'll go easier on you when we take you down!—that's what the boss said.\" Imitated vividly."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Understood, boss is absolutely fucking right.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Then it seems we're bound to fight that mysterious beast...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hope the stuff in the safe can help us.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"At the very least, we need to make Haddin spill everything before he dies.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Don't you have a bug?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Oh right! It can be used for such a wonderful purpose!\" Andrew said as he stuck one on himself."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's find a place to have a good meal. We'll need a lot of strength today, hope we can get through this.\" Alison stretched and limbered up."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Absolutely, might be our last breakfast.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Are we still going to Solomon's House today? Honestly, that place feels like a dragon's den and a tiger's lair.\" Discussing with colleagues on the way to find breakfast."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Time is a bit tight. The news of the clinic break-in can't be hidden, we need to retrieve the stuff from there by 8:30.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I agree, time might not be enough.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David ate heartily, deciding to leave life and death to fate."
+    },
+    {
+      "speaker": "player2",
+      "text": "Although you'd love to improve your lifestyle, breakfast places usually don't offer much variety. Some well-known high-end restaurants aren't open yet. The most expensive things you can buy are truffle pancakes, crème brûlée, and sausage-ham platters."
+    },
+    {
+      "speaker": "player6",
+      "text": "Sounds like a pretty good meal. Skip the wine, let's have some coffee."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"I really miss Andrew's pies.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The clerk mentions they have some premium stuff, Jamaican Blue Mountain coffee. Milk and sugar?"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"No time today. Next time. I also miss home cooking, miss the little stove in our cafeteria.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison finished the meal slowly, chewing carefully."
+    },
+    {
+      "speaker": "player2",
+      "text": "So you go to the bank to conduct business as soon as it opens."
+    },
+    {
+      "speaker": "player1",
+      "text": "All things are impermanent, fate is uncertain, the answer is known only to a few."
+    },
+    {
+      "speaker": "player2",
+      "text": "Your wanted posters are still on the bulletin board enjoying the gaze of passersby. Fortunately, the bank manager who received you yesterday completely fails to see through you now."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Good morning, we're here to pick something up.\" Alison smiles and presents the rental contract."
+    },
+    {
+      "speaker": "player3",
+      "text": "Heh,也算是出名了。 (Note: This phrase is tricky. It literally means \"Heh, also counts as famous.\" A natural translation might be \"Heh, guess we're famous now.\" but the instruction says to translate each item. The original Chinese uses \"也算是出名了\" which is an incomplete thought. I'll translate it literally as per the item.)"
+    },
+    {
+      "speaker": "player2",
+      "text": "Skipping the boring bureaucratic work in between, when you open Gurevich's safe, you can see three kraft paper document boxes, all labeled \"Algorithm of the Heart Research Samples,\" with sample numbers 37, 42, and 73 respectively."
+    },
+    {
+      "speaker": "player3",
+      "text": "Find a bag to put them in and take them away first, study them later."
+    },
+    {
+      "speaker": "player4",
+      "text": "So they were here. Alison can't wait to take them back to the car and open them."
+    },
+    {
+      "speaker": "player2",
+      "text": "Each box contains case files, EEGs, and interview records. Flipping to the patient information page inside the boxes reveals they belong to:"
+    },
+    {
+      "speaker": "player6",
+      "text": "Hope what we want is inside. The top priority is to find a way to locate them. Who are they all? We'll discuss in the car."
+    },
+    {
+      "speaker": "player2",
+      "text": "No.37 Andrius Rilke, Section Chief of the Anti-Smuggling Division, Frankfurt Police Department;"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"...Gurevich himself?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"God, this is the evidence we need!\" David whispered excitedly."
+    },
+    {
+      "speaker": "player4",
+      "text": "The contents of File 42 left Alison somewhat shocked."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Don't forget, he hasn't been here for the past six months either. Probably couldn't stay without being discovered.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Good grief, so this Gurevich's research really did inherit Heim's.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"That explains a lot of things—why Rilke knew Gurevich, because they damn well knew each other from the core.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"But this still isn't enough to form a complete chain of evidence, to prove these three people were replaced.\" \"We need more decisive evidence.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"That spell that can verify it.\" David scratched his head in frustration."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I doubt headquarters would accept something like a spell...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Or, wake up the real Brandt's soul.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Do you remember what the afternoon activity is?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"According to Professor Pitts, the heartless have no self; they're just machines.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Black magic, God, there might be exactly what I need there!\" \"player5, you're a damn genius.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh, player5, you're a genius!\" \"It seems Haddin's target is the current Gurevich... Is there any possibility of cooperating with Haddin?\" Alison pondered."
+    },
+    {
+      "speaker": "player3",
+      "text": "Let's go, guys, to the art gallery."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go, folks. Let's scout the terrain first thing in the morning. This is the stage for the grand finale.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The Museum of Modern Art is located in the city center, a Bauhaus-style rectangular building. It is currently hosting a personal collection exhibition of the famous writer Mr. Max Manson. You can see the huge promotional poster at the entrance from afar."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We've basically got the key clues. No need to risk going to Solomon's House. Let's check out the art gallery. They're exhibiting the Old World Black Book there today, so we can intercept Haddin in advance.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s Spot Hidden check result: D100=99/50 Failure. Sometimes failure isn't bad; there are always surprises on a journey, though yours might be a bit too many. <player3>'s Spot Hidden check result: D100=96/25 Critical Failure. Huh?! Another critical failure? Need me to lend you my traveler's notes to copy? The cycle of fate is like shackles, and are you betting on the untraceable one now? <player6>'s Spot Hidden check result: D100=41/25 Failure. Truly unfortunate! As bad as all your hawthorn berry money being stolen! But you'll try again tomorrow. <player4>'s Spot Hidden check result: D100=46/60 Success. Move forward quickly, be decisive. No danger ahead."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray noticed that the text for the \"Debate\" section on the poster was pasted on, indicating it was an additional schedule, not part of the original exhibition plan. David hurt his eyes from the sun suddenly appearing through the clouds while observing. You now feel like you see a sunspot everywhere."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It looks like this debate wasn't originally scheduled for the exhibition; it was added later.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"OMG, my vision is really blurry right now.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's going on? Why are your eyes all a bit off?\" Alison gives David a set of eye exercises based on Andrew's experience."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Our luck hasn't been great lately. Maybe it's been building up to unleash a huge wave of good fortune!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Additionally, Gray can notice three entrances: the main public entrance, a heavily guarded entrance on the left, and a door on the right that seems to be an employee entrance. There are many security personnel at the museum, some of whom don't appear to be regular museum guards."
+    },
+    {
+      "speaker": "player5",
+      "text": "@player6 \"Hope so, just don't get unlucky at the critical moment.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Seems like there are a lot of extra security personnel. It's going to be lively here today.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Huh? Looks a bit off. Getting in unnoticed doesn't seem easy.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're good at quite a few things. <player4>'s personal attributes: Architecture:0 Let me see, you're good at quite a few things. <player5>'s personal attributes: Architecture:0 Let me see, you're good at quite a few things. <player3>'s personal attributes: Architecture:0 <player2> rolled 1d6=6"
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray discovered that every entrance outside the museum has at least 12 concealed, armed security guards in suits. These guards, in groups of 3, are stationed at different directions of the entrances, highly vigilant."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"***! Why are there so many armed people at every entrance! Which organization has manpower to spare like this!\" Alison cursed."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We've never fought a battle with such abundant resources.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison checks the smoke grenades on her person—these might be the most useful things today. \"Where was Haddin planning to enter from again...? I'm starting to doubt whether he can actually sneak in successfully.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Damn, there are way too many people.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "In the small square in front of the main entrance of the Museum of Modern Art, you can see a group of people wearing old, unmarked military uniforms protesting and demonstrating. They are chanting slogans: \"Protest the erasure of German history! Oppose self-flagellating historical views!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ew.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Haddin's plan was to enter the venue through the security entrance, but now it seems we might need to think about how to help him when the time comes.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The mountains and soil listen to your wishes. Regardless of what kind of karma and retribution, fate already slumbers in your palm."
+    },
+    {
+      "speaker": "player5",
+      "text": "Looking at these armed guards, somewhat headache-inducing, rubs the space between the eyebrows."
+    },
+    {
+      "speaker": "player1",
+      "text": "The mountains and soil listen to your wishes. Regardless of what kind of karma and retribution, fate already slumbers in your palm."
+    },
+    {
+      "speaker": "player2",
+      "text": "David, who has diplopia, notices that all these people are wearing Black Sun badges with the words \"Thule Heritage Association.\" Not far from them, uniformed patrol police are watching them coldly from different directions, and the security around the museum is paying extra attention to this small group of unstable elements."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"These people are wearing that Thule badge; the police and security are all watching them. Looking on the bright side, at least they're a much bigger target than us.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hiss, if only we could mobilize them to attract these guys' attention.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Maybe we can make use of these idiots.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Incite them...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Exactly, these guys probably just need a spark to ignite.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's try to see if we can get these guys to charge the entrance.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Now? Can't we just buy tickets and go in?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Let's go, take care of the main task first; we can use these guys later.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Wait...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I was thinking about how to mobilize these guys this afternoon to help us draw attention. Haddin is taking the security passage; there are too many guards over there.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'm actually becoming more and more impressed with Haddin.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go in and check out the scene first.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "After paying the 50 Mark entrance fee, you enter the first floor of the Museum of Modern Art."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"The security here is tight in every corner.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "According to Haddin's floor plan, you easily figure out the layout of the first-floor areas."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Whoa, this setup.\" Pretending to be ordinary tourists looking at the exhibits while secretly observing the building layout and security force positions."
+    },
+    {
+      "speaker": "player2",
+      "text": "Passing through the lobby, you can see restrooms, a front desk, display cases, and an independent room serving as an office area. On the left side is a door next to a sign reading \"Rare Exhibits Area.\" At the far end of the \"L\"-shaped exhibition hall, you can see stairs leading to the 2nd floor, a passenger elevator, and a closed security door."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"He really picked a good place,\" can't help but admire the thoroughness of Haddin's preparations."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Will there really be more visitors than security personnel today?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Then starts to get a headache over how to enter the security entrance."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What exactly does Haddin plan to do by choosing this occasion? This doesn't seem like a place where risky actions can be taken.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"If we want to intercept Haddin early, we have to go in through the security door... but that seems impossible now.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Due to the neo-Nazi organization's protest demonstration, the museum's visitor flow is indeed very low."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"He's a dead man walking anyway, worst case it's a life for a life.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Haddin came here with a resolve to die.\" Alison now genuinely admires this guy."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Come to think of it, aren't we a bit like plastic toys?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Fortunately, the items in the museum are quite novel, exhibiting many medieval German witchcraft-themed collections."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison takes a lap first, giving these ordinary exhibits a cursory look."
+    },
+    {
+      "speaker": "player1",
+      "text": "The mountains and soil listen to your wishes. Regardless of the karma and retribution, fate already slumbers in your palm."
+    },
+    {
+      "speaker": "player3",
+      "text": "David follows behind Alison to take a look."
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like shackles, and are you now gambling on that elusive one?"
+    },
+    {
+      "speaker": "player2",
+      "text": "The well-read Andrew is enamored with these little things, reading the text labels on the display stands word by word, even though the words are as small as ants."
+    },
+    {
+      "speaker": "player6",
+      "text": "This is new knowledge. While chasing the new era, Andrew also enjoys looking back at history."
+    },
+    {
+      "speaker": "player2",
+      "text": "…………In any case, most German black magic requires the caster to \"see the target\" to perform the spell, with only a few passive protective magics being unrestricted. This means that once a magician's eyes are covered or they cannot see, they lose any ability to cast spells. Another crucial point is that a resonance forms between the caster's and the target's souls, with part of the target's soul characteristics embedding into the caster's soul. Therefore, German magicians particularly emphasize, \"Do not use magic on a filthy soul, or you will defile yourself.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew invites everyone to appreciate these particularly interesting little items with him."
+    },
+    {
+      "speaker": "player2",
+      "text": "General Exhibit: Scraps of Experimental Records from the Special Medical Research Institute"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So that bastard Heim also has a very powerful protective magic...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Damn it...\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Our enemy is powerful. He might be this doctor.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Not sure if this blessing spell would work on him. If we're desperate, we might have to directly shove a stranger's soul into his body.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wow, I didn't expect our opponent to have such abilities.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That bastard really deserves to die. I'm genuinely supporting Haddin now.\" Alison turns her gaze towards the special exhibition."
+    },
+    {
+      "speaker": "player2",
+      "text": "Special Exhibition, 500 Marks per ticket."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Excuse me,\" Alison asks a staff member, \"Is the afternoon debate held here or on the second floor?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"In the conference area on the second floor.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thanks.\" Alison decides to go upstairs for a look first."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Does buying a ticket allow entry for the whole day? It's almost mealtime soon, and I don't want to have to buy another ticket if I step out.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Normally I'd have to say no, but as you can see, those thugs at the entrance scared away the tourists. So as long as you have a ticket, you can enter.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew really wants to sigh about the good luck, but better not do it in front of people."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thanks.\" After a simple thank you, they buy tickets and enter."
+    },
+    {
+      "speaker": "player3",
+      "text": "David also bought a ticket and entered."
+    },
+    {
+      "speaker": "player6",
+      "text": "Another one!"
+    },
+    {
+      "speaker": "player2",
+      "text": "@player4 You take the passenger elevator to the conference area on the 2nd floor. For now, there's only a spacious large conference room, a central control console, the building's main control room, and other facilities. However, the busy staff indicates a major event is scheduled for this afternoon. A staff member politely asks you to leave, \"Ma'am, the debate doesn't start until this afternoon. We're still setting up the venue. Please come back this afternoon.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "You notice the lighting on this floor relies entirely on artificial lights. The window positions are covered with thick metal blinds."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright, may I ask if Professor Gurevich and Master Manson have already arrived at the venue? Or will they enter from the first floor later?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Not sure. They'll come this afternoon.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison thanks them and goes downstairs."
+    },
+    {
+      "speaker": "player2",
+      "text": "The other three pay the 500 Mark entrance fee and enter the rare exhibits area on the 1st floor. This is a rectangular exhibition hall. Compared to the ample lighting outside, the lighting in the rare exhibits area is dim and oppressive. Even the walls seem thicker than elsewhere in the museum, making it hard to breathe."
+    }
+  ],
+  "start_line": 3786,
+  "end_line": 4101
+}

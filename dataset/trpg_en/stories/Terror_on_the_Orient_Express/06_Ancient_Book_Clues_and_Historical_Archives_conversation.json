@@ -1,0 +1,336 @@
+{
+  "section": "6. Ancient Book Clues and Historical Archives",
+  "description": "The Necronomicon fragment triggers memories, investigators pursue historical documents, omens of ancient tragic fates emerge",
+  "conversation": [
+    {
+      "speaker": "player4",
+      "text": "\"I'm really sorry, everyone. I've been searching for so long but haven't found any useful information.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Jean-Louis jumped out of the car and wiped the headlight glass with his sleeve: \"We're here!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Better than me is fine.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Your three brains—\" he poked his own temple, \"need to crawl out of Latin! Then, as if by magic, he pulled three toffees from under the seat and pressed one into each person's palm. \"Suck one before bed, guaranteed to dream of angels helping you research! Tomorrow at seven? Same place?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I'll count on you again tomorrow, buddy.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ha! With this generosity, you could buy Lightning a set of golden horseshoes!\" He exaggeratedly held the coins to the horse's ear. \"Hear that, old pal? Tomorrow we'll run livelier than the fountains at Versailles!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Hand the other toffee to Bailan."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Got it! See you at dawn!\" He cracked his whip in an arc and quickly drove off."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Alright, I'm hungry.\" #Bluntly declares."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Eating candy."
+    },
+    {
+      "speaker": "player3",
+      "text": "The bellhop—a young man of about eighteen or nineteen, uniform crisp, blond hair neatly tucked under his cap—heard player2's declaration and immediately glided forward, his heels clicking sharply on the marble floor. \"Of course, sir!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Ahem, young man.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Would you like me to show you to the bar for an aperitif first?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Hand the toffee and a 3-pence coin to the bellhop."
+    },
+    {
+      "speaker": "player3",
+      "text": "The bellhop stared at the toffee and coin in his palm, eyes wide. He suddenly straightened his posture and gave a somewhat clumsy military salute with his gloved hand. \"As you wish, sir!\" He lowered his voice, but couldn't suppress a smile. \"Dinner will be served on the terrace. Bon appétit!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Wow, food!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Wow, food.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then you must really love eating.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So hungry, let's just go eat.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"As I said, worked to death.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"And my uncle works in the wine cellar, he can pick you a bottle with a pinewood aroma...\" He glanced around, then whispered to player2 who gave the tip, \"smoky Marc brandy.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Whisper to the other two, \"I don't drink. A doctor's hands shake if they drink. You two go ahead.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then I'll have a couple of drinks with this gentleman.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I like this. Thank you, young man. Give my regards to your uncle.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'll just have juice.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"That's life to me, you know. In my line of work, you need a bit of liquid courage.\" #Hesitates for two seconds before adding, \"Just don't drink before work.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "As the three sat down, the camel-hair cushions gently gave way, cradling their weary backs. The glass dome kept Paris's cold night at bay, leaving only starlight and warmth. Crystal glasses on the table refracted candlelight, casting scattered specks on the white tablecloth, echoing the Milky Way above."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Take a small sip."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Take a couple of sips. \"No offense to American cooks, but I really think they should come here to learn how to cook properly.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "When the waiter uncorked the brandy, the first scent to emerge was the deep, damp aroma of an oak barrel, followed by the warm fragrance of candied orange peel and roasted almonds, and finally a thick smoky note. On the initial touch of the tongue, it was sweet, almost like holding caramel syrup, but instantly pierced by the spiciness of white pepper. Then the mid-palate unfolded: the sides of the tongue tasted the salty umami of pickled plums, while the back of the tongue surged with the bitterness of dark chocolate. In the aftertaste, the throat remained warm for ten minutes, then suddenly a surprising cool minty sweetness returned."
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show Spot Hidden"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player2",
+      "text": ".st show Spot Hidden"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show Listen"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st show Spot Hidden"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show Sneak"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player2",
+      "text": "#After eating, return to the room with teammates to discuss"
+    },
+    {
+      "speaker": "player3",
+      "text": "(Actually, discussion can be done with pc speech ())"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How about this, there are two more libraries, we split up and go investigate again?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I have no objections.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"No problem.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If we need to find an ancient building that most likely no longer exists,\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Perhaps under the ravages of time, only fragmented ruins remain.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The one we went to before was the National Library, right?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Should we go inquire at places that specialize in historical research?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Do you think we might have a chance to encounter the descendants of the Count?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Like a seminary or something.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Feels like the probability of encountering them is really low.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then let's go, first go take a look at the library.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I plan to go to the Dreyfus Library, what are your thoughts?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player2",
+      "text": ".st show Persuade Fast Talk Intimidate"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh my goodness ladies and gentlemen, tomorrow is Sunday, the library is closed. I'm just about to go for prayers, would you like to come along?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Sure.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I'm somewhat confident I can persuade the library to open for us, or more accurately, for Professor Bailan and you\" #pokes player4 \"to open.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then it's settled?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "10:30 PM"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Time to rest.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Sleep"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Time to sleep\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The three returned to their respective rooms, with moonlight filtering through the sheer curtains casting blurry spots on the carpet. The soft sheets made them unconsciously relax their tense shoulders, and within less than ten minutes, they enjoyed a sleep as deep as a baby's."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Though they don't share a language, they perform a Christian salute."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Our esteemed professor originally planned to spend another day buried in the library\" #glances at Bailan \"but alas, today is the holy Sabbath, and our devout Christian intends to attend mass.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Upon hearing this, Jean-Louis immediately straightened his back, his grimy index finger drawing an exaggerated cross on his chest—the gesture almost comically overdone, yet surprisingly accurate."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Doesn't understand faith, but maintains respect."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ah, the cathedral!\" He snatched off his hat and pressed it to his chest. \"Lightning's hooves know every saint-laid stone in Paris! And the old cripple selling icons at the back door of Notre-Dame—\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Though I don't understand, I think I get it."
+    },
+    {
+      "speaker": "player3",
+      "text": "Jean-Louis nimbly jumped onto the driver's seat, winding the reins twice around his wrist, his other hand gracefully flipping open the carriage curtain."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Then I should properly taste this Jesus's holy blood.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's he saying that's got him so excited?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Switches to English \"He's saying the wine at Notre-Dame's entrance is very strong.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I understand you need to earn a living, so\" #slips him some more \"I wonder if I might have the honor of hiring a genuine local guide?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Your drinking proposal is bolder than Notre-Dame's gargoyles! But since it's the Sabbath—let the devil worry about traffic rules! As for a local guide, by Saint Peter's beard!\" He dramatically pressed a hand to his heart. \"Standing before you is Paris's last 'local snake'! I even know which bone in the catacombs belonged to Napoleon's soldier!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If we're looking for Esmeralda and Quasimodo, then you must be the best person for the job.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Jean-Louis's expression suddenly froze, the whip tip drooping to the ground. He slowly removed his hat, revealing an uncharacteristically serious demeanor."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No problem, we won't go looking for trouble with the cops for no reason\" #then puts an arm around player4 \"So now we come to the final issue. We should be able to pass by a pharmacy on the way, right?\""
+    }
+  ],
+  "start_line": 1557,
+  "end_line": 1867
+}

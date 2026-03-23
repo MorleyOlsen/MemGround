@@ -1,0 +1,420 @@
+{
+  "section": "5. Talisman Tracking: Combat Preparation",
+  "description": "Don Quixote identifies the relief as the non-physical entity \"R'lyeh Cultist\", the cultist Alcanjer surfaces, and the investigators split up to track down the Talisman's whereabouts",
+  "conversation": [
+    {
+      "speaker": "player7",
+      "text": ".ra侦察"
+    },
+    {
+      "speaker": "player1",
+      "text": "Faith arises from desire; if it is what you expect, it will surely be answered. <player7>'s Scout Prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player6 catches a glimpse of a bamboo-pole-like black shadow standing at the end of the alley, the streak of black hair amidst the crimson locks like splattered ink. player4 notices two Turks wearing fezzes, the black tassels on the bright red conical tops swaying with their steps, their sheepskin boots splashing through puddles. Bolan looks up and meets a pair of crimson pupils in a second-floor window across the street; the curtain snaps shut. Johnson spots a vagrant at the street corner with arms deeply hidden in his sleeves, seemingly begging but actually watching you all."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra侦察"
+    },
+    {
+      "speaker": "player1",
+      "text": "Faith arises from desire; if it is what you expect, it will surely be answered. <player5>'s Scout Prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "(?¥"
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 is hailing a taxi."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Tugs at Teacher Bai's sleeve, indicating the direction of the alley end. \"That person looks really strange.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Someone is following me...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I saw a group of people too...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The driver grunts vaguely. The taxi bumps along the streets swept by the Bora wind, finally stopping in front of a Neoclassical building."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Gets out of the car, warily checking for any suspicious people."
+    },
+    {
+      "speaker": "player1",
+      "text": "Faith arises from desire; if it is what you expect, it will surely be answered. <player4>'s Scout Prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Scans the surroundings."
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 turns and sees a dark blue Lancia car that has stopped behind them. The man in the driver's seat is adjusting the bright red fez on his head, its black tassel hanging down and covering most of his face."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Feeds the kitten some minced meat."
+    },
+    {
+      "speaker": "player1",
+      "text": "Faith arises from desire; if it is what you expect, it will surely be answered. <player5>'s Scout Prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"They're really persistent...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The stray cat weakly sniffs the minced meat, its tongue scooping up the food. The tip of its tail wags with effort, and it touches player5's finger with its damp, cool nose."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Remains vigilant of the surroundings."
+    },
+    {
+      "speaker": "player1",
+      "text": "Faith arises from desire; if it is what you expect, it will surely be answered. <player6>'s Scout Prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player6 looks up and notices a pair of leather-like wing membranes hanging from the shadow of the library's eaves—a bat."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sigh\" #Pokes the cat. \"From now on, your name is Gousheng.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"There's a bat over there.\" #Tugs at Teacher Bai's sleeve, eyes indicating the location."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Vampire?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The stray cat's ears twitch, letting out a faint meow. It gently paws at player4's finger with its injured paw, the tip of its tail lazily curling."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"A cheap name is easier to raise. Who knows how many of us will survive?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Qiduo received! Continuing to record for you—Cold Wind Howls: Trieste 1923. Currently recorded text: 1235 entries. Time elapsed: 6 hours, 12 minutes, 14 seconds."
+    },
+    {
+      "speaker": "player5",
+      "text": "Arknights, permanently discontinued."
+    },
+    {
+      "speaker": "player2",
+      "text": "You, as investigators, arrived in Trieste pursuing Winkelmann's clues. At the university, you learned he had long passed away. Later, at the museum Gem Garden, you discovered his sarcophagus and a display case with seven medals, noticing an empty slot. Guided by a stray cat to discover anomalies, you visited Antonio Termona, obtained the address of translator Montanelli, and borrowed an ancient book. On the return journey, you encountered the Bora wind and clashes with Blackshirts, rescuing the injured stray cat Gousheng. Now arriving at the city library, a suspicious vehicle appears behind you. player6 spots a bat on the roof, and player4 is warily scanning the surroundings."
+    },
+    {
+      "speaker": "player4",
+      "text": "#First to Enter the Library"
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 pushes open the heavy oak door, greeted by the mixed scent of aged paper and floor wax. The lofty hall is lined with twenty-foot-tall wrought-iron bookshelves. A librarian in a gray smock glides a rolling ladder across the parquet floor. Dust slowly swirls in the light cast through the stained-glass dome. Behind the lending desk hangs an etched portrait of Franz Joseph I, with an Italian notice for silence pasted below the frame."
+    },
+    {
+      "speaker": "player3",
+      "text": "#After entering the library, prepare to look up information about that father of archaeology, and also, why and how he died at the time."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Come in to help search through books."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player7>'s Library Use wish:"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Search around for information on Winkelmann and the Termona family."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player4>'s Library wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra Library"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player3>'s Library wish:"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Help search together."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player6>'s Library wish:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Deep in the reading area sits a man with his arms hidden inside his jacket, staring at the open pages like a statue. A uniformed attendant comes periodically to turn the pages for him; the sound of paper rubbing is particularly clear in the silence. Not far away, three Turks wearing fezzes sit together, the black tassels of their crimson caps dangling over the edges of books. On the spiral staircase stands a tall, slender figure with fiery red hair, a streak of black like a burn mark. He is running his fingers along the spines of books in the law section."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Let's bounce."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Let's go."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"It's getting late. Let's head back and rest early.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think so too. Should we go back and rest?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Yawning. \"Well, that's that. Let's bounce.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 looks through the library's arched window. The red-haired man is leaning against a streetlamp post, smoking."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Shake out a cigarette and extend it toward him. \"Got a light, brother?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Following behind our dear translator, looking curiously at this red-haired man."
+    },
+    {
+      "speaker": "player2",
+      "text": "The red-haired man hesitantly takes out a match for Caesar Druni. The smoke he exhales carries a strange sandalwood scent. His gaze avoids eye contact, and his right hand unconsciously twists the ends of his hair. After the match goes out, he quickly puts his hand back into his trench coat pocket."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Take a deep drag first. \"player5\" #Turn head and look directly at this man, first judging his ethnicity."
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 notices the other has typical Northern Italian features—olive skin and a Roman-style high nose bridge—but that head of red hair clearly comes from genetic inheritance in the Veneto region."
+    },
+    {
+      "speaker": "player5",
+      "text": "(Is he a local here?)"
+    },
+    {
+      "speaker": "player2",
+      "text": "Speaks with a Trieste dialect."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Calculate the time, then judge his age."
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 observes that the fine wrinkles at the corners of his eyes are concentrated at the temples rather than below the eyelids, a common skin characteristic for Mediterranean men around forty. Although the joints of his hands appear slightly rough, they show no age spots yet. The sporadic white strands mixed in his stubble match this age range."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Were you looking something up? Forgive my curiosity, but not many people come to the library in this weather. You must have something quite urgent?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Yeah, maybe we can help.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar's cigarette almost slips from his hand. \"Ah... yes, it's for my nephew, looking for nautical almanacs... He insists on writing some... uh... paper on Trieste harbor tides...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"For something like this, would you like me to contact the local university for you? My friend has some connections.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar shook his head vigorously, red hair flinging sweat droplets. No need! He... has already dropped out. His fingers crushed the cigarette out of shape. Now he keeps accounts for fishing boats... He pointed into the distance. Looks like fog is rolling in, I have to go deliver rain gear! Then he turned and quickly left."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hiss\" #Communicate in English"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Look towards Johnson and Don Quixote, snap fingers to signal them to stop this guy."
+    },
+    {
+      "speaker": "player6",
+      "text": "@player5 (??)"
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Sir, wait!\" #Quickly rush to the doorway to block the path."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"This gentleman, no need to leave in such a hurry\" #Help to block the way."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Mention the name Antonio Termona, see if this person has any reaction.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar skidded to a halt, his briefcase thudding against the doorframe. What is this, everyone? He looked alternately at the two blocking his path, his Adam's apple bobbing nervously. I... I really have to go deliver the fishing forecast..."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Look at his expression, judge if it's really like that."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".st show心理学"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Sir, do you know this person? Antonio Termona.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar's pupils suddenly contracted. T-Termona? He smiled, twisting that lock of black hair with his fingertips. In the port, there are at least eight, if not ten, people with that surname..."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra心理学"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you wish for, it will receive a response. <player5>'s Psychology prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra心理学"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you wish for, it will receive a response. <player3>'s Psychology prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Make a gesture, signal Johnson to ready his short spear."
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 noticed that when Caesar mentioned the fishing forecast, his gaze drifted to the upper right, a classic micro-expression of fabricating a lie."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hmm...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Slightly raise chin, signal the two behind to restrain this guy."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Quietly pull out a long spear, use the butt end to sharply strike his head."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you wish for, it will receive a response. <player7>'s Spear prayer:"
+    },
+    {
+      "speaker": "player7",
+      "text": ".rab 矛"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you wish for, it will receive a response. <player7>'s Spear prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": ".ra  Dodge 40"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you wish for, it will receive a response. <player2>'s Dodge 40 prayer:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".st show斗殴"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".st show Sword"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Johnson's short spear grazes Caesar's ear, shattering the porch lampshade. Amid the shower of glass fragments, Caesar suddenly crouches low, his red hair billowing like a cloak to reveal the completely charred-black roots beneath. He draws a bronze dagger in a backhand motion, its blade flashing with an oily metallic sheen. Playing tricks like this?"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely receive a response. <player2>'s Agility 50 prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar violently twists his body and slams open the half-closed library side door, his red hair leaving a blurred afterimage in the darkness."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Chase after him"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely receive a response. <player6>'s Agility prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player6 flashes to block the alley entrance. Caesar slams to a halt, his leather shoes scraping a harsh sound on the wet, slippery stone. His dagger is barely raised before player6 parries it with a rapier."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I told you not to be in such a hurry to leave.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar's dagger freezes mid-air. What are you doing! He roars, veins bulging at his temples, that lock of black hair stuck to his brow with sweat. Who taught you the rule of randomly blocking people's way?"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Attempt to stab at the weapon-holding hand."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Rush forward from another angle to stab at his leg."
+    }
+  ],
+  "start_line": 1241,
+  "end_line": 1550
+}

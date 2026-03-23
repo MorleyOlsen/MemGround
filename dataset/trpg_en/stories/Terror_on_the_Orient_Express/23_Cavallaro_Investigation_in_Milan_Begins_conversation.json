@@ -1,0 +1,608 @@
+{
+  "section": "23. Cavallaro: Investigation in Milan Begins",
+  "description": "The famous opera singer Caterina actively approaches, the investigator engages in deep conversation using a borrowed identity, establishing a connection with Ms. Cavallaro.",
+  "conversation": [
+    {
+      "speaker": "player3",
+      "text": "You approach the attendant wearing a bird-beak mask, who is using his white-gloved fingers to tease a Siamese cat on his shoulder. Hearing your question, his voice beneath the mask carries a gentle smile: Welcome aboard the Dreamlands Express to the Land of Hope beyond the Golden City. As he speaks, he pulls a ticket with a pearlescent sheen from his sleeve."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Nod politely towards those three out of courtesy."
+    },
+    {
+      "speaker": "player3",
+      "text": "In the waking world, he leans slightly, the bird beak on his mask almost touching your shoulder, I am Henry Peters, an ordinary attendant on the Orient Express. Several cats suddenly emerge from beneath his uniform hem, but here, I have prepared this gift for travelers burdened with heavy hearts. He flicks the ticket lightly, and the stub suddenly transforms into a silver butterfly flying into your palm, then turns back into a ticket in the Abyss of Nodens—the journey's end, where everyone will have a chance to unburden their souls."
+    },
+    {
+      "speaker": "player2",
+      "text": "#To verify if this is a dream, start convincing myself that I actually have a key lime pie in my hand."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will be answered. <player2>'s 35 Wish:"
+    },
+    {
+      "speaker": "player2",
+      "text": ".stmpmax14"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2>'s coc7 attribute registration completed. 0 data entries updated this time."
+    },
+    {
+      "speaker": "player2",
+      "text": ".stmp-2"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2>'s \"Magic Points\" change: 14 ➯ 12 (deduct -2=-2)"
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 concentrates, and a warm sensation suddenly comes from their palm—a key lime pie emitting a buttery aroma materializes out of thin air in their hand. The crust is golden and flaky, the lemon curd filling still quivering slightly, with icing sugar sprinkled on the surface like first snow. Several cats on the platform immediately perk up their tails and gather around, with the Siamese cat even trying to jump up to reach their wrist. Henry's laughter beneath the mask sounds like a bell: Aha! It seems you have grasped some of the Dreamlands' laws. You couldn't do this in the waking world, could you? The surrounding Dreamlands residents continue packing their luggage unfazed."
+    },
+    {
+      "speaker": "player12",
+      "text": ".ra 14"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will be answered. <player12>'s 14 Wish:"
+    },
+    {
+      "speaker": "player12",
+      "text": ".st mp-2"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player12>'s \"Magic Points\" change: 14 ➯ 12 (deduct -2=-2)"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wow, this is really.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Break the key lime pie and share it with the cats."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Stunned and speechless."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Why don't you try a bite first.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How did you do that?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Wow, conjuring food out of thin air.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Offer player4 a bite."
+    },
+    {
+      "speaker": "player3",
+      "text": "Johnson stares at the key lime pie in player2's hand and tries to concentrate and imagine as well. He frowns, clenches his fist tightly, muttering under his breath. But when he opens his palm, only a few wisps of golden mist drift from between his fingers, not even a crumb of pie materializes."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is it just closing your eyes and thinking?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Henry's voice beneath the mask carries a kind-hearted tease: It seems you need more practice, sir. The Dreamlands favors relaxed imagination. He snaps his fingers, and a steaming key lime pie suddenly appears in Johnson's palm. But don't be discouraged; once you taste our candied citrus tart on the train, you'll forget all about failed key lime pies."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let me try too.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Take a bite myself. \"Hmm, too much sugar.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Hmm, it disappeared because there was no Orient Express in the Middle Ages."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra 14"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will be answered. <player4>'s 14 Wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": "The crust shatters with a crisp sound. The sweet lemon curd filling is revealed, emitting a pleasant citrus aroma. The surrounding cat group immediately becomes restless, dozens of shining eyes fixed on the pie you tossed. The Siamese cat leaps up first, gracefully catching a crumb, while other cats pounce on the airborne fragments. The platform is instantly filled with leaping, furry figures."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Considering the dream here \"Do you speak English?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 tightly closed his eyes, his forehead wrinkled with effort, his hands gripping the air forcefully as if squeezing it. But when he opened his eyes full of anticipation, only a small wisp of pink smoke with a fruity fragrance emerged from his palm, vanishing into the twilight of the platform in an instant."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wow... wait, is the cat talking?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Replying in French \"French is fine, can you teach me cat language?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"!!!\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Heavens, the cat can talk!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Sir?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The tip of the tabby cat's tail suddenly curled into a question mark shape. It smoothed its whiskers with a paw and opened its mouth, speaking French with a Marseille accent: Mais bien sûr! First, you must curl your tongue and say 'Meow'—it demonstrated by making a Murrrrron sound."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Attempting to pronounce it like he did."
+    },
+    {
+      "speaker": "player3",
+      "text": "Henry suddenly tapped the brass railing lightly with his baton, and all the cats immediately sat up straight: I'm afraid cat language lessons will have to wait until after dinner, gentlemen. Now please listen—"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Gave up on the idea of picking up the cat."
+    },
+    {
+      "speaker": "player3",
+      "text": "Henry gracefully pulled down the retractable ladder from the slimy side of the train-beast, his white-gloved hand holding the gilded railing. He first assisted several robed residents of the Dreamlands aboard. When their boots stepped on the monster's skin, the Persian carpets covering its back automatically rippled to prevent slipping."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Looking at the tabby cat, eyes expressing a \"big brother, can you keep me company?\" look."
+    },
+    {
+      "speaker": "player4",
+      "text": "In dreams, nothing is strange."
+    },
+    {
+      "speaker": "player3",
+      "text": "Henry stood at the top of the retractable ladder, all the琉璃 lamps on the train-beasts' backs flashing three times simultaneously. As he spread his arms, dozens of glowing butterflies flew from the cuffs of his blue-and-gold uniform, tracing silver trails in the twilight: Esteemed passengers, please board."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Pondering, hesitating for two seconds, finally deciding to board this bizarre train."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Bid farewell to the tabby cat that looks very pet-able."
+    },
+    {
+      "speaker": "player3",
+      "text": "The tabby cat was already sitting upright on the gilded cushion in the cats-only area, its tail elegantly encircling its front paws. It lifted its chin and pointed at the red rope barrier."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Say goodbye to this cat."
+    },
+    {
+      "speaker": "player3",
+      "text": "As you were saying goodbye, the tabby cat had already turned its back to you,专心 washing its face with its paws. Just as you turned to leave, the cat's tail suddenly lifted and hooked towards him, as if saying \"see you next time.\" Henry appeared beside you at some point, his voice beneath the mask tinged with amusement: Don't worry, in the Dreamlands, all beautiful encounters will reunite."
+    },
+    {
+      "speaker": "player1",
+      "text": "Qiduo received! Continuing to record the horror of the Orient Express for you. Currently recorded texts: 6327, time elapsed: 31 hours, 55 minutes, 9 seconds."
+    },
+    {
+      "speaker": "player3",
+      "text": "The Orient Express stopped at Lausanne station, and the attendant reminded passengers to disembark. Your destination is Milan, so you remained in the compartment continuing your conversation. Suddenly, cheers came from outside the window. Turning, you saw a crowd holding flowers surrounding a beautiful lady—the famous soprano Caterina Cavallaro. Amid the cheers, she boarded the train."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Introvert shocked face."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Reading the yellow book, someone please pull me out."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Politely receiving the letter I wrote myself, looking curiously at the singer before me."
+    },
+    {
+      "speaker": "player4",
+      "text": "Do we know each other?"
+    },
+    {
+      "speaker": "player12",
+      "text": "No, who is she?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hello, beautiful lady.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hello there, may I ask ambiguously, where are you headed?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Nice to meet you, beautiful lady.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hello, ma'am, these two are our travel companions.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Looking to others for help, is it okay to reveal the next stop?"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It's a pleasure to meet you on such a day, your reputation precedes you.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Actually not very concerned about who this is, but having read someone's speculative writing about this person, they can be considered someone worth befriending."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Well, our next destination is a very interesting place, the city of fashion and art, the charming city of Milan.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"And your destination?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Caterina excitedly clapped her hands and said: Oh dear friends, I'm also getting off in Milan, you must let me show you around Milan! It's such a city full of artistic atmosphere, we can go see The Last Supper—she suddenly laughed and waved her hands, don't misunderstand, I mean Leonardo da Vinci's famous painting! Of course, Milan's cuisine is also unforgettable. She added enthusiastically: I'll also help you book rooms at the Galleria Vittorio Emanuele II, it's the most beautiful hotel in the world, you'll definitely fall in love with it!"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Rigid etiquette, wearing a trademark smile on the face, hands crossed in front of the chest, smiling as they look at the singer before them."
+    },
+    {
+      "speaker": "player3",
+      "text": "She took four tickets from her waist pouch and handed them to you."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Uh... thank you.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#Taking the tickets she handed over, distributing the remaining two as well."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Of course... otherwise why would I have come aboard, haha.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh? Then I wonder if it would be convenient to travel together?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ah, you are too enthusiastic, it's truly an honor to have this privilege.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We're also somewhat unfamiliar with the area.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Just as Caterina was getting excited, her manager quietly leaned over and whispered a few words in her ear. She gave an apologetic smile: Please excuse me, ladies and gentlemen, some performance matters need attending. However, she playfully winked, the salon car after dinner? I look forward to sharing a drink with you and continuing to chat about Milan's wonders. After saying this, she gracefully bowed and withdrew, following her manager as they hurriedly left the compartment."
+    },
+    {
+      "speaker": "player2",
+      "text": "Not exactly a normal greeting."
+    },
+    {
+      "speaker": "player4",
+      "text": "Europeans are so enthusiastic."
+    },
+    {
+      "speaker": "player2",
+      "text": "(Wondering if her approach was accidental or purposeful.)"
+    },
+    {
+      "speaker": "player5",
+      "text": "#After the person leaves, instantly relaxes back into the original lazy demeanor."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Indeed.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Emm.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It really gives us the feeling she deliberately sought us out.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Considering our opponents are not ordinary people, we also need to consider some extraordinary possibilities.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think perhaps everyone who boards this train is either wealthy or noble?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Anxiously tapping a pen on the table, brows furrowed together, pondering the authenticity of this matter. Simultaneously curious about the lady's purpose and recalling her earlier actions and expressions to see if anything was hidden."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"For a star, perhaps some socializing is normal?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Ha, that's true.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Haha, but who would have thought they'd encounter a few paupers like us.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No matter what, it's overly enthusiastic.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#sad"
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Psychology"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it's what you wish for, it will be answered. <player5>'s Psychology wish:"
+    },
+    {
+      "speaker": "player2",
+      "text": "#I'm going back to the Yellow Book."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It's really too enthusiastic.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Bailan carefully recalls Caterina's every move. Her eyes are sincere, her smile natural, and her body language open and relaxed. Her exuberant enthusiasm is completely genuine, filled with pure joy at making new friends, without any trace of pretense or calculation. This soprano is simply a naturally cheerful person who enjoys sharing. Her praise for Milan and her offers to help you are sincere."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Uh... but...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It has the beauty of a boss recruiting someone to join.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Can we get a free meal out of this?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Uh, actually, I paid for everything in Paris...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ahem... well, well, well, going for a free meal isn't a bad choice either.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Having dinner with a beautiful woman."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Add one more sentence before sleeping."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"By the way, are you only sleeping for this short while?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "There are three hours left."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Sleep until dinner or until I dream of a cat.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then I'll look at the scenery for a while; I might doze off if I get sleepy.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Start AFK writing diary and organizing the letter previously written for the maid."
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 falls into a deep sleep in the compartment, dreaming of sitting in a sunlit courtyard where a large orange cat affectionately rubs against his hand. He gently strokes the cat's soft fur, listening to its contented purring. This pleasant dream lasts until dinner time, when he is awakened by the attendant's knock."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Throw a Yellow Book at Johnson."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Take it, glance at it, look at player2 for a moment, snicker twice, and enjoy the Yellow Book in my own room."
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 dozes off in the swaying carriage, dreaming of riding in Old Louis's carriage again. Lightning pulls the carriage as it gallops wildly along a rugged mountain road, wheels rolling over uneven stones, the vehicle jolting violently up and down and swaying side to side. In the dream, player4 clings desperately to the side of the carriage, face pale, stomach churning. When awakened for dinner, he is covered in cold sweat and still feels dizzy upon waking, instinctively covering his mouth and retching twice as if he had just endured a terrible carriage ride."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Adjust clothes slightly, roll up sleeves a bit to make it easier to snatch player4's dinner later."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Look down at pocket watch to confirm the current time, snap fingers softly, glance around to check on companions. Seeing they are all awake, reluctantly look back out the window, then tuck the letter back into the suitcase."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I think you're right.\" #Pat stomach. \"I feel player4 isn't hungry, so his portion can go to me.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Alright, he says he only needs juice.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"？？？？\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Don't be nervous, I'm just joking.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So you want it all.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#First took a sip of water to calm down, then followed the directions to the dining car."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Pretty much, forget the salad.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then I can share a little bit of my dessert.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So shall we go?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The investigators gradually arrive at the dining car and sit down to eat at tables covered with white tablecloths. player4 looks a bit pale, while the others eat their dinner quietly. Just as the investigators finish their meal, they suddenly hear a crisp greeting: Hey, dear friends! Turning around, they see Caterina leaning against the doorframe between the dining car and the salon car, waving enthusiastically at them. She has changed into a wine-red evening gown, her earrings sparkling under the lights. Come to the salon car! I saved the best seats for you and prepared some special fine wine! She winks. Don't keep me waiting too long~"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hello, dear Ms. Caterina.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Good evening, beautiful lady.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Very pleased to meet you here. On this evening, I extend my sincere gratitude to you.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Forgive me for not greeting you properly at noon.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The salon car is softly lit, with dark walnut panels reflecting the warm glow of wall lamps. Velvet sofas surround small coffee tables. Caterina and her friends are sitting on a corner circular sofa, holding crystal wine glasses, occasionally bursting into cheerful laughter. Seeing the investigators enter, she immediately waves warmly: Come sit over here! Her friends also kindly make room. Several attendants stand not far away, maintaining a professional distance yet unable to resist being drawn to the joyful atmosphere, with restrained smiles on their faces. Caterina skillfully signals the waiter to pour wine for the new guests. The entire salon car is bathed in the relaxed and pleasant atmosphere she brings."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Following lazily behind this lady, while checking if anyone else is paying attention to us, simply adjusting my clothes but still exuding that faint scholarly elegance."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Shocked."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Not to mention my poor friend here.\" #Puts an arm around player4, secretly scooping his pudding."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Trying not to look like I've never seen the world."
+    },
+    {
+      "speaker": "player5",
+      "text": "Wow, what an enthusiastic lady. Perhaps my earlier guess was wrong."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Taking Johnson and player4 to the salon car, on the way giving Johnson a sharp hit on the back from behind to make him straighten his posture."
+    },
+    {
+      "speaker": "player3",
+      "text": "Caterina claps happily: That's absolutely right! Milan indeed perfectly blends music and fashion. Her eyes soften tenderly. In the morning, you can hear street performers practicing opera arias; in the afternoon, the sewing machines in tailor shops harmonize with church bells; by evening, the entire city is immersed in beautiful music. The shop windows of the Galleria Vittorio Emanuele always display the latest fashion trends."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Feeling pain in the back, turns to look at player2, grits teeth and does as he says, straightening up."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thank you so much for your enthusiasm. Ah, having you as our guide adds a different color to our journey.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Using eyes to accuse player2 to the professor."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Ahem, I just realized something impolite.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "A pleasant blush spreads across Caterina's face as she gently swirls her wine glass: It's truly my honor to meet travelers who appreciate the beauty of art! After saying this, she playfully winks and raises her glass: A toast to the wonderful journey about to begin!"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We all know your name, but you don't know much about us.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Madam, I have a slight interest in antiques. Are there any recommended local places for me to appreciate them?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Caterina suddenly covers her mouth, showing a look of dismay: Oh my, you're right! This is really too impolite. She quickly puts down her glass and performs an exaggerated curtsy playfully: Then let me formally introduce myself now—I am Caterina Cavallaro, a professional singer and an amateur living map of Milan. Straightening up, she looks at everyone with sparkling eyes: Now it's your turn, ladies and gentlemen, to introduce yourselves! I promise to remember them as firmly as musical scores."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Oh, I'm very sorry for not introducing myself.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I'm Patteo, studying psychology at Miskatonic University.\""
+    }
+  ],
+  "start_line": 6850,
+  "end_line": 7160
+}

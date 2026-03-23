@@ -1,0 +1,512 @@
+{
+  "section": "Trieste: Arrival and the Bora",
+  "description": "In 1923, the Orient Express arrives in Trieste, an unusually strong Bora envelops the entire city. Hotel staff confirm the wind is \"strangely sinister.\" The investigators step into this port city, getting their first sense of the supernatural.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "A new story begins, wish you all a pleasant journey! Recording of \"Cold Wind Howls - Trieste 1923\" has now started... Wait, a piece of paper flew out... Boring! I want to see bloodshed!"
+    },
+    {
+      "speaker": "player2",
+      "text": "The Orient Express arrived in Trieste at 7:54 PM sharp. The investigators stepped through the train doors under the station's dome, first feeling the wind. It roared like an angry beast across the platform, piercing through clothing and sucking away the warmth from their bodies. Loose dirt and branches whistled through the air, occasional strong gusts shaking loose parts of the roof, making the entire structure vibrate and echo. Porters in tightly buttoned overcoats helped with luggage, finally guiding everyone to the waiting room for shelter. Both porters and passengers cursed this wind, calling it the Bora, a common phenomenon in the region. At night, only motorized vehicles were visible; all horse-drawn carriages had gone home."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"This magical weather really isn't very suitable for human survival. This wind is indeed a bit strong.\" #Check if there are any drivers nearby still taking passengers."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Nods silently, tightening the trench coat."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Fortunately, there's no land desertification or sand around here. Otherwise, in this situation, a sandstorm would be quite deadly.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The professor is still knowledgeable and well-informed.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Three drivers in leather jackets huddled in a sheltered corner smoking, the embers of their cigarettes glowing and fading in the gloom. A fat man wrapped in a scarf was waving his arms, telling some story, while the two beside him coughed and nodded. Behind them, the sheet metal roofs of three Fiat 509s flapped loudly in the wind, with one's hood still emitting white steam."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Approach this fat man."
+    },
+    {
+      "speaker": "player2",
+      "text": "Also, you recall the professor's notes: visiting someone named Winkelmann might be helpful. But it's already late today. Finding a hotel to stay and setting out tomorrow is a good plan."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Poke Gang. \"What's he saying? Can we rent a car?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hmm, we might need some means of transport to take us to a hotel.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Listen."
+    },
+    {
+      "speaker": "player2",
+      "text": "The fat man noticed player4 and stood up, then crushed his cigarette butt under his shoe. Three silver lire for three kilometers! This damn weather, cash only—where are you gentlemen headed? His yellowish fingernails gripped the car door handle."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Convert the price."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Silver lire?\" #player4 can remember fiercely double-crossing a greedy tour guide in Venice and robbing him of all his money. #Thus, takes out 9 lire in banknotes from the ill-gotten gains."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Presses down on his hat. \"Brother, business isn't easy, huh?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The driver's greasy fingers snatched the nine-lire note, which rustled in the wind. He stuffed it into his leather jacket pocket, a dry, raspy laugh grating from his throat. Yeah... but I have a wife and kids to feed. Get in! He pulled open the Fiat's door, its hinges groaning with rust."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Big brother, find us a hotel.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hey, driver, do you know of any hotels nearby you'd recommend?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The driver turned the key. The Fiat's engine coughed and rattled, then rumbled to life, the car body swaying slightly in the wind. The exhaust pipe belched choking black smoke. He glanced through the rearview mirror. The Central Hotel, of course. Right by the main square, clean and cheap. At night, you can hear the waves from the harbor. He stepped on the gas, tires crunching over gravel on the platform, the Bora wind thumping dully against the car windows."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright, let's go there then.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The Fiat bumped along the harbor, its headlights cutting swathes of dim yellow light on the wet cobblestones. Ten minutes later, the car braked to a stop in front of a four-story stone building. A brass plaque on the arched portico read \"Central Hotel.\" A bellboy in gold-trimmed uniform hurried down the rain-washed steps, the Bora whipping the ribbons on his cap. His black leather shoes splashed into a puddle, sending up silvery spray. \"Here we are, the Central Hotel.\" In the distance, golden warm light from a crystal chandelier shone through the brass revolving door."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Go to the trunk to get the luggage. #Say to Xiao Tang."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Get the luggage and prepare to get off the car to book a room."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Show some awareness. Shouldn't you perform well in front of the professor?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"It's fine, minor issue. The stuff isn't heavy anyway.\" \"Let's go in first.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Pushes open the main door and enters with big strides."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Gang scratches his belly, then throws the luggage onto Xiao Tang."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Takes the luggage along."
+    },
+    {
+      "speaker": "player2",
+      "text": "The bellboy deftly takes the luggage. The revolving door shuts out the Bora's howl. The glow from the crystal chandelier spills over the marble pillars. The brass bell on the front desk tinkles lightly. Behind the oiled walnut counter stands a gray-haired manager. Welcome to the Central Hotel, his Adam's apple bobs as his gaze sweeps over the five's dust-covered coats. Would you like adjoining rooms?"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Also place the still drowsy Johnson onto Xiao Tang"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"If we can be adjacent, that would be even better.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Alright. The manager's pen nib rustles across the ledger. Three brass keys are handed to you, their serrated teeth holding enamel number plates for 203-205. Top floor, facing south, sheltered from the wind. The manager pushes his tortoiseshell glasses up with his index finger. Luggage will be delivered to the rooms—suggest everyone lock the windows tight, tonight's Bora could blow the chimneys into the Adriatic Sea."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thank you, may God bless you.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Feels for the cigarettes, decides it's really not a good idea, and puts them back."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go, choose rooms first.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"By the way, has the wind been this strong all this time?\""
+    },
+    {
+      "speaker": "player5",
+      "text": ".stshowapp"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Always has been. This wind has been blowing for over three hundred years, last year it blew down the cargo sheds at the old port—suddenly a gust of wind slams into the revolving door with a clatter, the brass bell on the counter trembles violently, but tonight it's truly madly strange."
+    },
+    {
+      "speaker": "player3",
+      "text": ".stshowapp"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".st show app"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Doesn't such strong wind affect the waves?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The Bora blows from land to sea, it actually pushes the seawater away.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Professor, shall we go up first? We can check any questions tomorrow?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Alright.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Strides upstairs while curiously observing the surroundings."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Randomly grabs a key from the key pile and checks into a room."
+    },
+    {
+      "speaker": "player2",
+      "text": "The corridor carpet muffles footsteps, wall lamps cast oily yellow halos on the plaster moldings. The brass key turns in the door lock, the hinges emit a dry creak. The fireplace flames cast flickering red patches on the teak floor, crackling softly."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Check if the window latches are sturdy."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Take a simple look around, pack things up and prepare to rest."
+    },
+    {
+      "speaker": "player2",
+      "text": "Sturdy and solid, seems well-maintained all along."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Not just where the source of the wind ultimately comes from?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Presses against the window, looking at the scenery outside."
+    },
+    {
+      "speaker": "player2",
+      "text": "Outside the arched window, the Bora tears at the gas lamps on the breakwater, the port area submerged in ink-like darkness. The masts of ocean-going freighters pierce the sky like fingers, anchor chains clang in the gale. At the end of the breakwater, the lighthouse beam flickers intermittently through the spray. Three steam barges rock and sway by the dock."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Draws the curtains."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Appears beside the companion like a randomly spawning ghost."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Try."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s \"Sanity\" change: 82 ➯ 78 (deduction -1d4=-4)"
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Occult"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will surely be answered. <player6>'s Occult wish:"
+    },
+    {
+      "speaker": "player4",
+      "text": "(Come on"
+    },
+    {
+      "speaker": "player2",
+      "text": "A black mist suddenly exploded from the water's surface, but the expected locational image never appeared."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Ah... failed.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sigh, let me do it.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will surely be answered. <player4>'s Occult wish:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st san-1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s \"Sanity\" change: 53 ➯ 52 (deduction -1d4=-1)"
+    },
+    {
+      "speaker": "player2",
+      "text": "After two attempts, the ritual bowl directly shattered. It seems you need to find a new bowl."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No materials, and the bowl is broken.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Additionally, your supplementary materials like feathers and wax are also used up."
+    },
+    {
+      "speaker": "player3",
+      "text": "#sleep"
+    },
+    {
+      "speaker": "player5",
+      "text": "#pinches the philtrum"
+    },
+    {
+      "speaker": "player7",
+      "text": "#tidies up, washes, and goes to sleep"
+    },
+    {
+      "speaker": "player6",
+      "text": "#sleep"
+    },
+    {
+      "speaker": "player2",
+      "text": "Sunlight shines on your faces through the double-arched gilded windows. The sound of the attendant's cart pushing outside and the long, drawn-out ringing from the distant coastal bell tower mix together. It's exactly 7 AM."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will surely be answered. <player2>'s Will 100 wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra Will"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will surely be answered. <player3>'s Will wish:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Will"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will surely be answered. <player4>'s Will wish:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Will"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will surely be answered. <player6>'s Will wish:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Will"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will surely be answered. <player5>'s Will wish:"
+    },
+    {
+      "speaker": "player2",
+      "text": "In the faint glow of the fireplace embers, Bolan suddenly arches her back on the four-poster bed. She finds her left arm sinking into the mattress as if pressed by a marble slab; her left kneecap throbs; most crucially, her chest, a burning pain spreads from her heart towards her collarbone; the veins on the back of her hand clutching the velvet bed curtain bulge, cold sweat slides down her spine into her silk nightgown. The Bora wind outside now sounds like countless gargoyles grinding their teeth. (Subsequent Constitution, Dexterity, Dodge checks, and checks involving the left arm will have penalty dice.)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st mp -1d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s \"Magic Points\" change: 14 ➯ 11 (deduction -1d6=-3)"
+    },
+    {
+      "speaker": "player2",
+      "text": "(player4 make a sanity check"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra san"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will be answered. <player4>'s san wish:"
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra willpower"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will be answered. <player7>'s willpower wish:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 sinks into the down pillow, dark circles under his eyes. Morning light pierces through the gaps in the brocade curtains onto his face. His fingers rub his temples with a neurotic tremor. After getting up, the mirror reflects his slipping collar. He tries to recall the dream, only grasping fragments: a darkness, swirling waters, the screams of creatures."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Cold sweat almost instantly soaks through the thin pajamas, sticking clammily to the skin, then chilled by the endless cold emanating from within. Curled up in the corner of the bed, teeth chattering uncontrollably, every breath carries a tearing pain, as if inhaling not air but countless tiny ice shards, cutting into fragile lungs. Consciousness floats and sinks in the tide of agony, black shadows begin to creep at the edges of vision. Subconsciously grabs the diary by the bedside. Moonlight seeps coldly through the window crack, illuminating the girl's face, pale as paper."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Carefree, feeling healthy."
+    },
+    {
+      "speaker": "player2",
+      "text": "Well then, perhaps it's time to visit the person mentioned in the professor's notes."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Get up, laze around, put on normal clothes, do a simple wash-up."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Go downstairs with a pale face, steps even a bit unsteady."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Quickly finish washing up, stride downstairs loudly saying \"Good morning!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Doctor, you don't look quite right.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Doesn't look very good\" #reply."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ahem, uh, normal physiological phenomenon.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What's wrong, what's wrong?\" #lean in."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Sigh, little Tang, you're really energetic. I'm about to become an old fossil who doesn't want to move.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think player5 and Mr. Johnson will understand.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Scratch belly \"What do I, player5, understand about you?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Little Tang... forget it, he's still a child.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Ahaha\" #scratch head."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Let's go, time to visit that person.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Glance at player4 \"In your condition, either you had a nightmare, or you 🫎 too much.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Do we have his home address?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Getting angry out of shame?\" #Look at player4 again, breakfast first."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Lean close to player5's ear."
+    },
+    {
+      "speaker": "player2",
+      "text": "In the center of the long table, a glass jar condenses cream, with browned breadsticks slanted in a wicker basket. A sunny-side-up egg trembles on a silver-plated plate, its orange yolk sliding open along the bacon grease."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Choose to eat quietly."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Glance at him, whisper \"I didn't smell the scent of rhododendron when I called you this morning.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Holding the warm coffee cup, coming back to life."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Four fingers rhythmically tapping the table one by one"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"If you feel it, just wake up, get up, and wash clean\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Eating bread in big mouthfuls"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So what did you dream about? Nowadays, you can't just dismiss dreams as random thoughts\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Lit a cigarette, puffing away in the corner"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Said seriously"
+    }
+  ],
+  "start_line": 0,
+  "end_line": 309
+}

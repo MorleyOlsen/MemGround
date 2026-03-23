@@ -1,0 +1,816 @@
+{
+  "section": "10. Hermes Club: Auction",
+  "description": "Enter the Hermes Club auction, witness Ms. Gray bidding 3200 marks for a mysterious collection, the club's true nature gradually reveals itself",
+  "conversation": [
+    {
+      "speaker": "player3",
+      "text": "David took out his camera equipment and snapped a few photos of the death scene. Let's get in the car, head to Hermes first, and see if there are any public phones along the way."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go meet Hermes. Hopefully they're not a bunch of fools who don't know what's good for them.\" Before leaving, close the factory gate and take any clues Haddin left behind."
+    },
+    {
+      "speaker": "player2",
+      "text": "Roll Idea."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Idea check result: D100=23/85 Hard Success. You can manage this even in such an environment,不愧是我的同伴. The cycle of fate is like shackles, and are you now betting on that elusive one? <player5>'s Idea check result: D100=32/85 Hard Success. Copying books果然有用, trust my experience. <player3>'s Idea check result: D100=66/80 Success. A close success. Adventurer, boldness always has its rewards. The cycle of fate is like shackles, and are you now betting on that elusive one? <player6>'s Idea check result: D100=91/85 Failure. Sometimes failure isn't a bad thing; there are always surprises on a journey, though yours might be a bit too frequent."
+    },
+    {
+      "speaker": "player2",
+      "text": "The rain has cleared, and the high sun reminds you it's already noon. You suddenly remember the bailiff said Lehmann's property, forcibly seized by the federal court on June 29th, will be auctioned at the Federal Judicial Auction House this afternoon at three."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I just remembered something, did we forget about Lehmann's auction?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What time is it now?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"My God, you're right.\" \"It's already noon. We can still make it if we go now.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Glances at his watch: \"A little past twelve.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I wonder if any of the items seized from him are of interest to us.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We can still make it if we go now.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Should we split up to go to the auction? Or all go together?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We still have quite a few places to go, probably need to split into two teams.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The things he mentioned in the letter he wrote to Haddin should be at the auction.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The clock points to a quarter past twelve. You are currently at the outer ring road factory in the northern suburbs, while the Federal Judicial Auction House is located in Frankfurt's western district. The Hermes Club is in Aschaffenburg, 100km southeast of Frankfurt's city center, much farther than Offenbach."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Let's all go together, I'm worried we might not have enough money.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hermes is really far... Do we have enough time? The black magic exhibition is tomorrow, right?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The Federal Judicial Auction House is located at the center of a triangle formed by Standard Bank, the Guvich Clinic, and Frankfurt University."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I'll just give you the money.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We might encounter people bidding against us at the auction, possibly related to this case. Remember, Lehmann supposedly died of a drug overdose, but he was a very organized addict.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Time is tight now, we can only split up.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"That's right.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I, I'm not good at investigating...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David takes out all his cash, keeping only a little for transportation. \"Whoever is going to the auction, take this money.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Keep a little emergency fund, take out all the remaining money from the wallet."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Should Andrew and I go to the auction?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Alright, then I'll drop you off near the auction house.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Collects the funds provided by player5 and David, then counts all the cash on himself. \"We probably won't encounter direct conflict on our end, you all be careful.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"So Miss Gray and Andrew will go to the auction. If it ends early, go to the Guvich Clinic and Frankfurt University. player5 and I will go to the club. Where should we meet up afterwards?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Andrew, can you drive Haddin's car?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"How about meeting at the newspaper office reading room?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Where to stay tonight... that's really a problem.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"After that, let's go to Solomon's House together.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Then drive the car back and try to find his car keys in Haddin's body parts."
+    },
+    {
+      "speaker": "player3",
+      "text": "David, estimate how long a round trip to the Hermes Club would take?"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I suggest we still meet at the safe house.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The safe house isn't safe anymore, don't forget, we're traitors now.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The one in Offenbach.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The one in Offenbach is also out, that's headquarters', we're also being hunted by headquarters.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Just the newspaper office. If we relocate, leave a signal on a nearby wall.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Getting out of the city center onto the highway and back takes three hours too, and that's not counting the time for business."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Our round trip is 200 kilometers, about three hours. Including business, a full six hours. If we haven't shown up at the newspaper office by 7 PM, don't wait for us. We're probably already dead.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "You couldn't find the car keys in the minced meat. Incidentally, Andrew accidentally slipped and had an intimate encounter with the corpse."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s Sanity check:"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"...Forget it, we're running out of time.\" Gives up helplessly, finds some clean rags to wipe Andrew's face."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Forget it, we'll drop you two off at the auction house.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Why does it feel like we've been particularly unlucky lately?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Be careful, Andrew! You just suffered such a serious injury, it's easy to get infected.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew quickly breaks free from Haddin's embrace, looking everywhere for fabric to wipe off the filth on himself. If only he could take a bath and change clothes!"
+    },
+    {
+      "speaker": "player1",
+      "text": "?!"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I think I need spiritual comfort now, or simple hygiene cleaning. In this state, how can I see anyone!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The puddle outside might be a good choice, a pure natural Roman bath."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew looks despairingly at the rainy weather outside and the puddle."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Bro, we're running out of time.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Alright then. What about the clothes? Hope they have drying service. I'll rinse the dirty clothes first to avoid people seeing Haddin on them.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hurry up, hurry up.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Let's go!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Anyway, head straight to the auction house without stopping, drop off the accomplices, then head straight to the Hermes Club without stopping."
+    },
+    {
+      "speaker": "player2",
+      "text": "The auction doesn't start until 3 PM, you have over an hour to wander around."
+    },
+    {
+      "speaker": "player4",
+      "text": "Look for any published information on what items will be sold at the auction."
+    },
+    {
+      "speaker": "player2",
+      "text": "The judicial auction house is a small building. Many cars are parked in front, and people are coming and going. It seems many buyers want to try their luck and find a bargain. Gray easily finds the target on the bulletin board: Executed person Kurt Lehmann, auction item: \"Medium-sized brass-gilded cube artwork,\" location: Auction Hall 1, using the Dutch auction method, requiring on-site cash payment. And your mugshots and wanted notices."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2> wants to discuss something with me privately? Well done, I won't tell anyone the content. Secret roll from the group <Algorithm of the Heart> (QQ-Group:651766442): <player2> rolled D100=38."
+    },
+    {
+      "speaker": "player4",
+      "text": "What's the starting bid?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Roll Spot Hidden."
+    },
+    {
+      "speaker": "player1",
+      "text": "The mountains and soil listen to your wishes. Whatever the karma and retribution, fate already slumbers in your palm. <player4>'s Spot Hidden check result: D100=62/60 Failure. Truly unfortunate! As bad as if all your money from selling red berries was stolen! But you'll try again tomorrow. The mountains and soil listen to your wishes. Whatever the karma and retribution, fate already slumbers in your palm. <player6>'s Spot Hidden check result: D100=49/25. The result is suc... oh no, it's a failure. Perhaps there's still a way to remedy it."
+    },
+    {
+      "speaker": "player2",
+      "text": "Roll Idea."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Idea check result: D100=38/85 Hard Success. Copying books was indeed useful. Trust my experience. <player6>'s Idea check result: D100=69/85 Success. Move forward quickly, be decisive. There's no danger ahead."
+    },
+    {
+      "speaker": "player2",
+      "text": "You feel like you're being noticed a few extra glances, though it's unclear whether it's due to the faint rotten smell emanating from Andrew or some other reason. But it's just a few extra looks."
+    },
+    {
+      "speaker": "player4",
+      "text": "Pretend to stretch and quickly glance around, try to find the source of the gaze."
+    },
+    {
+      "speaker": "player6",
+      "text": "Appear very slovenly and rude, acting like a real... addict? This fits Andrew's identity."
+    },
+    {
+      "speaker": "player2",
+      "text": "The source of the gaze obviously looked away long ago."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We might have been noticed by someone, be careful.\" Whisper to Andrew."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Ah, got it!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Check the bulletin board again, does it list the starting bid for our target?"
+    },
+    {
+      "speaker": "player2",
+      "text": "The auctioneer will announce the starting bid on the spot."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We're here to pick through the trash, buy small trinkets!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Can we enter Auction Hall 1 now?"
+    },
+    {
+      "speaker": "player2",
+      "text": "It's not open yet. There's still over an hour until the auction starts."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Do you want to find a place to rest first? I'll look around the area, familiarize myself with the environment in advance, in case we need it for escaping later.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Then Andrew decides to find a bathhouse, preferably one where he can also wash clothes. After all, he still needs to look somewhat like a university professor."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison, see what other items are being auctioned today. Can you tell which lot is attracting the most people?"
+    },
+    {
+      "speaker": "player2",
+      "text": "There are other court-auctioned items being sold today, but they obviously have little to do with you. Andrew feels the match doesn't matter, so he goes to take a bath."
+    },
+    {
+      "speaker": "player4",
+      "text": "Go visit the Guvich Clinic."
+    },
+    {
+      "speaker": "player6",
+      "text": "Then take a quick shower, finish in 15 minutes. Clothes are tumbling and drying in the washer, hurry up."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray lets Andrew go take a bath first, lest his stench lowers Gray's own status. The Guvich Psychological Clinic is located in the city center, a two-story small building. When you push the door open, only a young lady is in the first-floor office area. The innermost door in the office area is open, containing a desk, chairs, and a sofa for patients to half-lie, half-sit. The room plate above it says Consultation Room."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hello, is Dr. Guvich available now?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Overall, the layout of the clinic's first floor is clear at a glance, functionally divided into the Consultation Room, EEG Examination Area, Reception/Office Area, and Office."
+    },
+    {
+      "speaker": "player6",
+      "text": "I wonder if Andrew's super-fast shower can catch up with the clinic visit?"
+    },
+    {
+      "speaker": "player2",
+      "text": "She looks up, a professional smile on her face, her tone polite but with a hint of distance: \"Hello, how can I help you?\" Hearing your purpose, she slightly frowns and shakes her head with a touch of apology: \"I'm sorry, Dr. Guvich is not currently at the clinic. He is on an academic visit to the USA and won't be back for a while.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Present my fake ID work badge. \"I am a historical research scholar. I accidentally came across Dr. Gurevich's research on the Algorithm of the Heart, which I find extremely fascinating. The course of history is sometimes shaped by the flow of thought. Perhaps this could greatly aid our historical studies.\" Show a very regretful expression. \"Oh my, what a pity. I'm sorry for the sudden visit. May I ask when he left and when he is expected to return?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "She takes the work badge, glances down at it. \"I'm sorry, I am only responsible for daily clinical work. The content of the Doctor's research is not within my duties. And, to be frank, I know very little about his research.\" She pauses, seeming to weigh her words, then continues: \"However, if you are interested in the Doctor's research, perhaps you could inquire with Professor Pitts. He is the Doctor's collaborator in this area of research and should be able to provide more detailed information than I can.\" @player4 \"I'm sorry, I cannot disclose more personal information. If you have something important, you may leave your contact details. I will inform him upon his return to the country.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright, Professor Pitts was also on my list to visit. Thank you for letting me know. I will visit the Doctor in person later.\" \"Speaking of which, clinics with a second floor are quite rare. May I ask what's upstairs? Understanding the environment of Dr. Gurevich's research might help me better comprehend his academic achievements.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If you don't have an appointment or an urgent medical need, perhaps you could wait until the Professor returns to the country to visit? The second floor is the Professor's usual living quarters.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I see, my apologies for the intrusion. I will visit again in some time, hopefully by then the Professor will have returned.\" Alison thanks the lady, takes another look around the clinic's first floor to see if anything is amiss, gives a slight bow, and takes her leave."
+    },
+    {
+      "speaker": "player2",
+      "text": "The EEG examination area has a hospital bed, curtains, and a very rare set of EEG measurement equipment. Gurevich's office is locked."
+    },
+    {
+      "speaker": "player4",
+      "text": "It seems Alison's clinic visit will yield no results. Checking the time, is there still enough time to go to the university?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Your exchange with the assistant took no more than five minutes."
+    },
+    {
+      "speaker": "player4",
+      "text": "Then head to the university to see if Andrew has finished his bath."
+    },
+    {
+      "speaker": "player2",
+      "text": "You retrieve Andrew from the bathhouse, hoping this unlucky fellow won't drag down your team's average luck. Frankfurt University is an open university; no identification credentials are required to enter."
+    },
+    {
+      "speaker": "player4",
+      "text": "Briefly explain the clinic situation to Andrew on the way."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled at many things. <player6>'s personal attributes are: Luck: 50"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Hopefully no one is there at night. Although Gurevich is far away in America, he has to come home to sleep at night. We can visit then.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Stop a staff member on the roadside and ask: where do the Computer Science department professors live?"
+    },
+    {
+      "speaker": "player6",
+      "text": "Then search for Professor Pitts's office at Frankfurt University. Randomly grab a lucky student to ask?"
+    },
+    {
+      "speaker": "player2",
+      "text": "After randomly asking a university student for directions, you arrive at the Computer Science department office."
+    },
+    {
+      "speaker": "player4",
+      "text": "Knock lightly on the door twice. \"Excuse me, is Professor Pitts in?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew quickly recalls his limited knowledge and Professor Pitts's main viewpoints from the books."
+    },
+    {
+      "speaker": "player2",
+      "text": "A low, gentle voice soon comes from the room: \"Please come in.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Straighten your appearance and push the door open to enter."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew follows closely behind."
+    },
+    {
+      "speaker": "player2",
+      "text": "Pushing the door open, you see a portly middle-aged man sitting behind a tidy desk. His gray-white hair is meticulously groomed, and his carefully trimmed beard makes him appear even more efficient. He is wearing a pair of tortoiseshell glasses, holding a thick book, seemingly studying some complex algorithm problem. Seeing you enter, he smiles slightly, puts down the book, and adjusts his impeccably ironed suit: \"Welcome, please have a seat. How may I help you? You don't look like a student from our department?\" Besides the professor himself, most of the office space is occupied by computers and other machines, resembling the cockpit of a sci-fi spaceship. Flashing indicator lights and clattering punch-card machines output rhythms containing rules and logic in a way imperceptible to human intuition. This is the moment when \"computers,\" this scientific newborn, are babbling."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We are from England, currently visiting scholars. I am—Peter Hopkins. Pleased to meet you.\" Andrew hurriedly shows goodwill, stepping forward to try and shake his hand."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Pleased to meet you, Professor Pitts. I am Emily Gray, a history scholar from Oxford University, here at Frankfurt University for an academic visit. I accidentally read about the research you and Professor Gurevich are conducting together. This has many similarities with my research direction. I was hoping to take this opportunity to learn more about this subject from you.\" Alison shows appropriate enthusiasm and the attitude of a seeker of knowledge."
+    },
+    {
+      "speaker": "player2",
+      "text": "Professor Pitts raises an eyebrow slightly, his smile becoming even more apparent. He stands up, shakes Andrew's hand, then politely nods to Gray. \"A history scholar from Oxford University?\" He seems somewhat interested in this identity. \"That is quite rare. It's not every day one encounters a history scholar interested in computer science.\" He points to the chairs opposite the desk, gesturing for you to sit."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew sits down properly, preparing to challenge the professor with his fragile knowledge."
+    },
+    {
+      "speaker": "player2",
+      "text": "Professor Pitts then sits back down in his chair, crosses his hands on the desk, and looks at you with keen interest: \"I am certainly willing to discuss academics. Although computer science and history may seem completely unrelated, if you can find an intersection, it must be a very interesting thing.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I personally specialize in biochemistry, but privately I have some interest in mathematics and computers, and I enjoy reading some cutting-edge papers. Of course, sometimes it's quite difficult to learn.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison sits in the chair. \"After all, history is also the study of ourselves. I have always been very interested in human thought and action in history. The Algorithm of the Heart proposed by you and Professor Gurevich is fascinating. It seems to be the key to answering the question of whether history determines what people do, or whether what people do determines history.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "His tone remains gentle, carrying a scholar's characteristic enthusiasm. However, as an experienced professor, he is clearly also probing your intentions."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This is the first time I've seen a technology that can quantify the metric of self-awareness, so I took the liberty of visiting, I hope you don't mind.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Professor Pitts's eyes instantly sharpened a bit, then, the smile on his face widened, his eyes sparkling with excitement. He leaned forward slightly, clasping his hands on the desk, as if completely immersed in this question. \"Ah, indeed a crucial question! The problem of other minds—this is the cutting edge where philosophy, psychology, and computer science converge.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew stumbled through some talk about mathematics, computers, and the superficial knowledge he learned from Pitts's works."
+    },
+    {
+      "speaker": "player2",
+      "text": "He paused, as if organizing his words, or perhaps enjoying the discussion process: \"Andrew isn't wrong either, our research is precisely centered around this problem. Suppose you can only observe others' overt behavior, how do you know their internal states are equivalent to yours? Further, if we can establish a perfect algorithm that analyzes all external behavioral patterns, can we then reverse-engineer the way a mind exists?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This is truly epoch-making! A significant portion of historians like myself believe that we study history to learn from experience and thus predict the future, and your research precisely provides a feasible pathway from the perspective of modern science!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Professor Pitts revealed a satisfied smile, adjusted his tortoiseshell glasses, and continued: \"Perhaps describing this problem in another way would be more intuitive.\" He leaned against the desk, crossed his hands, his gaze carrying a hint of inquiry: \"Imagine, I know I am a thinking, conscious person, I can perceive my own emotions, understand the existence of 'me'. But what about you? You sit here talking to me, and every person who appears no different from you, do they truly have the same consciousness as me?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew mimics a machine error sound."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hopkins seems to understand my meaning. What if you are merely extremely sophisticated automatons, only reacting to external stimuli accordingly, without any real self-awareness? Suppose I dissect your brain, find all the neural connections, can I distinguish, from an anatomical structure, a person with self-awareness from an artificial intelligence without self-awareness but capable of perfectly imitating human activity?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Server busy, please try again later... oh no no no, the brain is just a bunch of chemical reactions anyway.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "He stood up and began pacing slowly, his eyes sparkling with the light of contemplation: \"Further, let's imagine an experiment—if we could create a biologically completely real human body, and implant a highly intelligent artificial program in the brain, a program capable of learning, conversing, adapting to society, indistinguishable from a normal person in any medical examination. Then, is this person a 'self'-possessing individual, or merely a perfectly simulated humanoid machine?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Cooking is also a kind of biochemistry, Andrew starts rambling."
+    },
+    {
+      "speaker": "player2",
+      "text": "He stopped walking, his gaze directly on you: \"This is the core of the 'problem of other minds'. We can only assume through our own intuition that others have minds like ourselves, but we cannot prove it. Even, we may never be able to distinguish the difference between a 'real person' and a 'perfectly disguised person'.\" He smiled slightly, his expression carrying a certain indescribable nuance: \"So, the real key to this problem is not how we think about ourselves, but rather—how do we confirm that the people around us are truly 'people'?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I've read similar plots in science fiction, I never imagined you were already engaged in this kind of research, truly admirable.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Undoubtedly a person before he reported an error, I anyway see everyone as flesh driven by biochemical reactions.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That really is a somewhat frightening question, do you have an answer, professor?\" Alison also expressed great interest."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We don't even need to worry about robots reporting errors, we often make mistakes predicting current people, even knowing it's an error report.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"This is precisely the purpose of my and Dr. George Gurevich's research.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I think the meaning of creating true mechanical life is more important than distinguishing.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Professor Pitts adjusted his tortoiseshell glasses, a barely concealed sense of pride appearing on his face: \"Philosophers have debated the 'problem of other minds' for millennia, but there has never been a definitive answer. And we are trying to crack this puzzle with science.\" He walked to the bookshelf, pulled out a thick research manuscript from the top shelf, and opened a page: \"Dr. George Gurevich—my collaborator, through long-term research, discovered some special neural clusters. These neural clusters show specific activation patterns when an individual exhibits 'self-mind' behavior.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I think we could biochemically mimic this stimulation to improve us two biochemical robots...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "He smiled, with a touch of scholarly satisfaction: \"To pay homage to the philosophers, I named this algorithm—'Algorithm of the Heart'.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Hooray! What a great name.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison clapped her hands, \"What a great achievement! Have you and Dr. Gurevich applied the Algorithm of the Heart in practical applications?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "@player4 Professor Pitts, hearing your question, slightly raised the corner of his mouth, as if the long-awaited moment had finally arrived: \"Of course, we are not just armchair theorists. This algorithm has been preliminarily validated in experiments.\" He opened a thick experiment report and gently tapped a page: \"In our initial tests, we selected 100 volunteers, mainly Dr. Gurevich's patients. These people underwent a series of consciousness intensity tests, including complex social activities like verbal communication, artistic creation like painting, and low-level physiological reactions like the knee-jerk reflex.\" His finger slowly slid over a line of data in the report, his tone suddenly becoming subtle: \"The consciousness intensity of the vast majority of people matched our hypothesis—normal people's consciousness intensity is around 50, occasionally fluctuating. But...\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"But what?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We discovered three anomalous individuals. Whether in lively conversation, interacting with people, or creating artworks, their consciousness intensity never exceeded 5.\" He gently closed the report and sighed: \"What does this mean? Biologically speaking, only vegetative patients would have such low consciousness intensity. But these three people? Their performance was indistinguishable from ordinary people, even better at socializing than average, capable of extremely complex thought activities.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What about those with super high consciousness intensity?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "He took a step back, as if letting you digest this information: \"They have no real self-awareness, their 'personality', 'emotions', 'thoughts' are all some kind of highly complex reflex mechanism. They can appear more charming, intelligent, shrewd than anyone, but they have no 'self'.\" He shrugged, his tone carrying an indescribable nuance: \"And you, or I, or anyone around us... whether we have a real 'self', and how to determine it?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Perhaps our machine or algorithm just needs improvement...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So, they are like a precise reaction machine... This is truly a novel discovery only possible in interdisciplinary research! I need to think carefully about what impact this could have on my research.\" Alison scratched her head."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Heh, someone with such a jumpy train of thought like you surely has a high consciousness intensity. If Professor Gurevich were here, I'd really consider testing you.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How long did it and Professor Gurevich take to complete this research? I imagine it couldn't have been an easy process.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "@player6 He gently closed the report, crossed his hands over his chest, tilted his head slightly, and showed a mocking smile: \"If our method is truly not rigorous enough, then please tell me, why do those 'anomalous samples' consistently fall within the extremely low consciousness intensity range? Why do they never show fluctuations, always appearing like some highly complex biological program? Do you think that's a coincidence?\" He leaned towards the table and sneered: \"Or would you rather believe that we just happened to find three people who 'coincidentally' fit this bizarre pattern in all tests? In that case, I'd suggest you go buy a lottery ticket; your luck might be more worthy of study than our research.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Perhaps their biochemical reactions are abnormal, or they function using other parts of the body... all of that is possible...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"He really is an unlucky fellow, you're right about that,\" Alison joked to lighten the mood."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I've seen many strange things,\" Andrew appeared innocent."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I've seen plenty of people like you who have no practical experience with the experimental process, only know how to question, and are full of empty talk. Since you're not interested in my research, please leave.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Obviously, I am very interested and have great hopes for its growth and refinement.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "He waved his hand, somewhat listless."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I have to admit my knowledge in this field might truly not exceed vocational school level...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "@player4 \"About a month. Measuring 100 samples is still quite manageable.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew showed a very interested expression. \"That's definitely the best approach, a large sample size!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Really? Would I be fortunate enough to learn some details about it in advance?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Dr. Gurevich began a visiting scholarship in the United States this January. Before leaving, he proposed to further expand the research on these 'exceptional cases,' requiring the use of the Algorithm of the Heart to compute 30,000 patient samples from the European Psychoanalytic Association. According to the research rules, this batch of samples also has personal information anonymized. The computational load this time is enormous; the calculations started in January and are still not finished, though I estimate they'll be complete in another two or three days. During this time, I've also manually corrected bugs caused by the massive computational budget multiple times.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then it seems I have the chance to witness the completion of this project! Professor Pitts, your and Professor Gurevich's talents are two shining stars in academia.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I dare not accept such praise. Professor Gurevich is the truly outstanding figure—an academic workaholic and a scientific purist, which of course contributed to his genius achievements.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew clapped vigorously, thinking to himself that a good vocational school isn't worse than a university."
+    },
+    {
+      "speaker": "player1",
+      "text": "The story record of the Algorithm of the Heart has resumed. Currently, 4869 texts have been recorded."
+    },
+    {
+      "speaker": "player2",
+      "text": "Pitts had a pleasant conversation with Gray. \"Do you have any other questions?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"You mentioned earlier that the expanded thirty thousand samples are from patients of the Psychoanalytic Association. Do they have any common characteristics?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Pitts chuckled dryly. \"You want me to find commonalities among thirty thousand people?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Forgive my foolish question. I thought they were selected due to some specific mental illness.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"According to the research rules, this batch of samples also has personal information anonymized. All I know are their test samples.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'm very interested in the matter of Heartless people around us. Do you have plans to develop a portable tool for testing self-consciousness indicators?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Heh, not for now. The Heartless merely lack 'self-consciousness'; they are still human, not terrifying monsters. Professor Gurevich and I never intended to discriminate against this exceptional case among the population.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Not just talent, your and Professor Gurevich's thorough consideration of ethics and human rights is also admirable. Are there any practical application tools currently? If it involves academic confidentiality and is inconvenient to discuss, that's completely fine. I'm just asking out of personal interest to learn more.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Professor Gurevich and I are also very concerned that this might lead to a new-age witch hunt. Therefore, all experimental samples have personal information anonymized. If you're interested in the previous three anomalous samples, you could try seeking the professor's permission at the Gurevich Clinic.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Unfortunately, the professor is in the United States. We already made a trip for nothing.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I don't have the original archival records here.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh, that's truly delightful and welcome news!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"To be honest, I don't believe every breakthrough in scientific research must be transformed into practical tools. In a sense, I share a common language with those reclusive folks in the mathematics department.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So you place greater emphasis on breakthroughs in the theoretical field. Of course, theoretical breakthroughs are also crucial, as new knowledge forms the foundation for new tools.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Prepare to leave. Gained a lot, mainly depends on how they put it into practice."
+    },
+    {
+      "speaker": "player2",
+      "text": "Professor Pitts sees you off and retreats back into his office."
+    },
+    {
+      "speaker": "player4",
+      "text": "Return to the auction venue."
+    },
+    {
+      "speaker": "player2",
+      "text": "When you return to the auction venue, it's just time for entry."
+    },
+    {
+      "speaker": "player4",
+      "text": "Enter, enter. Hope no one bids high for the thing we want."
+    },
+    {
+      "speaker": "player2",
+      "text": "Hall 1 is a small auction room. After you and the other buyers take your seats, the auctioneer announces the start of the auction. The bailiff brings in a leather case, opens it, and reveals the contents."
+    },
+    {
+      "speaker": "player6",
+      "text": "Craning my neck to see what's inside, I spot that strange little ornament."
+    },
+    {
+      "speaker": "player2",
+      "text": "The auctioneer taps the gavel. \"Starting bid: 4000 Marks!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Observe the reactions of the other buyers."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Damn, what is this thing? So expensive?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It looks utterly worthless!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "From a dark corner, comes the sound of fate turning."
+    },
+    {
+      "speaker": "player2",
+      "text": "The crowd remains silent; some are even putting on their coats, ready to leave."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew leans back in his chair and starts playing with his fingers out of boredom."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"3200 Marks!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2> wants to discuss with me privately? Well done, I won't tell anyone the content."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'll take it!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Secret dice roll from the group <Algorithm of the Heart> (QQ-Group:651766442):"
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison immediately stands up and signals."
+    },
+    {
+      "speaker": "player2",
+      "text": "The crowd immediately erupts in whispers, and people look at you with strange gazes, seeing you as the \"fool\" in their eyes."
+    }
+  ],
+  "start_line": 2840,
+  "end_line": 3154
+}

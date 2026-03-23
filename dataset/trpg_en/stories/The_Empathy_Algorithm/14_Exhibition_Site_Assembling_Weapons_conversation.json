@@ -1,0 +1,856 @@
+{
+  "section": "14. Exhibition Site: Assembling Weapons",
+  "description": "Library check reveals a crucial clue. Under their disguises, the agents quietly assemble pistols. Andrew thinks he absolutely won't draw it unless absolutely necessary. The symposium is about to begin.",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": "However, the collections here are extremely rare, involving secret archives from various countries that should have been sealed away forever."
+    },
+    {
+      "speaker": "player1",
+      "text": "The mountains and soil listen to your wishes; regardless of what karma and retribution may be, fate already slumbers in your palm."
+    },
+    {
+      "speaker": "player6",
+      "text": "This environment is really quite bizarre, but perhaps this is the atmosphere they intended to create."
+    },
+    {
+      "speaker": "player1",
+      "text": "The mountains and soil listen to your wishes; regardless of what karma and retribution may be, fate already slumbers in your palm."
+    },
+    {
+      "speaker": "player4",
+      "text": "Coming down, coming down."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray successfully rendezvoused with the \"illiterate\" teammates."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Library Use check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray noticed two exhibits are intricately connected to your investigation."
+    },
+    {
+      "speaker": "player4",
+      "text": "Share your findings with your colleagues."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Great, now we can prove the old man has been swapped.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"There are other gains. I just went to the second floor. The windows there are opaque, relying entirely on artificial lighting. Haddin choosing the freight elevator to go upstairs might be to head to the control room to cut the lights, preventing Heim from casting spatial magic.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Whether we can leave records or secure the exhibits would be a great help to us, but unfortunately, it's quite difficult in practice."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"This guy is really a peculiar person.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Also, the Old World Black Book probably isn't easy to obtain; it's kept near Manson by magic.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David checks around to see if there's any sign prohibiting photography."
+    },
+    {
+      "speaker": "player2",
+      "text": "It's pitch dark here, obviously to reduce light damage to the exhibits. Your request is naturally refused."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The only good news is we snatched the Goloi Blessing.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Is it too late to learn now?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "You've finished touring the museum's first floor, and the second floor is currently being set up. The clock points to 10 o'clock."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Four more hours. What can we do now, friends?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I need to think; the current situation is a bit tricky.\" Feeling the situation is very tricky, with some leads but not many."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"It's not good to act rashly here, and we also know nothing about Haddin's specific plan.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Haddin's plan is probably to invade the control room via the freight elevator, turn off the lights, and then kill Heim.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Looks like we have to keep an eye on Haddin while also stopping the cousins.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Heim has a powerful attack magic released by sight and a passive defensive magic.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go out for lunch first, chat while we eat.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Haddin's assassination plan probably won't succeed because of this; bullets aren't much use.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Perhaps we can prepare something, try not to let him see it.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Planning to find a place to eat near the art gallery."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Stuff it into whom?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"How about we shove it to Haddin...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Or we could stuff Haddin's soul into Gurevich's body?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is there a chance to disguise as maintenance workers to get in?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Theoretically, our fallback plan is to find Haddin and provide remote assistance, like transferring his soul into Gurevich's body, but without directly intervening. Grab the Old World Black Book and run. With the recall spell and the archives, it should be enough to clear our names.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then the problem becomes how we get that book.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"This is the best-case scenario. The worst case is we might be forced to intervene, then we'd have to face a tricky problem: how to withdraw.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Haddin still has to approach the building from the street, right!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We don't know Manson's details either. But if he's going to display the Old World Black Book on site, then he'll definitely have to take it out. Under normal circumstances, we might also learn that spell.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Hopefully Haddin has already learned it...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Yes, hopefully our eyesight is good enough.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The best-case scenario is, Haddin wants to use the Thule Traditional Society to create chaos and then get in. We could also seize the opportunity.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "That's hoping for a bit too much. This world doesn't seem like the type to kindly respond to people's expectations."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"But that would be too boring, wouldn't it? And not secure enough—after all, we're not the only ones who want this book. Most likely, there won't be a chance to carefully peruse it.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The story Algorithm of the Heart recording has continued, currently 6636 texts recorded."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I suggest we go find Manson first. We can disguise as journalists to get into the VIP room.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Folks, our cover identities are high-level intellectuals. I think making some meeting requests is reasonable. Disguising as journalists is also a good method.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"And it has to be when Manson and Gurevich are separate... They might not get along well anyway.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That's a good idea... and we might even have a chance to ask the reporter lady for help.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Miss Gray is right.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Please note, the museum will temporarily close in 1 hour, at noon 12:00. Audience admission for the afternoon debate will begin at 13:30. Please be mindful of the time.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Alright, Alison, you go out later and tell the reporter that Haddin will appear in the afternoon. Then prepare the magic. Come in at the normal time in the afternoon.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled at many things."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"If possible, you can come in with the reporter lady.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled at many things."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I'll try to stay behind and find an opportunity to contact Manson in advance.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I wonder if we could call Manson first...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled at many things."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"If he hasn't left yet, he might be interested in our proposal.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Manson should arrive early to prepare, but I think Gurevich will come around the same time.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No time to waste. I'll go out now to contact the reporter lady and prepare the Goloi Blessing spell. You all be careful.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Alright, you be careful too.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison leaves the museum, returns to the car to prepare spells, then finds a phone booth to call the journalist."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Do you have Manson's contact information? If you do, it would save us a lot of trouble.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What if the journalist knows? Such a big shot might be acquiring artifacts somewhere.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Maybe the cousin has it, but unfortunately, he's not on our side.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Stop thinking about these irrelevant things, hurry up and find a suitable place to hide.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "@player4 You dial the number."
+    },
+    {
+      "speaker": "player5",
+      "text": "Pretend to go to the first-floor restroom to use the toilet, observe if there are any suitable hiding spots inside."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hello?\" A professional woman's efficient voice comes from the other end of the line."
+    },
+    {
+      "speaker": "player3",
+      "text": "David also takes advantage of the museum still being open to look around for places to hide."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Miss Margaret, it's me, Alison.\" Alison lowers her voice. \"We have news about Haddin. He's involved in a complex vortex and is about to confront Nazi remnants who wield black magic.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You... what? Mr. Haddin is still alive? That's wonderful! And you—you're going to face who? Nazi remnants? And what... black magic?\" She lowers her voice, her tone shifting from surprise to alarm. \"Alison, are you insane? Do you know what you're saying?\" \"Are you asking for my help, or trying to drag me into... this madman's game?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Haddin probably has a death wish to stop the Nazi remnants. What we need to do aligns with his interests, so we want to contact the Nazi's target in advance to give him a warning. Of course, we won't put you in danger personally, but your identity as a journalist might be able to help.\" Alison hesitates as she finishes."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"What do you want me to do?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Borrow your journalist identity to conduct an interview in the VIP room; we want to make contact with the target. As for you, you can wait on the periphery for an opportunity to gather news material.\" \"There might be a big commotion. You'll be relatively safe gathering news from the periphery, and Haddin will be there too. This might be... the last chance to see him. You could also get some information from him.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Huh? What? Why would you think having a journalist's ID means the VIP will accept an interview? Is a press pass some kind of golden ticket? I've been turned away plenty of times.\" \"If people just accepted interviews because you're a journalist, this job would be way too easy.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We're just grasping at every possible opportunity,\" Alison says with a bitter smile. \"Even if you can't get in, it's good for you to be a witness here. Just from a professional journalist's perspective, I don't think you'd want to miss this story.\" \"This is just an invitation; the decision is yours.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You're right,\" she says softly, her voice like a hidden breeze—light, but not weak. \"Of course I don't want to miss this story. Nazi remnants, black magic, federal police, mysterious disappearances... If I were the Margaret from ten years ago, obsessed with the Pulitzer, I'd have snatched the clues from your hands and charged in by now.\" \"But now I know that the truly valuable stories are often the ones you can't write. Like Haddin, like what you're about to do... They won't make the front page or the evening news. Because they're too dangerous, and too real.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright, I understand. In any case, thank you for the help you provided earlier,\" Alison replies after a moment of silence."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But who am I kidding? Deep down, I'm still driven by curiosity for the truth. Even if it can't be published, I want to know what's hidden behind it...\" \"Where should we meet?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"You really gave me a scare with that dramatic pause. Is that a professional habit for journalists, to surprise the audience?\" Alison lets out a long sigh. \"Everything will happen at the art gallery. I'll wait for you at the entrance.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I'm used to saving the bombshell for the end. See you soon.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Hangs up the phone, Alison returns to the car and tosses the cube into the mirror."
+    },
+    {
+      "speaker": "player3",
+      "text": "@player3"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Spot Hidden check result: D100=19/25 Success. Move forward quickly, be decisive. No danger ahead. <player5>'s Spot Hidden check result: D100=80/50 Failure. Truly unfortunate! As bad as if all the money you made selling red berries got stolen! But you'll try again tomorrow."
+    },
+    {
+      "speaker": "player2",
+      "text": "The restroom only has stalls."
+    },
+    {
+      "speaker": "player1",
+      "text": "Is the cycle of fate like shackles, and are you about to gamble on that elusive one? <player6>'s Spot Hidden check result: D100=8/25 Hard Success. Copying books really paid off, trust my experience."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"This doesn't look like a good place to hide.\" Feeling the restroom isn't a very suitable hiding place, leaves dejectedly."
+    },
+    {
+      "speaker": "player6",
+      "text": "A spot closer to the VIP room is best, so we don't get caught by security before we even make it to the meeting..."
+    },
+    {
+      "speaker": "player2",
+      "text": "You want to hide, but there really aren't many good hiding places in the museum. Besides the exhibition halls, there are only restrooms or staff-only areas marked 'No Entry for Visitors'."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew calmly paced back and forth in the museum, observing the personnel deployment and situation."
+    },
+    {
+      "speaker": "player3",
+      "text": "David also pretended to admire the exhibits while strolling around."
+    },
+    {
+      "speaker": "player5",
+      "text": "Unable to find a good hiding spot, he reluctantly left."
+    },
+    {
+      "speaker": "player3",
+      "text": "David left just before the museum closed."
+    },
+    {
+      "speaker": "player2",
+      "text": "These suited security guards are clearly not the kind of 500-mark-a-month, idle neighborhood watchmen."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison approached her, \"Over here!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Huh?\" She seemed surprised but quickly regained her composure. \"Oh right, you're in disguise.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Briefly explain the situation to Margaret using the art gallery's posted posters."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"So what is Mr. Haddin's plan?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"He has a grudge against that Nazi... he might want to settle it today.\" Alison hesitated, not telling her about discovering Haddin's body. \"We found Haddin's hideout; he left behind a timed plan diagram.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No, I don't think it's that simple. According to you, Mr. Haddin has some understanding of black magic?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yes, Haddin likely conducted considerable research for revenge.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Haddin is taking action personally?\" she repeated softly, her gaze sharpening. \"He and that Nazi... have a grudge.\" She murmured, as if weighing the word's significance. \"Then he must have thought it through carefully. Haddin isn't an emotional man; even with anger in his heart, he would rehearse, revise, and reenact every detail over and over before acting, until he was sure he had at least an eighty percent chance of success.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"...We truly don't know him that well. Since you say so, his plan must be far more meticulous than we imagined.\" Alison pondered for a moment."
+    },
+    {
+      "speaker": "player2",
+      "text": "Her voice rose slightly: \"What he couldn't anticipate are 'variables outside himself'—like you, like third parties who shouldn't have appeared, like unexpected delays, even a temporarily reassigned guard. These are what's truly fatal.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So you mean... we should help him deal with these unstable factors.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "She paused: \"As long as you can do that... he can win.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We'll try. Unfortunately, we don't know the specific, detailed plan.\" Alison nodded."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"What about your companions? It's not just you, is it....\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The three of them are inside, trying to find hiding spots to gain the upper hand. The art gallery won't reopen until 1:30 PM. There's heavy security both inside and out, likely influenced by the organization behind this.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Is it possible it's simply because these artifacts are very valuable...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I don't know if Haddin accounted for this in his plan.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Max Manson places great importance on his collection and has specifically hired multiple private security firms for it.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So Manson hired the security.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "After talking for a while, an announcement urging visitors to leave echoed from inside the museum, as preparations for the afternoon debate were starting early."
+    },
+    {
+      "speaker": "player5",
+      "text": "Reluctantly left the venue, shaking heads and sighing as they walked out."
+    },
+    {
+      "speaker": "player3",
+      "text": "David exited with the departing visitors and joined Gray and the reporter."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew didn't gain much; now he could only wait for an opportunity to act."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison waved to them."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hello? Which one of you is Mr. player3?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Good afternoon, Miss Margaret, it's Henry Wilson now.\" David greeted her."
+    },
+    {
+      "speaker": "player5",
+      "text": "Nodded and stepped forward to shake hands, \"We are immensely grateful for your invaluable assistance.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"During these days of our trip to Germany, you have been practically our only friend—brave, intelligent, and full of a sense of justice.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Journalists like you are rare these days; the rest have either become shameless mouthpieces and hounds for politicians or turned into madams peddling gossip and fake news.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Haha, you flatter me too much. I've merely held onto the original intent of a journalism professional.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Miss Margaret has provided us with some new information and clues,\" Alison shared with her colleagues."
+    },
+    {
+      "speaker": "player3",
+      "text": "David listened and nodded repeatedly."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What do you think? This information is quite valuable for reference.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"We do need to eliminate some unstable factors to prevent Haddin's failure. After all, we need him alive.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I see. It seems Miss Margaret understands Haddin better than we do.\" Began to ponder, \"Then perhaps we should also share the information and plans we've gathered so far.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Let's grab a quick bite nearby and talk over lunch? The venue probably won't open for entry until half past one.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Of course.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Great, great, it's our treat.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Perfect, we were thinking the same. Any recommended places?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We currently have evidence that Gurevich, Brandt, and Rilke have each been possessed by some Nazi remnant—though it sounds bizarre, it's true.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's keep it simple for now. Once this is over, we'll treat Haddin to a big meal together.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "You ate at a nearby restaurant called Old Roman. A meal without appetizers, wine, dessert, or coffee—a bit shabby for treating guests."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We believe Heim—the Nazi mage possessing Gurevich's body—intends to seize or destroy that collection, while Haddin's goal is likely to kill Heim. Our original plan was to contact Manson before the speech, warn him about Gurevich, and have him teach us the incantation. If possible, we'd also meet with Haddin in advance to exchange intelligence.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Why do you think you could recognize Haddin? He will definitely be disguised, and why would he trust strangers on sight?\" Margaret frowned."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sounds like we were about to execute a flawed plan. Good thing we have your help.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Nodded, \"You make a valid point. In such a short time, he certainly couldn't trust us. But we're worried that coordinating after Haddin makes his move might be too late—Heim himself is a powerful mage, and other forces also want him dead.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Why don't you think about who else is currently interested in Haddin?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ahem, it's the Americans.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The Americans?\" Margaret looked puzzled."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Also, the security here is extremely tight. We haven't found a good way to bypass it—perhaps we can only hope Haddin has some method to handle it.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"When they investigated, they found Americans had put a bounty on Haddin's head, demanding he be killed on the spot today.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Then we must take out these Americans?\" Margaret made an exaggerated throat-slitting gesture."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Huh? No, no, no, no, no.\" David quickly shook his head."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That shouldn't be necessary. We just need to try and divert their attention for him.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What? The Americans have already tracked him here?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Well, do you have any weapons with you?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David nodded, indicating there was no need to worry about that; everyone was well-armed."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We have some necessary firepower, but entering the art gallery requires going through security.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"In principle, we'd better not engage in direct firefights with them.\" He shrugged after speaking. \"But when chaos breaks out, who knows who's on which side?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"How do journalists hide the things they carry during undercover investigations?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hmm... we usually don't carry such large items; at most, we hide a voice recorder in the collar.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Looking at it this way, we still have to wait for an opportunity.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We have those too, but unfortunately, a voice recorder doesn't have much stopping power when smashed against someone's head.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"But opportunities don't wait for people; we'll have to improvise on the spot.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But I have a special transport case for camera equipment in my car.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Excellent! This way we can bring some things in.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You're practically an angel sent by God to save us! Hiding bombs like this should be no problem, but the gun bodies might be tricky.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite skilled in many things."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's talk about what we can see right now. Do you think the Thule Traditional Society's gathering here is part of Haddin's plan?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Yes, he arranged to send something to the Thule Society this afternoon.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then we don't need to deal with those guys for him. What we need to watch out for are the Americans and...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Alright, then I think what we can do is prevent the Americans and the Freikorps from interfering.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sigh... not knowing your dance partner's steps, yet having to coordinate with them for this dance, it's really difficult.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Actually, there's also that thing."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Also, I'm very sorry, but we cannot enter as a single group. Please understand, as I still have to live in this city.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew thought to himself, that thing specifically designed to kill time travelers, if that thing is real."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Now we just need to figure out how to get the pistols inside. Can they fit in the equipment case?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Your guidance is already the greatest help to us. Otherwise, our original plan might have ruined everything.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You should be able to disassemble the guns and place them in the compartments of the transport case.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We are extremely grateful.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This is already a tremendous help. Without you, we'd truly be jumping into a fire pit.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"After eating, let's go prepare the things.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Roughly how many guns can it hold? I'd also like to bring smoke grenades inside.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Adding two smoke grenades shouldn't be a problem.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Then how do we withdraw and wrap things up...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright. Be sure to stay safe, Miss Margaret.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"To be honest, I've already stopped thinking about completing the mission alive.\" David shrugged. \"Take it one step at a time. Maybe by then, everything will already be in complete chaos.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"If that doesn't work, we'll have to rely on smoke grenades or something to create chaos and seize the chance to leave.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Well, whatever...\" Andrew chewed more slowly."
+    },
+    {
+      "speaker": "player3",
+      "text": "David had already memorized the art gallery's floor plan. He felt he had done all he could; the rest was up to God."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh, by the way, little Andrew is also a good cook. Let him prepare a proper big meal for us later.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "After setting your flags, you disassembled the guns in the car and packed them into the hidden compartment of Margaret's equipment transport case, waiting only for the moment the museum opens."
+    },
+    {
+      "speaker": "player1",
+      "text": "The story record for the Algorithm of the Heart has resumed. Currently, 7025 text entries have been recorded."
+    },
+    {
+      "speaker": "player2",
+      "text": "Audience entry for the debate begins at 1:30 PM. Margaret and you enter through the audience entrance."
+    },
+    {
+      "speaker": "player3",
+      "text": "According to the previous plan, David enters the art gallery without weapons, turns on the button microphone, hoping it can record some possible evidence."
+    },
+    {
+      "speaker": "player2",
+      "text": "The Thule Traditional Society, that neo-Nazi group, is still chanting slogans, but after enduring the midday sun, their momentum seems listless compared to the morning."
+    },
+    {
+      "speaker": "player3",
+      "text": "Hopefully, they can still serve the purpose Haddin intended."
+    },
+    {
+      "speaker": "player4",
+      "text": "After entering the gallery, Alison scans the security situation once more, focusing on the security passage area."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew pokes his head around, preparing to locate Manson. Manson has put great effort into security; this likely won't be easy."
+    },
+    {
+      "speaker": "player2",
+      "text": "Margaret maintains some distance from you and goes through security first. \"Camera... the compartment has film, can't be exposed to sunlight... yes... this is my press pass... thank you.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Follow the guidance and go up to the second floor first to check the situation."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew prepares to listen carefully to the debate."
+    },
+    {
+      "speaker": "player3",
+      "text": "David also goes up to the second floor. For now, the best approach is to wait and see."
+    },
+    {
+      "speaker": "player6",
+      "text": "Not only can we watch a magician and a psychologist debate, but also a pistol debate. Andrew is full of enthusiasm."
+    },
+    {
+      "speaker": "player2",
+      "text": "The number of security personnel on the museum's second floor has greatly increased. Numerous guards form two human walls, isolating the audience from the guests and staff, creating a limited, enclosed area."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2> rolled d3=2"
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew follows his older brother and sister, ready to follow their arrangements. Of course, he's also looking for a good spot for himself."
+    },
+    {
+      "speaker": "player3",
+      "text": "David observes the audience seating, looking for a seat closest to the control panel and farthest from the security guards, then sits down."
+    },
+    {
+      "speaker": "player4",
+      "text": "Sit in a position near the control panel. Observe the VIP section and audience seating. Are there any noteworthy individuals?"
+    },
+    {
+      "speaker": "player2",
+      "text": "There's no such contradictory requirement."
+    },
+    {
+      "speaker": "player5",
+      "text": "Thrown off by this grand setup, try to get close to Margaret, using your body to block the line of sight towards her, making it easier for teammates to retrieve the goods."
+    },
+    {
+      "speaker": "player2",
+      "text": "The control panel is under the supervision of security."
+    },
+    {
+      "speaker": "player3",
+      "text": "Well, never mind then."
+    },
+    {
+      "speaker": "player6",
+      "text": "Sitting in a row, sharing the fruits. Andrew isn't confident in his shooting skills, so he gives the better shooting positions to others."
+    },
+    {
+      "speaker": "player2",
+      "text": "You all choose front-row seats. Margaret pretends to assemble photography equipment nearby, secretly handing over your guns and C4 to you."
+    },
+    {
+      "speaker": "player6",
+      "text": "Sitting obediently beside player5, his eyes constantly and curiously scan the area behind the security guard... and occasionally glance sideways at the freight elevator."
+    },
+    {
+      "speaker": "player5",
+      "text": "Quietly assembling the pistol, checking the watch after preparation is complete."
+    }
+  ],
+  "start_line": 4102,
+  "end_line": 4416
+}

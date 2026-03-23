@@ -1,0 +1,284 @@
+{
+  "section": "14. Final Battle: Escape from Trieste",
+  "description": "Engage in the final battle with the cult, throw the Talisman into the lake, return to the hotel to find the ground covered with desiccated corpses. Flee onto the train, bats flit past the full moon outside the window, the nightmare of Trieste fades away with the turning wheels",
+  "conversation": [
+    {
+      "speaker": "player4",
+      "text": ".ra侦查"
+    },
+    {
+      "speaker": "player1",
+      "text": "Faith arises from desire; if it is what you hope for, it will be answered. <player4>'s Spot Hidden prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 notices moonlight seeping through cracks deep in the cave, forming a faint band of light. Perhaps they can circle to the other side of the cave and enter through that natural opening where light comes through."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Gesture to teammates that there's a path ahead"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Prepare to sneak over as well"
+    },
+    {
+      "speaker": "player2",
+      "text": "You stealthily enter through that natural opening, arriving at the sparsely populated rear area. A cultist holding a revolver approaches the leading player4, finger about to pull the trigger. At that instant, a mutated giant mermaid leaps from the dark water behind. Its over twenty-foot body sends water splashing everywhere, its claws precisely seizing the cultist. After three violent tearing vibrations, only the cultist's legs remain trembling weakly in the air before even those last remnants are dragged into the black water. As the mermaid sinks, only ripples remain, as if nothing happened."
+    },
+    {
+      "speaker": "player5",
+      "text": ".sc0/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player4",
+      "text": ".sc 0/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Grit teeth and keep moving forward"
+    },
+    {
+      "speaker": "player2",
+      "text": "Not far away, two R'lyeh Cultists approach a Brotherhood member handling a corpse, who has just finished the final incantation. He grabs two lumps of writhing flesh and hurls them—they transform into Skinwalkers mid-air, accurately wrapping around the cultists' faces. The Skinwalkers cling like living masks; the entangled cultists emit muffled gurgles, struggle to claw at their faces but cannot tear them off, and finally collapse, dying of suffocation. (.sc 0/1D4)"
+    },
+    {
+      "speaker": "player3",
+      "text": ".sc 0/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player2",
+      "text": "[Strayed into the Tidal Zone]"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Prepare to continue forward"
+    },
+    {
+      "speaker": "player4",
+      "text": ".sc 0/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player3",
+      "text": ".sc 0/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player5",
+      "text": ".sc 0/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player2",
+      "text": "A Brotherhood member approaches the investigators, his eyes glowing with an eerie light. player4 and player5 immediately recognize this face—it's the very corpse that was lying beside the letters on the second floor of Fenanik. Now he stands before them completely intact, his skin showing no wounds, only those glowing eyes revealing an inhuman aura."
+    },
+    {
+      "speaker": "player4",
+      "text": ".sc 0/1d3"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player5",
+      "text": ".sc0/1d3"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player2",
+      "text": "Antonio Termona attacks from behind, tentacle tip piercing through Salai's chest. Just as Termona shows a victorious smile, it instantly turns to horror—Salai pays no heed to the penetrating wound in his chest, directly turns and slashes back with his blade. Clearly, these Brotherhood members do not keep their hearts in conventional locations."
+    },
+    {
+      "speaker": "player5",
+      "text": ".sc1/1d3"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player4",
+      "text": ".sc1/1d3"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... Another sanity check... I understand, everyone's watching"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Shivering and continuing to walk"
+    },
+    {
+      "speaker": "player2",
+      "text": "Just as the investigators thought the battle had temporarily eased, the sound of new approaching footsteps came from the distance. The only hiding spot was a group of sharp, tusk-like stalactites behind them. Although the slippery rock wall was difficult to climb, they could still barely hide behind the stalagmites."
+    },
+    {
+      "speaker": "player3",
+      "text": ".st show"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra DEX"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it's what you hope for, it will surely receive a response, <player3>'s DEX wish:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra DEX"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it's what you hope for, it will surely receive a response, <player5>'s DEX wish:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra DEX"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it's what you hope for, it will surely receive a response, <player4>'s DEX wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Throw out a rope, trying to pull my translator up"
+    },
+    {
+      "speaker": "player2",
+      "text": "player5's foot slips, and he falls towards the pitch-black depths below, but he grabs wildly around and catches Bolan's rope."
+    },
+    {
+      "speaker": "player4",
+      "text": ".sc 1/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... Another sanity check... I understand, everyone's watching"
+    },
+    {
+      "speaker": "player3",
+      "text": ".sc 1/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... Another sanity check... I understand, everyone's watching"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sc 1/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... Another sanity check... I understand, everyone's watching"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"So... you have finally brought it!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Have Johnson take out the medal"
+    },
+    {
+      "speaker": "player2",
+      "text": "Johnson tightly wraps his arms around the medal, his knuckles white from the force, his whole body curled up and backing away, his eyes a mix of fear and obsession."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We have brought what you need.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Since we have brought the item.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"But we have a small request, we are looking for a statue fragment.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hand it over! We will grant you everything you desire.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It should be a white right leg part, could you please bestow it upon us?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We have shown our sincerity.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "A white right leg suddenly pops out from the pile of debris, rolling and stopping at player4's feet, the broken end still stained with some rock dust."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How should we give you the medal?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Wrap the medal with clothes"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Throw it into the lake, I shall retrieve it\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Wrap it with two layers of clothes"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Throw it into the lake\""
+    },
+    {
+      "speaker": "player5",
+      "text": "(Take it to hammer Mr. Fei?"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Run fast run fast"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Take the statue, then prepare to leave"
+    },
+    {
+      "speaker": "player2",
+      "text": "The battle outside the cave continues, the crossfire between the two cult factions traps the investigators. The Bora wind howls madly at the cave entrance. The four struggle through the combat zone and finally board the train to Trieste. Arriving at the hotel late at night, they find the lobby brightly lit but empty. The hotel lobby in the dead of night is illuminated by glaring chandeliers yet deserted, the investigators rush up the stairs in panic. Desiccated corpses lie haphazardly on the corridor carpet, skin clinging to bones like dried specimens. Staggering across the pile of bodies back to their rooms, they hastily stuff belongings into suitcases. As Bolan zips up her backpack, she instinctively glances out the window, just in time to see a bat silhouette sweep past the full moon, its wings carving a sharp arc in the cold light. The platform at 4 a.m. is bitingly cold. The four drag their luggage onto the train. The icy leather of the carriage seats presses against their weary bodies. With the rhythmic vibration of the wheels, they soon sink into a heavy sleep."
+    }
+  ],
+  "start_line": 4034,
+  "end_line": 4343
+}

@@ -1,0 +1,344 @@
+{
+  "section": "20. Underground Interrogation Room: Sanity Check",
+  "description": "Descending the steps into the interrogation area, inside the iron gate are skeletons in rusted shackles, the sight of the skull remains is shocking, SC Sanity Check 0/1d3",
+  "conversation": [
+    {
+      "speaker": "player3",
+      "text": "A suppressed snicker erupted from the workers. The man in the flat cap pulled his brim lower. \"Thanks for the good omen!\" The bandaged worker touched his bandage: ⏳→💣 (A matter of time) 🔧→🧱 (We did a little tampering) 😉→🎁 (Special gift) The flat-capped man drew a collapsed cube on Johnson's palm with a greasy finger. \"Precat Company!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "(Can see a doctor)"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Okay, thanks.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "As the worker said this, the guard's whistle was already within three steps. Old Louis's raspy voice suddenly exploded: \"Lightning's stepping in a puddle!\" — Just then, the chestnut horse was pulling its hoof from a melted snow puddle, the muddy water splashing precisely onto the guard's shiny leather boots. The workers scattered with laughter. Johnson looked back; the old coachman was knocking his pipe ash against the carriage window frame, his frost-reddened nose wrinkling into a sly grin."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Pauses for a moment, then realizes and waves back to Old Louis with a smile."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm, also roughly learned about the villa's situation and when it might be free.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"This won't affect the Orient Express, will it?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It might affect it.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"At least within French territory, we need to consider this issue.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"After we visit the villa, we can go check it out.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Expresses sympathy but feels powerless to help."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Oh, I see, we're going to the doctor's place, right? Alright, let's hurry up.\" #Leaves the town hall to call Old Louis and nimbly gets on the carriage."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If you really want to get involved in this matter, you could start with the newspapers.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go, to the doctor's place first.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"There are always a few reckless newspapers that would report on this kind of thing. Best to stir up a bit of humanitarian concern, forge some nonsense about America as the beacon of the free world paying attention to humanitarian disasters.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#Looking at the workers around the town hall, sighs: \"Truly, the wheel of justice turns; evildoers get their due.\" Pulls the carriage curtain back and curls up for a nap, waiting for everyone."
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Louis cracks a whip in the town hall square, and Lightning's horseshoes head towards the train station. \"Taking a shortcut!\" he shouts back. The carriage speeds past the green arched windows of the station post office, then turns into a shady alley. After twists and turns, bumps and jolts, you arrive at the area of the former abbey. The former abbey has become Poissy Prison. Old Louis's whip tip makes a circle at the rusty iron gate of Poissy Prison; frozen prisoner families huddle wrapped in blankets in the visitation line, their breath fogging the guardhouse glass. Then the baptismal font of the Notre Dame Academy passes by the window, its worn, dented rim covered in icicles. \"Hold on tight!\" Old Louis yanks the reins to avoid an icy puddle."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Breathes on the carriage window, idly drawing an abstract stick figure of Pétain. In Johnson's drawing, inside a little matchbox, he's crushed to death with a *poof* by a suddenly broken timber, his eyes marked with an \"X\" by Johnson."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's knock on the door and ask first.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#Looking at the smoke from the chimney, \"Looks like someone's home.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Gestures for teammates other than player4 to stand further away."
+    },
+    {
+      "speaker": "player3",
+      "text": "(Johnson has already knocked on the door ())"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Sees the gesture and quickly runs back."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Stops the teammate, don't do it, don't do it."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"We're not here to be thieves, is this necessary?\" #Whispers."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Quiet, we *are* here to be thieves.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"…………\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Fine.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Then you distract him, we'll climb over the wall and sneak in. Keep the conversation loud to cover our noise.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Has Henry make player4 throw up."
+    },
+    {
+      "speaker": "player3",
+      "text": "Old Louis flicked his whip in his palm, then lightly snapped it past Lightning's left ear tip. The chestnut horse suddenly tossed its head and neighed, deliberately steering the wheels over an icy pothole, causing the carriage to lurch violently like a sampan in a storm! player4's doctor's bag flew up and hit the roof, surgical instruments clattering and scattering across the seats. A moment later, the carriage steadied, revealing player4's pale face smeared with vomit in the cold wind inside, a worker's leaflet that Johnson had brought up earlier still stuck to his chest."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Picked a sharp stone by the roadside and tied it to his own hemp rope to make a grappling hook, then circled around to the back of the wall to listen for their instructions."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think it's okay, let me down.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"It's quite handy, no problem.\" #Tested it and told his companions he was ready."
+    },
+    {
+      "speaker": "player3",
+      "text": "The carriage had returned to its original spot, and Old Louis opened the door with a smile."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Had a few teammates spread out, supporting player4 as he knocked on the doctor's door."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Rushed out of the carriage shed."
+    },
+    {
+      "speaker": "player3",
+      "text": "When the oak door was pulled open urgently, Dr. Christian was still holding disinfectant gauze. \"Heavens! Bring him in quickly!\" He bumped into the iron umbrella stand by the door as he stepped aside to make way. A little girl holding a baby rushed down the spiral staircase, wearing only one woolen sock—clearly having come down in a hurry upon hearing the commotion, curious to see: \"Daddy! The uncle is throwing up rainbows!\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#Hearing the doctor's family start moving, he acted decisively, firmly hooking the grappling claw onto the wall and nimbly climbing over."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Doctor! Doctor! Please help my friend!\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#Exerted strength with both arms, step by step climbing up the wall. \"Heave-ho, up!\" #Muttered low."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player12>'s climbing prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Johnson agilely climbed over the sharp garden fence and landed steadily beside the rose bushes."
+    },
+    {
+      "speaker": "player12",
+      "text": ".ra Luck"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player12>'s luck prayer:"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Crouched beside the rose bushes, peering into the brick house's first floor from the window, looking for the basement entrance."
+    },
+    {
+      "speaker": "player3",
+      "text": "Dr. Christian quickly untied player4's neckerchief, his fingers pressing on the carotid artery as his apron brushed against vomit. \"Acute vertigo!\" He turned his head and shouted toward the stairs, \"Véronique! Get difenidol and an ice pack!\" Véronique rushed upstairs. The three-year-old baby took out a small bottle from inside: \"Is this it, Daddy?\" The pink bottle had an orange candy label. \"Katherine, you little rascal, that's orange candy pills!\" The doctor was so frantic his gold-rimmed glasses slid to the tip of his nose. A moment later, Véronique finally rushed down the spiral staircase clutching a brown medicine bottle, but Katherine stubbornly held onto the candy pill bottle: \"Rainbow uncle eat candy!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I can barely read French, need help, Doctor?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player2>'s Spot Hidden prayer:"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Wow~\" #Marveled at his own incredible luck, secretly signaling to his companions outside the fence, indicating he found the basement."
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 noticed that, concealed under the sleeve, the doctor's left hand had a severe scar on the back."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"@#%……#@*(\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Blocked the doctor and his daughter, keeping them away from the teammates, watching as the doctor wheeled player4 into the operating room."
+    },
+    {
+      "speaker": "player3",
+      "text": "Dr. Christian knelt on one knee, crushing difenidol tablets and mixing them into apple puree. \"Swallow slowly.\" His hand supporting player4's nape was as if holding fragile porcelain. When the ice pack nearly slipped, Katherine suddenly reached out with her chubby little hand to press the edge of the ice pack: \"Help uncle!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Have a safe journey."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Ate it on instinct."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Took out his iron rebar, used the slightly flattened side of the spearhead to insert into the gap, applying slight force to see if it could be pried open."
+    },
+    {
+      "speaker": "player3",
+      "text": "About thirty years old."
+    },
+    {
+      "speaker": "player12",
+      "text": ".ra Strength"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player12>'s strength prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Taking a deep breath"
+    },
+    {
+      "speaker": "player2",
+      "text": "#While they are all looking inside, wink at player4, signaling him to perform a bit longer."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Sneak to the courtyard door to open it and let the three outside in, briefly explain the situation, and call them over."
+    },
+    {
+      "speaker": "player3",
+      "text": "@player8 @player13"
+    },
+    {
+      "speaker": "player4",
+      "text": "No need to perform, already about to die."
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra strength 45"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player3>'s strength 45 prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra strength 45"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player3>'s strength 45 prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show strength"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st show strength"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player3",
+      "text": "@player4"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra constitution"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player4>'s constitution prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Suddenly, the sound of player4 the doctor's heart-wrenching vomiting comes from the house, followed by Caterina's tearful cry: Uncle Rainbow is vomiting stars!"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Carefully take out the nitric acid bottle, signal others to step back. \"Nitric acid corrosion produces toxic gas, everyone stay away.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "One hour later, the rusty iron door groans like a breaking bone under the push. A damp, moldy smell mixed with the scent of iron rushes out. The stone steps are covered in dark green moss, extending downward into thick darkness. The ashlar stones on both walls fit tightly, but the roots of a century-old plane tree have burst through the cracks, with pale root tendrils stretching from the walls to the steps."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Shall we go down?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Gogogo, what's there to fear in this line of work?\" #Place a pebble to block the basement door, have the old soldier keep watch outside, instructing him, \"If anyone comes, remove this pebble so we'll know someone has been here.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Observe below cautiously."
+    },
+    {
+      "speaker": "player3",
+      "text": "You descend the steps, the flame cutting through the darkness, illuminating iron-barred doors embedded in the stone walls on both sides. You realize this is no ordinary basement but more like an interrogation chamber. In cell three, half a finger bone is stuck in the peephole; inside, a skeleton curled up wears rusted shackles, with a spiral iron spike driven into the skull's temple. Cell five's muddy floor is scattered with toothed iron rings—remnants of some neck-restraining torture device. The flagstone floor of the central interrogation room is carved with blood drainage channels. Two skeletons chained with silver chains lie at the convergence of the channels, with tattered remnants of a bridal veil covering the smaller one's skull. The larger skeleton's knuckles are deeply embedded in the stone cracks, displaying the agony of its final moments. (.sc 0/1D3)"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Always watch your step, don't step on the moss."
+    }
+  ],
+  "start_line": 5916,
+  "end_line": 6226
+}

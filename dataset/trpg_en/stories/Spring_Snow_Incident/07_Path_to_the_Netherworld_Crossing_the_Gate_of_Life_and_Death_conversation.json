@@ -1,0 +1,440 @@
+{
+  "section": "7. Path to the Netherworld: Crossing the Gate of Life and Death",
+  "description": "Leaving the Human Village, following the Spring Energy light spots through the Netherworld Gate, passing the boundary path guarded by Youmu, with Spring Energy being constantly drained, everyone speeds up their journey",
+  "conversation": [
+    {
+      "speaker": "player5",
+      "text": "\"Spring Energy is being siphoned away at every moment.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"A bit... nervous, can we really succeed?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Believe in yourself, let's go.\" #Continue leading the way forward"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I think we should be able to.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yes! We must succeed!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "You step beyond the boundary of the Human Village and proceed along the path. As the path gradually disappears, turning into ordinary snowy ground, you have arrived at a snowfield swallowed by silence. The soles of your boots crush through the untouched deep snow, producing a lonely, crunching echo. Under the leaden gray sky, only the Spring Energy light points drifting against the wind, like silent fireflies, continue to guide the way ahead."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Eek!\" #Quietly hugs the Baku that emerged from the shadow"
+    },
+    {
+      "speaker": "player1",
+      "text": "Something or other."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Gah! What is it this time?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Who is playing the violin?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Flowing light, spring blossoms fall, suddenly hearing the violin's sound, flowers fall on a desolate land, gone without the cycle of rebirth.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "No one responds; the performer is too far away."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Recites the poem while walking towards the direction of the performer"
+    },
+    {
+      "speaker": "player1",
+      "text": "But the melody is beautiful."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This melody feels somewhat unpleasant...\" #Hugs the Baku tighter"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Could it be the culprit...\" #Hides behind the others"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It's a bit uncomfortable; this must be the effect of an ability.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ugh...\" #Furrows brows tightly, the loss of vision makes Ge Qing more sensitive to sound"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Quickens pace to go over and make her stop"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Supports Ge Qing \"Are you alright, Miss Ge Qing?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"I'm fine..., it's just a bit grating to the ears.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Following the Spring Energy, ahead lies the end of the snowfield."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Should we get something to block our ears?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl tilts her head slightly, her indigo hair floating like seaweed under the agitation, the tips adorned with tiny ice crystals. The musical note ribbons on her black and white maid outfit emit a faint glow in time with the performance's rhythm. The violin body and her pale fingertips seem almost fused together. Whenever the bow grinds across the strings, translucent purple notes materialize and scatter, dyeing the Spring Energy light points that brush past her with a melancholic hue."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hello?\" #Tentatively asks"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hi.\" #Goes over to greet her"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The sound is very penetrating; I'm afraid it won't be much use.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Who are you?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl continues playing. When the final tremolo abruptly stops, she finally looks up at you, lightly tapping the surging boundary behind her with her bow."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hello, Lunasa. Your performance is excellent. I am Tenjouin Long'er.\" #Returns a bow as a greeting"
+    },
+    {
+      "speaker": "player1",
+      "text": "The melancholy poltergeist performer[CQ:image,file=116BB212EEBEB2B0207FABADD27C51B9.jpeg,subType=0,url=https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhTZbB5l7UW3S1URlxEdbsB4AhEj-RighAEg_woo78TttaXCkAMyBHByb2RQgL2jAVoQNvaZWcGqyYMQ58fm7_cIR3oC__WCAQJneg&spec=0&rkey=CAISMOhgRGa_vUwK8164TWqT-Ib7PzZ5JUJQ1OkJRjOfv33SF3ZDZ1SwcTjij1336izAYw,file_size=16928]"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Can we pass through?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Thank you.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We must return spring to Gensokyo! So please, let us pass.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Crossing that silence carries a heavier price than listening to my performance...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Please, just let us pass.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hmm... begging won't work either.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Music, you're quite skilled, right? I happen to know a little too.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We can be your audience for the performance or something.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"So I'm sorry, I can't let you in.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Okay.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Without stepping into that forbidden land of the living.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If you won't let us pass, won't it be like with Rumia again? Fighting hurts, I don't like it.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Stop.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then... if I die here, can I enter?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"This...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er reaches into the void and pulls out an electric guitar."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"A fairy can't do that.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Generally speaking, you'd go to Lady Shikieiki's side.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I must bring spring back.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"You might also become a poltergeist like me?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"How about we compete? Whose music is stronger. If we win, you let us pass.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Naturally~\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Eye twitching"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"If I can't beat you, as the eldest daughter, there's no need for me to hold a concert either.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Hand slowly reaches towards the saw cleaver behind."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I can sing too. Can the two of us perform together to face her?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Please.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then let's have a contest.\" #Long'er hands the electric guitar to Ge Qing, then takes out a keyboard that can be worn on the back and hands it to Luo Xueyu, and two maracas, handing them to Lina."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"But if we don't end this eternal winter, everyone will hide in their homes. Who will come to see your performance then?\" #poses a sharp, somewhat untimely question"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Isn't the Human Village quite lively?\" She tilted her head. \"It'll be fine once spring passes.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Sorry for the trouble, everyone. I'll use my ability to animate the instruments. You can use your abilities to assist.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh? Miss Ge Qing has a point.\" #hand leaves the saw cleaver behind her, takes the offered instrument. \"I... I'm not very good at this...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"That one just wants to collect some things. Wait a few months until summer and the harsh winter will disappear.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Spring has already all gone to the Netherworld. Gensokyo will have no more spring.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"It won't be lively for much longer.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Even without spring, there's still summer.\" \"It's just one season. As a poltergeist, I don't really get those things. Is the difference that big?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"That won't do. I don't agree with having no spring or anything like that. What are we supposed to do then?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's settle this with one song. No more dragging our feet.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Naturally~\""
+    },
+    {
+      "speaker": "player5",
+      "text": ".st shm+6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjoin Long'er]'s 'Existence Record'... Updated: [SHM]: 10+6=16"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Well then, let's give it a try.\" Lunasa elegantly placed the bow on the violin strings, then drew out a series of sharp tremolos. She deliberately let the bow slip on the strings, producing three discordant notes, while her left hand rapidly vibrated on the fingerboard, creating a mocking ripple. The final trailing note was lifted high by the bow, transforming into a shattered purple arc of light that splashed at everyone's feet. \"Do your best~\" Undoubtedly, this was a provocation."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then let's begin.\" #Long'er puts on his Messiah Fist gauntlets and takes a position in the center of the group. His right hand rests on his waist, activating the recording function on his phone."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Ge Qing has never seen such a thing before. She can only start by feeling the guitar with her hands."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The instruments will become animated. Just use your abilities normally.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Is this... a pipa?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Examines the instrument in hand carefully. \"Such a novel thing.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Covers the maracas with morning glories to create a microphone effect. \"Singing is one of the few things I'm good at.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"It seems you can't even grasp the basics of the music, can you? www\" Lunasa mocks at the opportune moment."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er raises his left hand, the one wearing the Messiah gauntlet, high. He takes a deep, full breath, then exhales a little. Subsequently, his left hand falls, striking the empty space before him. An illusory yellow drumhead is struck into existence, water droplets on it flying out and scattering with the drumhead's vibration. \"Thump! Thump! Thump! Thump!\" #His hands seem to transform into drumsticks beating a large drum before him, striking forcefully at a heartbeat-like rhythm. #Then, the instruments in everyone's hands are awakened by this drumming and begin, one by one, to join the drum's performance."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjoin Long'er]'s 'Soul Hunt' Check: Roll: 1D20+Psychic Power(3)d4+4d4+2d6=9+{2+2+3}(7)+{1+4+3+1}(9)+{2+2}(4)=29 Challenge: 10 Success Success Level: 4"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sh Psychic Power d4+4d4+2d6"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"...\" #Makes the emotions of the living instrument in her hands even more intense."
+    },
+    {
+      "speaker": "player4",
+      "text": "#After getting somewhat familiar with the keyboard in hand, relying on musical knowledge and recalling childhood songs, does her utmost to play harmonious melodies in sync with her teammates."
+    },
+    {
+      "speaker": "player5",
+      "text": ".st shm+4+4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjoin Long'er]'s 'Existence Record'... Updated: [SHM]: 16+4+4=24"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"...I did my best.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Takes a deep breath. \"Then I'll begin.\" Lina tightly grips the microphone in her hand, pouring her all into her song as she has always done. As the music starts, new buds break through the layers of snow and sprout. Petals also grow on Lina's body, scattering in the wind. At this moment, Lina stands upon a stage that belongs solely to her, blooming into the most dazzling flower."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Soul Hunt' check: Roll: 1D20+3d4+1d6=10+{1+4+3}(8)+{4}(4)=22 Challenge: 10 Success Success Level: 3"
+    },
+    {
+      "speaker": "player3",
+      "text": ".sh3d4+1d6"
+    },
+    {
+      "speaker": "player5",
+      "text": "Metal Fujiwara no Mokou - Reach the Moon, Immortal Smoke - YaboiMatoi - With Danmaku https://www.bilibili.com/video/BV1y741167CP/?share_source=copy_web&vd_source=43c29a300e976b70d02b775853aa8bd6"
+    },
+    {
+      "speaker": "player3",
+      "text": ".stmp-1shm+4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Existence Record'... Updated: [MP]: 11-1=10 [SHM]: 14+4=18"
+    },
+    {
+      "speaker": "player4",
+      "text": ".shOperationd4+2d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Soul Hunt' check: Roll: 1D20+3d4+2d6=8+{3+2+4}(9)+{3+5}(8)=25 Challenge: 10 Success Success Level: 3"
+    },
+    {
+      "speaker": "player2",
+      "text": ".sh3d4+2d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... Updated: [MP]: 12-2=10"
+    },
+    {
+      "speaker": "player2",
+      "text": ".stshm+8"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... Updated: [SHM]: 14+8=22"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st shm+5"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer Luoxueyu]'s 'Existence Record'... Updated: [SHM]: 14+5=19"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-3"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjōin Long'er]'s 'Existence Record'... Updated: [MP]: 13-3=10"
+    },
+    {
+      "speaker": "player1",
+      "text": "As Long'er's drumbeat shook open the snow dust like a heartbeat, an inexplicable melody had already begun to play."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s 'Soul Hunt' check: Roll: 1D20+3d4+2d4+2d4+2d4=18+{1+2+2}(5)+{3+3}(6)+{4+1}(5)+{3+3}(6)=40 Challenge: 10 Success Success Level: 6"
+    },
+    {
+      "speaker": "player1",
+      "text": ".sh3d4+2d4+2d4+2d4"
+    }
+  ],
+  "start_ts": "2025-10-27 00:16:42",
+  "end_ts": "2025-10-27 01:06:51"
+}

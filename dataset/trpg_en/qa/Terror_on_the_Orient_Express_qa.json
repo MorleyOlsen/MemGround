@@ -1,0 +1,2508 @@
+[
+  {
+    "qa": [
+      {
+        "question": "What contradiction exists between player2's true attitude towards the city of London and their outward behavior?",
+        "answer": "player2 superficially agrees with Professor Smith's praise of London's beauty and even concurs that having a generous boss is good while conversing with companions. However, his inner monologue wildly complains about London being damp, stuffy, and filled with industrial exhaust, even expressing dissatisfaction with environmental pollution through coughing. This reveals his physiological aversion as an outsider (a country person from Rhode Island) to the industrialized metropolis and the contradictory state of maintaining surface politeness for work.",
+        "evidence": [
+          "D01:20",
+          "D01:26",
+          "D01:48",
+          "D01:51"
+        ],
+        "category": 2,
+        "id": 1,
+        "depth": 2
+      },
+      {
+        "question": "Based on Professor Smith's academic background and the content of his speech at the banquet, what research stance can be inferred regarding his views on \"haunting\" phenomena?",
+        "answer": "As an archaeologist, Professor Smith emphasizes the connection between history and mythology (such as divine king blood sacrifice) when introducing Maya artifacts. In his dinner speech, he attempts to define haunting with the academic term \"contagious phenomenon,\" stressing objective existence rather than subjective perception. This indicates his attempt to frame supernatural phenomena within a scientific or rational analytical framework, rather than simply viewing them as superstition or psychological effects, demonstrating a rigorous positivist research attitude.",
+        "evidence": [
+          "D01:3",
+          "D01:30",
+          "D01:56"
+        ],
+        "category": 3,
+        "id": 2,
+        "depth": 3
+      },
+      {
+        "question": "How do player4's reaction upon encountering the Maya blood sacrifice artifact and their subsequent behavior in the church together construct a psychological profile of this character?",
+        "answer": "player4 shows obvious disgust (frowning) upon seeing the relief depicting a bloody bloodletting ritual and later chooses to go to church for prayer during free time. This suggests the character possesses high moral sensitivity and some religious faith (or seeks spiritual solace). Faced with the psychological impact of ancient cruel rituals, he tends to seek purification or peace through religious means, rather than purely objective examination like scholars.",
+        "evidence": [
+          "D01:28",
+          "D01:40",
+          "D01:54"
+        ],
+        "category": 1,
+        "id": 3,
+        "depth": 2
+      },
+      {
+        "question": "What potential risks to the current security situation are implied by the \"collision incident\" encountered by player5 at the end of this Section?",
+        "answer": "Although the lecture venue appears safe, a distinctly featured \"bearded foreigner\" touches player5 and then hurriedly leaves, disappearing at the exit, interrupting player5's train of thought. Combined with this being the beginning of a \"horror\" story, this abnormal incident hints that the investigators may have already been targeted by some force, or that the stranger engaged in some covert interaction (such as eavesdropping, theft, or marking), breaking the simplicity of the academic gathering.",
+        "evidence": [
+          "D01:60",
+          "D01:62",
+          "D01:64",
+          "D01:69"
+        ],
+        "category": 4,
+        "id": 4,
+        "depth": 3
+      },
+      {
+        "question": "Comparing the skill check results of player5 and player4 when facing the Maya artifacts, how does this difference narratively distinguish their character roles?",
+        "answer": "player5's successful Archaeology check allows them to academically interpret the relationship between offerings and deity sustenance in detail, establishing their position as a learned expert; while player4's failed Occult check only yields a superficial conclusion like \"ancient primitive people sacrificed human lives.\" This mechanical difference reinforces the setting of specialized expertise in the narrative, highlighting player5's authority in historical knowledge, while player4 currently leans more towards being an ordinary observer.",
+        "evidence": [
+          "D01:37",
+          "D01:38",
+          "D01:40",
+          "D01:41"
+        ],
+        "category": 5,
+        "id": 5,
+        "depth": 1
+      },
+      {
+        "question": "Synthesizing player2's words and actions throughout the tour, what is their true motive for joining this investigation team?",
+        "answer": "player2 repeatedly mentions \"boss,\" \"salary,\" and \"reimbursement,\" and shows boredom during the museum visit, only caring about meals, even joking that it's a \"good time to slack off.\" This indicates they are not here out of academic interest or a sense of invited honor like the other two teammates, but purely as a hired security guard or enforcer, with motives driven entirely by economic pragmatism.",
+        "evidence": [
+          "D01:2",
+          "D01:6",
+          "D01:45",
+          "D01:57"
+        ],
+        "category": 1,
+        "id": 6,
+        "depth": 2
+      },
+      {
+        "question": "Why did the investigators choose to visit Professor Smith at the highly inappropriate time of midnight? What are the dual motivations behind this?",
+        "answer": "This decision is primarily based on anxiety about unknown threats and a desire to investigate supernatural phenomena. On one hand, the investigators sense the mysterious bearded man's stalking after the lecture and feel uneasy, urgently needing answers from relevant individuals; on the other hand, they are highly interested in the paranormal phenomena mentioned in the professor's speech. This sense of urgency prompts them to ignore social etiquette and choose to drive to visit overnight.",
+        "evidence": [
+          "D02:1",
+          "D02:2",
+          "D02:35"
+        ],
+        "category": 1,
+        "id": 7,
+        "depth": 2
+      },
+      {
+        "question": "How did the failure of the group Listen check in this chapter mechanically directly lead to Player 2 subsequently taking more radical action?",
+        "answer": "Since all three investigators fail their Listen checks, they cannot determine through hearing whether there is activity inside the house or the professor's condition. This blockage of information acquisition forces Player 2 to resort to visual investigation, using a flashlight to directly illuminate the interior of the house. This action escalates narratively into a \"very impolite act,\" directly startling the valet and leading to an awkward opening.",
+        "evidence": [
+          "D02:12",
+          "D02:14",
+          "D02:16",
+          "D02:18",
+          "D02:21"
+        ],
+        "category": 5,
+        "id": 8,
+        "depth": 1
+      },
+      {
+        "question": "What inconsistency exists in Professor Smith's attitude towards the investigators, and what does this contradiction reveal about his true psychological state?",
+        "answer": "Superficially, Professor Smith maintains gentlemanly manners, addressing the investigators as \"my friends\" and inviting them inside for coffee; but Player 5's successful Psychology check reveals that he is actually displeased by the late-night disturbance, merely restraining himself. This contradiction shows that although the professor is tired and unhappy, he still adheres to social etiquette or a sense of obligation towards guests.",
+        "evidence": [
+          "D02:26",
+          "D02:37",
+          "D02:40"
+        ],
+        "category": 2,
+        "id": 9,
+        "depth": 2
+      },
+      {
+        "question": "Synthesizing Player 2's series of actions and the butler's reaction, what mistake in social strategy can be inferred that this investigator made?",
+        "answer": "Player 2 not only shines a flashlight directly at others but also attempts to bribe the valet through the window (exchanging dollars for pounds). This rude and bribery-like behavior completely violates contemporary social etiquette. The valet's reaction of \"ignoring him\" and respectfully reporting to the master indicates that Player 2's methods are not only ineffective but are seen as boorish, leading to his exclusion from subsequent direct communication.",
+        "evidence": [
+          "D02:21",
+          "D02:25",
+          "D02:26"
+        ],
+        "category": 3,
+        "id": 10,
+        "depth": 3
+      },
+      {
+        "question": "Player 4's critical failure on the Psychology check at the end of the conversation—how did this mechanical result narratively conclude this phase of the investigation?",
+        "answer": "Player 4 originally attempts to glean more information by reading expressions, but a critical failure (or severe failure) on the check results in not only failing to see through the professor's thoughts but also being \"infected\" by the professor's yawn. This comedic narrative turn signals that the investigators' mental state has also reached its limit, with both sides falling into extreme drowsiness, naturally cutting off the possibility of further in-depth conversation and forcing the investigation to end hastily.",
+        "evidence": [
+          "D02:53",
+          "D02:55",
+          "D02:56"
+        ],
+        "category": 5,
+        "id": 11,
+        "depth": 1
+      },
+      {
+        "question": "The actual progress made by this late-night visit was extremely limited. What is the fundamental reason for this outcome?",
+        "answer": "The root cause lies in the inappropriate timing of the visit, which resulted in the information source (Professor Smith) being in poor condition. Due to the professor's extreme drowsiness, the information he shares is no more detailed than the dinner speech, and his responses to new questions are merely perfunctory or denials. The investigators' presumptuous disturbance not only fails to yield breakthrough clues but only provides information repeated from the public lecture.",
+        "evidence": [
+          "D02:37",
+          "D02:42",
+          "D02:46",
+          "D02:58"
+        ],
+        "category": 4,
+        "id": 12,
+        "depth": 3
+      },
+      {
+        "question": "What contradiction is presented in player4's reaction to the fire scene, and what character trait does this contradiction reveal?",
+        "answer": "player4 exhibits extreme nervousness and even confused thinking, such as attempting to pull out a phone to call the police but realizing the anachronism (incorrectly combining \"mobile\" and \"phone\"), while also trying to ease the atmosphere with inappropriate jokes (\"it's so hot now\"). This contradictory behavior of panicking yet forcing humor during a crisis reveals the character's unstable psychological resilience under sudden high-pressure situations and a defense mechanism attempting to conceal panic.",
+        "evidence": [
+          "D03:13",
+          "D03:15",
+          "D03:20",
+          "D03:22",
+          "D03:23"
+        ],
+        "category": 2,
+        "id": 13,
+        "depth": 2
+      },
+      {
+        "question": "Considering the process of treating Professor Smith's injuries, how did the result of player4's First Aid check specifically affect the narrative direction?",
+        "answer": "player4's first First Aid check failure results not only in failing to treat the wound but also causing secondary injury by tearing clothing, escalating the tense situation; a subsequent hard success barely stops the bleeding and stabilizes the condition. This mechanical outcome of initial failure followed by success not only highlights the complexity of the professor's injuries in the narrative but also sets up a reasonable physiological basis for the professor's subsequent inability to converse at length due to physical weakness, only hastily entrusting the mission and handing over the notebook.",
+        "evidence": [
+          "D03:34",
+          "D03:35",
+          "D03:36",
+          "D03:37",
+          "D03:38",
+          "D03:40"
+        ],
+        "category": 5,
+        "id": 14,
+        "depth": 1
+      },
+      {
+        "question": "Why did Professor Smith and Beddoes firmly refuse to go to the hospital? What key information is implied behind this decision?",
+        "answer": "They refuse to go to the hospital because hospitals are public places, and the attackers are a group with a grudge against the professor who use brutal methods (arson), making hospitals highly likely to expose their whereabouts and lead to a second attack. This indicates the attackers are powerful and well-informed, also hinting that the secret the professor holds (regarding the Sedefikar simulacrum) is extremely dangerous, forcing them to choose the hidden 2 Cheapside as a refuge.",
+        "evidence": [
+          "D03:41",
+          "D03:42",
+          "D03:44",
+          "D03:46"
+        ],
+        "category": 1,
+        "id": 15,
+        "depth": 2
+      },
+      {
+        "question": "Synthesizing the professor's last words, Beddoes's explanation, and the provided funds, what fundamental shift in the nature of this mission can be inferred?",
+        "answer": "The mission transforms from a purely academic visit or social courtesy into a life-and-death adventure inheriting a legacy. The professor not only entrusts all remaining assets (1000 pounds) as funding but also admits that due to severe injuries he cannot continue, completely handing over the crucial mission of finding and destroying the fragments of the evil artifact to the investigators. This means the investigators are no longer bystanders but are forced to take on the core mission of confronting a powerful evil force.",
+        "evidence": [
+          "D03:50",
+          "D03:52",
+          "D03:62",
+          "D03:65",
+          "D03:67"
+        ],
+        "category": 3,
+        "id": 16,
+        "depth": 3
+      },
+      {
+        "question": "The details of Beddoes's words and actions in this section reveal what kind of psychological and survival state he is in?",
+        "answer": "Despite having minor burns and having just escaped death, Beddoes always prioritizes his master's safety (carrying out the professor, finding a hiding place) and handles all matters on his behalf (explaining payment, handing over the notebook). His humble demeanor (\"speaking with bowed head humbly\") and extreme loyalty to his master (the sorrowful lament \"my master is accustomed to comfort\") resonate, showing he is in a desperate state after losing his home but still striving to fulfill his duties heroically.",
+        "evidence": [
+          "D03:25",
+          "D03:40",
+          "D03:65",
+          "D03:67"
+        ],
+        "category": 2,
+        "id": 17,
+        "depth": 2
+      },
+      {
+        "question": "How did the fire at the Smith residence and the subsequent entrustment by the professor deeply affect the player team's original travel plans?",
+        "answer": "This event directly interrupts the team's original relaxed plan of \"finishing up and returning tomorrow,\" forcing them to abandon their return journey (canceling flight tickets) and instead board the Orient Express. This is not only a geographical shift but also marks a drastic turn in the plot tone from routine investigation to an urgent chase across Europe, compelling the team to transform from passive visitors into the core force actively confronting the evil artifact.",
+        "evidence": [
+          "D03:1",
+          "D03:2",
+          "D03:50",
+          "D03:65",
+          "D03:74"
+        ],
+        "category": 4,
+        "id": 18,
+        "depth": 3
+      },
+      {
+        "question": "Why did Player 2 prefer the slower horse-drawn carriage and refuse the modern Citroën taxi? What values does this reflect?",
+        "answer": "Player 2's choice is not merely for sightseeing but is based on aversion to modern industrial products (\"steel monsters\") and a preference for biological companions. Having ridden in cars often in America, he is weary of machinery and instead considers horses \"true companions.\" This choice shows he values emotional bonds and traditional reliability over mere efficiency.",
+        "evidence": [
+          "D04:46",
+          "D04:48",
+          "D04:64",
+          "D04:66"
+        ],
+        "category": 1,
+        "id": 19,
+        "depth": 2
+      },
+      {
+        "question": "In this Section, what specific narrative impact did Player 4's failed Constitution check have on the team's pace of action?",
+        "answer": "Player 4's failed Constitution check results in severe motion sickness and vomiting, preventing the team from immediately engaging in high-intensity investigation or action upon arriving in Paris. This physical discomfort becomes the direct catalyst for the team's decision to go directly to the Ritz Hotel to rest rather than continue on the streets, also raising teammates' concerns about their health.",
+        "evidence": [
+          "D04:11",
+          "D04:12",
+          "D04:13",
+          "D04:16",
+          "D04:33"
+        ],
+        "category": 5,
+        "id": 20,
+        "depth": 1
+      },
+      {
+        "question": "Combining the newsboy's news, the taxi driver's sales pitch, and the coachman's route planning, what can be inferred about the current social state of Paris?",
+        "answer": "Paris is in severe social turmoil and economic crisis. The newsboy's mention of strikes and franc devaluation, the taxi driver's mention of \"going around barricades,\" and the coachman having to take \"rat alleys\" to avoid trouble collectively reveal the city's obstructed transportation and intense class conflicts, which also become the objective premise forcing the investigators to rely on experienced local guides.",
+        "evidence": [
+          "D04:19",
+          "D04:21",
+          "D04:41",
+          "D04:49"
+        ],
+        "category": 3,
+        "id": 21,
+        "depth": 3
+      },
+      {
+        "question": "What contradiction exists between Player 2's behavior when purchasing tickets and his subsequent internal monologue? What character trait does this reveal?",
+        "answer": "Player 2, on one hand, splurges to book a four-person room for privacy and to avoid sharing with strangers (especially specific ethnicities), showing extravagance and exclusivity; on the other hand, feels \"heartache\" and prays the boss will reimburse it. This contradiction reveals that while he pursues comfort and control, he is not a spendthrift, or that he possesses a character combining shrewd calculation with hedonism.",
+        "evidence": [
+          "D04:2",
+          "D04:4",
+          "D04:7",
+          "D04:9"
+        ],
+        "category": 2,
+        "id": 22,
+        "depth": 2
+      },
+      {
+        "question": "Regarding the clue about \"Count Fenanik,\" combining Player 5's inquiries and the locals' reactions, what attributes of this target can be inferred?",
+        "answer": "Player 5 attempts to inquire about the Count from a street newsboy and an experienced coachman, but both say they haven't heard of him, with the coachman even noting the name sounds like \"a character from old museum paintings.\" This hints that Count Fenanik is not a contemporary active socialite but belongs to history, ancient legends, or has been forgotten, making conventional social inquiry methods ineffective.",
+        "evidence": [
+          "D04:27",
+          "D04:32",
+          "D04:52",
+          "D04:56"
+        ],
+        "category": 3,
+        "id": 23,
+        "depth": 3
+      },
+      {
+        "question": "What is the underlying motive behind Player 2's act of giving the coachman a huge 5-pound tip?",
+        "answer": "This tip far exceeds the fare itself (enough to buy a year's worth of fodder). The motivation is not mere wealth but being moved by the deep emotional bond between the coachman and his horse. Player 2 explicitly states it's to buy the horse \"good fodder,\" showing his high recognition of the concept of \"loyal companions\" and willingness to pay for the emotional bond between humans and animals.",
+        "evidence": [
+          "D04:66",
+          "D04:68",
+          "D04:69"
+        ],
+        "category": 1,
+        "id": 24,
+        "depth": 2
+      },
+      {
+        "question": "Combining player4's actual performance in the library with their previous behavior, analyze the deep-seated reason for their failed action.",
+        "answer": "player4 holds the professor's notebook and shows academic enthusiasm, but as a foreigner, he does not understand French and has a stubborn personality unwilling to seek help (excessive self-consciousness). This language barrier, combined with refusing the old librarian's offered assistance, leads him to search fruitlessly in the wrong classification area (piles of architectural drawings), ultimately failing the check.",
+        "evidence": [
+          "D05:41",
+          "D05:68",
+          "D05:69",
+          "D05:71",
+          "D05:72"
+        ],
+        "category": 3,
+        "id": 25,
+        "depth": 3
+      },
+      {
+        "question": "The difference in check results between player5 (Professor Bailan) and player4 during the library search in this chapter reveals what kind of capability gap between the two on a narrative level?",
+        "answer": "player5, high Library Use skill (80), easily achieves a hard success, quickly uncovering the Count's villa's complex architectural features and court scandal; in contrast, player4, despite having the notebook, fails due to low skill (60) and interference from language, even searching for the wrong keywords. This contrast highlights player5's professionalism in academic retrieval as a scholar, while player4 has enthusiasm but lacks practical operational ability.",
+        "evidence": [
+          "D05:63",
+          "D05:64",
+          "D05:66",
+          "D05:67",
+          "D05:68",
+          "D05:69"
+        ],
+        "category": 5,
+        "id": 26,
+        "depth": 1
+      },
+      {
+        "question": "How did the coachman Jean-Louis's attitude towards player2 change? What is the internal logic behind this shift?",
+        "answer": "Initially, the coachman only showed professional enthusiasm based on monetary (the tip), but after player2 shares food and discusses the topic of \"home,\" he is touched in a soft spot. player2's empathy towards family concepts class barriers, transforming the coachman from a mere service provider into a friend willing to share emotions (his daughter's handkerchief), even showing a \"special passage\" as.",
+        "evidence": [
+          "D05:32",
+          "D05:35",
+          "D05:36",
+          "D05:38",
+          "D05:40"
+        ],
+        "category": 1,
+        "id": 27,
+        "depth": 2
+      },
+      {
+        "question": "Synthesizing the Count's biography found in the library and the architectural features, what kind of character image can be inferred for Count Fenanik?",
+        "answer": "The Count is a noble deeply influenced by different cultures and bold in actions. His villa mixes ancient Greek, medieval, and English styles, showing eclectic aesthetics and possibly (decorative ruins); his daring to have a scandal with the queen and being executed without trial indicates a personality, disregard for taboos, and high political controversy.",
+        "evidence": [
+          "D05:66",
+          "D05:69",
+          "D05:77"
+        ],
+        "category": 3,
+        "id": 28,
+        "depth": 3
+      },
+      {
+        "question": "What connection exists between Player2's behavior during breakfast and their subsequent negotiation strategy?",
+        "answer": "Player2 packs food during breakfast and later shares it with the coachman. This is not a random act but his strategy for building interpersonal relationships. Through material sharing (bread) and emotional (discussing family), he successfully distances with laborers. This \"down-to-earth\" directly the team transportation services and additional.",
+        "evidence": [
+          "D05:27",
+          "D05:34",
+          "D05:36",
+          "D05:40",
+          "D05:42"
+        ],
+        "category": 1,
+        "id": 29,
+        "depth": 2
+      },
+      {
+        "question": "What social strategy did Player 2 employ when dealing with NPCs (coachman Jean-Louis and the doorman), and what is the true intent behind this strategy?",
+        "answer": "Player 2 adopts a dual strategy of \"money\" and \"emotional,\" not only paying the fare but also giving extra tips and candy, even (like greeting the doorman's uncle). This behavior is not generosity but aims to transform a mere into a deeper private, thereby obtaining beyond official channels (such as local guide services, liquor recommendations) and more loyal service.",
+        "evidence": [
+          "D06:2",
+          "D06:4",
+          "D06:13",
+          "D06:23",
+          "D06:77"
+        ],
+        "category": 1,
+        "id": 30,
+        "depth": 2
+      },
+      {
+        "question": "Analyze the contradictions in Player 4's words and actions regarding their changing attitude towards alcohol and the personality traits these contradictions imply.",
+        "answer": "Player 4 initially insisted on only drinking juice and refused alcohol with the excuse that \"a doctor's hands would shake,\" showing strong professional discipline. However, when he learned that the wine at the Notre-Dame entrance was \"very strong,\" he immediately showed great enthusiasm (\"Alright, alright, let's go\"). This inconsistency suggests his claimed abstinence might be just a superficial excuse, or he has an overwhelming curiosity about things with religious/mystical connotations (\"blessed wine\") that overrides physiological principles.",
+        "evidence": [
+          "D06:21",
+          "D06:24",
+          "D06:75",
+          "D06:76"
+        ],
+        "category": 2,
+        "id": 31,
+        "depth": 2
+      },
+      {
+        "question": "Why did the investigators ultimately decide to go to the cathedral on Sunday? What practical conditions and assumptions formed the basis for this comprehensive judgment?",
+        "answer": "This decision was a result of weighing \"time constraints\" and \"social trade-offs.\" First, Player 4 pointed out the objective reality of the library being closed on Sunday, hindering the original plan to consult materials. Second, although Player 2 was confident he could force entry using privilege, the team ultimately chose a more socially conventional approach—using \"devout Christian\" worship as cover to visit the cathedral. This both conformed to Sunday social norms and allowed for incidental investigation.",
+        "evidence": [
+          "D06:57",
+          "D06:59",
+          "D06:67",
+          "D06:68"
+        ],
+        "category": 3,
+        "id": 32,
+        "depth": 3
+      },
+      {
+        "question": "Considering the change in the coachman Jean-Louis's attitude towards Player 2, what profound impact did Player 2's social skills have on the subsequent plot development?",
+        "answer": "Player 2's generosity (tips and candy) successfully transformed Jean-Louis from an ordinary coachman into a \"local guide\" with key intelligence. Jean-Louis was not only willing to break norms (like working on the Sabbath, even willing to drink and drive) but also proactively revealed his knowledge of catacombs and secret passages. This means the investigators gained a crucial channel to bypass official scrutiny and delve into the city's underbelly.",
+        "evidence": [
+          "D06:5",
+          "D06:70",
+          "D06:78",
+          "D06:79"
+        ],
+        "category": 4,
+        "id": 33,
+        "depth": 3
+      },
+      {
+        "question": "Based on previous investigation failures and the current conversation, what logical shift occurred in the investigators' direction when searching for clues related to the \"Count\"?",
+        "answer": "Since directly searching for the \"Necronomicon\" or specific materials yielded no results (Player 4 said he found no useful information), the team realized that directly searching for a deceased and possibly expunged \"Count\" was like finding a needle in a haystack. Therefore, they shifted their investigative logic from \"directly searching for a name\" to \"searching for associated institutions,\" attempting to indirectly uncover family history or descendant clues through seminaries, historical archives, or ancient buildings (like the cathedral).",
+        "evidence": [
+          "D06:0",
+          "D06:48",
+          "D06:50",
+          "D06:51"
+        ],
+        "category": 3,
+        "id": 34,
+        "depth": 3
+      },
+      {
+        "question": "What does Player 2's remarks about \"drinking\" reveal about their psychological perception of the current investigation work?",
+        "answer": "Although Player 2 is fond of drink, he clearly distinguishes between \"liquid courage\" and \"not drinking before work,\" and tried to hire a driver to avoid drunk driving himself. This shows that despite his outwardly cynical demeanor, he deeply understands the danger and high risk of investigative work (\"death from overwork\"). For him, alcohol is both a \"life\" for stress relief and a risk factor that needs strict control to maintain clarity.",
+        "evidence": [
+          "D06:19",
+          "D06:25",
+          "D06:77"
+        ],
+        "category": 1,
+        "id": 35,
+        "depth": 2
+      },
+      {
+        "question": "What does Jean-Louis's logic and motivation for assisting the investigators in infiltrating the library reflect about his modus operandi?",
+        "answer": "Jean-Louis is not simply being helpful; he sees this rule-breaking operation as entertainment more exciting than fiction (\"a Paris more thrilling than novels\") and leverages the private relationship with the guard Old Marcel, who is suffering from gout and owes him a favor, to circumvent risks. His behavioral logic displays a rogue mentality that enjoys breaking norms, achieving seemingly impossible goals by manipulating grassroots interpersonal networks.",
+        "evidence": [
+          "D07:1",
+          "D07:3",
+          "D07:21"
+        ],
+        "category": 1,
+        "id": 36,
+        "depth": 2
+      },
+      {
+        "question": "How did Player 4's physiological state change during this scene, and how was this change reflected through the combination of mechanics and narrative?",
+        "answer": "Player 4 initially showed a weak state described as \"pale-faced,\" but upon hearing there was wine to drink, he passed a successful CON check (36/40), narratively described as \"legs no longer hurt, back no longer sore.\" This successful check instantly transformed the character's physiological state from weak to \"energetic,\" whimsically rationalizing the craving for alcohol as the character's motivation source, eliminating the original action impediment.",
+        "evidence": [
+          "D07:4",
+          "D07:5",
+          "D07:6",
+          "D07:10"
+        ],
+        "category": 5,
+        "id": 37,
+        "depth": 1
+      },
+      {
+        "question": "Based on the library investigation results and the scene transition at the end of this chapter, what kind of temporal and spatial leap in the narrative can be inferred?",
+        "answer": "The parchment the investigators found in the library clearly recorded \"the fall of Constantinople in 1204\" and \"the Fourth Crusade,\" directly corresponding to the \"battlefield beneath the walls of Constantinople on April 12, 1204\" described at the chapter's end. This indicates the investigators were not merely reading history; their consciousness was forcibly pulled into that specific historical moment they were researching, embodying characters of the time to personally experience Feninac's escape event.",
+        "evidence": [
+          "D07:37",
+          "D07:40",
+          "D07:64"
+        ],
+        "category": 3,
+        "id": 38,
+        "depth": 3
+      },
+      {
+        "question": "What contradiction exists in Player 2's (later renamed Player 7) attitude towards the library operation, and what does this reveal about their priority in action?",
+        "answer": "Player 2, on one hand, warned teammates that this was a \"restricted section\" and the owner couldn't afford to lose books, showing concern for risk and money. On the other hand, he decided to leave for the cathedral immediately after his teammate entered the illegal area, even \"looking back in despair\" and no longer managing his teammate. This contradiction reveals Player 2 prioritizes keeping appointments (\"see you at 7\") over teammate safety and violation risks, displaying extreme pragmatism and time-consciousness.",
+        "evidence": [
+          "D07:24",
+          "D07:26",
+          "D07:28",
+          "D07:34"
+        ],
+        "category": 2,
+        "id": 39,
+        "depth": 2
+      },
+      {
+        "question": "At the end of this Section, the KP asked players to change attributes and skills (such as Ride, Frankish), what deep impact does this have on the subsequent game process?",
+        "answer": "This mechanically enforced change (.st command resetting attributes) marks a fundamental shift in game mode; players temporarily lose all abilities and identity as modern investigators. This means subsequent plot will no longer be simple \"investigation,\" but survival and role-playing based on a medieval setting. Players must rely on a completely new, unfamiliar skill set (like cold weapon combat and ancient languages) to cope with the crisis on the Constantinople battlefield.",
+        "evidence": [
+          "D07:40",
+          "D07:43",
+          "D07:64"
+        ],
+        "category": 4,
+        "id": 40,
+        "depth": 3
+      },
+      {
+        "question": "Comparing the check results of Player 4 and Player 5 in the library, how did this difference jointly promote the acquisition of key clues?",
+        "answer": "Player 4 made a regular Library Use check and succeeded (36/60), while Player 5 achieved a Hard success (35/80). This dual-success mechanical outcome led the Keeper not only to provide basic information but also to disclose specific details about \"Feninac,\" \"heresy trials,\" and \"1204.\" Their cooperation ensured that within limited time, they unearthed the core backstory sufficient to trigger subsequent plot.",
+        "evidence": [
+          "D07:33",
+          "D07:36",
+          "D07:37"
+        ],
+        "category": 5,
+        "id": 41,
+        "depth": 1
+      },
+      {
+        "question": "Comparing the check results of Player 7 and Player 8 during the charge in this section, how did this difference narratively shape their different battlefield situations?",
+        "answer": "Player 7's successful Ride check allowed him to control the warhorse to trample enemies and stop smoothly, displaying the composure of a seasoned warrior. Player 8's failed check caused him to be thrown off and injured by the startled horse, directly becoming a character needing care. This mechanical difference not only created a crisis separating the two but also reinforced Player 7's superior position as caregiver and veteran, and Player 8's position as a novice needing guidance.",
+        "evidence": [
+          "D08:2",
+          "D08:3",
+          "D08:4",
+          "D08:5",
+          "D08:6",
+          "D08:7"
+        ],
+        "category": 5,
+        "id": 42,
+        "depth": 1
+      },
+      {
+        "question": "Player 7 exhibits a significant contradiction in their behavior towards faith and plunder. What does this contradiction reveal about their true state of mind?",
+        "answer": "Player 7, while looting corpses, skillfully stripped valuables and even mocked the dead, showing extreme greed and. On the other hand, he would perform for the dead, stories, and even pray over before sleep. This contradiction reveals he religious rituals into a form of psychological or compulsive habit, using to his moral and as a mercenary.",
+        "evidence": [
+          "D08:12",
+          "D08:14",
+          "D08:18",
+          "D08:22",
+          "D08:76"
+        ],
+        "category": 2,
+        "id": 43,
+        "depth": 2
+      },
+      {
+        "question": "Why did the young eunuch suddenly kill the old eunuch after he revealed information, and then choose to commit suicide?",
+        "answer": "The young eunuch killed the old eunuch because the latter about the \"Blue-robed man\" and Venetian, which or stemmed from extreme. His subsequent suicide was both because his wife was dead (hinted by the pouch) leaving nothing to live for, and to avoid\"demons\" Frankish Crusaders. This was a.",
+        "evidence": [
+          "D08:38",
+          "D08:41",
+          "D08:43",
+          "D08:47",
+          "D08:58"
+        ],
+        "category": 1,
+        "id": 44,
+        "depth": 2
+      },
+      {
+        "question": "Based on the old eunuch's confession and the discoveries in the cellar, what real purpose can be inferred for the Venetians in this Crusade?",
+        "answer": "The Venetians (particularly the faction called \"Unfettered Flesh\") deliberately guided the Crusaders to attack specific locations by forging letters and altering cargo manifests. Their true was not or, but to use the Crusaders as tools to search for specific mystical \"relics\" or achieve/ amidst Constantinople's chaos.",
+        "evidence": [
+          "D08:31",
+          "D08:34",
+          "D08:38",
+          "D08:43"
+        ],
+        "category": 3,
+        "id": 45,
+        "depth": 3
+      },
+      {
+        "question": "What profound impact did the encounter in the cellar and the subsequent scene at the camp have on Player 8's attitude?",
+        "answer": "Player 8 could initially make cynical jokes about the war, but after witnessing the young eunuch's suicide due to and learning of Crusader atrocities (raping women), he fell into prolonged silence. Combined with the camp's, these experiences stripped the holy war of its, forcing him to confront the of war, shifting his from to.",
+        "evidence": [
+          "D08:23",
+          "D08:48",
+          "D08:59",
+          "D08:73"
+        ],
+        "category": 4,
+        "id": 46,
+        "depth": 3
+      },
+      {
+        "question": "In the context of Player 6's successful Persuade check, how did this mechanical result promote the disclosure of the core plot?",
+        "answer": "Player 6's successful Persuade check (D100=43/70) broke the old eunuch's defensive, turning him from to. Without this success, the eunuchs likely would have chosen silence or attack, and players would not have learned the that \"Blue-robed men\" were manipulating the Crusaders behind the scenes. The plot might have remained at the level of.",
+        "evidence": [
+          "D08:36",
+          "D08:37",
+          "D08:38",
+          "D08:41"
+        ],
+        "category": 5,
+        "id": 47,
+        "depth": 1
+      },
+      {
+        "question": "What contradiction exists between Count Baldwin's attitude when delegating the task and his actual instructions, and what does this reveal about his true ruling logic?",
+        "answer": "Count Baldwin uses, like calling players \"dear friends,\" stroking his falcon, and even with religious reasons (\"God's will\"). However, his actual are, demanding that enemies' \"organs tainted with black magic\" be sent, and like \"monks at nocturns\" on moonless nights. This reveals that, he is actually a ruler who uses, viewing as a necessary means to an end.",
+        "evidence": [
+          "D09:0",
+          "D09:2",
+          "D09:10"
+        ],
+        "category": 2,
+        "id": 48,
+        "depth": 2
+      },
+      {
+        "question": "Based on Father Agostino's confession and Count Baldwin's intelligence, what role can be inferred for the \"Unfettered Flesh\" cult in the fall of Constantinople?",
+        "answer": "Synthesizing clues, the \"Unfettered Flesh\" cult is not but of the war. The priest they guided the Crusaders to attack Constantinople through \",\" aiming to find the ceramic armor named \"Devil's Effigy.\" The Count's also confirms they tampered with the before the city fell. This shows the cult exploited Venetian-Frankish, sacrificing the entire city to achieve its for supernatural power.",
+        "evidence": [
+          "D09:7",
+          "D09:74",
+          "D09:76"
+        ],
+        "category": 3,
+        "id": 49,
+        "depth": 3
+      },
+      {
+        "question": "Why did the bard Bradic show extreme fear when facing the Varangian attack and was eager to leave the scene afterwards?",
+        "answer": "Although Bradic usually acts and\",\" he is essentially just an ordinary person, lacking combat ability. Witnessing the Varangians' (like intending to kill with an axe) and the subsequent in the cistern (brains splattering) made him. His fear of \"more enemies climbing from the sewers\" shows he his survival players' protection;, he will be.",
+        "evidence": [
+          "D09:25",
+          "D09:43",
+          "D09:54"
+        ],
+        "category": 1,
+        "id": 50,
+        "depth": 2
+      },
+      {
+        "question": "In the battle of this chapter, Player 7's critical success in \"Brawl\" and Player 3's critical failure formed a sharp contrast. What narrative consequences did this cause?",
+        "answer": "Player 3 attempted a sneak attack but suffered a critical failure, resulting in not only failing to injure the enemy but also slipping and getting his weapon stuck,. In contrast, Player 7's critical success not only killed an enemy with one blow, shattering the skull, but the falling corpse another enemy to trip and be seriously injured. This extreme mechanical instantly the ambush narratively, turning what could have been a into a, directly causing the remaining enemies to lose and flee.",
+        "evidence": [
+          "D09:29",
+          "D09:31",
+          "D09:32"
+        ],
+        "category": 5,
+        "id": 51,
+        "depth": 1
+      },
+      {
+        "question": "What potential impact did the Byzantine Emperor's decision to release \"something\" before the city fell have on the current battle situation and the players' exploration?",
+        "answer": "This decision escalated the from (Franks vs. Venetians) to a. The Count's mention of \"humanoid but not human things\" and the priest's confirmation of \"things that shouldn't be touched\" mean players must not only guard against soldiers while executing the task but also. This, forcing all factions (including Nordic mercenaries) to towards the sewer area.",
+        "evidence": [
+          "D09:10",
+          "D09:36",
+          "D09:76"
+        ],
+        "category": 4,
+        "id": 52,
+        "depth": 3
+      },
+      {
+        "question": "From Father Agostino's description and reaction to his own situation, what disagreements exist within the Venetians regarding the \"Unfettered Flesh\"?",
+        "answer": "Although Father Agostino is Venetian, he was imprisoned, tortured, and filled with towards \"Unfettered Flesh,\" calling them \"Venetian demons\" and \"madmen.\" This shows the Venetian is not; there exists infiltration and by \"Unfettered Flesh.\" Orthodox or unaware Venetian clergy are seen as obstacles or sacrifices, while certain Venetians in power (like Knight Ramadi) actively. This.",
+        "evidence": [
+          "D09:74",
+          "D09:76",
+          "D09:79"
+        ],
+        "category": 2,
+        "id": 53,
+        "depth": 2
+      },
+      {
+        "question": "What logical connection exists between the manner of the priest's death and Player 6's speculation about \"eyes\"?",
+        "answer": "The priest died from and, this specific Player 6's speculation about \"surveillance.\" Player 6 believes the \"eyes\" clue the priest left before dying was not but referred to a achieved through. When the monitored person (the priest) or lost, the (the knight) remotely this to eliminate him.",
+        "evidence": [
+          "D10:0",
+          "D10:33",
+          "D10:40"
+        ],
+        "category": 1,
+        "id": 54,
+        "depth": 2
+      },
+      {
+        "question": "Based on the priest's death state, Player 3's reaction, and the subsequent actions of the group, what dual pressures can be inferred that the investigators are currently facing?",
+        "answer": "On one hand, the priest's (eyeball explosion,) brought to everyone, forcing them to to. On the other hand, this, making them in choosing (like sewers or),.",
+        "evidence": [
+          "D10:0",
+          "D10:5",
+          "D10:33",
+          "D10:41"
+        ],
+        "category": 3,
+        "id": 55,
+        "depth": 3
+      },
+      {
+        "question": "In the battle at the end of this Section, the failure of all members' Dodge checks had what direct and far-reaching narrative consequences for the situation?",
+        "answer": "All members failed their Dodge checks (D100=89/86/54), causing all present investigators to directly the dragon's flame breath damage (6 HP). This not only numerically but also narratively instantly the\"\",. This, meaning they must in a.",
+        "evidence": [
+          "D10:70",
+          "D10:72",
+          "D10:76",
+          "D10:78",
+          "D10:79"
+        ],
+        "category": 5,
+        "id": 56,
+        "depth": 1
+      },
+      {
+        "question": "What contradictory psychology did Player 3 (the poet) exhibit in their words and actions when facing the priest's gruesome death?",
+        "answer": "Player 3,,,. But, he quickly, using (like \"Christ's hemorrhoids,\" \"St. George's diaper\") to. This,.",
+        "evidence": [
+          "D10:5",
+          "D10:9",
+          "D10:37",
+          "D10:70"
+        ],
+        "category": 2,
+        "id": 57,
+        "depth": 2
+      },
+      {
+        "question": "Why did the investigators ultimately abandon their plan to go to a regular inn or find the leper old man, choosing instead to enter the cistern?",
+        "answer": "Although, the distance and time cost are. are in the current,. The on everyone. Therefore, after () and (), they chose the seemingly but as a.",
+        "evidence": [
+          "D10:31",
+          "D10:32",
+          "D10:49",
+          "D10:52",
+          "D10:60"
+        ],
+        "category": 1,
+        "id": 58,
+        "depth": 2
+      },
+      {
+        "question": "How did Player 7's reaction after a Hard success on the Sanity check differ significantly from Player 6 and Player 3, and what does this reflect about the character's traits?",
+        "answer": "Compared to Player 6 due to, and Player 3's, Player 7, after a Hard success (no),. He could not only the poet's joke (about plums) but also (not taking main roads,). This,.",
+        "evidence": [
+          "D10:4",
+          "D10:7",
+          "D10:21",
+          "D10:39"
+        ],
+        "category": 5,
+        "id": 59,
+        "depth": 1
+      },
+      {
+        "question": "Based on Player 9's first reaction upon waking up and their subsequent self-narration, analyze the contradictions in their words and actions. What does this reveal about their true psychological state?",
+        "answer": "Player 9 was Player 7's neck and,. This\"\"\"\". This, he just experienced,.",
+        "evidence": [
+          "D11:46",
+          "D11:47",
+          "D11:70"
+        ],
+        "category": 2,
+        "id": 60,
+        "depth": 2
+      },
+      {
+        "question": "In this section, player7 experienced multiple failed checks and HP reductions. How do these mechanical setbacks shape his situation and image on a narrative level?",
+        "answer": "player7 first failed to escape (DEX 50 failure) causing him to fall, then failed to dodge the dragon's breath (Dodge 70 failure) resulting in a direct loss of 4 HP, turning him into a charred \"carbon man.\" This series of mechanical failures narratively portrays him as a hapless victim, who, though surviving by luck thanks to his armor, forms a stark contrast with his successfully escaping teammates, highlighting the peril of the escape process.",
+        "evidence": [
+          "D11:4",
+          "D11:12",
+          "D11:14",
+          "D11:21",
+          "D11:24"
+        ],
+        "category": 5,
+        "id": 61,
+        "depth": 1
+      },
+      {
+        "question": "Synthesizing player7's memories about the dragon and the current combat environment, what specific conditions need to be met to completely resolve the immediate crisis?",
+        "answer": "According to player7's recollection, the Anatolian dragon before them has strong resistance to ordinary weapons, and its blood is highly corrosive. To completely deal with it, one must obtain the mythril spear \"Ascalon\" said to be stored in the cellar of the Saint George Monastery in Antioch, or use silver/blessed weapons. Relying solely on current conventional means cannot inflict effective damage.",
+        "evidence": [
+          "D11:73",
+          "D11:76",
+          "D11:29"
+        ],
+        "category": 3,
+        "id": 62,
+        "depth": 3
+      },
+      {
+        "question": "How did the result of player6's First Aid check on player9 change? What specific impact did this change have on player9's condition?",
+        "answer": "player6 initially failed the First Aid check (D100=55/50), preventing the immediate awakening of player9; then succeeded on the second attempt (D100=46/50). This mechanical change is narratively reflected in player9's process from unconsciousness to spitting out black ash mucus and resuming autonomous breathing. The successful check directly propelled the plot from simple treatment to dialogue interaction between characters.",
+        "evidence": [
+          "D11:37",
+          "D11:44",
+          "D11:45",
+          "D11:49"
+        ],
+        "category": 5,
+        "id": 63,
+        "depth": 1
+      },
+      {
+        "question": "Why did the poet (player3) immediately urge his teammates after confirming safety, and what specific attitude did he show towards the tomb's environment?",
+        "answer": "Although the poet temporarily escaped the dragon's maw, he knew the dragon was still battering the stone wall and the danger wasn't over, so he urgently urged his teammates to leave. His flippant attitude towards the tomb chamber (calling it a \"basement suite\") is actually a defense mechanism to relieve tension, attempting to use humor to mask his fear of the aura of death and the pressing crisis.",
+        "evidence": [
+          "D11:29",
+          "D11:32",
+          "D11:34",
+          "D11:78"
+        ],
+        "category": 1,
+        "id": 64,
+        "depth": 2
+      },
+      {
+        "question": "The outcome of the \"Nordic mercenaries\" mentioned by player9 and his own survival, combined with the dragon's characteristics, suggest what happened during that battle?",
+        "answer": "The dragon possesses extremely high physical resistance and deadly fire breath. The fact that all three Norse mercenaries died shows conventional force cannot contend with it. player9 survived not by defeating the dragon, but by exploiting the distraction provided by his companions to escape into a narrow crevice. This indirectly confirms the dragon's weakness of being too large to enter tight spaces and the ferocity of the battle.",
+        "evidence": [
+          "D11:70",
+          "D11:73",
+          "D11:76"
+        ],
+        "category": 3,
+        "id": 65,
+        "depth": 3
+      },
+      {
+        "question": "What shift in attitude did player9 show towards the power displayed by player6? What does this shift imply about his assessment of this team?",
+        "answer": "player9 initially gave player6 only polite praise (\"Good technique\"), but after witnessing her push over the heavy statue of the Virgin Mary, his attitude changed to surprise and admiration (\"The lady has great strength\"). This shift suggests he realized this seemingly motley crew (including the \"maid\") possessed combat abilities beyond the ordinary, solidifying his resolve to \"follow you\" and his subsequent promise to escort them to report to the Count, believing this group had survival value.",
+        "evidence": [
+          "D12:17",
+          "D12:19",
+          "D12:39",
+          "D12:62",
+          "D12:64"
+        ],
+        "category": 4,
+        "id": 66,
+        "depth": 3
+      },
+      {
+        "question": "Combining player6's intelligence about the \"devil simulacrum\" and the subsequent ambush, what action strategy can be inferred for the hostile forces?",
+        "answer": "player6 mentioned needing to find the scroll hidden in the base of the Virgin Mary statue to track the \"Devil's Simulacrum\" and suspected they were already targeted by \"Unfettered Flesh.\" Then, enemies disguised as monks and soldiers quickly surrounded the church and precisely blocked escape routes. This indicates the hostile force not only knew the possible hiding place of the scroll (the church) but had already set an ambush there, employing a strategy of lying in wait and attempting to silence those in the know.",
+        "evidence": [
+          "D12:32",
+          "D12:35",
+          "D12:37",
+          "D12:67",
+          "D12:72"
+        ],
+        "category": 3,
+        "id": 67,
+        "depth": 3
+      },
+      {
+        "question": "In the ambush at the end of this section, what dangerous situation do the failed checks of player7 and player8 reflect narratively?",
+        "answer": "player7 and player8 both failed their checks when facing the sudden arrow rain (93 and 95 respectively). Narratively, this reflects their complete failure to react effectively to the enemy's disguise and ambush, likely suffering heavy damage or being forced into a passive, defensive position in the first volley. This consecutive high-value failure in mechanics reinforces the lethality of the ambush, highlighting the enemy's successful tactical coordination and the investigators' being caught off guard.",
+        "evidence": [
+          "D12:72",
+          "D12:75",
+          "D12:77"
+        ],
+        "category": 5,
+        "id": 68,
+        "depth": 1
+      },
+      {
+        "question": "How did player6's critical success on the Strength check at D12:15 mechanically change the originally potentially deadlocked escape process?",
+        "answer": "player6's Strength check critical success (5/70) allowed her to precisely sever the rusted iron chain with just a dagger, whereas normally a dagger would struggle to break a heavy chain. This critical success not only avoided the risk of the pursuing dragon catching up due to taking too long to break the lock but also directly shocked the newly joined player9, establishing a foundation of trust for subsequent cooperation.",
+        "evidence": [
+          "D12:10",
+          "D12:15",
+          "D12:17",
+          "D12:27"
+        ],
+        "category": 5,
+        "id": 69,
+        "depth": 1
+      },
+      {
+        "question": "Why did that bard (NPC) suddenly choose to leave the battlefield for the square after attempting to aid player8?",
+        "answer": "The poet initially tried to drag the injured player8 but failed his DEX check due to the other's heavy armor, unable to move the casualty. Realizing his inability to directly aid and the critical state of the battle, he instead decided to use the \"dumber than donkeys\" mercenaries in the square as meat shields against the arrow rain, thus running towards the square to fetch reinforcements.",
+        "evidence": [
+          "D13:10",
+          "D13:13",
+          "D13:17"
+        ],
+        "category": 1,
+        "id": 70,
+        "depth": 2
+      },
+      {
+        "question": "When facing a new wave of arrows, player9's Shield check resulted in a \"critical success\" (3/65). How did this numerical result narratively change the purely defensive nature?",
+        "answer": "The critical success not only allowed player9 to completely block the fatal attack targeting player8 but also granted the defensive action an additional counterattack effect. Narratively described as arrows being deflected by the shield, precisely killing two enemy knife-wielders attempting to ambush teammates, transforming passive defense into an instant double-kill counterattack.",
+        "evidence": [
+          "D13:31",
+          "D13:39",
+          "D13:41"
+        ],
+        "category": 5,
+        "id": 71,
+        "depth": 1
+      },
+      {
+        "question": "Synthesizing player8's injury description, player6's rescue attempt, and player8's own counterattack, what tactical predicament can be inferred for player8's current state?",
+        "answer": "player8 was hit by four arrows and his position was exposed, but his heavy armor prevented player6 from dragging him into cover. Simultaneously, his severe injuries (arrow in the abdomen, kneeling) severely impacted his combat ability, leading to his subsequent attack check failure, turning him into an immobile and ineffective live target.",
+        "evidence": [
+          "D13:4",
+          "D13:13",
+          "D13:27",
+          "D13:28"
+        ],
+        "category": 3,
+        "id": 72,
+        "depth": 3
+      },
+      {
+        "question": "Comparing the two key checks (Agility Drag and First Aid) performed by player6 in this Section, what does this reflect about this character's ability positioning within the team?",
+        "answer": "player6 failed when trying to rely on DEX/STR to drag her heavily armored teammate (93/70), indicating she lacks the physical advantage to handle heavy targets. However, when treating player7's wound, she achieved a hard success in First Aid (14/50), demonstrating high medical skill and dexterity, positioning her more as a high-DEX battlefield medic and supporter.",
+        "evidence": [
+          "D13:11",
+          "D13:12",
+          "D13:49",
+          "D13:50",
+          "D13:51"
+        ],
+        "category": 5,
+        "id": 73,
+        "depth": 1
+      },
+      {
+        "question": "What does player9's subsequent failed Shield check (96/65) immediately after completing a stunning counter-kill mean for the current retreat operation?",
+        "answer": "This extreme failure means player9's tactical intent to cover player8's retreat fell through. Despite his heroic performance moments before, this mistake broke the protective chain, leaving the already severely injured and immobile player8 exposed to enemy fire again, stalling the retreat operation.",
+        "evidence": [
+          "D13:39",
+          "D13:41",
+          "D13:52",
+          "D13:53"
+        ],
+        "category": 4,
+        "id": 74,
+        "depth": 3
+      },
+      {
+        "question": "What contrast did player7 show in his two successive unarmed attacks against the crossbowmen, and what change in the battle situation does this reveal?",
+        "answer": "player7's first attack successfully knocked out a crossbowman, but his subsequent second attack, while hitting (damage 3), failed to take down the enemy. This contrast, coupled with the description of surrounding archers aiming at him, indicates the enemy had reacted to his assault. Mere unarmed attacks were no longer sufficient to quickly neutralize the threat, and he was now in danger of being surrounded.",
+        "evidence": [
+          "D13:26",
+          "D13:60",
+          "D13:61"
+        ],
+        "category": 2,
+        "id": 75,
+        "depth": 2
+      },
+      {
+        "question": "Player 8's HP status changed drastically towards the end of the combat. Combining mechanical adjudication and narrative description, how did this change occur, and what specific impact did it have on his subsequent condition?",
+        "answer": "Player 8 first failed his Shield Block check (57/50), leading to him being narratively struck by two iron arrows in the chest armor and thigh, causing severe trauma. This series of blows directly adjusted his HP to 1 (.st hp1), putting him in a dying state. Narratively, this manifested as sluggish movement and trembling hands, but he still stared intently at the enemy through sheer willpower.",
+        "evidence": [
+          "D14:5",
+          "D14:6",
+          "D14:33",
+          "D14:39"
+        ],
+        "category": 5,
+        "id": 76,
+        "depth": 1
+      },
+      {
+        "question": "Based on the discoveries from the post-combat search, what characteristics can be inferred about the organization of these enemies?",
+        "answer": "These enemies belong to a tight-knit cult worshipping the Skinless One, evidenced by their uniform blue robes and identical tattoos on their upper arms. Their leader wears a metal eyepatch covering a rotting eye and carries scrolls in multiple languages (Latin, Greek, Arabic) about flaying rituals and summoning descents, indicating the organization has a cross-cultural occult background and extreme tendencies towards bodily sacrifice.",
+        "evidence": [
+          "D14:50",
+          "D14:53",
+          "D14:55",
+          "D14:57"
+        ],
+        "category": 3,
+        "id": 77,
+        "depth": 3
+      },
+      {
+        "question": "What is the deeper consideration behind Player 6's final decision not to open that diamond-shaped clay box?",
+        "answer": "Player 6 just witnessed the cultists' rotting eyes and terrifying descriptions of flaying rituals, under immense mental strain. Faced with the explicit death warning in Greek and Latin on the clay box, and the reality of her teammate being critically injured and dying, she judged that opening the box would likely trigger a fatal curse or trap, thus rationally choosing to cut her losses and stop.",
+        "evidence": [
+          "D14:53",
+          "D14:57",
+          "D14:59",
+          "D14:60"
+        ],
+        "category": 1,
+        "id": 78,
+        "depth": 2
+      },
+      {
+        "question": "In this section, Player 6 attempted to treat severely injured teammates, but consecutive failed checks created what kind of tense situation narratively?",
+        "answer": "Player 6 consecutively failed Medicine (70/50) and First Aid (84/50) checks. Narratively, this is portrayed as her feeling overwhelmed and unable to effectively handle her teammate's gruesome injuries. This sense of powerlessness forced other characters (like Player 9) to intervene with first aid kits and prayers, intensifying the crisis of everyone hanging by a thread after the battle.",
+        "evidence": [
+          "D14:41",
+          "D14:42",
+          "D14:46",
+          "D14:48",
+          "D14:49"
+        ],
+        "category": 5,
+        "id": 79,
+        "depth": 1
+      },
+      {
+        "question": "Although the chapter title mentions a dragon-slaying battle, the actual combat process shows the investigators facing human enemies. Combining multiple details, what is the actual nature of this battle?",
+        "answer": "This battle was actually against a group of well-equipped cultist archers and knights, not a real dragon. The enemies used crossbows, iron arrows, wore armor and blue robes. The so-called \"dragon-slaying\" might refer to defeating a leader bearing the dragon's name (like the eyepatch-wearer) or destroying the core ritual of this cult, not fighting a Mythos creature.",
+        "evidence": [
+          "D14:4",
+          "D14:20",
+          "D14:33",
+          "D14:50"
+        ],
+        "category": 2,
+        "id": 80,
+        "depth": 2
+      },
+      {
+        "question": "What decisive impact did the timing of the poet leading reinforcements breaking through the door have on the battle situation?",
+        "answer": "The poet's intervention occurred at the desperate moment when Player 7 and Player 8 were severely injured and targeted by enemy archers for a finishing blow. He not only disrupted the enemy's execution attempt but also brought life-saving holy oil, directly saving the lives of the two dying investigators, pulling the battle back from the brink of a total party kill.",
+        "evidence": [
+          "D14:4",
+          "D14:33",
+          "D14:35"
+        ],
+        "category": 4,
+        "id": 81,
+        "depth": 3
+      },
+      {
+        "question": "What is the deep logic behind the poet strongly persuading player6 and player9 to first go to the dock to find Friar Melovac, rather than directly reporting back to the Count?",
+        "answer": "The poet believes that if the characters go to see the Count in their current wounded state and ignorant of the scroll's contents, they will only be seen as incompetent and thrown into the barracks for rest, unable to gain favor. Conversely, if they first get healed by the monk and translate the scroll, bringing the \"answer key\" to report, they can better demonstrate their abilities and curry the Count's favor.",
+        "evidence": [
+          "D15:11",
+          "D15:14",
+          "D15:16"
+        ],
+        "category": 1,
+        "id": 82,
+        "depth": 2
+      },
+      {
+        "question": "Combining Friar Melovac's description of the \"Crimson Eye,\" what potential threat does this spell pose to its holder?",
+        "answer": "The \"Crimson Eye\" is not merely a disease or contagion, but a tool remotely controlled by the caster. It acts not only as a monitor (peeping) but also as a bomb that can be detonated at any moment (explodes at a thought). This means the victim is actually in an extremely dangerous state of being constantly monitored with their life held in another's whim.",
+        "evidence": [
+          "D15:57",
+          "D15:60",
+          "D15:62"
+        ],
+        "category": 4,
+        "id": 83,
+        "depth": 3
+      },
+      {
+        "question": "What contradiction in values does player9 reveal through his words and actions when facing the task of \"acquiring silverware\"?",
+        "answer": "On one hand, player9 verbally shouts \"God bless the Count,\" showing loyalty to faith and lord; on the other hand, upon learning the relic vault contains silver ingots, he unhesitatingly rationalizes \"prying God's corner\" as \"God's will.\" This shows he is a typical pragmatist; faith is merely an excuse serving his worldly goals (the Count's mission).",
+        "evidence": [
+          "D15:72",
+          "D15:73",
+          "D15:75"
+        ],
+        "category": 2,
+        "id": 84,
+        "depth": 2
+      },
+      {
+        "question": "According to the clues provided by Friar Melovac, what harsh conditions need to be met to complete the ritual for tracking Sedificare, and how does the group intend to solve the most troublesome cost?",
+        "answer": "The ritual requires materials like viper scales, raven feathers, and corrupted wax, but the core and most cruel cost is needing \"a piece of living human skin\" as sacrifice. Faced with this moral dilemma, the poet suggests using Venetian spies or condemned prisoners from the Count's dungeon as \"material\" to substitute for self-mutilation, thus avoiding physical sacrifice by the characters themselves.",
+        "evidence": [
+          "D15:34",
+          "D15:47",
+          "D15:49"
+        ],
+        "category": 3,
+        "id": 85,
+        "depth": 3
+      },
+      {
+        "question": "How do the HP recovery checks of player7 and player8 at the beginning of this section contrast, both mechanically and narratively, with the ointment provided by the friar at the end?",
+        "answer": "The initial HP recovery was only 1d3 (actually increased by 2 points), showing the inefficiency of conventional medical means and the difficulty of recovery. In contrast, the ointment provided by the monk at the end, while able to \"burn away the foul poison\" and heal wounds, comes with the side effect of \"having nightmares for three days\" (hinting at San loss or mental torment). This contrast reinforces the cruel tone in CoC games where \"gaining power or healing often comes with a mental cost.\"",
+        "evidence": [
+          "D15:1",
+          "D15:4",
+          "D15:77",
+          "D15:79"
+        ],
+        "category": 5,
+        "id": 86,
+        "depth": 1
+      },
+      {
+        "question": "Synthesizing Friar Melovac's evaluation of different factions, what hierarchical differences can be seen between the \"Skinless,\" \"Sedificare,\" and the \"Unfettered Flesh\" cult?",
+        "answer": "In the monk's eyes, the \"Skinless One\" is the sanity-shattering terrifying entity (nightmare/existence), Cedificare is its high-level agent (toy/schemer), and the \"Unfettered Flesh\" cult is despised as a poorly imitating \"nouveau riche\" playing \"house.\" This reveals a harsh cult hierarchy, suggesting the protagonists previously dealt with only the outermost, low-level threats.",
+        "evidence": [
+          "D15:42",
+          "D15:47",
+          "D15:55"
+        ],
+        "category": 3,
+        "id": 87,
+        "depth": 3
+      },
+      {
+        "question": "What contradiction does Player7's behavior show when handling the \"prisoner of war,\" and what does this reveal about his true state of mind?",
+        "answer": "On one hand, Player7 uses religious rhetoric like \"God needs you\" and \"This is a necessary sacrifice\" to whitewash violent acts, displaying a hypocritical sense of sanctity. On the other hand, his actions are extremely cold and decisive; he even self-deprecates about \"doing too many wicked deeds\" and jokes about atrocities towards boys. This contradiction reveals that despite wearing a monk's robe, his morality has long since collapsed; he is accustomed to violence, using religion merely as a tool for self-rationalization.",
+        "evidence": [
+          "D16:24",
+          "D16:41",
+          "D16:45",
+          "D16:60"
+        ],
+        "category": 2,
+        "id": 88,
+        "depth": 2
+      },
+      {
+        "question": "Combining Count Baldwin's attitude towards \"Sedificare\" and his handling of dungeon prisoners, what kind of ruler can he be inferred to be?",
+        "answer": "The Count shows extreme urgency and pressure regarding finding Cedificare, even willing to casually sacrifice prisoners from the dungeon as spell materials, treating human life as worthless. His emphasis on \"keep your voice down\" to avoid disturbing the chess game, and his attitude of \"making use of waste\" regarding Venetian spies, shows he is a cold, ruthless, profit-driven, and extremely self-centered ruler who can exploit all resources without moral qualms to achieve his goals.",
+        "evidence": [
+          "D16:8",
+          "D16:15",
+          "D16:17",
+          "D16:38"
+        ],
+        "category": 1,
+        "id": 89,
+        "depth": 2
+      },
+      {
+        "question": "Why did Player7's first object-finding ritual fail, while Friar Melovac (the old leper) succeeded?",
+        "answer": "Although Player7 collected all materials (including the freshly peeled human skin), he failed his ritual check (D100=89/75), causing the ritual to fail, yielding only a charred mass. Meanwhile, Brother Melovac, as the guide (or original possessor) of this spell, possesses the correct knowledge or higher skill level. When Player7 handed the new skin to him to operate, the ritual immediately took effect and revealed the target location.",
+        "evidence": [
+          "D16:50",
+          "D16:53",
+          "D16:59",
+          "D16:61"
+        ],
+        "category": 5,
+        "id": 90,
+        "depth": 1
+      },
+      {
+        "question": "Based on what existing intelligence and logical deductions did Player3 (the poet) propose the plan of \"making the dragon and Sedifical fight each other\"?",
+        "answer": "The plan is based on two core premises: first, they have confirmed the dragon's location (the reservoir) and find it difficult to defeat it head-on; second, they have just learned through a ritual that Sedifical is hiding in the \"Blood Sightseeing Tower.\" The poet exploits the fact that both sides are hostile forces, attempting to create a misunderstanding through fabricated provocations (throwing torches to mimic dragon fire, throwing cultist items to feign provocation) in order to reap the benefits without directly engaging in high-risk combat.",
+        "evidence": [
+          "D16:1",
+          "D16:61",
+          "D16:72",
+          "D16:78"
+        ],
+        "category": 3,
+        "id": 91,
+        "depth": 3
+      },
+      {
+        "question": "How do the changes in Player6's words and actions throughout the dungeon skinning process reflect their psychological state?",
+        "answer": "Player6 initially tried to find psychological comfort by labeling the targets as \"big guys\" or \"Venetian swindlers,\" attempting to rationalize the harm. However, when actually faced with the cruel scenes of execution and flaying, he chose to turn away, couldn't bear to watch, and even left first. This shows that while Player6 had to compromise with violent methods for the mission, he still retained a basic conscience and a physiological aversion to bloody scenes, existing in a state of evasion due to the conflict between morality and duty.",
+        "evidence": [
+          "D16:27",
+          "D16:40",
+          "D16:42",
+          "D16:48"
+        ],
+        "category": 2,
+        "id": 92,
+        "depth": 2
+      },
+      {
+        "question": "What direct impact did Player7's ritual failure (D100=89) in this chapter have on subsequent actions?",
+        "answer": "Player7's ritual failure caused the first piece of human skin to be wasted, forcing the team to obtain a second piece of skin from a prisoner, increasing the brutality of the dungeon operation. Simultaneously, this failure made them realize their own inadequacies, compelling them to return to the leper ship to seek assistance from Brother Melovac. This redirected the plot clue from simply \"casting a spell to find someone\" back to interacting with the NPC monk, who ultimately revealed the destination.",
+        "evidence": [
+          "D16:50",
+          "D16:53",
+          "D16:55",
+          "D16:59"
+        ],
+        "category": 5,
+        "id": 93,
+        "depth": 1
+      },
+      {
+        "question": "What was the logical chain behind player6's decision-making when facing the critical moment of Sedifical's summoning ritual nearing completion?",
+        "answer": "In an extremely dangerous situation, player6 first demonstrated extraordinary physical prowess through a high-intensity Strength check (D100=27/70 Hard Success), stemming from a strong will to survive. He did not choose conventional weapon attacks but instead used the kinetic energy from a sprint to perform a physical flying kick. This decision directly interrupted the spellcasting action and knocked the enemy flying, thus physically forcing the termination of the magical ritual, embodying the tactical logic of \"a desperate, all-or-nothing gamble in a dire situation.\"",
+        "evidence": [
+          "D17:7",
+          "D17:8",
+          "D17:10"
+        ],
+        "category": 5,
+        "id": 94,
+        "depth": 1
+      },
+      {
+        "question": "By combining the outcome of ancient Constantinople with the modern investigators' discoveries in Paris, what core truth about the existence of \"Fenannic\" can be inferred?",
+        "answer": "In the ancient storyline, Count Baldwin mentions that the cursed \"Lord of Bandages\" will be known by the name \"Fenannic\" and instructs the protagonists to pursue him to the East. Meanwhile, modern investigators reading the ancient text \"The Devil's Simulacrum\" find its conclusion explicitly stating that the leper who escaped with the statue is Fenannic. Taken together, Fenannic is not a figure who appeared in modern times, but a supernatural or long-lived being who has survived since the time of the Crusades and carries a key statue in his flight.",
+        "evidence": [
+          "D17:29",
+          "D17:31",
+          "D17:79"
+        ],
+        "category": 3,
+        "id": 95,
+        "depth": 3
+      },
+      {
+        "question": "What contradiction exists between player5 (Bailan)'s evaluation of the book \"Devil's Simulacrum\" and its content, and what does this reveal about his cognitive state?",
+        "answer": "Although the book records highly fantastical content like fire dragons and cultist wars, player5 finds the story \"interesting\" and \"thrilling\" on one hand, yet astutely points out that it's \"too wild, wild enough to not seem like history,\" even suspecting it's \"manipulation by high-level narrators.\" This contradiction indicates he does not entirely treat the book's contents as pure fiction, but rather attempts to parse the possible hidden historical clues or supernatural hints beneath the exaggerated surface.",
+        "evidence": [
+          "D17:45",
+          "D17:49",
+          "D17:78"
+        ],
+        "category": 2,
+        "id": 96,
+        "depth": 2
+      },
+      {
+        "question": "In the ancient combat segment of this Section, what decisive mechanical and narrative impact did player6's successful Strength check have on the subsequent battle situation?",
+        "answer": "player6 performed a Strength check and achieved a \"Hard Success\" (27/70). This mechanical high success directly translated into a key narrative turning point: he successfully kicked away Sedifical, who was performing the ritual. This success not only interrupted a summoning ritual that could have caused a TPK, but also left the enemy severely injured, unconscious, and disarmed, allowing subsequent teammates to easily perform \"clean-up\" and secure the battlefield, completely reversing the situation.",
+        "evidence": [
+          "D17:7",
+          "D17:8",
+          "D17:10"
+        ],
+        "category": 5,
+        "id": 97,
+        "depth": 1
+      },
+      {
+        "question": "What deeper implications for the future fate of the ancient investigator team (player6 and others) are suggested by Count Baldwin's post-battle reaction and orders?",
+        "answer": "Although Count Baldwin provided money and holy relics as rewards, he immediately followed up with the command to \"pursue to the ends of the earth,\" demanding they go East to hunt down the escaped Fenannic. This means the investigators cannot enjoy the fruits of victory but are instead drawn into a longer, more dangerous transnational pursuit. Their fate is now bound to the curse-like name \"Fenannic,\" destined to face endless shadows.",
+        "evidence": [
+          "D17:27",
+          "D17:29",
+          "D17:31"
+        ],
+        "category": 4,
+        "id": 98,
+        "depth": 3
+      },
+      {
+        "question": "By synthesizing the author's message in \"Devil's Simulacrum\" and the modern investigators' reading reactions, what role can be inferred for this ancient text in the narrative structure?",
+        "answer": "The book's inscription explicitly mentions the ancient timeline player characters (player6, 7, 8, 9) as \"dear friends,\" while the modern timeline investigators (player2, 4, 5) are reading this book. This indicates the ancient storyline is not merely a flashback but objectively exists in the modern world in the form of a \"book within a book,\" connecting investigators from two eras. It suggests the experiences of the ancient characters have become part of historical legend, providing direct clues for the modern investigation.",
+        "evidence": [
+          "D17:44",
+          "D17:49",
+          "D17:77"
+        ],
+        "category": 3,
+        "id": 99,
+        "depth": 3
+      },
+      {
+        "question": "Why did player2, when facing the critical situation of a pickpocket holding a hostage, choose the strategy of \"verbally devaluing the hostage\" plus \"monetary temptation,\" rather than resorting to direct force or simple negotiation?",
+        "answer": "player2 realized the pickpocket was only after money and was in a state of extreme tension; direct violence could risk harming the hostage. By devaluing the vagrant (player12), he broke the pickpocket's logic of \"the hostage is important.\" Simultaneously, offering a small amount of money provided an \"out,\" exploiting the pickpocket's fear of jail and desire for drug money to resolve the crisis at minimal cost.",
+        "evidence": [
+          "D18:48",
+          "D18:54",
+          "D18:56",
+          "D18:57",
+          "D18:59"
+        ],
+        "category": 1,
+        "id": 100,
+        "depth": 2
+      },
+      {
+        "question": "Based on player4's words and actions inside the tavern, what kind of investigator image can be inferred, and what potential risks does this personality pose to the team?",
+        "answer": "player4 exhibited extreme gullibility and a lack of secrecy, divulging core secrets like searching for the \"Simulacrum,\" Duke Fenandic, and cultists to a stranger (player13) they just met. This \"spilling the beans\" behavior shocked teammates, easily attracting attention from hostile forces (like cultists) and bringing unnecessary danger to the team.",
+        "evidence": [
+          "D18:18",
+          "D18:19",
+          "D18:20",
+          "D18:22",
+          "D18:25"
+        ],
+        "category": 2,
+        "id": 101,
+        "depth": 2
+      },
+      {
+        "question": "Player13's stated motivation for joining the team is \"just lost my job and want to earn some extra money,\" but combined with their subsequent reactions, what contradictions exist in their actual attitude?",
+        "answer": "Although player13 verbally agreed to join and showed interest in \"side income,\" when player4 mentioned \"cultists\" and \"armor\" and other supernatural elements, he displayed clear skepticism and awkwardness, finding it \"detached from reality.\" This shows that while he accepted the task, he is internally a rationalist who doesn't truly believe the investigators' occult background, merely tagging along temporarily for livelihood or curiosity.",
+        "evidence": [
+          "D18:13",
+          "D18:17",
+          "D18:24",
+          "D18:26",
+          "D18:27"
+        ],
+        "category": 2,
+        "id": 102,
+        "depth": 2
+      },
+      {
+        "question": "By synthesizing player12's (the vagrant) entry state, skill performance, and attitude towards player2 and others, what kind of survival predicament can be inferred he is in?",
+        "answer": "player12 is in a foreign country (France) with a language barrier, forcing him into menial jobs and even being bullied by local thugs (forced by a pickpocket to pick locks). Although he possesses combat skills (throwing spears), his life is extremely destitute (sleeping on cardboard, no lunch), and his eyes \"lit up\" upon hearing English, showing his intense longing for belonging and basic survival security.",
+        "evidence": [
+          "D18:35",
+          "D18:53",
+          "D18:74",
+          "D18:76",
+          "D18:63"
+        ],
+        "category": 3,
+        "id": 103,
+        "depth": 3
+      },
+      {
+        "question": "In this section, player2 made a \"Persuade\" check and achieved a Hard Success. How did this mechanical result specifically alter the on-site confrontation situation?",
+        "answer": "Facing a knife-wielding pickpocket, player2 performed a Persuade check (D100=30/80 Hard Success). This high-success roll made his combination of intimidation and inducement decisively effective. The pickpocket not only abandoned harming the hostage (player12) but also returned the important briefcase and fled for just a few coins, avoiding a potential bloody conflict and allowing the team to resolve the crisis without violence.",
+        "evidence": [
+          "D18:56",
+          "D18:57",
+          "D18:59",
+          "D18:72"
+        ],
+        "category": 5,
+        "id": 104,
+        "depth": 1
+      },
+      {
+        "question": "player4 succeeded on a Constitution check in the carriage. How does this mechanical result, on a narrative level, reflect the influence of prior plot events?",
+        "answer": "player4's successful Constitution check (26/40) allowed him to feel comfortable despite the carriage's jolting. Narratively, this was explained as \"the tavern landlady's special mint drink taking effect.\" This not only alleviated the current physical discomfort but also paid off a previous tavern plot thread, demonstrating the item's ongoing influence on the character's state.",
+        "evidence": [
+          "D19:19",
+          "D19:20",
+          "D19:22",
+          "D19:23"
+        ],
+        "category": 5,
+        "id": 105,
+        "depth": 1
+      },
+      {
+        "question": "Why did Old Louis's attitude towards player12 (Johnson) change from initial teasing to final gratitude?",
+        "answer": "Initially, Old Louis teased Johnson for looking like a vagrant or coal deliverer because Johnson was disheveled and carrying a sack. Later, although Johnson retorted stubbornly, he gave his remaining cigarettes to Old Louis upon getting off and thanked him for the blanket. This act of kindness beneath the rough exterior won Old Louis's favor, making him happily accept the cigarette box as if catching a dart.",
+        "evidence": [
+          "D19:11",
+          "D19:25",
+          "D19:27",
+          "D19:63",
+          "D19:68"
+        ],
+        "category": 1,
+        "id": 106,
+        "depth": 2
+      },
+      {
+        "question": "Based on the details of player12's (Johnson) words and actions, what economic and social class status can be inferred he is in?",
+        "answer": "Johnson claimed to \"work at night,\" was accustomed to sleeping under bridges or on windowsills, had no concept of high-end hotels, and even planned to skip the fare or sleep in the hallway because he couldn't pay. Yet, he also had meticulous habits like filing his nails with a small file, and claimed to be a \"locksmith\" who could scale walls. This suggests he might be at the bottom of society, engaged in some marginal or technical (like lockpicking/theft) work, financially strained but possessing specific survival skills.",
+        "evidence": [
+          "D19:4",
+          "D19:30",
+          "D19:31",
+          "D19:75"
+        ],
+        "category": 3,
+        "id": 107,
+        "depth": 3
+      },
+      {
+        "question": "Why did player5 propose \"unlawful methods\" but then quickly accept the plan for a formal investigation?",
+        "answer": "player5 initially suggested sneaking in at night to provide an alternative plan, utilizing the teammate \"locksmith's\" skills to directly obtain the address. However, when teammates (player2 and player12) pointed out this could lead to being shot or causing unnecessary trouble, player5 weighed the pros and cons. Believing that without special obstacles, posing as a cultural relics survey was safer and more prudent, he thus smoothly returned to the formal approach.",
+        "evidence": [
+          "D19:71",
+          "D19:72",
+          "D19:73",
+          "D19:75"
+        ],
+        "category": 1,
+        "id": 108,
+        "depth": 2
+      },
+      {
+        "question": "From the scene description of the Town Hall Square and the content of the workers' leaflets, what social background of the time can be inferred?",
+        "answer": "The crowded crowd at the city hall entrance, the stern guards, and the workers distributing leaflets \"Oppose Exploitation of Railway Workers,\" combined with the leaflet's image of \"a broken clock hand pointing at the eight-hour mark,\" collectively reveal that society at the time was in a turbulent period of intensified labor-capital conflict, with the working class fighting for rights (like the eight-hour workday), and the authorities suppressing such protests.",
+        "evidence": [
+          "D19:60",
+          "D19:75",
+          "D19:79"
+        ],
+        "category": 3,
+        "id": 109,
+        "depth": 3
+      },
+      {
+        "question": "player2's series of interactions with Old Louis's horse (Lightning) reflects what character traits of that role?",
+        "answer": "player2 not only specifically bid farewell to the horse upon getting off the carriage, but also brought extra bacon and fried eggs to feed it the next day, even defending the horse when Old Louis worried it would be spoiled. These behaviors show player2 possesses strong affection and empathy, treating animals as equals and caring for them like friends, with a gentle and meticulous personality.",
+        "evidence": [
+          "D19:33",
+          "D19:39",
+          "D19:41",
+          "D19:46"
+        ],
+        "category": 1,
+        "id": 110,
+        "depth": 2
+      },
+      {
+        "question": "Why did Player 2 and others specifically engineer an accident causing the carriage to jolt violently? What was the tactical intent behind this behavior?",
+        "answer": "This was a carefully planned \"self-injury ruse\" aimed at creating a plausible cover for the infiltration operation. By causing the carriage to jolt violently, inducing genuine physiological discomfort (vomiting, dizziness) in Player 4, they had a legitimate reason to urgently knock on the doctor's door for help. This not only successfully diverted attention, drawing the doctor's focus entirely to treating the patient, but also bought time and space for teammates outside to infiltrate the basement.",
+        "evidence": [
+          "D20:23",
+          "D20:30",
+          "D20:35",
+          "D20:39",
+          "D20:52"
+        ],
+        "category": 1,
+        "id": 111,
+        "depth": 2
+      },
+      {
+        "question": "In this Section, Player 4's failed Constitution check (D100=46/40) actually served what positive role on a narrative level?",
+        "answer": "Typically, a failed check means negative consequences, but in this context, the failed Constitution check meant Player 4 couldn't resist the motion sickness's physiological reaction, leading to genuine vomiting. This authentic pathological display (\"seeing stars,\" \"pale face\") greatly enhanced the lie's credibility, forcing the doctor to provide full treatment, thus perfectly achieving the strategic goal of delaying the doctor and covering for the teammates' infiltration.",
+        "evidence": [
+          "D20:30",
+          "D20:74",
+          "D20:75",
+          "D20:76"
+        ],
+        "category": 5,
+        "id": 112,
+        "depth": 1
+      },
+      {
+        "question": "Combining the actions of Player 12 and others, how was the iron door in the basement ultimately opened? What does this process reflect about the investigators' coping strategy?",
+        "answer": "The investigators initially tried brute force, but Player 12 and Player 3's consecutive failed Strength checks showed physical door-breaking wouldn't work. Player 12 then shifted tactics, using the nitric acid he carried for chemical corrosion to damage the lock's structure. This indicates the investigators possess flexible adaptability, quickly utilizing props and knowledge to find alternative solutions when physical abilities fail.",
+        "evidence": [
+          "D20:59",
+          "D20:66",
+          "D20:77",
+          "D20:78"
+        ],
+        "category": 3,
+        "id": 113,
+        "depth": 3
+      },
+      {
+        "question": "How did Player 12's \"Climb\" skill achieving a Hard Success (D100=21/65) and a successful \"Luck\" check together influence the start of the infiltration operation?",
+        "answer": "The Hard Success in climbing meant Player 12 not only scaled the obstacle but did so with extreme agility and stealth, making no noise to alert those inside. The subsequent Luck success ensured his landing spot was excellent (right near the basement entrance and undetected). These two successful checks laid a perfect foundation for the infiltration, allowing the investigator to safely begin cracking the basement door with the doctor just a wall away.",
+        "evidence": [
+          "D20:40",
+          "D20:41",
+          "D20:43",
+          "D20:44",
+          "D20:46"
+        ],
+        "category": 5,
+        "id": 114,
+        "depth": 1
+      },
+      {
+        "question": "In this Section, when player5 (Bailan) and player12 (Johnson) faced the supernatural phenomenon of the \"glowing rose,\" how did their failed and fumbled Sanity Checks (San Check) specifically affect their subsequent action logic?",
+        "answer": "After a Sanity critical failure, player12's worldview was shaken; he felt dizzy, sat down, and began to truly believe in \"magic\" and \"cults,\" leading to fearful and avoidant behavior towards player5. Meanwhile, player5, after a Sanity critical failure, felt terror but, due to \"distraction,\" cut her palm. She used this injury to use her blood as a spellcasting medium, forcibly casting the incantation to obtain the statue. One's failure led to psychological withdrawal and awe, while the other became a physical catalyst for advancing the magical ritual.",
+        "evidence": [
+          "D21:33",
+          "D21:35",
+          "D21:36",
+          "D21:40",
+          "D21:43",
+          "D21:63"
+        ],
+        "category": 5,
+        "id": 115,
+        "depth": 1
+      },
+      {
+        "question": "Synthesizing the details of player5's (Bailan) words and actions when dealing with the \"glowing rose,\" why did she choose the seemingly medically unsound, high-risk behavior of \"inserting the soil-covered wound into the earth\"?",
+        "answer": "Superficially, it was an accidental injury from the Sanity critical failure (distracted, cut palm), but the deeper logic is she recognized the environment's supernatural attributes (glowing roses, black pus), realizing conventional physical methods (like digging) were ineffective or too slow. She used her blood as a spellcasting medium (chanting incantations, consuming MP), employing magical means (summoning a giant arm) to combat the supernatural plant and retrieve the quest item. Therefore, \"infection risk\" was prioritized below \"completing the magical ritual.\"",
+        "evidence": [
+          "D21:32",
+          "D21:36",
+          "D21:39",
+          "D21:43",
+          "D21:52"
+        ],
+        "category": 1,
+        "id": 116,
+        "depth": 2
+      },
+      {
+        "question": "Based on the environmental description and player12's reactions, what properties beyond botanical common sense can be inferred for the \"glowing rose\" in the basement?",
+        "answer": "First, these roses defied environmental and seasonal growth patterns (growing without soil in a stone cell, blooming in winter). Second, they were aggressive and corrosive (black pus could corrode rock, vines could shatter stone). Finally, they symbiotically grew with corpses (sprouting from skeletons, buds like hearts) and reacted to magical power (wilting to ash after player5's spellcasting), indicating they were some form of supernatural entity nourished by corpses, not ordinary plants.",
+        "evidence": [
+          "D21:16",
+          "D21:20",
+          "D21:31",
+          "D21:52",
+          "D21:54"
+        ],
+        "category": 3,
+        "id": 117,
+        "depth": 3
+      },
+      {
+        "question": "How did player12's (Johnson) attitude towards player5 (Bailan) change throughout this Section, and what specific events drove this transformation?",
+        "answer": "Initially, player12 held a relaxed, even teasing cooperative attitude towards player5 (helping with lighting, joking). However, after witnessing player5 summon a giant arm with magic and the earlier Sanity critical failure, his attitude shifted to fear and awe (avoiding Bailan, calling her a deity). Finally, after leaving the danger, he tried to leverage this \"deity\" relationship to solve his own practical problems (asking for help with documents), showing his shift from a simple teammate to a mindset of both fear and desire for attachment.",
+        "evidence": [
+          "D21:6",
+          "D21:40",
+          "D21:63",
+          "D21:77",
+          "D21:79"
+        ],
+        "category": 4,
+        "id": 118,
+        "depth": 3
+      },
+      {
+        "question": "At the end of this Section, after player5 expended a large amount of Magic Points (MP) and Sanity (San), what contrast is presented between her physical state and her mental state?",
+        "answer": "Mechanically, player5 consumed 10 MP and her Sanity dropped to 49, placing her in an extremely weak and mentally unstable state. However, narratively, she displayed exceptional calm and rationality (reminding teammates to close their eyes, wiping her hands, calmly stating they could leave, refusing excessive medical treatment). This \"extreme calm under high cost\" hints at her proficient mastery of supernatural forces, or a forced suppression to maintain the investigator's image.",
+        "evidence": [
+          "D21:46",
+          "D21:48",
+          "D21:59",
+          "D21:64",
+          "D21:72"
+        ],
+        "category": 5,
+        "id": 119,
+        "depth": 1
+      },
+      {
+        "question": "Why did player12's attempt to throw a stone (D21:29) and player5's attempts to throw a dagger/dig (D21:30) ultimately lead to completely different tactical choices?",
+        "answer": "player12's act of throwing stones triggered the roses' defense mechanism (black pus corrosion, vine whipping), directly proving the extreme risk of physical approach or ordinary attacks (potential to be whipped to death). This consequence forced player5 to abandon the conventional physical excavation plan (originally intending to clear the dirt pit) and instead opt for the higher-risk but non-proximate magical method (sacrificing blood to summon a giant arm). Thus, the former's trial and error provided the necessary tactical intelligence for the latter's magical decision.",
+        "evidence": [
+          "D21:29",
+          "D21:31",
+          "D21:32",
+          "D21:36",
+          "D21:43"
+        ],
+        "category": 3,
+        "id": 120,
+        "depth": 3
+      },
+      {
+        "question": "Why did the tunnel workers initially show extreme hostility and threats towards player2, but then quickly change to trust and cooperation?",
+        "answer": "The workers' initial hostility was due to the construction site being in a sensitive strike period, and player2 being unfamiliar and not assigned by the foreman, leading to suspicion of being a saboteur or spy sent by the construction company. The fundamental reason for this attitude shift lies in player2 accurately revealing the \"material fraud\" insider information known only to insiders or investigators, coupled with the little boy recognizing they had helped workers against guards. These two key pieces of information eliminated the identity barrier and established a united front against the corrupt company.",
+        "evidence": [
+          "D22:18",
+          "D22:20",
+          "D22:22",
+          "D22:25"
+        ],
+        "category": 1,
+        "id": 121,
+        "depth": 2
+      },
+      {
+        "question": "Player2 performed a series of clothing changes and disguises before contacting the workers. What strategic considerations does this reflect?",
+        "answer": "player2 realized that directly approaching the striking workers as a respectable out-of-town traveler would raise suspicion, so they attempted to blend in by changing into dirty clothes, messing up their hair, and imitating a rough speech style to lower guard. However, this disguise was quickly seen through (due to being unfamiliar and lacking foreman assignment), indicating that mere appearance disguise is insufficient to gain the trust of a highly tense striking group; substantive information exchange is necessary to break the deadlock.",
+        "evidence": [
+          "D22:13",
+          "D22:14",
+          "D22:18",
+          "D22:20"
+        ],
+        "category": 2,
+        "id": 122,
+        "depth": 2
+      },
+      {
+        "question": "Based on the reactions of the journalist and the workers, what complex network of interests can be inferred behind this strike incident?",
+        "answer": "The strike is not a simple labor dispute but involves high-level political corruption and international public opinion games. Marshal Pétain's relatives laundered money through shell companies purchasing substandard materials at triple the price, leading to frequent accidents. French domestic media (like Le Figaro) were suppressed, while foreign media (like the British Daily News) could temporarily act as a protective umbrella. This shows the entire event is a complex situation intertwined with politicians, unscrupulous merchants, oppressed workers, and foreign forces.",
+        "evidence": [
+          "D22:21",
+          "D22:32",
+          "D22:59",
+          "D22:66"
+        ],
+        "category": 3,
+        "id": 123,
+        "depth": 3
+      },
+      {
+        "question": "Player2 gave old Henry a large tip before leaving and suggested he convert it to gold. What deep-seated concern does this behavior imply?",
+        "answer": "player2 is not just paying the fare but also giving subtle \"survival guidance in troubled times.\" Suggesting Old Henry go to Rhode Island and hold gold instead of paper money implies an extremely pessimistic prediction of the current European situation (possibly involving war or economic collapse), believing ordinary currency will depreciate and mainland France may no longer be safe. This reflects the character's keen sense of macro-level turbulent situations.",
+        "evidence": [
+          "D22:69",
+          "D22:71",
+          "D22:73"
+        ],
+        "category": 4,
+        "id": 124,
+        "depth": 3
+      },
+      {
+        "question": "Why did player2 choose to check into the Athena Hotel and specifically request an additional room, rather than meeting directly in the journalist's room?",
+        "answer": "This is a tactical choice based on safety and concealment. Going directly to the journalist's room might attract the attention of watchers, exposing their connection. Going through formal check-in procedures and getting a room on the same floor provides legal cover for their presence, facilitates discreet contact with the journalist (e.g., using hallway encounters), and also provides the team with independent rest space, avoiding putting all eggs in one basket.",
+        "evidence": [
+          "D22:35",
+          "D22:47",
+          "D22:54"
+        ],
+        "category": 1,
+        "id": 125,
+        "depth": 2
+      },
+      {
+        "question": "Considering the entire text, what were the key elements that ultimately enabled the Orient Express to depart?",
+        "answer": "The express train's departure is the result of multiple forces: first, the player team obtained key physical evidence (cement samples and ledgers); second, they used the foreign journalist's special status to break through local news censorship; finally, international public opinion pressure forced the Pétain side to compromise. This series of actions broke the strike deadlock, allowing railway transport to resume; all were indispensable.",
+        "evidence": [
+          "D22:35",
+          "D22:59",
+          "D22:66"
+        ],
+        "category": 3,
+        "id": 126,
+        "depth": 3
+      },
+      {
+        "question": "Player2 and player4 attempted to \"conjure food out of thin air\" in the Dreamlands with completely different results. What does this difference reflect in terms of mechanics and narrative, respectively?",
+        "answer": "Mechanically, player2 made a difficult successful Wish roll (35 skill rolled 12), successfully materializing the key lime pie; while player4's Wish roll failed (14 skill rolled 68), leading to materialization failure. Narratively, this reflects the Dreamlands law \"belief arises from desire.\" player2 mastered the knack of concentration, while player4 tried too hard and lacked relaxed imagination, only producing smoke.",
+        "evidence": [
+          "D23:3",
+          "D23:4",
+          "D23:9",
+          "D23:27",
+          "D23:28",
+          "D23:31"
+        ],
+        "category": 5,
+        "id": 127,
+        "depth": 1
+      },
+      {
+        "question": "Based on Henry Peters' words and actions and the appearance of the Train-Beast in the Dreamlands, what can be inferred about the nature of the Dreamlands Express?",
+        "answer": "Although Henry claims to be an ordinary conductor, he can manipulate ticket transformations, command cat groups, and calls the destination \"Nodens's Abyss,\" hinting this is no ordinary journey. The train itself is a living creature composed of a giant monster covered in tentacles and eyeballs, and passengers include non-human residents. Overall, this is an otherworldly vehicle led by supernatural forces, operating through mental projection, aiming to send souls burdened with worries to an indescribable destination.",
+        "evidence": [
+          "D23:2",
+          "D23:39",
+          "D23:41",
+          "D23:44"
+        ],
+        "category": 3,
+        "id": 128,
+        "depth": 3
+      },
+      {
+        "question": "What anomalies exist in Caterina Cavallaro's proactive approach to the investigators, suggesting she might have ulterior motives?",
+        "answer": "As a famous opera singer who was immediately surrounded by crowds upon boarding, she proactively knocked on the strangers' compartment door, acting overly familiar and enthusiastic. She not only directly invited strangers to Milan to see paintings and eat, but even offered to book expensive hotels and give performance tickets. This excessive courtesy beyond normal social etiquette suggests she has a specific purpose or need regarding the investigators, not just casual small talk.",
+        "evidence": [
+          "D23:51",
+          "D23:67",
+          "D23:69",
+          "D23:77"
+        ],
+        "category": 2,
+        "id": 129,
+        "depth": 2
+      },
+      {
+        "question": "Henry Peters mentioned \"Nodens's Abyss\" as the journey's end. Combined with his description of the tickets, what does this signify for the passengers?",
+        "answer": "Henry says the ticket is a gift for \"travelers burdened with heavy worries\" and explicitly states the destination is \"Nodens's Abyss,\" where everyone has a chance to \"unload the burden of the soul.\" This hints that this journey is not mere physical movement but a spiritual journey of redemption or liberation, where passengers may need to face the abyss to resolve inner troubles or obsessions.",
+        "evidence": [
+          "D23:0",
+          "D23:2"
+        ],
+        "category": 4,
+        "id": 130,
+        "depth": 3
+      },
+      {
+        "question": "This chapter features multiple MP (Magic Points) deductions. Combined with the specific check situations, what cost of operating in the Dreamlands does this reveal?",
+        "answer": "When player2 and player12 attempted to use \"Wish\" to alter reality (like materializing a key lime pie), the system deducted 2 MP regardless of the roll's success or failure. This shows that in the Dreamlands, transforming will into reality consumes mental energy. This energy loss is the necessary cost for supernatural interaction, independent of the outcome's success.",
+        "evidence": [
+          "D23:7",
+          "D23:8",
+          "D23:12",
+          "D23:13"
+        ],
+        "category": 5,
+        "id": 131,
+        "depth": 1
+      },
+      {
+        "question": "Why did the agent show extreme fear of calling the police after Caterina's kidnapping, rather than seeking help?",
+        "answer": "The agent's fear stems from past bloody lessons, not mere cowardice. He mentioned the case of another missing actress, Marta, whose agent was brutally retaliated against after reporting to the police (a severed hand found in the river). This convinced him that official channels are not only ineffective but invite worse consequences, hinting the kidnappers' forces may have infiltrated or superseded the police.",
+        "evidence": [
+          "D24:48",
+          "D24:72",
+          "D24:78"
+        ],
+        "category": 1,
+        "id": 132,
+        "depth": 2
+      },
+      {
+        "question": "Based on the vehicles and methods used by the kidnappers, what characteristics can be inferred about this group?",
+        "answer": "The kidnappers drove an expensive Alfa Romeo sports car and dared to commit kidnapping openly in a crowded train station during the day. This shows they possess substantial financial resources and extreme arrogance. This \"street kidnapping\" and the agent's fear of reporting suggest they are not ordinary robbers but a dark force with political backing or a large organizational structure (like the mafia or radical political parties).",
+        "evidence": [
+          "D24:45",
+          "D24:50",
+          "D24:67",
+          "D24:72"
+        ],
+        "category": 3,
+        "id": 133,
+        "depth": 3
+      },
+      {
+        "question": "The Sanity (SAN) recovery checks appearing in this chapter, on a narrative level, reflect what effect did Caterina's singing have on the investigators?",
+        "answer": "player5 and player12 regained 1 Sanity after listening to the opera and sleeping peacefully. The numerical increase corresponds to the narrative's \"wonderful night\" and \"exceptionally sweet\" dreams. This indicates Caterina's artistic performance has powerful soothing power, temporarily cleansing the investigators' tense nerves, creating a strong psychological contrast before the sudden kidnapping.",
+        "evidence": [
+          "D24:14",
+          "D24:29",
+          "D24:30",
+          "D24:31",
+          "D24:42",
+          "D24:43"
+        ],
+        "category": 5,
+        "id": 134,
+        "depth": 1
+      },
+      {
+        "question": "What contrast exists between Caterina's behavior on the train and her subsequent kidnapping, and what does this reveal about her awareness of her own situation?",
+        "answer": "Caterina acted extremely relaxed and cheerful on the train, enthusiastically singing and proactively inviting them to a performance three days later, showing she was completely unaware of the impending danger. This unguarded confidence strongly contrasts with her violent abduction on the platform moments later, suggesting this kidnapping was not a long-feared threat but a sudden ambush.",
+        "evidence": [
+          "D24:8",
+          "D24:19",
+          "D24:45"
+        ],
+        "category": 2,
+        "id": 135,
+        "depth": 2
+      },
+      {
+        "question": "How does the itinerary for Caterina revealed by the agent make the nature of this kidnapping case more complex?",
+        "answer": "The agent mentioned Caterina originally planned to perform at a Fascist Party charity gala, introducing the possibility of political motives. This means the kidnapping may not just be for money but could involve anti-Fascist retaliation or political struggle, elevating a simple criminal case to the level of political.",
+        "evidence": [
+          "D24:60",
+          "D24:69",
+          "D24:71"
+        ],
+        "category": 4,
+        "id": 136,
+        "depth": 3
+      },
+      {
+        "question": "Synthesizing player4's observations of the kidnapping vehicle and player2's analysis of the local situation, which group are the investigators currently inclined to believe the kidnappers belong to?",
+        "answer": "The investigators tend to believe the kidnappers have deep backgrounds, possibly mafia or government insiders. This inference is based on the kidnappers' use of a luxury sports car (symbol of wealth), brazen public violence (symbol of power), and the agent's political metaphor about \"shrouds becoming flags,\" ruling out ordinary street thugs.",
+        "evidence": [
+          "D24:47",
+          "D24:50",
+          "D24:52",
+          "D24:67",
+          "D24:78"
+        ],
+        "category": 3,
+        "id": 137,
+        "depth": 3
+      },
+      {
+        "question": "Rossi's reaction when faced with the investigators' \"heavy-handed approach\" reveals what about the current social state of Milan?",
+        "answer": "Rossi's intense reaction to pain and material damage (shoes) sharply contrasts with the sleepwalking-like numbness of the surrounding Milan locals, highlighting that the local residents have lost normal emotional fluctuations and concern for material reality. As an outsider, Rossi retains the vivid emotions of a normal person, thus confirming Milan's abnormality is not mere political oppression but a deeper, humanity-depriving supernatural influence.",
+        "evidence": [
+          "D25:0",
+          "D25:3",
+          "D25:8"
+        ],
+        "category": 2,
+        "id": 138,
+        "depth": 2
+      },
+      {
+        "question": "Combining Rossi's description of Bologna with his fear of Milan's current situation, what can be inferred is his definition of a \"normal life\"?",
+        "answer": "Rossi believes \"normal\" means being full of vitality, noisy, even chaotic (like drunkards singing, insane asylums being more lively than Milan), and having passion for food and architecture. He fears Milan's current state because it's lifeless, orderly yet devoid of vitality (even pigeons fly slowly). This extreme silence fundamentally conflicts with his memory of Bologna's lively atmosphere, representing the loss of humanity.",
+        "evidence": [
+          "D25:19",
+          "D25:25",
+          "D25:60"
+        ],
+        "category": 3,
+        "id": 139,
+        "depth": 3
+      },
+      {
+        "question": "Player5's attempted Luck check and its failure result, on a narrative level, hint at what kind of predicament the investigators are facing?",
+        "answer": "Player5 attempted to gain some breakthrough or revelation through a Luck roll, but the roll failed (D100=21/15), hinting fate was not on the investigators' side. Narratively, this reinforces the sense of powerlessness, indicating they cannot rely solely on luck or sudden inspiration to solve the current mystery; they must depend on more solid investigation or pay a price (like the subsequently discussed skin-cutting spell) to break the deadlock.",
+        "evidence": [
+          "D25:10",
+          "D25:11",
+          "D25:13"
+        ],
+        "category": 5,
+        "id": 140,
+        "depth": 1
+      },
+      {
+        "question": "Why did Player2 propose the radical act of \"cutting a piece of my skin\"? What is the logical chain of reasoning behind it?",
+        "answer": "Player2 believes current conventional investigation methods (like searching for clues) have reached a dead end, and they are facing a supernatural threat (like the strange rose and the city-wide anomaly). Therefore, unconventional means must be taken. Although the spell sounds absurd, lacking other effective clues and under time pressure, he would rather try this high-risk occult ritual than wait passively, reflecting his extreme pragmatism.",
+        "evidence": [
+          "D25:37",
+          "D25:41",
+          "D25:47"
+        ],
+        "category": 1,
+        "id": 141,
+        "depth": 2
+      },
+      {
+        "question": "Rossi's change in attitude when mentioning the Mafia and the Fascists reflects what hierarchy of fears deep within him?",
+        "answer": "Rossi would prefer it to be a mafia kidnapping because that means problems can be solved through negotiation (bargaining), belonging to the realm of rational evil. But he shows extreme silence and fear towards Fascists (Blackshirt youths), indicating in his subconscious, political repression's uncontrollability and irrational violence are more terrifying than the mafia, and the current supernatural anomaly is even more despair-inducing than political terror.",
+        "evidence": [
+          "D25:57",
+          "D25:69",
+          "D25:73"
+        ],
+        "category": 4,
+        "id": 142,
+        "depth": 3
+      },
+      {
+        "question": "Synthesizing the scenes on Milan's streets, Rossi's memories, and the observations from outside room 307's window, what specific characteristics does Milan's current mutation possess?",
+        "answer": "Milan's anomaly manifests as collective mental numbness and mechanical behavior (like the card-tearing noblewoman, circling police). This state deprives people of normal emotions and vitality. Simultaneously, this anomaly seems to have a specific time node (worsening since last October) and concealment (outwardly orderly but inwardly empty), and this influence is gradually eroding outsiders' memories and cognition.",
+        "evidence": [
+          "D25:3",
+          "D25:32",
+          "D25:75"
+        ],
+        "category": 3,
+        "id": 143,
+        "depth": 3
+      },
+      {
+        "question": "Player4 encountered consecutive failures and sanity penalties while attempting a mystical ritual. What deeper crisis do these negative mechanical feedbacks reveal on a narrative level?",
+        "answer": "Player4 failed two consecutive Occult rolls (D100=86, D100=59) accompanied by Sanity loss (total 5 points). Narratively, this manifests not only as physical pain and hallucinations (hitting the wardrobe, choking throat) but also reveals the forces they tried to contact are extremely dangerous and difficult to control. This mechanical \"rejection\" hints the supernatural power the investigators face has high resistance and is actively fighting back against those who pry, foreshadowing the urgency of the subsequent \"race against death.\"",
+        "evidence": [
+          "D26:14",
+          "D26:16",
+          "D26:21",
+          "D26:23",
+          "D26:25",
+          "D26:36"
+        ],
+        "category": 5,
+        "id": 144,
+        "depth": 1
+      },
+      {
+        "question": "Combining Player4's hallucinatory experience and Player5 (Bailan)'s physical mutation, what properties can be inferred about the \"statue\"?",
+        "answer": "Player4 saw the statue in a hallucination causing physical stiffness and inability to move, while Player5's left arm developed the same pattern as the statue accompanied by severe pain and low temperature. Combining these points, it can be inferred the statue has a curse characteristic of assimilation and control over the living: it can not only mentally control people into becoming \"living dead\" but also physically erode the bodies of holders or those in contact, eventually transforming them into lifeless puppets similar to the statue.",
+        "evidence": [
+          "D26:34",
+          "D26:40",
+          "D26:47",
+          "D26:51",
+          "D26:55"
+        ],
+        "category": 3,
+        "id": 145,
+        "depth": 3
+      },
+      {
+        "question": "The agent Rossi mentioned frequent monitoring by \"Blackshirts\" and searches for \"smuggled artifacts\" on the phone. What potential situation does this hint at?",
+        "answer": "The agent mentioned Blackshirts (Fascist militia) monitored the theater in the name of \"maintaining traditional cultural purity,\" and the search reason was \"smuggling cultural relics,\" which converges with the investigators' search for the \"statue.\" This hints that official forces or the power behind them are also searching for this supernatural item. The investigators not only face the monster's curse but also political force intervention and competition, shifting the situation from a simple paranormal investigation to a multi-party.",
+        "evidence": [
+          "D26:73",
+          "D26:74",
+          "D26:79"
+        ],
+        "category": 2,
+        "id": 146,
+        "depth": 2
+      },
+      {
+        "question": "Player5 (Bailan)'s reaction upon discovering severe physical mutations on her body reflects what psychological state?",
+        "answer": "Player5, after the severe pain and discovering the strange pattern, although physically weakened (leaning on the wall, sweating), quickly forced calm through actions like adjusting glasses, wiping sweat, and immediately shifted the topic back to the action plan (requesting the pass). This reaction shows she possesses strong willpower and rationality. Compared to personal safety, she prioritizes the team's mission progress, trying to suppress inner fear by focusing on work.",
+        "evidence": [
+          "D26:46",
+          "D26:62",
+          "D26:68"
+        ],
+        "category": 1,
+        "id": 147,
+        "depth": 2
+      },
+      {
+        "question": "Why did Player4, after experiencing terrifying hallucinations, become convinced they needed to go to the opera house to find clues?",
+        "answer": "Player4 saw specific Aida stage backgrounds (Egyptian statues, palm tree props) and the statue hidden in the cabinet in the hallucination. Although the hallucination brought great mental impact, these specific visual details convinced him the illusion maps to reality, thus inferring the statue's hiding place is in the opera house's backstage or prop room, prompting his decision to go immediately.",
+        "evidence": [
+          "D26:30",
+          "D26:37",
+          "D26:41",
+          "D26:58"
+        ],
+        "category": 1,
+        "id": 148,
+        "depth": 2
+      },
+      {
+        "question": "According to Player4's critical success (Extreme success) result on the Occult check, what consequences does the current situation mean for the investigators?",
+        "answer": "Player4's Extreme success roll allowed him to recall records of the Devil's Simulacrum, confirming Player5's symptoms are early manifestations of the statue's curse. This mechanical result directly concretizes the originally vague threat into a clear \"countdown,\" meaning if the statues cannot be collected quickly, Player5 will face irreversible paralysis or transformation, forcing the team to shift from leisurely investigation to a time-sensitive.",
+        "evidence": [
+          "D26:53",
+          "D26:55",
+          "D26:56",
+          "D26:57"
+        ],
+        "category": 5,
+        "id": 149,
+        "depth": 1
+      },
+      {
+        "question": "In the corridor scene in the first half of this chapter, how did the investigators' Sanity Check (SC) results directly determine the transition of the narrative scene?",
+        "answer": "In the hallway, the investigators fell into severe hallucinations and, but after Player 2 achieved an Extreme success and Player 4 achieved a success on Sanity rolls, the scene instantly underwent a qualitative change. The originally whispering and grotesque hallway disappeared; they found themselves actually standing quietly at the prop room door. This shows the success of the Sanity rolls directly broke the mental-level illusion, pulling everyone back to the physical reality space.",
+        "evidence": [
+          "D27:14",
+          "D27:30",
+          "D27:34",
+          "D27:37"
+        ],
+        "category": 5,
+        "id": 150,
+        "depth": 1
+      },
+      {
+        "question": "Based on the testimonies of Louisa and her assistant in the prop room, what specific condition can be inferred for the \"seventh statue\" the investigators are seeking?",
+        "answer": "According to Louisa and the old woman in black, the seventh statue is not in the props room but was moved downstairs by conductor Toscanini to serve as Radamès' armor stand. At the same time, this statue possesses a dangerous quality that has caused many prop masters maintaining it to resign or suffer mental trauma, suggesting it is not merely an inanimate object but carries some kind of curse or supernatural influence.",
+        "evidence": [
+          "D27:53",
+          "D27:68",
+          "D27:70"
+        ],
+        "category": 3,
+        "id": 151,
+        "depth": 3
+      },
+      {
+        "question": "After inspecting the plaster mannequins in the prop room, why did Player 5 specifically propose, \"I'll hold onto the next few statues\"?",
+        "answer": "Player 5 has always been highly vigilant about \"fragments\" and supernatural influences, believing danger lurks beneath beautiful appearances. After confirming the model before him was ordinary plaster and learning the truly dangerous \"seventh statue\" caused resignations and unease, he volunteered to hold the statue out of a defensive mindset towards dangerous items, attempting to bear any potential curse or negative influence alone to protect his teammates.",
+        "evidence": [
+          "D27:3",
+          "D27:58",
+          "D27:70"
+        ],
+        "category": 1,
+        "id": 152,
+        "depth": 2
+      },
+      {
+        "question": "How does Player 2's reaction to the corridor illusion significantly contradict other characters (like Player 4 and NPC Johnson), and what does this reveal?",
+        "answer": "When Player 4 began involuntarily nodding to the rhythm and NPC Johnson fell into hysterical laughter, Player 2 remained completely lucid, even able to kick his teammates awake and tap props to find the sound device. This behavioral contradiction, combined with Player 2's extreme success on the Sanity check, reveals Player 2 was the only person not captured by the hallucination at that time, becoming the team's anchor to reality.",
+        "evidence": [
+          "D27:16",
+          "D27:30",
+          "D27:31",
+          "D27:32"
+        ],
+        "category": 2,
+        "id": 153,
+        "depth": 2
+      },
+      {
+        "question": "How did Toscanini's reaction in the rehearsal hall create a deeper obstacle for the investigators in obtaining clues about the statue?",
+        "answer": "The investigators learned the statue was taken by Toscanini for use as a prop, but upon entering the rehearsal hall, they not only failed to see the statue directly but were met with Toscanini's extremely. This situation means the investigators cannot obtain the statue through normal communication or search methods; they must balance the risk of angering the conductor and being thrown out against finding the hidden/obscured statue, increasing the social difficulty of acquiring the key item.",
+        "evidence": [
+          "D27:68",
+          "D27:73",
+          "D27:77"
+        ],
+        "category": 4,
+        "id": 154,
+        "depth": 3
+      },
+      {
+        "question": "How do the consecutive failures of \"Luck\" checks and the subsequent \"Sanity\" check in this chapter function narratively in conjunction?",
+        "answer": "A series of failed Luck checks at the chapter's beginning caused the investigators to become completely lost backstage and sink deeper into supernatural hallucinations, unable to avoid risks through luck. This of despair made the subsequent Sanity check the only way out—only by overcoming the mental pollution with willpower (Sanity check) could they counteract the brought by bad luck, thus allowing the plot to progress from the to the.",
+        "evidence": [
+          "D27:7",
+          "D27:14",
+          "D27:30",
+          "D27:37"
+        ],
+        "category": 5,
+        "id": 155,
+        "depth": 1
+      },
+      {
+        "question": "Based on Marco's behavior when facing the investigators and the actual investigation results, how can we analyze the true state behind his seemingly guilty actions?",
+        "answer": "Marco exhibited physiological reactions like sweating, trembling hands, and a confused gaze that seemed guilty, leading player5 to suspect he had. However,, these contradictory behaviors were actually due to his fear of his (Toscanini) and nervousness about getting into trouble while following procedures, not guilt over the statue's disappearance. He was merely an unaware of the situation.",
+        "evidence": [
+          "D28:6",
+          "D28:8",
+          "D28:17",
+          "D28:22"
+        ],
+        "category": 2,
+        "id": 156,
+        "depth": 2
+      },
+      {
+        "question": "When examining the desiccated corpse in the depths of the alley, how did Player 4's Medicine check (Hard success) mechanically qualify the nature of this event?",
+        "answer": "player4's Medicine check achieved a Hard success, which not only confirmed the deceased's identity but also revealed: neck puncture wounds, radial vascular atrophy, and precise blood extraction with no. This high-difficulty check result directly ruled out, mechanistically confirming the (such as a vampire or), shifting the investigation direction from a criminal case to a.",
+        "evidence": [
+          "D28:29",
+          "D28:30",
+          "D28:31",
+          "D28:35"
+        ],
+        "category": 5,
+        "id": 157,
+        "depth": 1
+      },
+      {
+        "question": "Synthesizing the clues at the corpse scene and Player 2's deductions, what kind of tracking ability can be inferred for the mastermind behind this?",
+        "answer": "The bloody message on the corpse, \"I have been watching you,\" indicates the enemy knows the investigators'. player2 pointed out that since the investigators could track the statue through books, the enemy (like the) as the source of the should also possess similar. This suggests the enemy's tracking is not mere physical but likely based on some related to the \"statue\" or \"books.\"",
+        "evidence": [
+          "D28:27",
+          "D28:38",
+          "D28:48",
+          "D28:53"
+        ],
+        "category": 3,
+        "id": 158,
+        "depth": 3
+      },
+      {
+        "question": "Why did the investigators, after discovering the key clue (the Venice address), decide to immediately retreat to the hotel instead of pursuing it overnight?",
+        "answer": "Although they obtained the Venice address, it was already 11 PM, and they had just discovered a highly targeted, drained corpse, indicating the enemy was nearby and. The investigators realized they were, their. Out of fear of the and the need to conserve, they deemed too dangerous and chose to.",
+        "evidence": [
+          "D28:12",
+          "D28:31",
+          "D28:47",
+          "D28:54",
+          "D28:56"
+        ],
+        "category": 1,
+        "id": 159,
+        "depth": 2
+      },
+      {
+        "question": "The Medicine check (Extreme success) performed by Player 4 on their own rash the next morning reveals what kind of situation the character is currently in?",
+        "answer": "player4 rolled an Extreme success on the Medicine check, but the conclusion was that the symptoms \"did not match any known allergic or pathological pattern.\" This. Combined with the on the abdomen, it this was an or, meaning the investigators had already suffered in their sleep.",
+        "evidence": [
+          "D28:69",
+          "D28:70",
+          "D28:73",
+          "D28:78"
+        ],
+        "category": 5,
+        "id": 160,
+        "depth": 1
+      },
+      {
+        "question": "What is the deep connection between the mutation of the hotel corridor murals and the wounds on the investigators, and what does this mean for the current situation?",
+        "answer": "The grid-like appearing on the investigators' bodies coincided with of the mural content (from elegant to),. This meant the hotel was no longer a; the enemy could not only remotely but even. This.",
+        "evidence": [
+          "D28:62",
+          "D28:65",
+          "D28:73",
+          "D28:77"
+        ],
+        "category": 4,
+        "id": 161,
+        "depth": 3
+      },
+      {
+        "question": "Why did the security measures of the Blackshirts around the opera house present an almost \"wartime\" extreme state?",
+        "answer": "This was not ordinary but based on and political pressure. On one hand, extremely important were; on the other, the prior of the Verona team's forced them to deploy machine guns, snipers, and armored vehicles to.",
+        "evidence": [
+          "D29:14",
+          "D29:25",
+          "D29:55"
+        ],
+        "category": 1,
+        "id": 162,
+        "depth": 2
+      },
+      {
+        "question": "What contradiction exists between the strict external security of the opera house and the actual internal management conditions?",
+        "answer": "External was, equipped with, even checking bread delivery trucks, creating a. However, was quite: were a, the extra idol was, and were. This provided an opportunity for the investigators to infiltrate and act.",
+        "evidence": [
+          "D29:2",
+          "D29:14",
+          "D29:57",
+          "D29:62"
+        ],
+        "category": 2,
+        "id": 163,
+        "depth": 2
+      },
+      {
+        "question": "What potential threat did the medical inspection pose to the investigators, and how did they respond?",
+        "answer": "The medical required, posing a of for investigators with (like curse) on their bodies. Particularly Bailan Sha, who had to, only exposing her right arm for the,ing while complying with official requirements.",
+        "evidence": [
+          "D29:37",
+          "D29:49",
+          "D29:53"
+        ],
+        "category": 4,
+        "id": 164,
+        "depth": 3
+      },
+      {
+        "question": "Combining Louisa's testimony and the on-site environment, how did the investigators pinpoint the specific location of the target statue?",
+        "answer": "Although Louisa said the, she provided, confirming she saw the white statue at the stage yesterday. Combining this clue, the investigators used the opportunity of to go to the stage, finally finding the among the (behind shields and fake palm trees).",
+        "evidence": [
+          "D29:60",
+          "D29:62",
+          "D29:68",
+          "D29:72"
+        ],
+        "category": 3,
+        "id": 165,
+        "depth": 3
+      },
+      {
+        "question": "What was the deep-seated motive behind Player 4's sudden attempt to flee within the opera house?",
+        "answer": "Player4's was not solely due to hearing the singing but a result of. First, hearing the sing with Caterina's voice triggered memories of past, causing. Second, he subsequently failed a Sanity check and lost 6 Sanity, triggering the \"Fleeing\" temporary insanity symptom. This forced him to.",
+        "evidence": [
+          "D30:8",
+          "D30:10",
+          "D30:13"
+        ],
+        "category": 1,
+        "id": 166,
+        "depth": 2
+      },
+      {
+        "question": "Based on Bailan's (Player5) series of preparations and subsequent actions in the theater, what kind of anticipation can be inferred regarding his assessment of the current situation?",
+        "answer": "Bailan anticipated the might or require. He not only to but also and parked it at a. This shows he (like the later statue) or, demonstrating.",
+        "evidence": [
+          "D30:3",
+          "D30:5",
+          "D30:6"
+        ],
+        "category": 3,
+        "id": 167,
+        "depth": 3
+      },
+      {
+        "question": "What role does the aria \"Triumphant Return\" that appears in this Section play in the narrative?",
+        "answer": "This aria was the connecting. Initially, as a familiar melody, it triggered Player4's and. Subsequently, accompanied by, it affected the entire audience. Finally, even as the investigators fled, the song's melody still,ing but them like those.",
+        "evidence": [
+          "D30:8",
+          "D30:13",
+          "D30:49"
+        ],
+        "category": 4,
+        "id": 168,
+        "depth": 3
+      },
+      {
+        "question": "What kind of interactive relationship is formed between Player 4's reaction after the critical failure on the Sanity check and Bailan's countermeasures?",
+        "answer": "Player4, due to failing a Sanity check (losing 6 points), fell into the \"Fleeing\", attempting to. Bailan, through a successful Agility check (Hard success),Player4, not only but also through. This (vs).",
+        "evidence": [
+          "D30:10",
+          "D30:13",
+          "D30:19",
+          "D30:22"
+        ],
+        "category": 5,
+        "id": 169,
+        "depth": 1
+      },
+      {
+        "question": "Synthesizing the anomalies on the stage and the gruesome scene at the exit, what kind of entity can be inferred to belong to those \"pale hands\"?",
+        "answer": "Those belonged to the that attacked the and the old man. Clues include: the displayed on stage matched the investigators' target; personnel at the exit were; and Player2 saw a in the shadows. Combined with the previously mentioned \",\" it can be inferred this was and might be related to the statue or.",
+        "evidence": [
+          "D30:27",
+          "D30:36",
+          "D30:47"
+        ],
+        "category": 3,
+        "id": 170,
+        "depth": 3
+      },
+      {
+        "question": "What fate did the \"singing old man\" encounter, as revealed by the scene witnessed by Player 2 while carrying the statue to escape?",
+        "answer": "The old man with Caterina's ultimately met a. Although he could still sing on stage earlier and tried to leave under the, at the exit, Player2 found him,,. This indicates he was attacked by the owner of those \"\" during his and had his.",
+        "evidence": [
+          "D30:27",
+          "D30:36",
+          "D30:46"
+        ],
+        "category": 2,
+        "id": 171,
+        "depth": 2
+      },
+      {
+        "question": "Comprehensively analyzing the entire process of Player 4 (Durgan) from departing London to fleeing the Milan theater in terror, how did his psychological defenses against supernatural phenomena gradually collapse step by step?",
+        "answer": "player4, initially a Miskatonic University medical student, showed at the British Museum in London but maintained when facing the fire at Professor Smith's and boarding the Orient Express, trying to with like motion sickness. However, after in the medieval and, his began, forcing him to through like. Finally, at the Teatro alla Scala in Milan, hearing the from a stranger's mouth, this, causing him to.",
+        "evidence": [
+          "D01:12",
+          "D04:13",
+          "D10:0",
+          "D16:10",
+          "D26:2",
+          "D30:13"
+        ],
+        "category": 1,
+        "cross_section_count": 6,
+        "cross_section_ids": [
+          "01",
+          "04",
+          "10",
+          "16",
+          "26",
+          "30"
+        ],
+        "id": 172,
+        "depth": 2
+      },
+      {
+        "question": "How did the clues of the Sedefkar Simulacrum fragments progress step by step from the ancient phantasmagoria in Constantinople to pointing towards the La Scala opera house in Milan?",
+        "answer": "The investigators first learned in the Constantinople, through and with Count Baldwin, about the simulacrum's connection to the \"Unfettered Flesh\" and used a to. Returning to the modern era, they discovered the connection between and the statue arm in the Paris, confirming the simulacrum fragment's existence form. Finally in Milan, by investigating and, they learned the statue had been used as a prop and, thus.",
+        "evidence": [
+          "D09:7",
+          "D16:8",
+          "D21:16",
+          "D24:8",
+          "D28:8"
+        ],
+        "category": 2,
+        "cross_section_count": 5,
+        "cross_section_ids": [
+          "09",
+          "16",
+          "21",
+          "24",
+          "28"
+        ],
+        "id": 173,
+        "depth": 2
+      },
+      {
+        "question": "Combining the experiences on the Dreamlands Express and the anomalies at La Scala opera house in Milan, analyze what role \"art\" played in distorting reality during this investigation.",
+        "answer": "On the Dreamlands Express, conductor Henry demonstrated abilities (like conjuring a key lime pie),. This reached its in Milan, where the entire city seemed, and the theater became a with actors walking backwards and rooms,“”. Ultimately, Caterina's through the was not just artistic performance but became theplayer4's, proving art under the's influence had become a weapon.",
+        "evidence": [
+          "D23:9",
+          "D25:3",
+          "D27:16",
+          "D30:8"
+        ],
+        "category": 3,
+        "cross_section_count": 4,
+        "cross_section_ids": [
+          "23",
+          "25",
+          "27",
+          "30"
+        ],
+        "id": 174,
+        "depth": 3
+      },
+      {
+        "question": "From the fire at Professor Smith's residence to the tight security at the Milan theater, what do this series of events reflect about the nature and scale of the hostile forces the investigators are facing?",
+        "answer": "Initially in London, the of Professor Smith's and. Subsequently in Paris, the investigators discovered and involving Marshal Pétain's,. In Milan, the (Fascist forces) directly took over, even setting up machine guns and armored vehicles. This revealed the investigators faced not just but a deeply with European political entities and military forces.",
+        "evidence": [
+          "D03:12",
+          "D20:4",
+          "D29:14"
+        ],
+        "category": 4,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "03",
+          "20",
+          "29"
+        ],
+        "id": 175,
+        "depth": 3
+      },
+      {
+        "question": "Comparing Player 7's (Mr. Gungnir/Knight) combat performance in the medieval phantasmagoria with the action patterns of the modern investigators, what impact did this \"dual identity\" experience have on the team's action strategies?",
+        "answer": "In the medieval, player7 as a knight, accustomed to using and, like on the battlefield,, and. This made the team more upon returning to the modern era. For example, player4 could accept, and the team showed facing Milan's. The in the became their, making them more inclined to adopt to achieve goals when facing modern society's.",
+        "evidence": [
+          "D08:17",
+          "D11:13",
+          "D16:9",
+          "D26:2"
+        ],
+        "category": 1,
+        "cross_section_count": 4,
+        "cross_section_ids": [
+          "08",
+          "11",
+          "16",
+          "26"
+        ],
+        "id": 176,
+        "depth": 2
+      },
+      {
+        "question": "Synthesizing the discoveries in the Paris underground interrogation room and the anomalies in the Milan theater backstage, what common supernatural influence can be inferred that the \"Simulacrum fragments\" have on their surrounding environment?",
+        "answer": "In the Paris, the simulacrum fragment's presence caused to grow from, petals,. This influence further in the Milan theater:,, even. This but could also on a large scale, creating a.",
+        "evidence": [
+          "D21:16",
+          "D27:5",
+          "D27:14"
+        ],
+        "category": 3,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "21",
+          "27"
+        ],
+        "id": 177,
+        "depth": 3
+      },
+      {
+        "question": "Tracking the trajectory of Player 5's (Professor Bailan) Sanity changes from London to Milan, what kind of psychological resilience did she demonstrate when facing supernatural horror?",
+        "answer": "player5 exhibited throughout the journey. In London facing the bearded stalker and the Smith fire, she maintained a scholar's. Even witnessing scenes in the Paris, she passed an Extreme Sanity check (losing 0 points) and could. Even at the Milan theater, facing the of Caterina's voice, she still passed a Sanity check (losing only 1 point) and tried to when a teammate. This,.",
+        "evidence": [
+          "D02:14",
+          "D21:4",
+          "D30:12"
+        ],
+        "category": 5,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "02",
+          "21",
+          "30"
+        ],
+        "id": 178,
+        "depth": 1
+      },
+      {
+        "question": "From the \"Unfettered Flesh\" cult in Constantinople to the \"Glowing Rose\" in the Paris basement, what biological distortion characteristics do these two clues jointly reveal about the Simulacrum fragments?",
+        "answer": "The \"Unfettered Flesh\" in Constantinople demonstrated its power through (eyeball) and, emphasizing. In the Paris, the simulacrum fragment caused,,. Combining these two reveals the simulacrum fragment's: it could, (like) with (like,), creating.",
+        "evidence": [
+          "D09:7",
+          "D10:0",
+          "D21:16"
+        ],
+        "category": 3,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "09",
+          "10",
+          "21"
+        ],
+        "id": 179,
+        "depth": 3
+      },
+      {
+        "question": "Analyze Player 2's (Mr. Gungnir/Johnson) social strategies when dealing with people of different social strata (e.g., Parisian workers, Milanese agents), and how did this strategy help the team obtain key intelligence?",
+        "answer": "player2 excelled at. In Paris, he changed into Johnson's clothes, and, successfully from. In Milan, facing the, he tested the other's reaction with a and, confirming the other's, thus. This enabled the team to from when official channels were.",
+        "evidence": [
+          "D22:13",
+          "D22:19",
+          "D25:6",
+          "D25:15"
+        ],
+        "category": 1,
+        "cross_section_count": 2,
+        "cross_section_ids": [
+          "22",
+          "25"
+        ],
+        "id": 180,
+        "depth": 2
+      },
+      {
+        "question": "What logical connection exists between the \"tickets turning into butterflies\" on the Dreamlands Express and the \"choir walking backwards\" backstage at the Milan theater, these two surreal scenes?",
+        "answer": "The train tickets on the Dreamlands Express turning into butterflies, demonstrated by conductor Henry, is a law of the Dreamlands where thought and imagination can reshape reality, often with a fantastical and beautiful hue. However, the backward-walking chorus and spatial distortions backstage at the Milan theater are a twisted and corrupted version of this \"reality reshaping\" ability. Both break physical laws, but the latter, under the influence of evil gods or simulacrum fragments, transforms what could have been a beautiful fantasy into a sanity-shattering nightmare, suggesting different manifestations (benevolent vs. malicious) of the same supernatural source.",
+        "evidence": [
+          "D23:2",
+          "D27:14"
+        ],
+        "category": 4,
+        "cross_section_count": 2,
+        "cross_section_ids": [
+          "23",
+          "27"
+        ],
+        "id": 181,
+        "depth": 3
+      },
+      {
+        "question": "From Professor Smith's introduction in London to the Count's commission in Constantinople, what substantial shift occurred in the investigators' mission objectives?",
+        "answer": "Initially in London, Professor Smith merely invited the investigators to visit the Maya exhibition and attend a lecture, a task leaning towards academic exchange and simple urban exploration. However, as they were drawn into the medieval illusion, Count Baldwin directly commissioned them to find and destroy the cultists \"Unfettered Flesh\" and confront the dragon, instantly shifting the mission objectives to life-or-death combat and the pursuit of ancient mystical forces. This transformation marks the investigators' complete shift from observers to core participants in the fight against ancient evil, a sense of mission that continues into the modern European investigation.",
+        "evidence": [
+          "D01:3",
+          "D09:0",
+          "D09:10"
+        ],
+        "category": 2,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "01",
+          "09"
+        ],
+        "id": 182,
+        "depth": 2
+      },
+      {
+        "question": "Considering player8 (Martin)'s severe injury in the dragon-slaying battle and the modern investigators' encounter in Milan, what different consequences does the \"injured\" status imply for the team across the two time periods?",
+        "answer": "In the medieval illusion, player8 was critically wounded by four arrows and fell, but through treatment by the army doctor and cover from teammates, he survived and continued acting. This damage was more physical, with clear recovery methods. In modern Milan, however, although the investigators were not seriously injured, player4's mental breakdown (Sanity damage) led to more severe consequences—the team's disintegration and hasty escape. This contrast shows that in modern investigations, mental trauma is often harder to heal than physical injury and more destructive to team missions.",
+        "evidence": [
+          "D13:4",
+          "D15:4",
+          "D30:13"
+        ],
+        "category": 5,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "13",
+          "15",
+          "30"
+        ],
+        "id": 183,
+        "depth": 1
+      },
+      {
+        "question": "From the \"Pré Catelan Company\" in Paris to the \"La Scala Opera House\" in Milan, how did the mastermind use public institutions as cover to hide the simulacrum fragments?",
+        "answer": "In Paris, the mastermind used the Pré-Cat Construction Company for the engineering work at Marshal Pétain's villa, creating tunnel collapses and worker deaths to seal off or bury areas containing simulacrum fragments, turning them into forbidden zones no one dared approach. In Milan, they exploited the Scala Opera House's prop management process, disguising the simulacrum as ordinary plaster mannequin props and transferring it to Venice through legal resale procedures. Both methods cunningly leveraged legitimate commercial or artistic institution operations to hide extremely dangerous supernatural items in the blind spots of public view.",
+        "evidence": [
+          "D20:0",
+          "D20:4",
+          "D28:8"
+        ],
+        "category": 4,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "20",
+          "28"
+        ],
+        "id": 184,
+        "depth": 3
+      },
+      {
+        "question": "Based on a comprehensive analysis of player12 (Johnson)'s actions at the Paris City Hall and backstage at the Milan theater, what primary function did he serve within the team?",
+        "answer": "player12 primarily handled intelligence gathering and logistical support within the team, with strong operational capability. In Paris, he proactively went to the city hall for information, successfully deciphering the workers' coded language and pointing the team in the right direction. During the chaos backstage at the Milan theater, he cleverly picked up a prop to disguise himself to avoid suspicion and used a crowbar to tap the ground to test spatial properties. Whether in social situations or crisis environments, he could quickly adapt and provide practical support, an indispensable hands-on role in the team.",
+        "evidence": [
+          "D20:4",
+          "D27:4",
+          "D27:17"
+        ],
+        "category": 1,
+        "cross_section_count": 2,
+        "cross_section_ids": [
+          "20",
+          "27"
+        ],
+        "id": 185,
+        "depth": 2
+      },
+      {
+        "question": "From \"silver weapon forging\" in Constantinople to \"renting a car for evacuation\" in Milan, what resource utilization capabilities did the investigators demonstrate when facing crises?",
+        "answer": "In Constantinople, facing the dragon threat, the investigators did not attack blindly. Instead, they used scavenged silver ingots to persuade the camp blacksmith to forge silver arrowheads effective against the dragon, demonstrating strong improvisation and leveraging local resources. In Milan, facing Fascist blockades and potential danger, they used bribes, hired translators, and pre-rented cars parked outside restricted zones, utilizing money and modern transportation to pave their escape route. This shows that whether in ancient or modern times, the investigators are adept at using available resources (be it metal or money) to maximize survival chances.",
+        "evidence": [
+          "D12:0",
+          "D16:1",
+          "D30:5"
+        ],
+        "category": 2,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "12",
+          "16",
+          "30"
+        ],
+        "id": 186,
+        "depth": 2
+      },
+      {
+        "question": "What ironic resonance exists between the poet's prophetic jokes in the medieval dreamscape and the final outcome at the Milan theater?",
+        "answer": "In the medieval period, the poet Bradic jokingly said he would take everyone to drink the most expensive wine in Constantinople, repeatedly described death and disaster in a jesting tone, and even quipped that dragon-slaying was \"giving a pedicure to a giant monster.\" However, in Milan, this lighthearted atmosphere vanished entirely. The opera diva Caterina, who had promised to sing for everyone, truly went missing, and her voice reappeared in a horrifying way during the premiere, causing an investigator's breakdown. The poet's jokes often accompanied victory (like slaying the dragon), while real-world art (opera) was accompanied by utter failure and flight, creating a starkly ironic contrast.",
+        "evidence": [
+          "D13:10",
+          "D17:18",
+          "D24:12",
+          "D30:13"
+        ],
+        "category": 3,
+        "cross_section_count": 4,
+        "cross_section_ids": [
+          "13",
+          "17",
+          "24",
+          "30"
+        ],
+        "id": 187,
+        "depth": 3
+      }
+    ]
+  }
+]

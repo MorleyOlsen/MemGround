@@ -1,0 +1,400 @@
+{
+  "section": "Bolan's Curse and Dylan's Nightmare",
+  "description": "Bolan is cursed by the statue, with a heavy left arm and burning chest pain; Dylan witnesses a dark vortex and screaming creatures in his dream. The investigators realize this is no ordinary case and begin to delve deeper.",
+  "conversation": [
+    {
+      "speaker": "player3",
+      "text": "\"Normally, the wind should blow from the sea toward the land.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So knowledgeable, Professor\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"...Another thrilling adventure!\" said while swallowing the bread in his mouth."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"No matter how much you flatter him, he can't promote you across specialties.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This is genuine admiration\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Rolls eyes \"I used to flatter my professor like that too\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Dips the breadstick into the coffee"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Didn't do any good, until I later slapped evidence of him molesting children in his face\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Imitates the professor by taking a sip"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Silently chooses to dip bread in cream of mushroom soup to eat"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Well, you should add some sugar. Not everyone can accept unsweetened.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Steals all of player4's breadsticks without changing expression"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Hmm... agreed\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Opens a box of milk and pours sugar in, simply making a sweeter coffee for the student."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The Lord said, you shall love others as you love me\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Drinks \"Delicious\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Glances lightly at Gang"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Ignores, continues"
+    },
+    {
+      "speaker": "player3",
+      "text": "#The hand holding coffee trembles slightly, almost unable to maintain the smile"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Seriously, dude, this is a buffet, right?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It's more appetizing\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What about Johnson then??\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Helps pass several pieces of bread to the teacher"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Taking Johnson's would make me look like some big villain oppressing the poor\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'm a poor student\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Nonsense, as if I don't know how high your salaries are after graduation\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Ah, I don't have much money on me either. I have cigarettes, but you students don't smoke, right?\" #Jokingly says"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Preparing for the future\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"And so far\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Okay, okay, fine\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Your share of the payment hasn't been touched yet.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thanks, dad. Dad, feel free to eat whatever.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#gives a sidelong glance, pushes it back \"It's useless to suck up to me now.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "[Premium]"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So, about that Winkelmann, does anyone have any leads?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#shrugs \"Should we ask the almighty notebook?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The notebook only records that visiting Winkelmann in Trieste might be helpful."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The notebook is also vague.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#taps the table"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Looks like we can only investigate by visiting.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Considering he's that professor's friend,\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Or rather,\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think that works. Is there a prominent university around here? We can ask the front desk staff about this.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"University sounds good. Do we book a visit?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hmm, if all else fails, you could try finding a local private detective to ask around.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That costs money, professor.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#goes to ask the waiter if there's a local map"
+    },
+    {
+      "speaker": "player2",
+      "text": "The waiter in a black vest quickly approaches and bends slightly. \"Sir, would you like more coffee?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Can you let me take a look at the local map?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We're looking for someone; he's most likely a scholar. Is there a university or similar place nearby?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The waiter straightens up. \"Yes, sir.\" He pulls a folded hard card from the walnut sideboard drawer, its cover printed with an engraving of the Basilica of San Giusto. Unfolding it reveals a color lithograph map."
+    },
+    {
+      "speaker": "player4",
+      "text": "#nods slightly"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"San Giusto University, named after the church.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#enters the church and begins attending the service"
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 kneels on the polished oak pew. During the service, he feels a wave of relief, exhales a turbid breath, and the soreness in his eye sockets feels lighter than before. (san+1)"
+    },
+    {
+      "speaker": "player6",
+      "text": "#curiously looks around"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st san +1"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s \"Sanity\" change: 52 ➯ 53 (increase 1=1)"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Actually, I came to the church with another request.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The stone vaulted ceiling gathers the wind into a low, mournful howl. The leaded glass window frames vibrate with the airflow. player6 looks around, a strand of hair pulled to the corner of their mouth by the draft. The Bora wind seeps in through every stone joint."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is the wind here... always this abnormal?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The nun scrapes wax stains from the candlestick base with her fingernail. It's been like this for three hundred years."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Always like this?\" \"Hasn't it been more abnormally strong recently?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The nun inserts the copper candle spike back into the plaster crack. Not too bad yet. When the wind is strong, the stained glass windows seep ice shards. Nowadays, it just capsizes a few more fishing boats."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh, I see. I never experienced such terrifying wind at university.\" \"Then, may I inquire about another person?\" \"Mr. Winkelmann.\" \"It's like this: my recently deceased mentor mentioned this name in his diary.\" \"My mentor said he had a pleasant conversation with Mr. Winkelmann, and they agreed to exchange papers.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The nun wipes pigeon droppings from the candlestick base with her sleeve. Never heard of him. She grabs the enamel plate and turns to leave."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Instantly puts away the sad expression. \"Then I've troubled you. May the Lord bless you.\" #Take leave."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Psychology"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. What you hope for will surely receive a response. <player5>'s Psychology prayer: D100=36/74 Hard Success - Can probably match others' successes now..."
+    },
+    {
+      "speaker": "player2",
+      "text": "The nun's facial expression shows no signs of lying. Seems she's just rather aloof."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sigh, let's go, let's go.\" \"Too bad I just talked my mentor to death.\" \"Fortunately he's not here.\" \"Wasted my emotions.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Go to the university, go to the university."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Suddenly head to the university."
+    },
+    {
+      "speaker": "player2",
+      "text": "Looking through the railings, a four-story red brick building covered in withered ivy vines, the plaster pediment on the Corinthian colonnade eroded into honeycomb-like holes by the wind. Just then, the brass door knocker clacks, and a young man in a tweed coat squeezes out the door crack holding a stack of books. His tortoiseshell glasses slide down to his reddened nose tip. The edges of the manila folder tucked under his arm are frayed and curled. The wind tousles the light brown curls on his forehead."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Simply look around, intending to visit as a guest. #Beside this person, greet politely. \"Hello, sir. I am an archaeology professor from Miskatonic University.\" \"A friend wrote me a letter asking me to visit an acquaintance.\" \"But because my careless friend didn't leave much detail in the letter.\" \"So I'd like to visit the local Dean of Academic Affairs in an academic exchange capacity.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Good day, madam. Scholars from Miskatonic University are always held in high esteem. Which professor specifically is the acquaintance you mentioned? I am Vittorio Caldara, a teaching assistant in the Classical Literature Department, just on my way to deliver these archives to the Academic Affairs Office. If you don't mind, I can take you to see Dean Marino on the way—he should currently be sorting newly acquired Etruscan pottery shards. The young man pushes his slipped glasses back into place, freeing a hand to point at the oak door on the second floor with a brass nameplate."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ahem, if I recall correctly, it's Mr. Winkelmann.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Yes, that's right.\" \"Winkelmann, Johann Winkelmann.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Winkelmann? The young man suddenly stops walking, the books swaying slightly in his arms. He frowns, showing a puzzled expression, then pulls a leather-bound Trieste Art History from the top of the stack, quickly flipping to a page with a faded bookmark. On the yellowed paper is a lithograph rubbing: a winged figure reclining on a sarcophagus surface, with Latin inscriptions on the side. Bolan's temple throbs. The first moment she saw Winkelmann in London, she also thought of him, but quickly dismissed it. Winkelmann, the father of modern archaeology. The person you think you'll meet died on June 8, 1768. \"The Johann Joachim Winkelmann you mentioned—the founder of modern archaeology—was murdered in this city 155 years ago. The art museum's garden still displays his relics.\" He closes the book."
+    },
+    {
+      "speaker": "player1",
+      "text": "Prayers received! Continuing to record the howling cold wind—Trieste 1923. Currently recorded text: 543 entries. Time elapsed: 2 hours, 55 minutes, 22 seconds. Huh? A piece of paper flew out when opening the file. Some would call this practice of utterly eliminating intelligent life, preserving only inorganic matter, an evil war crime. We call it efficient."
+    },
+    {
+      "speaker": "player2",
+      "text": "Since arriving in Trieste, you have been following Winkelmann's clues. The day after checking in, you head to the local university. At the university's iron gate, you meet Vittorio Caldara, the teaching assistant carrying books. After Bolan states her identity as a Miskatonic professor, player4 mentions seeking Winkelmann, only to learn he was murdered 155 years ago. The assistant closes the art history book, mentioning that the art museum displays the deceased's relics."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So, should we go to the art museum and look?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Naturally, let's go. Let's check the art museum.\" \"I'm just more curious why the professor asked us to find someone who's been dead for so long?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Perhaps he is the last known fragment holder?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Then it's very likely the fragment is hidden among the relics.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think there will be clues.\" #Get ready to go to the art gallery."
+    },
+    {
+      "speaker": "player2",
+      "text": "The museum stands at the end of Via della Cattedrale, its gray-white stone walls forming a stark angle with the spire of the Cathedral of San Giusto. Gothic arched windows are fitted with wire mesh. Gargoyles on the cornices noisily spit water into the pool below. The ticket office is a tin booth embedded under the arcade. Behind the glass window sits an elderly man in uniform, a newspaper covering most of his face, gray sideburns peeking from the edge of Il Piccolo."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Politely approach. \"Hello, sir. Is the museum open at the moment?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Count how much money is left from the black-market dealings in Venice."
+    },
+    {
+      "speaker": "player2",
+      "text": "The old man slowly lifts his wrinkled face from behind the newspaper, his gray-blue eyes examining you through copper-framed glasses. He folds the newspaper into a neat square with thin fingers. \"It's open. Two lire each.\" He points to a wooden sign nailed beside the window, painted in black: 10:00-16:00. About 67 lire left."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I still have some money\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The old man takes a yellowed ticket from the drawer, pushes the stub across the window ledge, then withdraws his hand and unfolds the newspaper again."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"I'd like to ask if there are relics of this gentleman in the art museum's garden?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The old man lifts his eyes above the newspaper, points his pen towards the western archway. \"Winkelmann's things are in the Gem Garden, requires an additional two lira.\" After speaking, he lowers his head to continue reading the newspaper."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Reluctantly takes out money"
+    },
+    {
+      "speaker": "player2",
+      "text": "The old man takes another 5 green tickets from the drawer and places them on the window ledge."
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show Mechanical Repair"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    }
+  ],
+  "start_line": 310,
+  "end_line": 620
+}

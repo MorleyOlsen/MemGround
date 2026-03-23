@@ -1,0 +1,372 @@
+{
+  "section": "8. Count Baldwin: Ancient Conspiracy",
+  "description": "Count Baldwin's blue eyes are like frozen amber, teasing his falcon while revealing ancient secrets hidden within the noble court.",
+  "conversation": [
+    {
+      "speaker": "player7",
+      "text": "#Sitting on horseback, charging forward with player8 ahead of me"
+    },
+    {
+      "speaker": "player3",
+      "text": "Warhorses neigh, iron hooves shatter scorched earth. The two grip their reins tightly, following the charge horn of the Frankish knights, galloping towards the breach in the Theodosian Walls."
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra Ride 60"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player7>'s Ride 60 prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "player7's horse's front hooves heavily stomp into the armored cavalryman's chest, barely stopping."
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra 60"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player7>'s 60 prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "The brown warhorse player8 was riding, startled by the Greek fire burning at the city gate, suddenly rears up, throwing him heavily off its back. The monk's chainmail strikes the paving stones with a dull metallic clang, his helmet rolls aside, revealing his pale face. player7 tries to get up, but his right leg is pinned under the fallen horse—the beast's belly pierced by a Byzantine arrow, convulsing in pain, hooves kicking unconsciously, raising a cloud of dust."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Try to pull my leg out"
+    },
+    {
+      "speaker": "player3",
+      "text": "Surviving defenders drop their weapons, fleeing in panic towards the inner city. Purple-robed nobles and armored cavalry mix with commoners, trampling over scattered icons and silk."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Pull player8 up \"Go find yourself some good stuff, lad\" #Then search the battlefield for fallen wounded"
+    },
+    {
+      "speaker": "player3",
+      "text": "A Venetian sailor with an arrow in his abdomen clutches blood-stained silk tightly, a gurgling sound in his throat."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Look down at this guy \"Do you want money, or do you want to live?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The sailor makes a gurgling sound in his throat, his teeth stained with bloody foam clenched tight. His tar-covered fingers suddenly grab player7's vambrace, nails scraping harshly against the iron armor. Money... money... Blood gushes from his nostrils with each word, left boot... Venetian silver coins... Give me a quick end... Then he suddenly convulses, tearing open his collar, revealing a leaden holy medal hanging on skin charred by Greek fire. If you see... the baker's daughter at the Rialto Bridge... His eyes start to roll back, say... Rovigo's... gambling debt... The last few words are spat out mixed with bits of viscera, then his hand gripping the vambrace falls limp."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Tear off his holy medal, note its contents \"God bless your soul\" #Then take the silk from his hand, strip his clothes"
+    },
+    {
+      "speaker": "player3",
+      "text": "Found in the sailor's clothing: 3 Venetian Grosso silver coins in a hidden pocket of the left boot, a folded parchment note sealed with wax bearing the emblem of the Doge's Palace, a rusted folding knife in the belt lining, a piece of dry bread wrapped in blood-soaked linen, a small glass vial of gunpowder in a sewn pocket inside the lining."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Keep the parchment note, silver coins, knife, and glass vial. As for the dry bread, this rusty-tasting food is better left alone."
+    },
+    {
+      "speaker": "player3",
+      "text": "A Venetian crossbowman's throat is slit by a scimitar, lying on top of a broken crossbow. player7 crouches down. A Cataphract's visor is smashed through, iron shards deeply embedded in the skull. player7 rummages through their belongings—purses, weapons, amulets, occasionally prying fingers open to take valuable items clutched tightly. His movements are brisk and efficient, devoid of extra emotion, as if merely taking inventory."
+    },
+    {
+      "speaker": "player7",
+      "text": "#After stripping them, perform a simple requiem, then go back to find player8."
+    },
+    {
+      "speaker": "player3",
+      "text": "As members of the Count's retinue, you are stationed near the Blachernae Palace, so player8 should now be near the Blachernae Palace."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Casually extinguish the flames on the book in his hand, then bandage his wound."
+    },
+    {
+      "speaker": "player3",
+      "text": "If you're here to collect debts, go find that maid who stole the chalice— Hearing footsteps, he tosses out a Latin curse without looking up, then suddenly sees it's player7 and switches to Frankish. Christ... you smell like you've been soaking in a barrel of blood."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"God also made Moses leave Egypt, so\" #Shrugs \"the old man sometimes likes to force people to do something.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "player8 snorts at this, spinning the wax-sealed tube between his fingers: Moses didn't have half his beard singed off by Greek fire. He wipes his face, knuckles still smudged with library soot."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"As you say.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Prying the door with all my might ing"
+    },
+    {
+      "speaker": "player3",
+      "text": "In the distance, player6's shout is heard again, this time mixed with the piercing screech of a broken door hinge. The iron door is open."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Peek inside to see what's there"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Stand up \"Alright, lad, time to work.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The cellar's iron door swings open crookedly with a piercing screech of metal breaking. player6's figure appears in the doorway, backlit, only her profile and slightly raised chin visible. The only light source is the torch in her hand, casting flickering shadows on the damp walls. The aged scent of wine mixes with mildew and a faint hint of blood. In the darkness, the slight clinking of chains is heard, as if someone—or something—is moving in the corner. Her torch illuminates the nearest few barrels, branded with the Byzantine double-headed eagle emblem. Deeper areas remain shrouded in darkness, only a few pairs of terrified eyes reflecting faint light at the edge of the torchlight."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Byzantine bastard? Huh, hiding here?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "player6's torch illuminated several pale figures huddled deep in the cellar—those Byzantine eunuchs clung to the wine barrels like frightened rats. The eldest raised a withered branch-like arm to shield his eyes, the gold-thread embroidery on his cuff now too filthy to discern its original color. Ah... Frankish warriors, one eunuch rasped in Greek with deliberate deference, your Venetian friends... are far more obsessed with certain special collections than with plundering holy relics. The eldest eunuch slowly lifted his head, a flicker of mockery in his murky eyes: Hide? No, Frankish she-wolf... we are waiting for a good show."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Give that idiot's leg a whack \"Watch your tone\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"What's inside this wooden barrel?\" #Asking sternly and seriously while holding a blade"
+    },
+    {
+      "speaker": "player3",
+      "text": "Re...spect? The old eunuch gasped for breath, fingers digging into the gaps between the floor bricks, you don't even understand... who is using you as a sword... The young eunuch pried open a loose barrel stave, revealing ordinary stored goods: half a barrel of moldy olives, several bundles of dried fish wrapped in linen, and a few Byzantine copper coins at the bottom. The old eunuch wheezed, murky eyes fixed on player8: Satisfied? Frankish saintly lord... or perhaps... He suddenly bared his broken yellow teeth, are you also looking for the 'Blue-robed Man's' treasure?"
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Then you can tell me, and I'll apologize. I'm quite reasonable.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Blue-robed Man? Explain clearly!\" \"Explain clearly, and I might consider sparing your lives.\" .ra Persuade 70"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will be answered. <player6>'s Persuade 70 prayer: D100=43/70 Success -Great, Qiduo won't be accused of having excessive lead content."
+    },
+    {
+      "speaker": "player3",
+      "text": "The old eunuch huddled by the wine barrel, blood seeping from the corner of his mouth, rasped: Those Venetian lunatics who call themselves 'Unfettered Flesh' tampered with things in the Doge's Palace. They altered cargo manifests, forged secret letters to mix into the Crusaders' supplies, just to make you Franks turn Constantinople upside down for them, then find the relic they want."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Shows an astonished expression"
+    },
+    {
+      "speaker": "player8",
+      "text": "\"What relic do they want?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The young eunuch suddenly knocked over the wine barrel, hitting the old man. Olives scattered everywhere. The old man's head slammed heavily against the stone wall, and he fell silent instantly."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Why did you stay here? Didn't they take you?\" \"Behave!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The young eunuch huddled behind the wine barrel, his pallid face splattered with the old man's blood. His lips trembled, and he suddenly grabbed a shard of pottery from the ground, pressing it against his own throat, hoarsely shouting: Kill me then! You Franks and those blue-robed demons... are all the same! His eyes frantically scanned the cellar exit, his knees tightly clamping a faded embroidered pouch—clearly a woman's item."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"This guy really doesn't care about his life.\" #Whispering"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Take out that parchment, open it and glance at it"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Pouch? Given to you by your wife?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The young eunuch's fingers suddenly clenched the pouch, knuckles turning white. His gaze suddenly became like that of a wounded beast, his voice almost inaudible: Wife? He pulled a smile uglier than crying, she died in the street fighting just now... pressed against a bread oven by three of your 'holy warriors'... He suddenly looked up, eyes bloodshot: Now what else do you want? To steal even this rag? Cargo Manifest: 3 barrels of Corfu olive oil (inspected), 5 crates of Murano glass (1 crate damaged). Content of the parchment."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Silence, a bewildered silence, gaining a full understanding of the cruelty of war."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"...I'm sorry.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Habitually ignoring the duality of the Crusade, instead showing keen interest in a eunuch who had a wife. #Nudges the little maid \"How many more people do we have to interrogate?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Take a headcount"
+    },
+    {
+      "speaker": "player7",
+      "text": "\"As for this person\" #Rubs chin \"Can we consider him the so-called traitor?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Interrogate this person thoroughly.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"After all, he's so unwilling to tell us.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Whispering"
+    },
+    {
+      "speaker": "player7",
+      "text": "\"He's already lost one leg, so losing two more isn't a big deal.\" #Whispering (man)"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Take him back? Let's check this place again.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The young eunuch suddenly lunged up, slashing his own throat hard with the pottery shard. Blood spurted onto the embroidered pouch, staining the violet embroidery dark red. His body convulsed and fell, fingers still tightly clutching the pouch until his pupils dilated."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Sigh, check how he died.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"...Let's move the body out and search this place.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Take out a bundle wrapped in burlap, pray for him, then put it away."
+    },
+    {
+      "speaker": "player3",
+      "text": "A blood-stained embroidered pouch still tightly gripped by the deceased, an overturned olive barrel emitting a musty smell, and a few Byzantine copper coins crushed under the wooden barrel. That's all."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Sigh, let's go. There shouldn't be anything else here.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Let's go.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Count if the collected coins are enough for 30 pieces."
+    },
+    {
+      "speaker": "player3",
+      "text": "7 coins."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Still some way to go to reach 30, keep trying."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Let's go back. Looks like there won't be any fighting today.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Seems like we should go back and rest.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Cruel war...\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Run back to the military camp."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Returned."
+    },
+    {
+      "speaker": "player3",
+      "text": "The setting sun was like blood, dyeing the tents of the Crusader camp a dark red. The three passed through the noisy camp. A group of Frankish infantry sat in a circle dividing loot, fighting over a gilded chalice plundered from the palace. A knight forced a Byzantine captive to recite Homer in Greek while he himself roared with laughter."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Turn a blind eye to everything before me, find a quiet place to observe all this."
+    },
+    {
+      "speaker": "player3",
+      "text": "A day of war has drained your energy, a wave of fatigue envelops you."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Sleep. Before bed, take out that wrapped bundle and pray over it."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Sleep."
+    },
+    {
+      "speaker": "player3",
+      "text": "Morning of April 13, 1204."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Rub my eyes."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Let's go, let's meet this Count.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Follow them out."
+    },
+    {
+      "speaker": "player3",
+      "text": "Boniface pushes open the iron-bound oak door. A musty smell mixed with ambergris hits you. Count Baldwin is feeding grapes to his falcon with a dagger tip. His brother Henry toys with a reliquary studded with rubies."
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra Insight 40"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player7>'s Insight 40 prayer:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Insight 60"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player6>'s Insight 60 prayer:"
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra Spot Hidden 60"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player7>'s Spot Hidden 60 prayer:"
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra Insight"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player8>'s Insightful Wish:"
+    }
+  ],
+  "start_line": 2180,
+  "end_line": 2490
+}

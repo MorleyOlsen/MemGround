@@ -1,0 +1,516 @@
+{
+  "section": "5. Dark Maze: Battle with Rumia",
+  "description": "Everyone maneuvers within Rumia's dark domain, with dice checks and combat intertwined, ultimately breaking through the darkness to defeat Rumia and escape the forest path.",
+  "conversation": [
+    {
+      "speaker": "player4",
+      "text": "\"Ru, Rumia? Are you alright?\" #Steps forward, looking at Rumia with concern"
+    },
+    {
+      "speaker": "player1",
+      "text": "Four or five Ge Qings are chasing after her. In the distance, there's a fairy holding a vine."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Hugs Rumia lying on the ground \"This method of directly infusing life force can slightly relieve the pain, but it's hard to cure.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Ahead is a girl holding a knife, trying to block her way. Despair. Is there any despair?"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"How tragic.\" #Puts down Rumia \"She's fine, or rather, she's not fine, but it's our fault. Alright, let's continue on our way.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Rumia's tense voice relaxes. She isn't really injured."
+    },
+    {
+      "speaker": "player4",
+      "text": "(This thing probably looks like this) [CQ:image,file=04CCAAA49743268BBF4C20A150392823.jpg,subType=0,url=https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhQQSMrdNlL5ymXsOvvWB_FV1z0LcRi6yQIg_woo0aOO9bW9kAMyBHByb2RQgL2jAVoQanj7L2J6U0bkp4aLLVWrm3oCTeWCAQJneg&spec=0&rkey=CAESMEjDsbSBR3JOoFWiKkPr1hp_stXEHQhw9AZvA9Clo9rzPQhd24nKmM-VklNYYAGneA,file_size=42170][CQ:image,file=A227278ED92EED9A9EA16C7A3C52BB68.jpg,subType=0,url=https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhTDPwW-pD7V_ZajRJCjDrVccRxq9Rih0gYg_woo3r6J9bW9kAMyBHByb2RQgL2jAVoQ35q78DqIb0MWsXK3pPoWf3oCn2SCAQJneg&spec=0&rkey=CAESMEjDsbSBR3JOoFWiKkPr1hp_stXEHQhw9AZvA9Clo9rzPQhd24nKmM-VklNYYAGneA,file_size=108833] \"Ru... Rumia, are you alright? Do you need to go to a clinic or something?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Rumia lies on the snow, breathing steadily. Her consciousness hasn't returned yet."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Folds the Saw Cleaver and hangs it on the back."
+    },
+    {
+      "speaker": "player1",
+      "text": "But it's nothing serious."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"So, shall we continue towards the Human Village?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let her stay here.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "After the battle with Rumia, you've wasted a lot of time. As the darkness dissipates, the exit of the forest is ahead. Following the path, the Human Village is not far."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's go. Rumia will be fine here.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Won't... won't she catch a cold or something?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Youkai and humans are different.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh, is that so?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I think we probably can't catch colds.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I see...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Heads towards the Human Village."
+    },
+    {
+      "speaker": "player1",
+      "text": "In the middle of winter, Rumia always wears her dress, so she definitely won't catch a cold. Long'er leads everyone towards the Human Village. About three minutes later, boot soles finally step onto the compacted dirt road. The forest's gloom is left behind, and a winding country path on the snowy plain lies ahead. Wheel ruts and footprints crisscross into a mottled texture on the frozen road surface. The tilted mailbox by the roadside is filled with snow. In the distance, the outlines of sporadic field ridges appear. The wind begins to carry the scent of firewood and miso. The Human Village is not far; the shadow of the village ahead can be faintly seen. Continue along the path."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Speaking of which, I'm not very familiar. Who does everyone think could do something on such a large scale?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"A youkai? It's very likely a youkai did it.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I don't know either.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Not sure.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I imagine the villagers are having a hard time too...\" #Gazes at the distant village."
+    },
+    {
+      "speaker": "player1",
+      "text": "Passing through the last patch of shrubs hanging with icicles, the frozen path ends at the wooden boundary marker of the Human Village. Snow-covered roofs stretch to the horizon. A few resilient lanterns cast warm yellow halos in the dusk. A tilted \"Sake\" sign by the road is half-buried in snow. In the distance, the muffled sound of pounding mochi can be heard. Compared to the deathly silence of the forest, this messy, trivial human warmth makes you all sigh in relief. Finally, a more cozy place."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"A youkai...? Right, after all, human power couldn't do something like this, could it?\" .st mp+3"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer of Luo Xueyu]'s 'Existence Record'... Updated: [MP]: 10+3=13"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp+2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Passerby Chen Kainuo]'s 'Existence Record'... updated: [MP]: 13+2=15"
+    },
+    {
+      "speaker": "player2",
+      "text": ".stmp+2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... updated: [MP]: 10+2=12"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-3"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Passerby Chen Kainuo]'s 'Existence Record'... updated: [MP]: 15-3=12"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st 无限天上院龙儿-hp6hpmax6mp13mpmax13shm10shmmax100exp0道具点3体魄2智慧2心魂6运动1操作1隐秘1调查1洞察3说服3狩魂学识0"
+    },
+    {
+      "speaker": "player6",
+      "text": "[player5]'s 'Existence Record'[无限天上院龙儿]... saved."
+    },
+    {
+      "speaker": "player3",
+      "text": ".stmp+7"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Existence Record'... updated: [MP]: 4+7=11"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Walk over and pull the wine character signboard out of the snow, replanting it to the side"
+    },
+    {
+      "speaker": "player1",
+      "text": "Before you, the Human Village gate beside the boundary marker stands wide open, a wave of steaming heat rushing towards you. Inside the gate, the street is decorated with lanterns and streamers, vendors' cries mixing with the aroma of oden swirling in the flying snow. Children holding candied haws chase each other under eaves hung with icicles. When the tavern curtain is lifted, the sounds of shamisen and laughter spill out. The entire long street resembles a flowing river of warmth; even the snowflakes falling before the pottery stall turn into gold foil under the lantern light. The Human Village seems to be celebrating the New Year."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The incident has just begun, it won't cause too much commotion yet.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The Human Village is quite lively."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I see, no wonder it's still so lively here.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "You are standing at the entrance."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Wow, it's so lively even in this weather.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wait a moment, I want some oden.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ah... It's been so long since I've seen such a lively scene since going to Miss Yuyuko's place.\" \"I want some too!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Come to think of it, this is my first time here, everything is so new to me.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The oden street vendor is not far from you, a seemingly honest uncle standing there."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"On such a cold day, you just have to eat something hot and steaming...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Please make it quick.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Greet everyone and then walk towards the oden stall."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Uncle, give me some oden, can I take it to go?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Before you is a dark-skinned uncle with a white headband. In front of him, steaming oden bubbles and boils. \"Sure,\" the boss nods."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Boss, boss, I want a portion too, with extra meatballs and broth at the end.\" #Eyes shining while looking at the oden in the pot."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Okay,\" the boss smiles, your enthusiastic attitude making him enthusiastic too. He quickly packs two portions of oden and hands them to you. \"Thank you for your patronage,\" the boss nods."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Two of each, please.\" #Take out the pocket money given by Mokou to pay."
+    },
+    {
+      "speaker": "player1",
+      "text": "The boss takes the money. Long'er's oden is already packed and placed in front of him."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thank you, boss!\" #Hand the carried change to the boss, then secretly toss a portion of the oden into his own shadow, after which a mass of shadow wriggles and eats the discarded oden."
+    },
+    {
+      "speaker": "player1",
+      "text": "The shopkeeper takes the money and gives you a slight bow. The streets of the Human Village are lined with stalls everywhere, decorated with lanterns and streamers."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hmm... do you need that thing called money to eat?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Taking the oden, Long'er glances at the snow still falling from the sky and subtly uses her ability to freeze the oden's state."
+    },
+    {
+      "speaker": "player1",
+      "text": "The Terakoya is not far from here."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Um... Miss Lina and Miss Ge Qing, would you like some? It's really delicious, this.\" #Runs to the two and holds the steaming bowl out to them."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Humans need it for trade, but youkai mostly barter.\" #Continues leading the way to the Terakoya."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Okay!\" #(๑´ㅂ`๑)"
+    },
+    {
+      "speaker": "player1",
+      "text": "As you walk and eat, the pressure on you seems to ease a bit with the lively atmosphere of the Human Village."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The Terakoya where the shrine maiden of the Hakurei Shrine is should be around here, right?\" #Mouth full of meatballs, speaking unclearly."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It should be.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "You cross a street, turn a corner, and as you approach the Terakoya, two figures catch your attention."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "In front of a stall selling sugar figurines, two girls are huddled under a glass lamp, carefully selecting them. A white-haired girl wearing a slightly worn apricot-colored haori, its hem stained with some ash, pants covered in many strange talismans, has a背影 that feels familiar to Long'er. She's holding a bamboo skewer,反复端详 the晶莹 rabbit sugar figurine. Her silver-haired companion, draped in a madder-red cotton cloak, a wooden hairpin loosely in her hair, gently按住 the other's晃来晃去 wrist, pointing to the freshly poured phoenix sugar painting, the corners of her eyes curved in a gentle arc."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Mokou.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hmm?\" The girl in the haori turns around and sees a familiar person. The human form of the immortal Fujiwara no Mokou. \"Ah, isn't this Long'er?\" She points at Long'er, looking very happy."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Consciously steps back a little to give some distance."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Where did you run off to this morning?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Takes a few steps back."
+    },
+    {
+      "speaker": "player1",
+      "text": "Beside her, her silver-haired companion also turns at the right moment. The half-beast who devours history, Kamishirasawa Keine."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Went to find someone. On the way, I brought oden for you and Kamishirasawa-sensei. Just bought it.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Keine nods, then stands up and gives you a slight bow. Mokou casually takes the oden. \"Thanks. Are these your friends?\" Mokou points at the others. \"I'm Fujiwara no Mokou. That's Keine,\" she points beside her. \"Nice to meet you. Hope Long'er hasn't caused you any trouble.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hello, Miss Mokou. Hello, Miss Keine.\" #Bows to the two. \"I'm Luo Xueyu. First time meeting you, please take care of me.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Just met them today. This is Lina, this is Ge Qing, this is Luo Xueyu.\" #Introduces the three teammates to Mokou."
+    },
+    {
+      "speaker": "player1",
+      "text": "As she speaks, she takes the sugar figurine handed by the vendor. It's a cherry blossom tree."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Mokou, I want a sugar figurine.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hello~\" Mokou waves. \"Hello, Xueyu,\" Keine nods at you."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Long'er is amazing. She defeated Rumia in just a couple of hits. If it were me, it wouldn't have been that fast.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Buy it yourself,\" Mokou waves her hand. \"Rumia?\" Keine tilts her head. \"What about her?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Walks to the front of the sugar figurine stall to see what sugar paintings are available."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Miss Keine, I wonder if Reimu has looked for you?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The one who blocked our path earlier seemed quite different from her usual self?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "There are many finished sugar paintings: dragons, sheep, and various sugar figurines. In front of the vendor's stall is a pool of syrup, suggesting custom orders are possible."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Her usual self? Isn't that how Miss Rumia normally is?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Reimu?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I'll have one of her.\" #pointing at Mokou"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"She came by in a hurry and left just now.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Seems we just missed her.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The vendor glanced at Mokou, smiled at your interesting dynamic, and began pouring the syrup."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Please excuse us. We're actually here looking for her again this time.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "A dark line appeared on Keine's forehead."
+    },
+    {
+      "speaker": "player5",
+      "text": "#squatting there watching the sugar painting master draw Mokou's sugar figurine"
+    },
+    {
+      "speaker": "player1",
+      "text": "As she spoke, she undid her hairpin."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Spring Energy...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Because spring has been arriving a bit late recently, and Reimu saw strange floating light spots around, she came to ask me about it.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Spring Energy?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"You must have seen them if you came here from the Bamboo Forest of the Lost.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We saw it on our way from near the Hakurei Shrine. The Spring Energy was being sucked underground.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I see.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"They are the manifestation of spring among the four seasons.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"How terrible...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Who would collect such a thing...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Underground...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How could anyone do such a thing, this is really... too much.\" #said somewhat indignantly"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"The dissipation of Spring Energy is clearly man-made.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er is squatting there watching the sugar figurines, verbally responding to the teammates' conversation."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"After Reimu heard about this concept, she went off to attack the Scarlet Devil Mansion again...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The Scarlet Devil Mansion? That very large Western-style mansion?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Although I really like winter, a winter without summer is also incomplete.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"She speculated that the head of that household is collecting Spring Energy, trying to create snow clouds covering all of Gensokyo.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh? Huh?!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"This is a bit too...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Miss Remilia probably wouldn't dare anymore\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Right by the Misty Lake\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I see...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"She's just a child, she probably couldn't do something like this\""
+    },
+    {
+      "speaker": "player3",
+      "text": "I wonder if she can see her own bad luck today..."
+    },
+    {
+      "speaker": "player1",
+      "text": "Keine said while pulling out a book from somewhere"
+    }
+  ],
+  "start_ts": "2025-10-25 02:02:11",
+  "end_ts": "2025-10-26 23:32:51"
+}

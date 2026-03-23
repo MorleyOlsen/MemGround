@@ -1,0 +1,336 @@
+{
+  "section": "8. Dr. Golan: Deadly Gunfight",
+  "description": "Confrontation with the cult's core figure Dr. Golan, three gunshots killed the target, livestock howling continues, the battle ends but the mystery remains unsolved",
+  "conversation": [
+    {
+      "speaker": "player10",
+      "text": "SealDice Maid Kito reporting! Now at your service—please give your orders! 1.5.1+20251010"
+    },
+    {
+      "speaker": "player5",
+      "text": "@player11 .bot off"
+    },
+    {
+      "speaker": "player11",
+      "text": "Sorry, due to special reasons, the dice cannot operate normally. Shutting down... Oops, I messed up the lines, let me go back and rehearse them again, is that okay?"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Silently walks ahead, preparing to go to the 2nd floor."
+    },
+    {
+      "speaker": "player5",
+      "text": "The investigators go up the stairs and push open the door on the second floor. They see a room like an office with bookshelves and a desk. The desktop is cluttered with stationery and papers, but right in the center lies a fine leather-bound notebook, with a fountain pen resting horizontally on top of it."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Immediately speaks up to remind companions"
+    },
+    {
+      "speaker": "player5",
+      "text": "You safely reach the notebook without triggering any mechanisms. Clearly, this is just an ordinary room. The only hazard is the books scattered all over the floor; you could easily trip if you're not careful."
+    },
+    {
+      "speaker": "player4",
+      "text": "#At this point, prepares to read this notebook."
+    },
+    {
+      "speaker": "player5",
+      "text": "You open the notebook. It is signed by Golan Berenzada."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So it is that doctor's notebook after all...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "To extract important information from it, please make a Library Use roll."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Library Use"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire. If it is what you wish for, it will surely be answered. <player4>'s Library Use prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Carefully pays attention to the surroundings."
+    },
+    {
+      "speaker": "player5",
+      "text": "The notebook was written after Golan arrived in this city. At first, it describes how Golan shook off the shadows of war, found a job and established himself, even having the capacity to help disabled soldiers in this city. The Golan of this time was a simple and kind person."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Asks player9 to observe if there are any places where someone could hide in the night."
+    },
+    {
+      "speaker": "player5",
+      "text": "December 30"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then there's indeed no need to be polite.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"This person is no longer human. Must be shot.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm, truly arrogant, even writing down his own sins in the diary.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Who needs to be taken out?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Dr. Golan.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Didn't read the diary but has been on alert and heard the keywords."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go. There shouldn't be anything else here. Be careful and go check other places. Let's take out that doctor.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Modifying the human body...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"He has already violated the doctor's code.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Fingers tremble slightly, bringing a cigarette to his lips. Thinks for a moment and puts it down again."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Closes the notebook, puts it away, then prepares to check the books on the floor, also taking a look at the papers on the desk."
+    },
+    {
+      "speaker": "player5",
+      "text": "(Make a Spot Hidden roll.)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Spot Hidden"
+    },
+    {
+      "speaker": "player10",
+      "text": "Jaw Crusher (Model PE-600×900)"
+    },
+    {
+      "speaker": "player8",
+      "text": "Hydraulic Roll Crusher (2PG-1200×1000)"
+    },
+    {
+      "speaker": "player5",
+      "text": "Bridge Double-Girder Crane (Q=16/3.2t)"
+    },
+    {
+      "speaker": "player3",
+      "text": "Four-Column Hydraulic Press (YL32-200T)"
+    },
+    {
+      "speaker": "player8",
+      "text": "Belt Conveyor (B=800mm)"
+    },
+    {
+      "speaker": "player3",
+      "text": "Clinker Rotary Kiln (Φ3.2×52m)"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you expect, it will be answered. <player3>'s Investigation prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "The office is too cluttered for you to immediately find useful information, but you can tell that most of these materials are leftover reports and data from the original factory."
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra Investigation"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you expect, it will be answered. <player8>'s Investigation prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "You find a document as above."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Show it to a few team members."
+    },
+    {
+      "speaker": "player5",
+      "text": "And the map on the back, which is your reason for taking this document."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Things in the factory that can still operate.\" #Nodding."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How about we go to the maintenance workshop next?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The distant cries and hoofbeats of livestock surge gradually, pounding the silent air like an approaching tide."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Silently drawing the pistol, calmer than before."
+    },
+    {
+      "speaker": "player5",
+      "text": "Every moment of hesitation now fuels the growth of darkness. Decide when it's time to decide, act when it's time to act."
+    },
+    {
+      "speaker": "player4",
+      "text": "#No longer hesitating, choosing to step into the darkness personally."
+    },
+    {
+      "speaker": "player5",
+      "text": "The investigators follow the map to the empty maintenance workshop, seeing only the four-column hydraulic press standing in the center. The gray cast-iron frame bears two hundred tons of pressure. The one-square-meter worktable is stained with solidified oil, the slide suspended above at a maximum opening of eighty centimeters."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Do you think this thing can crush those blasphemous scum?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Carbon-based lifeforms definitely can't fight machinery.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Hold Bailan back."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh? ... Hmm, what's wrong?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Then do you think a flesh-and-blood body can win against a bunch?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm, we can make use of that machine over there.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Hurry, hurry!\" #Dragging player9 and a few others, running wildly."
+    },
+    {
+      "speaker": "player5",
+      "text": "(Where did they go?)"
+    },
+    {
+      "speaker": "player8",
+      "text": ".stshow Stealth"
+    },
+    {
+      "speaker": "player10",
+      "text": "<player8>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Leave this dangerous job to me.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Be careful.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright, you go first and stay safe. Check out the situation and come back to inform us.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Take a deep breath and try to hide."
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you wish for, it will be answered. <player9>'s Stealth prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "The investigators step out of the maintenance workshop and head east, passing the silent rotary kiln. The cries of livestock come from further east. All clues point to the main workshop at the end of the road."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Follow the clues and move towards the main workshop."
+    },
+    {
+      "speaker": "player5",
+      "text": "player9 silently approaches the main workshop door. Through the crack, he catches a glimpse of Dr. Golan's back facing the entrance. The workshop is unlit, darkness only allowing faint outlines of large machinery to be seen."
+    },
+    {
+      "speaker": "player4",
+      "text": "(Or just look through the crack.)"
+    },
+    {
+      "speaker": "player9",
+      "text": "#First try to peek through the door crack."
+    },
+    {
+      "speaker": "player5",
+      "text": "Dr. Golan is looking down at the dagger in his hand, his lips slightly parting as he mutters indistinctly."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Screw it, kick the door open."
+    },
+    {
+      "speaker": "player5",
+      "text": "The iron door lets out a tearing roar upon impact. Dr. Golan turns abruptly, the dagger in his hand slicing through the air with a cold glint. Behind his glasses, his pupils dilate slightly in shock."
+    },
+    {
+      "speaker": "player9",
+      "text": ".ra Handgun"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you wish for, it will be answered. <player9>'s Handgun prayer:"
+    },
+    {
+      "speaker": "player9",
+      "text": ".ra Handgun"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you wish for, it will be answered. <player9>'s Handgun prayer:"
+    },
+    {
+      "speaker": "player9",
+      "text": ".ra Handgun"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you wish for, it will be answered. <player9>'s Handgun prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "(Hmm, roll it.)"
+    },
+    {
+      "speaker": "player9",
+      "text": ".r2d10+4"
+    },
+    {
+      "speaker": "player10",
+      "text": "Alright, alright, I'm rolling..."
+    }
+  ],
+  "start_line": 2316,
+  "end_line": 2645
+}

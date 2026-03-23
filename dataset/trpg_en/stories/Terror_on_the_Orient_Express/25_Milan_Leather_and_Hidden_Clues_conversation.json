@@ -1,0 +1,564 @@
+{
+  "section": "25. Milan: Leather and Hidden Clues",
+  "description": "Pursuing the leather clue, the backstabbing in Milan conceals the true information, as the investigators gradually grasp the outline of the conspiracy behind the scenes.",
+  "conversation": [
+    {
+      "speaker": "player3",
+      "text": "The doorman showed no reaction to player4's words, continuing to lead them toward the elevator with a sleepwalking pace."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think it's not just this doorman; the whole city's people are strange.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"What have they been through?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "On a sofa in the distant lobby, two noblewomen in mink coats were playing cards, but they were only tearing each card in half and neatly stacking them on a gilded side table."
+    },
+    {
+      "speaker": "player5",
+      "text": "#After pondering for a long time, decided to recall that truly forbidden knowledge. \"Or have They influenced this world.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Are these still humans?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Kick the agent twice to see his reaction and if it's the same as these people."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Don't go all out on teammates; you're not even sparing an outsider.\" #Advised earnestly."
+    },
+    {
+      "speaker": "player3",
+      "text": "Rossi immediately jumped up as if electrocuted: Holy Mother of God! Are you insane? His face flushed red as he rubbed his leg, anger and terror vividly alternating on his face—a stark contrast to the sleepwalking numbness of the Milan locals. He even instinctively checked if his leather shoes were damaged, such attention to material details being a luxury in Milan now."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra cm"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely be answered. <player5>'s cm wish:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st show luck"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Forget it, I don't really have any ideas. Let's collect more information first, then make inferences.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The professor is right.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It seems you're still normal, congratulations.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Weird.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Bailan struggled to recall those dusty forbidden knowledge, trying to link the anomalies before her to certain indescribable existences. But those memories that should have been clear now seemed behind frosted glass; the harder she tried to recall, the fuzzier the details became. She only vaguely remembered fragments about the invisible erosion of evil entities, but couldn't even recall the source."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mr. Rossi, were you on the train last night too?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Agent Rossi's cheeks trembled with anger: N-normal?! He tugged at his sweat-soaked tie, gritting his teeth. The elevator doors before you slowly opened, and an old woman in a mink coat walked out, numbly fiddling with a pearl necklace. Seeing this, Rossi suddenly deflated, loosening his grip and muttering: God... even the madhouse in our Bologna has more life than this..."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Wryly smiled. \"Maybe we'll know the reason for these people's poor spirits tonight.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That would be terrible.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hey, are all you Milanese like this?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Of course... I'm Caterina's agent.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Why are they as listless as the husband of that *positive* case I treated last month?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Good heavens, it was never like this before! His voice trembled. Last year when I came to Milan, after the La Scala opera, the whole street was full of drunkards singing opera... Now you see, Rossi pulled out a handkerchief and wiped his forehead vigorously, even the pigeons fly slower than church funeral bells."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Strange, when did this start?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That is indeed very abnormal.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mr. Rossi, this might be a bit offensive, but why are you unaffected?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"But are there really any normal people here?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Isn't the normal person right in front of us?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"There's a possibility he wasn't there at the time.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Rossi frowned: I... I just discovered it too. The last time I came was last October... back then, Mussolini had just entered Rome, the streets were full of cheering people..."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Our commonality is that we haven't been here all along.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "But this isn't right, he licked his dry lips, even if political fervor has cooled down, it shouldn't be like..."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"What's done is done.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hiss\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"player4, cut a piece of my skin.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Otherwise what? Run onto the road and grab a passerby?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This could easily be the delusion of a poet who got drunk hundreds of years ago.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We've even seen that kind of terrifying rose.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Whispering conspiracy \"We could totally find someone who's drunk.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"So now, do it quickly, at least we have a reliable doctor.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It just so happens the people here are all crazy.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"This is not advisable to cut, it might not work. And there are people nearby.\" #Looks at Rossi beside them."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Taking a step back,\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"That makes sense too.\" #Glances at Cicero"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's find a place to stay first, I'm so tired.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Sat there daydreaming for a long time.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Should we find a room to sit and talk inside?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"You might as well find Caterina's tenor enemy to skin, and interrogate him about her whereabouts at the same time.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Rubs chin"
+    },
+    {
+      "speaker": "player12",
+      "text": "I think from what you said about the spell, skinning would definitely scare the guts out of this kid."
+    },
+    {
+      "speaker": "player3",
+      "text": "Rossi spread his hands helplessly: If I knew what the hell was going on with this place, I would have taken Caterina back to Bologna long ago."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Where's Bologna?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Who told you to think about that?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent suddenly grabbed his increasingly sparse hair: Christ, right now I just hope the people who kidnapped her at least... at least still have the rationality to negotiate..."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I really don't know much about the geography here.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hurry up and think about who might have kidnapped him.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Rossi's expression instantly brightened, temporarily forgetting his fear: You really don't know? My hometown, the best place for meat sauce pasta in the world! He was so excited his bow tie went crooked, the San Luca Gallery has 666 arches, the twin towers lean so much they'd make the Leaning Tower of Pisa feel inferior... Anyway, the agent suddenly deflated, his voice dropping, it's a place where living people should be..."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think we should wait for the kidnappers to contact us\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm, it seems that's really the only way.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Go hunting at night\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"After all, it feels like this city is already different from before.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"First, we should figure out how the anomaly occurred\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is the anomaly important?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"As for Caterina, I'm sorry, we'd better pray the kidnapper is human\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"My only thought right now is to find the statue quickly and leave this damn place\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Rossi shivered from the shout, his fingers twisting his tie almost to the point of breaking it: I, I really don't know! He cried out with a sob, his voice stirring slight echoes in the empty lobby, if the mafia kidnapped her they'd at least leave a note, if it was the Fascists... He suddenly fell silent, because two young men in black shirts walked out of the door next to you. You arrive at your respective room doors."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Pack things"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Carefully observe the room."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Continue, they're gone\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Rossi breathed a sigh of relief, collapsing on the sofa like a deflated balloon: They didn't look this way... for now. He nervously chewed his thumbnail, honestly, I can't even remember what I ate last night... The agent forced a smile uglier than crying: Look, how about we get some sleep first? Maybe... maybe when we wake up, the world will be back to normal?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sir, I sympathize with your experience, but I think you need to calm down first\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Room 307 is an elegantly furnished ordinary suite. The walnut furniture is polished to a shine, the double bed is made with crisp ironed linen sheets. Outside the window, the sky is dark, but the outlines of the buildings opposite and the traffic on the street are clearly visible. Everything looks very normal—except for the policeman walking in circles in the square downstairs, who has been following the same route for at least twenty minutes."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"A strange place\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I recognize the importance of sleep, but if you think sleeping will solve it, you must be sleeping too much\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Exclaimed"
+    },
+    {
+      "speaker": "player3",
+      "text": "Rossi took a deep breath, wiped the sweat from his forehead with a handkerchief, and tried to steady his voice: You're right... I really need to calm down. He loosened his tie, his breathing gradually becoming regular, it's just all so sudden... Caterina she... Sorry, I lost my composure. We... we need to think about what to do next. Although his fingers still trembled slightly, his tone had regained basic composure, at least no longer as incoherent as before."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"What we need to do now is stay calm, then wait for news from the kidnappers, or, trust in Lady Luck\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The investigators took Rossi to the hotel restaurant. The dining hall, which should have been bustling at lunchtime, was eerily quiet, with only a few scattered tables of guests. Waiters mechanically served the meals one by one. Rossi poked at the lasagna on his plate without tasting it. The restaurant's glass door suddenly swung open, and a young man in a black shirt stood in the doorway scanning the room. Rossi's fork clattered onto the porcelain plate, but the man just slowly turned and left."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Eat first\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"I think we should leave, that person looks like a lookout.\" #Watching the person's retreating back, getting up from the seat."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Mhm mhm.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent then snapped out of it as if waking from a dream, grabbed his fork, and quickly stuffed noodles into his mouth"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Maybe it's some kind of gang war, we might get caught up in it\" #Grabbing a piece of bread, heading out of the shop"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hiss, I think it's more than just a gang war\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Who's the strong dragon?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ahem, I mean, we're on someone else's turf, it's better to keep a low profile\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Pack two portions of lasagna and take them back to the room"
+    },
+    {
+      "speaker": "player3",
+      "text": "No one"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Does anyone have any plans?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Lean close to the agent's ear and ask, \"Are you a communist?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Rossi choked violently, spitting half a mouthful of coffee onto the napkin. He jerked back as if electrocuted, almost falling off his chair: Mother of God! Are you trying to get me killed? His fingers dug into the edge of the tablecloth."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Political struggles are terrifying.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I've checked, no one.\" #Continue whispering"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Mutter quietly, \"It's completely different from what the books say.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Rossi's face turned pale, and his knife clattered to the floor: I swear! I don't even know how to sing The Internationale! He frantically made the sign of the cross. My aunt's cousin was even put on the Blackshirts' castor oil enema truck for reporting on socialists..."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Then why are you so resistant to the local government?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Huh?\" #Look over there in confusion"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Exactly.\" #Chime in agreement"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Alright, calm down, calm down. We're not so poor that we need to sell you for money.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Sir, in Milan nowadays... those who resist the government are lying at the bottom of the Tiber River. He tugged nervously at his tie. \"I'm just a cowardly agent.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Now, wait for nightfall."
+    },
+    {
+      "speaker": "player3",
+      "text": "The investigators spent the afternoon acting separately, gathering other materials needed for the spell in the streets and alleys of Milan. As night fell, they returned to the hotel with suitcases filled with strange items. Outside the window, the spires of Milan Cathedral gradually faded into darkness. Streetlights came on, but the light seemed more dim than usual."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Turn on a flashlight to look."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Stop player2's action."
+    },
+    {
+      "speaker": "player3",
+      "text": "Under the flashlight beam, a man in work clothes can vaguely be seen lying down."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Take out the sealed ether from the bag."
+    },
+    {
+      "speaker": "player3",
+      "text": "He... is lying in a pool of blood."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"player4, do it.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wait.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Hold my breath and listen for nearby sounds."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Help player4 keep watch around."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Listen"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you hope for will surely receive a response. <player4>'s prayer for listening:"
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 holds their breath and focuses. In the alley, only the distant sound of dripping water and the wind remain. Further away, the faint hum of a tram passing can be heard. The area around the alley is deathly quiet, not even the footsteps of stray cats."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Seems like no one's here...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Have Bailan and Johnson protect me and player4"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Using the flashlight's light, deftly strip off this unlucky person's shirt and check if the skin on the back is intact"
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 crouches down and finds the corpse's work shirt front completely torn open, revealing a pale chest. The deceased's right hand is clenched into a fist, with a corner of a work ID peeking out from between the fingers."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Look at the work ID"
+    },
+    {
+      "speaker": "player3",
+      "text": "As for the back skin, it's very intact."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Check his wound while you're at it"
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 gently pries open the stiff fingers of the deceased and retrieves the blood-stained work ID. By the faint light, one can see it's printed with \"Neo Spinola - Alfa Romeo Automobile Factory Assembly Workshop,\" with a union badge sticker in the corner."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Medicine"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you hope for will surely receive a response. <player4>'s Medicine prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "The exposed lung tissue surface is covered with grayish-white nodular lesions, typical of tuberculosis foci."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This is tuberculosis.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Huh?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Stay away.\" #Move farther away"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Put on a mask.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "(Had it from the start)"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Still have many doubts, but this is no place to linger. Quickly skin it."
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 obtains skin sufficient for the ritual."
+    },
+    {
+      "speaker": "player4",
+      "text": "#See if two pieces can be skinned."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then skin*2 is obtained."
+    }
+  ],
+  "start_line": 7473,
+  "end_line": 7783
+}

@@ -1,0 +1,568 @@
+{
+  "section": "8. Depths of the Netherworld: Exploration and Encounters",
+  "description": "Delving deep into the Netherworld, encountering various obstacles and guardians, exploring the path to Hakugyokurou, and engaging in battles with various beings of the underworld.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "“I still have a long way to go to surpass such a performance by myself...”"
+    },
+    {
+      "speaker": "player3",
+      "text": "“One against four, strictly speaking, we've already lost.”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“Huh? Did... did we succeed?”"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er, steaming and sweating, stops drumming."
+    },
+    {
+      "speaker": "player2",
+      "text": "“Miss Lunasa's performance was also very good, but I feel like just you alone might be a bit too thin.”"
+    },
+    {
+      "speaker": "player5",
+      "text": "“Well played.”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“Music isn't about numbers. A win is a win.”"
+    },
+    {
+      "speaker": "player5",
+      "text": "“The most classic for violin should be a trio, or a string quartet.”"
+    },
+    {
+      "speaker": "player2",
+      "text": "“For me, spring is like your other sisters. Without it, I can't sing songs like this.”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“That's true~”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“Speaking of which... who commissioned Miss Lunasa to be here?”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“That place is a forbidden zone for the living.”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“The Princess of... the Netherworld?”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“She is an ancient spirit.”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“No matter what, we must bring spring back.”"
+    },
+    {
+      "speaker": "player1",
+      "text": "Lunasa sighs."
+    },
+    {
+      "speaker": "player4",
+      "text": "“Even if I die, I'll haunt her!”"
+    },
+    {
+      "speaker": "player5",
+      "text": "“Thank you for your kindness, but we really must do this. After resolving the incident, let's hold a concert together.” #Walks to Lunasa's side."
+    },
+    {
+      "speaker": "player2",
+      "text": "“If I die, I'll just grow back from the tree. Oh, but if it's always winter, I guess I can't bear fruit.”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“The master of Hakugyokurou is that Princess, and also my client.”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“We will win.” #Looks firmly at Lunasa."
+    },
+    {
+      "speaker": "player1",
+      "text": "“Naturally, but then it'll be me and my little sisters coming together.”"
+    },
+    {
+      "speaker": "player2",
+      "text": "“Let's play together again when you return.”"
+    },
+    {
+      "speaker": "player1",
+      "text": "She smiles."
+    },
+    {
+      "speaker": "player5",
+      "text": "“Don't worry, I promised that guy I wouldn't die. None of us will die. We're still waiting to go back for dinner tonight.”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“I hope you return safely. Let's play together then.”"
+    },
+    {
+      "speaker": "player3",
+      "text": "“And also...” #More than the threat of death, the endless stream of obstacles is what irritates Ge Qing."
+    },
+    {
+      "speaker": "player5",
+      "text": "“See you later.” #Enters the Myoujin Gate."
+    },
+    {
+      "speaker": "player1",
+      "text": "“Yeah, see you later.”"
+    },
+    {
+      "speaker": "player2",
+      "text": "“Goodbye.” #Waves goodbye and walks towards the Myoujin Gate."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Stepping into the Myojin Gate"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'll come back to find Miss Lunasa, please be sure to teach me an instrument then\" #Waving hand while stepping into the Myojin Gate"
+    },
+    {
+      "speaker": "player1",
+      "text": "Long'er, Lina, and the others walked into the Myojin Gate"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ugh...\" #Supporting Suncan who emerged from the shadows"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp+3"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjoin Long'er]'s 'Existence Record'... updated: [MP]: 10+3=13"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Ugh...\" #Lying motionless on the ground"
+    },
+    {
+      "speaker": "player1",
+      "text": "On both sides, countless suspended, motionless red spider lilies float in the void, their petals frozen in the moment of falling. The air is filled with the mixed scent of sandalwood and old paper. The Spring Energy light points previously inhaled now converge into streams, silently flowing upward against the current. The top of the staircase is shrouded in bluish mist, obscuring the path ahead."
+    },
+    {
+      "speaker": "player3",
+      "text": ".st mp+1"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Existence Record'... updated: [MP]: 10+1=11"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This... this staircase?\" #Adapting to the discomfort and looking up at the endless white staircase"
+    },
+    {
+      "speaker": "player1",
+      "text": "Outside the Netherworld, Lunasa sighed."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Let's go.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"If you go through the gate behind, that's the staircase leading up to Hakugyokurou.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Carrying Lina on back, climbing up the staircase"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"It strips the living of their sense of time.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Immediately walking onto the staircase"
+    },
+    {
+      "speaker": "player1",
+      "text": "Then, inside the gate, you all are still standing at the foot of the staircase."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Grr... th... thank you.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "As Ge Qing walked up the staircase, the mist ahead cleared a little."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Biting own hand hard to regain composure, then walking onto the staircase"
+    },
+    {
+      "speaker": "player1",
+      "text": "Stepping on the staircase, all that can be seen is the next step."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Climbing step by step \"By the way, do you know the origin of the Hakugyokurou典故?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'm not really sure... Actually, this is the first time I've heard this name.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Long'er climbs step by step. The higher they go, the more apprehensive they feel. This staircase seems endless; you can't even sense how long you've been climbing."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The典故 comes from Li He's writing. When Changji was dying...\" #Stopping to catch breath"
+    },
+    {
+      "speaker": "player1",
+      "text": "Long'er stops to rest briefly. Behind is shrouded in mist, obscuring the path taken; above is also shrouded in mist, obscuring the path ahead."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Something's wrong... how long have we been walking?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "This path has no future or past."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"A person dressed in red came and told him that the Jade Emperor had built a Hakugyokurou, asking him to go there to write articles. Although he died, this heavenly duty wouldn't make him suffer.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Even now it's hard to distinguish, hard to perceive."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"So knowledgeable.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I see... So there's actually such a saying for this?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So many scholars strive with the goal that their writings can catch her eye and allow them to enter Hakugyokurou after death.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Ge Qing summons his mind's eye, beginning to scan the surroundings like radar."
+    },
+    {
+      "speaker": "player5",
+      "text": "Activate ability #Connection of Life and Death! Turn myself into a living dead!"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Soul Hunt' check: Roll: 1D20+5d4=1+{1+3+2+4+3}(13)=14 Challenge: 10 Critical Failure Success Level: 1-1(Critical Failure)=0"
+    },
+    {
+      "speaker": "player3",
+      "text": ".sh5d4"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-1"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjōin Long'er]'s 'Existence Record'... Updated: [MP]: 13-1=12"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let me see the world through the eyes of the dead.\""
+    },
+    {
+      "speaker": "player3",
+      "text": ".stmp-1"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Existence Record'... Updated: [MP]: 11-1=10"
+    },
+    {
+      "speaker": "player1",
+      "text": "In the mind's eye, the perceived surroundings are still enveloped in a kind of chaos."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"This fog is really strange...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"These stairs... what could they be made of? Could it be white jade?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Grabs Ge Qing, \"Don't walk out anymore, I'm afraid I won't be able to find you if you go into the fog.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Then if we dig a little piece off, can we buy lots of delicious food?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjōin Long'er]'s 'Soul Hunt' check: Roll: 1D20+Psychic Ability(3)d4+2d4=12+{3+1+3}(7)+{4+2}(6)=25 Challenge: 10 Success Success Level: 3"
+    },
+    {
+      "speaker": "player5",
+      "text": ".shPsychic Abilityd4+2d4"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm... I want to taste it...\""
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-1"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjōin Long'er]'s 'Existence Record'... Updated: [MP]: 12-1=11"
+    },
+    {
+      "speaker": "player1",
+      "text": "As Long'er's vitality gradually fades,"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Long... Long'er? What's wrong with you?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Looking forward, Long'er realizes they never actually stepped onto the stairs, but have been marching in place on the original clearing all along."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thank you for worrying about me. It's fine, this is my ability.\" #Has everyone hold hands."
+    },
+    {
+      "speaker": "player1",
+      "text": "The steps of Hakugyokurou are at their side."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I'll lead the way.\" #Walks at the front, heading upwards."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yes!\" #Grips the others' hands tightly."
+    },
+    {
+      "speaker": "player1",
+      "text": "Even stepping onto the real staircase, this climb feels especially long."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"It seems this is a form of protection for the living.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "After what feels like an endless climb, at the top of the stairs, you see a massive gate looming in the distance. It's an archway constructed from ancient wood and pale stone, slightly ajar, with pale cherry blossom petals constantly drifting from the crack. Countless Spring Energy points converge here into a dazzling vortex, flowing into that gap like rivers to the sea. The world beyond the gate is obscured by surging cherry blossom hues, and from within, you can only hear a faint, ethereal fragrance that seems capable of awakening slumbering spirits."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You might be right.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "This should be the entrance."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Protection for the living... It seems this is a world not meant for us.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Though I can't see it clearly yet, I feel like spring is nearby.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So beautiful, gatekeeper, don't you agree?\" #Looking around, Long'er remembers Rumia said there would be a gatekeeper."
+    },
+    {
+      "speaker": "player1",
+      "text": "No response. The gatekeeper is nowhere to be seen."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The gatekeeper... clocked out?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Could it be that the shrine maiden has already been here?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"No trick revealed, no one here?\" #Goes to push the door."
+    },
+    {
+      "speaker": "player1",
+      "text": "The moment Long'er approaches the door, an anomaly occurs. A silver arc of sword energy, like a crescent moon, cleaves through the overflowing stream of Spring Energy, suddenly appearing from behind the door, missing Long'er's body by a hair's breadth. Death. That's the thought that flashes through Long'er's mind in that instant. But because of it, he has time to react to this strike."
+    },
+    {
+      "speaker": "player5",
+      "text": "#The flow of time around Long'er seems to slow for a moment. Sweating coldly, he extends his left hand wearing the gauntlet and forcefully throws a left hook at the side of the sword energy. The sturdy glove strikes directly at a weak point of the energy, forcefully shattering it."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjōin Ryūji]'s 'Soul Hunt' check: Roll: 1D20+Psychic Ability(3)d4+3d4=17+{1+2+1}(4)+{2+4+3}(9)=30 Challenge: 10 Success Success Level: 4"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sh Psychic Ability d4+3d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "The silvery-white sword energy is instantly shattered by you. Consequently, you are forced back a few steps."
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-1"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjōin Ryūji]'s 'Existence Record'... Updated: [MP]: 11-1=10"
+    },
+    {
+      "speaker": "player1",
+      "text": "Taking advantage of the opening you created, a half-phantom girl materializes from the swirling cherry blossom blizzard, her long and short tachi crossed before her into a cross of cold light. She lightly taps her toes on the threshold, shaking petals from her blades. Behind her, countless severed Spring Energy points are dissipating with mournful cries. \"Beyond this gate,\" she lowers the tip of Hakurouken slightly, \"is the eternal slumber of the living.\" \"This is as far as you go, outsiders.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Wh-what's going on?\" #Trembling but moving succinctly, drawing the saw cleaver from her back, Sūn Cān also manifests beside Xue Yu."
+    },
+    {
+      "speaker": "player1",
+      "text": "Lifts her head, revealing a beautiful face beneath pure white hair."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Sh-she appeared!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "This is a girl of about 16 or 17 years old. The half-human, half-phantom gardener, Konpaku Youmu. [CQ:image,file=2B097D8558A42134CDC920331A5A73B8.jpg,subType=0,url=https://multimedia.nt.qq.com.cn/download?appid=1407&fileid=EhTL1CUM9wiUCYZMDiOuXEbC7taagBjWyQEg_woowY-1prXCkAMyBHByb2RQgL2jAVoQwDVgNnNa5tIbgfmWtVvaTHoCyFOCAQJneg&spec=0&rkey=CAMSMBIuZ6-jGLxsrWc1b5c8ph0nGqyUcEb_d-FDXxtIXgTnGlK20qJzhAa_rYaV4HEPbg,file_size=25814]"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Aren't you not dead either?\" #Sarcastic remark."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"But... you don't look like one of the deceased.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Konpaku Youmu. Please leave this place, outsiders.\" As she speaks, the spirit behind her flies out."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Deactivates her ability, reverting from a zombie back to a human."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We've come all this way... I'm not leaving until you give back our spring.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Seems to be demonstrating her half-human, half-phantom nature."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It feels great to be able to breathe.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then... if I die, can I pass through?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "She responds with silence."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Don't make it hard for her. Let's break through by force.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Without that princess's permission, no one can pass.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mr. Tenjouin, can your ability be used on others?\" #whispers"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I'm sorry. Even though she's willful, I can't let you disturb her.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I don't like using this ability on others.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I'm not afraid of you... probably.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright... and it doesn't seem like this is working anyway.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Yawn—, no point in more talk, let's fight.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Hearing the observer's words, the girl first closes her eyes."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Xueyu grips her saw cleaver tightly. In contrast to the nervous Xueyu, the Suncan beside her shows a ravenous, drooling expression towards the girl before them."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Let me make this clear first, there's almost nothing this Louguan Sword cannot cut—\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Can you cut Spring Energy?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl raises her sword."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Activate ability, you keep cutting Spring Energy endlessly, Youmu!"
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl gently brushes past the falling petals, her right hand resting on the sword at her waist."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er takes out a ticking pocket watch from his chest and looks at Youmu, who just cut the Spring Energy. He uses his finger to turn the hands on the watch's dial. The surrounding time gradually slows, and Youmu's face, showing a humiliated and angry expression from being tricked, can faintly be seen. As he gradually turns the watch's second hand, Youmu begins to rewind like a tape, reverting to her previous action of slashing the Spring Energy, the sword's blade moving back along its upward trajectory."
+    }
+  ],
+  "start_ts": "2025-10-27 01:06:52",
+  "end_ts": "2025-10-27 22:44:01"
+}

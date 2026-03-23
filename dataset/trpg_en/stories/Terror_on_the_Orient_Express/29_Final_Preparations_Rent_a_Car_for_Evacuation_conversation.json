@@ -1,0 +1,300 @@
+{
+  "section": "29. Final Preparations: Rent a Car for Evacuation",
+  "description": "Look for a car rental shop, arrange for a translator, keep combat-ready members at the restaurant, make all preparations for the final operation",
+  "conversation": [
+    {
+      "speaker": "player3",
+      "text": "(What do you mean you're not allowed to take it and run? The statue is right there. If you want to take it and run, go ahead. You'll win.)"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hello, boss. Two coffees, please.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "They chose a seat by the window. Through the foggy glass, they could see Blackshirts changing guard at the opera house entrance. The new guards were stricter than the night shift, even inspecting every layer of canvas on bread delivery trucks."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Four paninis"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"By the way, sir, what's going on at the theater? The checks are so strict.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Two coffees and four paninis, coming right up! The boss replied without looking up, the sizzle of frying meat coming from the kitchen behind him. In less than five minutes, the waiter served breakfast—two cups of thick espresso that could stand on a spoon, and a small mountain of panini sandwiches. The bread was golden and crispy, filled with melting cheese and Parma ham, the aroma enticing."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Order a cappuccino"
+    },
+    {
+      "speaker": "player3",
+      "text": "Just as Bailan was about to ask about the situation, and player2 wanted to order a cappuccino, the cafe doorbell suddenly rang urgently. Three young men in black shirts barged in. The leader walked straight to the counter and slapped a notice on the table: All customers must register their IDs today!"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Check the situation"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Calmly take out my ID and sit as if nothing is wrong."
+    },
+    {
+      "speaker": "player3",
+      "text": "The Blackshirt glanced at the ID, snorted, and moved to the next table."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Look at the theater inspection"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Faced with the extremely tense atmosphere, obediently take out my ID and glance to see if there are any other heavy weapons besides the machine guns outside."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Wait until the Blackshirts leave."
+    },
+    {
+      "speaker": "player3",
+      "text": "Johnson obediently handed over his ID, stealing a glance at the defenses outside—behind the machine gun positions, two armored vehicles were parked, with searchlights mounted on their roofs. More alarming was the sniper glint on the opera house roof; at least three firing points covered all approach paths. The grenades on the Blackshirts' belts clinked as they moved. This wasn't regular security; it was like preparing for war. Suddenly, the cafe radio broadcast the morning news: ...Police announced a ban on any gatherings within 500 meters of La Scala Opera House today..."
+    },
+    {
+      "speaker": "player2",
+      "text": "The problem is how to get it out.)"
+    },
+    {
+      "speaker": "player3",
+      "text": "The three Blackshirts plopped down at the next table, their weapons clattering to the floor. \"Damn guard duty...\" a young man muttered to his companions in a low voice."
+    },
+    {
+      "speaker": "player2",
+      "text": ".ra Listen"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player2>'s Listen prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Take a sip of coffee."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player5>'s Listen prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Listen"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player4>'s Listen prayer:"
+    },
+    {
+      "speaker": "player12",
+      "text": ".ra Listen"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player12>'s Listen prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"All for that damn Dr. Faqia? The freezer moved into the barracks last night almost broke my foot!\" The short guard nervously glanced at the investigators and lowered his voice: \"Shut up! Have you forgotten how the Verona squad disappeared? Anyway, there can't be any mistakes with this performance. They say that big shot's stomach...\" The third guard's cough suddenly interrupted the conversation as he tapped his companion's boot with his rifle butt. The three fell silent simultaneously."
+    },
+    {
+      "speaker": "player2",
+      "text": "(Why don't we just sneak in as staff and wait until after the show to pack things up? (¥"
+    },
+    {
+      "speaker": "player12",
+      "text": "#Turn my head away to avoid the gaze of those three."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Drain the last drop of coffee in the cup, tilt my head to glance sideways at the theater outside the window, wait for sunlight to spill into the cup, and after a moment,"
+    },
+    {
+      "speaker": "player4",
+      "text": "?"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Wait until it's a bit quieter outside, then lead the three teammates to the theater"
+    },
+    {
+      "speaker": "player3",
+      "text": "When the Blackshirts finally left the café, the investigators quickly moved toward the theater. However, as soon as they approached the square, a piercing whistle cut through the air. Halt! Restricted area! Six armed guards instantly surrounded them, pressing gun barrels directly against the investigators' chests. The leading officer coldly flipped open an ID booklet: Non-staff are prohibited from entering eight hours before the performance."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Take out the pass"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Take out the pass"
+    },
+    {
+      "speaker": "player3",
+      "text": "At that moment, the large clock struck eight, and a broadcast sounded: All staff of Aida, please report to the east gate for medical examination... At the end of the line, actors were having blood samples drawn by people in white coats, their arms bare."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "After carefully inspecting the pass, the officer reluctantly waved his hand: Go in, don't get in the way. Also, if you dare approach the backstage, we'll shoot you."
+    },
+    {
+      "speaker": "player5",
+      "text": "Hiss..."
+    },
+    {
+      "speaker": "player3",
+      "text": "A temporary tent was set up in front of the east gate, where two doctors in white coats were measuring temperature and blood pressure. Actors in the line yawned, and someone muttered quietly: They do this every opening night..."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Alright... let's go\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No other choice\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Respond softly"
+    },
+    {
+      "speaker": "player12",
+      "text": ".st show SIZ"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player12>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Observe the tent to confirm if there are any steps requiring undressing"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st show SIZ"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show SIZ"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 quickly scans the tent—the blood draw requires baring the arm. The nurses' party emblem armbands gleam coldly in the sunlight."
+    },
+    {
+      "speaker": "player2",
+      "text": ".st show SIZ"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player2",
+      "text": "(I'm so short¥"
+    },
+    {
+      "speaker": "player3",
+      "text": "Bailan cleverly exposes his right arm for inspection, keeping the cursed pattern on his left shoulder hidden under his collar. The nurse hastily checks his blood pressure and ticks a box on the form."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Glance at the Blackshirts' deployment"
+    },
+    {
+      "speaker": "player3",
+      "text": "Blackshirts stand guard in groups of three at every passage, pistols and batons at their waists. Two guards with rifles stand on each side of the stage, muzzles angled downward, fingers on the triggers."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Prepare to head to the prop room first"
+    },
+    {
+      "speaker": "player3",
+      "text": "On the second-floor box area, the silhouettes of two snipers are faintly visible. At the staircase leading to the basement stands an officer, flipping through something, a snarling military dog lying at his feet."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We need to go take a look at the stage area\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"There's a white headless statue\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Louisa frowned and looked up: A white headless statue? She flicked her cigarette ash; that thing is to be used as an armor stand on stage. Didn't I tell you all about it yesterday?"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But it seems that thing was sold when we checked the accounts yesterday.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Louisa impatiently brushed the stray hairs from her forehead: Accounts? That stuff has been a mess for ages. She kicked a wooden crate at her feet; last week when moving props, we even found three unnumbered Egyptian statues extra. When we took inventory before leaving work yesterday, that white statue was still standing perfectly fine on the stage wing."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Leave moving it to us.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Hey! Coming right up!\" #gets to work quickly and efficiently"
+    },
+    {
+      "speaker": "player2",
+      "text": "(Bailan yikimasi)"
+    },
+    {
+      "speaker": "player3",
+      "text": "Louisa and the prop crew efficiently moved Prop Number Seven—Radames's full set of golden armor and costume—onto a cart. The armor gleamed under the lights."
+    },
+    {
+      "speaker": "player2",
+      "text": "#helps teammates move the armor over"
+    },
+    {
+      "speaker": "player3",
+      "text": "The investigators pushed the armor through the dimly lit corridor to the stage backstage. It was busy and noisy here; actors were making final preparations, makeup artists chased extras for touch-ups, and prop masters shuttled back and forth moving scenery."
+    },
+    {
+      "speaker": "player5",
+      "text": "#lightly quickens pace, but without losing any caution, treating this escort task with the depth, meticulousness, and patience of archaeology."
+    },
+    {
+      "speaker": "player2",
+      "text": "#quickly follows"
+    },
+    {
+      "speaker": "player5",
+      "text": "#goes to the place described in the companion's memory, looking for that white headless statue."
+    },
+    {
+      "speaker": "player3",
+      "text": "Bailan carefully searched through the pile of props on the west side of the stage and finally found the target behind a stack of golden shields and fake palm trees—that white headless statue. It was casually leaning against the corner of the wall."
+    }
+  ],
+  "start_line": 8718,
+  "end_line": 9029
+}

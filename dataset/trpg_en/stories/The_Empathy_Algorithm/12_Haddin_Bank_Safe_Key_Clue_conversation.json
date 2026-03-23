@@ -1,0 +1,856 @@
+{
+  "section": "12. Haddin Bank Safe: Key Clue",
+  "description": "Found a Frankfurt Standard Bank safe deposit box rental contract and key among Haddin's belongings. Andrew carefully examined the device and obtained important clues.",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": "\"Expecting these idiots to pull off something this big is like expecting pigs to fly.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Oh, sorry, that must be my description that's off. Their backers are old Nazis in new disguises. It's even highly likely that the leader of the Free Corps is one of them.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hmm... it's a bit complicated. This is the first I've heard of it. I think the House of Solomon might be of some help to your investigation. Many historians and people investigating Nazi crimes from that era have gone there to look up information.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Heh, that just happens to match my initial question. It seems you don't know any more relevant information either.\" He smiles somewhat helplessly. \"But I wouldn't mind if the news that the Free Corps is backed by some Nazi remnants from Sachsenhausen reached the ears of other organizations.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Isn't this something you already know? The leaders of the Free Corps often visit him.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "@player2 \"Is the internal strife related to the opera troupe and the pawnshop?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The Blake incident? No need to test me with something everyone knows.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I don't have any more questions. Thank you very much.\" He stands up after a simple expression of gratitude. \"If we succeed, we'll expose the Free Corps and the old Nazi organization behind it down to their roots. Then you should have a chance to settle the score with them.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David also stands up. \"To our success?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Hmm~\" He neither confirms nor denies. \"It's not time for that yet. By the way, you now have a choice before you.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Oh? What opportunity?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "He doesn't clink glasses. Instead, he turns around, makes a phone call, and then hands the receiver to player5."
+    },
+    {
+      "speaker": "player3",
+      "text": "David puts down his glass and strokes his chin."
+    },
+    {
+      "speaker": "player5",
+      "text": "Takes the receiver. \"Hello.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "A male voice comes from the other end of the line, low and calm: \"Good afternoon, gentlemen, or ladies. This is the United States Central Intelligence Agency, Frankfurt Station.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Listen to see if the other party's accent is a pure, rustic Yankee drawl."
+    },
+    {
+      "speaker": "player2",
+      "text": "Such an elite naturally uses standard German."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So it's friends from the CIA. Good afternoon. What can we do for you?\" The tone is relaxed and calm."
+    },
+    {
+      "speaker": "player2",
+      "text": "The other party pauses, seemingly not expecting you to be so composed. Then, he says slowly: \"We can offer you protection, even help clear up some trouble for you with MI6... Of course, provided you prove yourselves worthy of cooperation.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It seems our disguise was somewhat clumsy after all.\" He smiles self-deprecatingly. \"What do you want?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We need two things.\" The voice on the phone is unhurried, as if reading from a list."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I need to discuss this with my companions. Could you provide a contact method? There's still time before the July 6th action, you probably aren't in a rush for these few hours, right?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Not possible. If you want our help, you must follow our orders. If not? That's fine too, but it's best not to get in the way. Otherwise... you'll find yourselves on the opposite side as well.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Hangs up the phone."
+    },
+    {
+      "speaker": "player2",
+      "text": "After player5 hangs up, the boss also looks indifferent. \"Just refused like that?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "@player2 \"Haven't prepared myself mentally yet.\" Shrugs as if joking."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You've got guts. I wish you smooth sailing ahead!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thanks for the good wishes.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David also leaves, his mind heavy with concerns."
+    },
+    {
+      "speaker": "player1",
+      "text": "The story record of the Algorithm of the Heart continues. Currently recorded text: 5684."
+    },
+    {
+      "speaker": "player5",
+      "text": "Leaving the Hermes Club, drive back to the previously agreed rendezvous point."
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 and the other had a pleasant conversation with Hermes and learned that equipment can be purchased here, such as firearms, ammunition, vehicles, bombs, cameras, etc., as well as a safe house where one can sleep soundly."
+    },
+    {
+      "speaker": "player3",
+      "text": "How much money do we have left? David calculates."
+    },
+    {
+      "speaker": "player5",
+      "text": "How much does the safe house cost? If it's too expensive, player5 plans to use guns as collateral. \"We're a bit tight on cash lately, do you accept barter? I can offer a submachine gun.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Two.\" He states cleanly and decisively that there's no room for negotiation."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Two for one night? I could earn more than that by robbing with these two guns in one night.\" Laughs angrily at the exorbitant demand. \"One.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No discussion. We don't have many safe bases left in Frankfurt either; this was originally prepared for making a comeback. Besides, you don't have much choice.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Alright, you win.\" Pouts, helplessly raises both hands, then hands over the goods to the boss. \"Here, top-quality new guns. Give me the safe house address and key.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David feels regretful about those two guns in his heart, his gaze lingering reluctantly."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Just for tonight. Remember to clean up when you leave tomorrow, and throw the key into a sewer.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"OK.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The safe house is located in the northern suburbs of Frankfurt, near the university district."
+    },
+    {
+      "speaker": "player3",
+      "text": "There's no time to lose; hurry back to meet up with the accomplices. We've obtained a lot of information here that needs to be shared."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Can you throw in a set of fake license plates?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Then Hermes provides you with a fake license plate."
+    },
+    {
+      "speaker": "player3",
+      "text": "The after-sales service is not bad; David feels slightly comforted."
+    },
+    {
+      "speaker": "player2",
+      "text": "So Gray and the other left the Wonder Room first and went to the newspaper office, until four o'clock when David and the other drove to the agreed location."
+    },
+    {
+      "speaker": "player3",
+      "text": "David gets out of the car, filled with a bellyful of intelligence, intending to share it with Gray and Andrew. Let Gray and Andrew get in the car; we'll talk inside, guys."
+    },
+    {
+      "speaker": "player6",
+      "text": "Is the newspaper office really a safe place? Andrew is full of suspicion, locked in a hard-to-notice corner, looking around, especially watching the entrance."
+    },
+    {
+      "speaker": "player4",
+      "text": "Call Andrew to get in the car, eager to share our Wonder Room experience."
+    },
+    {
+      "speaker": "player6",
+      "text": "Get in the car; the car is the best, and we can run if we want, as long as we're not blocked by a heavy truck."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"God, did things go smoothly on your end? We went to find Hermes; Rabin almost offered a knee.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thankfully, God favored us.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"It was smooth at first, but then it became more and more outrageous... In short, things developed far beyond our imagination, involving many incomprehensible things.\" Andrew pours out everything about the consciousness test experiment and the Wonder Tool, and also shares the possession hypothesis."
+    },
+    {
+      "speaker": "player3",
+      "text": "David also shares his side's intelligence with his accomplices. \"What, soul transfer? Can one person's soul really be stuffed into another body? And what about magic, did you see it with your own eyes?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"There's such a thing?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It was poured directly into my mind in a wondrous way... You might not believe it, but I still feel a bit dreamy about it.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "While sharing the intelligence, they are greatly shocked."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison describes the general appearance of the shop she saw. \"And this way, some things start to make sense.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I don't know, I don't know anything. That woman said that.\" \"I'm very afraid of her! I don't even know what that was.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"For example, that old man's body might contain the soul of an old Nazi, and the original owner of this device seems to be exactly the Heim that Haddin is looking for.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Sadly, after all this, I'm no longer surprised by anything unreal—even though the training manual never mentioned it.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"...Indeed. Then we have reason to believe the old man frequently visited by the leader of the Free Corps might be some kind of soul vessel.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Should we check out the second floor of the Guvich Clinic tonight? I'm a bit curious about what's there.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"According to Haddin's records, that leader has also been missing for a long time; perhaps he also used this device to hide in someone else's body.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"I think it's very necessary.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Another point is about Haddin. The Americans seem to know no less than we do, and they want Haddin dead—but that might not help us return to MI6. Their so-called reward is still just a blank check, while a living Haddin is clearly more valuable to us.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We already have a dead Haddin.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"If he goes back, he'll only meet his end, and that's already been confirmed by us, hasn't it?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Should we first follow Guvich's records to capture some 'heartless ones,' then lock Haddin inside...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"At the very least, I don't think we should harm an innocent person.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David fell silent. Andrew's question was quite sharp, making it difficult for him to answer immediately."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"If it really comes to it, we could always transfer him into someone else,\" he shrugged. \"Or stuff him into me?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"If I were from the organization, I'd probably suspect you were acting out multiple personality disorder.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Uh, I think all this is a bit beyond my ability to accept. I'd rather imagine a living Haddin being with us...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That makes sense. So we'd better find a suitable person to stuff him into. What do you think about some lucky neo-Nazi kid or one of the Nazi leaders present?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Actually, I think Brandt would be just fine.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Agreed.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sigh... Despite encountering so many miraculous things, without a living Haddin we still have a hard time proving ourselves. Maybe we need to prove that station chief is problematic.\" Alison shook her head."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"This magic is really exciting...\" He snapped his fingers excitedly after hearing David's suggestion. \"David, you're a fucking genius!\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew, curled up in his seat, uttered a faint voice, \"But wouldn't that mean letting a spy occupy a high position...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"But I think that guy wouldn't appear in the same place as Haddin.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Now I don't doubt whether Haddin can really travel through time; there have been too many bizarre things.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We need to protect him from the CIA and the Academy.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's our next move? The clinic is best visited at night when no one's around.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"If that boss can stuff a soul into a little doll, then maybe we can also stash Haddin somewhere first and stuff him into Brandt when we meet him.\" David began his fantasy time. \"As for the clinic, we'll find out when we explore it tonight.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So we need to get to the place where Haddin plans to act early tomorrow and make contact with him.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"She said it's best not to exceed a hundred times a day,\" Alison shrugged."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"If this thing is really so convenient and without side effects, theoretically we could knock someone out and stuff everyone we encounter into them.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"God, player5, you're a genius.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"But I haven't used it yet, and I don't know exactly how it works.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I suggest we assume this thing can only be used once for now.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew remained silent in the back seat. His understanding of his colleagues had been updated."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"If we find it can still be used, that would be a pleasant surprise.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I wonder if it can be implanted into an animal.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"But animals can't talk; we haven't heard of monkeys talking yet. Parrots can, but where would we find one?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Can it even be stuffed into this?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I'm wondering if we can stuff all the neo-Nazis into parrots when we scout their lair tomorrow morning—if we get discovered.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Speaking of which, we encountered people from the Free Corps at the auction house; they also wanted this thing and said price was no object.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We've discovered their weapon applications...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Good thing we acted quickly.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Indeed, if they got their hands on this thing, we'd have no chance of turning things around.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Makes sense. Where's that safe house they mentioned?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Near the university district. Let's go.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Let's go.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Grab some dinner on the way."
+    },
+    {
+      "speaker": "player6",
+      "text": "We should eat something good for this meal; there aren't many left!"
+    },
+    {
+      "speaker": "player2",
+      "text": "After eating pork knuckle, you head to the safe house. This place has the typical characteristics of a university district: a one-bedroom designed for renting to poor students."
+    },
+    {
+      "speaker": "player3",
+      "text": "Obviously, the lady gets the bed; the three guys sleep on the floor."
+    },
+    {
+      "speaker": "player2",
+      "text": "There's nothing in the room except a mattress, forcing you to buy several used blankets discarded by college students from a second-hand market."
+    },
+    {
+      "speaker": "player3",
+      "text": "Sigh, still have to rely on ourselves. Hope the poor students' blankets don't have lice."
+    },
+    {
+      "speaker": "player6",
+      "text": "Hope the weather isn't too cold!"
+    },
+    {
+      "speaker": "player2",
+      "text": "It's July; Andrew actually woke up a few times from the heat. The place is简陋, but at least there are no bedbugs, so you all slept relatively soundly until waking up late at night."
+    },
+    {
+      "speaker": "player4",
+      "text": "Get up, slap your face to wake up, check your gear, confirm lockpicking tools and weapons are on you."
+    },
+    {
+      "speaker": "player6",
+      "text": "Prepare for action! Andrew tightens his clothes, though he's not particularly skilled at this."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Time to get to work, gentlemen.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Alright, guys, let's go when you're ready.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Equip all pistols with silencers, bring flashlights."
+    },
+    {
+      "speaker": "player3",
+      "text": "Silencers attached, small flashlights in hand, the guys park the car in an alley near the clinic and take a city walk."
+    },
+    {
+      "speaker": "player5",
+      "text": "Swap the car's license plates back to the original ones, wait for everyone to gather, then drive."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We could also consider roughing it in the car later, if we still need to sleep.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Get some gloves and hoods for everyone to wear."
+    },
+    {
+      "speaker": "player3",
+      "text": "We're all outlaws."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We can only stay here for one night.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew gets dressed according to the instructions."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Yes, I'll clean up the traces. You guys check if there's anything we missed.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Tonight is the night of the desperadoes."
+    },
+    {
+      "speaker": "player4",
+      "text": "Head out to work."
+    },
+    {
+      "speaker": "player2",
+      "text": "You head to the psychology clinic, reaching the door under the cover of night."
+    },
+    {
+      "speaker": "player4",
+      "text": "Observe at the door to see if any light is leaking out, then press a cup against it to listen for any movement."
+    },
+    {
+      "speaker": "player3",
+      "text": "David looks around, keeping watch for his accomplices in the dead of night."
+    },
+    {
+      "speaker": "player2",
+      "text": "It's pitch black inside, and no sound comes from within."
+    },
+    {
+      "speaker": "player6",
+      "text": "Assist in preparing to pick the lock."
+    },
+    {
+      "speaker": "player4",
+      "text": "Take out lockpicking tools, feel the structure of the lock, and try to open it."
+    },
+    {
+      "speaker": "player1",
+      "text": "Mountains and soil listen to your wishes. Regardless of karma and retribution, fate now slumbers in your palm."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray picks the door lock open with a wire."
+    },
+    {
+      "speaker": "player1",
+      "text": "All things are impermanent, fate is uncertain, the answer is known only to a few."
+    },
+    {
+      "speaker": "player2",
+      "text": "@player5 .ra Spot Hidden"
+    },
+    {
+      "speaker": "player1",
+      "text": "Rolled by <player2> on behalf:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 discovers a trigger-type alarm device not far from the door. If you had opened the door and entered recklessly, you would have definitely triggered this thing, and then attracting the patrolling officer on duty would have been a huge trouble."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Can this thing be disarmed?\" David asks the real expert."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Looks like we need to be careful from now on.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let me see how to disarm it or disable it.\" Try to use your professional knowledge and skills to deal with this thing."
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite good at many things."
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 disarms the alarm's trigger device; now it's blind."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Well done.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We really have experts in various fields among us.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Let me see, you're quite good at many things."
+    },
+    {
+      "speaker": "player6",
+      "text": "Next, Andrew moves carefully inside the house, worried there might be other small devices here."
+    },
+    {
+      "speaker": "player4",
+      "text": "Quietly and quickly move inside with a small flashlight, leaving the door slightly ajar to restore its original state."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I think it's necessary.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The lookout definitely can't stay outside. Since we're all in the clinic, we might as well all go upstairs together.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Leave one person on the first floor to keep an eye on the situation outside? So we don't get surrounded without knowing it.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"That makes sense.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then I'll be the lookout. But loitering around the building is even more suspicious. I'll keep watch from upstairs instead.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison shines her flashlight around the first floor as she passes by to see if there are any obvious changes compared to when she came in the afternoon."
+    },
+    {
+      "speaker": "player2",
+      "text": "No obvious changes."
+    },
+    {
+      "speaker": "player4",
+      "text": "Then, watch your step and go upstairs to explore the unknown area."
+    },
+    {
+      "speaker": "player6",
+      "text": "The second floor, our target is the second floor! And the second floor definitely has tighter security measures. Andrew isn't concerned about being discovered for trespassing later anymore; there is no 'later' now."
+    },
+    {
+      "speaker": "player5",
+      "text": "Tiptoe quietly upstairs and observe the layout of the rooms on the second floor."
+    },
+    {
+      "speaker": "player2",
+      "text": "You grip your weapons, adjust your breathing, muffle your footsteps, and push open the door to the second floor—"
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew starts examining this bedroom with a burglar's mindset, ready to play his part thoroughly."
+    },
+    {
+      "speaker": "player2",
+      "text": "The carpet is soft and clean, the curtains are half-drawn, the bed is neatly made with a dust cover over it, looks like no one has lived here for a while."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then David slips into the bathroom to see if there's a safe or something, though it's unlikely."
+    },
+    {
+      "speaker": "player4",
+      "text": "Search the room for anything like a notebook that might record experimental data."
+    },
+    {
+      "speaker": "player2",
+      "text": "Naturally, there's nothing like that in the bedroom. It seems the room's owner doesn't like bringing work into rest time."
+    },
+    {
+      "speaker": "player5",
+      "text": "Pace back and forth near the windows to keep watch."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Looks like we're looking in the wrong direction.\" Alison decides to go to the first floor to see if Gurevich's office has any of these things."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Where did he hide the money and the data? Could they still be on the first floor?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "@player4 You push, but the door doesn't budge; it seems to be locked."
+    },
+    {
+      "speaker": "player5",
+      "text": "Examine the layout of the rooms on the second floor. Considering the building size seen from outside, are these two rooms the only ones that fit its architectural design?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh?\" There's a lock here too. Alison takes out her lockpicking tools again, trying to open this lock as well, while cautiously checking if there's any electronic alarm or mechanism like the one in Haddin's room behind this door."
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like shackles, and will you now gamble on the path with no trace to follow?"
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew assists from the side."
+    },
+    {
+      "speaker": "player2",
+      "text": "That's reasonable, since the first floor wasn't very big to begin with."
+    },
+    {
+      "speaker": "player3",
+      "text": "David doesn't find anything and goes down to help as well."
+    },
+    {
+      "speaker": "player2",
+      "text": "The filing cabinet has a transparent glass window but is locked. You can see the lock is intact, not broken or picked."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Looks like this is the main event.\" Alison first checks if there are any trigger mechanisms in the room."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Seems that way.\" David also searches the room for any mechanisms."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Obviously, there are no alarm measures inside; the door lock is the only guardian angel here."
+    },
+    {
+      "speaker": "player3",
+      "text": "David presses close to the filing cabinet glass, reading the labels on the files through the glass."
+    },
+    {
+      "speaker": "player4",
+      "text": "Take action! Let the colleagues check the desk first. Alison, see what's going on with this safe."
+    },
+    {
+      "speaker": "player6",
+      "text": "Start rummaging through the \"property\"—especially the documents."
+    },
+    {
+      "speaker": "player2",
+      "text": "@player3 The box labeled \"Algorithm of the Heart Research Samples\" containing samples No. 1～100."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player3",
+      "text": "David returns defeated and starts rummaging through the desk with Andrew."
+    },
+    {
+      "speaker": "player5",
+      "text": "While keeping watch, move over to David's side to take a look."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Samples of the Algorithm of the Heart... a hundred of them, so many.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Didn't understand, honestly goes back outside to keep watch."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What was the hit rate for the draw again?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The lock on an ordinary file cabinet... without a doubt."
+    },
+    {
+      "speaker": "player4",
+      "text": "Then directly attempt to pick the lock."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Locksmith check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "It's filled with manila document boxes. You notice that the sample boxes for NO.37, 42, and 73 are not among them."
+    },
+    {
+      "speaker": "player6",
+      "text": "What's needed here is the burglar effect. So, where's the money?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We're actually too late; this safe has already been ransacked by someone.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "On the desk, a letter from Standard Bank's safe deposit box service, informing that the safe deposit box jointly held with Andreas Rilke has been opened, and confirming that the items entrusted by Professor Govich for storage have been properly placed."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Damn it all.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then who are the corresponding labels for these three people?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ugh, he really is connected with Rilke.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "There's also a letter from Solomon House, thanking Dr. Govich for volunteering as a psychological counselor last November and asking if he has any updates regarding Mr. Grove's whereabouts."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"37, 42, 73... Does that mean three people have transferred their souls?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "@player4 \"Then those are probably the three anomalous samples identified by the Algorithm of the Heart.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "So where's the money?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Andrew, are there any keys or similar things on the desk over there?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Under the desk, there's a drawer that appears to be locked."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Let me look, nothing much so far...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison goes to work with her lockpicking tools."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Locksmith check result:"
+    }
+  ],
+  "start_line": 3470,
+  "end_line": 3785
+}

@@ -1,0 +1,880 @@
+{
+  "section": "4. Safe House: Archive File Investigation",
+  "description": "Infiltrate the safe house, retrieve Haddin's historical files, discover photos related to the murder case, clues point to Haddin's connection with a mysterious woman, the incident is far more complicated than anticipated",
+  "conversation": [
+    {
+      "speaker": "player6",
+      "text": "\"If you can't understand it, take it back first, hoping to get help from others.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Then David takes a look."
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like shackles, and are you going to gamble on the untraceable one at this moment?"
+    },
+    {
+      "speaker": "player2",
+      "text": "@player6 will burst out a small ball of burning gasoline fire, incinerating everything inside the drawer."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison checks until when the safe rental contract is valid."
+    },
+    {
+      "speaker": "player3",
+      "text": "David can see the words, but David doesn't understand what they mean."
+    },
+    {
+      "speaker": "player6",
+      "text": "So that's how it is, Andrew decides to keep this device safe, perhaps it can be used to detonate C4."
+    },
+    {
+      "speaker": "player3",
+      "text": "Can David translate it for the other colleagues to see?"
+    },
+    {
+      "speaker": "player2",
+      "text": "These are replies from Soviet veterans, they were all once captured by the German army, but the content of the letters is too vast and complex, your speed-reading skills aren't up to par yet, but you notice some replies mention that Haddin's Russian isn't very fluent, with many grammatical errors, very hard to read."
+    },
+    {
+      "speaker": "player6",
+      "text": "Is contacting Soviet veterans legal? Andrew uses his little brain."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then inform the colleagues."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So our Mr. Haddin might be seeking to extend his life in another way? And this might be related to some experiments from Nazi Germany?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew's work is done, he retreats back to his own territory, the kitchen area."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then David searches other places in the bedroom, if he can't find anything, he sits on the bed to read the letters."
+    },
+    {
+      "speaker": "player2",
+      "text": "On the bedroom desk surface, besides the usual items, what catches the eye more is a shortwave radio, with pen and paper placed in front of the radio, as if this person was specifically recording something while listening to the radio."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison tries to find a pencil and lightly shade the top sheet of paper to see if it can reveal the notes."
+    },
+    {
+      "speaker": "player3",
+      "text": "David hands the radio to other colleagues."
+    },
+    {
+      "speaker": "player2",
+      "text": "@player4 revealed some numbers, but they are not very clear."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What he listened to and recorded here includes some numbers, what could this be, a code, or coordinates?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Seeing David reading the letters, he also takes out the previous Russian book and continues to study it."
+    },
+    {
+      "speaker": "player4",
+      "text": "Check if the radio has saved the listening frequencies."
+    },
+    {
+      "speaker": "player3",
+      "text": "David and Rabin return to their student days."
+    },
+    {
+      "speaker": "player2",
+      "text": "Shortwave 4625kHz"
+    },
+    {
+      "speaker": "player4",
+      "text": "Is anything playing now?"
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew is in his element in the kitchen, having a great time with everyone in the kitchen."
+    },
+    {
+      "speaker": "player4",
+      "text": "Then turn on the radio, listen to what's playing now."
+    },
+    {
+      "speaker": "player2",
+      "text": "An electronic voice is reciting a series of numbers."
+    },
+    {
+      "speaker": "player4",
+      "text": "Confirm the repetition pattern of the numbers, record them."
+    },
+    {
+      "speaker": "player2",
+      "text": "This is a repeating broadcast of a 91-digit number sequence."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Idea check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray felt a slight pause when these numbers were recited, grouped in sets of seven digits."
+    },
+    {
+      "speaker": "player4",
+      "text": "Anyway, first record the numbers, then show them to colleagues later to see what this might be."
+    },
+    {
+      "speaker": "player2",
+      "text": "Roll Education."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Education check result:"
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew emerges from the kitchen for the second time and starts listening to the radio with everyone."
+    },
+    {
+      "speaker": "player3",
+      "text": "David also takes a look."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Education check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray feels this might be a number sequence puzzle, needing to find their formula."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison starts arranging and combining the numbers."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew decides to get involved too."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s Education check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "David feels it's somewhat familiar yet strange, damn it, he must have seen a similar combination method somewhere before."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew, a high school kid, can only scratch his head."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"What numbers? Let me see.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "With his junior high school graduation level, Andrew has no idea what numbers are fixed in seven-digit groups."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s Education check result:"
+    },
+    {
+      "speaker": "player6",
+      "text": "What, vocational school isn't high school!"
+    },
+    {
+      "speaker": "player2",
+      "text": "player5, who loves going to the library to absorb knowledge, recognizes what this is at a glance; it's all too familiar to him."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"These seven-digit numbers should correspond to a book in some library, thirteen books in total.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Hehe, I heard everything.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "After solving the puzzle, immediately go back to studying the Russian book."
+    },
+    {
+      "speaker": "player6",
+      "text": "Recall the books you obtained earlier; do these books have a source?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Maybe we should check the bookshelf in the living room."
+    },
+    {
+      "speaker": "player3",
+      "text": "David focuses on reading the letter."
+    },
+    {
+      "speaker": "player4",
+      "text": "Then go check the bookshelf; do those books have library classification labels on them?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Library Use."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Library Use check result:"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Anyway, the books are either in the office, at home, on his person, or, well, somewhere else.\" Andrew concludes and goes to the bookshelf to join the fun."
+    },
+    {
+      "speaker": "player2",
+      "text": "Only a few books have Frankfurt library markings, but their classification numbers don't match any of the number sets. However, Gray finds a Frankfurt Public Library Book Index."
+    },
+    {
+      "speaker": "player4",
+      "text": "Excellent, there's such a detailed index. Alison immediately searches to find out what these 13 books actually are."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray found information on 13 books in the index in sequence."
+    },
+    {
+      "speaker": "player4",
+      "text": "Share this information with everyone."
+    },
+    {
+      "speaker": "player2",
+      "text": "The content and types are vast and varied, ranging from novels, medical texts, reference books to travelogues, and inspirational articles, with no clear central pattern."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I think it might be a secondary encryption method like a Caesar cipher composed of book titles.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Compared to the content of the books, Andrew was more interested in the people passing these books along. Why would they pass such absurd books?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It's possible, but I can't see any more information for now.\" Alison studied it but couldn't figure anything out."
+    },
+    {
+      "speaker": "player3",
+      "text": "David struggles to read the letter."
+    },
+    {
+      "speaker": "player4",
+      "text": "Can the first letters form a place name? Alison tries to recall."
+    },
+    {
+      "speaker": "player1",
+      "text": "Mountains and soil listen to your wishes. Whatever the karma and retribution, fate already sleeps in your palm."
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray couldn't figure anything out."
+    },
+    {
+      "speaker": "player1",
+      "text": "Mountains and soil listen to your wishes. Whatever the karma and retribution, fate already sleeps in your palm."
+    },
+    {
+      "speaker": "player2",
+      "text": "Andrew feels this encryption method... no, there's no encryption at all."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew reads it aloud."
+    },
+    {
+      "speaker": "player2",
+      "text": "urgent bring back or kill kant"
+    },
+    {
+      "speaker": "player6",
+      "text": "Urgent, bring back, or, kill, Kant."
+    },
+    {
+      "speaker": "player2",
+      "text": "Urgent, bring back or kill Kant."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What does this mean?\" Andrew scratches his head, \"Who is Kant?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Roll an Easy Education check."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Or does it actually mean 'can not'?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like shackles, and are you going to gamble on the untraceable one now?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Based on knowledge from spy school, you recognize this as a typical \"agent codename.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This is an agent codename. This person is probably involved in something serious.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Combined with the previous information, Kant is Haddin, right? They are both to be disposed of. But using a broadcast to order the killing of one, knowing the radio listeners, that's also not normal.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "player5, who went to the bathroom, sees everything neatly arranged: the toilet lid closed, the bathtub clean, and all other facilities very tidy, without a trace of odor. However, a faint smell of burnt paper can be detected in the air. Following the smell leads to an empty metal trash can. The inner wall shows obvious scorch marks, but there's almost no paper ash left inside."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"This instruction should have been intended only for Haddin. If a second person could decipher it, it doesn't seem very secure.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "@player5 @Lev Mikhailovich player5 SAN0 HP12/12 DEX60 However, on the edge of the clean toilet lid, there is a thumb-sized, faint dark gray mark. Upon closer inspection, it's paper ash, seemingly smudged there unintentionally. player5 opens the toilet and can see two partially burnt paper fragments stuck to the inner wall."
+    },
+    {
+      "speaker": "player5",
+      "text": "Share your discovery with your companions."
+    },
+    {
+      "speaker": "player2",
+      "text": "@player6 In the kitchen, there is an ordinary wooden cabinet. Inside is a set of old coffee utensils that look unused for a long time. Underneath the cabinet, several medicine boxes and bottles are scattered, all containing uncommon prescription drugs. The production dates vary, some very old, some purchased within the last few months."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Ms. Gray, I found medicine here. I don't recognize it.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Is there water in the toilet now?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let me take a look.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The cycle of fate is like a shackle, and are you now going to gamble on the one with no trace to follow?"
+    },
+    {
+      "speaker": "player6",
+      "text": "Gather the medicine in one place, then check the refrigerator and other items more closely related to food."
+    },
+    {
+      "speaker": "player2",
+      "text": "The toilet water pressure is low, which is why two fragments remained."
+    },
+    {
+      "speaker": "player1",
+      "text": "The story Algorithm of the Heart recording has resumed, currently 1584 texts recorded."
+    },
+    {
+      "speaker": "player2",
+      "text": "Last time, we said the agents went to investigate Haddin's residence and obtained a large number of documents and a stack of blank paper."
+    },
+    {
+      "speaker": "player4",
+      "text": "I want to use my agent knowledge to observe this stack of blank paper. Could they possibly have information hidden by some method?"
+    },
+    {
+      "speaker": "player2",
+      "text": "Roll Spot Hidden."
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison carefully picks up that stack of blank paper and examines it closely against the light."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s Spot Hidden check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Gray tries to determine if there are any signs of ciphertext."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Friends, there are some traces left by carbon paper here. It seems he traced a floor plan map of some building here.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"He might be planning to infiltrate somewhere.\" Andrew makes a guess."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then David will carefully observe these traces and memorize them, comparing them with the embassy layout."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"He must have gotten the building plans from somewhere. I wonder where from.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Perhaps he was making a map for an accomplice, but didn't the organization he belongs to already want him dead?\" Alison expresses doubt."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The library, or that damned archives.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "These rough lines pose great difficulty for David's work, but you can still determine that this sketch does not match the embassy layout."
+    },
+    {
+      "speaker": "player3",
+      "text": "That puts David at ease. If they really were to infiltrate the embassy, it would escalate to a diplomatic incident, and they would all be in serious trouble."
+    },
+    {
+      "speaker": "player6",
+      "text": "From the floor plan, what are the design characteristics of this building, in terms of shape or layout?"
+    },
+    {
+      "speaker": "player2",
+      "text": "You are not professional architects and are even more at a loss with a mere sketch."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Someone from the Mirror gave him a message; we'll have to investigate that person later too.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Anyway, put this sketch away. Maybe we'll suddenly realize where it is at some point?"
+    },
+    {
+      "speaker": "player2",
+      "text": "It just looks larger than the embassy should be."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Correct. That's also a breakthrough point.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"There's also an incomplete address.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We still don't know where Haddin went. The threats he faces are really too many. The only thing we can rule out is that he hasn't fallen into British hands yet.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Glass jar of Schwartau brand jam, a common, mass-market brand."
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew pockets it. He lacks awareness of the jam's value."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Where to? We have a lot of things to investigate now.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm... I suggest we go to the prosecutor's office first. We still have our informant there, and the clues we currently have are quite scattered. We need to gather more information. Also, we can inquire about the several location leads we've obtained from the informant or the embassy.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm, the clues we have are too messy. Rather than running around like headless chickens, getting in touch with the informant first might be a good idea.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David strongly agrees."
+    },
+    {
+      "speaker": "player6",
+      "text": "Let's go!"
+    },
+    {
+      "speaker": "player5",
+      "text": "Finish reading the book on the way, let the colleague drive."
+    },
+    {
+      "speaker": "player2",
+      "text": "You walk out the door, the guard has been waiting patiently for a long time."
+    },
+    {
+      "speaker": "player6",
+      "text": "Get ready to get in the car, have the colleague take out the map."
+    },
+    {
+      "speaker": "player4",
+      "text": "Hearing Haddin's name, stop and pretend to be looking at the bulletin board nearby, listening quietly."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Uh...\" The guard uneasily shifts his gaze towards you."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Which Haddin?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David moves inconspicuously to the doorway, blocking this person's exit."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Arthur Haddin.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Ah, the one from the American Consulate?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David stares intently at this person. Has he seen this person before?"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I'm a librarian from the Frankfurt Public Library. Haddin borrowed books from the library and hasn't returned them, so I came to collect them.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We just went up to look for him; he doesn't seem to be home.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Hearing he's a librarian, walk over to strike up a conversation."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"This is really... Do you have any news about Haddin? I'm willing to offer a personal reward.\" The librarian looks troubled."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That's really bad. How long has he been keeping these public books?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It's been over a month—the maximum period we allow. Those books are managed quite strictly and must be retrieved.\" He scratches the back of his head in distress."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What books?\""
+    },
+    {
+      "speaker": "player2",
+      "text": ",extra:{\\filename:\\ea3a8893-2d27-492d-a669-d3f753e9693f\\,tsum:2}"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"What books did he borrow that you're in such a hurry to get back?\" Pretend to be concerned and step forward, \"Do you have a list of the books he hasn't returned? If the late fees aren't too high, we can pass on a message for you when we see him.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "It seems this person knows exactly what books Haddin borrowed; he's probably indeed a librarian."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Just some books about social structure and political theory, which might be a bit... non-mainstream for some people.\" He looks very uncomfortable."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"He has such tastes? Really didn't see that coming.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"If it's just to that extent, it shouldn't matter, right? This isn't East Germany.\" Shrugs shoulders."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Ha, it seems you understand what kind of books those are, right?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Mainstream stuff is all the same; non-mainstream things are countless. What exactly did he read?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David listens quietly on the side."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"He's not home, and none of us can go in.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Uh... just some left-leaning political books, like Herbert Marcuse's 'Culture and Revolution', and a few more extreme ones.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"How about this: could you list the books that urgently need returning? We'll pass on the message if we run into him.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew squints in confusion, as if straining to remember."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Or perhaps you could leave your contact information?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"That's a real shame. Well, if you have any news about Haddin, or help find these books, I'd be willing to offer a personal reward. I'm Simon Weiss, a librarian at the Frankfurt Library.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Alright.\" Takes out the business card matching the fake identity and exchanges contact information with this person."
+    },
+    {
+      "speaker": "player2",
+      "text": "He casually writes a note listing: The Communist Manifesto, One-Dimensional Man, Culture and Revolution, Socialist Political Economy, The Power of the People, along with his contact information."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"...\" Falls silent after seeing the book list. Haddin's political spectrum is way too complicated."
+    },
+    {
+      "speaker": "player6",
+      "text": "Has Andrew seen these books? Could it be that he threw away the right-wing books and took the left-wing ones?"
+    },
+    {
+      "speaker": "player3",
+      "text": "David scratches his head. This guy reads a lot."
+    },
+    {
+      "speaker": "player2",
+      "text": "Andrew doesn't think he saw these books on Haddin's bookshelf; otherwise, with an agent's political sensitivity, he would have noticed."
+    },
+    {
+      "speaker": "player6",
+      "text": "This doesn't seem to match the image of Haddin we've encountered so far."
+    },
+    {
+      "speaker": "player5",
+      "text": "Gets in the car and leaves."
+    },
+    {
+      "speaker": "player2",
+      "text": "David reads the letters from the Soviet veterans, who were all once prisoners of war of the Germans. The letters recall their lives in the concentration camps, mentioning that Haddin asked if they had noticed any legends about \"black magic,\" but they mostly gave negative answers. It can be noted that one reply mentions Haddin's Russian wasn't fluent, with many grammatical errors, making it hard to read."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Why would Haddin take those books? It doesn't fit the behavior of someone fleeing in a hurry.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Those books together aren't light, and they take up a lot of space.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"He might have destroyed them, or hidden them somewhere.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Why would he do that?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 reads the research on Siberian indigenous shamanistic worship, roughly understanding it's an anthropological study of ethnic minorities like the Buryats, Tuvans, Chukchi, etc., discussing topics like Eternal Heaven, blessings, immortality, soul rest, etc."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Or maybe he borrowed those books not for himself to read?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then for whom? Was he in contact with any populist organizations?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Anyway, it's absurd. How did the consulate hire someone like this?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Don't they do background checks before hiring people?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So far, Haddin's profile is that of a spy trying to find ways to prolong life, or the soul, through every possible avenue: religion, magic, science, etc.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"He must have stumbled upon some secret stuff. After all, we're looking for him too...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Maybe he really dug up something. Did the embassy people mention to us that he acted like a cancer patient?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"He always seemed to be in poor health.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "@player3 \"As is widely known, the recruitment processes of most British organizations are just formalities.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Alison recalls:"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Recruiting people isn't even as good as the Irish mob.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Ahem.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"At least the Irish know how to do background checks.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"So, has his lifespan been successfully extended now? Chasing a dead man would be pointless.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"If he dies, will our files come back?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Finding a corpse might be easier, and it would give us something to report to headquarters. But if he really discovered something after all that research, that could be problematic.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"As a spy who had never been exposed and had been steadily providing intelligence for a long time, the Soviets had no reason to eliminate him rashly. Based on the current clues, we can only infer that Haddin's investigation to extend his life touched upon some secret, leading to him being silenced.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The Frankfurt City Prosecutor's Office and Police Department are both located around Justice Square. The journey is uneventful, and you safely enter the prosecutor's office."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Alright, it might not necessarily be an organization; it could be a person's name, a place name, or just a codename.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The receptionist at the front desk asks formulaically."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We heard your office recently held a lecture on Nazi-era law?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We'd like to see Prosecutor Redmann. Please inform him that Mr. Kissinger's legal team is here to visit.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Ah? Alright.\" The receptionist picks up the phone to confirm."
+    },
+    {
+      "speaker": "player4",
+      "text": "Anyway, we go upstairs to find him."
+    },
+    {
+      "speaker": "player2",
+      "text": "You arrive on the third floor and find Redmann's office by the signs on each door. But before you can knock, you can faintly hear arguing inside."
+    },
+    {
+      "speaker": "player3",
+      "text": "David pricks up his ears to listen."
+    },
+    {
+      "speaker": "player2",
+      "text": "Roll Listen."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Listen check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "<Male> \"...This photo is the only clue. If we hold off any longer and the police find out, you know how furious they'll be?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Check if this person is wearing a name tag."
+    },
+    {
+      "speaker": "player2",
+      "text": "She pauses for a moment upon seeing you, then nods and says, \"Good afternoon, the Prosecutor can see you now.\" Then she walks past you and leaves the office."
+    },
+    {
+      "speaker": "player4",
+      "text": "Do we know who Bonn is?"
+    },
+    {
+      "speaker": "player6",
+      "text": "Enter the office, looking at your collaborator."
+    },
+    {
+      "speaker": "player5",
+      "text": "Knock politely before entering. \"Good afternoon, Mr. Redmann. Mr. Kissinger's legal team sends their regards.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Redmann quickly walks over to shake your hands."
+    },
+    {
+      "speaker": "player3",
+      "text": "David shakes his hand and sits down."
+    },
+    {
+      "speaker": "player2",
+      "text": "Then leans out to confirm no one is in the nearby hallway and closes the door."
+    },
+    {
+      "speaker": "player5",
+      "text": "Nods slightly with approval, then puts away the detector. \"Your professionalism is commendable. To be brief, we are here primarily to investigate a Foreign Ministry employee named Haddin. The clues we have indicate he previously attended an internal lecture at your office—the topic was the abuse of punishments during the Nazi era. We hope to obtain more related information from you, such as how he obtained tickets to the internal lecture.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Haddin! What a coincidence!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "David narrows his eyes, scrutinizing Redmann's expression. Is it fear? Anger? Shock? Or does he have some other relationship with Haddin?"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Oh, it seems you also have some information related to him. I don't think this is necessarily a coincidence,\" he said with a professional smile."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Ha, then please take a look at this case file first. Haddin is currently involved in a murder case. Perhaps you can gain some inspiration from it.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "<player3>'s Psychology check result:"
+    },
+    {
+      "speaker": "player2",
+      "text": "He picked up a case file from the desk, which read \"4·22 Police Assault Case Investigation Report.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "Andrew was very shocked. He took the document from the table and looked at it together with everyone."
+    },
+    {
+      "speaker": "player2",
+      "text": "David felt that Redman was simply surprised."
+    },
+    {
+      "speaker": "player3",
+      "text": "Then David also leaned over to look at the case file together."
+    },
+    {
+      "speaker": "player2",
+      "text": "There was a photo placed on the case file bag. It didn't seem to be evidence included in the file itself, but rather something casually placed together."
+    }
+  ],
+  "start_line": 946,
+  "end_line": 1261
+}

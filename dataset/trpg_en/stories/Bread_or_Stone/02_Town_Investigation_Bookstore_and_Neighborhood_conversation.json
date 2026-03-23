@@ -1,0 +1,388 @@
+{
+  "section": "2. Town Investigation: Bookstore and Neighborhood",
+  "description": "Investigators conduct investigations on Zvonarska Street, visit the renowned Eximious Bookstore, pursue archaeological clues about the Crusader's Tomb resurfacing, and Yamina reveals her connection to Professor Moric",
+  "conversation": [
+    {
+      "speaker": "player8",
+      "text": "#Glancing at Bai Lan, smoothing her hair. \"I'm fine, but that young lady is a bit injured.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Out of curiosity, do we decide where to go under the guide's leadership? Will the guide protect our safety?\" #Carefully picks up the document, checking for loopholes. \"I'm not very proficient with a shotgun. Can the guide handle some distant prey for me sometimes?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The waiter pushes a yellowed parchment document across the counter, stamped with a raised seal of a double-headed eagle. The terms are written in two languages: \"The holder must follow the instructions of the licensed guide at all times; hunting is limited to the southern slope of the Kunivich Reserve; it is forbidden to pursue wounded prey into restricted areas; the deposit will not be refunded if safety regulations are violated.\" He points to the third item and adds, \"The guide is both protection and supervision. Last year, a count chased a wild boar across the boundary, not only lost his deposit but also faced a lawsuit from the gendarmerie.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Looking at Bai Lan's injury timidly. \"Um... miss, do you need bandaging?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Of course, sir.\" The waiter lightly taps the supplementary clause at the end of the document. \"It states here that the guide can provide assistance with shooting when necessary.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Goes outside to hail a taxi."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Alright, I'll sign.\" #Checks the terms once more with a pen, pays the deposit. \"When I'm ready to hunt, I'll bring the shotgun here. I hope you'll be prepared.\" #After finishing, gets in the car, go go go!"
+    },
+    {
+      "speaker": "player8",
+      "text": "(taxi!)"
+    },
+    {
+      "speaker": "player5",
+      "text": "The taxi stops in front of a two-story hotel in the south of Węgrów. The building, serving as the local cultural center, emits faint sounds of violin practice. player8 walks through the lobby paved with Serbian traditional tapestries, her gaze sweeping over guests listening to a piano solo under the arcade. She asks the staff behind the gilded counter in German about Dr. Moric's registration. The staff checks the gold-embossed accommodation register and shakes their head. player8's fingers slightly tighten her skirt, then she softly asks if there are any letters for player8 Moric. The staff retrieves an envelope from the walnut box labeled 'Mail to be Collected'. The wax seal clearly bears the imprinted initials JM."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This seems like a distress letter, miss.\" \"To be honest, I really feel he has a kind of...\" \"A sense of entrusting something. You should prepare yourself mentally.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Archaeology leading to deaths?\" #Looks skeptical. \"Don't say such unlucky things.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Literally translated as \"Zagreb's / Bell-related / King Zvonimir\"."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"To be honest, there are many deaths in archaeology.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Pinching the paper, hand slightly clenching, then relaxing, supporting forehead with one hand. #Mutters quietly, \"I need to find more help, need someone familiar with the ropes.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What kind are you referring to?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"My father's friend.\" #Gives Dr. Berenzada's address. \"He was my father's comrade-in-arms. If there's anyone reliable here, it can only be him.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"OK, I think seeking his help first is our best course of action.\" \"We'll have to trouble you to lead the way then.\" \"Ugh, another taxi ride.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#taxi! taxi!"
+    },
+    {
+      "speaker": "player6",
+      "text": "#taxi! taxi!"
+    },
+    {
+      "speaker": "player5",
+      "text": "The investigators arrive at Dr. Berenzada's two-story house. A maid named Kamila Hannak opens the door and receives them. She explains that the doctor is currently working at Węgrów General Hospital, is rarely at home, and provides the hospital's specific location."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Thanks the maid for the information, then turns and walks towards the hospital."
+    },
+    {
+      "speaker": "player5",
+      "text": "The investigators push open the hospital's double wooden doors. The smell of disinfectant gently permeates the air. The hall is brightly lit, with overhead chandeliers casting steady white light. The beige walls are clean and tidy, adorned with a few landscape paintings. The polished tile floor reflects the light. Several waiting patients sit on green cushioned benches in the waiting area. Medical staff in white nurse uniforms are talking softly with medical records in hand. A bespectacled nurse behind the reception desk is organizing a filing cabinet."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Walks up to the reception desk."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Well, dear translator, please help translate this sentence for me.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "Hands clasped, leaning slightly forward, asks the nurse, \"Miss, is Dr. Berenzada available now?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We're looking for this, Dr. Berenzada.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The nurse looks up from the medical record book with a professional smile. \"Sorry, Dr. Berenzada is not at the hospital at the moment. His working hours are from 8:30 AM to noon.\" She points to the brass wall clock; the hands show it's just past 5 PM. \"If you need emergency services, the doctor on duty is in examination room three. Or you can leave your contact information, and I'll ask the doctor to call back tomorrow.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I wonder if we could inquire about this gentleman's home address. This lady here is the daughter of this gentleman's friend. We have some matters to discuss with him during this time.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That's personal privacy, I cannot disclose it.\" The nurse maintains her professional smile."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Shows a puzzled expression."
+    },
+    {
+      "speaker": "player1",
+      "text": "Qiduo received! Continuing to record Bread or Stone (Węgrów 1923) for you. Currently 388 texts recorded, time elapsed 2 hours 5 minutes 11 seconds. Huh? A piece of paper flew out when opening the file. If you're bad, just practice more. If you can't handle losing, then don't play. The past is the past, the present is the present. If you always compare the past to the present, why don't you compare it to when you were born?"
+    },
+    {
+      "speaker": "player5",
+      "text": "So, last time we said: The investigators were stranded in Węgrów due to the railway being blown up. Just as they were about to rest, they encountered a panicked girl seeking help. She had rushed back to her hometown after receiving an urgent letter from her father, and was followed as soon as she got off the train. After escaping danger, the investigators accompanied the girl to the hotel where they were supposed to meet, only finding a note left by her father at the front desk, with hastily written, unclear information. To find clues, they went to the hospital where the girl's father's old friend, Dr. Berenzada, worked, but learned from the staff on duty that the doctor had already left. So now you are at the hospital front desk. What do you do next?"
+    },
+    {
+      "speaker": "player8",
+      "text": "(Wait, guys... ( @player6"
+    },
+    {
+      "speaker": "player5",
+      "text": "(Bailan, you can try this ()"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hello, ma'am. I'd like to ask where that doctor usually goes? We need to find him personally, sorry for the trouble.\" \"What does this gentleman usually do after work?\" .st show Credit Rating Persuade"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows: Credit Rating:40 Persuade:10 - Are you going to unleash your ultimate move?!"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows: STR:45 DEX:70 CON:55 SIZ:55 APP:65 INT:75 POW:60 EDU:70 SAN:55 DB:0 Cthulhu Mythos:30 HP:11/12 MP:1/12 Spot Hidden:80 Credit Rating:40 Library Use:89 Luck:49 Psychology:76 Handgun:80 Latin:1 Brawl:50 Archaeology:78 Listen:69 Dreaming:29 Major Wound:1 Dodge:75 - Are you going to unleash your ultimate move?!"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Credit Rating"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you hope for, it will surely be answered. <player4>'s Credit Rating prayer: D100=41/40 Failure - Well.. just a little off."
+    },
+    {
+      "speaker": "player8",
+      "text": ".st show Credit Rating Persuade"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player8>'s currently registered personal information is as follows: Credit Rating:60 Persuade:10 - Are you going to unleash your ultimate move?!"
+    },
+    {
+      "speaker": "player6",
+      "text": ".st show Credit Rating"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player6>'s currently registered personal information is as follows: Credit Rating:5 - Are you going to unleash your ultimate move?!"
+    },
+    {
+      "speaker": "player2·杜尔甘",
+      "text": ".st show Persuade"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2·Durgan>'s currently registered personal information is as follows: Persuade:64 - Are you going to unleash your ultimate move?!"
+    },
+    {
+      "speaker": "player5",
+      "text": "The front desk nurse closed the medical record book, tapping her finger on the wooden counter: \"I'm sorry, the doctor's schedule is private. You can leave your contact information in the register, and I will relay it to the doctor first thing tomorrow when he arrives for work.\" She pushed over a leather-bound message book."
+    },
+    {
+      "speaker": "player2·杜尔甘",
+      "text": ".pc tag3"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player2·Durgan> has switched identity to player9... Information synchronized successfully."
+    },
+    {
+      "speaker": "player9",
+      "text": ".sn coc"
+    },
+    {
+      "speaker": "player1",
+      "text": "Business card automatically set to COC7 format: player9 SAN75 HP12/12 DEX50. If permissions allow, will continue to auto-change business card. Use .sn off to disable."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Forget it, let's go add some fresh blood to our team first.\" #Then turns around to leave, taking a look around."
+    },
+    {
+      "speaker": "player8",
+      "text": "#The girl omo"
+    },
+    {
+      "speaker": "player5",
+      "text": "Bailan sees not far away, at the pharmacy window, a burly man clutching a prescription pleading softly: \"Can I get two weeks of painkillers first? I'll definitely pay next month after moving the goods.\" The pharmacist in front of him sneered and slammed the small window shut. The man turned away dejectedly, noticed you all, wiped his face with a calloused hand, and walked over: \"You folks look like outsiders. Need a helper who can shoot? I just need three months' salary in advance.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Well, we are outsiders, but we happen to need a helper.\" \"Hmm, salary? That's a minor issue, but our line of work isn't exactly safe.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"No problem, at a time like this...\" #Says in a low voice \"I urgently need money. I can protect your safety.\" \"So, you all are...?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Just came to the hospital to find someone.\" #Replies"
+    },
+    {
+      "speaker": "player8",
+      "text": "#Looks around left and right, calculating in mind"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright, we happen to be short on muscle.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Indeed.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Tell everyone the translation result"
+    },
+    {
+      "speaker": "player8",
+      "text": "\"What does it mean\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"What does it mean\""
+    },
+    {
+      "speaker": "player5",
+      "text": "player9 instantly understands upon seeing this note; it points to Zvonarska Street between the intersection of Zagrebacka and Kralja Zvonimir."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"This points to a location\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm, what location does it point to?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"It points to Zvonarska Street between the intersection of Zagrebacka and Kralja Zvonimir\""
+    },
+    {
+      "speaker": "player5",
+      "text": "(It should be afternoon"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"It's almost dinner time. Should I take you there now or?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Hmm, let's eat first. At this point, rushing won't help\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"I agree\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go, get something to eat.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Then let's eat first\""
+    },
+    {
+      "speaker": "player5",
+      "text": "player9 lifts the greasy wind flap; the small eatery deep in the alley emits a mixed smell of onions and cheap tobacco. The owner is turning sausages on the grill with an iron hook and, upon seeing player9 enter, flashes a smile missing a front tooth: \"Bringing your buddies to support the business? Your usual spot is saved for you.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Thank you, you took care of Terezia for a while\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Hmm... let's just have something simple, what do you have?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The owner wipes his oily fingers on his apron, pulls out a half-bottle of homemade spirits from under the counter, and places it on the wooden surface with a dull thud. \"Ah, between us, who's counting\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Boss, the usual, please, and make it a bit more. These guys can be considered my... benefactors\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"By the way, is there anything on this street?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Coming right up\" The owner turns and enters the back kitchen, returning shortly with a steaming earthenware pot; dark meat broth floats with carrot and potato chunks. Then he brings a plate of sausages taken from the grill with charred edges, accompanied by a side of pickled yellowing cucumbers."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Hmm, there's a row of apartments, a cobbler's shop, a grocery store, and a bookstore\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"To be honest, I'm completely clueless\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mainly, this note was left by his father.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Why couldn't my father leave something I could understand\" #Spreads hands and slumps onto the table"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Then let's take a stroll after eating\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That's the issue here. Perhaps your father's life was threatened, so he couldn't directly leave something you'd understand.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"But he could leave something that only locals seem to understand\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That's a possibility.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Eavesdrop while eating"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Eat one carrot at a time"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Simply speeding up the pace of eating."
+    },
+    {
+      "speaker": "player5",
+      "text": "Soon, only dark brown meat juice stains remained at the bottom of the clay pot, and only scattered pickled cucumber seeds were left on the baking tray. Empty wine bottles lay across the wooden table, the lingering aroma still hovering around their necks."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Let's go, I'll take you all for a stroll there.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Mm-hmm.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "On the north side of the intersection stood rows of gray-walled apartments. Next door, a tanner's shop had a half-finished saddle hanging at its entrance. Across the street, a grocery store's shelves were piled with tin cans and burlap sacks. Professor Bela noticed that the bookstore was the famous Eximious Bookstore. This shop specialized in rare Eastern European books and primarily provided mail-order services for scholars from various regions. Most of the books piled inside were old volumes, and she had also ordered ancient texts from this store before."
+    }
+  ],
+  "start_line": 331,
+  "end_line": 661
+}

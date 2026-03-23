@@ -1,0 +1,2166 @@
+[
+  {
+    "qa": [
+      {
+        "id": 1,
+        "question": "Whose situation was the main focus of the phone call between Victoria Maseko and Damian Maseko?",
+        "answer": "Annie Beaumont",
+        "evidence": [
+          "T03:0",
+          "T19:0",
+          "T22:0"
+        ],
+        "category": 3,
+        "depth": 1,
+        "needs": [
+          "03-LI-1-4-5-6-7-8-9",
+          "02-LI-5-8-9",
+          "01-DI-7-8"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 03-LI-1-4-5-6-7-8-9, Martha Galley introduces those present, including Damian Maseko and Victoria Maseko. Further review of the interaction records between Damian and Victoria is required.",
+            "node_name": "03-LI-1-4-5-6-7-8-9",
+            "tid": 2
+          },
+          {
+            "step": 2,
+            "info": "In 02-LI-5-8-9, Damian Maseko explicitly mentions that he helped Victoria fix the phone and completed a call. The specific details of this call need to be traced back.",
+            "node_name": "02-LI-5-8-9",
+            "tid": 12
+          },
+          {
+            "step": 3,
+            "answer": "In 01-DI-7-8, Victoria Maseko and Damian Maseko have a private conversation in the Dining room. The core of their discussion revolves around Annie Beaumont's financial and life difficulties. Victoria confirms she does not want to lie to her mother about Annie's situation and promises to speak with Annie personally; therefore, the answer is Annie Beaumont.",
+            "node_name": "01-DI-7-8",
+            "tid": 13
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Which family member did Edmund Galley mention with disdain during the argument with his fiancée?",
+        "answer": "Tony Dauer",
+        "evidence": [
+          "T08:0",
+          "T02:0",
+          "T11:0"
+        ],
+        "category": 3,
+        "depth": 1,
+        "needs": [
+          "03-KI-10-11",
+          "02-EN-1-6-7-10",
+          "01-BI-6-10"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 03-KI-10-11, Eve Dauer (No. 10) proposes running away from home and mentions possibly leaving with Edmund Galley. It is necessary to review Edmund's relevant descriptions of Eve.",
+            "node_name": "03-KI-10-11",
+            "tid": 6
+          },
+          {
+            "step": 2,
+            "info": "In 02-EN-1-6-7-10, Edmund Galley (#6) warns that a woman inside is emotionally out of control. Combined with the fact that #10 Eve Dauer appears drunk and emotionally unstable at this node, it is consistent that this woman is Eve Dauer. Further backtracking is required to uncover the details of their argument.",
+            "node_name": "02-EN-1-6-7-10",
+            "tid": 2
+          },
+          {
+            "step": 3,
+            "answer": "In 01-BI-6-10, Edmund Galley (No. 6) mentions Tony Dauer in a dismissive tone during an argument with Eve Dauer, claiming he only joined the army for fun. He uses him as a point of comparison and an emotional trigger in the dispute; therefore, the answer is Tony Dauer.",
+            "node_name": "01-BI-6-10",
+            "tid": 7
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Based on Victoria Maseko's motive for handing over the item, combined with Edmund Galley's predicament regarding the lost item, please clearly identify the specific interpersonal relationship symbolized by this item, and state who the other party involved in this relationship is.",
+        "answer": "This item symbolizes the engagement between Edmund Galley and Eve Dauer, and the other party involved is Eve Dauer (rather than Helen Dauer).",
+        "evidence": [
+          "T52:0",
+          "T04:0",
+          "T11:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "04-AT-2-7",
+          "04-BI-6-9",
+          "01-BI-6-10"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 04-AT-2-7, Victoria Maseko entrusts an item to Annie Beaumont for safekeeping, expressing her hope that this will convey goodwill and draw Edmund Galley's attention. The exact nature of this item must be confirmed through information related to Edmund Galley.",
+            "node_name": "04-AT-2-7",
+            "tid": 29
+          },
+          {
+            "step": 2,
+            "info": "In 04-BI-6-9, Edmund Galley explicitly mentions for the first time that the engagement ring is missing, and Helen Dauer sternly demands that he find it. This indicates that the ring is directly related to Edmund's engagement, making it necessary to confirm who Edmund is engaged to.",
+            "node_name": "04-BI-6-9",
+            "tid": 3
+          },
+          {
+            "step": 3,
+            "answer": "In 01-BI-6-10, Eve Dauer (Person No. 10) explicitly mentions her engagement to Edmund Galley (Person No. 6). Combined with the context of the missing engagement ring established in 04-BI-6-9, it is relevant to note the engagement relationship between Edmund and Eve. Therefore, the answer is engagement relationship.",
+            "node_name": "01-BI-6-10",
+            "tid": 7
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "What item did the visitor, who was guided to the villa by Harry Thornton, find near the body?",
+        "answer": "Chapel key",
+        "evidence": [
+          "T01:0",
+          "T03:0",
+          "T05:0",
+          "T06:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "01-QU-1-11",
+          "03-LI-1-4-5-6-7-8-9",
+          "04-ST-1-5-8",
+          "05-DI-1-5"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 01-QU-1-11, Person No. 11 (Rupert Galley's servant) guides John Hobbes to the villa at Quail Lane, confirming John Hobbes as the visitor guided by Person No. 11. John Hobbes's movements after entering the villa must be tracked.",
+            "node_name": "01-QU-1-11",
+            "tid": 2
+          },
+          {
+            "step": 2,
+            "info": "In 03-LI-1-4-5-6-7-8-9, Martha Galley arranges for John Hobbes to spend the night in the Study. Having confirmed that John Hobbes was settled in the Study, we need to backtrack the events that occurred in the Study.",
+            "node_name": "03-LI-1-4-5-6-7-8-9",
+            "tid": 2
+          },
+          {
+            "step": 3,
+            "info": "In 04-ST-1-5-8, an unknown male body is discovered in the Study. John Hobbes is present and apologizes for breaking a wine bottle; the specific details of items found near the body need to be confirmed.",
+            "node_name": "04-ST-1-5-8",
+            "tid": 3
+          },
+          {
+            "step": 4,
+            "answer": "In 05-DI-1-5, John Hobbes hands the key found near the body to Martha Galley for identification. Martha Galley confirms that it is the Chapel key, therefore the answer is the Chapel key.",
+            "node_name": "05-DI-1-5",
+            "tid": 4
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Tony Dauer believes that the stranger who appeared in the villa is looking for the pocket watch. Who originally guided this stranger to the villa?",
+        "answer": "Harry Thornton",
+        "evidence": [
+          "T54:0",
+          "T03:0",
+          "T02:0",
+          "T01:0"
+        ],
+        "category": 3,
+        "depth": 3,
+        "needs": [
+          "05-AT-2-4",
+          "03-LI-1-4-5-6-7-8-9",
+          "02-EN-1-6-7-10",
+          "01-QU-1-11"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 05-AT-2-4, Tony Dauer mentions the appearance of a stranger in the mansion who is looking for \"Rupert Galley\". Tony believes this person might be looking for the pocket watch, but the stranger's exact identity needs to be confirmed through subsequent nodes.",
+            "node_name": "05-AT-2-4",
+            "tid": 30
+          },
+          {
+            "step": 2,
+            "info": "In 03-LI-1-4-5-6-7-8-9, John Hobbes (No. 1) states he came because of an invitation and is looking for Rupert Galley, but Martha Galley denies the existence of this person; this confirms that John Hobbes is the strange visitor Tony mentioned who was looking for Rupert Galley, so we need to trace back his experiences prior to arriving at the villa.",
+            "node_name": "03-LI-1-4-5-6-7-8-9",
+            "tid": 2
+          },
+          {
+            "step": 3,
+            "info": "In 02-EN-1-6-7-10, John Hobbes appears at the Entrance, and Edmund Galley explains that his vehicle is stuck near Quail Lane; confirming that John Hobbes walked here from Quail Lane, we need to backtrack to find out who he encountered at Quail Lane.",
+            "node_name": "02-EN-1-6-7-10",
+            "tid": 2
+          },
+          {
+            "step": 4,
+            "answer": "In 01-QU-1-11, Person No. 11 encounters John Hobbes at Quail Lane, confirms that he has long served Rupert Galley, and guides John Hobbes on foot to the villa; therefore, the person who guided the unfamiliar visitor to the villa is Person No. 11, Rupert Galley's servant.",
+            "node_name": "01-QU-1-11",
+            "tid": 2
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Based on the pre-death memories of the target person sought by the stranger in the mansion, along with the clues found on their personal belongings, please clearly identify the full name of the woman in the target person's memories and explain her specific connection to a particular item inside the mansion.",
+        "answer": "The woman's full name is Amelia West. She is connected to the player piano in the villa's Study, specifically evidenced by the player piano roll bearing her name that the deceased, Rupert Galley, carried with him.",
+        "evidence": [
+          "T54:0",
+          "T27:0",
+          "T46:0",
+          "T61:0",
+          "T05:0"
+        ],
+        "category": 3,
+        "depth": 3,
+        "needs": [
+          "05-AT-2-4",
+          "05-LI-3-9",
+          "04-KI-3-10-11",
+          "01-ST-12",
+          "04-ST-1-5-8"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 05-AT-2-4, Tony Dauer mentions the appearance of a stranger in the mansion who is looking for \"Rupert Galley\"; however, the relationship between the stranger and Rupert Galley remains unclear, and Rupert Galley's identity needs to be confirmed.",
+            "node_name": "05-AT-2-4",
+            "tid": 30
+          },
+          {
+            "step": 2,
+            "info": "In 05-LI-3-9, Oswald introduces himself as the last member of the Galley family and states that he has no connection to the current owner of the villa; this confirms that the Galley family does indeed exist. Rupert Galley should be a member of this family, and Rupert's whereabouts require further confirmation.",
+            "node_name": "05-LI-3-9",
+            "tid": 15
+          },
+          {
+            "step": 3,
+            "info": "In 04-KI-3-10-11, Oswald searches for the Chapel key in the Kitchen and mentions family history; Harry Thornton reveals that his father once buried a woman here, indicating that the villa has a history related to death.",
+            "node_name": "04-KI-3-10-11",
+            "tid": 26
+          },
+          {
+            "step": 4,
+            "info": "In 01-ST-12, Rupert Galley reminisces alone in the stairwell, explicitly mentioning the connection between Amelia and the piano piece, and dies on the spot following a clap of thunder. This confirms that the woman Rupert recalled before his death is Amelia, and that she is connected to the piano piece. However, it remains to be determined which specific instrument in the villa this piano piece corresponds to.",
+            "node_name": "01-ST-12",
+            "tid": 32
+          },
+          {
+            "step": 5,
+            "answer": "In 04-ST-1-5-8, the body of an unknown male stranger found in the Study was carrying a paper roll for a player piano, which had the name \"Amelia West\" written on it. This confirms that Amelia is directly related to the player piano mechanism in the villa; therefore, the answer is the piano.",
+            "node_name": "04-ST-1-5-8",
+            "tid": 3
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Who was the person who died in the stairwell thinking of before their death?",
+        "answer": "Amelia",
+        "evidence": [
+          "T07:0",
+          "T46:0",
+          "T61:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "06-ST-1-11",
+          "04-KI-3-10-11",
+          "01-ST-12"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 06-ST-1-11, Harry Thornton confirms that Rupert Galley is dead and requests that the Chapel key be handed over to Oswald; this indicates a connection between Oswald, the Chapel, and Rupert Galley, making it necessary to backtrack and determine why Oswald was looking for the Chapel key.",
+            "node_name": "06-ST-1-11",
+            "tid": 5
+          },
+          {
+            "step": 2,
+            "info": "In 04-KI-3-10-11, Oswald presses Harry Thornton in the Kitchen about the key to the Chapel. Harry reveals that his father once buried a woman and discovered a corpse; this indicates a connection between the Chapel and past family secrets, and it is necessary to confirm Rupert Galley's connection to this woman prior to his death.",
+            "node_name": "04-KI-3-10-11",
+            "tid": 26
+          },
+          {
+            "step": 3,
+            "answer": "In 01-ST-12, Rupert Galley reminisces alone in the stairwell, explicitly mentioning the connection between Amelia and the piano piece, and dies on the spot after a clap of thunder. Combined with 04-KI-3-10-11, where Harry's father once buried a woman, Amelia's unexplained disappearance that went unnoticed may be connected to the buried woman, but this cannot be fully confirmed from the available sources.",
+            "node_name": "01-ST-12",
+            "tid": 32
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "What did the owner of this pocket watch say to his son before it was stolen?",
+        "answer": "Helen demands that Tony put the pocket watch back, saying she spent a fortune on it.",
+        "evidence": [
+          "T25:0",
+          "T54:0",
+          "T26:0",
+          "T57:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "06-LI-2-9",
+          "05-AT-2-4",
+          "04-HE-4",
+          "01-HE-4-9"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 06-LI-2-9, Annie Beaumont proactively hints to Helen Dauer that she may know the whereabouts of the pocket watch, and Helen confirms that the pocket watch has been stolen; it remains to be confirmed how Annie learned of its whereabouts.",
+            "node_name": "06-LI-2-9",
+            "tid": 14
+          },
+          {
+            "step": 2,
+            "info": "In 05-AT-2-4, Tony Dauer voluntarily shows the pocket watch to Annie Beaumont and admits to stealing it. This confirms Tony as the source of Annie's clue; the specific origin of the pocket watch now needs to be verified.",
+            "node_name": "05-AT-2-4",
+            "tid": 30
+          },
+          {
+            "step": 3,
+            "info": "In 04-HE-4, Tony Dauer enters Helen Dauer's room alone, opens the box containing the pocket watch, and takes it; having confirmed that the pocket watch came from Helen's room, we need to review Helen's attitude toward the pocket watch.",
+            "node_name": "04-HE-4",
+            "tid": 15
+          },
+          {
+            "step": 4,
+            "answer": "In 01-HE-4-9, Helen Dauer sternly orders Tony Dauer to put the pocket watch back, emphasizing that he will leave fingerprints, and explicitly states that she spent a lot of money on it, hoping the recipient will be satisfied; therefore, the answer is that Helen asks Tony to put the pocket watch back and says she spent a lot of money on it.",
+            "node_name": "01-HE-4-9",
+            "tid": 31
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question": "After Rupert's death, where did John Hobbes find the Chapel key? And who originally led him to the villa?",
+        "answer": "John Hobbes found the key near the body in the Study; he was initially led to the villa by Harry Thornton at Quail Lane.",
+        "evidence": [
+          "T07:0",
+          "T06:0",
+          "T05:0",
+          "T03:0",
+          "T01:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "06-ST-1-11",
+          "05-DI-1-5",
+          "04-ST-1-5-8",
+          "03-LI-1-4-5-6-7-8-9",
+          "01-QU-1-11"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 06-ST-1-11, John Hobbes hands the key found near the body to Harry Thornton. Harry confirms that the key belongs to Rupert Galley and requests it be passed to Oswald; it is necessary to trace back how John Hobbes obtained this key.",
+            "node_name": "06-ST-1-11",
+            "tid": 5
+          },
+          {
+            "step": 2,
+            "info": "In 05-DI-1-5, John Hobbes hands the key to Martha Galley in the Dining room for identification, and Martha confirms it is the Chapel key; we need to trace back to where John Hobbes found this key.",
+            "node_name": "05-DI-1-5",
+            "tid": 4
+          },
+          {
+            "step": 3,
+            "info": "In 04-ST-1-5-8, the body of an unknown male stranger is found in the Study. John Hobbes is present and discovers an item near the body; confirming that the key was found in the Study, it is necessary to trace back how John Hobbes arrived at the Study.",
+            "node_name": "04-ST-1-5-8",
+            "tid": 3
+          },
+          {
+            "step": 4,
+            "info": "In 03-LI-1-4-5-6-7-8-9, Martha Galley arranges for John Hobbes to spend the night in the Study; we must trace back John Hobbes's experiences before arriving at the villa to confirm who guided him here.",
+            "node_name": "03-LI-1-4-5-6-7-8-9",
+            "tid": 2
+          },
+          {
+            "step": 5,
+            "answer": "In 01-QU-1-11, Harry Thornton encounters John Hobbes at Quail Lane, confirms he has long served Rupert, and guides John Hobbes on foot to the villa; therefore, the key was found by John Hobbes near the body in the Study, and John Hobbes was guided to the villa by Harry Thornton at Quail Lane.",
+            "node_name": "01-QU-1-11",
+            "tid": 2
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Someone is knocking on the door outside Edmund's room—how did the person inside the room get here, and why did the person who arranged this leave the Kitchen to go upstairs earlier?",
+        "answer": "Eve was taken to Edmund's room to rest by Damian Maseko when she was drunk; Harry Thornton, who arranged this, left the Kitchen for the Study because he was informed by Damian that a death had occurred in the upstairs Study.",
+        "evidence": [
+          "T13:0",
+          "T12:0",
+          "T09:0"
+        ],
+        "category": 3,
+        "depth": 1,
+        "needs": [
+          "07-ED-10",
+          "06-ED-8-10",
+          "05-KI-8-10-11"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 07-ED-10, Eve Dauer is resting alone in Edmund's room, asleep. After the door is knocked on in a distinctive pattern, she allows the visitor to enter; we must trace back how Eve ended up in Edmund's room.",
+            "node_name": "07-ED-10",
+            "tid": 8
+          },
+          {
+            "step": 2,
+            "info": "In 06-ED-8-10, Damian Maseko escorts the drunk Eve Dauer to Edmund's room to rest, and Eve asks for her younger brother to accompany her; having confirmed that Eve was brought by Damian, it is necessary to determine who arranged for Damian to do this, as well as the arranger's prior actions.",
+            "node_name": "06-ED-8-10",
+            "tid": 7
+          },
+          {
+            "step": 3,
+            "answer": "In 05-KI-8-10-11, Damian Maseko informs Harry Thornton in the Kitchen that a death incident has occurred in the upstairs Study. Harry decides to go to the Study to check, and asks Damian to take the drunk Eve to Edmund's room to rest; therefore, the person who arranged this is Harry Thornton, who left the Kitchen and headed to the Study after being informed by Damian about the death incident in the Study.",
+            "node_name": "05-KI-8-10-11",
+            "tid": 6
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question": "At dinner, someone mentioned the whereabouts of a certain woman, prompting her younger brother to leave immediately—who escorted this woman there, and what item did the housekeeper who arranged this previously deny having to Oswald in the Kitchen?",
+        "answer": "Eve Dauer was escorted to Edmund's room by Damian Maseko; the butler Harry Thornton denied to Oswald in the Kitchen that he possessed the Chapel key.",
+        "evidence": [
+          "T17:0",
+          "T12:0",
+          "T09:0",
+          "T46:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "07-DI-1-2-4-5-6-7-8-9",
+          "06-ED-8-10",
+          "05-KI-8-10-11",
+          "04-KI-3-10-11"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 07-DI-1-2-4-5-6-7-8-9, Damian Maseko points out that Eve Dauer is in Edmund's room, prompting Tony to leave immediately; it is necessary to determine how Eve got to Edmund's room.",
+            "node_name": "07-DI-1-2-4-5-6-7-8-9",
+            "tid": 11
+          },
+          {
+            "step": 2,
+            "info": "In 06-ED-8-10, Damian Maseko escorts the drunk Eve to Edmund's room, and Eve asks for her younger brother to keep her company; having confirmed that Eve was brought here by Damian, we need to find out who arranged this.",
+            "node_name": "06-ED-8-10",
+            "tid": 7
+          },
+          {
+            "step": 3,
+            "info": "In 05-KI-8-10-11, Harry Thornton is informed by Damian in the Kitchen about the death incident in the Study. Harry arranges for Damian to take Eve to Edmund's room before heading to the Study himself; having confirmed that Harry Thornton made this arrangement, it is necessary to investigate Harry's prior interactions with Oswald.",
+            "node_name": "05-KI-8-10-11",
+            "tid": 6
+          },
+          {
+            "step": 4,
+            "answer": "In 04-KI-3-10-11, Oswald questions Harry Thornton in the Kitchen about the whereabouts of the Chapel key. Harry explicitly denies possessing the Chapel key and offers to help search for it after dinner; therefore, the butler Harry Thornton denies having the Chapel key to Oswald in the Kitchen.",
+            "node_name": "04-KI-3-10-11",
+            "tid": 26
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question": "A sudden strange noise comes from the Kitchen during dinner—please describe the butler's complete path of movement from the moment he received the notification of the death upstairs until the Kitchen fell silent, and what item did he previously deny possessing to Oswald in the Kitchen?",
+        "answer": "Harry Thornton confirmed Rupert's death in the Study and received the Chapel key, then arranged for Damian to escort Eve to Edmund's room. Upon returning to the Kitchen, he muttered to himself, \"He really is dead,\" and the Kitchen immediately fell silent; he had previously denied to Oswald in the Kitchen that he possessed the Chapel key.",
+        "evidence": [
+          "T17:0",
+          "T10:0",
+          "T07:0",
+          "T12:0",
+          "T09:0",
+          "T46:0"
+        ],
+        "category": 3,
+        "depth": 3,
+        "needs": [
+          "07-DI-1-2-4-5-6-7-8-9",
+          "07-KI-11",
+          "06-ST-1-11",
+          "06-ED-8-10",
+          "05-KI-8-10-11",
+          "04-KI-3-10-11"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 07-DI-1-2-4-5-6-7-8-9, the sound of breaking dishes from the Kitchen interrupts the conversation during dinner; we need to find out what happened in the Kitchen.",
+            "node_name": "07-DI-1-2-4-5-6-7-8-9",
+            "tid": 11
+          },
+          {
+            "step": 2,
+            "info": "In 07-KI-11, Harry Thornton whispers \"He really is dead\" alone in the Kitchen, followed by thunder, smashing dishes, and a heavy thud before the Kitchen falls silent; having confirmed that Harry is the main subject of the Kitchen incident, we must backtrack his previous actions.",
+            "node_name": "07-KI-11",
+            "tid": 6
+          },
+          {
+            "step": 3,
+            "info": "In 06-ST-1-11, Harry Thornton talks with John Hobbes in the Study, confirming that Rupert Galley is dead, receiving the Chapel key, and being asked to pass it to Oswald; since it is established that Harry confirmed the death in the Study, we need to find out how Harry arrived at the Study.",
+            "node_name": "06-ST-1-11",
+            "tid": 5
+          },
+          {
+            "step": 4,
+            "info": "In 06-ED-8-10, Damian Maseko escorts the drunk Eve to Edmund's room, and Eve asks for her younger brother to be called to accompany her; having confirmed that Harry went to the Study after arranging for Damian to escort Eve, we need to investigate Harry's earlier actions.",
+            "node_name": "06-ED-8-10",
+            "tid": 7
+          },
+          {
+            "step": 5,
+            "info": "In 05-KI-8-10-11, Harry is informed by Damian in the Kitchen about the death incident in the Study. Harry instructs Damian to take Eve to Edmund's room before heading to the Study; to confirm the starting point of Harry's movement trajectory, it is necessary to understand Harry's earlier interaction with Oswald.",
+            "node_name": "05-KI-8-10-11",
+            "tid": 6
+          },
+          {
+            "step": 6,
+            "answer": "In 04-KI-3-10-11, Oswald presses Harry for the Chapel key in the Kitchen. Harry denies having it and offers to help look for it after dinner; Complete trajectory: Pressed by Oswald for the Chapel key in the Kitchen and denies having it → Notified by Damian of the death in the Study → Instructs Damian to take Eve to Edmund's room and goes to the Study to confirm Rupert is dead and receives the Chapel key → Returns to the Kitchen, whispers 'He is really dead,' after which the Kitchen falls silent.",
+            "node_name": "04-KI-3-10-11",
+            "tid": 26
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question": "A crashing sound came from above the Dining room, and someone went upstairs to investigate—a confrontation occurred upstairs. When the intruder entered another room, what did they claim that room used to be, and who is the owner of that room?",
+        "answer": "Oswald claims that Tony Dauer's room used to be the nursery, and the owner of the room is Tony Dauer.",
+        "evidence": [
+          "T20:0",
+          "T42:0",
+          "T65:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "08-DI-2-7-8-9",
+          "08-MA-3-5",
+          "06-TO-3-4"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 08-DI-2-7-8-9, continuous crashing sounds were heard from above the Dining room, and Victoria Maseko decided to go upstairs to investigate; need to find out what happened upstairs.",
+            "node_name": "08-DI-2-7-8-9",
+            "tid": 12
+          },
+          {
+            "step": 2,
+            "info": "In 08-MA-3-5, Oswald intrudes into Martha Galley's bedroom without permission, claiming that the room used to be his parents' bedroom. After a fierce confrontation with Martha, he destroys some items and leaves. It is now necessary to investigate what Oswald claimed when entering other rooms previously.",
+            "node_name": "08-MA-3-5",
+            "tid": 25
+          },
+          {
+            "step": 3,
+            "answer": "In 06-TO-3-4, Oswald enters the room where Tony Dauer is staying, claims that the room used to be a nursery, and gets into a conflict with Tony; therefore, Oswald states that the room was once a nursery, and the occupant of the room is Tony Dauer.",
+            "node_name": "06-TO-3-4",
+            "tid": 33
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question": "What identity did Oswald claim during his first conversation with Helen Dauer in the Living room? How does this echo his claim about whose bedroom it used to be when he intruded into Martha's bedroom?",
+        "answer": "Oswald claims to be the last member of the Galley family, which echoes his statement when he intruded into Martha's bedroom that the room used to be his parents', indicating that he believes the villa belongs to his family.",
+        "evidence": [
+          "T15:0",
+          "T42:0",
+          "T65:0",
+          "T27:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "08-KI-1-6",
+          "08-MA-3-5",
+          "06-TO-3-4",
+          "05-LI-3-9"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 08-KI-1-6, Edmund speaks privately with John in the Kitchen, pointing out that Oswald was absent during dinner. Edmund suspects that Oswald might know Rupert Galley; it is necessary to determine Oswald's actions and identity within the villa.",
+            "node_name": "08-KI-1-6",
+            "tid": 10
+          },
+          {
+            "step": 2,
+            "info": "In 08-MA-3-5, Oswald intrudes into Martha's bedroom and justifies his entry by claiming the room used to be his parents' bedroom; confirming Oswald's claim of ownership over the villa's rooms requires investigating his claims regarding other rooms.",
+            "node_name": "08-MA-3-5",
+            "tid": 25
+          },
+          {
+            "step": 3,
+            "info": "In 06-TO-3-4, Oswald enters Tony Dauer's room and claims that the room used to be a nursery; confirming that Oswald claims multiple rooms are related to the Galley family history, we need to find out Oswald's official self-reported identity.",
+            "node_name": "06-TO-3-4",
+            "tid": 33
+          },
+          {
+            "step": 4,
+            "answer": "In 05-LI-3-9, Oswald speaks with Helen Dauer for the first time in the Living room, introducing himself as the last member of the Galley family and mentioning that he once lived in this house; combined with step 2 (claiming Martha's bedroom was his parents' room) + step 3 (claiming Tony's room was the nursery), it can be confirmed that Oswald, as the last member of the Galley family, is asserting the historical ownership of the various rooms in the villa.",
+            "node_name": "05-LI-3-9",
+            "tid": 15
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question": "During the same timeframe when a crashing sound was heard from above the Dining room and someone went upstairs to investigate, the butler in the Kitchen fell silent. Please backtrack the timeline and identify the direct cause for the butler heading to the Study before falling silent (including the informant's full name and the specific details of the message). Furthermore, explain what specific state regarding which item the butler denied during his interaction in the Kitchen with the individual involved in the upstairs conflict, prior to this cause occurring.",
+        "answer": "The direct motivation for the butler Harry Thornton heading to the Study was Damian Maseko informing him in the Kitchen that a death had occurred in the Study; prior to this, the butler had denied to Oswald that he possessed the Chapel key (i.e., claiming he did not have the key).",
+        "evidence": [
+          "T20:0",
+          "T42:0",
+          "T10:0",
+          "T07:0",
+          "T09:0",
+          "T46:0"
+        ],
+        "category": 2,
+        "depth": 3,
+        "needs": [
+          "08-DI-2-7-8-9",
+          "08-MA-3-5",
+          "07-KI-11",
+          "06-ST-1-11",
+          "05-KI-8-10-11",
+          "04-KI-3-10-11"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 08-DI-2-7-8-9, a crashing sound was heard from above the Dining room, and Victoria went upstairs to investigate; it is necessary to determine what happened upstairs, as well as the situation in the Kitchen during the same timeframe.",
+            "node_name": "08-DI-2-7-8-9",
+            "tid": 12
+          },
+          {
+            "step": 2,
+            "info": "In 08-MA-3-5, Oswald breaks into Martha's bedroom and a fierce confrontation ensues, with him claiming that the room was his parents' bedroom; having confirmed that Oswald is the one involved in the upstairs conflict, we need to find out what was happening in the Kitchen during the same period.",
+            "node_name": "08-MA-3-5",
+            "tid": 25
+          },
+          {
+            "step": 3,
+            "info": "In 07-KI-11, Harry Thornton is alone in the Kitchen whispering \"He really is dead\", after which the Kitchen falls silent; confirming Harry as the main subject of the Kitchen events requires backtracking to his previous actions in the Study.",
+            "node_name": "07-KI-11",
+            "tid": 6
+          },
+          {
+            "step": 4,
+            "info": "In 06-ST-1-11, Harry confirms Rupert's death in the Study, receives the Chapel key, and is instructed to pass it to Oswald. To confirm that Harry receives the Chapel key in the Study, we need to understand how Harry arrived at the Study.",
+            "node_name": "06-ST-1-11",
+            "tid": 5
+          },
+          {
+            "step": 5,
+            "info": "In 05-KI-8-10-11, Damian Maseko informs Harry Thornton in the Kitchen that a death has occurred upstairs in the Study, prompting Harry to head to the Study. Having confirmed that Harry was notified by Damian, it is necessary to look into Harry's earlier interactions with Oswald.",
+            "node_name": "05-KI-8-10-11",
+            "tid": 6
+          },
+          {
+            "step": 6,
+            "answer": "In 04-KI-3-10-11, Oswald questions Harry about the Chapel key in the Kitchen, and Harry explicitly denies having it; therefore, the butler Harry was notified by Damian to go to the Study, having earlier denied to Oswald that he possessed the Chapel key.",
+            "node_name": "04-KI-3-10-11",
+            "tid": 26
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question": "Based on the chronological order of events, please deduce the exact words spoken by the second deceased (the servant) in the Kitchen during his final moment alone before his death. Furthermore, explain in detail through which intermediary and in which specific room he directly learned of the first death, and from where this intermediary initially received the instructions regarding the ownership of the relevant key item (the key)?",
+        "answer": "The servant (Harry Thornton) whispered \"He really is dead\" while alone; he learned of the death directly from John Hobbes in the Study; John Hobbes, meanwhile, was informed of the key's ownership and entrusted to pass it on by Martha during a private conversation with Martha Galley in the Dining room.",
+        "evidence": [
+          "T15:0",
+          "T10:0",
+          "T07:0",
+          "T06:0",
+          "T05:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "08-KI-1-6",
+          "07-KI-11",
+          "06-ST-1-11",
+          "05-DI-1-5",
+          "04-ST-1-5-8"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "08-KI-1-6",
+            "tid": 10,
+            "info": "A second body holding the pantry key was found in the Kitchen. John and Edmund deduce that this person is the servant who had previously appeared in the Kitchen multiple times, but his specific identity has not yet been officially confirmed; based solely on this node, it is impossible to determine the time he stayed alone in the Kitchen muttering to himself, nor is it possible to determine how or from where he learned about the first death of the night."
+          },
+          {
+            "step": 2,
+            "node_name": "07-KI-11",
+            "tid": 6,
+            "info": "While alone in the Kitchen, Harry Thornton muttered to himself, \"He really is dead.\" This was immediately followed by a succession of sounds—a thunderclap, shattering dishes, and a heavy object falling to the ground—before returning to silence. This directly provides the content of his soliloquy while alone in the Kitchen, and indicates that he was already aware of the first death beforehand; however, where and how he learned of it still requires tracing back to earlier nodes."
+          },
+          {
+            "step": 3,
+            "node_name": "06-ST-1-11",
+            "tid": 5,
+            "info": "John Hobbes spoke with Harry Thornton in the Study, where Harry confirmed face-to-face that Rupert Galley was dead and that John had seen him with his own eyes. Harry also received the key found next to the first body from John, then hurriedly rushed back to the Kitchen—this establishes the specific location (Study) and the messenger (John) for how Harry learned of the death, but how John himself came to possess this key and learn of the situation still requires further investigation."
+          },
+          {
+            "step": 4,
+            "node_name": "05-DI-1-5",
+            "tid": 4,
+            "info": "Martha Galley spoke privately with John Hobbes in the Dining room, confirming that an unidentified body had been found in the Study. John found a key at the scene, which Martha recognized as the key to the Chapel. She entrusted John to pass it on to Harry Thornton—this indicates that John was informed of the situation by Martha and tasked with delivering the key, establishing the complete causal sequence for his later handover with Harry in the Study."
+          },
+          {
+            "step": 5,
+            "node_name": "04-ST-1-5-8",
+            "tid": 3,
+            "answer": "An unidentified male stranger with no obvious external injuries was initially found dead in the Study, carrying only a piano paper roll bearing the name \"Amelia West\"; this marked the starting point of the chain of events that night—Martha initiated emergency procedures as a result, John picked up the Chapel key at the scene, and Martha entrusted John to pass it to Harry. After learning of the death in the Study, Harry hurriedly returned to the Kitchen, muttering to himself, \"He's really dead.\" Immediately after, a loud noise came from the Kitchen."
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question": "Someone questions Annie about the theft of the pocket watch—Annie says she only saw one person when she went to the Living room before dinner. What did that person previously say to their son about the pocket watch?",
+        "answer": "Helen demands that Tony put the pocket watch back, stating that she spent a lot of money on it.",
+        "evidence": [
+          "T23:0",
+          "T25:0",
+          "T57:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "09-VI-2-8",
+          "06-LI-2-9",
+          "01-HE-4-9"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 09-VI-2-8, Damian Maseko questions Annie Beaumont about the stolen pocket watch. Annie denies involvement and states that she went to the Living room before dinner, where only Helen Dauer was present; we need to investigate the interaction between Annie and Helen in the Living room.",
+            "node_name": "09-VI-2-8",
+            "tid": 13
+          },
+          {
+            "step": 2,
+            "info": "In 06-LI-2-9, Annie Beaumont proactively hints to Helen Dauer that she may know the whereabouts of the pocket watch, and Helen confirms that the pocket watch has been stolen; to confirm that Annie knows the pocket watch's whereabouts, it is necessary to understand the origin of the pocket watch and the owner's attitude.",
+            "node_name": "06-LI-2-9",
+            "tid": 14
+          },
+          {
+            "step": 3,
+            "answer": "In 01-HE-4-9, Helen Dauer sternly orders Tony Dauer to put the pocket watch back, emphasizing that he will leave fingerprints, and explicitly states that she spent a lot of money on it; therefore, the answer is Helen asks Tony to put the pocket watch back and says she spent a lot of money on it.",
+            "node_name": "01-HE-4-9",
+            "tid": 31
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question": "John speaks with a guest in the Dining room and obtains a clue regarding Tony's room—which rooms in the villa did this guest intrude upon, and where was he first told that the old rooms had been left untouched?",
+        "answer": "Oswald entered Tony Dauer's room (referring to it as the nursery) and then Martha Galley's bedroom (referring to it as his parents' room); he was initially informed by Martha Galley in the Living room that the old rooms had been left untouched.",
+        "evidence": [
+          "T18:0",
+          "T42:0",
+          "T65:0",
+          "T45:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "09-DI-1-3",
+          "08-MA-3-5",
+          "06-TO-3-4",
+          "01-LI-3-5"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 09-DI-1-3, John Hobbes talks with Oswald in the Dining room, and Oswald directs John to investigate the bedside table in Tony Dauer's room; it is necessary to trace Oswald's movement trajectory within the villa.",
+            "node_name": "09-DI-1-3",
+            "tid": 11
+          },
+          {
+            "step": 2,
+            "info": "In 08-MA-3-5, Oswald trespasses into Martha Galley's bedroom, claiming the room used to be his parents' bedroom, and leaves after a heated confrontation with Martha, damaging items in the process; having confirmed Oswald's intrusion into Martha's bedroom, we need to investigate his earlier actions.",
+            "node_name": "08-MA-3-5",
+            "tid": 25
+          },
+          {
+            "step": 3,
+            "info": "In 06-TO-3-4, Oswald enters the room where Tony Dauer is staying, claims the room used to be the nursery, and gets into a conflict with Tony; to confirm Oswald entering Tony's room, it is necessary to determine his starting point of action when he first arrived at the villa.",
+            "node_name": "06-TO-3-4",
+            "tid": 33
+          },
+          {
+            "step": 4,
+            "answer": "In 01-LI-3-5, Martha Galley tells Oswald that his old room has been left untouched, prompting Oswald to immediately go see it. Therefore, Oswald is initially informed by Martha in the Living room that his old room remains untouched, after which he proceeds to enter Tony's room (referred to as the nursery) and Martha's bedroom (referred to as the parents' room) in succession.",
+            "node_name": "01-LI-3-5",
+            "tid": 26
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question": "Tony and his mother are having a discussion in the room when thunder strikes—Tony had previously handed an important item over to someone for safekeeping. How did that person arrive at that room, and to whom did the butler, who arranged this matter, deny possessing any item earlier in the Kitchen?",
+        "answer": "Eve Dauer was taken to Edmund's room by Damian Maseko while she was drunk; in the Kitchen, the butler Harry Thornton denied to Oswald that he possessed the key to the Chapel.",
+        "evidence": [
+          "T58:0",
+          "T14:0",
+          "T13:0",
+          "T12:0",
+          "T09:0",
+          "T46:0"
+        ],
+        "category": 3,
+        "depth": 3,
+        "needs": [
+          "09-TO-4-9",
+          "08-ED-4-10",
+          "07-ED-10",
+          "06-ED-8-10",
+          "05-KI-8-10-11",
+          "04-KI-3-10-11"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 09-TO-4-9, Tony Dauer and his mother Helen are having a discussion in the room. Thunder strikes, Helen leaves, and Tony rummages through his pockets for something; we need to investigate Tony's previous actions.",
+            "node_name": "09-TO-4-9",
+            "tid": 31
+          },
+          {
+            "step": 2,
+            "info": "In 08-ED-4-10, Tony Dauer hands an important item to Eve Dauer for safekeeping, demands secrecy, and then leaves Edmund's room; having confirmed that Tony handed the item to Eve, we now need to understand how Eve came to be in Edmund's room.",
+            "node_name": "08-ED-4-10",
+            "tid": 9
+          },
+          {
+            "step": 3,
+            "info": "In 07-ED-10, Eve Dauer is resting alone in Edmund's room, asleep. After a knock on the door, she allows the visitor to enter; having confirmed that Eve is in Edmund's room, we must backtrack to determine how she got here.",
+            "node_name": "07-ED-10",
+            "tid": 8
+          },
+          {
+            "step": 4,
+            "info": "In 06-ED-8-10, Damian Maseko escorts the drunk Eve Dauer to Edmund's room to rest, and Eve asks for her younger brother to be called to accompany her. Having confirmed that Eve was brought here by Damian, it is necessary to find out who arranged this.",
+            "node_name": "06-ED-8-10",
+            "tid": 7
+          },
+          {
+            "step": 5,
+            "info": "In 05-KI-8-10-11, Damian Maseko informs Harry Thornton in the Kitchen that a death incident has occurred upstairs in the Study. Harry arranges for Damian to take Eve to Edmund's room before heading to the Study; having confirmed that Harry is the one who made the arrangements, it is necessary to investigate Harry's earlier interactions with Oswald.",
+            "node_name": "05-KI-8-10-11",
+            "tid": 6
+          },
+          {
+            "step": 6,
+            "answer": "In 04-KI-3-10-11, Oswald questions Harry Thornton in the Kitchen about the Chapel key, and Harry explicitly denies having it, offering to help search for it after dinner; therefore, Eve was taken to Edmund's room by Damian while she was drunk, and the butler Harry denies possessing the Chapel key to Oswald in the Kitchen.",
+            "node_name": "04-KI-3-10-11",
+            "tid": 26
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "question": "During a heated confrontation after trespassing into the Master Bedroom, Oswald voluntarily revealed to the hostess that Tony Dauer had a gun hidden in his nightstand — Please deduce: Prior to this, who personally confirmed the actual existence of this gun, and by what means? And where did Oswald give this visitor explicit guidance to go check Tony's room?",
+        "answer": "John Hobbes personally confirmed the existence of this gun: when he entered Tony Dauer's room to confront him directly, he discovered a police revolver in the drawer. It was Oswald who, during a private conversation with John in the Dining room, revealed that an important item \"sufficient to condemn Tony\" was hidden in the nightstand of Tony's room, thereby prompting John to go and verify it in person.",
+        "evidence": [
+          "T42:0",
+          "T21:0",
+          "T18:0"
+        ],
+        "category": 2,
+        "depth": 1,
+        "needs": [
+          "08-MA-3-5",
+          "10-TO-1-4",
+          "09-DI-1-3"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "08-MA-3-5",
+            "tid": 25,
+            "info": "During the heated confrontation after intruding into Martha Galley's bedroom, Oswald voluntarily revealed that a gun was hidden in Tony Dauer's nightstand, using this to support his assessment of the villa's current situation. However, based solely on this node, it cannot be confirmed whether anyone else had previously seen the gun firsthand, nor can it be determined to whom and where Oswald initially disclosed this information."
+          },
+          {
+            "step": 2,
+            "node_name": "10-TO-1-4",
+            "tid": 12,
+            "info": "John Hobbes enters Tony Dauer's room to confront him directly, unexpectedly finding a police revolver in the drawer, which completes the physical verification of Oswald's intel; however, it is necessary to trace further back to confirm where and how Oswald initially prompted John to head to Tony's room."
+          },
+          {
+            "step": 3,
+            "node_name": "09-DI-1-3",
+            "tid": 11,
+            "answer": "It was during his private conversation with John Hobbes in the Dining room that Oswald revealed there was an important item hidden in Tony Dauer's nightstand 'enough to condemn Tony,' guiding John to go and verify it himself—at this point, the circulation path of the information regarding the gun can be partially reconstructed: Oswald hints to John in the Dining room → John enters Tony's room and sees the gun for himself."
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "question": "Who did Damian Maseko notice leaving the table early during dinner, and under what pretext, prompting him to become suspicious of their movements?",
+        "answer": "Tony Dauer excused himself early during dinner under the pretext of \"needing to fetch something,\" and Damian Maseko immediately became alert to his movements.",
+        "evidence": [
+          "T30:0",
+          "T23:0",
+          "T20:0",
+          "T17:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "10-ED-8",
+          "09-VI-2-8",
+          "08-DI-2-7-8-9",
+          "07-DI-1-2-4-5-6-7-8-9"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "10-ED-8",
+            "tid": 17,
+            "info": "Damian Maseko enters Edmund Galley's room alone, calls out multiple times without receiving a response, and subsequently confirms something abnormal inside. Based solely on this node, it is impossible to reconstruct how he was guided step-by-step to this bedroom, nor can it be confirmed whether there were earlier suspicious signals before the theft of the pocket watch was made public."
+          },
+          {
+            "step": 2,
+            "node_name": "09-VI-2-8",
+            "tid": 13,
+            "info": "Damian Maseko directly questions Annie Beaumont in Victoria Maseko's room regarding the theft of the pocket watch. Annie denies involvement and shifts the suspicion to Tony Dauer, implying that the pocket watch might have already been hidden elsewhere. Why he questioned Annie in the first place, and whether he had clues before the pocket watch was publicly revealed, still needs to be traced further back."
+          },
+          {
+            "step": 3,
+            "node_name": "08-DI-2-7-8-9",
+            "tid": 12,
+            "info": "During dinner, Helen Dauer publicly stated that the pocket watch had been stolen, and Annie Beaumont's key statement was directly labeled as a lie. Damian Maseko immediately arranged to take Annie to Victoria's room for a private investigation—this marked the starting point of Damian officially launching his investigation. However, before the pocket watch was publicly reported missing, had someone's behavior already caught the attention of those present?"
+          },
+          {
+            "step": 4,
+            "node_name": "07-DI-1-2-4-5-6-7-8-9",
+            "tid": 11,
+            "answer": "Before the theft of the pocket watch was made public, Tony Dauer left the table early under the pretext of 'needing to fetch something.' Damian was already keeping an eye on his movements at the time and noticed that Eve Dauer was resting in Edmund's room. This was the initial trigger for the entire chain of investigation—Tony's suspicious departure raised alarms, followed by the revelation of the stolen pocket watch. The investigation then spread from the dinner table to Victoria's room and finally to Edmund's bedroom."
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "question": "Helen Dauer confides in another woman that her pocket watch is still missing, and shares family memories related to it—please deduce: prior to Helen's confiding, what series of investigative actions took place regarding this pocket watch, and what unexpected discovery of a corpse did it lead to in the process? Please start from the initial suspicious signal and provide the complete chain of actions.",
+        "answer": "Initial trigger: During dinner, Tony Dauer left the table early claiming he \"needed to fetch something,\" and Damian was already on alert regarding his movements. Subsequently, Helen publicly reported her pocket watch missing, and Damian arranged to question Annie—Annie lied and directed the suspicion toward Tony. Acting on this, Damian entered Edmund's room; receiving no response upon entering, he discovered the corpse of a young woman (the investigation accidentally triggered the discovery of the body). Meanwhile, the pocket watch remained missing, leaving Helen with no choice but to confide in others.",
+        "evidence": [
+          "T70:0",
+          "T30:0",
+          "T23:0",
+          "T20:0",
+          "T17:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "10-LI-7-9",
+          "10-ED-8",
+          "09-VI-2-8",
+          "08-DI-2-7-8-9",
+          "07-DI-1-2-4-5-6-7-8-9"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "10-LI-7-9",
+            "tid": 35,
+            "info": "Helen Dauer confides in Victoria Maseko that her pocket watch is still missing, and shares family memories related to it; from this node alone, it is impossible to determine what steps were taken to investigate the theft of the pocket watch, nor is it possible to know if any unexpected discoveries were made during the process."
+          },
+          {
+            "step": 2,
+            "node_name": "10-ED-8",
+            "tid": 17,
+            "info": "During the search for the pocket watch, Damian Maseko entered Edmund Galley's room alone. After receiving no response to his calls, he confirmed the presence of a young woman's corpse inside—this indicates that the pursuit of the pocket watch unexpectedly triggered the discovery of another body. However, how Damian was guided step by step to this bedroom still needs to be traced back."
+          },
+          {
+            "step": 3,
+            "node_name": "09-VI-2-8",
+            "tid": 13,
+            "info": "In Victoria's room, Damian Maseko directly questioned Annie Beaumont about the theft of the pocket watch. Annie denied involvement and shifted the suspicion to Tony Dauer, implying the watch had already been hidden elsewhere; this establishes the direct preceding step before Damian entered Edmund's bedroom."
+          },
+          {
+            "step": 4,
+            "node_name": "08-DI-2-7-8-9",
+            "tid": 12,
+            "info": "During dinner, Helen Dauer publicly reported the theft of the pocket watch, and Annie's key statement was determined to be a lie. Damian immediately arranged a private investigation into Annie, officially launching the search for the pocket watch. However, even before the pocket watch was publicly reported missing, someone's suspicious behavior had already drawn attention at the scene."
+          },
+          {
+            "step": 5,
+            "node_name": "07-DI-1-2-4-5-6-7-8-9",
+            "tid": 11,
+            "answer": "During dinner, Tony Dauer left the table early, claiming he \"needed to fetch something,\" and Damian was already alert to his movements at the time—this was the initial trigger for the entire chain of events; subsequently, the theft of the pocket watch was made public (at the dinner table) → the investigation spread to Victoria's room (questioning Annie) → Damian entered Edmund's bedroom and discovered the body, while Helen's pocket watch remains unrecovered."
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "question": "In the argument in the Billiard room, a mother threatens someone by claiming \"my son has a gun\"—please reconstruct the complete transmission chain of the clue regarding this gun, from its initial revelation, to its re-confirmation, and finally to its use as a threat on the spot, and explain where the gun is believed to be hidden.",
+        "answer": "The chain of information is as follows: First, during the bedroom conflict, Oswald pointed out that a gun was hidden in the nightstand of Tony's room; subsequently, during his confrontation with Tony, John opened the drawer and saw for himself that it was a police revolver; later, in her conversation with Tony, Martha revealed that she also knew he had a gun and hoped he would take \"her side\"; finally, during the argument in the Billiard room, Helen turned this information into a threat by stating, \"My son has a gun.\" The gun is believed to be hidden in the nightstand/drawer of Tony's room.",
+        "evidence": [
+          "T29:0",
+          "T55:0",
+          "T21:0",
+          "T42:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "11-BI-6-9",
+          "11-TO-4-5",
+          "10-TO-1-4",
+          "08-MA-3-5"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "11-BI-6-9",
+            "tid": 16,
+            "info": "The threat \"my son has a gun\" appears here, but this node itself does not provide the full process of how the gun was initially revealed and verified."
+          },
+          {
+            "step": 2,
+            "node_name": "11-TO-4-5",
+            "tid": 30,
+            "info": "Shortly before the scream, the conversation between Martha and Tony explicitly mentions that she knows Tony has a gun, and she attempts to turn 'having a gun' into a bargaining chip against unknown threats, but it still lacks the 'earliest source' and 'physical verification'."
+          },
+          {
+            "step": 3,
+            "node_name": "10-TO-1-4",
+            "tid": 12,
+            "info": "In an earlier confrontation, John directly discovered a police revolver in Tony's drawer, providing physical verification for the \"gun hidden in the nightstand/drawer\" detail."
+          },
+          {
+            "step": 4,
+            "node_name": "08-MA-3-5",
+            "tid": 25,
+            "answer": "The initial revelation stems from the bedroom conflict: Oswald points out on the spot that a gun is hidden in the nightstand of Tony's room. Combined with the physical discovery in 10-TO-1-4 and the re-confirmation in 11-TO-4-5, this explains why Helen could use \"my son has a gun\" as a threat in 11-BI-6-9, and pinpoints that the gun is hidden in the nightstand/drawer in Tony's room."
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "question": "From the public announcement of the pocket watch's theft, to someone hinting they might know its whereabouts, and finally to someone stating \"the pocket watch has been found but is unimportant\"—please trace the chronological sequence of how this clue was passed along across four key scenes (who passed the information to whom and where).",
+        "answer": "The sequence is: In the public scene in the Dining room, Helen first announces that items were stolen from her bedroom and confirms the stolen item is a pocket watch; then, in an earlier conversation in the Living room, Tony privately shows the pocket watch to Annie and explains its origin and his motive; later, during a conversation downstairs",
+        "evidence": [
+          "T24:0",
+          "T20:0",
+          "T25:0",
+          "T54:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "11-LI-1-7-8",
+          "08-DI-2-7-8-9",
+          "06-LI-2-9",
+          "05-AT-2-4"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "11-LI-1-7-8",
+            "tid": 13,
+            "info": "The final state appears here: Victoria asks about the whereabouts of the pocket watch, and Damian replies that it has been recovered but is unimportant; however, this node cannot explain how the theft of the pocket watch was initially brought up, nor how the news spread throughout the house."
+          },
+          {
+            "step": 2,
+            "node_name": "08-DI-2-7-8-9",
+            "tid": 12,
+            "info": "The theft was first publicly confirmed: Helen explicitly stated in the Dining room that the pocket watch was stolen, thereby making the 'stolen pocket watch' a shared clue for the entire household."
+          },
+          {
+            "step": 3,
+            "node_name": "06-LI-2-9",
+            "tid": 14,
+            "info": "During the subsequent exchange, Annie hints to Helen that she might know the whereabouts of the pocket watch (forming the intermediate node 'Someone may know its whereabouts'), laying the groundwork for the later 'Recovered' state."
+          },
+          {
+            "step": 4,
+            "node_name": "05-AT-2-4",
+            "tid": 30,
+            "answer": "An earlier private source is Tony: he had shown the pocket watch to Annie and discussed his relationship with his mother, establishing the foundation for Annie to 'potentially know its whereabouts'. Only by combining the public theft in 08-DI, the hints in 06-LI, and Damian's response to Victoria in 11-LI, can the complete transmission chain of the pocket watch clue be mapped out, rather than drawing a conclusion from just a single node."
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "question": "After the scream from the Billiard room, who rushed to the scene from two different rooms respectively? Furthermore, upon discovering the new corpse at the scene, what temporary arrangement did everyone adopt to \"scatter for self-protection\"?",
+        "answer": "The three people who hurried from the Living room were John, Victoria, and Damian; the two who hurried from Oswald's bedroom were Annie and Oswald. After the discovery of a new corpse in the Billiard room, Damian suggested that everyone return to their respective rooms, lock the doors from the inside, and wait for dawn.",
+        "evidence": [
+          "T31:0",
+          "T24:0",
+          "T28:0"
+        ],
+        "category": 2,
+        "depth": 1,
+        "needs": [
+          "12-BI-1-2-3-4-5-7-8-9",
+          "11-LI-1-7-8",
+          "11-OS-2-3"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "12-BI-1-2-3-4-5-7-8-9",
+            "tid": 17,
+            "info": "This documents the chaos following the discovery of the new corpse in the Billiard room and the final arrangement to 'return to rooms and lock the doors', but this node alone is insufficient to reconstruct exactly who rushed to the scene and from where."
+          },
+          {
+            "step": 2,
+            "node_name": "11-LI-1-7-8",
+            "tid": 13,
+            "info": "This node establishes the first group of people to rush to the scene and their starting location: upon hearing the scream, John, Victoria, and Damian immediately rushed out of the Living room towards the Billiard room."
+          },
+          {
+            "step": 3,
+            "node_name": "11-OS-2-3",
+            "tid": 15,
+            "answer": "This node reveals the second group of people rushing to the scene and their starting point: Annie and Oswald left immediately to investigate after hearing the scream from the Billiard room while in Oswald's room. Combined with Damian's proposal to \"return to respective rooms and lock the doors\" in 12-BI, this fully answers \"where the two groups arrived at the scene from, and what dispersed self-protection arrangement was adopted at the scene.\""
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "question": "Before discovering the new corpse in the Billiard room and deciding to return to their respective rooms and lock the doors, what was the focus of the argument prior to the scream? After the scream, who rushed to the scene from two separate rooms, and ultimately, who proposed what kind of self-preservation plan?",
+        "answer": "Before the scream, the argument centered on the return of an engagement ring and the whereabouts of a young woman (referred to as a daughter), eventually escalating into a gunpoint threat. After the scream, John, Victoria, and Damian rushed from the Living room to the Billiard room, while Annie and Oswald hurried from Oswald's bedroom to the Billiard room. Ultimately, Damian proposed that everyone return to their respective rooms, lock the doors from the inside, and wait for dawn.",
+        "evidence": [
+          "T31:0",
+          "T24:0",
+          "T28:0",
+          "T29:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "12-BI-1-2-3-4-5-7-8-9",
+          "11-LI-1-7-8",
+          "11-OS-2-3",
+          "11-BI-6-9"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "12-BI-1-2-3-4-5-7-8-9",
+            "tid": 17,
+            "info": "This presents the gathering after the scream, the fourth corpse, and the conclusion to 'return to the rooms and lock the doors,' but it is missing two crucial preceding elements: the 'focus of the argument prior to the scream' and 'where everyone rushed in from.'"
+          },
+          {
+            "step": 2,
+            "node_name": "11-LI-1-7-8",
+            "tid": 13,
+            "info": "The three people in the Living room heard the scream and decided to rush out, establishing a group of arrivals and their starting location; it also confirms that the scream indeed came from the direction of the Billiard room."
+          },
+          {
+            "step": 3,
+            "node_name": "11-OS-2-3",
+            "tid": 15,
+            "info": "The two people in Oswald's bedroom also heard the scream from the Billiard room and left to investigate. Complete the second group of arrivals and their starting location."
+          },
+          {
+            "step": 4,
+            "node_name": "11-BI-6-9",
+            "tid": 16,
+            "answer": "The argument before the scream took place in the Billiard room: the interrogation regarding the ring and the whereabouts of the 'daughter' escalated, with Helen even threatening him with her son's gun, ultimately concluding with a scream. Combining the focus of this argument with the locations from which the two groups rushed to the scene (11-LI, 11-OS), as well as Damian's proposal after the scream for everyone to 'return to their rooms and lock the doors' (12-BI), is necessary to fully answer the question."
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "question": "Based on the nighttime status records of all guests that night, please specify which two rooms were confirmed to have \"no abnormalities\" due to what security measures or statuses, and identify the specific room where the only \"outside intrusion\" event occurred, as well as the specific item inside it that was triggered.",
+        "answer": "The Attic where Annie stayed is ruled out because she locked the door, closed the window, and fell asleep peacefully; the Study where John stayed is ruled out because he locked the door and fell asleep after confirming there was no corpse in the room. The only place where an outside intrusion occurred was Tony's room, and the drawers inside were tampered with.",
+        "evidence": [
+          "T38:0",
+          "T32:0",
+          "T33:0"
+        ],
+        "category": 3,
+        "depth": 1,
+        "needs": [
+          "13-TO-4-6",
+          "13-AT-2",
+          "13-ST-1"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "13-TO-4-6",
+            "tid": 21,
+            "info": "This node presents the anomalous event of \"someone entering through the secret door and opening the drawer,\" but to answer \"why this can be pinpointed as the only anomalous room,\" we must first rule out the nighttime status of the other guests."
+          },
+          {
+            "step": 2,
+            "node_name": "13-AT-2",
+            "tid": 18,
+            "info": "This node establishes that Annie fell asleep peacefully after locking herself in the Attic alone and closing the window. The narrator confirms that no anomalies occurred during this period, constituting the first piece of exclusionary evidence."
+          },
+          {
+            "step": 3,
+            "node_name": "13-ST-1",
+            "tid": 18,
+            "answer": "This node clarifies that John locked himself in the Study alone, confirmed there was no corpse in the room, and went to sleep without any anomalies; by comparing this with the peaceful night in 13-AT-2, and then contrasting it with the 'secret door intrusion' in 13-TO-4-6, we can strictly conclude: the only anomaly involving an outside intrusion and tampered drawers occurred in Tony's room."
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "question": "When a couple locks their door from the inside to sleep at night, the man suddenly expresses clear suspicion towards a visitor, mentioning two specific points: the \"pocket watch clue\" and \"the presence of the deceased's son\"—who does he suspect?",
+        "answer": "The person he suspects is John Hobbes.",
+        "evidence": [
+          "T34:0",
+          "T03:0",
+          "T33:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "13-VI-7-8",
+          "03-LI-1-4-5-6-7-8-9",
+          "13-ST-1"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "13-VI-7-8",
+            "tid": 18,
+            "info": "This node reveals suspicions regarding 'a certain visitor' during the late-night conversation. However, to answer who the suspected individual is, it is necessary to trace back this visitor's identity and their role within the villa."
+          },
+          {
+            "step": 2,
+            "node_name": "03-LI-1-4-5-6-7-8-9",
+            "tid": 2,
+            "info": "Earlier in the Living room scene, the visitor stated that he came because of an invitation and was looking for Rupert, thereby locking down the identity clue for \"that visitor\"."
+          },
+          {
+            "step": 3,
+            "node_name": "13-ST-1",
+            "tid": 18,
+            "answer": "The night visitor was arranged to rest alone in the Study with the door locked from the inside (separated from the others), which corroborates the account of \"suspecting the visitor\" in 13-VI-7-8; combined with the previous step of identifying the visitor, it can be determined that the suspected individual is John Hobbes."
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "question": "After the nighttime secret door intrusion in Tony's room, combined with the information revealed by Oswald in Martha's bedroom, what specific item can be deduced as the intruder's objective when rummaging through the drawers?",
+        "answer": "The intruder rummaged through the drawers to find the gun Tony had hidden in the nightstand. This information was revealed by Oswald during the argument in Martha's bedroom, and the nighttime intrusion directly corresponds to the disappearance of the gun.",
+        "evidence": [
+          "T38:0",
+          "T16:0",
+          "T03:0",
+          "T01:0",
+          "T42:0"
+        ],
+        "category": 2,
+        "depth": 3,
+        "needs": [
+          "13-TO-4-6",
+          "02-AT-2-4",
+          "03-LI-1-4-5-6-7-8-9",
+          "01-QU-1-11",
+          "08-MA-3-5"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "info": "In 13-TO, there are signs of drawers being rummaged through at night and movement through the secret door, but the source cannot be determined from this single node alone.",
+            "node_name": "13-TO-4-6",
+            "tid": 27
+          },
+          {
+            "step": 2,
+            "info": "In 02-AT, the precedent of accidentally triggered devices and mechanisms in the Attic proves that triggerable mechanisms exist inside the room.",
+            "node_name": "02-AT-2-4",
+            "tid": 11
+          },
+          {
+            "step": 3,
+            "info": "01-QU confirms that the visitor is stranded and unable to leave freely due to the vehicle breakdown and heavy storm.",
+            "node_name": "01-QU-1-11",
+            "tid": 1
+          },
+          {
+            "step": 4,
+            "answer": "08-MA previously revealed the clue about Tony Dauer's hidden gun (in his own room's bedside cabinet); only by combining this with the previous four steps can we rule out an outside intruder and confirm that the secret door mechanism was used. Missing any single step would make it impossible to rule out an external explanation.",
+            "node_name": "08-MA-3-5",
+            "tid": 25
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "question": "Based on the record of items stored in the room and the unusual activity during the night, please detail the complete path of the crime that led to the young man discovering his police revolver missing in the early morning, and identify the specific architectural features utilized in this path.",
+        "answer": "The path of the crime involved someone sneaking in through the secret door in the room (an architectural feature), opening the drawer where the handgun was stored, and taking the police revolver. The entire process occurred unnoticed while the young man was fast asleep.",
+        "evidence": [
+          "T36:0",
+          "T38:0",
+          "T21:0"
+        ],
+        "category": 3,
+        "depth": 1,
+        "needs": [
+          "14-AT-2-4",
+          "13-TO-4-6",
+          "10-TO-1-4"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "14-AT-2-4",
+            "tid": 20,
+            "info": "Here is the result: the gun is missing and the lock appears to have been opened, but this alone cannot explain 'where the gun was taken from and how it was taken'."
+          },
+          {
+            "step": 2,
+            "node_name": "13-TO-4-6",
+            "tid": 21,
+            "info": "This node completes the key mechanism: the secret door is opened during the night, someone enters the room, opens the drawer, and takes the item without waking the room's occupant."
+          },
+          {
+            "step": 3,
+            "node_name": "10-TO-1-4",
+            "tid": 12,
+            "answer": "It was previously confirmed that a police revolver was indeed stored in the drawer of this room; only by combining 'items taken from the drawer via the secret door at night (13-TO)' with 'police revolver confirmed in the drawer (10-TO)' can we explain why the gun in 14-AT went missing during deep sleep and the most likely method by which it was taken."
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "question": "After discovering the corpse and the pocket watch in the locked room, which two preceding event nodes' information must be combined to rigorously prove that this pocket watch is the exact one that was previously stolen? Please also specify the ultimately confirmed owner of the pocket watch and its specific characteristics.",
+        "answer": "It is necessary to combine these two nodes: Helen publicly confirming the theft of the pocket watch in the Dining room (establishing the baseline of the theft), and someone hinting to Helen that they knew the whereabouts of the pocket watch (confirming the pocket watch was changing hands); this ultimately confirms that the pocket watch belongs to Helen Dauer and is the exact same item previously declared stolen.",
+        "evidence": [
+          "T35:0",
+          "T20:0",
+          "T25:0"
+        ],
+        "category": 2,
+        "depth": 1,
+        "needs": [
+          "15-VI-1-2-4-5-7",
+          "08-DI-2-7-8-9",
+          "06-LI-2-9"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "15-VI-1-2-4-5-7",
+            "tid": 19,
+            "info": "This node only provides the result of \"a corpse appearing in a locked room + a pocket watch being found,\" but it alone cannot prove that this watch is the same one from the previous theft."
+          },
+          {
+            "step": 2,
+            "node_name": "08-DI-2-7-8-9",
+            "tid": 12,
+            "info": "The earlier theft is publicly confirmed for the first time: the owner explicitly states in the Dining room that the pocket watch was stolen, establishing the 'pocket watch theft' as a public baseline for comparison."
+          },
+          {
+            "step": 3,
+            "node_name": "06-LI-2-9",
+            "tid": 14,
+            "answer": "Later, someone proactively hinted to the owner that they might know the whereabouts of the pocket watch, indicating that the watch was indeed circulating within the house and might reappear. Only by combining \"public confirmation of the theft (08-DI) + someone possessing clues to its whereabouts (06-LI)\" with \"the pocket watch appearing in a locked room\" in 15-VI, can it be rigorously confirmed that the watch is indeed the owner's pocket watch."
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "question": "On the same morning, a woman is first awakened by piano music and calls out to others. Subsequently, her door is confirmed to have been locked from the inside all night, yet a new corpse has appeared. To explain why these two events are considered the \"precursor → result\" of the same series of anomalies, which three key records need to be traced back?",
+        "answer": "Backtracking required: The sudden piano music before dawn triggered shouts and prompted others to mobilize; upon hearing the piano music and shouts, someone immediately left to intervene; ultimately, a new corpse and a pocket watch were discovered in the locked room. Only by linking these three records can the piano music be viewed as an anomalous precursor, and the corpse in the locked room as the anomalous result.",
+        "evidence": [
+          "T35:0",
+          "T37:0",
+          "T39:0",
+          "T40:0",
+          "T61:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "15-VI-1-2-4-5-7",
+          "14-VI-7",
+          "14-LI-6",
+          "14-DI-1-3-5",
+          "01-ST-12"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "15-VI-1-2-4-5-7",
+            "tid": 19,
+            "info": "This node presents the outcome of the locked-room corpse and the pocket watch, but to link it with the earlier piano sound as a 'precursor → result' sequence, it must be proven that the piano sound indeed triggered actions throughout the entire house."
+          },
+          {
+            "step": 2,
+            "node_name": "14-VI-7",
+            "tid": 20,
+            "info": "The woman being awakened by the piano music before dawn and calling out to others constitutes a direct precursor to the anomaly."
+          },
+          {
+            "step": 3,
+            "node_name": "14-LI-6",
+            "tid": 22,
+            "info": "After hearing the same piano music and shouting, someone immediately left the Living room to intervene, indicating that the piano sound was not irrelevant noise, but a trigger for action."
+          },
+          {
+            "step": 4,
+            "node_name": "14-DI-1-3-5",
+            "tid": 24,
+            "info": "The sound of the piano also interrupts the morning public scenes and alters the group dynamics, reinforcing its characteristic of 'recurring and intervening at critical moments'."
+          },
+          {
+            "step": 5,
+            "node_name": "01-ST-12",
+            "tid": 32,
+            "answer": "The earlier narrative has already linked the specific piano piece to a key memory, establishing the conditions for the track to be recognizable and exploitable. Therefore, only by combining \"recognizable repeated track (01-ST) + pre-dawn triggered shout (14-VI) + others immediately mobilizing (14-LI) + final appearance of the corpse in the locked room (15-VI)\" can we rigorously explain why these two events are considered the precursor and result of the same chain of anomalies."
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "question": "To establish an emergency gathering signal, someone suggested, \"Play the piano, and everyone should gather.\" — For this plan to hold up logically, which three pieces of evidence must be traced back to prove that the piano sound is sufficiently \"identifiable, actionable, and capable of interrupting public scenes\"?",
+        "answer": "The chain of evidence is: an earlier specific piano piece is tied to a key memory, making it recognizable; the pre-dawn piano music can directly jolt someone awake and elicit a shout, proving it can trigger an action; the morning piano music can also interrupt breakfast conversations and crowd dynamics, proving it can disrupt public scenes. Therefore, it is reasonable to use the piano as an emergency assembly signal.",
+        "evidence": [
+          "T41:0",
+          "T37:0",
+          "T40:0",
+          "T61:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "16-KI-1-2-3-4-6",
+          "14-VI-7",
+          "14-DI-1-3-5",
+          "01-ST-12"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "16-KI-1-2-3-4-6",
+            "tid": 24,
+            "info": "This node proposes 'using the piano as an emergency gathering signal', but its feasibility needs to be supported by evidence."
+          },
+          {
+            "step": 2,
+            "node_name": "14-VI-7",
+            "tid": 20,
+            "info": "The piano music before dawn was able to directly jolt someone awake and trigger a shout, proving that the piano sound has a strong action-triggering effect."
+          },
+          {
+            "step": 3,
+            "node_name": "14-DI-1-3-5",
+            "tid": 24,
+            "info": "The morning piano music could even interrupt the public conversation in the Dining room and alter crowd dynamics, proving that it can intervene in public scenes."
+          },
+          {
+            "step": 4,
+            "node_name": "01-ST-12",
+            "tid": 32,
+            "answer": "The earlier narrative binds a specific piano piece to the memories of key characters; only by combining 'able to trigger action (14-VI) + able to interrupt public scenes (14-DI)' can the plausibility of 'using the piano as an emergency assembly signal' in 16-KI be rigorously supported."
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "question": "After investigating the Attic, Tony claims to have figured out the truth and leaves in a hurry, asking the investigator to pass this message on to Annie. Based on the previous plot, please explain why Tony chose Annie as the recipient of his key conclusion?",
+        "answer": "Because Tony privately showed Annie the stolen pocket watch and confessed its origin, allowing her to learn his secret; and since Annie maintained private communication and acted together with him regarding the pocket watch clues, the two established a strong alliance.",
+        "evidence": [
+          "T47:0",
+          "T54:0",
+          "T25:0",
+          "T23:0",
+          "T43:0",
+          "T50:0"
+        ],
+        "category": 2,
+        "depth": 3,
+        "needs": [
+          "18-AT-1-4",
+          "05-AT-2-4",
+          "06-LI-2-9",
+          "09-VI-2-8",
+          "17-KI-2-3-4",
+          "18-VI-2-7"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "18-AT-1-4",
+            "tid": 26,
+            "info": "This node presents the action of Tony Dauer claiming he has solved the truth and asking John Hobbes to relay this message to Annie Beaumont, who is about to arrive at the Attic."
+          },
+          {
+            "step": 2,
+            "node_name": "05-AT-2-4",
+            "tid": 30,
+            "info": "Earlier, he had privately shown the pocket watch to that woman and confessed its origin."
+          },
+          {
+            "step": 3,
+            "node_name": "06-LI-2-9",
+            "tid": 14,
+            "info": "Subsequently, the woman hinted to the owner that she might know the whereabouts of the pocket watch, proving that she was not only aware of the situation but also capable of maneuvering around crucial clues."
+          },
+          {
+            "step": 4,
+            "node_name": "09-VI-2-8",
+            "tid": 13,
+            "info": "During further questioning, it was mentioned that the two had been whispering privately during dinner."
+          },
+          {
+            "step": 5,
+            "node_name": "17-KI-2-3-4",
+            "tid": 25,
+            "info": "When the situation escalates to the point of requiring 'persuasion/division of labor', she remains a core organizer and decision-maker, capable of receiving key conclusions and taking action."
+          },
+          {
+            "step": 6,
+            "node_name": "18-VI-2-7",
+            "tid": 28,
+            "answer": "Only by combining 'holding secrets (05-AT) + ability to navigate clues (06-LI) + long-term private communication (09-VI) + ability to organize actions (17-KI)' can we explain without any logical leaps: why he specifically requested that the message about 'uncovering the truth' be passed on to her."
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "question": "After reuniting in the Attic, the telephone rang, and the two immediately decided to split up: one to answer the phone, and the other to confirm the hostess's safety—why did they divide the tasks like this?",
+        "answer": "Because the ringing telephone provided a channel for outside information, it needed to be answered immediately by someone proactive and capable of communicating with the outside world; meanwhile, the hostess might be in danger (having just been in the same room with a key figure in the previous segment, while abnormal deaths continue to occur), requiring another person to check on her immediately. The simultaneous emergence of two urgent objectives forced the two to split up.",
+        "evidence": [
+          "T48:0",
+          "T62:0",
+          "T44:0",
+          "T51:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "19-AT-1-2",
+          "19-KI-3-5",
+          "17-MA-1-5",
+          "20-DI-1"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "19-AT-1-2",
+            "tid": 27,
+            "info": "This node presents the outcome of \"telephone ring + splitting up\", but fails to adequately explain why the hostess is presumed to be in danger, or why the phone requires an immediate response."
+          },
+          {
+            "step": 2,
+            "node_name": "19-KI-3-5",
+            "tid": 32,
+            "info": "Earlier, the hostess had already broken down due to the photograph and the ghost phenomena and sought help from Oswald. Furthermore, the repeatedly ringing telephone and the thunder warning that time is running out indicate that she was in a state of high risk and extreme stress."
+          },
+          {
+            "step": 3,
+            "node_name": "17-MA-1-5",
+            "tid": 25,
+            "info": "Earlier, the hostess also denied information regarding the wedding and emphasized not to trust Oswald, indicating that the information inside the house is extremely chaotic and requires external verification."
+          },
+          {
+            "step": 4,
+            "node_name": "20-DI-1",
+            "tid": 28,
+            "answer": "The subsequent phone call received was from an outside relative (Annie's mother) and brought a promise of external assistance, proving that the telephone is indeed a crucial entry point for external information. Combining this with the \"hostess in high danger\" from 19-KI and the \"triggered by the ringing phone\" from 19-AT is the only way to rigorously explain why an immediate division of labor was necessary at that time: one person to answer the phone to obtain outside support, and the other to confirm the hostess's safety."
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "question": "To prove that \"burning the photos\" is not superstition but an emergency measure to deal with the escalating situation, which specific clues need to be combined to deduce this?",
+        "answer": "Since the sound of thunder has become a signal of death, and strong anomalies such as thunder without rain and the dead girl's bedroom have appeared in the Attic, coupled with Oswald's warning that the ghosts will grow stronger, Martha must immediately burn the photograph to stop the crisis.",
+        "evidence": [
+          "T62:0",
+          "T66:0",
+          "T47:0",
+          "T67:0",
+          "T24:0",
+          "T20:0"
+        ],
+        "category": 3,
+        "depth": 3,
+        "needs": [
+          "19-KI-3-5",
+          "18-MA-5-6",
+          "18-AT-1-4",
+          "20-LI-2-5",
+          "11-LI-1-7-8",
+          "08-DI-2-7-8-9"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "19-KI-3-5",
+            "tid": 32,
+            "info": "This node proposes the emergency plan of 'burning the photos/related items', but to justify it, we need to establish 'why the anomalies are escalating and why time is running out'."
+          },
+          {
+            "step": 2,
+            "node_name": "18-MA-5-6",
+            "tid": 33,
+            "info": "Earlier, the thunder was taken as a signal of someone's death, and it directly reinforced the shared perception during the conversation that 'time is running out'."
+          },
+          {
+            "step": 3,
+            "node_name": "18-AT-1-4",
+            "tid": 26,
+            "info": "The emergence of strong anomalies during the Attic investigation—'a dead girl's bedroom' and thunder without rain—indicates that the situation is indeed escalating."
+          },
+          {
+            "step": 4,
+            "node_name": "20-LI-2-5",
+            "tid": 33,
+            "info": "Furthermore, someone collapsing after the thunder while the piano continues to play by itself further proves that the anomaly can suddenly \"claim lives\" in public areas, increasing the necessity for emergency measures."
+          },
+          {
+            "step": 5,
+            "node_name": "11-LI-1-7-8",
+            "tid": 13,
+            "info": "In this node, upon hearing voices and a scream from the Billiard room, the three immediately rushed out, demonstrating that unusual sounds prompted immediate action, indicating that any delay would pose a risk."
+          },
+          {
+            "step": 6,
+            "node_name": "08-DI-2-7-8-9",
+            "tid": 12,
+            "answer": "Even earlier, during the public scene in the Dining room, it was already confirmed that the bedroom had been burglarized and anomalies had begun to invade daily life; only by linking 'anomaly invasion (08-DI) + death signal thunder (18-MA/20-LI) + severe anomaly escalation (18-AT) + urgent time limit (19-KI)' can \"burning the photo\" become an unskippable risk mitigation conclusion, rather than a mere superstitious slogan."
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "question": "After hearing the piano, Tony immediately decided to rescue the person locked in the pantry and assigned them to handle a key location. To demonstrate that this was not a sudden impulse, but an inevitable action driven by long-term clues, which five-step chain of \"key → trapped person → key location\" needs to be connected?",
+        "answer": "The chain of events is: Earlier, Oswald was locked in the pantry by the gunman → Then Oswald pointed out that the only place that might hold the answers is the Chapel, and he has the key on him → Therefore, the group must get the pantry key to rescue him → Tony forcefully demanded the key in the Dining room for this purpose → Finally, after the piano sounded and the situation escalated, Tony opened the pantry to let him out, and told Oswald to deal with the Chapel.",
+        "evidence": [
+          "T59:0",
+          "T43:0",
+          "T41:0",
+          "T56:0",
+          "T31:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "20-KI-3-4",
+          "17-KI-2-3-4",
+          "16-KI-1-2-3-4-6",
+          "19-DI-4-6",
+          "12-BI-1-2-3-4-5-7-8-9"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "20-KI-3-4",
+            "tid": 31,
+            "info": "This node records Tony freeing Oswald and having him deal with the Chapel, but without tracing back 'why it had to be Oswald who went to the Chapel, and why he had to be rescued first,' it becomes a purely result-oriented narrative."
+          },
+          {
+            "step": 2,
+            "node_name": "17-KI-2-3-4",
+            "tid": 25,
+            "info": "Earlier, Oswald explicitly pointed out that the only place that might hold the answers is the Chapel, and that he has the key on him, but his confinement prevents him from going there."
+          },
+          {
+            "step": 3,
+            "node_name": "16-KI-1-2-3-4-6",
+            "tid": 24,
+            "info": "Oswald being locked in the pantry earlier was a result of the armed man's decision to restrain him, making \"rescuing him\" a hard prerequisite for advancing the clues."
+          },
+          {
+            "step": 4,
+            "node_name": "19-DI-4-6",
+            "tid": 30,
+            "info": "Later on, Tony forcefully demanded the pantry key during the conflict in the Dining room, indicating that he had already come to view 'rescuing Oswald' as the key step to solving the problem."
+          },
+          {
+            "step": 5,
+            "node_name": "12-BI-1-2-3-4-5-7-8-9",
+            "tid": 17,
+            "answer": "After the earlier out-of-control escalation where everyone experienced \"discovering a new corpse → scattering and locking themselves in\", the action strategy shifted from self-preservation to actively solving the puzzle. Only by combining this background of escalation with \"the Chapel is the only answer (17-KI) + Oswald is trapped and holds the key (16-KI) + Tony continuously demands the key (19-DI)\" can we rigorously explain why, in 20-KI, Tony inevitably had to rescue Oswald at this moment and divide the work to deal with the Chapel."
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "question": "Someone in the Living room said they had memorized the list but suddenly their mind went blank; earlier, another person had emphasized that \"writing the names of the living on paper is the only clue,\" and was forgotten after their death—please explain using a six-step chain: why does \"relying on memory\" fail, while \"writing it on paper\" becomes the only reliable method instead.",
+        "answer": "Because of the \"death triggers amnesia/memory erasure\" mechanism: once a person dies, all related memories are wiped from the survivors' minds, rendering internal memory carriers like memorization ineffective. Only by writing names on paper as external physical evidence can one bypass the amnesia and expose the memory gaps, making a written list the only reliable method.",
+        "evidence": [
+          "T67:0",
+          "T48:0",
+          "T50:0",
+          "T49:0",
+          "T24:0",
+          "T20:0"
+        ],
+        "category": 2,
+        "depth": 3,
+        "needs": [
+          "20-LI-2-5",
+          "19-AT-1-2",
+          "18-VI-2-7",
+          "00-list-of-names",
+          "11-LI-1-7-8",
+          "08-DI-2-7-8-9"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "20-LI-2-5",
+            "tid": 33,
+            "info": "A crucial phenomenon appears in this node: Annie claims she once memorized the list but her mind is now completely blank; to explain why, we must trace back the origin of the list and the mechanism behind her forgetting."
+          },
+          {
+            "step": 2,
+            "node_name": "19-AT-1-2",
+            "tid": 27,
+            "info": "Earlier, when they met up in the Attic, Annie explicitly mentioned finding a list and pointed out that it contained names she didn't recognize."
+          },
+          {
+            "step": 3,
+            "node_name": "18-VI-2-7",
+            "tid": 28,
+            "info": "The earlier list is defined as 'the names of all living people' and serves as the only clue, explicitly stating that \"one will be forgotten after death\"."
+          },
+          {
+            "step": 4,
+            "node_name": "00-list-of-names",
+            "tid": 28,
+            "info": "The list exists as an independent document, meaning it can retain information even when individual memory fails."
+          },
+          {
+            "step": 5,
+            "node_name": "11-LI-1-7-8",
+            "tid": 13,
+            "info": "Earlier, everyone exhibited a high-stress response to unusual noises."
+          },
+          {
+            "step": 6,
+            "node_name": "08-DI-2-7-8-9",
+            "tid": 12,
+            "answer": "The background of the \"abnormal invading the everyday\" and unreliable information (theft, chaos) had already appeared earlier in the public scenes; only by combining this with \"forgetting after death (18-VI) + the list revealing a gap (19-AT) + the current failure of recitation (20-LI)\" can it be explained without skipping any logical steps: internal memories are erased, hence the failure of recitation; whereas the paper list, as external physical evidence, becomes the only reliable method."
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "question": "During the group discussion, someone kept emphasizing that they \"couldn't remember names\" while arguing with the armed individual; then, following a clap of thunder, the armed individual died on the spot—why is \"not being able to remember names\" in this segment considered an ongoing curse effect rather than mere panic? Please provide the complete chain of evidence.",
+        "answer": "Because this is no ordinary panic: a stable correspondence of \"thunder = death\" has already been established. At the same time, the mechanism of \"being forgotten/memories being erased after death\" has been foreshadowed, requiring the use of a paper list to combat memory gaps. Therefore, when the phenomenon of \"forgetting names\" reappears in time segment 21, immediately followed by thunder taking away one of the individuals present, it aligns much more with the effect of a curse erasing memories rather than mere emotional fluctuation.",
+        "evidence": [
+          "T53:0",
+          "T67:0",
+          "T66:0",
+          "T50:0",
+          "T48:0",
+          "T49:0"
+        ],
+        "category": 3,
+        "depth": 3,
+        "needs": [
+          "21-LI-1-2-4",
+          "20-LI-2-5",
+          "18-MA-5-6",
+          "18-VI-2-7",
+          "19-AT-1-2",
+          "00-list-of-names"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "21-LI-1-2-4",
+            "tid": 29,
+            "info": "This node features both the anomaly of 'forgetting names' and the outcome of thunder taking away a victim, but this alone cannot prove it is a curse mechanism. We need to trace back to the previous evidence of \"thunder-death\" and \"forgetting-list\"."
+          },
+          {
+            "step": 2,
+            "node_name": "20-LI-2-5",
+            "tid": 33,
+            "info": "Earlier in the Living room, someone falling to the ground after the thunder, coinciding with an abnormal sound (the piano), reinforced the pattern that 'someone dies as soon as an abnormal signal appears'."
+          },
+          {
+            "step": 3,
+            "node_name": "18-MA-5-6",
+            "tid": 33,
+            "info": "Earlier conversations have already explicitly established thunder as \"a sign of someone's death,\" indicating that this is not a spontaneous association by the group, but rather an existing, stable consensus."
+          },
+          {
+            "step": 4,
+            "node_name": "18-VI-2-7",
+            "tid": 28,
+            "info": "Explicitly stating earlier that 'the dead will be forgotten', and treating the \"list of living people's names\" as the sole clue, directly elevates 'forgetting' to a rule-level anomaly."
+          },
+          {
+            "step": 5,
+            "node_name": "19-AT-1-2",
+            "tid": 27,
+            "info": "Later, the discovery of the list containing \"names that were written down but unrecognized by anyone\" proved that written records can reveal memory gaps, which in turn confirmed the mechanism that \"memories can be erased\"."
+          },
+          {
+            "step": 6,
+            "node_name": "00-list-of-names",
+            "tid": 28,
+            "answer": "The list, as independent external evidence, can retain information even after memories are erased; only by closing the loop of 'thunder = death (18-MA/20-LI) + post-mortem amnesia (18-VI) + the list revealing memory gaps (19-AT) + the immediate inability to remember a name in the 21 time slot followed closely by thunder and death (21-LI)' can we rigorously conclude: the \"inability to remember a name\" in the 21 time slot is more consistent with the curse's effect rather than mere panic."
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "question": "After the piano played on its own again, someone used this to confirm the appearance of another corpse; subsequently, thunder struck again, claiming the life of another person involved—please explain according to the \"Signal -> Death\" rule: Which two deaths do the piano and the thunder correspond to respectively?",
+        "answer": "The piano playing on its own corresponds to Martha Galley's death; the subsequent thunder corresponds to Tony Dauer's death.",
+        "evidence": [
+          "T53:0",
+          "T67:0",
+          "T66:0",
+          "T20:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "21-LI-1-2-4",
+          "20-LI-2-5",
+          "18-MA-5-6",
+          "08-DI-2-7-8-9"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "21-LI-1-2-4",
+            "tid": 29,
+            "info": "This node mentions both the piano playing on its own to mark a death, and the thunder roaring again to take away another person. However, to clarify 'who the two signals correspond to respectively', we need to establish the meanings of the piano signal and the thunder signal in earlier nodes."
+          },
+          {
+            "step": 2,
+            "node_name": "20-LI-2-5",
+            "tid": 33,
+            "info": "Earlier in the Living room, the piano playing by itself and the thunder occurred together and were linked to someone collapsing dead, indicating that the thunder signal is associated with a death event. The piano was already playing before the collapse and continued afterward, suggesting its role as a signal may differ from thunder's."
+          },
+          {
+            "step": 3,
+            "node_name": "18-MA-5-6",
+            "tid": 33,
+            "info": "An earlier dialogue associates thunder with someone becoming confused and leaving, further supporting the pattern that thunder coincides with a death event in 21-LI."
+          },
+          {
+            "step": 4,
+            "node_name": "08-DI-2-7-8-9",
+            "tid": 12,
+            "answer": "Synthesizing the two signals provided in 21-LI, the association of thunder with death established in 18-MA, and the pattern evidence in 20-LI showing that both the piano signal and the thunder signal coincide with death events, we can conclude: the piano corresponds to Martha's death, and the thunder corresponds to Tony's death."
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "question": "After learning on the phone that the villa had been unoccupied for years and that Annie was already dead, why did John Hobbes ultimately focus his search on the Attic?",
+        "answer": "Since John Hobbes already knew Annie Beaumont had committed suicide in the Chapel, she could not be found in the normal rooms. Furthermore, Tony Dauer had previously triggered a trap in the Attic that caused an object to fall, proving the Attic contains an anomalous mechanism that vertically affects the floor below, making it the only possible location hiding the secret truth.",
+        "evidence": [
+          "T64:0",
+          "T60:0",
+          "T44:0",
+          "T16:0",
+          "T38:0",
+          "T43:0"
+        ],
+        "category": 2,
+        "depth": 3,
+        "needs": [
+          "24-DI-1",
+          "23-CH-1-2",
+          "17-MA-1-5",
+          "02-AT-2-4",
+          "13-TO-4-6",
+          "17-KI-2-3-4"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "24-DI-1",
+            "tid": 32,
+            "info": "This node presents the outcome of \"confirming information via phone -> entering the Attic after hanging up,\" but we must backtrack: why did the phone information alter his search strategy, and why is the Attic the most logical destination?"
+          },
+          {
+            "step": 2,
+            "node_name": "23-CH-1-2",
+            "tid": 31,
+            "info": "The earlier companion had already committed suicide in the Chapel, proving that \"going to the next room to find someone\" was objectively impossible; his evasiveness on the phone was precisely because he knew this fact."
+          },
+          {
+            "step": 3,
+            "node_name": "17-MA-1-5",
+            "tid": 25,
+            "info": "Earlier spatial reasoning indicated that somewhere upstairs overlooks the Entrance and is related to the falling object, making the Attic/upper floor a crucial location that must be checked."
+          },
+          {
+            "step": 4,
+            "node_name": "02-AT-2-4",
+            "tid": 11,
+            "info": "Earlier, an accidental triggering of a device in the Attic caused a falling object hazard, proving that the Attic contains triggerable mechanisms and vertical impact."
+          },
+          {
+            "step": 5,
+            "node_name": "13-TO-4-6",
+            "tid": 21,
+            "info": "The use of the secret door at night and the rummaged drawers prove the existence of a hidden passage mechanism in the room."
+          },
+          {
+            "step": 6,
+            "node_name": "17-KI-2-3-4",
+            "tid": 25,
+            "answer": "The earlier points \"the only place that might hold the answer\" and \"must use physical evidence to persuade and advance\" indicate that the puzzle-solving has entered the hard evidence phase; only by combining the pressure from the phone call (24-DI) with \"companion is dead (23-CH) + the precedent of the Attic mechanism (02-AT) + the secret door mechanism (13-TO) + spatial direction (17-MA)\" can we rigorously explain why this phone call pushed his search direction toward the Attic."
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "question": "After hanging up the phone, which location did the visitor ultimately enter to continue searching for clues?",
+        "answer": "He entered the Attic.",
+        "evidence": [
+          "T64:0",
+          "T44:0",
+          "T16:0"
+        ],
+        "category": 2,
+        "depth": 2,
+        "needs": [
+          "24-DI-1",
+          "17-MA-1-5",
+          "02-AT-2-4"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "24-DI-1",
+            "tid": 32,
+            "info": "This node provides the result of 'walking around after hanging up the phone and entering somewhere'."
+          },
+          {
+            "step": 2,
+            "node_name": "17-MA-1-5",
+            "tid": 25,
+            "info": "Earlier investigations have already indicated that a location upstairs overlooking the Entrance and connected to the falling object is a critical space requiring immediate inspection."
+          },
+          {
+            "step": 3,
+            "node_name": "02-AT-2-4",
+            "tid": 11,
+            "answer": "Earlier, a falling object incident did indeed occur in the Attic, proving the existence of a trigger mechanism there; combined with the spatial direction indicated in 17-MA, it can be determined that he ultimately entered the Attic."
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "question": "The caller on the phone knew perfectly well that his companion was already dead, yet still lied and claimed she might be in the next room—why would he lie like this?",
+        "answer": "Having witnessed multiple deaths and the forgetting mechanism within a short period, he fears that directly admitting his companion's death would trigger panic and blame from the other party, or cause the curse to spread further; he tries to calm the other person down first while buying himself time to \"find her/find the truth\".",
+        "evidence": [
+          "T64:0",
+          "T60:0",
+          "T63:0",
+          "T50:0",
+          "T69:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "24-DI-1",
+          "23-CH-1-2",
+          "22-CH-2-3",
+          "18-VI-2-7",
+          "25-WI-K"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "24-DI-1",
+            "tid": 32,
+            "info": "This node presents his act of lying on the phone."
+          },
+          {
+            "step": 2,
+            "node_name": "23-CH-1-2",
+            "tid": 31,
+            "info": "Earlier, he personally witnessed his companion snatch the gun and commit suicide in the Chapel, so he knows she is already dead."
+          },
+          {
+            "step": 3,
+            "node_name": "22-CH-2-3",
+            "tid": 32,
+            "info": "The phenomenon of \"forgetting conversations immediately after death\" that occurred earlier in the Chapel indicates that information itself can be disrupted and erased by the curse."
+          },
+          {
+            "step": 4,
+            "node_name": "18-VI-2-7",
+            "tid": 28,
+            "info": "Explicitly stating earlier that \"one will be forgotten after death\" and that the memory gap will widen reinforces his concerns about \"directly revealing the news of death\"."
+          },
+          {
+            "step": 5,
+            "node_name": "25-WI-K",
+            "tid": 34,
+            "answer": "The curse could even spread beyond the villa and cause the deaths of people far away (Wintercote's subsequent death proves this risk of spreading)."
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "question": "Why would the curse take the life of the person on the other end of the phone outside the villa? Please use a six-step chain to deduce from \"the phone call reminded her of a certain name\" all the way to the thunderous death at Wintercote.",
+        "answer": "The chain of events is: During the phone call, she was forced to recall Annie (her name/existence was remembered) → The nature of the curse is that 'being recalled/remembered causes it to spread and erode memories' → Subsequently, the marker of \"thunder = death\" had repeatedly appeared in the villa → When the curse spread to Wintercote where she was, death was similarly triggered by thunder → Ultimately, she collapsed and died amidst the thunder at Wintercote.",
+        "evidence": [
+          "T69:0",
+          "T64:0",
+          "T63:0",
+          "T50:0",
+          "T66:0",
+          "T51:0"
+        ],
+        "category": 3,
+        "depth": 3,
+        "needs": [
+          "25-WI-K",
+          "24-DI-1",
+          "22-CH-2-3",
+          "18-VI-2-7",
+          "18-MA-5-6",
+          "20-DI-1"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "25-WI-K",
+            "tid": 34,
+            "info": "This node reveals Wintercote's death by lightning outside the villa and indicates that the curse is already on Katherine, but we need to trace back why the curse spread to her."
+          },
+          {
+            "step": 2,
+            "node_name": "24-DI-1",
+            "tid": 32,
+            "info": "During the phone call, K explicitly recalls Annie and asks about her whereabouts, indicating that \"remembering/recalling\" was triggered during the call."
+          },
+          {
+            "step": 3,
+            "node_name": "22-CH-2-3",
+            "tid": 32,
+            "info": "Earlier, during the conversation in the Chapel, there was a hint that 'recalling someone causes the curse to spread.' Accompanied by worsening memory loss, this indicates that the spread of the curse is linked to 'being remembered.'"
+          },
+          {
+            "step": 4,
+            "node_name": "18-VI-2-7",
+            "tid": 28,
+            "info": "The earlier explicit mention of forgetting after death and the list as the sole clue to combat this forgetting indicates that the curse erodes memories and affects more people through the spread of information."
+          },
+          {
+            "step": 5,
+            "node_name": "18-MA-5-6",
+            "tid": 33,
+            "info": "Establish the thunderclap as a mark of death earlier, providing a recognizable mechanism for \"how the curse kills\"."
+          },
+          {
+            "step": 6,
+            "node_name": "20-DI-1",
+            "tid": 28,
+            "answer": "An earlier phone call could indeed transmit information from inside the villa to the outside world and introduce the intention of seeking external help, proving that the \"curse's area of effect\" can spread along the chain of communication. Only by linking \"phone call triggers memory (24-DI) + memory causes transmission (22-CH) + thunder = death mechanism (18-MA)\" with the out-of-town thunder death in 25-WI-K, can we rigorously explain why the curse would claim Katherine's life outside the villa."
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "question": "When confessing in the Attic, the visitor stated they could not remember whether they had pulled the trigger—why, in that context, does \"blurred memory\" seem more like the erosion of a curse rather than a mere mental breakdown?",
+        "answer": "Because the rule that \"death triggers forgetting/memory erasure\" has repeatedly appeared before, and the list serves as the only external evidence to counter this forgetting; under such a mechanism, even crucial details like \"whether the trigger was pulled\" can be eroded. Therefore, his blurred memory is more consistent with the manifestation of the curse's erosion.",
+        "evidence": [
+          "T68:0",
+          "T50:0",
+          "T48:0",
+          "T49:0",
+          "T63:0"
+        ],
+        "category": 3,
+        "depth": 2,
+        "needs": [
+          "25-AT-1",
+          "18-VI-2-7",
+          "19-AT-1-2",
+          "00-list-of-names",
+          "22-CH-2-3"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "25-AT-1",
+            "tid": 33,
+            "info": "This node presents the Attic confession and the account of \"not remembering whether the trigger was pulled,\" but to prove that this is more akin to the erosion of a curse, it is necessary to review the rules of amnesia and the necessity of externalized evidence."
+          },
+          {
+            "step": 2,
+            "node_name": "18-VI-2-7",
+            "tid": 28,
+            "info": "The earlier explicit statement that \"one will be forgotten after death,\" along with the emphasis that the list is the only clue, indicates that memories are systematically erased."
+          },
+          {
+            "step": 3,
+            "node_name": "19-AT-1-2",
+            "tid": 27,
+            "info": "Later, memory gaps appeared on the list (names that were written down but unrecognized by anyone), proving that memory loss can distort one's sense of reality."
+          },
+          {
+            "step": 4,
+            "node_name": "00-list-of-names",
+            "tid": 28,
+            "info": "As an external document, the list can retain information across memory erasures, explaining why relying solely on memory is unreliable."
+          },
+          {
+            "step": 5,
+            "node_name": "22-CH-2-3",
+            "tid": 32,
+            "answer": "There is even an immediate case in the Chapel of \"forgetting a conversation right after a companion's death\"; cross-referencing this with the hazy memory in 25-AT, it can be deduced that: this is more akin to a curse eroding memories rather than a pure mental breakdown."
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "question": "Based on the verified sound patterns within the villa, what exactly does the sequence of \"interrupted kettle whistle - thunder - thud\" coming from Wintercote signify regarding who experienced what situation, and what specific signal marks this occurrence?",
+        "answer": "This means Oswald died at Wintercote, and this death was marked by the specific signal of \"thunder\" (based on the previously established rule in the villa that thunder signifies someone's death).",
+        "evidence": [
+          "T69:0",
+          "T66:0",
+          "T67:0"
+        ],
+        "category": 3,
+        "depth": 1,
+        "needs": [
+          "25-WI-K",
+          "18-MA-5-6",
+          "20-LI-2-5"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "node_name": "25-WI-K",
+            "tid": 34,
+            "info": "This node provides Wintercote's audio sequence and the sound of falling and shattering after the thunderclap, but to interpret it as 'death', the rule correlating thunder with death needs to be traced back."
+          },
+          {
+            "step": 2,
+            "node_name": "18-MA-5-6",
+            "tid": 33,
+            "info": "Even earlier, the thunder had already been established as the marker for \"someone has died\"."
+          },
+          {
+            "step": 3,
+            "node_name": "20-LI-2-5",
+            "tid": 33,
+            "answer": "The fact that someone had previously fallen and died in the villa following a thunderclap verifies that this correlation is no coincidence; therefore, the combination of thunder and a falling thud at Wintercote most directly points to a death."
+          }
+        ]
+      }
+    ]
+  }
+]

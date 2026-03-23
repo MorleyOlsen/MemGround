@@ -1,0 +1,10 @@
+{
+  "section": "13-ST-1",
+  "description": "At night, John Hobbes returns to the Study assigned to him and rests alone. After confirming there is no corpse in the room, he falls asleep and briefly wakes during thunder.",
+  "conversation": [
+    {
+      "speaker": "dialogue",
+      "text": "Description: At night, John Hobbes returns to the Study assigned to him and rests alone. After confirming there is no corpse in the room, he falls asleep and briefly wakes during thunder.\nLocation: Study（Study）\nKey Information:\n  - John Hobbes enters the Study alone and locks the door from the inside.\n  - John Hobbes confirms there is no corpse in the Study.\n  - John Hobbes goes to bed and falls asleep quickly.\n  - Thunder occurs during the night; John Hobbes curses once and then continues sleeping.\n  - This node clearly records John Hobbes’s solitude and the sealed state of the room at night.\nCharacters:\n  [John Hobbes（John Hobbes）] Person No. 1, a visitor.\n    · Returns to the Study at night and locks the door from the inside.\n    · Falls asleep after confirming the room is safe.\n    · Briefly wakes during thunder and mutters to himself, then goes back to sleep."
+    }
+  ]
+}

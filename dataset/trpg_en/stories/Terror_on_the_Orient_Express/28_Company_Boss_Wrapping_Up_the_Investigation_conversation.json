@@ -1,0 +1,416 @@
+{
+  "section": "28. Company Boss: Wrapping Up the Investigation",
+  "description": "Investigate the company boss, track down the \"whereabouts of the statue\", clues from all sides converge, the outline of the mastermind gradually becomes clear",
+  "conversation": [
+    {
+      "speaker": "player4",
+      "text": "\"Sir, wish us luck, for that also means wishing you luck.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That's right.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Toscanini snorted impatiently and waved his hand: Get out of here! If you find that damn statue, let me know."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Young man, what's the procedure for handling this statue? Don't be nervous, take your time.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Did you just throw the statue somewhere or what?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Don't be nervous. Recalling it now is a bit late, but there's still room for remedy.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Simply observing the expression of the person in front of me, I suspect if he secretly made a deal with someone else and sold the statue."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will be answered. <player5>'s Psychology Wish:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Marco wiped the sweat from his forehead, calming down a bit: According to theater procedure, old props are first registered... He pulled out a yellowed list from a dirty folder. Look, this model is recorded here, bought last month on the 25th by the Venetian antique dealer Mr. Brandoli."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Wiping sweat \"His private museum is in? Venice?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Good news, at least we roughly know where it was lost.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"If it's really in Venice, sir, you should continue training your people.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Marco nodded repeatedly: Yes, in the alley behind St. Mark's Square in Venice, the sign says 'Brandoli Classical Art'. He took out a handkerchief to wipe his sweat."
+    },
+    {
+      "speaker": "player4",
+      "text": "#After listening, I give him a gesture wishing him good luck."
+    },
+    {
+      "speaker": "player2",
+      "text": "(I think it's on the singer ( )"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Saying to the others \"I say, everyone, now the fragment has gone to Venice. We have 37 hours left. I think it's pretty hopeless to get it back in time.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "(Is there any obvious difference compared to now? )"
+    },
+    {
+      "speaker": "player3",
+      "text": "Bailan carefully observed Marco's expression—the sweat on his forehead, his trembling fingers, and his confused look when mentioning the statue all indicated that he was indeed just following procedure, without any guilt or signs of hiding something."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We have tickets.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Yes, that's right.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Do you remember the Maestro's, condition at the time?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Sharing my guess with everyone, fearing something bad might happen at the concert."
+    },
+    {
+      "speaker": "player3",
+      "text": "Marco scratched his head: The Maestro was just as irritable the day he signed as he is now... He imitated Toscanini's action, waving an imaginary baton, 'Get rid of these damn antiques! Aida needs a modern stage!'—that's exactly how he yelled."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ahem... let's talk about that later.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Prayer received! Continuing to record the horror of the Orient Express for you. Currently, 7787 texts have been recorded, taking 38 hours, 49 minutes, and 26 seconds."
+    },
+    {
+      "speaker": "player3",
+      "text": "Night fell, and the investigators turned into a dim alley. The damp air was filled with the smell of rotting fruit and urine, with moldy cardboard boxes piled in the corners."
+    },
+    {
+      "speaker": "player5",
+      "text": "#After approaching this corpse, first simply observe if there are any wounds on the body."
+    },
+    {
+      "speaker": "player3",
+      "text": "Bailan discovered two small puncture wounds on both sides of his neck, with the surrounding skin shriveled into strange radial patterns."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wow, could this be... the legendary vampire?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Kneeling down to carefully examine the cause of death, etc."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you expect, it will be answered. <player4>'s Medical Prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "@player8 He wears an employee badge from La Scala Opera House on his chest."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Check if there's a name on the employee badge! \"It seems someone has been paying attention to us.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Explain the analyzed symptoms to everyone."
+    },
+    {
+      "speaker": "player3",
+      "text": "Half of a La Scala Opera House work ID is visible from the corpse's sleeve. The man in the ID photo is smiling, forming a terrifying contrast with the grimacing expression of the mummy before them. Name: Luigi Moretti Position: Stage Props Manager La Scala Opera House Management Department."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Died from having his blood drained.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So it really is a vampire!?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ridiculous.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"By the way, this is completely a sign that someone knows we're here too.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "So scary."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Someone has been following us all along.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Though it's scary, the skinning action is still deft."
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 obtains Human Skin*3."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Following might be an overstatement.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Check the time."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Right.\" #Nod in agreement."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If player4 can track the statue fragments using the human skin.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "11:00 PM."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"That kind of delusional condition, there's no reason others couldn't track us.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Should we head back first? It's getting late.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The question is, in what way did he track us.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Maybe he's not tracking us.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Or maybe he or It also knows this spell, tracking the statue in my hands.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Snaps fingers."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So, should we head back first?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#player2 expresses agreement."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"There aren't any other clues either, let's go back. Remember to inform that props master about the employee's death next time we meet.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Sneak back to the hotel to sleep."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Bail, retreat, sell, flee."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Go back and rest."
+    },
+    {
+      "speaker": "player3",
+      "text": "The investigators wearily return to the hotel. The night of Milan envelops the streets, with the occasional hum of a passing tram in the distance. The gas lamps in the hotel corridor flicker, and water stain traces from last night's ritual still remain on the carpet."
+    },
+    {
+      "speaker": "player12",
+      "text": "#After the day's exhaustion, Johnson takes a shower and returns to his room to rest."
+    },
+    {
+      "speaker": "player3",
+      "text": "The investigators wake up in excruciating pain—their abdomens and backs are covered with dark red grid-like rashes, as if branded with an invisible iron into a chessboard-like pattern of scars."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Decide to go see the most reliable doctor in our team."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Muggle asks player4 about the skin condition."
+    },
+    {
+      "speaker": "player3",
+      "text": "When they gather painfully on the balcony, an even more horrifying sight appears—the Egyptian mural above the corridor has been altered without anyone noticing: the originally elegant Egyptian woman now has a ferocious, screaming face. Opposite her, a man has a cat-monkey-like creature perched on his shoulder, its claws deeply embedded in the man's collarbone, yet the man wears an ecstatic smile."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Rub my eyes to see if I'm seeing things wrong."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Lift my shirt to carefully examine this rash."
+    },
+    {
+      "speaker": "player3",
+      "text": "The pattern has indeed changed."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Medicine"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely receive a response. <player4>'s Medicine prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Occult"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely receive a response. <player4>'s Occult prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 lifts his shirt and carefully examines the grid-like rash on his abdomen. Those dark red lines intersect into perfect checkerboard squares, each square's edges slightly raised, with a burning sensation when touched. As a medical student, he has never seen similar symptoms in textbooks or clinical cases—it neither resembles contact dermatitis nor matches any known allergic reaction pattern."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This is definitely not dermatitis.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Too neat, perhaps?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Doesn't match any dermatological symptoms.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Scratch my belly. \"Then it must be cursed.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Pathologically, it doesn't make sense.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Seems we need to find the mastermind sooner."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think it's related to that statue.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So I guess we need to hurry and find, um... the torso part of the statue?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yes.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Ouch, it hurts...\" #Lift the back of my shirt. \"Then let me lend a hand.\""
+    },
+    {
+      "speaker": "player4",
+      "text": ".st san -1d4"
+    },
+    {
+      "speaker": "player2",
+      "text": "#player4 reads the newspaper during the ritual."
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s \"Sanity\" change: 65 ➯ 61 (deduct -1d4=-4)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Occult"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely receive a response. <player4>'s Occult prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 endures severe headache and dizziness, casting the tracking spell once more. As the incantation is chanted, he feels a piercing chill running up his spine to the back of his head—his vision suddenly distorts, and overlapping whispers of laughter echo in his ears, as if countless mouths are breathing right against his earlobes."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I saw it! I saw it!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#tissue stuffed in nostrils"
+    },
+    {
+      "speaker": "player4",
+      "text": "#administer first aid to myself"
+    },
+    {
+      "speaker": "player3",
+      "text": "Milan Morning Post January 16th"
+    },
+    {
+      "speaker": "player2",
+      "text": "#player2 let's go"
+    },
+    {
+      "speaker": "player4",
+      "text": "#pack up and head to the theater"
+    },
+    {
+      "speaker": "player3",
+      "text": "When the investigators arrived at Piazza della Scala, the scene before them forced them to stop—all entrances to the opera house were tightly guarded by Blackshirts, wearing crisp black uniforms, their silver collar pins gleaming coldly in the sunlight. At the main entrance, two armed guards were checking the credentials of each staff member one by one, not even sparing prop boxes, roughly lifting each lid to inspect."
+    },
+    {
+      "speaker": "player2",
+      "text": "#retreat!"
+    },
+    {
+      "speaker": "player4",
+      "text": "#sneak away"
+    },
+    {
+      "speaker": "player5",
+      "text": "#run"
+    },
+    {
+      "speaker": "player2",
+      "text": "(@player3 do you have a map of Milan? ("
+    },
+    {
+      "speaker": "player12",
+      "text": "#saw that person's gaze, quickly stroll away to a distance"
+    }
+  ],
+  "start_line": 8407,
+  "end_line": 8717
+}

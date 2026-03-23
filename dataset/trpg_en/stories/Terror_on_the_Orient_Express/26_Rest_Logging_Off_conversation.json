@@ -1,0 +1,412 @@
+{
+  "section": "26. Rest: Logging Off",
+  "description": "Logging off, the investigators rest and recuperate, discussing strategies for entering through the side door and avoiding direct confrontation.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "Qiduo received! Continuing to record the horror of the Orient Express for you. Currently, 7126 texts have been recorded, taking 35 hours, 25 minutes, and 2 seconds. Huh? A piece of paper flew out when opening the file. No matter how capable a person is, they ultimately cannot defy fate."
+    },
+    {
+      "speaker": "player3",
+      "text": "So, as we left off last time, player4 finished skinning and returned to the hotel with their companions. What will you all do now?"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"So, are there any other materials to prepare? player4, I can lend a hand.\" #Swallows saliva, looking at the backpack containing human skin. The faint smell of blood makes Johnson feel slightly uneasy."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Check the time."
+    },
+    {
+      "speaker": "player3",
+      "text": "Midnight, 12 o'clock."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How about sleeping first? It's a bit late.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Then I'll set up the magic circle and such first, and you guys can continue tomorrow? I keep late hours, you guys sleep first.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Yawns."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Takes down the bag containing human skin and fiddles with it. #Can't figure it out, gives up in frustration and goes to sleep. #ZZZ"
+    },
+    {
+      "speaker": "player2",
+      "text": "Here it comes."
+    },
+    {
+      "speaker": "player3",
+      "text": "On the morning of January 15th, a copy of the Milan Morning Post slid in through the newspaper slot in the door. The front-page headline featured news of Mussolini inspecting a newly built automobile factory, with a picture of the leader patting the hood of a brand-new Alfa Romeo sports car. Turning to the second page, three news items side by side caught the eye: Opera Star Missing! Feared Kidnapped. Police fear soprano singer Caterina Cavallaro may have been kidnapped from Milan's Central Station. She hasn't been seen since getting off the train from Paris yesterday at 1 PM. Since then, she has neither returned to her apartment nor attended rehearsals at La Scala, where she is scheduled to perform Aida tomorrow night. Arturo Toscanini, the music director of La Scala, stated he hasn't heard from Cavallaro since she left Paris. Police ask anyone with information about Caterina's whereabouts to contact them. We sincerely urge all Milanese to join the search for our beloved star. Auto Worker Murdered. The body of auto worker Neo Spinola was found this morning in an alley on Via Tavazzano in the Portello district, not far from the Alfa Romeo factory where he worked. Spinola was stabbed to death. Police are investigating workers in the area. Spinola was an active union member and reportedly had arguments with other workers about union matters a few days ago. Popular Return. At last night's banquet for La Scala's patrons and supporters, Flavio Conti was warmly welcomed. Mr. Conti has been unwell in recent months, with some erroneous reports claiming he had tuberculosis, but clearly the situation is not as serious as these fallacies suggested. Mr. Conti has fully recovered and was the center of attention at the banquet. Also in attendance were other opera patrons: Mr. Nuzio Tocci, Mr. Matteo Sorrenti and his wife, Ms. Angela Susco, Mr. Arturo Faccià, and Mrs. Serena Spagnolo. They enjoyed excerpts from the opera Aida, scheduled for this week, performed by the cast. Rosario Sobrero provided piano accompaniment, the highlight of the gathering. The entertainment section reminded in bold: Aida Premiere Countdown! Tomorrow night at 8 PM, La Scala Opera House, don't miss it. The social news column reported on Fascist youth groups burning decadent art books on Via Dante, with a picture showing several Freud works curling in flames. The classified ads were still filled with castor oil advertisements, but today's special recommendation was a new Swiss medicine specifically for lung ailments."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Scratches head while looking at the newspaper. \"Do you guys have any leads?\" #Asks other companions."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"No.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I don't either.\" \"How about we perform the ritual first?\" .st san-1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s \"Sanity\" change: 70 ➯ 68 (deduct -1d4=-2)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Occult"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it's what you hope for, it will surely receive a response. <player4>'s Occult prayer: D100=86/50 Failure. -Life is good precisely because it's meaningless, allowing each to bestow their own meaning."
+    },
+    {
+      "speaker": "player5",
+      "text": ".st show Occult"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s currently registered personal information is as follows: Occult: 5. -Going to unleash a special move!"
+    },
+    {
+      "speaker": "player12",
+      "text": ".st show Occult"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player12>'s currently registered personal information is as follows: Occult: 5. -Going to unleash a special move!"
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 suddenly feels a strong dizziness, almost dropping the ritual materials in hand. He sees a blood-red, unfamiliar room in the ritual bowl, filled with twisted medical instruments. His temples throb, and he hears the sound of incessant coughing echoing in his ears, as if countless tuberculosis patients are gasping around him. With a soft *snap*, the illusion suddenly shatters. player4 then realizes he has stumbled and bumped into the wardrobe, feeling real pain in his knee."
+    },
+    {
+      "speaker": "player4",
+      "text": ".st san -1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s \"Sanity\" change: 68 ➯ 65 (deduct -1d4=-3)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Occult"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it's what you hope for, it will surely receive a response. <player4>'s Occult prayer: D100=59/50 Failure. -Well.. just missed by a bit."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Ouch, take it easy player4, it's okay if the ritual didn't succeed.\" #Helps him up the wardrobe he bumped into."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Are you alright? ...Well, there's always a certain cost to dealing with this kind of thing.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "(You continue."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It's a bit tricky, everyone.\" #Wipes sweat from forehead."
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 endured the headache and cast the spell again. As the incantation began, his vision suddenly went dark——"
+    },
+    {
+      "speaker": "player4",
+      "text": "?!"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you wish for will surely receive a response, <player4>'s willpower prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Although terrified, driven by intense curiosity, I decide to lean in and look!"
+    },
+    {
+      "speaker": "player3",
+      "text": "Inside the cabinet stood a stark white headless bust statue, its smooth torso gleaming with a bone-like cold light under the moonlight. The moment he clearly saw the statue, the thing suddenly toppled forward, with a speed that seemed unnatural for gravity!"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh shit!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Thud!"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Cough cough cough\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Recall the state of my companion earlier, compare it; the difference between when my companion fell into a trance and those similarly bizarre people outside."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"A white statue!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The state player4 was in when he fell into the illusion was strikingly similar to the zombie-like citizens on the streets of Milan: equally vacant eyes, stiff bodies, slow response to external stimuli. The only difference was that player4 still trembled with fear, while those Milanese had even lost that instinct, as if their souls had been put on pause."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Recall if the statue I saw in the hallucination resembles the fragments we've collected."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"And based on your condition, we have reason to suspect.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Me earlier? I also turned into one of those living dead?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"There's an even bolder speculation...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "A sharp, piercing pain suddenly shot through Bailan's left shoulder, as if an ice pick were chiseling into the bone marrow along an old wound."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hiss...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Bailan pulled open her collar, her pupils suddenly contracting. Strange dark red patterns had surfaced on the skin of her left arm, identical to the patterns on the left arm statue found earlier in Paris. The lines were slightly raised like blood vessels, pulsing faintly bright and dark with her breathing rhythm."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Holy crap!\" #Exclaimed, covering my mouth."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Move closer to carefully observe these patterns."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Should we do something about it? It looks pretty scary.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "When player4 touched the patterns with his finger, he found the skin around them was cold as marble, completely unlike the body temperature of a living person."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra occult"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you wish for will surely receive a response, <player4>'s occult prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": "[Spell]"
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 stared at the patterns on Bailan's left shoulder and suddenly felt a strong sense of déjà vu. He had read similar records in the Devil's Simulacrum: The statue's owner shall bear the curse of the incomplete statue... In a flash of insight, he pieced together the curse's effects: left arm pain like a fracture, wrist spraining inexplicably, skin breaking out in eczema-like red rashes. The most terrifying is the late-stage symptom—the arm would uncontrollably repeat a certain motion, like the Milanese sleepwalkers, until the muscles become paralyzed and atrophy. It's in the early stages now. If we don't gather the statue quickly..."
+    },
+    {
+      "speaker": "player4",
+      "text": "?!"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Then... there's no time to lose. Let's act quickly.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Right. I think we should go check the theater.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "You find the business card the agent gave you yesterday, neatly printed with Giuseppe Totti - Bologna Music Agency. Below the contact information is a line of small text: Specializing in opera and solo performances."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Good idea\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Try contacting the agent, bluffing that there might be some leads on the big star's disappearance"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "After player4 dials the phone, the agent answers with a tired but alert voice: Rossi Agency, who is this?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yes, yes, we suspect there might be discoveries on the opera house stage\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Having an informant is great, slacking off, slacking off"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"If it's convenient for you, could you take us there? After all, we're unfamiliar faces, it might be inconvenient for us to handle things\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Alright, we won't make a fuss, let's get to work first!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Not too much panic"
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent immediately responds: The opera house? Good lord... you think she's there? Urgent rustling sounds come from the other end of the phone, I can come right now, wait for me at the café in the Galleria Vittorio Emanuele II—the one right across from the main entrance of La Scala."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yes, yes, good, we'll wait for you there\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Oh, where were we? I was just thinking, could it be a group of terrorists already influenced by the statue who planned this case\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Hangs up the phone, relays the meeting address to everyone"
+    },
+    {
+      "speaker": "player3",
+      "text": "Passes are no problem, I have a few spare ones in my drawer. The crisp sound of keys jingling comes through the background, see you in twenty minutes... oh, don't wear anything too conspicuous, there have been black shirts hanging around near the opera house lately. They've been frequently monitoring cultural venues recently, um... in the name of maintaining the purity of traditional culture.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The waters run deep here, it seems we're not the only ones looking for this statue\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Change into slightly plainer clothes"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Change into a relatively plain outfit, ready to slip over and check the situation."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Change clothes, head to the meeting café according to the directions on the way"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Let's go, let's go, Johnson doesn't need to change, he's already plain enough"
+    },
+    {
+      "speaker": "player3",
+      "text": "In the café of the Galleria Vittorio Emanuele II, crystal chandeliers make the gilded decorations shine brightly. Agent Rossi is ten minutes late, Sorry, got stopped by patrols twice on the way. He sits down breathlessly, pulls a few passes bearing the La Scala Opera House emblem from his briefcase, Now they search everyone going in and out... saying they're looking for some smuggled artifacts. His gold-rimmed glasses are fogged, but can't hide the dark circles under his eyes."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Accepts the passes"
+    },
+    {
+      "speaker": "player3",
+      "text": "May the Madonna protect you, he knocks over the salt shaker when getting up but doesn't notice, I... I need to go to the police station to ask about the situation again. His back disappears into the crowd in the gallery."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Glances at those people outside the window while looking down"
+    },
+    {
+      "speaker": "player3",
+      "text": "Those Blackshirt members look perfectly normal—they lounge lazily against the opera house columns smoking, one is teasing a stray cat with his boot tip, another is flipping through the day's newspaper. When passersby occasionally go by, they just give a routine glance, not even checking IDs."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Lowers voice \"Let's go, let's check out the theater\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Passing under the magnificent glass dome of the Galleria Vittorio Emanuele II, the investigators arrive at Piazza della Scala. In the center of the square stands Michelangelo's statue, the bronze figure of this Renaissance master leans slightly forward, his chisel forever suspended in the air, as if about to give life to stone the next second. Scattered around the statue's base are a few bouquets of long-withered flowers—perhaps left from some memorial event. Directly opposite is the famous La Scala Opera House, its Neoclassical exterior unadorned. The light brown outer walls have no lavish decorations, only orderly rows of arched windows and the reliefs on the pediment reveal its identity."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Quite a low-key building\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Yes, yes\" #Echoes in agreement"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Casually observes the statue, seems due to some reasons, has now developed a conditioned reflex risk when seeing statues."
+    },
+    {
+      "speaker": "player3",
+      "text": "Signed by Toscanini? The guard eyes them suspiciously The old man's in a worse mood than usual today... The props room is in the northwest corner, don't go near the patrons' boxes on the east side. Then he steps aside."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Are there any new props in the troupe recently? Especially for the new play performance, Aida.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Follow player4 inside"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Prepare to follow forward after the questioning is done"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Find the Aida prop room as guided"
+    },
+    {
+      "speaker": "player3",
+      "text": "The guard frowned and flipped through the register: New props? Last week, a few crates of Egyptian-style shields and headdresses were delivered, all piled up in the corridor of the prop room."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Things having come to this, head to the prop room"
+    },
+    {
+      "speaker": "player3",
+      "text": "The investigators passed through a narrow passage into the backstage and were immediately surrounded by a chaotic scene. To the right, a wooden nose nearly three meters tall leaned against the wall—likely a prop for some comedic opera, with the word Pinocchio written in red paint on its tip. An actor playing the Pharaoh sat in the nose's shadow, his heavy golden crown askew, a cigar in one hand while he flung out a Spade Ace with the other; across the card table was an extra dressed in Nubian slave costume. On the floor, a dark red fake bloodstain snaked out from under the prop room door, tracing an eerie path across the cluttered ground. Several prop masters were stepping over the bloodstain, carrying fragments of Amun Temple columns back and forth, completely unconcerned about the increasingly smeared red marks underfoot. The air was filled with a cacophony of sounds: a soprano repeatedly practicing the same high note next door, the stage manager's whistle, the crisp hammering of a carpenter—everyone was working frantically as the performance time approached."
+    },
+    {
+      "speaker": "player5",
+      "text": "#After hearing these words, first look at the corridor situation, prioritize checking those newly arrived crates of shields and headdresses"
+    },
+    {
+      "speaker": "player3",
+      "text": "Professor Bailan cautiously looked around and soon spotted Toscanini's figure behind the glass window of the second-floor rehearsal hall. The irritable music director was waving his baton, scolding the choir as if herding sheep: You sing so badly even the crocodiles of the Nile would cover their ears!"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Examine if the current setup resembles the hallucination"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"It can be described as chaotic\" #Looking around"
+    }
+  ],
+  "start_line": 7784,
+  "end_line": 8095
+}

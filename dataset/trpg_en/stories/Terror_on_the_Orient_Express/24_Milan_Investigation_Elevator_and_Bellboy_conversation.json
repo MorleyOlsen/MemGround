@@ -1,0 +1,644 @@
+{
+  "section": "24. Milan Investigation: Elevator and Bellboy",
+  "description": "The bellboy's sleepwalking-like guidance and unresponsive, eerie behavior alert the investigators, the threat of vampires looming.",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": "\"You really should hear his story.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hello Ms. Cavallaro, I'm player4, currently a medical student at Miskatonic University.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"A man of indomitable spirit, a respectable adventurer.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Yes, ma'am, my name is player12. But I couldn't have made it this far without the help of these friends.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "After listening to each introduction, Caterina's eyes grew wider and wider, finally unable to resist clapping in admiration: What a fantastic group! She first playfully tilted her head at player2: A psychology top student from Miskatonic University? It seems I have to watch what I say~ Turning to player4, she made a praying gesture: Medical students are the greatest! When I sprained my ankle during a performance last time, I was saved by a doctor just like you. Hearing Professor Bailan's identity as an archaeology professor, she nearly knocked over her wine glass in excitement: My goodness! I've collected so many ancient Roman coins, I must consult you another day! Finally, she looked gently at Johnson and said: Mr. Johnson, your story reminds me of the poet Rodolfo from La Bohème! Adventures in Paris must be more thrilling than any opera. She raised her refilled glass: A toast to meeting such charming travel companions! It seems this Orient Express journey is destined to become a legend!"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You flatter me, but still,\" #raises glass \"a toast to our unexpected meeting and to good health!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Cheers, cheers."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Yes, yes, let's celebrate today's safety.\" #Raises glass."
+    },
+    {
+      "speaker": "player3",
+      "text": "Everyone chatted happily with Caterina, and before they knew it, it was 11 PM. Caterina stood up slightly tipsy, her steps a bit unsteady, and playfully winked: Wait a moment, I'll be right back~ About 15 minutes later, she returned to the salon car with light steps, completely transformed—wearing a dazzling silver-white gown, mascara outlining deep eyeliner, a Life Cross necklace shining brilliantly around her neck under the light. Dear friends, she curtsied gracefully, allow me to perform for you the aria I will sing in Milan three days later. The people present immediately responded with enthusiastic applause, a few attendants couldn't help but stop to watch, and the salon car instantly became a small opera house."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Sits up straight, alert."
+    },
+    {
+      "speaker": "player12",
+      "text": "#Finds a suitable spot to stand and listen to her singing voice."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Listens attentively, having some understanding of music after all, since a certain maid sings by his ear every day."
+    },
+    {
+      "speaker": "player3",
+      "text": "Caterina clasped her hands over her chest, her gaze becoming gentle and distant: This song has special meaning for me. When I was five, my grandmother first took me to La Scala to see Aida, and that night completely changed my life. She chuckled lightly, before that night I was full of thoughts about wanting a little pony, but when the curtain rose and the music started, I knew—I wanted to be the one standing on that stage. She stroked the Life Cross necklace on her chest, my grandmother said, sing your wishes with an aria, and one day they will come true. So... She took a deep breath, straightened up, now I will sing \"Triumphant Return,\" this is the moment of Aida's greatest inner struggle, her beloved Radamès and her father Amonasro belong to the opposing sides of Egypt and Ethiopia..."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Out of politeness, acts quite excited."
+    },
+    {
+      "speaker": "player3",
+      "text": "Her singing suddenly rang out, clear as spring water striking stone. The high notes were like silver bells trembling, the low murmurs like silk rubbing. Every turn of phrase accurately outlined Aida's painful struggle—loyalty to her lover and duty to her homeland tore and blended in her voice. When she sang \"my tears will flood the Nile,\" a few attendants unconsciously held their breath; and the lingering final note of \"but my heart will always belong to you\" made player4 instinctively grip the arm of the sofa. While singing, she constantly lightly stroked the cross on her necklace, as if performing a sacred ritual. After the last long note gradually faded, the car was so quiet you could hear the champagne bubbles popping, everyone still immersed in that ancient love story woven by song."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Bravo!\" #Cheers."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Snaps out of the awe, then applauds."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Leaning to the side, expression seems slightly dazed, an exceptionally familiar feeling, making even a professor like him sigh with emotion, a smile curling at the corner of his mouth."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Applauds, vigorously."
+    },
+    {
+      "speaker": "player3",
+      "text": "Caterina took an elegant bow amidst the prolonged applause, her cheeks flushed with excitement. She walked up to the investigators and said: The tickets I gave you earlier are front-row seats for the night of the 16th, as a thank you for being my best audience tonight~ She winked slyly, remember the hotel at the Galleria Vittorio Emanuele II I promised? It's all arranged! Giving a small yawn, she waved her sequined gloves: See you tomorrow, dear friends! Her silver gown rustled as she fluttered away like a wisp of starlight, leaving only a faint scent of jasmine perfume in the air. You take out your tickets, which read: La Scala Opera House · January 16th · Aida Premiere · VIP Seats."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Truly worthy of a big star.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The lights in the salon car dimmed slightly, and the merry crowd gradually dispersed. A few passengers whose spirits were still high gathered around the card table in the corner, coins clinking on the green felt. The rhythmic swaying of the train made the ice cubes in the champagne glasses gently collide. Occasional scattered lights flashed by outside the window, quickly swallowed by darkness again."
+    },
+    {
+      "speaker": "player2",
+      "text": "("
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Haa~~ Time for bed, see you all tomorrow.\" #Johnson bids everyone farewell and goes back to his room to sleep."
+    },
+    {
+      "speaker": "player3",
+      "text": "The night-running Orient Express, like a moving castle, carrying countless secrets and stories, traverses through the peaks of the Alps."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sleep time.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Goes to sleep, attempting to practice cat language in dreams."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Well, what a wonderful night.\" #Drinks the last of the fine wine in his glass, raises the empty cup towards the south, as if toasting someone from afar."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Drinks a little wine before bed, ushering in quality sleep."
+    },
+    {
+      "speaker": "player3",
+      "text": "The investigators slept exceptionally soundly this night, even their dreams tinged with the splendor of the opera."
+    },
+    {
+      "speaker": "player5",
+      "text": ".st san+1"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s \"Sanity\" change: 52 ➯ 53 (increase 1=1)"
+    },
+    {
+      "speaker": "player3",
+      "text": "As the morning sun filtered through the gaps in the curtains, the attendant gently knocked and delivered hot coffee and croissants. Just as they were enjoying their breakfast spread with jam, the train gradually slowed down, and the scenery of Milan's suburbs began to appear outside the window. The attendant politely knocked to remind them: Gentlemen, we are about to arrive at Milan station, please prepare to disembark."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Great, we arrived just as we woke up.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Ten minutes later, you faintly heard the cries of newspaper boys and the whistles of steam locomotives outside the window. The Orient Express let out one final long sigh and came to a steady stop beside the platform."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ah! How did everyone rest? It seems we have already reached our destination.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We're here, we can get off now.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Smooths player4's hair."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Stop with the '?'.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Tries to dodge."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Let's get off.\""
+    },
+    {
+      "speaker": "player12",
+      "text": ".st san+1"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player12>'s \"Sanity\" change: 65 ➯ 66 (increase 1=1)"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Are you perhaps treating the person like a cat to pet?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The investigators had just stepped out of the carriage when they saw Caterina standing alone at the edge of the platform. Her agent was not far away, instructing a taxi driver about the destination. Suddenly, a black Alfa Romeo sports car sped over and screeched to a halt right in front of Caterina. The door flung open, two hands reached out from inside, and yanked her into the car. The whole process was too fast to react to—the door slammed shut, the sports car's engine roared as it accelerated, and in the blink of an eye, it disappeared into the morning mist at the end of the platform, leaving only a few wisps of gasoline-scented smoke. The agent's briefcase fell to the ground with a thud, papers scattering everywhere. He stood frozen in place, his face pale."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Not accurate, to be precise, it's treating player4 like a cat to pet.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent then shuddered as if waking from a dream and stammered in reply: O-of course not! We arranged for an ordinary taxi... He suddenly grabbed player2's sleeve, his fingers trembling: Good heavens, who were those people? Where did they take Caterina? In the morning mist on the platform, a few passengers began to cast curious glances their way, while the black sports car was long gone in the distance."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"That's stating the obvious, she was kidnapped.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Daring to kidnap a big star in public, feels like the forces behind it aren't simple.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Now's the time to quickly put an ad in the newspaper saying we're willing to negotiate and pay the ransom.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Based on my stereotypical impression of Italy, it's either the mafia or people from a government department.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Chase?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Can you outrun a car? Or do you think you can win in a shootout?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Points at us."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Tsk...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Us? Chase a car?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Given their local influence, the government's usefulness probably isn't that great either.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Tries hard to recall the license plate number of the kidnapping car."
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent's face turned pale, his lips trembling uncontrollably: No... impossible! Caterina never provoked anyone! He frantically rummaged through the documents in his pocket, papers scattering everywhere. She even said she'd perform at the Fascist party's charity gala these past two days... Those Blackshirt boys clearly all liked her..."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It couldn't be the commies, could it?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Could there be another possibility? The kidnappers are just using the Mafia as a cover.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The license plate started with MI, and there seemed to be a number 7 after it. The car was fast, you can't remember the rest clearly."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Look at the agent"
+    },
+    {
+      "speaker": "player4",
+      "text": "[Sleight of Hand]"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I suggest you contact the government quickly.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Whoever can afford that car, I think they're not to be trifled with.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"What a hassle, arriving in such a place and encountering this kind of thing right away.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"But as locals in Italy, you must know more channels than we do.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then could it be the work of opponents of the Fascists?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent suddenly shook his head violently, cold sweat trickling down his temples: No... can't call the police... You don't understand... He nervously chewed on his thumbnail. Last week, the actress Marta in Rome went missing... Her agent also went to the Carabinieri, and three days later people found his right hand... in the Tiber River.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "(The agent's or the singer's ("
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Now we're back to a question: why kidnap?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Pat the agent"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Think"
+    },
+    {
+      "speaker": "player3",
+      "text": "Fruit stall? The agent suddenly laughed nervously, his fingers unconsciously rubbing his suit. Dear sir, in Milan now... the most dangerous thing is never a robber's bullet... but that you never know which shroud will suddenly become a national flag. He looked around anxiously."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I hope the kidnappers contact us. If they don't contact us, that's when the real trouble begins.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent tugged at his thinning hair, his eyes unfocused: I swear, I really can't think of who would do such a thing! Caterina wouldn't even step on an ant... Her only enemy might be that tenor at La Scala who always sends her white roses—because he kept singing off-key, she suggested he change careers and sell sausages...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Well, that probably wouldn't lead to kidnapping.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 waves to stop a newsboy with a face full of soot. The child nimbly weaves through the crowd, shouting in heavily accented Milanese English: Sir, want the latest Corriere della Sera? The front page is fantastic—photos of the Fascist volunteer parade are bigger than the football news! He proudly shakes open the newspaper."
+    },
+    {
+      "speaker": "player2",
+      "text": "(emmm)"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Lean over half a head to take a look"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Pat the heads of the two who can't understand anything"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's written in the newspaper? Is there any information left for us by the kidnappers, like a message?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Quickly scan the contents"
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent shook his head vigorously, the fat under his chin trembling: Mother of God, her family are the most law-abiding spice merchants in Bologna! Her father died ten years ago, her mother still runs a small grocery on Via della Chiesa di San Luca.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Grandmother, grandfather? And not everything that looks peaceful is peaceful. No one knows how deep a calm lake really is.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The ink smell is still fresh. The front page prominently features a photo of Mussolini inspecting a newly built orphanage, with the headline \"Leader Promises to Solve Southern Famine.\" The second page carries a preview of the La Scala Opera House's spring season, with Caterina's name listed third on the program. Flipping to the society section reveals only ordinary news: the local chamber of commerce is holding a charity sale, and the University of Milan's archaeology department has received a new donation. The classified ads section prints promotional information for cafes, shoe repair shops, and bookstores, with nothing unusual. The most urgent matter the entire newspaper suggests is probably the weather forecast predicting possible rain over the weekend."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Since we can't ask the local power brokers, and the government can't be relied on, what could be more reliable than her family?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "It says it will be held this Saturday at 3 PM under the glass dome of the Galleria Vittorio Emanuele II."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Completely baffled"
+    },
+    {
+      "speaker": "player2",
+      "text": "(Garbage information ())"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It feels like there's no particularly important news.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That being said,\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Do you have the materials?\" #Whisper"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Probably not.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Right, let's settle in first.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Snaps fingers \"Good idea.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Standing here dumbfounded isn't helping. Let's first find a place where we can properly discuss a plan.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent stumbles as player2 drags him into the taxi. The taxi driver is a middle-aged man with dark circles under his eyes, a faded Madonna pendant hanging from the rearview mirror. He mechanically flips down the meter and only says the address the entire trip."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Remember that tiramisu gentleman."
+    },
+    {
+      "speaker": "player3",
+      "text": "We're here. The driver says dryly. The hotel bellhop drags his feet over like a sleepwalker to move the luggage. His uniform sash bears a Fascist party badge. In the distance, an accordion plays a cheerful tarantella, but the notes drifting from the bellows are always half a beat slower than they should be."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Pays and gets out first. \"Something's happened.\" #Mutters."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What do you think?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Let's drop off the luggage first.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Of course it's not right to kidnap someone right after getting off the car. The crime rate is quite high.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No, I mean the people here.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Milan, Italy's most prosperous city, presents a suffocatingly contradictory scene in winter. While the bricks and cement are solid and trustworthy, the flesh and blood are not. Milan is neither reckless nor lively. It feels like a city gradually fading into gray. Under the magnificent skyline of Gothic spires and Renaissance arcades, the streets are neat to the point of rigidity. Shop windows display the most fashionable goods in all of Europe, yet no one stops to admire them. The Milanese seem afflicted by a kind of depression, as if they have finally, months after a close relative's death, received the belated blow of realizing the person is truly gone."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I'm starting to miss France, though I really don't want to ride old Henry's carriage again.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It looks like their vitality has been eaten away.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Cheer up. Feeling sad here won't bring your big star back.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"By the way, sir, what's your name?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent, startled by the kick, jerks his head up like a frightened rabbit: I-I'm Giuseppe Totti! He nervously tugs at his tie, his gold-rimmed glasses sliding down his nose. But for God's sake... in public, please call me Mr. Rossi... His voice suddenly catches because he sees a young man in a black shirt nearby roughly stuffing a workers' newspaper into a trash can, his movements violent as if burying a corpse. The agent immediately shrinks his neck."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Alright, I'll call you Cicero then.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent's mouth twitches, emitting a short, choked sound like a strangled chicken: It's... it's Totti... or Rossi..."
+    },
+    {
+      "speaker": "player4",
+      "text": "A terrified, pitiful man."
+    },
+    {
+      "speaker": "player3",
+      "text": "His protest was as weak as a mosquito's hum."
+    },
+    {
+      "speaker": "player2",
+      "text": ".ra Psychology"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you expect will receive a response. <player2>'s Psychology prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Sir, you don't look so well.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Protest overruled.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm, it's fine.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright then, Mr. Rossi, we deeply sympathize with Miss Caterina's situation.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Pat someone on the back, trying to soothe their emotions."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"But honestly, as outsiders, we're probably powerless.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Simultaneously think about what exactly he's afraid of?"
+    },
+    {
+      "speaker": "player3",
+      "text": "The agent's trembling pupils and twitching mouth—player2's psychology training indicates this level of nervous reaction far exceeds the normal threshold. The other person keeps scratching the inner lining of his suit lapel with his nails, an action typically noted in criminal psychology textbooks as a sign of concealing weapons or contraband."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Kick Johnson, this guy hasn't said a word the whole trip."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Psychology"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you expect will receive a response. <player5>'s Psychology prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The kidnappers haven't contacted us at all, that's very bad.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Maybe they contacted the victim's family.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Aren't you all being overly paranoid?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Rossi trembled all over, stammering in reply: Th-thank you for your concern... He kept wiping cold sweat with a handkerchief, I'm just... just too scared... His eyes darted around, glancing at both sides of the street from time to time. Professor Bailan noticed his fear reaction was very genuine and pure—dilated pupils, rapid breathing, uncontrollably trembling fingers—completely like an ordinary person terrified by a sudden kidnapping, with no signs of performance or concealment."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"If I were the kidnapper, after a premeditated kidnapping, I'd definitely have follow-up plans ready.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Go to the entrance and stop a staff member."
+    },
+    {
+      "speaker": "player5",
+      "text": "Suddenly realizing we're really calm, sigh, feels like we've experienced too many incidents."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sir? Let's check in.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"OK, we can only rely on this gentleman.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Let the agent finish his work first."
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 stops the daydreaming bellhop. This young man's uniform is crisp but his face is full of weariness. Hearing player4's words, the bellhop blinks slowly, taking a moment before showing a professional smile: O-of course... When pulling out the register, his elbow hits the doorframe, but he continues the motion as if he doesn't feel any pain."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You seem, very unwell.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Frown and carefully examine this bellhop, feeling his mental state is very poor."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You're serving me now, so, mind telling me? I, as a guest, prefer the person I'm talking with to be comfortable.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "@player4 (Medicine)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Medicine"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will receive a response. <player4>'s Medical Prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "#While talking to him, continue to see what's wrong with this person."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will receive a response. <player2>'s Psychology Prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "The bellboy slowly takes the candy but merely holds it in his palm. The wrapper makes a faint sound inside his glove, his gaze still unfocused: Service... is... my honor..."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"??? Are you really okay? I'm a doctor, I think you need help.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 carefully observes the bellboy's reactions—pupillary light reflex normal, no tremors or abnormal sweating, movements slow but muscle tone completely normal. From a medical perspective, this young man is healthy enough to run a marathon, lacking even the common symptoms of suboptimal health. Yet his eyes are like two dry wells, all emotions falling into them without an echo."
+    },
+    {
+      "speaker": "player2",
+      "text": "(emmmm)"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmm?\" #Clearly notices the abnormality but does not speak up."
+    },
+    {
+      "speaker": "player3",
+      "text": "During the conversation, as the bellboy leads everyone through the lobby, his footsteps drag as if sleepwalking. Guest in room 307, the bellboy says dryly and then stands rooted to the spot, staring vacantly at the crystal chandelier. The receptionist takes out a few keys, then suddenly and abruptly says without context: The opera house heating is under maintenance tonight. After saying this, he continues trimming his nails as if nothing had happened."
+    }
+  ],
+  "start_line": 7161,
+  "end_line": 7472
+}

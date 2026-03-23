@@ -1,0 +1,7 @@
+openai>=1.0.0
+pyyaml>=6.0
+numpy>=1.24.0
+requests>=2.28.0
+
+# Optional: for vector retrieval (FAISS)
+# faiss-cpu>=1.7.0

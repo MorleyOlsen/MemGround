@@ -1,0 +1,320 @@
+{
+  "section": "15. Yuyuko Battle: Mid-stage Accumulation",
+  "description": "The battle reaches a stalemate; each character gathers strength while Yuyuko continuously unleashes Death Inducement and danmaku barrages, as everyone searches for an opening.",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": ".stshm+10"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... updated: [SHM]: 25+10=35"
+    },
+    {
+      "speaker": "player2",
+      "text": ".stmp-2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... updated: [MP]: 12-2=10"
+    },
+    {
+      "speaker": "player1",
+      "text": "Facing countless new sprouts, a strange purple light suddenly emanates from Yuyuko's pupils. But blocked by the barrier, Lina only momentarily feels an inexplicable urge to harm herself, without actually acting on it. Seeing this, Yuyuko pouts. \"So annoying—\" Then, Lina's attack lands."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s 'Soul Hunt' check: Roll: 1D20+3d4+3d4+2d4+2d4=10+{4+2+3}(9)+{2+2+2}(6)+{4+1}(5)+{4+3}(7)=37 Challenge: 10 Success Success Level: 6"
+    },
+    {
+      "speaker": "player1",
+      "text": ".shx10+3d4+3d4+2d4+2d4"
+    },
+    {
+      "speaker": "player2",
+      "text": "“但是，也很残忍呢，只能在死者的国度开放什么的”"
+    },
+    {
+      "speaker": "player1",
+      "text": "少女偏头\n“这是死者才有的福利”\n“只有对现世没有眷恋的人，才能看到的最好的礼物”\n“不是吗”\n少女轻笑着回头，已经忘记了刚刚摔跤的尴尬"
+    },
+    {
+      "speaker": "player4",
+      "text": "“那个……您裙子有点脏了”"
+    },
+    {
+      "speaker": "player2",
+      "text": "“咱的脑子不是很聪明，只是觉得如果为了看彼岸花就要放弃现世的话很不值？”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“啊，可能是我看错了……”"
+    },
+    {
+      "speaker": "player2",
+      "text": "“如果是大酱她们说不定能回答上来”"
+    },
+    {
+      "speaker": "player1",
+      "text": "幽幽子没有理雪语\n假装没听到ing\n“有舍才有得”\n“如果不能抛弃整个春天，就看不到最美的满开”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“幽幽子大人，春天的花田，很美丽，真的会很美丽”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“如果不能舍弃现世，自然也看不到冥界的绝景”"
+    },
+    {
+      "speaker": "player2",
+      "text": "“是这样的吗？”#偏头"
+    },
+    {
+      "speaker": "player1",
+      "text": "“是的～”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“它们不该被剥夺盛开的权利”"
+    },
+    {
+      "speaker": "player2",
+      "text": "“但是咱往返都是没问题的，想看就能看”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“再美丽，它们也不适合我吧”\n她笑了笑"
+    },
+    {
+      "speaker": "player2",
+      "text": "#自豪挺胸"
+    },
+    {
+      "speaker": "player1",
+      "text": "“西行妖也有开花的权利”\n“为什么西行妖只能这样枯萎着呢”\n“任性～”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“也许是她还不想盛开吧”"
+    },
+    {
+      "speaker": "player1",
+      "text": "少女用扇子轻点着你们\n“西行妖才没有这样说”\n“我就觉得，它很想盛开啊”\n“哼哼哼”"
+    },
+    {
+      "speaker": "player5",
+      "text": "“你是不是在假装自己没摔倒。”"
+    },
+    {
+      "speaker": "player2",
+      "text": "“任性是妖精们的特权”\n#自豪"
+    },
+    {
+      "speaker": "player1",
+      "text": "[CQ:mface,summary=[幽幽子馋],url=https://gxh.vip.qq.com/club/item/parcel/item/ec/ec98882b42756401518b0f0fcac10d67/raw300.gif,emoji_id=ec98882b42756401518b0f0fcac10d67,emoji_package_id=236877,key=c3d7d39a3b744954]"
+    },
+    {
+      "speaker": "player5",
+      "text": "#龙儿吐槽"
+    },
+    {
+      "speaker": "player1",
+      "text": "“老是抓着一个点不放也很任性”\n幽幽子叹气"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Lady Yuyuko told me, when a flower wants to proclaim its beauty to the world, it will bloom as magnificently as it can.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Cirno said that to me when we went to freeze frogs in the lake.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Well, after all, you're still too young~\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Perhaps the Saigyou Ayakashi isn't ready for its own full bloom yet.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "She chuckled lightly, waving her fan."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It's precisely children who have the right to be willful, you know.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Whether it's willing, or it's unable.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It wouldn't be good to be too willful at an old age, right?\" #🤔"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I want to see it in full bloom.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Aren't you a very willful person too? Don't talk so maturely when you're clearly a young maiden in your prime.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The old hag points the folding fan at herself."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Everyone is quite willful...\" #Glances at the nearby devourer, gently strokes it. \"Then let us, willfully, make a big commotion here.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hehe, that makes it more interesting~\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Is that so? It doesn't seem like it. That lady just now was your friend, right? Neither of you seem like you're still growing.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I don't feel like going easy anymore.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Miss Lina seems to have said something quite harsh...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Emotional intelligence is really low.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Huh? Is that so? I didn't know~\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"That Yakumo Yukari is definitely an old hag.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#"
+    },
+    {
+      "speaker": "player1",
+      "text": ".rd4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s Fortune Calculation: 1D4=2"
+    },
+    {
+      "speaker": "player1",
+      "text": "[CQ:mface,summary=[Yuyuko is craving],url=https://gxh.vip.qq.com/club/item/parcel/item/ec/ec98882b42756401518b0f0fcac10d67/raw300.gif,emoji_id=ec98882b42756401518b0f0fcac10d67,emoji_package_id=236877,key=c3d7d39a3b744954]"
+    },
+    {
+      "speaker": "player4",
+      "text": "[CQ:mface,summary=[Surrender],url=https://gxh.vip.qq.com/club/item/parcel/item/0c/0cf98b3eccef86028f8667de39f1334b/raw300.gif,emoji_id=0cf98b3eccef86028f8667de39f1334b,emoji_package_id=237688,key=6b96f4865bb0b21d]"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s 'Soul Hunt' Check: Roll: 1D20+5d4+3d4+3d4+2d4=12+{1+2+1+3+2}(9)+{4+2+3}(9)+{1+2+4}(7)+{1+3}(4)=41 Challenge: 10 Success Success Level: 7"
+    },
+    {
+      "speaker": "player1",
+      "text": ".sh5d4+3d4+3d4+2d4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer of Luo Xueyu]'s 'Soul Hunt' Check: Roll: 1D20+7d4=4+{4+2+4+4+3+3+3}(23)=27 Challenge: 10 Success Success Level: 4"
+    },
+    {
+      "speaker": "player4",
+      "text": ".sh7d4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer of Luo Xueyu]'s 'Soul Hunt' Check: Roll: 1D20+7d4=10+{2+1+3+3+2+3+4}(18)=28 Challenge: 10 Success Success Level: 4"
+    },
+    {
+      "speaker": "player4",
+      "text": ".shx10+7d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Just as Xueyu's gaze began to blur and her knees grew weak, a dark shadow suddenly darted out! The man-eating creature's massive maw, lined with sharp teeth, clamped down hard on Xueyu's left shoulder. With a sickening sound of tearing muscle and sinew, it violently dragged her backward. The intense pain, like an ice spike piercing her mind, instantly dispelled the cloying drowsiness and cleared her thoughts. She grunted, cold sweat beading on her forehead. Without any hesitation, she used her right hand to slash backward with the blood-stained saw cleaver—the blade scraping against bone produced a heart-stopping sound, forcibly prying the still-gnawing creature off her shoulder. The next moment, she pressed the twisted creature onto the saw cleaver. The man-eater let out a mix of painful and greedy shrieks as it fused with the weapon. The saw cleaver, now attached to a living monster, seemed to gain a life of its own. The blood on the blade boiled once more, actively meeting the falling petals. Where the blade swept, the tragically beautiful cherry blossom petals were drawn into and devoured by the ominous red light, as if bitten by an invisible mouth, dissipating into nothingness. Xueyu's left shoulder was now a mangled mess of flesh and blood, quickly soaking through her sleeve. Blood dripped from her fingertips onto the dark jade floor tiles, spreading into a small, glaring patch of red. Her face paled from blood loss, but her eyes regained their razor-sharp edge."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Man-eater... I can feel your hunger...\" #Raising her left arm horizontally, she placed the saw cleaver beneath it and without hesitation sawed off the entire left arm. The man-eater then swiftly swept over, devoured the arm, and attached itself to the stump, transforming into an arm-like shape. Countless mouths repeating a \"chewing\" motion then split open along the arm. \"Then... devour everything before us, until 'we' are no longer hungry, until 'we' are momentarily satisfied!\" #Biting the saw cleaver with the mouths on the \"left arm,\" the man-eater danced and devoured all the Spring Energy around it as if in a frenzied excitement. Xueyu then slammed the left arm into the floor. The arm composed of the man-eater devoured without restraint underground, swelling until it became massive, as large as a typical building. Then, this building-sized maw lunged forward to bite Yuyuko. And in an imperceptible corner, the girl, whose arm had somehow been restored, silently dragged the saw cleaver to Yuyuko's back. She swung the blade down at the exact same moment the giant maw was about to bite down, just like... a \"mouth\" and a \"tongue.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer Luo Xueyu]'s 'Soul Hunt' check: Roll: 1D20+8d4=18+{1+3+1+2+2+4+1+1}(15)=33+(3d6={3+1+6}(10)=10)=43 Challenge: 10 Success Success Level: 7 SHM: 32+10=42"
+    },
+    {
+      "speaker": "player4",
+      "text": ".sh8d4~3d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"My, my.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Literary Master]'s 'Soul Hunt' check: Roll: 1D20+2d4=10+{1+4}(5)=15 Challenge: 10 Success Success Level: 1"
+    },
+    {
+      "speaker": "player1",
+      "text": ".shx10+2d4"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st mp-5"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer Luo Xueyu]'s 'Existence Record'... Updated: [MP]: 13-5=8"
+    },
+    {
+      "speaker": "player1",
+      "text": "[CQ:mface,summary=[Yuyuko is greedy],url=https://gxh.vip.qq.com/club/item/parcel/item/ec/ec98882b42756401518b0f0fcac10d67/raw300.gif,emoji_id=ec98882b42756401518b0f0fcac10d67,emoji_package_id=236877,key=c3d7d39a3b744954]"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh?\" #Hearing Yuyuko's murmur, her calm expression showed surprise."
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl's perfectly intact left arm had already dragged the saw cleaver to appear behind Yuyuko. The flash of the blade and the clamping of the giant maw achieved perfect synchronization, like the duet of a fork and knife, striking hard against the suddenly appearing Spring Energy shield."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So scary.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The elegant Princess of the Netherworld raised her fan expressionlessly, as if frightened."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Devour! Until 'we' are momentarily satisfied!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "She waved her fan, sweeping Xueyu and her aibo away."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Whoa!\" #Swept away by the fan, the man-eater then cushioned Xueyu's fall and caught her."
+    },
+    {
+      "speaker": "player1",
+      "text": "Stroking the cracked shield,"
+    }
+  ],
+  "start_ts": "2025-10-29 01:19:02",
+  "end_ts": "2025-10-29 23:48:03"
+}

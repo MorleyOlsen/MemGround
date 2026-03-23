@@ -1,0 +1,440 @@
+{
+  "section": "Węgrów: Arrival and Street Chase",
+  "description": "In 1923, the Orient Express stops at the Polish town of Węgrów. The investigators disembark, have their first encounter with the mysterious woman Yamina, and are immediately caught in a street gunfight, escaping in a bus amidst the chaos.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "A new story begins, wish you all a pleasant journey! Recording for Bread or Stone (Węgrów 1923) has now started... Wait, a piece of paper flew out... Rabbit head rabbit head open your mouth, let me know what cup I am. He pushes me outside the list, saying I'm not worthy yet."
+    },
+    {
+      "speaker": "player5",
+      "text": "After the train slowly pulled into Węgrów station, it stopped moving forward. The friction sound between the wheels and the rails completely disappeared, leaving only the low hum of the power system. You didn't pay attention at first, continuing your pleasant conversation, until you noticed the minute hand on the platform clock outside the window had quietly completed a full circle. Other passengers also began to look around uneasily; some repeatedly checked the timetable on their tickets, the conductor's figure hurried past at the end of the corridor. The entire Orient Express seemed frozen by magic at this nameless small station. Suddenly, the attendant's fingers tapped out a rapid knocking sound on the other side of the door."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Get up, search for a while, decide to open the door."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"What's the matter? And why hasn't the train departed yet?\" #Glance at pocket watch, then put it back inside coat."
+    },
+    {
+      "speaker": "player5",
+      "text": "After the door opened, the attendant bowed slightly in apology. He explained that anarchists' bomb attacks had damaged the main track switch. As the switch needs three days to repair, passengers will be forced to stay in the town. Please all passengers take your carry-on luggage and disembark now."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Alright then, can't stay here for now.\" #Johnson takes luggage from the rack, gets ready, then helps move out companions' belongings."
+    },
+    {
+      "speaker": "player5",
+      "text": "Several uniformed police officers stand on the platform, some equipped with rifles. The train conductor announces to the passengers in a restrained, steady voice: \"Ladies and gentlemen, due to an unexpected incident, the train's passage is delayed. We apologize for asking everyone to disembark. Please have your passports ready for inspection.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"So, shall we find accommodation first?\" #Johnson looks on the platform for a convenience store selling maps."
+    },
+    {
+      "speaker": "player5",
+      "text": "Passengers are forming a winding line slowly moving forward. It seems you'll have to stand in line for inspection for now. A cold wind blows across the platform; people tighten their coats and lower their heads to wait. Officers check documents one by one, pens scratching on the register with a rustling sound."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Take out documents from leather jacket, blow on hands and rub them, waiting bored. \"A bit cold.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "A silent attendant hands over a neatly folded local newspaper, the edges still warm from the printing press. The front page carries a blurry photo of a railway accident, but the entire article is written in Serbo-Croatian, which none of you understand. However, the cover has an interesting photo, seemingly of an archaeological excavation. The photo shows an underground room, with tools and artifacts scattered on the ground."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Perk up, take it to compare, see what era the artifacts on it are from."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Archaeology"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it's what you hope for, it will be answered. <player4>'s Archaeology prayer: D100=7/78 Extreme success - You hold on, let me be extreme first!"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sorry, got a bit distracted.\" #Lazily yawn, then appear here like a ghost. \"Let me see what's on it.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"No, it's our first time here. Not communists.\" #Point to the companions next to me who are clearly much wealthier, \"These are my friends, officer.\" #Answer while looking at the newspaper. #Seeing Bai Lan took the newspaper, focus attention on dealing with the officer. #Hand the newspaper to Bai Lan."
+    },
+    {
+      "speaker": "player5",
+      "text": "Bai Lan can identify these as artifacts of 13th-century Byzantine culture. Considering the historical context, they might be spoils brought back locally from the 1204 Crusade. Finally, it's your turn. The stern officer who calls himself Captain Velemiir Kakunika takes the documents with his white-gloved fingers. His gaze sweeps over each person's face like a hawk. This Bosnian officer's questions have a cold, hard rhythm: \"Have you visited this region before? Declare your occupation? Are you involved in communist organizations? Level of knowledge about the People's Justice Army? Any military service experience? Possess knowledge of explosive device operation?\" His pen hovers above the register, waiting to record."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Hand over the prepared passport for the officer's inspection. \"We are all upstanding citizens. We know nothing about the People's Justice Army or such things. But I can guarantee none of us know how to operate explosives. You can have sniffer dogs check us.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Captain Kakunika's pen makes clear checkmarks on the register. Without looking up, he waves you through. The next passenger is guided to the table by a gendarme. The captain repeats in the same stern tone: \"Present your documents.\" His fingertips lightly tap the table, his gaze already shifting to the new subject of inquiry."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Also haven't served in the military, I'm long past conscription age.\" #A middle-aged man with a face full of wrinkles. #Signal to companions, look for a convenience store selling maps."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Politely present documents, then the usual spiel stating identity and purpose of academic exchange."
+    },
+    {
+      "speaker": "player5",
+      "text": "Dear passengers, we deeply apologize. Staff of the Compagnie Internationale des Wagons-Lits stand on the platform and say, the train cannot proceed to Belgrade until the track repairs are completed, expected to take three to four days. The switch was deliberately blown up by anarchists, but rest assured, no one was injured; your safety is always guaranteed. These things happen occasionally in these parts. Some passengers appear frustrated by the delay and inspection, while others are excited by this unexpected episode. Several Austrian and Russian passengers are being led off the platform by police. The official announces three options to passengers: You can stay in Węgrów and wait for service to resume for priority boarding; you can arrange your own motorcycle transport to Belgrade to rejoin the train; or take the original train back to Zagreb and depart again after the railway is repaired. The announcement paper in his hand trembles slightly in the cold wind. \"Passengers choosing to stay in Węgrów, the company has booked rooms at the 'Hunting Castle' lodge and will cover all costs. The lodge offers paid hunting and guide services; related expenses will be compensated by the company. Staff hope this alleviates the inconvenience of the delay. Please be sure to stay within the lodge grounds upon arrival, unless accompanied by hotel staff when going out. Currently, Węgrów is in a special period hunting anarchists; the local situation remains unstable.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What do you all decide?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Professor Bai Lan, that archaeological site is local, right? If so, then let's stay and go take a look.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Porters are moving the remaining luggage from the carriages; several taxis wait by the roadside. Passengers gradually board vehicles, preparing to go to the ferry dock to transfer to the hotel. The roar of engines and the rolling sound of suitcase wheels intertwine. Passengers staying in Węgrów, please board the bus over there! Staff direct by the roadside."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How about we stay here for a while, wait for the railway to be restored in the kitchen, and by the way, check out that archaeological discovery.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Right, let's get on the bus first.\" #Carry two people's luggage with both hands, go to place them in the lower luggage rack. #After finding seats on the bus, take the newspaper and ask the attendant if they can read this archaeological news segment for me."
+    },
+    {
+      "speaker": "player5",
+      "text": "The next empty taxi hasn't arrived yet; looks like you'll have to wait here a bit longer."
+    },
+    {
+      "speaker": "player7",
+      "text": ".nn player8"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player7> (QQ:3453399509) has changed name to <player8>. It seems you prefer this称呼."
+    },
+    {
+      "speaker": "player8",
+      "text": ".sncoc"
+    },
+    {
+      "speaker": "player1",
+      "text": "Business card has been automatically set to COC7 format: player8 SAN62 HP11/11 DEX70. Will keep updating automatically if permissions allow. Use .sn off to disable."
+    },
+    {
+      "speaker": "player5",
+      "text": "While waiting for an available taxi by the roadside, the investigators notice a woman rushing over with a suitcase, followed by a man in a dark hat."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Walking along the road carrying a suitcase, eyes constantly scanning the passersby. Suddenly, two individuals dressed distinctly unlike locals catch my eye. Most crucially, in the crowd, I instantly recognize Bai Lan as a lesbian. I maintain my pace, shift direction, and walk towards the investigators. When about a meter away, I spread my arms in a gesture of affection, giving Bai Lan a big hug. Simultaneously, I rest my head on Bai Lan's shoulder and whisper, \"I'm being followed, help me.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#The cigarette just placed in my mouth, not even lit yet, falls to the ground, leaving only a wide-open mouth staring at this scene."
+    },
+    {
+      "speaker": "player5",
+      "text": "The follower shouts loudly in Serbo-Croatian. A van suddenly appears, stopping diagonally next to the taxi. Two men rush out of the vehicle trying to grab player8. The overturned suitcase scrapes across the cobblestones with a piercing sound."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Well, dear lady, do you need to do something?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Run first.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Grabbing this lady's hand, ready to make a quick escape."
+    },
+    {
+      "speaker": "player5",
+      "text": "Then Bai Lan notices two men behind player8 charging forward with daggers. The man with the dark hat pulls a pistol from his pocket."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Realizing what this is, damn cultists, fight!"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Look around, searching for any police. Open the trench coat, casually pull out the gun holstered at my waist, aim at the man in the dark hat, and fire two shots. .rap pistol 2#"
+    },
+    {
+      "speaker": "player1",
+      "text": "Conducted 2 checks for <player4>'s pistol, results: p=67/80, ([D100=67, penalty 0]) Success; p=23/80, ([D100=23, penalty 0]) Hard Success. -The thrill of a one-time performance check is exactly this feeling!"
+    },
+    {
+      "speaker": "player4",
+      "text": ".r1d10+2"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling... <player4>'s roll: 1d10+2=9[1d10=9] + 2=11 -Not bad."
+    },
+    {
+      "speaker": "player4",
+      "text": ".r1d10+2"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling... <player4>'s roll: 1d10+2=6[1d10=6] + 2=8 -Not bad."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Throw aside the heavy luggage, roll. Pull out my long spear and thrust it towards the heart of the nearest attacker."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Release the safety."
+    },
+    {
+      "speaker": "player5",
+      "text": "(Johnson's spear)"
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra spear"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you wish for will surely be answered. <player6>'s spear wish: D100=36/50 Success -Great! More prayers won't be called lead-weighted."
+    },
+    {
+      "speaker": "player5",
+      "text": "Bai Lan's bullets accurately hit the heart and lungs of the man in the dark hat. A mist of blood briefly fills the air. The hit man's body stiffens and falls backward, heavily collapsing into the spreading pool of blood. The dark felt hat rolls to the edge of the cobblestone road."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you wish for will surely be answered. <player6>'s d10 wish: D100=99/3 Critical Failure img style=max-width: 300px src=data/images/pictures/CriticalFailure.jpg / -Uh... is it too late for me to switch to DND now..."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra brawl 70"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; what you wish for will surely be answered. <player5>'s brawl 70 wish: D100=75/70 Failure -According to the law of conservation of luck, next time for sure!"
+    },
+    {
+      "speaker": "player6",
+      "text": ".rd10"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm rolling... <player6>'s roll: d10=1 -Not bad."
+    },
+    {
+      "speaker": "player5",
+      "text": "Johnson charges forward to attack. The dagger-wielder slashes back with a silver flash. Johnson sidesteps to dodge, the spear tip grazing the opponent's side leaving a shallow wound."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Pull out a pistol, suddenly fire a shot at the nearest pursuer. .ra pistol"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player8>'s pistol wish:"
+    },
+    {
+      "speaker": "player8",
+      "text": ".rd10"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm going to roll..."
+    },
+    {
+      "speaker": "player5",
+      "text": "player8's gun muzzle flashes, the bullet precisely pierces the ambusher's forehead. The stalker who was lunging at Johnson falls backward with a thud, the dagger in his hand clattering to the ground."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player5>'s Brawl 70 wish:"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Aiming at the opening when the enemy swings his dagger, raise the spear high and thrust hard at the knife-wielding arm, crippling him."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will be answered. <player6>'s Spear wish:"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Holster the gun and return to a quiet state."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Safety off."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Observe the surroundings."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Run first, let's go to the hotel. I'll explain to you later, sorry.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The injured stalker's eyes flash with malice between his brows, the dagger stabs straight forward. Johnson exerts force with both arms, the spear cleaves down from the air, its blade piercing down from the crown of the head. The dagger clatters to the ground, the attacker's body slowly slides down along the spear shaft, forming a new pool of blood on the cobblestones."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Foot braced against the opponent's chest, pull out the spear, wipe the spearhead clean with my own handkerchief."
+    },
+    {
+      "speaker": "player5",
+      "text": "The three quickly board the bus and find seats. The moment the doors close, the engine roars to life. As the vehicle drives away from the docks, through the window you can see the police just rushing into the crime scene, the badges on their caps reflecting sporadic flashes of sunlight. The bus tires roll over the seams of the cobblestone road, leaving the bloody scene far behind."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm...\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We're quite proficient, haha.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Scratch head, then let out a long sigh."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Not really. Actually, you hooking up with us is the most dangerous part.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Huh?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Forget it, it's fine...\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"It's not particularly dangerous either. One of us is a lockpicker, one is an archaeologist, both are kind, law-abiding citizens.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Crusaders\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#While reading the news, reveals a feeling of having something on my mind."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"This lady is Bai Lan•Sha, I'm player6.\" #Introducing the two of us to her during Bai Lan's moment of thought."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This doctor's archaeological progress is a bit slow.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Slightly clench fist, then release. \"Professor Moric... is my father...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh?...\" "
+    },
+    {
+      "speaker": "player8",
+      "text": "\"He told me to wait for him at the hotel.\" #Fingers rub together."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So we need to consider another possibility.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"He seems to have been slandered, and someone also broke into the excavation site.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is my father currently being controlled by someone else?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"My father prefers to write letters in his native language.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I am also a somewhat renowned archaeologist.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"You wouldn't write to your family in a foreign language, would you?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No problem...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hunting Castle\" is accurately translated as \"Hunter's Manor.\" This complex of luxurious hunting lodges features spacious rooms with roaring indoor fireplaces and large, comfortable beds. The decor is filled with hunting elements: trophy antlers hang on the walls, animal specimens are placed throughout, and bear skin rugs cover the floors. The Roncal family, who run the manor, are hospitable. Though lacking international hospitality experience, they always strive to meet guests' needs. Besides Croatian, they can also communicate in German. The kitchen serves hearty traditional dishes: Sarma stuffed cabbage rolls, Podvarak sauerkraut stew with meat, Cevapi grilled meat sausages. The daily menu depends on guests' hunting harvests from the Kunivich Reserve. The cellar is stocked with abundant local beverages: Rakia fruit brandy, Graevina white wine, Pelinkovac bitter herbal liqueur. The bus arrives as the guide elaborates on these features."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Quickly wait for the investigators to pack up."
+    },
+    {
+      "speaker": "player5",
+      "text": "A noblewoman in a mink coat clutches her pearl handbag and repeatedly steps back: \"This is simply a barbarian's den! I must return to civilized society at once!\" She continually demands in both English and French to arrange a carriage back to Zagreb. Several gentlemanly travelers sit calmly on bear skin chairs sipping Rakia. One, twirling his mustache, tells the butler in German: \"The hunting theme suits me perfectly.\" In a corner, a group of young men and women excitedly try out workshop hunting rifles, their Russian mixed with laughter: \"Look at these fine weapons! We must bag a wild boar tomorrow!\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Check in at the front desk, then go pack and settle into the room."
+    },
+    {
+      "speaker": "player5",
+      "text": "Next, the course of action is up to you to decide freely."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go. Do you know where your father is staying?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Johnson pushes open the oak door. A moose head trophy covering an entire wall greets the eye, its glass eyes reflecting the dancing flames from the fireplace. The double bed is covered with a heavy wolf fur blanket, the bedposts carved with pinecone and hunting dog patterns. A locked gun cabinet stands in the corner. The walnut wardrobe has handles inlaid with wild boar tusks. A Bosnian carpet lies spread with an unfolded hunting map. A copper kerosene lamp casts a warm glow from the nightstand."
+    },
+    {
+      "speaker": "player8",
+      "text": "#State the hotel's address."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Wow, full-on hunting vibe, and I get to sleep in a big bed.\" #Lie down on it to try, sink in. After dozing for a bit, ask the front desk clerk for a glass of white wine and a local map."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Dear sir, the hunting rifles are all kept in the copper-edged oak cabinets. Each Beretta double-barreled shotgun is registered with a number,\" a waiter explains in English with a German accent, lightly tapping the leather register on the counter. \"Please present your passport and sign this liability waiver. A deposit of 25 gold marks is required, fully refunded upon return of the firearm. Ten rounds of ammunition are issued daily and must be used under the guide's supervision.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "The current QQ version does not support this application. Please upgrade."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Tug on player8's sleeve and whisper hesitantly, \"Hello, ma'am. It seems you might need some help? Is there anything I can assist you with?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "(Erin! Erin!)"
+    }
+  ],
+  "start_line": 0,
+  "end_line": 330
+}

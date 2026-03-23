@@ -1,0 +1,364 @@
+{
+  "section": "12. Dragon-Slaying Weapon Forging: Silver Ingot into the Furnace",
+  "description": "Melt the silver ingot in the military camp's iron furnace, roll 8d6 to forge silver weapons effective against dragons. The bard jests about the cost of all this trouble.",
+  "conversation": [
+    {
+      "speaker": "player6",
+      "text": "#Peek out to see if the dragon is still guarding the exit"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"It seems you're familiar with this monster. I'll follow you. Looking at this structure... a tomb chamber?\" #Look around to confirm the surroundings."
+    },
+    {
+      "speaker": "player3",
+      "text": "The dragon has submerged into the depths of the reservoir and is currently in the northwest corner waters."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Run run run"
+    },
+    {
+      "speaker": "player3",
+      "text": "player9 discovers a heavy oak door embedded in a stone groove at the top of the tomb chamber. The door panel is wrapped in chains like a mummy, and the lock is rusted red. A very thin line of light seeps through the door crack, with dust floating lazily in the beam."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"How about getting out from here? I don't want to fight that dragon again.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"It seems someone other than Jesus also wanted to resurrect.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Can reach it."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Maybe this dragon is being fed, and this opening is left for its keeper.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Hmph, these Greek pagans are just like that.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Now we either tear down that door immediately or play hide-and-seek with this dragon lady. Voting time... oh wait, the dragon seems to have already cast a veto for us!\" The sound of water in the distance is approaching at an alarming speed."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Run!!!\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Jump up lightly and grab to see if the chain can pull the door open with its own weight."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Use the staff to pry."
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra strength 70"
+    },
+    {
+      "speaker": "player1",
+      "text": "Faith arises from desire. If it is what you hope for, it will be answered. <player6>'s strength 70 wish:"
+    },
+    {
+      "speaker": "player9",
+      "text": "#Tighten the abdomen, curl the body to increase weight."
+    },
+    {
+      "speaker": "player3",
+      "text": ".player6's dagger cuts a cold silver arc in the dim tomb chamber. \"Crack!\" The blade precisely strikes the rusted iron chain link. The decayed metal snaps like a dry branch. The chain instantly shatters, links breaking apart and clattering to the ground, raising a cloud of ancient dust."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"A family heirloom. Now I know my dad's drunken boasts had a bit of truth to them.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Oh, nice technique, precisely hitting the link.\" #Look at the lady with an appreciative gaze."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We can talk about this later. Run now, I don't want to die here.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Are you really a maid with that strength?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Be the first to push the door open."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Pull or push to open this door and get out."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Look slightly speechless."
+    },
+    {
+      "speaker": "player3",
+      "text": "Everyone pushes the wooden door open, and blinding sunlight instantly pours down. The ruins of the Church of Saint Mokios stand silent under the afternoon sun. Half of the church's dome has collapsed, broken stone pillars lie slanted in the rubble like ribs snapped by a giant. Charred beams span above the altar, still emitting wisps of smoke. The adjacent building is completely reduced to ruins, with only a solitary wall standing abruptly, a half-burned icon still clinging to its surface. Ten statues of the Virgin Mary are scattered in the church courtyard. The white marble of the eight small statues is grayed by smoke but intact. One of the two giant statues is broken at the waist, while the other still stands among the ruins, its gilded robe hem reflecting glaring light. A large relief spreads at the base of a wall: Saint George's steed rears high, its spear piercing the throat of a monster with a long neck, short wings, and a dog-headed, dragon-bodied form. The wave patterns under the monster's claws suggest it rose from a great lake or sea."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Give a bitter smile."
+    },
+    {
+      "speaker": "player3",
+      "text": "In the distance, the sound of splashing water comes from the direction of the reservoir."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Stroke my singed beard. \"Why do you think they moved the guns away back then?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"I must report the situation to Count Baldwin. This place is...\" #Look at the church ruins."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"The Seventh Hill... San Moqius Church...\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"What are you going there for?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"In a secret compartment at the base of an ivory Madonna statue holding the Holy Infant, there is a scroll hidden by the old priest, recording how to track the 'Devil's Simulacrum'.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"It seems that's the place.\" #Points at the burned-down cathedral. \"There might still be evildoers guarding it.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"I think we still need to observe vigilantly.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"This is something a group of cultists calling themselves 'Unfettered Flesh' are looking for.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"That's the situation.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"The Count also sent us to investigate these 'Unfettered Flesh' people. We need to kill one or two and then go to the old docks to find a leper to report back.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Surveillance may not be everywhere, but it remembers faces.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"To be honest, we all came here because that blind Venetian Doge tricked us. He couldn't pay, and now look at us—a bunch of mercenaries. Is it worth risking our lives for them?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "\"At least the Count is really rich.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"So, you mean we should go back to the Count first and explain the situation?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"You just said a Madonna statue holding the Holy Infant, right... Let me see.\" #Looking at the statues among the church ruins to see if any match."
+    },
+    {
+      "speaker": "player3",
+      "text": "There are ten Madonna statues."
+    },
+    {
+      "speaker": "player7",
+      "text": "("
+    },
+    {
+      "speaker": "player3",
+      "text": "Eight small statues' white marble is grayed by smoke but intact. One of the two giant statues is broken at the waist, while the other still stands among the ruins, its gilded robe hem reflecting glaring light."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Is this the church?\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#While searching, have the maid keep watch."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Holding shield, on alert."
+    },
+    {
+      "speaker": "player3",
+      "text": "The church door is tightly closed."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Walk to the small statues to check if any match the Madonna statue described by the old priest."
+    },
+    {
+      "speaker": "player3",
+      "text": "All ten are Madonna statues."
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra55"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you wish for, it will surely be answered. <player7>'s 55 Wish:"
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra55"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you wish for, it will surely be answered. <player7>'s 55 Wish:"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Noticing the commotion from player7, coming over to help."
+    },
+    {
+      "speaker": "player3",
+      "text": "player7 takes a deep breath, grips the base of the first large Madonna statue with both hands, arm muscles tensing, and exerts force suddenly. The stone base grates against the ground with a piercing sound, dragged half a meter by him before crashing down, revealing the pedestal underneath, but there is no secret compartment."
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Strength 70"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire. If it is what you wish for, it will surely be answered. <player6>'s Strength 70 Wish:"
+    },
+    {
+      "speaker": "player9",
+      "text": "#Raise shield and draw sword to stay alert, preventing any sneak attacks."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player9>'s 侦查45 prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "player6 glanced at the Virgin Mary statue that player7 couldn't move and silently stepped forward. She first walked around to the side of the statue, running her fingertips along the seam between the base and the ground, scraping off a layer of old grime. Then, she took half a step back and suddenly delivered a side kick, heavily striking the side of the statue's base. Half a second later, the statue tilted and she pushed it over, crashing onto the nearby pile of ruins and breaking into two pieces. The severed head of the Virgin Mary rolled a few times and stopped at player7's feet, its expression still sorrowful. Yet, there was still no hidden compartment in the base."
+    },
+    {
+      "speaker": "player7",
+      "text": "#While others are moving things, scan the surroundings for any suspicious individuals."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Impressive strength, madam!\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Still nothing, let's keep looking elsewhere.\""
+    },
+    {
+      "speaker": "player7",
+      "text": "#Applaud the strong maid."
+    },
+    {
+      "speaker": "player3",
+      "text": "The heavy church doors were suddenly pushed open. In the blinding sunlight, a tall, thin figure draped in tattered monk's robes stood silhouetted against the light. The metal eyepatch on his face gleamed coldly, while his one good eye swept over the interior of the church like a snake, his gaze shifting between the toppled Virgin Mary statue and the disheveled investigators. \"Ah... lost lambs. How did you get in?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "[Swatting cockroaches]"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Hold the staff forward, raise the shield to the chest. What to do? Only fight."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Hold shield ready for combat."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Ready sword and shield, observe if there are any broken gaps in the walls of this dilapidated church to slip through and escape."
+    },
+    {
+      "speaker": "player3",
+      "text": "Suddenly, the impostors simultaneously drew crossbows from behind their backs. The sound of crossbow mechanisms echoed sharply through the church as over a dozen iron bolts shot from different angles toward the area where the four were. Amid the whistling of arrows tearing through the air, the cultists disguised as soldiers and monks behind the rubble piles maintained mechanical precision in their reloading movements. The distribution of the first volley of arrows embedded in the ground revealed tactical coordination: one-third blocked the route to the courtyard, two formed an angle to cut off retreat along the western wall with reliefs, and the densest concentration was focused around the toppled Virgin Mary statue—the investigators' location. Two cultists disguised as monks were flanking along the ruined pillars of the side aisle, holding kukri knives."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Immediately dive and crouch, turn sideways and raise the shield, moving toward that rubble direction."
+    },
+    {
+      "speaker": "player8",
+      "text": ".ra50"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player8>'s 50 prayer:"
+    },
+    {
+      "speaker": "player7",
+      "text": ".ra35"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player7>'s 35 prayer:"
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Wait! Don't fight!\""
+    },
+    {
+      "speaker": "player9",
+      "text": ".ra 闪避 48"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player9>'s 闪避48 prayer:"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Quickly find cover to avoid."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player6>'s 闪避70 prayer:"
+    },
+    {
+      "speaker": "player7",
+      "text": "(Let's pull Bai (i.e., let the GM narrate)"
+    },
+    {
+      "speaker": "player9",
+      "text": "#Sheathe the sword, extend a strong right hand to grab player7 and shield him under the shield."
+    },
+    {
+      "speaker": "player3",
+      "text": ".r1d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Alright, alright, I'm going to roll..."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Be careful, don't panic in the face of an arrow volley. Stay calm; losing your nerve is the easiest way to die!\" #Comfort teammates verbally."
+    },
+    {
+      "speaker": "player3",
+      "text": ".r8d6"
+    }
+  ],
+  "start_line": 3425,
+  "end_line": 3735
+}

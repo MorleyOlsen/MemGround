@@ -1,0 +1,240 @@
+{
+  "section": "4. First Encounter with Rumia",
+  "description": "The Wandering Ghost Rumia appears, using darkness to seal the surroundings and initiating \"Hide and Seek\". Everyone is plunged into absolute darkness, beginning the SC check.",
+  "conversation": [
+    {
+      "speaker": "player5",
+      "text": "\"That looks like it would hurt.\""
+    },
+    {
+      "speaker": "player1",
+      "text": ".rd4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s Fortune Calculation: 1D4=2"
+    },
+    {
+      "speaker": "player1",
+      "text": "In the distance, in front of a birch tree, a mass of unbearable darkness is churning. A voice carrying a sob emanates from within."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is... is Miss Rumia okay...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Moon Sign 'Moonlight'\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Don't underestimate any opponent in a Spell Card duel.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The darkness instantly condensed into countless sharp, crescent-shaped light blades, tearing through the air like shattered moon shadows. These ominous black moon rings, emanating an aura of ill omen, assaulted Ge Qing from all directions, silently annihilating even the falling snowflakes in their path."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I... I'm actually fighting for the first time...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "[CQ:mface,summary=[Drinking coffee],url=https://gxh.vip.qq.com/club/item/parcel/item/6d/6dca57fbcfcb068f62f124c35f126fb6/raw300.gif,emoji_id=6dca57fbcfcb068f62f124c35f126fb6,emoji_package_id=244258,key=325822382d5f147a]"
+    },
+    {
+      "speaker": "player1",
+      "text": "Miss Rumia seems to be sulking a little and doesn't respond."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s 'Soul Hunt' Check: Roll: 1D20+5d4+2d4=9+{3+3+2+3+4}(15)+{4+3}(7)=31 Challenge: 10 Success Success Level: 5"
+    },
+    {
+      "speaker": "player1",
+      "text": ".sh5d4+2d4"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Open!\" #Ge Qing placed her cane vertically in front of her forehead. A flash of purple light pierced the darkness, and the phantom of an eye appeared between her eyebrows."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Soul Hunt' Check: Roll: 1D20+6d4+10=14+{1+1+3+1+3+1}(10)+10=34 Challenge: 10 Success Success Level: 5"
+    },
+    {
+      "speaker": "player3",
+      "text": ".sh6d4+10"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Existence Record'... Updated: [MP]: 7-3=4"
+    },
+    {
+      "speaker": "player1",
+      "text": "The eye between Ge Qing's eyebrows suddenly opened wide, emitting a piercing purple light that saw through falsehoods. As she pushed her palm forward, the whistling black moon rings crashed into an invisible barrier, hanging suspended in the air less than three inches from the tip of her nose. The edges of the rapidly spinning moon rings produced fine blue sparks from friction, casting Ge Qing's pale face in flickering light and shadow. \"I said—\" she slowly clenched the five fingers pressing against the moon rings, \"stop right there.\" The suspended moon rings let out a mournful sound like snapping strings, finally shattering under her calm gaze."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Although it's scary, for the sake of my grove, I'll do my best too.\" #Takes out a microphone with a petal-shaped head from her pocket. \"If I sing like this, I can make the little ones grow more vigorously.\" #The song broadcast through the microphone grants this withered land the possibility of new life. Branches continuously sprout from the earth, growing towards the revealed Rumia, attempting to grab her."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Soul Hunt' Check: Roll: 1D20+5d6+1d6=7+{2+3+4+1+6}(16)+{4}(4)=27 Challenge: 10 Success Success Level: 4"
+    },
+    {
+      "speaker": "player2",
+      "text": ".sh5d6+1d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... Updated: [SHM]: 10+4=14"
+    },
+    {
+      "speaker": "player2",
+      "text": ".stmp-2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... Updated: [MP]: 12-2=10"
+    },
+    {
+      "speaker": "player1",
+      "text": ".shx10+3d4"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er stood in place, bringing his two hands together as if taking a photo, aiming at Ge Qing and Rumia. A film reel pattern appeared between his hands. Then, between his hands, Ge Qing's actions seemed to be rewound back to the moment she had just acted. Following that, a phantom of Ge Qing appeared in reality. She leaped high, then, as if frames were being skipped in a film, Ge Qing continuously threw punches, disappeared, reappeared to kick, disappeared again, her speed constantly accelerating."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjouin Long'er]'s 'Soul Hunt' Check: Roll: 1D20+Psychic Power(3)d4+2d4+1d6=14+{2+3+3}(8)+{3+3}(6)+{2}(2)=30 Challenge: 10 Success Success Level: 4"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sh Psychic Power d4+2d4+1d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s 'Soul Hunt' Check: Roll: 1D20+3d4+2d4=10+{1+3+1}(5)+{4+3}(7)=22 Challenge: 10 Success Success Level: 3"
+    },
+    {
+      "speaker": "player1",
+      "text": ".sh3d4+2d4"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st shm+6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjōin Long'er]'s 'Existence Record'... updated: [SHM]: 10+6=16"
+    },
+    {
+      "speaker": "player1",
+      "text": "Within the frame outlined by Long'er's hands, the scenery suddenly began to recede in a stuttering manner—Ge Qing stepped back half a step, her raised strands of hair fell back into place one by one, and even the kicked-up snowflakes floated back to the ground against gravity."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Youkai are so willful.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The darkness in the distant surrounding forest completely dissipates."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So scary...\" #shivering while holding Sunku"
+    },
+    {
+      "speaker": "player1",
+      "text": "Battle ends."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Hmm..., a terrifying ability\" #battle ends, regaining calm"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I-Is... is it over?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Well, I was just protecting myself.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Rumia, covered in wounds."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Are you still alive, Rumia?\" #goes over to check"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Um... that\" #timidly raises hand"
+    },
+    {
+      "speaker": "player1",
+      "text": "Rumia's face is covered in snow."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"To prevent her from attacking again, maybe I should have Sunku eat her hands and feet.\""
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjōin Long'er]'s 'Existence Record'... updated: [MP]: 13-2=11"
+    },
+    {
+      "speaker": "player1",
+      "text": "Still breathing, but fairies don't die anyway."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"...Not necessary.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"No need, she's already lost.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "People from the Sunflower Field really are no good sort."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wake up, Rumia~\" #shakes her awake"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"So scary...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh? Wh-what's wrong?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"No...\" Rumia murmurs, as if seeing something terrifying."
+    },
+    {
+      "speaker": "player4",
+      "text": "#The unidentified creature slowly retracts, only revealing a single eye from the shadow of Xueyu's clothing."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Curious about what Rumia saw, Long'er touches Rumia's forehead with a fingertip. A golden thread is pulled from there, sticking to his own forehead. \"Let me see what you saw.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "In Rumia's dream,"
+    }
+  ],
+  "start_ts": "2025-10-25 01:17:25",
+  "end_ts": "2025-10-25 02:02:10"
+}

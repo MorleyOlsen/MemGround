@@ -1,0 +1,320 @@
+{
+  "section": "11. Youmu Dialogue: Hakugyokurou Approaches",
+  "description": "Encounter and converse with the half-ghost Youmu. Youmu sheathes her sword thoughtfully. Everyone exchanges information. Hakugyokurou is right before their eyes.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": ".rd4"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s Fortune Calculation: 1D4=4"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Waaah!!!\" #In a moment of desperation, Lina let out a scream into the microphone that she had never uttered in her life. A massive soundwave collided violently with the blade. At this moment, Lina's body also underwent a change; layers of bark covered all her exposed skin, and bamboo shoots grew from the ground beneath their feet at an incredible speed, interfering with Youmu's sword trajectory."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Soul Hunt' Check: Roll: 1D20+4d4+1d6=12+{4+2+1+4}(11)+{6}(6)=29 Challenge: 10 Success Success Level: 4"
+    },
+    {
+      "speaker": "player2",
+      "text": ".sh4d4+1d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... Updated: [SHM]: 16+6=22"
+    },
+    {
+      "speaker": "player2",
+      "text": ".stmp-2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... Updated: [MP]: 8-2=6"
+    },
+    {
+      "speaker": "player1",
+      "text": "On one side of the staircase, the cherry blossoms, severed from time, still reflect the scene of that moment. When Lina's scream collided with Youmu's blade, the air of the Netherworld froze. The visible soundwave exploded into emerald-colored ripples before the tachi. Youmu's slash stalled for the first time—not blocked, but as if sinking into thick resin, every inch of progress tearing through countless layers of sonic booms. The stone steps beneath Lina's feet cracked, and countless green bamboo shoots burst from the ground. These jade-like bamboos grew into natural lattices along the sword's trajectory, the bamboo joints clashing with the blade producing chime-like clear sounds. The girl's skin rapidly turned woody, and the tender shoots sprouting from her hair swayed violently in the soundwave. When the deadliest sword gleam finally pierced through all obstacles, those bamboo branches suddenly bloomed with white flowers collectively, the petals wrapping around the sharp edge of the blade's tip. Youmu's sword stopped at Lina's brow, and Lina's scream also ceased abruptly. As she staggered back, the bark peeled off her body into specks of light, and the severed bamboo branches turned into Spring Energy fireflies. The girl's figure became much more transparent. Under that strike, Youmu only slowly sheathed her sword from behind, failing to pierce the brow. Behind Lina, Youmu still maintained her sword-sheathing posture."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Oww! Bully!!\" #Lina, in pain, lay on the ground holding her head and crying."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... Updated: [HP]: 6-4=2"
+    },
+    {
+      "speaker": "player1",
+      "text": "Her momentum surged with each step after that strike. The Gardener's Aura: Youmu's attacks gain additional dice equal to the cumulative damage dealt. Her pupils reflected Long'er's figure."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er stands ready."
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl uttered a whisper only she could hear. \"Human God Sword... Night Attendant Reflecting Satellite Slash\""
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s 'Soul Hunt' Check: Roll: 1D20+7d4+3d4+2d4+2d4+3d4+1d4=14+{4+4+3+2+2+3+4}(22)+{2+4+2}(8)+{3+3}(6)+{1+4}(5)+{3+4+4}(11)+{3}(3)=69 Challenge: 10 Success Success Level: 12"
+    },
+    {
+      "speaker": "player1",
+      "text": ".sh7d4+3d4+2d4+2d4+3d4+1d4"
+    },
+    {
+      "speaker": "player5",
+      "text": "#First, choose to defend."
+    },
+    {
+      "speaker": "player1",
+      "text": "Youmu's action of sheathing her sword carried a ritual-like solemnity. The light sound of the tsuba meeting the scabbard actually sent ripples through the Netherworld. The pure white steps beneath her feet began to show crack-like patterns—not shattering, but more like awakening veins, with dark red light flowing within— She did not draw immediately but maintained a bowing, sword-pressing posture, as if listening to the heartbeat from within the scabbard. When the spiritual power swirling around Long'er reached its peak, Youmu moved—the trajectory of the tachi's draw was startlingly simple. No dazzling light effects, no air-rending shrieks, only a silver line as thin as early snow slowly appearing in the air. Yet the moment this silver line was born, the entire space began to fold. The vast spiritual power Long'er unleashed collided with an invisible prism, being refracted and deflected entirely, turning into countless fragmented streams of light swirling around the silver line. And far more than that—the scattered Spring Energy, the flickering Netherworld flames, even the debris from the steps beneath everyone's feet, all condensed and reformed around this silver line, turning into countless semi-transparent虚无之剑. As if responding to the girl's words."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mr. Tenjouin!\" #Seeing such a perilous situation, she anxiously shouted out."
+    },
+    {
+      "speaker": "player1",
+      "text": "The虚无之剑 began to move following some profound trajectory, like satellites orbiting a planet, trapping Long'er at the center. Each虚无之剑 reflected the initial silver line Youmu had slashed. Each reflection made the silver line's trajectory more complex, more lethal. The sword technique had already formed its own world, and Long'er became the sole target within this world. When the myriad reflected silver lines finally intertwined into an inescapable net of certain death, Youmu's figure seemed to transform into a star within this sword-technique starscape. Where the blade passed, there was no earth-shattering roar, only a subtle sound like cutting paper—the sound of space itself being severed. The Netherworld wind suddenly grew heavy, as if even time chose to submit before this slash. In the entire space, only the girl's initial words echoed: Night Attendant Reflecting Satellite Slash."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er's Messiah Fist surged and spread over his body like liquid. The sturdy armor made of Orichalcum emitting a pale green light resisted the interweaving silver lines. Some sword gleams, before landing on him, flew back in the direction they came from as if time had reversed. He activated his ability to its fullest, his face even turning into the pale complexion of a zombie."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjouin Long'er]'s 'Soul Hunt' Check: Roll: 1D20+7d4+1d6=7+{1+4+2+4+3+1+3}(18)+{5}(5)=30 Challenge: 10 Success Success Level: 4"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sh7d4+1d6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Dangerous..."
+    },
+    {
+      "speaker": "player5",
+      "text": "I'll use my Stylish Points!"
+    },
+    {
+      "speaker": "player1",
+      "text": "Such a feeling welled up in my heart."
+    },
+    {
+      "speaker": "player5",
+      "text": ".rd100 Need less than 42 to withstand it!"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjouin Long'er]... due to [Need less than 42 to withstand it!]... cough... Fortune Calculation: 1D100=9"
+    },
+    {
+      "speaker": "player5",
+      "text": "!!!!!"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjouin Long'er]'s 'Existence Record'... Updated: [SHM]: 21-15=6"
+    },
+    {
+      "speaker": "player1",
+      "text": "A teeth-grating tearing sound comes from beside you. In an instant, the sword before your eyes fills your vision."
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp+8"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjoin Long'er]'s 'Existence Record'... has been updated: [MP]: -10+8=-2"
+    },
+    {
+      "speaker": "player1",
+      "text": "Long'er can sense the danger."
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp+5"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjoin Long'er]'s 'Existence Record'... has been updated: [MP]: -2+5=3"
+    },
+    {
+      "speaker": "player1",
+      "text": "He can feel a lethal risk. But..."
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp+2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjoin Long'er]'s 'Existence Record'... has been updated: [MP]: 3+2=5"
+    },
+    {
+      "speaker": "player1",
+      "text": "The cooking smoke from the Bamboo Forest of the Lost still rises."
+    },
+    {
+      "speaker": "player5",
+      "text": ".st hp-5"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjoin Long'er]'s 'Existence Record'... has been updated: [HP]: 6-5=1"
+    },
+    {
+      "speaker": "player1",
+      "text": "At Long'er's home, someone is still waiting for him to return. When the dense barrage of sword glints finally dissipates, Tenjoin props himself up, his body covered in wounds."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Your sword, your will... truly strong.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"A respectable opponent.\" The girl forcing herself to stand says this."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I promised that guy I wouldn't die.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I see...\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Even so, must we still fight on?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl closes her eyes and lets out a sigh."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Fighting hurts. I don't like it.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I also promised Lady Yuyuko I would protect the safety of Hakugyokurou, even though I'm still quite incompetent.\" The girl looks at the tachi in her hand."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It really hurts, you know. So this is how Mokou feels every time she fights with the Princess?\" #Long'er breathes heavily with effort, propping himself up to avoid collapsing directly to the ground."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Combat is something that brings pain and death...\" \"For the sake of one spring, is it worth it?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Impressive. Truly a battle-hardened body.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Of course it's worth it.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"All things in the world follow their own natural order.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It's worth it! This is the spring that makes the flowers bloom!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"With this spring, I can endure a few more times. Without this spring, I might not be able to endure at all.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"This is really...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"To properly enjoy each day in the future, I must take it back.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl sighed, the sharp aura around her beginning to recede. \"I'm defeated, defeated...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"If spring doesn't come, I won't be able to have the spring bamboo shoot hotpot I promised Mokou.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Although it's very frustrating, I also hope Lady Yuyuko will return spring.\" \"Since you have such determination...\" The girl stepped aside. \"I respect your will.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Huh? That's great!\" #rushes over to hug Youmu and rubs cheeks."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It's all your fault for ambushing me at the start, I forgot to ask you. Have you seen a very suspicious-looking blonde woman?\" #Long'er asks Youmu."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Lady Yuyuko is just a bit willful, she's a very good person, but to strangers... ahh.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Ge Qing had somehow already arrived behind Youmu and lightly tapped the back of her neck. Just as Youmu was puzzled, she first felt a sharp pain in her shoulder, which gradually spread throughout her body, followed by a tingling numbness and dizziness..."
+    },
+    {
+      "speaker": "player5",
+      "text": "#pulls Lina's face away."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Having to endure such torment with blocked meridians, you've worked hard.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Youmu is a bit flustered dealing with the affectionate rubbing."
+    },
+    {
+      "speaker": "player4",
+      "text": "#folds the Saw Cleaver and puts it behind his back, then bows deeply to the girl. \"Thank you very much. We will live up to your expectations.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Pressure points...\" \"Didn't notice at all.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Huh? But she's a good person too, right? Isn't it okay to want to get close to a good person?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Youmu's face is still red."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hey, I'm asking you a question, have you seen her or not?\" #takes out some Golden Wound Medicine from his pocket and applies it to himself."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Blonde woman...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"At first, I was worried that your half-human, half-phantom constitution might be different from ordinary people. It seems I was overthinking it. Rest well.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Youmu sheathes her sword, lost in thought. \"Thank you.\""
+    }
+  ],
+  "start_ts": "2025-10-28 00:36:18",
+  "end_ts": "2025-10-28 01:23:37"
+}

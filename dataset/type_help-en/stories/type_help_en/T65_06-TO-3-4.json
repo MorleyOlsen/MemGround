@@ -1,0 +1,10 @@
+{
+  "section": "06-TO-3-4",
+  "description": "Oswald enters the room and speaks with Tony Dauer, discussing the room’s history and their identities. After a brief conflict, Oswald leaves. Then the drawer is opened and closed again, and Tony also leaves.",
+  "conversation": [
+    {
+      "speaker": "dialogue",
+      "text": "Description: Oswald enters the room and speaks with Tony Dauer, discussing the room’s history and their identities. After a brief conflict, Oswald leaves. Then the drawer is opened and closed again, and Tony also leaves.\nLocation: Tony Dauer's room（Tony's room）\nKey Information:\n  - Person No. 3 (Oswald) enters the room and finds Tony Dauer inside; a drawer is pulled open and then shut.\n  - Tony Dauer questions whether Oswald was going through his things; Oswald explains he didn’t know anyone was staying in the room.\n  - Tony says his sister once talked about Oswald; Oswald says this room used to be their nursery.\n  - They argue, and Tony demands Oswald leave the room.\n  - Oswald leaves. The drawer is opened and closed again, and Tony Dauer also leaves afterward.\nCharacters:\n  [Oswald（Oswald）] Person No. 3, enters Tony Dauer’s room.\n    · Talks with Tony and says the room used to be their nursery.\n    · Is told to leave by Tony and does so without further interference.\n  [Tony Dauer（Tony Dauer）] Person No. 4, the current occupant of the room, warns Oswald not to enter again.\n    · Clashes with Oswald and orders him to leave.\n    · Mentions his sister once spoke about Oswald and shows dissatisfaction with Oswald’s actions."
+    }
+  ]
+}

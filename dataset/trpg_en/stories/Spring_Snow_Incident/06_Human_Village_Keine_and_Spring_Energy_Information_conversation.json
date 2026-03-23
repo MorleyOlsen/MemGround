@@ -1,0 +1,444 @@
+{
+  "section": "6. Human Village: Keine and Spring Energy Information",
+  "description": "Arriving at the Human Village, visiting the Terakoya, Keine tells the legend of the ancient youkai tree that consumed human lives to become Spring Energy, provides information about Saigyou Ayakashi and Hakugyokurou, the group decides to head to the Netherworld.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "\"It's ancient times.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"How terrifying...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"But that Miss Remilia probably wouldn't do something so excessive.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Indeed.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "And before Long'er."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is there such a terrifying thing here too?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The vendor's nimble wrist turned, and as the syrup flowed, it outlined a sharp profile. The crystallized sugar figure solidified under the lamplight into the silhouette of a white-haired girl, with even the folds of her haori and that tuft of sticking-up ahoge rendered vividly. \"Here.\" The vendor handed over the sugar figure."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"So, was this also caused by that so-called tree?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Probably... not anymore.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thank you, Mokou. Look, it really looks like you.\" #Walks to Mokou's side to show her."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Perhaps we really can find it.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Saigyou Ayakashi...? I think I've seen this name in some scripture...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"If you think I'll make a sarcastic remark, you're sorely mistaken.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Saigyou... Ayakashi? What a strange name.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Ge Qing also pulled out a scripture from somewhere and started flipping through it."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I think it sounds quite beautiful.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Consume one item point."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Seeing Mokou didn't make a sarcastic remark, smiles and stuffs the sugar figure into her hand."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It feels like, judging by the name, it's not something that would make people happy...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Guiding human souls towards wandering.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#The material of this scripture is special; the characters are raised."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Such a tree is definitely not healthy.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Such flowers... no matter how beautiful, they are false, right?\" #Recalls the beautiful flower field."
+    },
+    {
+      "speaker": "player1",
+      "text": "Mokou awkwardly accepted the sugar figure."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Soul Hunt' check: Roll: 1D20+1d4=6+3=9 Challenge: 10 Failure."
+    },
+    {
+      "speaker": "player3",
+      "text": ".sh1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"So annoying, you could have kept it yourself.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"......, no.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "But still didn't refuse."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Recalling if there is any memory or knowledge of Saigyou Ayakashi in his mind."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjouin Long'er]'s 'Soul Hunting' check: Roll: 1D20+Soul Hunting Knowledge(0)d4=14+0=14 Challenge: 10 Success Success Level: 1"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sh Soul Hunting Knowledged4"
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Forget it, just kill that kind of demon tree directly.\" #Ge Qing didn't show much emotion."
+    },
+    {
+      "speaker": "player1",
+      "text": "As Long'er thought this, she really did recall something. It seemed like when she followed Mokou to Eientei once. Mokou and Kaguya were having their usual fight. And Long'er sometimes stayed there to read books. In an ancient text, there indeed seemed to be a story about the Saigyou Ayakashi. The latter half of the story was:"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Perhaps that tree doesn't want to bloom either...\" \"Maybe someone is intentionally causing it.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Saigyou Ayakashi Folklore According to ancient texts, the Saigyou Ayakashi is no ordinary tree. It was originally a common cherry tree, but a powerful monk named Saigyou achieved enlightenment and passed away beneath it. His lifelong cultivation and insights into death seeped into the roots, causing a mutation. From then on, the tree took root at the boundary between life and death, gaining the terrifying traits of gathering spirits and absorbing the world's Spring Energy. Its blooming flowers, though supremely gorgeous, symbolize the blossoming of death and voraciously devour the vitality of the living world. The monk's daughter became the sole guardian of this demon tree. Using her own existence as shackles, she bound her father's resting tree between life and death, preventing it from completely consuming the world of the living, yet not letting it fall into complete stillness. Year after year, she sat beneath the tree, watching it greedily absorb the spring light that should belong to all things, watching the petals pile up like tears, yet never truly withering. It was not evil, but an endless, sorrowful dream. The tree hopelessly collects a spring that has long since passed, while the princess hopelessly accompanies a father who has long since departed. Every act of plundering Spring Energy is that lonely tree's silent, mournful cry to a spring that is no longer there. Until countless years later, until after the maiden's death, this part has become unclear. Afterwards, the Saigyou Ayakashi took root for a long time in the Netherworld's Hakugyokurou."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hakugyokurou, the Princess of Hourai's book mentioned this place.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "When Long'er read this story, she always had a strange feeling. It seemed like a suspicious person had hidden their name. This story was always fragmented. The parts didn't quite connect. \"Hakugyokurou...\" Keine pondered for a moment. \"That's in the Netherworld.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The Netherworld, is that the world of the dead I'm thinking of?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Hearing this, Mokou turned her head while chewing candy."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The Netherworld?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Doesn't that mean you have to die to see it?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Yeah.\" #munch munch \"No, I can just slit my throat and go.\" \"Oh, you guys can't do that.\" Mokou pondered."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The living can also go there.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You never stay there for long, do you, Mokou.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Right... I think I have some impression.\" \"Go if you want, don't go if you don't. Generally, if you die, you just revive directly.\" \"You can also delay a bit. The soul will walk up a staircase.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Miss Mokou... please take care of your body...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"After passing through a gate, it's Hakugyokurou.\" \"Oh, I think there's a big cherry tree.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"If we want to go, Teacher Kamishirasawa, how do we get there?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Mokou said while eating candy. \"It's fine, it's fine, you won't die.\" \"This...\" Keine pondered. \"Since Spring Energy can go there, then theoretically, you all can too.\" As she said this, she took out a map."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Even if you won't die, it still hurts.\" #Lightly flicks Mokou's shoulder with a finger while吐槽ing."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I... I don't want to die yet...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I'm used to it.\" \"No big deal.\" \"It's fine, just think of death more openly.\" \"Dying is just sleeping and then waking up to keep living.\" \"Sigh.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I think I can probably go too.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Mokou waves her hand."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"H-how can we get to the Netherworld...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Looks helplessly at Mokou pretending not to care, shakes head."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hmm...\" \"According to my observations,\" \"The Spring Energy near the Human Village always flows in this direction.\" \"If you follow it this way,\" \"Perhaps you can see the entrance to the Netherworld.\" Keine said this while drawing a line on the map."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Peeking at the map curiously."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I hope this helps you.\" Keine said, handing over the map."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thank you, Teacher Kamishirasawa.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"No problem, no problem.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thank you, Miss Keine.\" #bows deeply to Keine"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Although I'd like to go along, but...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Thank you, Miss Keine. Please have some cherries.\" #plucks two from hair and offers them to the two"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Noticing Mokou's mood, just shrugs"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Oh... quite considerate.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Well, Mokou, I think I should go to the Netherworld with them too.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"You?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Um... may I ask where Miss Keine and Miss Mokou usually live? When spring returns, I'd like to bring flowers blooming in the spring from the flower field to thank you both.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Be careful. You don't have resurrection coins. If you die, you'll be taken by that green-haired Yama.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thank you, I'll try not to die.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Don't just try, you have to promise.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I'll bring newly grown fruits too.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"It's best if none of you die.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then I promise I absolutely won't die.\" #smiles"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Thanks. If anything happens, just look for me. I'm always here.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"The end has accompanied all things from the very beginning. If I fall here, it is my fate.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"So enviable~\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Mokou isn't going to die and secretly follow us after we leave, is she? #looks at Mokou, stares into her eyes, interrogating her with gaze"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Miss Ge Qing... so cool!\" #star-eyed"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I don't understand but it still sounds cool.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Then I'll thank Miss Mokou in advance.\" #bows"
+    },
+    {
+      "speaker": "player1",
+      "text": "Her eyes show disdain."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"No.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Me, Keine, two people, shopping.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"There is no true end in the literal sense. You fairies need not worry about such things.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"It's fine, no need to thank me.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Averts gaze \"Let's go clean up the shrine maiden's mess.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Anyway, after this is over, I'll treat you to mushroom soup.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Mhm, mhm.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Long'er... completely seen through...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Come back alive.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Try to make it back for dinner tonight.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Alright, if you solve it tonight, then I won't cook. I'll go to Hakurei Shrine to crash the banquet.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Preparing to leave"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"You actually made such a bold declaration that it can be solved in a single day!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Good luck, we'll be waiting for your news.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Can you do it?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "She waved from behind."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Long'er is so amazing!\" #Looking at Tenjōin Long'er with admiration"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"That useless shrine maiden can do it.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Yeah.\" #Waving goodbye"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Goodbye~\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Bye, bye...\" The voice gradually faded."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thank you, Miss Mokou and Miss Keine. After spring returns, I will definitely bring blooming flowers to thank you.\" #Waving goodbye to the two"
+    },
+    {
+      "speaker": "player1",
+      "text": "After your figures could no longer be seen, Mokou pouted."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It seems the Spring Energy is heading up ahead.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Faintly visible ahead were still drifting Spring Energy particles."
+    }
+  ],
+  "start_ts": "2025-10-26 23:32:52",
+  "end_ts": "2025-10-27 00:16:41"
+}

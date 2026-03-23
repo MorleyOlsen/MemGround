@@ -1,0 +1,208 @@
+{
+  "section": "30. Escape from Milan: Crimson Eyes",
+  "description": "Dylan is attacked by a mysterious pale creature, leaving suspicious wounds on his neck and descending into madness, muttering \"Triumphant Return.\" The investigators flee in panic onto the last Orient Express. From the shadows of the platform, crimson eyes watch silently. Next stop: Venice",
+  "conversation": [
+    {
+      "speaker": "player2",
+      "text": "(I think the Fascists are completely impossible to negotiate with"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show Stealth"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player5",
+      "text": "#After receiving these slips of paper, decide to use them to hire a translator at the hotel."
+    },
+    {
+      "speaker": "player3",
+      "text": "After hiring the translator, the time is 1 PM."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Stroll over to the car rental place, prepare a small car with a trunk, park it at a non-restricted intersection near the theater."
+    },
+    {
+      "speaker": "player3",
+      "text": "Bailan parked the car at a non-restricted intersection; it's inconvenient to park near the theater. After completing this, the time is 5 PM, with three hours left."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Pack the luggage while at it."
+    },
+    {
+      "speaker": "player3",
+      "text": "At exactly 8 PM, the sound of the conductor's baton lightly tapping the stand cuts through the silence, and a thin, sharp high note reverberates throughout the hall. As the familiar melody begins, the investigators immediately recognize it as the very tune Caterina improvised on the Orient Express."
+    },
+    {
+      "speaker": "player4",
+      "text": ".sc 1/1D6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone's watching"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sc 1/1D6"
+    },
+    {
+      "speaker": "player1",
+      "text": "Eh... another Sanity check? I understand, everyone's watching"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Hearing the familiar voice coming from a completely unfamiliar person's mouth"
+    },
+    {
+      "speaker": "player3",
+      "text": "(Bailan, Bailan, stop them!)"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Extend a hand, try to grab the companion."
+    },
+    {
+      "speaker": "player4",
+      "text": ".st cm +5"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s \"Cthulhu Mythos\" change: 0 ➯ 5 (increase 5=5)"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Calm down, this is a public place.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it's what you expect, it will receive a response. <player5>'s DEX wish:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra DEX"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it's what you expect, it will receive a response. <player4>'s DEX wish:"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Politely extend a hand, cover the other's mouth while giving a hard pinch at their waist."
+    },
+    {
+      "speaker": "player3",
+      "text": "The audience remains immersed in the strange collective humming atmosphere, almost no one noticing the anomaly."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ow, that hurts\""
+    },
+    {
+      "speaker": "player3",
+      "text": "As the aria ends, the old man singing with Caterina's voice gasps for breath, appearing very weak. The stage backdrop changes to the scene of the Temple of Ptah. Priests holding incense circle the entering Radamès, and the smoke slowly drifts into the audience."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Struggle to calm down and sit back down."
+    },
+    {
+      "speaker": "player3",
+      "text": "After the priests present the sword and battle boots to Radamès, a spotlight suddenly illuminates the center of the stage—Radamès's armor is worn on a giant tailor's mannequin. As the priests remove the armor, the spotlight reveals the milky-white, headless torso statue. The luster and texture of its material perfectly match the left arm statue the investigators are searching for."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Struggle."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Doctor, what do you think that old man's identity is?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 and Johnson see the stage assistants starting to push the statue backstage. The props manager Marco waves at them: Come give a hand! Help move this one back to the props room."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Go up and help"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Recall the wound on that big star's neck earlier"
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 and Johnson carry the statue left and right, arriving at the empty corridor. The wheels creak on the wooden floor, echoing in the unmanned passage."
+    },
+    {
+      "speaker": "player4",
+      "text": "(His direct cause of death was having his chest slit open"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Look at the Blackshirts at the exit"
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 glances toward the exit leading outside and immediately freezes in place—two Blackshirts lie collapsed by the door, their skin gray-white and shriveled, like emptied-out skins. The old man who once sang with Caterina's voice lies face up, his twig-like fingers still clutching at the door, his eye sockets sunken into two black holes. Four burly men are piled like discarded dolls beside the fire hydrant, their suits hanging loosely on their shriveled bodies. The old woman curls up under the ticket-checking counter, the wound on her neck already blackened and hardened. In the shadows, a pair of pale hands flashes and disappears."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Did you get the thing?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Things have come to this, load the statue onto the cart and make a swift escape"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Got it, got it, let's scram\" #Rubs shoulder with effort"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Let Johnson push the cart"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Run, run fast\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Look at that pair of pale hands."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Forget it, forget it\" #Takes over the cart, starts with a running push"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra willpower"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely receive a response. <player4>'s willpower prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Quickly glance at the hands twice, then run"
+    },
+    {
+      "speaker": "player3",
+      "text": "Not recognized, but they are so pale it's unsettling. Maybe it's due to the lighting? A living person couldn't have skin of that color."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Can only run, hurry up"
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 struggles even more violently under Bailan's restraint, his eyeballs bulging almost out of their sockets. An inhuman gurgling sound comes from his throat, drool uncontrollably flowing down his chin. Triumphant Return... Triumphant Return..."
+    }
+  ],
+  "start_line": 9030,
+  "end_line": 9340
+}

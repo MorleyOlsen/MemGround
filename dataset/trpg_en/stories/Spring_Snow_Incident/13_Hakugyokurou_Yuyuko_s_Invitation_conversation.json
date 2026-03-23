@@ -1,0 +1,376 @@
+{
+  "section": "13. Hakugyokurou: Yuyuko's Invitation",
+  "description": "Upon entering Hakugyokurou, you encounter Yuyuko, who has absorbed a large amount of Spring Energy. The maiden welcomes everyone to view the flowers, but as the conversation progresses, it gradually turns confrontational, creating a微妙 atmosphere.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "\"I welcome you.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You could also go see for yourself in Gensokyo.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl tilts her head, pretending not to have heard the question about Spring Energy."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"It's not like everyone is together in the Netherworld.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"It's nice in the Netherworld, isn't it~\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"But because of your borrowing, more lives have been lost.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Protest, protest! Without this spring, I might not be able to see future springs.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hmm...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Please don't let this Saigyou Ayakashi bloom.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl puffs her cheeks, looking somewhat troubled."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Huh?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"What shall we do~\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Ge Qing has some experience; reasoning doesn't work with incidents, it has to be settled by force."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Is that so? www\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Eh? Miss Ge Qing\" #lowering voice \"That's a bit too rough, isn't it?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl covers her face with her fan, laughing."
+    },
+    {
+      "speaker": "player3",
+      "text": "#A surge of momentum, entering a furious state again."
+    },
+    {
+      "speaker": "player1",
+      "text": "She flicks her fan lightly, and several Spring Energy cherry blossom petals gather around her."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"What game?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"If the Spring Energy shield is broken by you all...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"No need for more words.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Then I lose.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"How scary... and you have the nerve to call us willful?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We won't lose.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"That's part of the game~\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yes, yes! We absolutely won't lose! To bring back spring!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Well then, shall we give it a try?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"I hope you keep your promise.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hmph.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Curb your curiosity?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The contents of that book.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Come, let's have a feast!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er turns to answer Xueyu"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"A feast?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl lightly laughs and waves her fan; specks of light composed of Spring Energy petals begin to erode the surrounding space until the entire area is dyed pink. \"Yes, a feast.\" \"Until you dance to your death...\" .rd20"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s Fortune Calculation: 1D20=17"
+    },
+    {
+      "speaker": "player4",
+      "text": ".rd20"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devourer Luo Xueyu]'s Fortune Calculation: 1D20=16"
+    },
+    {
+      "speaker": "player5",
+      "text": ".rd20"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Infinite Tenjouin Long'er]'s Fortune Calculation: 1D20=8"
+    },
+    {
+      "speaker": "player2",
+      "text": ".rd20"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s Fortune Calculation: 1D20=20"
+    },
+    {
+      "speaker": "player3",
+      "text": ".rd20"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s Fortune Calculation: 1D20=15"
+    },
+    {
+      "speaker": "player1",
+      "text": "[CQ:mface,summary=[Yuyuko is greedy],url=https://gxh.vip.qq.com/club/item/parcel/item/ec/ec98882b42756401518b0f0fcac10d67/raw300.gif,emoji_id=ec98882b42756401518b0f0fcac10d67,emoji_package_id=236877,key=c3d7d39a3b744954]"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That's too tragic, having to dance even after death.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Lina Yuyuko Xueyu Ge Qing Long'er"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It's better for the dead to rest more.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Dancing repeatedly...\" #looks at Tenjouin Long'er"
+    },
+    {
+      "speaker": "player1",
+      "text": "Spring Domain: A scene, a paradise composed of Spring Energy. Yuyuko replenishes 1d4 points of Spring Energy Shield here at the end of each round. \"No need for long sleep in life~ nor long rest in death~\" The girl replies with an off-key little tune. [CQ:mface,summary=[Yukari spreads hands],url=https://gxh.vip.qq.com/club/item/parcel/item/1d/1d3c553c1716bcc334c73222a68c6f12/raw300.gif,emoji_id=1d3c553c1716bcc334c73222a68c6f12,emoji_package_id=236877,key=c3d7d39a3b744954]"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then, there's essentially no difference between life and death.\" [CQ:at,qq=3098965959] #Long'er replies with a meaningful statement"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"You can come keep me company when you die, the difference is huge, huge~\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"The Spring Energy here isn't just for you to use, I can too!\" #Extends both hands to gather the drifting Spring Energy in front; a pink glow envelops Lina's entire body. \"Bet you didn't expect this place to become my aid!\" #Uses the vitality of the Spring Energy to make the earth grow giant trees, trapping the girl within them."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I might be painfully digested...\" #Looks back at the Devourer wriggling in his own shadow."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Give the Spring Energy back first.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Soul Hunt' Check: Roll: 1D20+3d4+1d6=17+{4+2+1}(7)+{3}(3)=27 Challenge: 10 Success Success Level: 4"
+    },
+    {
+      "speaker": "player2",
+      "text": ".sh3d4+1d6 .stshm+3"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... Updated: [SHM]: 22+3=25"
+    },
+    {
+      "speaker": "player2",
+      "text": ".stmp-1"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Blooming Fairy Lina]'s 'Existence Record'... Updated: [MP]: 12-1=11 [Blooming Fairy Lina]'s 'Soul Hunt' Check: Roll: 1D20+5d4=3+{1+1+1+2+2}(7)=10 Challenge: 10 Failure"
+    },
+    {
+      "speaker": "player2",
+      "text": ".sh5d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "[CQ:mface,summary=[Yuyuko craving],url=https://gxh.vip.qq.com/club/item/parcel/item/ec/ec98882b42756401518b0f0fcac10d67/raw300.gif,emoji_id=ec98882b42756401518b0f0fcac10d67,emoji_package_id=236877,key=c3d7d39a3b744954]"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"What happened?!\" #Frantically throws away the tree root in hand. \"You did this, didn't you! You almost got me killed!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Ability to Manipulate the Degree of Death: Yuyuko's counterattack is replaced by forcing the opponent to make a Soul check. If their Soul check result is less than half of Yuyuko's Shield value, the attack was merely an illusion, and the real body is being led towards death."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This? What is this?!\" #Xueyu looks shocked."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"When people are near death, they might experience hallucinations. That's probably what that ability is.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I don't understand~\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Such... such a powerful opponent. Feels completely different from everyone we've met before...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"This is cheating, isn't it?!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"This is a method of making friends.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s Fortune Calculation: 1D4=4"
+    },
+    {
+      "speaker": "player1",
+      "text": "The moment Yuyuko unfolds her folding fan, time seems to stretch. An unknown melody resounds throughout the space."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Defend"
+    },
+    {
+      "speaker": "player1",
+      "text": "In the distance, the girl who had done all this reveals an expectant look, seemingly waiting for Long'er to die and become her companion."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Great Writer]'s 'Soul Hunt' Check: Roll: 1D20+3d4+3d4+2d4+2d4+2d6=5+{2+4+4}(10)+{4+2+2}(8)+{1+3}(4)+{3+4}(7)+{2+4}(6)=40 Challenge: 10 Success Success Level: 6"
+    },
+    {
+      "speaker": "player1",
+      "text": ".sh3d4+3d4+2d4+2d4+2d6"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er's figure is instantly engulfed and disappears within the phosphorescent powder and the pink cloud of Reverse Butterflies. But a pitch-black door is slowly opening within the cloud. Accompanied by the firing of the Messiah Fist's grappling hook, Long'er, now half-skeletonized with an Aztec gold coin in his mouth, is using all his strength to claw his way out of the door."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjouin Long'er]'s 'Soul Hunt' Check: Roll: 1D20+6d4+2d6=5+{2+3+3+2+1+4}(15)+{6+1}(7)=27 Challenge: 10 Success Success Level: 4"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sh6d4+2d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjouin Long'er]'s 'Existence Record'... Updated: [SHM]: 6+11=17"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st mp-2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjouin Long'er]'s 'Existence Record'... Updated: [MP]: 10-2=8"
+    },
+    {
+      "speaker": "player1",
+      "text": "Long'er, having crawled out of the door, returns to the battlefield shrouded in the aura of death, but his left shoulder is still affected, missing a large chunk."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Hmph, that was close. Almost died.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"So willful, a bad child.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Go! Devourer... Huh? Ahhhhh!\" #The girl commands the creature to attack Yuyuko, but perhaps the Devourer's instinct to consume finally overwhelms it when faced with this漫天 of food. It breaks free from the girl's control and starts devouring the漫天 Spring Energy. Then, it turns its drooling gaze towards Yuyuko and the nearby Saigyou Ayakashi. Once again, it inflates itself to a size that blots out the sky and charges towards the incredibly delicious \"food.\" \"I'm sorry!\" #Xueyu seems to be apologizing to the devoured Spring Energy, but this doesn't hinder her in the slightest as she drags the unwieldy Saw Cleaver and dashes at high speed towards Yuyuki. Under the Devourer's sky-blotting shadow, Xueyu arrives silently at Yuyuko's side. The heavy Saw Cleaver she drags scrapes against the ground, producing brilliant crimson sparks. Then, that ominous red light streaks down like a meteor from beside Yuyuko."
+    },
+    {
+      "speaker": "player6",
+      "text": "[Elusive Devouring Luo Xueyu]'s 'Soul Hunt' Check: Roll: 1D20+Soul(6)d4=7+{2+2+3+2+4+1}(14)=21 Challenge: 10 Success Success Level: 3"
+    },
+    {
+      "speaker": "player4",
+      "text": ".sh Soul d4"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st hp-2"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Mugen Tenjouin Long'er]'s 'Existence Record'... Updated: [HP]: 4-2=2"
+    },
+    {
+      "speaker": "player4",
+      "text": ".rd3d6"
+    },
+    {
+      "speaker": "player6",
+      "text": "[Hard-to-Find Devourer of Luoxueyu]'s Fortune Calculation: 3D6={3+2+2}(7)=7"
+    }
+  ],
+  "start_ts": "2025-10-28 23:31:57",
+  "end_ts": "2025-10-29 00:33:27"
+}

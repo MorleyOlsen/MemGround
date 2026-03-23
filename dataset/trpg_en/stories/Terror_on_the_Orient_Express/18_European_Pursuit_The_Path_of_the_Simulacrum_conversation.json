@@ -1,0 +1,528 @@
+{
+  "section": "18. European Pursuit: The Path of the Simulacrum",
+  "description": "The five of them agreed in the tavern on a plan to traverse Europe to find and destroy the simulacrum. By midnight, the crowd in the tavern gradually dispersed.",
+  "conversation": [
+    {
+      "speaker": "player5",
+      "text": "\"And how do we find a reasonable excuse to go take a look at that mansion.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Order three plates of oysters"
+    },
+    {
+      "speaker": "player3",
+      "text": "@player13"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Size him up \"An old soldier\" #Wave to him \"Come sit, friend\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Then I won't stand on ceremony.\" Leaving his seat, he sits at the table with the others."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Order a plate of oysters for this veteran"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Hearing my native language in a foreign land"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We're tourists here\" #Knock on the table \"But as you know, things are a bit unsafe these days\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Look him up and down"
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Served in the Great War.\" Waving a finger in the air. \"They even gave me a medal.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Must have killed a lot of Krauts, then.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That's impressive.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Look at him with slight curiosity"
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Just traveling.\" Wipes his wrist. \"Just lost my job.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ah, the postwar years are tough for everyone.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Interested in finding a new one? For some extra cash.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Similar to your old line of work.\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Well, alright then. I don't have any plans anyway.\" Tilts his head. \"And what you were talking about just now sounded quite interesting.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Perfect. As you can see, we're all Americans, and we're short on a local here in Europe.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Shocked by the teammate's rapid disclosure of information, but quickly recovers"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"The information we just found says the statue should have fallen into the hands of a leper in the 13th century. He came to France. His name was Fernandic.\""
+    },
+    {
+      "speaker": "player13",
+      "text": "Close eyes and quietly organize and ponder this information."
+    },
+    {
+      "speaker": "player2",
+      "text": "#player2 stares dumbfounded at player4's actions, quickly scans the surroundings for anyone who looks like they might be Middle Eastern/Turkish."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So, are you interested in joining us? Our client has provided us with a handsome reward.\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Hmm... hearing you say that, the whereabouts of this statue are indeed shrouded in mystery... Good! I'm very interested.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yeah, what's even more bizarre is that this statue is actually a suit of armor.\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"That's... getting a bit far-fetched, isn't it?\" Laughs awkwardly."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I think so too. I somewhat suspect that's just a bard's fantasy.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Bailan had just smoothed the wrinkles of his coat and stood up when his fingertips grasped empty air! His briefcase was gone. At the same moment, Madeleine suddenly slammed her soup spoon into the copper pot. \"Damn it! Who knocked over my pickled cucumber jar at the back door?!\" Everyone turned to see a figure wrapped in a military coat darting down the steps, the leather corner of a case flashing under the gaslight."
+    },
+    {
+      "speaker": "player13",
+      "text": "\"But... whether it's true or false, you have to see it with your own eyes!\" Saying this, he suddenly stands up and dashes out of the tavern in one swift stride."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Something darted out\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Fall down, the oysters in hand, rush out the door"
+    },
+    {
+      "speaker": "player3",
+      "text": "The four of them chased until their lungs ached, the suitcase scraping and bouncing on the cobblestones with a piercing sound that allowed them to track it. Suddenly, the fleeing tramp ahead kicked a stray cat blocking the way with his boot and darted into the bridge arch over a tributary of the Somme."
+    },
+    {
+      "speaker": "player13",
+      "text": "Follow into the bridge arch"
+    },
+    {
+      "speaker": "player3",
+      "text": "As you crawl into the bridge arch, you find the pickpocket holding a switchblade to a tramp's throat, hissing: Hurry up and pick the lock, you idiot!"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"What?\" #Just woke up from a cardboard bed and was pulled up by a stranger, \"Wait wait, put the knife down, let me take a look first!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Before the pickpocket could speak, the four of them stood before Johnson"
+    },
+    {
+      "speaker": "player12",
+      "text": "I haven't even finished my nap!"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Huh...?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Ask player2"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Closely follow behind the team"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Sir, you're scaring me, I can't concentrate\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What's this thief saying?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Wait, isn't this the bag snatcher?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"This is delicate work...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Stealthily place a hand inside the coat, take out own pistol."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Pat Lun'er \"Time to work\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"You see, my hands are still shaking...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The pickpocket sprang up like a startled stray dog. He grabbed Johnson by the collar and dragged him back. \"Everyone back off! Or I'll slit this tramp's throat!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "What a mess"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Tsk, ...\" #Even without understanding, realized the current situation."
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Don't act rashly...\" Yawns \"That thing, isn't he trying to pick the lock? Just let him do it.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Isn't holding him like that making it harder to pick the lock?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"I haven't even brought my toolbox over, how can I pick it?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Look at him with disdain \"Why do you think we care about this tramp?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Indeed, nothing but paper.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"At least not as valuable as this\" #Flick him a few coins \"Are you willing to gamble your future freedom?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you hope for, it will be answered, <player2>'s persuasion wish:"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We don't need to be enemies, right friend\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Fuck... deal!\" The pickpocket kicked Johnson away and lunged for the coins! \"Three coins! Enough for two doses of morphine!\" After getting the coins, he flung the suitcase like a sack towards Bailan's feet, then ran off splashing through the mud."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Dear sir, want to teach him a lesson?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"He'll get himself killed.\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Excellent, looks like you handled him. Well done indeed.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"You motherfucker, think you can mess with me and run?!\" #Shouts, pulling a spear from a nearby sack and throwing it."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That's right.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Scum like that will be found dead in a ditch in a couple of months.\""
+    },
+    {
+      "speaker": "player12",
+      "text": ".ra roll"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will receive a response. <player12>'s roll for Wish:"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Stop him."
+    },
+    {
+      "speaker": "player5",
+      "text": "#The suitcase has been through a lot; there's already plenty of mud on it, adding a bit more to its story."
+    },
+    {
+      "speaker": "player2",
+      "text": "#Looks him up and down. \"Sorry you were frightened because of us. As an apology, would you mind joining us for a simple meal? My treat.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#Goes over angrily to retrieve the spear. \"No need, no need. That lunatic... sigh, my skills are rusty.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "The spear tip grazed the pickpocket's buttocks and embedded itself in a wooden crate, scaring him so much he fell flat on the ground with a thud. He then scrambled up cursing, his swearing mixed with the sound of fleeing footsteps quickly swallowed by the wind of the Seine."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"You haven't had lunch, it seems.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Oh, you speak English too! Thank goodness. I don't have many friends here.\" #It's clear these people have American accents, but finding someone to communicate with makes his eyes light up."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then it's like meeting an old friend in a foreign land.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "#His stomach indeed growls, and he laughs awkwardly. \"True, these people are shady. They take advantage of my language barrier and often only pay me with a single meal for lunch.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Alright, we should get back to lunch. If we don't head back soon, old Henry will scold us.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"It's fine, I'm not hurt.\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"We only finished half of that meal earlier.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That's right, let's go.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"That sounds wonderful! What are we eating?\" #Swallows saliva."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Oysters.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"That works, better than the 'Stargazy Pie' back home.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Bread and red wine, a freshly opened Burgundy.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Gives a bow."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Tsk tsk, living the good life. You all must be tourists here, right?\" #Returns a proper British gentleman's bow to player4 as well, though he doesn't have a hat."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We're Americans, so, yes.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"I'm player12, British. I've been stranded here for almost a year due to travel troubles.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"A year???\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Actually, I'm kind of a tourist too.\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Really? I'm also British, how should I put it... I joined halfway.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Rubs forehead, then pats player4's shoulder \"Remember to learn a foreign language.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Because there was a war going on recently, the roads were chaotic with soldiers and bandits. I got robbed and barely made it here alive.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then you're really lucky to be alive.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"My passport and documents are all lost. I plan to get a fake one and continue my travel plans.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm, do you want to come with us?\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Not planning to go back home and sort things out? Seems you're a determined person.\" Expresses respect for this person inwardly."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We happen to be here on business and will eventually return to London.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"If I'm lucky, people give me some money; worse case, I can only get a meal. Because my actions are competing with the local locksmith industry, they drive prices down really hard...\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We will pass through England.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Ha, looking so disheveled, I'm embarrassed to go back, and there's no one at home anyway.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Considers whether the Orient Express checks documents."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Well, we can help you with that, but it will require a bit of labor from you.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Hmm... really?\" #Also raises glass."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Don't judge a person by what they say, but by what they do.\" #Gestures to the oysters in front of him."
+    },
+    {
+      "speaker": "player3",
+      "text": "According to the League of Nations passport system, post-WWI Europe gradually established modern border inspection systems. However, in practice: first-class passengers usually only need to show passports for registration when boarding; second and third-class may be spot-checked when crossing borders; and the frequency of border officials boarding for inspections depends on the international situation—during the tense Franco-German relations in the Rhineland in 1923, checks were stricter."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Oh! Sorry for talking so much I forgot to eat!\" #Grabs food and devours it ravenously, juices splattering."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Take it easy, don't choke. So, what do you say, deal?\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Ah~ that's better\" #After eating and drinking his fill, \"Well... my passport money is about this much.\" #Quotes a not insignificant amount, blinking and watching their reaction."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Not a fake passport, we'll get it for you at the town hall.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"I can give you the passport when getting off the train or ship, I won't run away. I'm ultimately heading to Constantinople, it's quite a long journey.\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"That's really extravagant. I guess we don't have to worry about investigation funds on this trip?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I don't have much money myself, but I have a wealthy boss.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Really? You can get it for me? But I lost my ID, hard to prove...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"It's fine, money makes the mare go.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#The green university student is shocked."
+    },
+    {
+      "speaker": "player12",
+      "text": "\"I asked about the process, go here to get a stamp, then go there... such a hassle. They just told me: 'Go back and wait for notification!'\""
+    },
+    {
+      "speaker": "player13",
+      "text": "\"Have you tried the British Embassy? If you explain the situation, they should be able to issue a temporary identity document.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Glances at him \"If you don't give them a single penny, of course they'll tell you to wait for notification.\""
+    },
+    {
+      "speaker": "player12",
+      "text": "\"With the war, the embassy is busy with this and that, my application was probably shelved.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Should I tell everything?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Of course you can recruit a companion, it's always good.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Repeat what was told to the veteran"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Subtly indicate negation"
+    },
+    {
+      "speaker": "player13",
+      "text": "\"I don't know, maybe it's best to tell everything? At least there won't be other questions during the rest of the journey.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Finally indicate agreement"
+    },
+    {
+      "speaker": "player12",
+      "text": "\"Oh, that's not a big or difficult matter then, count me in. I can travel around various countries by train and complete my journey.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Prayer received! Continuing to record the horror of the Orient Express for you. Currently 5082 texts recorded, time elapsed 25 hours 15 minutes 27 seconds."
+    },
+    {
+      "speaker": "player3",
+      "text": "So, as the story last time said,"
+    }
+  ],
+  "start_line": 5293,
+  "end_line": 5604
+}

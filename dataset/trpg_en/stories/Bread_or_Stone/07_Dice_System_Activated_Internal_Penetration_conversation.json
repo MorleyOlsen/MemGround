@@ -1,0 +1,368 @@
+{
+  "section": "7. Dice System Activated: Internal Penetration",
+  "description": "The dice bot is back online. Investigators delve deeper into the facility, uncover crucial clues, and gradually approach Dr. Goran.",
+  "conversation": [
+    {
+      "speaker": "player5",
+      "text": "It seems the recent battle was so swift and concealed that even Johnson nearby didn't notice."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Makes a shushing gesture"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Surprised, turns head, stops looking at him, immediately ducks inside, afraid and pats."
+    },
+    {
+      "speaker": "player5",
+      "text": "Before you is a two-story building, its walls painted with clean white paint; the tidy curtains behind the windows indicate this was once the factory's office building."
+    },
+    {
+      "speaker": "player9",
+      "text": ".st show Climb"
+    },
+    {
+      "speaker": "player11",
+      "text": "<player9>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Squats in the distance to observe, checks who else is inside the second floor, sneaks over to listen for sounds, and if there's no sound, opens the window and climbs in."
+    },
+    {
+      "speaker": "player5",
+      "text": "(Please mark the route on the map)"
+    },
+    {
+      "speaker": "player9",
+      "text": ".ra Sneak"
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player9>'s Sneak prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show Sneak"
+    },
+    {
+      "speaker": "player11",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player9",
+      "text": "#Sneaks stealthily to the base of the first floor."
+    },
+    {
+      "speaker": "player5",
+      "text": "The office building's door blocks you."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Ponders for a moment, decides to pretend to leave with the two little ones, but actually follows player9's route."
+    },
+    {
+      "speaker": "player5",
+      "text": "The three follow the route and find the hole in the wire fence. After crawling through, they see the two standing at the office building entrance."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Finds a leverage point to pry the window open a crack, quietly damages the structure."
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player6>'s Locksmith prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "You pick the lock on the first-floor window, lift the curtain, and climb in. The light from outside barely illuminates a small area in front of you."
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Jack?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Roar!!!!!!\" That flash of emerald green leaps into the air, a pair of thick arms enveloping you! A cat's head is embedded in the black fur on a gorilla's chest, hissing at you."
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player5>'s Brawl 50 prayer:"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Be careful, the creatures here are all abnormal.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Holy crap.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The flashlight illuminates the gorilla's lower limbs... no, its lower body. The gorilla's upper body is attached to a wild boar's torso."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Reacts quickly, suddenly crouches down, and thrusts the spear back at its neck."
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player6>'s Brawl prayer:"
+    },
+    {
+      "speaker": "player9",
+      "text": "#Sees Johnson being attacked and rushes over to support."
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player6>'s Spear prayer:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".rd8"
+    },
+    {
+      "speaker": "player11",
+      "text": "Alright, alright, I'm going to roll..."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Standing behind the crowd, covering my mouth with my hand, watching this terrifying composite creature, holding back a scream."
+    },
+    {
+      "speaker": "player4",
+      "text": "#A sharp dagger slides out, stabbing straight at the monster in front."
+    },
+    {
+      "speaker": "player5",
+      "text": "Johnson crouches down, and the chimpanzee's arms close on empty air. However, due to the enemy's bizarre construction, what should have been a stab at where the thigh should be only grazes the boar's side."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Holding back, calculating whether firing would alert the enemy."
+    },
+    {
+      "speaker": "player5",
+      "text": "(Johnson's turn)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show Dodge"
+    },
+    {
+      "speaker": "player11",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player5",
+      "text": "(Yes, still holding it in hand)"
+    },
+    {
+      "speaker": "player6",
+      "text": "#Take a few steps back to create distance, use the length advantage to give its heart another shot with the spear."
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it's what you hope for, it will surely be answered. <player6>'s Spear prayer:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".rd10"
+    },
+    {
+      "speaker": "player11",
+      "text": "Alright, alright, I'm going to roll..."
+    },
+    {
+      "speaker": "player5",
+      "text": "You thrust your spear into where the monster's heart should be, blood spurting out. But the chimpanzee doesn't stop its attack; instead, the cat head on its chest lets out a big sigh and rolls its eyes."
+    },
+    {
+      "speaker": "player4",
+      "text": "#A sharp dagger slides out, stabbing straight at the monster in front."
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Brawl 50"
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it's what you hope for, it will surely be answered. <player5>'s Brawl 50 prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "(ok"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Brawl"
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it's what you hope for, it will surely be answered. <player4>'s Brawl prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "The furious monster pounds its chest and charges at you."
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it's what you hope for, it will surely be answered. <player5>'s Brawl 50 prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "As a result, the boar torso under the chimpanzee seems frightened by the dagger tip, slipping away from the dagger and running in the opposite direction."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Swing the knife at it, the blade still stained with unwashed blood."
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it's what you hope for, it will surely be answered. <player9>'s Brawl prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Brawl 50"
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it's what you hope for, it will surely be answered. <player5>'s Brawl 50 prayer:"
+    },
+    {
+      "speaker": "player9",
+      "text": ".rd8+d6"
+    },
+    {
+      "speaker": "player11",
+      "text": "Alright, alright, I'm going to roll..."
+    },
+    {
+      "speaker": "player5",
+      "text": "The boar and chimpanzee clearly dodged in different directions; this knife strike lands on the boar's back."
+    },
+    {
+      "speaker": "player8",
+      "text": "(I only have a gun, it's too loud ("
+    },
+    {
+      "speaker": "player6",
+      "text": "#Gather courage to look at this grotesque mass, make sure the next strike won't hit the hajime but a fatal spot"
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire, if it is what you wish for, it will be answered, <player6>'s spear wish:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra brawl 50"
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire, if it is what you wish for, it will be answered, <player5>'s brawl 50 wish:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".rd10"
+    },
+    {
+      "speaker": "player11",
+      "text": "Alright, alright, I'm rolling..."
+    },
+    {
+      "speaker": "player5",
+      "text": "Johnson sinks his stance, the spear tip in his hand shoots like a cold star piercing the moon, aiming straight for the beast's throat. The creature, in pain, rears up, its sharp claws sweeping with the wind to counterattack, but the spear shaft spins violently, three feet of steel completely burying into its throat bone. A sound of tearing cloth is heard from its throat, and finally, blood and foam fly as it collapses to the ground."
+    },
+    {
+      "speaker": "player11",
+      "text": "Qiduo received! Continuing to record bread or stone (Węgrów 1923) for you, currently 1914 texts recorded, time elapsed 11 hours 12 minutes 32 seconds"
+    },
+    {
+      "speaker": "player5",
+      "text": "Last time, the investigators arrived at the Sybaris Newspaper Agency. player9 helped Bai Lan find the report from three months ago, confirming the discovery of the Crusader's Tomb and the arrival of Dr. Moric. They then inquired with the front desk secretary, Biserka Odak, who initially acted superior but later provided Vesna Femić's address and requested confidentiality. The group found the red-roofed cottage, saw the front door pried open, the entrance shoe cabinet overturned with shoes scattered, the living room bookshelf toppled, documents crumpled with missing papers, the bedroom blanket stained with blood, teeth beside a photo on the nightstand, and bloodstains remaining in the bathroom. In the alley behind the house, a cart piled with garbage, partially frozen, was searched, revealing a bloodstained carpet wrapped around the naked bodies of a man and a woman, bound and beaten, with their scalps and facial skin removed from their heads. They then went to the cement factory, failed to negotiate with three guards, infiltrated privately, defeated two monsters, and successfully entered a two-story building. Now, you stand before the corpse of a monster."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"It seems the doctor isn't a good person no matter how you look at it.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#First, turn back to examine the strange corpse from earlier."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"With so many things already coming at us, making a bit of noise probably doesn't matter anymore.\" #Says while loading the gun."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Silently wipes the blood off the knife, stays alert to the surroundings."
+    },
+    {
+      "speaker": "player5",
+      "text": "This monster's body combines the upper half of a gorilla with a headless pig's body. A cat's head is embedded in the center of the gorilla's chest. The junctions of the three show no stitch marks, as if naturally symbiotic."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Is this still human craftsmanship?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What kind of patchwork monster is this!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The crisis is over, adrenaline subsides, and you realize this creature shouldn't exist! (.sc 1/1d4)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".sc 1/1d4"
+    },
+    {
+      "speaker": "player11",
+      "text": "Huh... another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It's like various monsters pieced together.\""
+    },
+    {
+      "speaker": "player8",
+      "text": ".sc 1/1d4"
+    },
+    {
+      "speaker": "player11",
+      "text": "Huh... another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player9",
+      "text": ".sc 1/1d4"
+    },
+    {
+      "speaker": "player11",
+      "text": "Huh... another sanity check? I understand, everyone's watching."
+    },
+    {
+      "speaker": "player5",
+      "text": "@player3 .sc 1/1d4"
+    },
+    {
+      "speaker": "player11",
+      "text": "Rolled by <player5>:"
+    },
+    {
+      "speaker": "player5",
+      "text": "@player10"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"...Let's go. This kind of strange handiwork can only come from that doctor.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "@player10 .bot on"
+    }
+  ],
+  "start_line": 1985,
+  "end_line": 2315
+}

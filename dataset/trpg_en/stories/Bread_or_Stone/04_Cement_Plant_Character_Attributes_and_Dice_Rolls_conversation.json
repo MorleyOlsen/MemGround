@@ -1,0 +1,464 @@
+{
+  "section": "4. Cement Plant: Character Attributes and Dice Rolls",
+  "description": "Investigating the cement plant in depth, numerous skill checks, overview of character attributes, intertwined Library Use and Medicine checks, gradually approaching the truth",
+  "conversation": [
+    {
+      "speaker": "player8",
+      "text": "\"Next is the cement factory?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That's right, but we might have to go tomorrow instead.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Hmm, yes, it's getting late.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Uh, should we sleep? Rest is very important.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "You neatly gather the ancient texts and scrolls on the desk, extinguish the kerosene lamp, and fall into a deep sleep."
+    },
+    {
+      "speaker": "player1",
+      "text": "Qiduo received! Continuing to record for you 'Bread or Stone (Węgrów 1923)', currently 936 texts recorded, time elapsed 5 hours 36 minutes 17 seconds."
+    },
+    {
+      "speaker": "player5",
+      "text": "Last time, it was said that the investigators failed to find Dr. Berenzada at the hospital, and instead met player9 who was raising funds for his sister's medical expenses. After hiring this local guide, they understood the clues left by player8's father through him, then proceeded to the Eximious Bookstore to retrieve the books left by Professor Moric. The receipt and note tucked inside the book directed them to the reliable Sali Warehouse. Near the warehouse in a small park, they retrieved a key from the mud of a birdbath, used the key to get the crate, which contained a notebook, a box, scrolls, and books. The notebook's contents revealed the history of the Sacred Shield Society and the origin of the Serpent's Claw, i.e., the Flaying Blade, and mentioned speaking with Dr. Golan Berenzada and going to the Bratović Cement Factory. After organizing the documents, the investigators decided to visit the doctor again the next day and explore the cement factory."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Get up, pack my things, as usual prepare to eat breakfast, wait for everyone downstairs."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Stretch, another energetic day after getting up."
+    },
+    {
+      "speaker": "player9",
+      "text": "\"Good morning, everyone, what do you need me to do for you today?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#GoGoGo!"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Finish washing up honestly and gather."
+    },
+    {
+      "speaker": "player6",
+      "text": "Go to the cement factory, understand?"
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Go!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Yes, and also be ready as bodyguards, the muscle.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Take the lead, go out and hail a taxi."
+    },
+    {
+      "speaker": "player5",
+      "text": "While you are waiting for each other in the lobby, five policemen quickly enter the hotel lobby. The leader is a tall officer with silver tassels on his epaulets. Under his dark brown curly hair are two thick eyebrows. He is currently rapping his knuckles on the front desk, demanding sharply: \"Who has checked in in the past few days since the railway was destroyed? Bring out the register, must account for everyone's whereabouts individually!\" It seems the police are taking the recent anarchist case very seriously. You leave the hotel and hail a taxi."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Prepare to go to the entrance and hail a taxi to the cement factory area."
+    },
+    {
+      "speaker": "player5",
+      "text": "The taxi driver you hailed is a middle-aged man with graying hair. He casts a puzzled look through the rearview mirror: \"Bratović Cement Factory? That place has been abandoned for years, even stray dogs don't want to go there. If you want to see scenery, I know a few nice nature reserves.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "\"We have some business to attend to, take the fastest route.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm... field investigation. We need to conduct new development and research on that area.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"It's fine, buddy, we also need to take photos and study it thoroughly.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Exactly.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Thank you, driver.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "(Not a rich guy anymore, not used to it ( )"
+    },
+    {
+      "speaker": "player5",
+      "text": "The driver grins and floors the accelerator. Half an hour later, you get out of the car feeling dizzy. Before you is a factory surrounded by a six-foot-high brick wall, covered with barbed wire, the air thick with a strong animal stench. At the rusty iron gate stand three Serbs: the one on the far left has an empty right sleeve fluttering in the wind, the one in the middle has his left arm severed at the shoulder, burn scars stretching from his neck to his jaw, and the last one has lost his right eye, covered with a black eye patch. They are all holding guns, watching you warily."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Put the employer behind me, warily sizing up these three people."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Raise both hands to show I have no hostile intent."
+    },
+    {
+      "speaker": "player5",
+      "text": "The Serb who lost his right arm steps forward. His cloudy eyes sweep over your faces, his throat emitting a voice like sandpaper rubbing: \"State your names and your business.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"We... are just passing by for a joyride, believe us?\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Step forward"
+    },
+    {
+      "speaker": "player5",
+      "text": "The disfigured one-armed man suddenly raised his pistol, his charred skin twisted into a ferocious expression: \"Either explain clearly, or leave.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Get out of the car \"Among you, does anyone know Mr. Golan?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The man who lost his right arm raised his hand to stop his companion: \"Mr. Golan is our master. Do you have business to discuss?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"This one's father, that professor, once came to visit Mr. Golan.\""
+    },
+    {
+      "speaker": "player9",
+      "text": "#Silently step aside to make room."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We want to find him to ask about some things, I wonder if you could accommodate us.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "#Clap hands \"Then things will be easier.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The one-armed man slightly nodded: \"Unfortunately, Dr. Golan is currently on duty at the hospital, he only comes here for research every day at noon.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Why did Uncle Golan have you stay here to ensure outsiders can't enter?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"No comment.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Wow, what a great person.\" #Eyes sparkling."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Shrug \"Since you put it that way.\" #Look back at the road, is the driver still there?"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm, alright then, we understand.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The taxi driver is leaning against the car door puffing smoke, smoke rings shimmering bluish-gray in the sunlight. He sees you look back and lazily waves the hand holding the cigarette, embers scattering in the wind."
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Listen"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you hope for, it will surely receive a response, <player6>'s listening prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "Johnson hears faint barking and livestock grunts from inside the wall, like common animal noises in a farm."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Quietly elbow companions, signaling them to listen to the sounds."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Feels like it's to cover something up.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The taxi driver stubs out the cigarette butt, grinding it into fragments under his shoe. He opens the car door and asks: \"Where to now?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hospital.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Hospital.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "At a quarter past nine, the car stops at the hospital entrance. You come to the front desk, the receptionist from yesterday shows a professional smile: \"Coincidentally, Dr. Golan received the message you left yesterday and just called your hotel, inviting you all to meet.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Okay, thank you very much.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "After you knock, a deep male voice comes from behind the door: \"Come in.\" Pushing the door open, you see a middle-aged doctor in a white coat bent over writing, pen scratching on paper. He doesn't look up, just gestures to the empty chairs opposite: \"Please sit, describe the symptoms.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"The symptom is my dad is missing.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Snort, almost couldn't hold back."
+    },
+    {
+      "speaker": "player5",
+      "text": "Dr. Golan looks up, his gaze behind gold-rimmed glasses filled with confusion, the pen pausing slightly between his fingers: \"Sorry, I don't understand what you mean?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Well, she's right...\" #Nod in agreement."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"......\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"My name is player8.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Dr. Golan immediately stands up, gesturing for you to take a seat, and gently pushes teacups towards everyone: \"So you are Dr. Dragomir's daughter, my apologies. My schedule has been extremely packed lately, please forgive me.\" He adjusts his gold-rimmed glasses, \"What brings you all here to inquire?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Well, the things my father left behind led us to the cement factory.\" #Makes a circle with a finger. \"Father should have mentioned it to you, a few veterans are guarding the place.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We'd like to ask about the circumstances before the doctor's disappearance.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Dr. Golan gently strokes the rim of his teacup, his gaze growing distant: Your father often discussed archaeological discoveries with me recently, but unfortunately, we were both busy with our own affairs and didn't have much time together. Ever since the findings from the Crusader's Tomb excavation were published in the newspaper, Dragomir completely changed. Those unearthed artifacts made him restless, and he kept repeating that they shouldn't have been disturbed. The doctor suddenly tightens his fingers, What pains me most is that he even refused basic academic discussions. Last week when we argued, his eyes were completely bloodshot. I haven't seen him for several days now..."
+    },
+    {
+      "speaker": "player10",
+      "text": "Qiduo received! Continuing to record Bread or Stone (Węgrów 1923) for you. Currently, 1070 text entries have been recorded, time elapsed: 6 hours, 35 minutes, 10 seconds."
+    },
+    {
+      "speaker": "player5",
+      "text": "Last time, the story began with the investigators stranded on the Orient Express in Węgrów. The tracks were blown up by anarchists, forcing them to stay in this unfamiliar town. It was here they met the linguist player8 Moric, who was being followed by unidentified individuals as soon as she got off the train. After a sudden street conflict, the investigators bravely helped her escape danger and learned that her father, archaeologist Dr. Dragomir Moric, had disappeared after leaving behind some mysterious clues."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sigh, this is truly so sad... Did he tell you, sir, about his discoveries at the archaeological site?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Dr. Golan places the teacup back on the tray: \"He did repeatedly mention the Crusader's Tomb. He said it contained things that shouldn't be there.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"What did you talk about when you last met with my father?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sir, I'd like to ask, is the archaeological site still accessible now?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The last time he came to see me, he insisted on destroying that serpentine dagger. You must understand, any unearthed artifact carries historical value...\" The doctor's voice gradually lowers, \"Those successive newspaper reports drove him mad. The archaeological site is now sealed off by the city government; ordinary people cannot enter.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sir, is that serpentine dagger a relic excavated during the archaeology?\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Has that weapon been destroyed now?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That serpentine dagger is indeed a core artifact from the tomb. Your father insisted it contained dangers beyond comprehension... Perhaps the betrayal of someone close leaking the excavation progress to the newspapers truly shattered his judgment.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is there anyone suspicious on the current archaeological team member list?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Dr. Golan gently shakes his head: \"I haven't investigated the archaeological team member list; I'm not familiar with that situation.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Looks like we need another way to enter the archaeological site."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"And, what did father leave behind at the factory?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The doctor always returned home to live during the archaeological period. When I visited his residence recently, I found it empty. All his personal belongings were gone. I had assumed he returned to Zagreb.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It seems someone is very curious about the doctor's archaeological findings.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Dr. Golan frowns in confusion: \"Left something at the factory? I don't understand what you mean...\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Dr. Golan, did father mention the Bratović Cement Factory to you?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"He did mention it. During our last meeting, he wanted to borrow the hydraulic press at my research institute, the former cement factory. The original factory owner was an old acquaintance of mine. After he went bankrupt five months ago, I purchased that factory area at a low price. After all, the medical school urgently needs to expand its laboratories, and the machinery inside hasn't found suitable buyers yet, so it's been sitting there.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright, thank you for your trouble, sir.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Agreed.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "You leave the office and head towards the hospital entrance. Passing by the front desk, a nurse quickly catches up, holding a dark blue metal cup: \"Everyone, please wait! You are Dr. Golan's friends, right? Dr. Golan just hurriedly logged off early and forgot to take this.\" She hands over the cup, showing a helpless smile, \"I'm off tomorrow. If you see the doctor, please return it to him. He always says he can't work without coffee.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sure, no problem. I'll take this cup then.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The nurse smiles and nods before leaving. You examine the dark blue metal cup. The cup body reflects uniform metallic luster under the light, feels cool and smooth to the touch, has no scratches on the surface, and is well-made."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm, a very delicate water cup.\" \"Should we return it now or go to the newspaper office first?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The editorial office of the Sybaris Gazette is located in a noisy printing factory in the town center. The smell of ink permeates the air, dark ink stains remain on the concrete floor, and the walls are covered with photos of Węgrów's street scenes. A reporter is typing rapidly on a typewriter to write a report, while the sound of water from an editor developing photos comes from the darkroom in the back."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Coughs lightly, prepares to go to the front desk to buy recent newspapers, trying to find news related to archaeological events."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Steps forward to help. .ra Library"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player3>'s Library prayer: D100=91/70 Failure - Well... just a little off."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Library"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player4>'s Library prayer: D100=20/89 Hard Success - Is the difficulty level enough? Not alone? Then it's fine."
+    },
+    {
+      "speaker": "player8",
+      "text": "(And also Gala Game)"
+    },
+    {
+      "speaker": "player4",
+      "text": "#After finding the corresponding content, take a look at who published this report."
+    },
+    {
+      "speaker": "player5",
+      "text": "Although player8's Serbo-Croatian translation is fluent, the little doctor is unfamiliar with local news layout, so her information retrieval progresses slowly. player9 guides Bai Lan to flip through bound volumes, finally finding the target in a corner of a newspaper from three months ago: this report first disclosed the discovery of the Crusader's Tomb and mentioned that Dr. Moric was invited to participate in the appraisal. According to existing records, there had never been similar archaeological discoveries locally before that date. Published by Vesna Femić."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Tsk...\" \"Hello... I'd like to ask if this report on the Crusader archaeological research was published by this gentleman... Vesna Femić? ... Hmm... For certain reasons, I wonder if you could introduce us?\" #Pulls her translator to the front desk, hands over a tip while letting the translator speak."
+    },
+    {
+      "speaker": "player5",
+      "text": "The front desk secretary, Biserka Odak, raises her chin. This Croatian woman in her thirties lets out a short, derisive snort from her nose upon hearing Vesna Femić's name: That lady? She hasn't worked here for a long time."
+    },
+    {
+      "speaker": "player8",
+      "text": ".stshow Charm"
+    },
+    {
+      "speaker": "player10",
+      "text": "<player8>'s currently registered personal information is as follows: Charm: 15 - Are you going to unleash your ultimate move?!"
+    },
+    {
+      "speaker": "player8",
+      "text": "(RIP)"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sigh, that's really a troublesome matter... This person here is that doctor's daughter, and that doctor has been missing recently. I remember this lady interviewed that doctor before. We wanted to ask her about the doctor's whereabouts. Could you possibly make an exception?\" .ra Persuade"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player4>'s Persuade prayer: D100=59/10 Failure - Well... just a little off."
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show"
+    },
+    {
+      "speaker": "player10",
+      "text": "<player4>'s currently registered personal information is as follows: STR:45 DEX:70 CON:55 SIZ:55 APP:65 INT:75 POW:60 EDU:70 SAN:55 DB:0 Cthulhu Mythos:30 HP:11/12 MP:1/12 Spot Hidden:80 Credit Rating:40 Library Use:89 Luck:49 Psychology:76 Handgun:80 Latin:1 Brawl:50 Archaeology:78 Listen:69 Dreaming:29 Major Wound:1 Dodge:75 - Are you going to unleash your ultimate move?!"
+    },
+    {
+      "speaker": "player5",
+      "text": "Make an exception? The front desk pulls out the top folder from the pile of pending documents. I'm afraid I don't have time to satisfy your curiosity about unrelated individuals."
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show @player9"
+    },
+    {
+      "speaker": "player10",
+      "text": "Rolled by <player4> on behalf: <player9>'s currently registered personal information is as follows: STR:90 DEX:50 CON:45 SIZ:80 APP:75 INT:65 POW:75 EDU:65 SAN:75 DB:1d6 Cthulhu Mythos:0 HP:12/12 MP:15/15 Disguise:40 Spot Hidden:80 Credit Rating:5 Luck:35 First Aid:50 Intimidate:40 Handgun:80 Brawl:80 Stealth:80 Listen:60 Persuade:60 Dodge:60 - Are you going to unleash your ultimate move?!"
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show @player3"
+    },
+    {
+      "speaker": "player10",
+      "text": "Rolled by <player4> on behalf: <player3>'s currently registered personal information is as follows: STR:30 DEX:60 CON:70 SIZ:40 APP:70 INT:50 POW:80 EDU:80 SAN:80 DB:-1 Cthulhu Mythos:0 HP:11/11 MP:16/16 Spot Hidden:60 Credit Rating:30 Medicine:70 Library Use:70 Luck:75 First Aid:70 Psychoanalysis:70 Listen:60 Pharmacy:35 Brewing:5 Dodge:49 - Are you going to unleash your ultimate move?!"
+    }
+  ],
+  "start_line": 992,
+  "end_line": 1322
+}

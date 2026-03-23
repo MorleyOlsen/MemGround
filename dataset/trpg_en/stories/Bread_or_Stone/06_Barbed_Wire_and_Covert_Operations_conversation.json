@@ -1,0 +1,328 @@
+{
+  "section": "6. Barbed Wire and Covert Operations",
+  "description": "Johnson cuts through the barbed wire, the team infiltrates under cover, the combat is swift and stealthy, with silent kills unnoticed even by nearby teammates",
+  "conversation": [
+    {
+      "speaker": "player5",
+      "text": "The young doctor was somewhat surprised, but it was normal for a medical student. The two corpses were naked. If there was anything, it was only the wounds and the blood."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We can call someone to collect the bodies.\" \"What about the hospital? Or should we call the police?\" \"Or just give up.\" #Perhaps we've seen too many dead people along the way, feeling a bit indifferent."
+    },
+    {
+      "speaker": "player8",
+      "text": "#Slightly compose my emotions, get up from the ground. \"Overall, it's not unexpected.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It seems this archaeological site is really fraught with danger.\" \"Even the reporter died tragically at home.\" \"By the way, should we go back to the hospital to find that doctor and have him collect these two bodies?\" \"Or...\" \"Actually, this skinning behavior.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Or what?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It looks somewhat familiar.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"What?\" #Looking at Professor Bai with confusion."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sigh, some things I should just know myself.\" \"Well, it involves the original purpose of this trip.\" \"They're really persistent! That group of people.\" #Putting on gloves, expressionlessly touching the one with the face skinned off. Still trying to find the statue? \"Sigh, let's observe a moment of silence. Next, we should collect their bodies.\" \"We'll go back to the hospital later to notify the doctor.\" \"As for what I mentioned, you don't need to worry about it.\" #Sighs softly, seemingly reminiscing about the companions lost during this trip. #Takes out the pocket watch from the clothes, gently taps it, clicks, checks the current time."
+    },
+    {
+      "speaker": "player8",
+      "text": "(It's also strange that the doctor specifically asked me to mention the destination (¥"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Let's go, we'll go back to the hospital to find the doctor.\" \"Actually, there's another point of suspicion...\" \"That is, we haven't actually entered the cement factory yet.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "The taxi stopped at the hospital entrance. Entering the lobby, the smell of disinfectant remained. The receptionist from the morning was answering a question from a stooped old man."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"...research...\" #Prepare to go ask if the doctor is still there."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Similarly, go up to probe, security."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Oh, sir... As I've always said, Dr. Golan is not on duty in the afternoon.\" \"That's why I gave the thermos to that lady to pass on.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hmm... Does he have other research work?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Dr. Golan's duty hours are from 9 AM to 12 PM.\" \"He is a medical professor at the local university, of course he has his own research.\" The receptionist shrugged."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright, we understand.\" #Quietly pulls the other companions to a relatively hidden place. \"I think we need to go to the cement factory again.\" \"Hmm...\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"GO\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"A place with guards, using pigs and dogs to cover up.\" \"If a place looks shady, acts shady, then it must be a shady place. I feel like I'm stating the obvious.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"So, the gentle approach or the forceful one?\" \"For the gentle approach, first use the reason of delivering the cup to find someone.\" \"For the forceful approach, just break in violently.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"I support the forceful one. The gentle approach might not work anymore.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then Mina-san and I will create a diversion from the front, you guys climb in.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Okay\" #Although feeling it's inappropriate, still agrees."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"A pig-faced monster using gorilla arms to climb, ahhh!\" Two doctors rushed in carrying a stretcher. A middle-aged man tied with a restraint belt on the stretcher was deliriously babbling. \"A huge thing bigger than a person! Wearing clothes!\" Some other patients in the lobby were frightened, clutching their chests; some chuckled; others were discussing."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Check if there are accompanying family members near the doctors to ask about the situation."
+    },
+    {
+      "speaker": "player8",
+      "text": "\"The two of us will go test the waters first, then leave player9 and the others ready to act?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Quietly go take a look, although probably won't understand. \"Yes, that's what I'm thinking.\""
+    },
+    {
+      "speaker": "player8",
+      "text": "\"Mm\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Please move aside, sir, excuse me.\" The doctor walked past quickly. No one was following beside him. The madman's screams gradually faded away."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Makes the decision to head to the cement factory."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Fight, don't argue"
+    },
+    {
+      "speaker": "player8",
+      "text": "#Fight, don't argue"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Ladies and gentlemen, Dr. Golan is currently conducting research, no disturbances allowed.\" The dark muzzles of three veteran soldiers are pointed at you. Behind them are gray buildings tightly enclosed by barbed wire, from which the distinct sounds of various livestock clearly emanate."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We're here to deliver a cup. We're friends of the doctor.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#While these three are distracted, emerge from the shadows and find an opportunity to climb over the wall."
+    },
+    {
+      "speaker": "player5",
+      "text": "The soldier on the far left steps forward and silently accepts the cup with both hands. The burned man in the middle raises his left hand towards you and says, \"Please leave. We will deliver the cup. Dr. Golan's research is at a critical stage; no one may disturb him.\" The last soldier stares at you sharply with both eyes."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Alright... no problem.\""
+    },
+    {
+      "speaker": "player3",
+      "text": ".st show"
+    },
+    {
+      "speaker": "player10",
+      "text": "<player3>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player11",
+      "text": "<player3>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player10",
+      "text": "<player3>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player6",
+      "text": ".st show"
+    },
+    {
+      "speaker": "player10",
+      "text": "<player6>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player11",
+      "text": "<player6>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player10",
+      "text": "<player6>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player5",
+      "text": "The cup suddenly falls to the ground. The soldier on the left quickly bends down to pick it up. \"Damn, Michel, I'm not used to my right hand yet.\" The soldier called Michel kicks him. \"...Put on the new gloves.\""
+    },
+    {
+      "speaker": "player6",
+      "text": "#Find a damp, shady corner, take out iron pliers, and slowly cut through the barbed wire to create an opening."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Now please leave immediately! Before we become troubled!\" Michel grips his pistol with both hands and barks the order at you."
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Stealth"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire. If it is what you wish for, it will be answered. <player6>'s Stealth prayer:"
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire. If it is what you wish for, it will be answered. <player6>'s Stealth prayer:"
+    },
+    {
+      "speaker": "player10",
+      "text": "Belief arises from desire. If it is what you wish for, it will be answered. <player6>'s Stealth prayer:"
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire. If it is what you wish for, it will be answered. <player6>'s Stealth prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": "@player11 .bot off"
+    },
+    {
+      "speaker": "player11",
+      "text": "Qi has now entered standby mode. Feel free to give further orders whenever needed."
+    },
+    {
+      "speaker": "player5",
+      "text": "@player11 .bot on"
+    },
+    {
+      "speaker": "player11",
+      "text": "SealDice Maid Qi reporting for duty! Now at your service—please give your orders! 1.5.1+20251010"
+    },
+    {
+      "speaker": "player5",
+      "text": "@player10 .bot off"
+    },
+    {
+      "speaker": "player10",
+      "text": "Qi has now entered standby mode. Feel free to give further orders whenever needed."
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Stealth"
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it is what you expect, it will be answered. <player6>'s Stealth Wish:"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Already sensed suspicion, first attract attention, let Johnson do his job properly."
+    },
+    {
+      "speaker": "player6",
+      "text": "#Beside this two-story building, snip snip quietly."
+    },
+    {
+      "speaker": "player9",
+      "text": ".st show Stealth"
+    },
+    {
+      "speaker": "player11",
+      "text": "<player9>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".st show Stealth"
+    },
+    {
+      "speaker": "player11",
+      "text": "<player3>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player9",
+      "text": "#With Johnson setting an example, prepare to follow suit."
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it is what you expect, it will be answered. <player9>'s Stealth Wish:"
+    },
+    {
+      "speaker": "player5",
+      "text": "You bypassed the main gate, lay down in the grass at the corner, and prepared to crawl to the destination."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Quickly turn head."
+    },
+    {
+      "speaker": "player5",
+      "text": "A pair of blue pupils met your gaze—it was a wolf's face. Following the wolf's head was a torso covered in rich, white fluffy fur, and a yellow snake raised its body from the rear end, looking at you just like the wolf's head?"
+    },
+    {
+      "speaker": "player9",
+      "text": "\"WTF\""
+    },
+    {
+      "speaker": "player5",
+      "text": "Visual error, or an animal specimen? Countless seemingly rational thoughts flashed through your mind."
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it is what you expect, it will be answered. <player5>'s Brawl 45 Wish:"
+    },
+    {
+      "speaker": "player9",
+      "text": "#Swing the knife in hand to strike back."
+    },
+    {
+      "speaker": "player11",
+      "text": "Belief arises from desire; if it is what you expect, it will be answered. <player9>'s Brawl Wish:"
+    },
+    {
+      "speaker": "player5",
+      "text": "player9 raised the knife and brought it down, a clean downward slash. The wolf's gaping maw and the snake's mouth were both neatly split in two, never to close again."
+    },
+    {
+      "speaker": "player9",
+      "text": "#Deftly catch the corpse."
+    },
+    {
+      "speaker": "player5",
+      "text": "Johnson successfully cut through the barbed wire, turned his head to tell you the good news, and was startled by the soul you had just dispatched."
+    }
+  ],
+  "start_line": 1654,
+  "end_line": 1984
+}

@@ -1,0 +1,1798 @@
+[
+  {
+    "qa": [
+      {
+        "question": "What was the true motive behind Tenjouin Long'er's use of the \"Soul Hunt\" ability on the teacup? How did this action drive the plot forward?",
+        "answer": "Long'er found the teacup still warm but the room empty, deducing that the owner had just left. He attempted to awaken the teacup's spiritual intelligence to learn Reimu Hakurei's specific whereabouts. This action successfully made the teacup speak, revealing the key clue that Reimu had gone to the Terakoya to resolve the incident, thus establishing the group's next course of action.",
+        "evidence": [
+          "D01:24",
+          "D01:28",
+          "D01:34",
+          "D01:37",
+          "D01:61"
+        ],
+        "category": 1,
+        "id": 1,
+        "depth": 2
+      },
+      {
+        "question": "Based on the details of Lina's (player2) words and actions, what contradictory feelings does she hold towards the existence of \"Shrine Maidens\"?",
+        "answer": "On one hand, Lina harbors immense fear of the shrine maiden, worried that as a fairy she might be exterminated or eaten, exhibiting evasive and pleading behavior. On the other hand, she has to rely on the shrine maiden's power to resolve the incident and save her grove, even showing respectful etiquette towards the shrine maiden's belongings. This contradictory mindset of both fear and dependence reflects her helpless situation under the threat of the incident.",
+        "evidence": [
+          "D01:7",
+          "D01:15",
+          "D01:21",
+          "D01:39",
+          "D01:47"
+        ],
+        "category": 2,
+        "id": 2,
+        "depth": 2
+      },
+      {
+        "question": "Synthesizing the environmental clues within the shrine and the teacup's testimony, what can be inferred about the state of Hakurei Reimu when she left?",
+        "answer": "Reimu left in a great hurry and with emotion. The tea on the table still being warm indicates she left recently. The map being roughly pinned with talismans and leaking ink suggests a resolute or urgent action. The teacup's complaint about her \"shouting about resolving the incident\" and \"leaving in a hurry\" directly confirms her impatient and agitated mindset to quickly deal with the trouble.",
+        "evidence": [
+          "D01:24",
+          "D01:37",
+          "D01:49",
+          "D01:51"
+        ],
+        "category": 3,
+        "id": 3,
+        "depth": 3
+      },
+      {
+        "question": "What deeper crisis does the sudden withering of the Sacred Tree and the appearance of pink light points signify for those present?",
+        "answer": "This indicates the incident is intensifying, not just simple snowfall but involving the direct deprivation of life force. Even the sacred tree of the shrine was not spared. Lina's attempt to inject life force was ineffective and instead caused light points to separate, suggesting this power has an irreversible plundering nature. It foretells that if the group doesn't resolve the incident quickly, the vitality of all Gensokyo will be drained.",
+        "evidence": [
+          "D01:68",
+          "D01:70",
+          "D01:76",
+          "D01:77"
+        ],
+        "category": 4,
+        "id": 4,
+        "depth": 3
+      },
+      {
+        "question": "Under the successful mechanism of Tenjouin Long'er's \"Soul Hunt\" check on the teacup, how did this result narratively change the original deadlock of \"no response\"?",
+        "answer": "Originally, the shrine was empty, and the group was stuck with no leads. Long'er, through a successful check (roll 19 > challenge 10), bestowed intelligence upon an inanimate object, forcibly creating a \"witness.\" This not only broke the original silence but also, through the teacup's words, directly provided the specific location \"Terakoya,\" turning a potentially lengthy search process into a targeted pursuit.",
+        "evidence": [
+          "D01:12",
+          "D01:31",
+          "D01:33",
+          "D01:37",
+          "D01:49"
+        ],
+        "category": 5,
+        "id": 5,
+        "depth": 1
+      },
+      {
+        "question": "How did Ge Qing's (player3) attitude towards finding Reimu change? What does this reflect about her perception of Reimu?",
+        "answer": "Ge Qing initially appeared quite calm, even suggesting they could just wait for Reimu to handle it alone, reflecting her trust in Reimu's strength and understanding of her personality. However, after witnessing the sacred tree withering and sensing the \"ominous aura,\" her attitude changed to \"we need to hurry,\" indicating she realized the severity of this incident has exceeded the normal scope Reimu can easily handle.",
+        "evidence": [
+          "D01:9",
+          "D01:48",
+          "D01:66",
+          "D01:75",
+          "D01:79"
+        ],
+        "category": 2,
+        "id": 6,
+        "depth": 2
+      },
+      {
+        "question": "Why was Ge Qing (player3) able to pinpoint the specific location of the mysterious voice before the others and lead the way deeper?",
+        "answer": "Ge Qing did not rely on sight or hearing but used an ability called 'Soul Hunt' to make a check. Through a successful check, she perceived the source and nature (mischievous excitement) of the emotional flow in her mind's eye, thus pinpointing the location of the emotional source and moving directly towards it.",
+        "evidence": [
+          "D02:32",
+          "D02:35",
+          "D02:39",
+          "D02:42",
+          "D02:45"
+        ],
+        "category": 5,
+        "id": 7,
+        "depth": 1
+      },
+      {
+        "question": "What contradictions exist in Rumia's (played by player1 as NPC) words and actions, revealing her true intentions?",
+        "answer": "Rumia verbally says threatening things like \"I'll eat you\" and \"the shrine maiden was eaten by me,\" trying to create a scary atmosphere. However, her actions are full of childishness, such as hanging upside down from a tree playing pranks, being amused by Lina, and unable to suppress the smile lines at the corners of her mouth. These details indicate she isn't actually hunting but engaging in a mischievous prank.",
+        "evidence": [
+          "D02:30",
+          "D02:56",
+          "D02:63",
+          "D02:74"
+        ],
+        "category": 2,
+        "id": 8,
+        "depth": 2
+      },
+      {
+        "question": "How did player4's (Xueyu) reaction to Rumia change, and what does this reflect about her personality traits?",
+        "answer": "Xueyu was initially terrified by the unknown voice and rumors about a man-eating youkai, even screaming and hiding. But when she recognized Rumia had appeared at the Night Sparrow's stall before, her fear slightly subsided and she tried to initiate a conversation. Although she became scared again and hid upon learning the other \"eats people,\" she still mustered the courage to ask not to eat the stall owner. This shows her timid and cowardly yet kind-hearted personality, trying to protect others.",
+        "evidence": [
+          "D02:26",
+          "D02:44",
+          "D02:64",
+          "D02:66",
+          "D02:70"
+        ],
+        "category": 4,
+        "id": 9,
+        "depth": 3
+      },
+      {
+        "question": "Combining Lina's (player2) place of residence and her description of the \"blonde child,\" what kind of past interaction can be inferred between her and Rumia?",
+        "answer": "Lina lives in a newly grown cherry grove next to the Sunflower Field, and she mentioned seeing a \"black-and-white blond child\" stealing cherries. Considering Rumia's appearance (blond, black-and-white clothing) and her gluttonous nature as a fairy, it can be inferred that Rumia was previously the \"repeat offender\" who stole Lina's cherries. The two had unknowingly crossed paths before.",
+        "evidence": [
+          "D02:11",
+          "D02:20",
+          "D02:56",
+          "D02:63"
+        ],
+        "category": 3,
+        "id": 10,
+        "depth": 3
+      },
+      {
+        "question": "How does player5's (Long'er) attitude towards Rumia differ significantly from the other characters, and what does this hint about his level of awareness?",
+        "answer": "Compared to Xueyu's terror and Lina's evasion, Long'er appears very calm, even somewhat exasperated (dead fish eyes). He not only rationally points out Rumia isn't the person he's looking for but also calmly critiques the \"rules\" of fairies preying on humans and directly questions Rumia's ability to defeat the Hakurei Shrine Maiden. This suggests he has a deep understanding of Gensokyo's ecology and power hierarchy, and possesses a calm, rational personality.",
+        "evidence": [
+          "D02:40",
+          "D02:53",
+          "D02:61",
+          "D02:75",
+          "D02:79"
+        ],
+        "category": 2,
+        "id": 11,
+        "depth": 2
+      },
+      {
+        "question": "What key narrative push did Ge Qing's (player3) successful 'Soul Hunt' check in this Section provide?",
+        "answer": "While the others were feeling fear or confusion due to the unknown voice, Ge Qing's successful check directly revealed the other party's emotional nature (mischievous) and specific location. This prevented the team from falling into pointless panic or blind searching. Instead, Ge Qing led the way directly towards the target, accelerating the narrative pace of the encounter with Rumia.",
+        "evidence": [
+          "D02:35",
+          "D02:39",
+          "D02:42",
+          "D02:45"
+        ],
+        "category": 5,
+        "id": 12,
+        "depth": 1
+      },
+      {
+        "question": "Combining Rumia's words and actions before the battle started and the scene changes, what was her true intention in activating the \"Night\" ability?",
+        "answer": "Although Rumia was hit on the back of the head by Ge Qing and showed a crying, vulnerable posture, she immediately smiled and declared \"the game of hide-and-seek has just begun.\" This indicates her previous display of weakness was a pretense or part of the game. She activated \"Night\" to assimilate the environment into absolute silent darkness and set the \"knock out\" rule, essentially transforming a simple fight into a hunting game she dominates, aiming to tease and test the players using environmental advantages.",
+        "evidence": [
+          "D03:0",
+          "D03:3",
+          "D03:5",
+          "D03:9",
+          "D03:11"
+        ],
+        "category": 1,
+        "id": 13,
+        "depth": 2
+      },
+      {
+        "question": "What contradiction is shown in Luo Xueyu's (player4) behavior when attacking Rumia, and what personality trait does this contradiction reveal?",
+        "answer": "On one hand, Xueyu exhibits extreme fear and apology, saying things like \"so scary,\" \"I'm sorry,\" and shedding tears. On the other hand, her attacks are extremely vicious, not only self-harming (biting her arm) to enhance her attack but also summoning the terrifying creature \"Gluttony\" to devour the darkness and severely injure the opponent. This inconsistency between words and actions reveals that although her personality is timid and cowardly, under survival pressure or combat instinct, she possesses extremely high destructive power and a crazy side.",
+        "evidence": [
+          "D03:19",
+          "D03:22",
+          "D03:28",
+          "D03:32"
+        ],
+        "category": 2,
+        "id": 14,
+        "depth": 2
+      },
+      {
+        "question": "In this section's combat mechanics, why were Luo Xueyu and Ge Qing able to successfully hit Rumia? What conditions needed to be met?",
+        "answer": "First, the \"Night\" scene rule set by Rumia requires an attack success level of at least 2 to hit. Second, Xueyu, by self-harming and deducting MP to launch a powerful attack, rolled a success level of 4, thus breaking through the defense. Ge Qing entered a state of rage and consumed MP, rolling an extremely high success level of 7. Only by simultaneously satisfying the conditions of \"breaking through the scene rule limitation\" and \"paying a cost for high values\" could they inflict substantial damage on Rumia in the absolute darkness.",
+        "evidence": [
+          "D03:21",
+          "D03:28",
+          "D03:29",
+          "D03:35",
+          "D03:37"
+        ],
+        "category": 3,
+        "id": 15,
+        "depth": 3
+      },
+      {
+        "question": "How did the shift in Ge Qing's (player3) emotions and actions during the battle concretely affect her fighting style?",
+        "answer": "Ge Qing transitioned from initially calmly hitting Rumia to a \"state of rage.\" This emotional change is directly reflected in the mechanics as consuming MP and increasing SHM (Shield/Status Value). Narratively, she no longer relies on vision (impossible in the dark) but instead locks onto the enemy by sensing Rumia's \"mocking emotions.\" This anger makes her attacks more precise and devastating, thus ignoring the Night Sparrow's interference.",
+        "evidence": [
+          "D03:0",
+          "D03:34",
+          "D03:36",
+          "D03:40"
+        ],
+        "category": 5,
+        "id": 16,
+        "depth": 1
+      },
+      {
+        "question": "How does the mechanical resolution of Luo Xueyu's (player4) MP-consuming attack narratively reflect the character's combat style?",
+        "answer": "After consuming 3 MP, narratively, Xueyu bit her own arm, using her blood to activate the rusty saw cleaver and summon \"Gluttony.\" This mechanical resource consumption is visualized as a self-mutilating sacrificial act, indicating her power source is accompanied by pain and madness, trading self-injury for explosive combat power, successfully breaking through Rumia's defense.",
+        "evidence": [
+          "D03:28",
+          "D03:29",
+          "D03:32"
+        ],
+        "category": 5,
+        "id": 17,
+        "depth": 1
+      },
+      {
+        "question": "Rumia's reaction after being hit by Luo Xueyu suggests what state she was in during this battle?",
+        "answer": "Despite being heavily struck in the back of the neck by Xueyu and sent flying, Rumia not only showed no sign of pain but instead \"let out a light laugh\" and landed steadily. She could even summon Night Sparrows to counterattack when facing Ge Qing's subsequent attack. This shows the previous attack, while mechanically successful, did not pose a fatal threat to her. She is still at ease, treating this fight as an interesting \"game\" rather than a life-or-death struggle.",
+        "evidence": [
+          "D03:32",
+          "D03:33",
+          "D03:40"
+        ],
+        "category": 2,
+        "id": 18,
+        "depth": 2
+      },
+      {
+        "question": "Analyzing Xueyu's internal contradictions based on her proposal after the battle and Ge Qing's evaluation.",
+        "answer": "Xueyu superficially appears extremely timid, stuttering, claiming it's her first fight and trembling. But after Rumia loses consciousness, she very naturally and cruelly suggests letting her summoned creature eat the other's limbs to eliminate future trouble. This stark contrast validates Ge Qing's statement that \"people from the Sunflower Field are no good,\" revealing her cold and cruel nature hidden beneath her seemingly weak appearance.",
+        "evidence": [
+          "D04:8",
+          "D04:35",
+          "D04:44",
+          "D04:50"
+        ],
+        "category": 2,
+        "id": 19,
+        "depth": 2
+      },
+      {
+        "question": "Player5's (Long'er) skill check result was as high as 30 (Success Level 4). How was this value specifically translated into a narrative overwhelming advantage?",
+        "answer": "The extremely high check value elevates Long'er's attack beyond mere damage to a conceptual manipulation of \"time\" and \"film.\" Narratively, this manifests as him being able to \"rewind\" and \"extract frames\" of Ge Qing's previous attack motion, creating dozens of temporal afterimages attacking Rumia simultaneously. This saturation strike, transcending physical rules, directly causes Rumia to be utterly defeated without a chance to fight back.",
+        "evidence": [
+          "D04:25",
+          "D04:26",
+          "D04:32"
+        ],
+        "category": 5,
+        "id": 20,
+        "depth": 1
+      },
+      {
+        "question": "Synthesizing Ge Qing's actions and lines in response to Rumia's attacks, what characteristics can be inferred about her fighting style?",
+        "answer": "Ge Qing's fighting style leans towards \"absolute control\" and \"conceptual interference.\" She doesn't solve problems by dodging or exchanging blows but by using \"Eye's Phantom\" to see through falsehoods and issuing command-like words (\"stop right there\") to directly and forcibly halt the opponent's attack, displaying a composed and high-level suppressive defensive posture.",
+        "evidence": [
+          "D04:13",
+          "D04:17",
+          "D04:32"
+        ],
+        "category": 3,
+        "id": 21,
+        "depth": 3
+      },
+      {
+        "question": "The fear Rumia showed while unconscious and the final dream content reveal what deep-seated reason for her defeat?",
+        "answer": "Rumia was not only physically defeated but also mentally traumatized by Long'er's ability. She dreams of \"a guy holding a camera,\" indicating Long'er's method of using film to recreate past attacks caused her significant psychological trauma. This bizarre ability to manipulate time and reality far exceeds her understanding as a youkai.",
+        "evidence": [
+          "D04:32",
+          "D04:54",
+          "D04:57"
+        ],
+        "category": 1,
+        "id": 22,
+        "depth": 2
+      },
+      {
+        "question": "Comparing the check results and descriptions of Ge Qing (player3) and Lina (player2), how do their methods of success differ in narrative expression?",
+        "answer": "Ge Qing's check result was extremely high (34), narratively manifested as absolute stillness and shattering, completely nullifying the enemy's attack. Lina's check, while successful (27) and with a decent level, narratively showed Rumia still attempting to struggle, only being fully immobilized by the glowing flowers. This reflects that Ge Qing's strength or methods are more overwhelmingly powerful in hierarchy compared to Lina's.",
+        "evidence": [
+          "D04:14",
+          "D04:17",
+          "D04:19",
+          "D04:24"
+        ],
+        "category": 5,
+        "id": 23,
+        "depth": 1
+      },
+      {
+        "question": "Combining Xueyu's words and actions and Rumia's reaction, what properties can be inferred about the \"Devourer\" beside Xueyu?",
+        "answer": "\"Gluttony\" is a terrifying creature hidden in shadows with devouring abilities. It usually lurks in the shadows of Xueyu's clothing, revealing only one eye. It cooperates when Xueyu feels threatened or makes cruel suggestions (like preparing to eat limbs). Its presence can even make Rumia, a youkai, feel instinctive fear.",
+        "evidence": [
+          "D04:35",
+          "D04:44",
+          "D04:55"
+        ],
+        "category": 3,
+        "id": 24,
+        "depth": 3
+      },
+      {
+        "question": "Why did player5 (Long'er) choose to leave Rumia where she was after her defeat, rather than take her back to the Human Village for treatment? What is the logic behind this decision?",
+        "answer": "Long'er believes that as a youkai, Rumia's constitution is different from humans and wouldn't be harmed by the cold. Bringing her to a human settlement might cause unnecessary trouble. He judges that Rumia is only temporarily unconscious and leaving her in place is safer, reflecting his understanding of youkai characteristics and his pragmatic mindset of avoiding complications.",
+        "evidence": [
+          "D05:4",
+          "D05:11",
+          "D05:13",
+          "D05:15",
+          "D05:20"
+        ],
+        "category": 1,
+        "id": 25,
+        "depth": 2
+      },
+      {
+        "question": "Combining the current scene in the Human Village and player4's (Luo Xueyu) reaction, what can be inferred about the nature of player4's previous experiences?",
+        "answer": "player4 feels a long-lost excitement at the bustling scene of the Human Village and mentions not having seen such a scene since going to Yuyuko's place. This hints that she previously spent a long time in an isolated, quiet, or even stressful environment. Her enthusiasm for oden and underestimation of \"human power\" also indirectly reflect that she might be accustomed to the non-daily life of youkai society.",
+        "evidence": [
+          "D05:47",
+          "D05:50",
+          "D05:55",
+          "D05:68"
+        ],
+        "category": 3,
+        "id": 26,
+        "depth": 3
+      },
+      {
+        "question": "The repeated prompts for MP (Mental Power) recovery in this section reflect, on a narrative level, what influence do environmental changes have on the characters' states?",
+        "answer": "As the group moved from the dark forest into the lively, smoke-filled Human Village, MP was generally restored. This mechanistically visualizes the mental relaxation brought by a \"sense of security.\" Transitioning from a, the characters' tense nerves were soothed, proving that environmental atmosphere directly affects the characters' mental state.",
+        "evidence": [
+          "D05:26",
+          "D05:28",
+          "D05:30",
+          "D05:32",
+          "D05:67"
+        ],
+        "category": 5,
+        "id": 27,
+        "depth": 1
+      },
+      {
+        "question": "What hidden contradiction exists in player4's behavior when using the oden, and what does this reveal about her true identity or abilities?",
+        "answer": "player4 superficially acts like a normal human, buying and enjoying oden, but in reality, she throws part of the food into her shadow to be \"eaten\" by a dark figure. This behavior contradicts her feigned normal human demeanor, suggesting she possesses a special ability to manipulate shadows or summon some kind of shadow creature and is not purely human.",
+        "evidence": [
+          "D05:55",
+          "D05:59",
+          "D05:68"
+        ],
+        "category": 2,
+        "id": 28,
+        "depth": 2
+      },
+      {
+        "question": "How does a small action by player5 (Long'er) after buying oden reflect his underlying concerns or preparations regarding the current situation?",
+        "answer": "After getting the oden, Long'er discreetly used his ability to \"freeze\" the state of the food. This shows that even in a safe area, he maintains a high level of vigilance, anticipating that he might not be able to eat immediately or needs to preserve supplies long-term, always ready to deal with emergencies or keep food as a strategic resource.",
+        "evidence": [
+          "D05:53",
+          "D05:62",
+          "D05:79"
+        ],
+        "category": 2,
+        "id": 29,
+        "depth": 2
+      },
+      {
+        "question": "The scene the group saw upon arriving at the Human Village formed a stark contrast with the previous forest environment. What implications does this contrast have for inferring the nature of the incident?",
+        "answer": "The forest is filled with darkness and combat, while the Human Village is decorated with lanterns and celebrating the New Year. This sense of disconnection suggests the incident might currently be confined to specific areas or targeting specific groups (like youkai). Although player4 believes humans couldn't cause such an incident, the peace in the Human Village contrasts with the incident's eeriness, indicating the incident hasn't fully spread to human society, or someone is deliberately maintaining the Human Village's facade.",
+        "evidence": [
+          "D05:12",
+          "D05:26",
+          "D05:27",
+          "D05:40",
+          "D05:41"
+        ],
+        "category": 4,
+        "id": 30,
+        "depth": 3
+      },
+      {
+        "question": "When Keine speaks of the legend of the Saigyou Ayakashi, why does she believe the tree itself is \"also sinful,\" and what does this reflect about her values?",
+        "answer": "Keine believes that although the Saigyou Ayakashi is breathtakingly beautiful when in bloom, its beauty is built upon devouring human lives and accumulating Spring Energy. As the historian who protects the Human Village, she cannot accept this false prosperity achieved at the cost of lives. Therefore, even when faced with the legendary scenery, she still defines it as \"sinful\" from a moral standpoint.",
+        "evidence": [
+          "D06:0",
+          "D06:15",
+          "D06:19"
+        ],
+        "category": 1,
+        "id": 31,
+        "depth": 2
+      },
+      {
+        "question": "What contradiction does Mokou's attitude towards \"death\" reveal, and what does this contradiction indicate about her state of existence?",
+        "answer": "On one hand, Mokou casually remarks that she can \"just slit her throat to go to the underworld,\" \"can't die,\" and \"is used to it,\" showing extreme indifference towards her own death. On the other hand, she sternly warns Long'er and others to \"absolutely not die\" and that \"rescuing people is troublesome,\" showing extreme value for the lives of others. This contradiction reveals the loneliness she endures as a Hourai person (immortal) who has long borne the pain of death but cannot end it, as well as her desire to prevent her friends from following the same path or leaving her.",
+        "evidence": [
+          "D06:42",
+          "D06:52",
+          "D06:70",
+          "D06:72"
+        ],
+        "category": 2,
+        "id": 32,
+        "depth": 2
+      },
+      {
+        "question": "Based on Long'er's memories and Keine's information, what connection can be inferred between the Saigyou Ayakashi and the current incident?",
+        "answer": "Keine points out that ancient youkai trees feed on human lives to transform into Spring Energy, and Long'er recalls ancient texts stating that the Saigyou Ayakashi is rooted at the boundary between life and death, possessing the traits of gathering spirits and absorbing Spring Energy. Combined with the current phenomenon of Spring Energy abnormally flowing to the underworld, it can be inferred that the Saigyou Ayakashi is highly likely reviving or active in the underworld, absorbing Spring Energy from the present world to achieve some purpose (such as blooming), thus causing the current Spring Snow Incident.",
+        "evidence": [
+          "D06:0",
+          "D06:35",
+          "D06:37",
+          "D06:57"
+        ],
+        "category": 3,
+        "id": 33,
+        "depth": 3
+      },
+      {
+        "question": "How did the different check results for Ge Qing and Long'er in obtaining information about the \"Saigyou Ayakashi\" create an information gap on a narrative level?",
+        "answer": "Ge Qing's \"Hunting Soul\" check failed, causing him to misremember the scripture content and unable to provide useful information; while Long'er's check succeeded, recalling details from ancient texts he read at Eientei, not only filling in the Saigyou Ayakashi's backstory (monk, daughter, boundary of life and death) but also linking it to the key location \"Hakugyokurou.\" This success or failure in mechanics directly determined whether the party remained lost or obtained clear directional guidance.",
+        "evidence": [
+          "D06:24",
+          "D06:28",
+          "D06:30",
+          "D06:33",
+          "D06:35"
+        ],
+        "category": 5,
+        "id": 34,
+        "depth": 1
+      },
+      {
+        "question": "What deep-seated assurance and pressure does Mokou's final promise to others, \"I will die and bring you back,\" imply for the player team?",
+        "answer": "This statement means Mokou is willing to use her \"immortal\" trait, actively dying to enter the underworld to act as the team's final safety net, providing the players with a great sense of security. However, it also places emotional pressure on the team (especially Long'er), because they know Mokou, though immortal, feels pain, and her \"support\" is based on her own extreme suffering. This forces the players to act more cautiously to avoid making Mokou pay the price.",
+        "evidence": [
+          "D06:50",
+          "D06:70",
+          "D06:72",
+          "D06:79"
+        ],
+        "category": 4,
+        "id": 35,
+        "depth": 3
+      },
+      {
+        "question": "Based on Keine's analysis of the map and Mokou's experience, what is the logic behind the group's decision to determine the route to the Netherworld?",
+        "answer": "Mokou confirms that the souls of the deceased travel along the stairs to Hakugyokurou (the underworld), indicating a connecting passage exists between the underworld and the present world; Keine observes that Spring Energy near the Human Village is abnormally flowing in a specific direction. Since Spring Energy can flow to the underworld to be absorbed by the Saigyou Ayakashi, then theoretically, the living can find the entrance to the underworld by tracing against or along the flow of Spring Energy.",
+        "evidence": [
+          "D06:45",
+          "D06:47",
+          "D06:49",
+          "D06:57"
+        ],
+        "category": 3,
+        "id": 36,
+        "depth": 3
+      },
+      {
+        "question": "Why did Lunasa Prismriver choose to block the protagonist team's path at the Gate of the Netherworld, knowing it would lead to conflict?",
+        "answer": "Lunasa is not acting out of hostility towards the protagonists, but because she made a deal with a certain \"spirit,\" who promised to help her organize a tour performance if she guards the gate. Additionally, as a poltergeist, she lacks a tangible sense of seasonal change, believing that even without spring, summer will come, so she doesn't consider stopping the protagonists from retrieving spring to be a serious matter.",
+        "evidence": [
+          "D07:32",
+          "D07:36",
+          "D07:61",
+          "D07:67"
+        ],
+        "category": 1,
+        "id": 37,
+        "depth": 2
+      },
+      {
+        "question": "When facing Lunasa's obstruction, why did Ge Qing (player3) choose to persuade using the reason \"no one is watching the performance,\" rather than resorting directly to force?",
+        "answer": "As a blind person (lacking visual sense), Ge Qing is extremely sensitive to sound. Lunasa's violin playing feels piercing and uncomfortable to her, making her realize the opponent's strength in the realm of sound, and a direct confrontation might not be advantageous. Simultaneously, she seizes upon Lunasa's core desire for a \"tour performance,\" attempting to fundamentally shake Lunasa's stance by pointing out the logical flaw that an eternal winter would cause people to stay indoors, with no one to watch performances.",
+        "evidence": [
+          "D07:17",
+          "D07:26",
+          "D07:36",
+          "D07:60"
+        ],
+        "category": 3,
+        "id": 38,
+        "depth": 3
+      },
+      {
+        "question": "How did Player4 (Luo Xueyu)'s attitude towards Lunasa change, and what does this reflect about her psychological state?",
+        "answer": "Player4 initially felt fear due to the eerie violin music and unfamiliar environment, clinging to Sunku for a sense of security; but upon learning they must pass through here to retrieve spring, she overcame her fear, even resolving to \"die here\" if necessary to enter the underworld. This transformation from timidity to determination reflects her viewing \"saving Gensokyo/retrieving spring\" as a mission surpassing her own life and death.",
+        "evidence": [
+          "D07:6",
+          "D07:14",
+          "D07:45",
+          "D07:50"
+        ],
+        "category": 2,
+        "id": 39,
+        "depth": 2
+      },
+      {
+        "question": "What factors influenced Tenjōin Long'er's (player5) decision to initiate a musical duel instead of direct combat?",
+        "answer": "First, Long'er possesses musical skills himself and carries an instrument (retrieved from the void), giving him confidence to compete in the opponent's area of expertise. Second, Lunasa displays high musical pride (if she loses, there's no need for a concert), making a \"musical duel\" an effective means to resolve the conflict bloodlessly, more feasible than pure physical confrontation.",
+        "evidence": [
+          "D07:38",
+          "D07:47",
+          "D07:52",
+          "D07:55"
+        ],
+        "category": 1,
+        "id": 40,
+        "depth": 2
+      },
+      {
+        "question": "At the end of this Section, Tenjōin Long'er (player5) used a skill to increase SHM (Existence Record). What does this mechanical change combined with the narrative foreshadow?",
+        "answer": "Long'er uses a skill to animate the instruments and distribute them to teammates, while his SHM value increases (10+6=16). Mechanically, this represents him investing substantial resources or energy for the upcoming musical duel. Narratively, it marks the formal establishment of the conflict form: no longer a traditional physical fight, but a band ensemble battle assisted by supernatural abilities, with everyone entering a state of readiness.",
+        "evidence": [
+          "D07:62",
+          "D07:71",
+          "D07:72",
+          "D07:74"
+        ],
+        "category": 5,
+        "id": 41,
+        "depth": 1
+      },
+      {
+        "question": "How does Lunasa's attitude towards the \"missing season\" fundamentally differ from the protagonist team's, and how did this difference affect their interaction?",
+        "answer": "As a poltergeist, Lunasa believes seasons are merely the passage of time, and it's fine to skip spring and go directly to summer, so she cannot understand the protagonists' urgency. The protagonists (especially Player2 and Player4) believe spring is indispensable. This clash of values renders simple verbal persuasion (like Player3's attempt) ineffective, ultimately requiring a \"musical contest\" that interests Lunasa to break the deadlock.",
+        "evidence": [
+          "D07:61",
+          "D07:67",
+          "D07:68",
+          "D07:52"
+        ],
+        "category": 2,
+        "id": 42,
+        "depth": 2
+      },
+      {
+        "question": "As the gatekeeper, why did Lunasa (player1) exhibit a dual attitude towards the players after the battle, acting as both a client and a warner?",
+        "answer": "Although Lunasa acknowledges the players' victory in the musical duel, she is also the client of the mistress of Hakugyokurou (the princess of the underworld), creating complexity in her stance. She warns the players because she deeply knows the princess possesses the ability to \"induce death,\" which is absolutely dangerous to the living. Out of appreciation and goodwill for the strong (the players), she doesn't want them to die in vain due to ignorance.",
+        "evidence": [
+          "D08:6",
+          "D08:11",
+          "D08:13",
+          "D08:19"
+        ],
+        "category": 1,
+        "id": 43,
+        "depth": 2
+      },
+      {
+        "question": "Based on the environmental description after entering the Myojin Gate, what contradiction exists in the spatiotemporal nature of this \"white jade staircase\"?",
+        "answer": "Physically, these stairs visually extend upwards, but perceptually, they strip the living of their concepts of \"time\" and \"direction.\" Although the players are constantly climbing, they cannot perceive the passage of time and cannot see the path behind or ahead. This contradiction of \"infinite extension\" and \"stasis\" indicates this space has detached from the physical laws of the real world.",
+        "evidence": [
+          "D08:32",
+          "D08:45",
+          "D08:54",
+          "D08:56"
+        ],
+        "category": 2,
+        "id": 44,
+        "depth": 2
+      },
+      {
+        "question": "Based on Lunasa's description, what core traits does the mistress of Hakugyokurou, the \"Princess of the Netherworld,\" possess that make her taboo for the living?",
+        "answer": "She is an ancient spirit who has existed since before the establishment of Gensokyo, possessing the ability to directly \"induce death.\" This ability is described as an absolute negation of \"life,\" meaning regardless of the living's will, contact with her risks direct deprivation of life, making her a forbidden zone for the living.",
+        "evidence": [
+          "D08:11",
+          "D08:13",
+          "D08:19"
+        ],
+        "category": 3,
+        "id": 45,
+        "depth": 3
+      },
+      {
+        "question": "What deep-seated mindset does player4's reaction to Lunasa's stern warning about \"death\" reveal?",
+        "answer": "Faced with Lunasa's emphasis on the lethal threat, player4 not only does not retreat, but instead declares she would \"haunt her even if dead,\" and focuses on the goal of \"bringing back spring.\" This shows that in player4's heart, the mission to resolve the incident and retrieve spring has surpassed her biological fear of death, displaying a nearly obsessive determination.",
+        "evidence": [
+          "D08:13",
+          "D08:14",
+          "D08:16",
+          "D08:20"
+        ],
+        "category": 4,
+        "id": 46,
+        "depth": 3
+      },
+      {
+        "question": "How does the about \"Hakugyokurou\" told by player5 add another layer of cultural metaphor to the current Netherworld expedition?",
+        "answer": "player5 references the of Li He (Changji) being summoned to Hakugyokurou to write after death, reconstructing the originally grim underworld journey into a narrative of \"talent being recognized by heaven.\" This implies Hakugyokurou is not merely a land of death, but a gathering place for elite or talented spirits, indirectly elevating the stature of the upcoming opponent (the princess).",
+        "evidence": [
+          "D08:52",
+          "D08:55",
+          "D08:59",
+          "D08:63"
+        ],
+        "category": 3,
+        "id": 47,
+        "depth": 3
+      },
+      {
+        "question": "In this Section, Ge Qing (Player3)'s skill check result was extremely high, but what counterintuitive effect did this produce narratively?",
+        "answer": "Although Ge Qing rolled a high value of 44 and achieved a level 7 success, the narrative description states the attack hitting Youmu felt \"like nothing\" and she acted as if unharmed. This contrast indicates the high roll was not for direct physical damage, but converted into boosting morale or setting up a tactical feint, causing Youmu to perceive a threat and become more alert despite no bodily injury.",
+        "evidence": [
+          "D09:47",
+          "D09:50",
+          "D09:52"
+        ],
+        "category": 5,
+        "id": 48,
+        "depth": 1
+      },
+      {
+        "question": "What psychological state does Youmu's reaction when accused of being \"despicable\" reveal?",
+        "answer": "Youmu initially accuses the players of a sneak attack, but when Lina retorts that stealing spring is more, she shows blushing, turning her head away, and silence. This shows she actually understands internally that the incident is causing trouble for others and is in the wrong, but bound by her duty to guard Hakugyokurou, she must suppress her personal moral judgment to carry out the task.",
+        "evidence": [
+          "D09:8",
+          "D09:12",
+          "D09:13",
+          "D09:17"
+        ],
+        "category": 2,
+        "id": 49,
+        "depth": 2
+      },
+      {
+        "question": "Based on Youmu's weapon usage and speech, what attitude can be inferred about her towards the current battle situation?",
+        "answer": "Although Youmu proclaims the start of battle, she only draws Hakurouken, with Roukanken still sheathed, explicitly stating one sword is enough. Combined with her look when facing multiple, this shows her extreme confidence in her own strength, believing the current opponents are not to force her to use her full power.",
+        "evidence": [
+          "D09:23",
+          "D09:35",
+          "D09:36"
+        ],
+        "category": 3,
+        "id": 50,
+        "depth": 3
+      },
+      {
+        "question": "What was the motivation behind Tenjōin Long'er's (Player6) actions at the beginning of the battle?",
+        "answer": "Long'er chooses to use a skill and take a photo mainly to retaliate for the earlier sneak attack, using this action for psychological counterattack. He uses his time-rewind-like ability to make Youmu's actions reverse, both as a tactical control attempt and to fulfill his declaration of \"successful.\"",
+        "evidence": [
+          "D09:5",
+          "D09:7",
+          "D09:8"
+        ],
+        "category": 1,
+        "id": 51,
+        "depth": 2
+      },
+      {
+        "question": "After Tenjōin Long'er's \"Soul Hunt\" check succeeded, Youmu's response reflects what about the power balance between the two?",
+        "answer": "Long'er's check succeeds and causes Youmu's movements to like rewinding, but Youmu can use her own strength to tear open this and the spell effect. This shows that although the player's skill worked, Youmu, as a BOSS-level character, possesses high resistance and brute force, able to rule-based control through pure energy.",
+        "evidence": [
+          "D09:0",
+          "D09:8",
+          "D09:25"
+        ],
+        "category": 5,
+        "id": 52,
+        "depth": 1
+      },
+      {
+        "question": "Based on Long'er's look back and the hidden dice result, what clue can be inferred regarding \"Mokou\"?",
+        "answer": "Long'er specifically checks if Mokou is following behind. Although he doesn't see anyone visually, the description after a check indicates a. This hints that Mokou, while not directly, is likely or escorting from the rear in, not truly having left the party.",
+        "evidence": [
+          "D09:39",
+          "D09:41",
+          "D09:42"
+        ],
+        "category": 3,
+        "id": 53,
+        "depth": 3
+      },
+      {
+        "question": "What stark contrast exists between Luo Xueyu's performance during the battle and her reaction after it, and what does this reveal about her character traits?",
+        "answer": "In battle, she controls a monster named \"Sunku\" to greedily and even bite off her own flesh to launch attacks, appearing and; but after the attack ends, she immediately reverts to a, panicking over the damage caused and. This reveals she might be in an unstable state of passively accepting power or having a, where her true personality doesn't match the she wields.",
+        "evidence": [
+          "D10:12",
+          "D10:19",
+          "D10:25",
+          "D10:27"
+        ],
+        "category": 2,
+        "id": 54,
+        "depth": 2
+      },
+      {
+        "question": "Despite being severely injured, why did Youmu insist on choosing \"must fight\" and releasing a powerful skill?",
+        "answer": "Although Youmu's body is in pain like a \"\" and, out of her sense of duty as a/guard (\"I'm sorry, I cannot fall yet\") and of a's, she decides to respond to her opponent with full power. By unleashing the high-intensity \".,\" she attempts to fulfill her final duty or show the greatest respect to her opponent before falling.",
+        "evidence": [
+          "D10:40",
+          "D10:42",
+          "D10:44",
+          "D10:50"
+        ],
+        "category": 1,
+        "id": 55,
+        "depth": 2
+      },
+      {
+        "question": "How was Tenjōin Long'er's critical success (roll 51) on the 'Soul Hunt' check concretely manifested in the narrative through environmental changes?",
+        "answer": "The mechanically high value (51) is narratively transformed into of reality's dimension: Long'er forcibly strips the originally pink Spring Energy background into a black-and-white silent film, and further into pure darkness. This \"Super Spirit Awakening\" not only numerically suppresses, but visually, through the imagery of a \"black hole\" and \"infinity symbol,\" seizes control of the scene from the environment.",
+        "evidence": [
+          "D10:31",
+          "D10:32",
+          "D10:38"
+        ],
+        "category": 5,
+        "id": 56,
+        "depth": 1
+      },
+      {
+        "question": "Based on the team's attacks and Youmu's reactions in this Section, what transformation can be inferred in Youmu's attitude towards the player team?",
+        "answer": "Initially facing Lina's attack, Youmu could \"not enough\"; but after Luoxueyu displays that forces her to block with both swords, she acknowledges the opponent as a \"very powerful opponent\" and begins to apologize; finally, after Long'er's space-twisting, she no longer holds back, deciding to respond with \"full power\" and an, her attitude shifting from a's to the of an equal.",
+        "evidence": [
+          "D10:10",
+          "D10:18",
+          "D10:22",
+          "D10:28",
+          "D10:44"
+        ],
+        "category": 3,
+        "id": 57,
+        "depth": 3
+      },
+      {
+        "question": "What profound impact did the \"Human Ghost · Future Eternity Slash\" launched by Youmu have on the current spatial environment?",
+        "answer": "This move is not just a physical attack, but directly interferes with the stability of time and space. It severs the \"Spring Energy light flow\" on the stairs, tears the timeline into seven different fragments (), and blurs the boundary between and in reality, meaning this battle has transcended mere physical, rising to the level of concept and rule.",
+        "evidence": [
+          "D10:44",
+          "D10:50",
+          "D10:51"
+        ],
+        "category": 4,
+        "id": 58,
+        "depth": 3
+      },
+      {
+        "question": "In the round when Youmu launched \"Night Attendant Reflecting Satellite Slash,\" player5 (Long'er)'s defense check success level was far lower than Youmu's attack check. Why was Long'er ultimately not defeated and able to continue the conversation?",
+        "answer": "Although Long'er's 'Hunting Soul' check result (30) is far lower than Youmu's attack check result (69), he uses a special mechanism called \"Style Points\" (D100=9, extremely difficult success), consuming SHM (Style Points) and HP/MP to the. This shows that in the system mechanics, consuming special resources can a huge gap in base check values, narratively \"nearly killed but through will/special ability.\"",
+        "evidence": [
+          "D11:14",
+          "D11:21",
+          "D11:26",
+          "D11:27",
+          "D11:28",
+          "D11:41"
+        ],
+        "category": 5,
+        "id": 59,
+        "depth": 1
+      },
+      {
+        "question": "Why did Youmu, despite clearly having the combat advantage (having severely wounded Long'er), ultimately choose to voluntarily concede defeat and step aside to let them pass?",
+        "answer": "Although Youmu the group in, she is moved by their to retrieve spring, especially Long'er mentioning \"promising someone not to die\" and Lina and others' for spring. She realizes these invaders are not, and deep down she also has about Yuyuko stealing spring (loyal but someone can correct it). Therefore, after confirming their will, she.",
+        "evidence": [
+          "D11:43",
+          "D11:50",
+          "D11:52",
+          "D11:60",
+          "D11:62"
+        ],
+        "category": 1,
+        "id": 60,
+        "depth": 2
+      },
+      {
+        "question": "Based on Lina's performance in battle and her post-battle reactions, what contradictory state can be inferred she is in?",
+        "answer": "Lina demonstrates formidable natural control in battle, instantly summoning a bamboo forest to block Youmu's sword strikes, revealing her immense potential as the \"Blooming Fairy\"; however, her personality is extremely childish, crying and complaining of pain immediately upon injury, and quickly forgetting the hostile relationship after battle to cozy up to Youmu. This mismatch between power and mentality suggests she may possess powerful instinctual abilities but an immature mind, or that her power originates from some form of natural bestowal rather than subjective cultivation.",
+        "evidence": [
+          "D11:2",
+          "D11:8",
+          "D11:9",
+          "D11:63"
+        ],
+        "category": 2,
+        "id": 61,
+        "depth": 2
+      },
+      {
+        "question": "In this section, Long'er's (player5) HP dropped to 1 point and his MP fluctuated multiple times. How does this critical state reflect his character's motivation?",
+        "answer": "Long'er, in a near-death state with only 1 HP left and repeatedly overdrawn MP, still persists in battle and talks about his \"bamboo shoot hotpot\" promise with Mokou. This behavior of not retreating even under mechanically extreme danger (HP 1) strongly highlights his cherishing of daily life and his character of keeping promises, proving that \"protecting the everyday\" is more important to him than life itself.",
+        "evidence": [
+          "D11:41",
+          "D11:42",
+          "D11:45",
+          "D11:61"
+        ],
+        "category": 5,
+        "id": 62,
+        "depth": 1
+      },
+      {
+        "question": "Based on Ge Qing's (player3) actions and Youmu's reactions, what role can be inferred Ge Qing plays within the team?",
+        "answer": "Ge Qing does not directly participate in head-on clashes during the most intense moments of battle. Instead, she observes the situation and silently appears behind Youmu after the fight to perform acupressure healing. Combined with her ability to instantly discern Youmu's meridian blockages and provide targeted treatment, and the detail that Youmu was completely unaware of her approach, it can be inferred that she is the team's healer/support role, possessing extremely high martial arts cultivation or stealth capabilities, acting as the team's invisible backbone.",
+        "evidence": [
+          "D11:53",
+          "D11:66",
+          "D11:68",
+          "D11:71"
+        ],
+        "category": 3,
+        "id": 63,
+        "depth": 3
+      },
+      {
+        "question": "What are the characteristics of Youmu's swordsmanship \"Night Servant Reflecting Satellite Slash\" in its narrative description, and what different effects did it have on Lina and Long'er?",
+        "answer": "This swordsmanship technique utilizes spatial folding and infinite reflection to form an inescapable net of certain death. For Lina, she attempts to block with physical means (bamboo), only to have it easily penetrated and petrified; for Long'er, a simple spiritual energy burst is refracted, forcing him to employ conceptual defense (stylishness/Orichalcum) to survive. This indicates that this move operates on a narrative level above ordinary physical or energy attacks, requiring rule-level or extremely high-intensity defense to counter.",
+        "evidence": [
+          "D11:8",
+          "D11:17",
+          "D11:19",
+          "D11:20"
+        ],
+        "category": 4,
+        "id": 64,
+        "depth": 3
+      },
+      {
+        "question": "Based on Youmu's description of the \"strange woman\" and Ge Qing's (player3) perception results, what truth can be inferred about the \"peeper\"?",
+        "answer": "Youmu mentions that this woman always emerges from a \"space full of eyes\" and is a good friend of Yuyuko, while Ge Qing, through a successful check, sees a golden-haired woman in splendid attire within the rift. Synthesizing these clues, the peeper is none other than \"Yukari Yakumo.\" She has not truly left but is constantly observing the group's movements through gaps, and her attitude appears composed (waving in greeting).",
+        "evidence": [
+          "D12:2",
+          "D12:7",
+          "D12:26",
+          "D12:28"
+        ],
+        "category": 3,
+        "id": 65,
+        "depth": 3
+      },
+      {
+        "question": "As Yuyuko's gardener, why did Youmu ask everyone to \"stop\" Yuyuko after being defeated, calling her actions \"selfish\"?",
+        "answer": "Youmu deeply understands that Yuyuko's desire to make the Saigyou Ayakashi bloom goes against the tree's own nature, a fixation she defines as \"willfulness.\" Her request for the group to stop it is not born of betrayal but out of concern for Yuyuko. She believes this pursuit contrary to natural law is also an unhealthy state for Yuyuko herself and hopes external forces can make her master cease this obsession.",
+        "evidence": [
+          "D12:44",
+          "D12:46",
+          "D12:59"
+        ],
+        "category": 1,
+        "id": 66,
+        "depth": 2
+      },
+      {
+        "question": "In the context of Ge Qing's (player3) \"Soul Hunt\" check, how did its successful result change the players' perception of the current situation?",
+        "answer": "If the check fails, the group can only remain with vague perceptions like \"feeling creepy\" or \"an illusion,\" unable to confirm the threat's source. A successful check (12>10) directly exposes Youmu's attempt to cover up the lie, confirming that Yukari Yakumo is not only present but also conveyed \"good evening\" via lip-reading. This transforms the atmosphere of unknown terror into interaction with a specific character, hinting at Yukari's neutral or playful stance as an observer.",
+        "evidence": [
+          "D12:12",
+          "D12:24",
+          "D12:26",
+          "D12:28"
+        ],
+        "category": 5,
+        "id": 67,
+        "depth": 1
+      },
+      {
+        "question": "What role do the multiple HP and MP value recoveries (.st hp/mp+N) at the end of this Section play in the narrative pacing?",
+        "answer": "The restoration of these values narratively marks the complete end of the \"Hakugyokurou Gatekeeper Battle\" phase and the easing of relations with Youmu. Through Youmu's clumsy but well-intentioned bandaging (mechanically restoring HP), the player team regroups, transitioning from a weakened post-battle state to being prepared for the final showdown against the ultimate boss (Saigyouji Yuyuko).",
+        "evidence": [
+          "D12:65",
+          "D12:69",
+          "D12:71",
+          "D12:77"
+        ],
+        "category": 5,
+        "id": 68,
+        "depth": 1
+      },
+      {
+        "question": "What is Yuyuko's (Player1) true motive for proposing \"let's play a game\"? What does this reflect about her mindset?",
+        "answer": "Yuyuko proposes the game's surface reason is to decide the ownership of Spring Energy, but in reality, she attempts to keep everyone in Hakugyokurou forever through this method. She doesn't care about simple victory or defeat but anticipates making opponents die and become spirits to accompany her through battle. This reflects her loneliness as the Princess of Spirits and her unique (even somewhat morbid) indifference to life and death.",
+        "evidence": [
+          "D13:21",
+          "D13:26",
+          "D13:28",
+          "D13:51"
+        ],
+        "category": 1,
+        "id": 69,
+        "depth": 2
+      },
+      {
+        "question": "Why did Lina (Player2) fail when using Spring Energy to attack? What does this reveal about the nature of Yuyuko's abilities?",
+        "answer": "Although Lina successfully mobilizes Spring Energy from the environment to try and trap Yuyuko, Yuyuko activates her \"ability to manipulate the degree of death,\" converting Lina's attack into a Soul Hunt check. Since Lina fails the check (value less than half the shield value), her initially perceived successful attack actually becomes a death-inducing illusion. This reveals Yuyuko's ability can directly interfere with reality and senses, pulling opponents towards death.",
+        "evidence": [
+          "D13:52",
+          "D13:59",
+          "D13:61",
+          "D13:63"
+        ],
+        "category": 5,
+        "id": 70,
+        "depth": 1
+      },
+      {
+        "question": "Based on Yuyuko's description of the \"Saigyou Ayakashi\" and the incantation she muttered, what can be inferred about her perception of her own fate?",
+        "answer": "The incantation Yuyuko mutters mentions the \"Fujimi Woman\" sealing the Saigyou Ayakashi's flowers as a barrier when it fully blooms and wishing to \"permanently forget the cycle of reincarnation.\" Combined with her earlier statement, \"If I lose, then I'll just curb my curiosity,\" it can be inferred that subconsciously she knows the Saigyou Ayakashi's full bloom might lead to her own (or some seal's) destruction or painful reincarnation. Yet, driven by some obsession or curiosity, she still wants to attempt unsealing, existing in a contradictory state of both desiring liberation and playing with fire.",
+        "evidence": [
+          "D13:4",
+          "D13:28",
+          "D13:31"
+        ],
+        "category": 3,
+        "id": 71,
+        "depth": 3
+      },
+      {
+        "question": "What is the connection between the state change of Long'er (Player5) after suffering Yuyuko's attack and the result of the mechanism check?",
+        "answer": "Yuyuko's attack inflicts extremely high damage (roll value 40), causing Long'er to become half-skeletal in the narrative, as if experiencing death. However, Long'er subsequently makes a successful Soul Hunt check (roll value 27) and increases his shield value (SHM+11). This narratively manifests as him opening a pitch-black door and using all his strength to crawl back from the brink of death, proving he resisted the instant death effect through willpower or special abilities on a mechanical level.",
+        "evidence": [
+          "D13:74",
+          "D13:76",
+          "D13:77",
+          "D13:79"
+        ],
+        "category": 5,
+        "id": 72,
+        "depth": 1
+      },
+      {
+        "question": "What deeper crisis does the \"feast\" Yuyuko speaks of represent for the player team?",
+        "answer": "Yuyuko's so-called \"feast\" is not ordinary hospitality but refers to a death ritual of \"dancing until death.\" This means the player team faces not only the risk of battle defeat but also the deeper survival crisis of having their life essence stripped away, transformed into spirits, and imprisoned forever in Hakugyokurou as burial companions. This is a gamble with souls at stake.",
+        "evidence": [
+          "D13:21",
+          "D13:26",
+          "D13:34",
+          "D13:51"
+        ],
+        "category": 4,
+        "id": 73,
+        "depth": 3
+      },
+      {
+        "question": "How did Xueyu's (Player4) reaction to Yuyuko's behavior change? What does this indicate?",
+        "answer": "Xueyu initially attempts moral persuasion (pointing out the fading of life), then feels shock and fear due to Yuyuko's disregard and sarcasm, and finally realizes the disparity in strength after witnessing Lina's attack fail. This shows Xueyu transforms from an idealistic negotiator into a terrified individual facing harsh reality, deeply understanding that conventional reasoning is ineffective in the face of absolute power and an alien view of life and death.",
+        "evidence": [
+          "D13:5",
+          "D13:22",
+          "D13:64",
+          "D13:67"
+        ],
+        "category": 2,
+        "id": 74,
+        "depth": 2
+      },
+      {
+        "question": "What contradictory state did Yuyuko exhibit in response to Xueyu's surprise attack, and what does this state reveal about her true attitude towards the fight?",
+        "answer": "Although Yuyuko lets out a scream and says \"it hurts,\" her tone is a flat, emotionless \"monotone,\" even asking, \"Is this roughly the feeling?\" This creates a stark contrast with the real damage of her chest being pierced. This contradictory performance indicates she does not view the current battle as a life-or-death struggle but is responding to the challengers with a composed, even \"playing along\" or \"acting\" playful attitude.",
+        "evidence": [
+          "D14:5",
+          "D14:8",
+          "D14:10"
+        ],
+        "category": 2,
+        "id": 75,
+        "depth": 2
+      },
+      {
+        "question": "In this section, what is the logical connection between player3's (Ge Qing) high skill check and the \"self-harm\" behavior described in the narrative?",
+        "answer": "Ge Qing attempts an extremely high-challenge 'Soul Hunt' check and achieves a high success of 35 points. This narratively materializes as her opening the \"Mind's Eye\" to perceive the laws of the world. To achieve this observation beyond normal reason (i.e., a mechanical critical success), she must pay a price. Therefore, the narrative describes her piercing her chest with a sharp staff, using her own flesh, blood, or pain as a medium (corresponding to the mechanical MP/HP cost) to gain the ability to see through Yuyuko's weaknesses.",
+        "evidence": [
+          "D14:16",
+          "D14:17",
+          "D14:20"
+        ],
+        "category": 5,
+        "id": 76,
+        "depth": 1
+      },
+      {
+        "question": "Based on the details before and after Yukari Yakumo's intervention, what can be inferred about the nature of her assistance to the player team?",
+        "answer": "Yukari Yakumo not only restores the group's HP and MP through contact but also applies a film that can \"restrict Yuyuko's abilities,\" indicating her assistance combines recovery and enhancement effects. Furthermore, she asks everyone to \"stand closer\" to apply protection, and her actions are stealthy and swift (only an instant passes), suggesting she aims to secretly provide the players with the means to counter Yuyuko's laws without completely ruining Yuyuko's \"game\" enjoyment.",
+        "evidence": [
+          "D14:31",
+          "D14:42",
+          "D14:55",
+          "D14:57"
+        ],
+        "category": 3,
+        "id": 77,
+        "depth": 3
+      },
+      {
+        "question": "How did Player5's (Long'er) \"critical success\" check directly trigger Yuyuko's emotional change on a narrative level?",
+        "answer": "Long'er rolls a critical success of 34 points, narratively manifesting as drawing an infinity symbol to forcibly link Yuyuko and Ge Qing's space-time. This powerful interference directly affects Yuyuko's main body, causing her to feel a restraint (\"pulling at the infinity on her body\") and resulting in an annoyed \"how bothersome\" sentiment. This marks the first time a player's action genuinely disrupts Yuyuko's rhythm both mechanically and narratively.",
+        "evidence": [
+          "D14:21",
+          "D14:22",
+          "D14:29"
+        ],
+        "category": 5,
+        "id": 78,
+        "depth": 1
+      },
+      {
+        "question": "Why did Xueyu choose to attack the moment the Gluttony lost control and devoured the floor? What was the tactical reasoning behind this?",
+        "answer": "Sunshi loses control due to the temptation of Spring Energy, creating massive chaotic shadows that attract part of Yuyuko's attention. Xueyu uses this moment of visual obstruction and chaos as cover, transforming the original crisis of loss of control into a tactical opportunity, allowing her to close in on Yuyuko's side and execute a close-range surprise attack.",
+        "evidence": [
+          "D14:3",
+          "D14:8",
+          "D14:13"
+        ],
+        "category": 1,
+        "id": 79,
+        "depth": 2
+      },
+      {
+        "question": "How does Lina's explosive attack (check value 42) at the end of the battle embody the dual reinforcement of \"mechanic and narrative\"?",
+        "answer": "Narratively, Lina is enhanced by Yukari Yakumo's mysterious power, with her Spring Energy turning red and its form evolving (red spider lily/standing microphone), corresponding to the previously obtained Buff effect. Mechanically, this enhancement is directly reflected in the high attack check result of 42 points (far exceeding the challenge value of 10). This numerical overpowering and the grand narrative descriptions of \"overwhelming momentum\" and \"drowning in an ocean of life\" mutually corroborate, showing a qualitative change in the character's strength.",
+        "evidence": [
+          "D14:55",
+          "D14:76",
+          "D14:77"
+        ],
+        "category": 5,
+        "id": 80,
+        "depth": 1
+      },
+      {
+        "question": "Why did Player4 (Xueyu) choose to have the Gluttony devour her own left arm during the battle? What was the tactical logic and psychological state behind this extreme act?",
+        "answer": "Under Yuyuko's mental interference (death induction), Xueyu feels her consciousness blurring and her knees going weak, urgently needing to break free from this control (D15:53, D15:60). To shatter the mental control and obtain power sufficient to oppose Yuyuko, Xueyu uses intense pain to clear her mind while actively sacrificing a limb to satisfy Sunshi's hunger, causing it to evolve into a more destructive form (D15:60, D15:61). This indicates Xueyu is in a resolute state of willing to self-mutilate for victory, viewing herself as part of the weapon, exchanging extreme physical agony for mental clarity and combat power eruption.",
+        "evidence": [
+          "D15:53",
+          "D15:60",
+          "D15:61"
+        ],
+        "category": 1,
+        "id": 81,
+        "depth": 2
+      },
+      {
+        "question": "Based on Yuyuko's discourse on the relationship between the \"living world\" and the \"Netherworld,\" and her reaction to Lina's attack, what philosophical view can be inferred she holds regarding \"death\"?",
+        "answer": "Yuyuko views death (the Netherworld) not as a simple end but as another form of \"spectacular view\" and \"benefit,\" a gift only obtainable by abandoning worldly attachments (D15:8, D15:15). Facing Lina's attack brimming with vitality (Spring Energy) yet turning ominous crimson, she easily reduces it to gray-white dust, emphasizing \"you must give up to gain\" (D15:6, D15:13). Synthesizing this, she sees death as a purified, believing that only by completely severing attachment to life (like abandoning spring) can one touch an ultimate aesthetic realm. This perspective transcends the binary opposition of life and death.",
+        "evidence": [
+          "D15:6",
+          "D15:8",
+          "D15:13",
+          "D15:15"
+        ],
+        "category": 3,
+        "id": 82,
+        "depth": 3
+      },
+      {
+        "question": "In this Section, how did Player4's (Xueyu) multiple 【Soul Hunt】 checks and the severe HP/MP consumption change the offensive/defensive dynamic between her and Yuyuko on a narrative level?",
+        "answer": "Initially, Xueyu teeters on the brink under Yuyuko's assault. However, after consecutively attempting high-difficulty 【Soul Hunt】 checks and paying the costs of MP-5 and a severed arm, her attack power (SHM) significantly increases to 42 (D15:62, D15:68). This mechanical burst directly manifests in the narrative: she shifts from passive defense to active offense, her attack intensity sufficient to cause cracks in Yuyuko's Spring Energy shield and make it emit a wail (D15:71, D15:73). Although ultimately repelled, this outburst forces Yuyuko, who had always appeared composed and detached, to acknowledge the \"shield cracking\" and lament \"I'm going to lose,\" marking the battle's transition from one-sided teasing to a confrontation with genuine threat.",
+        "evidence": [
+          "D15:62",
+          "D15:68",
+          "D15:71",
+          "D15:73",
+          "D15:77"
+        ],
+        "category": 5,
+        "id": 83,
+        "depth": 1
+      },
+      {
+        "question": "What subtle influence did Lina's (Player2) remarks about \"selfishness\" have on Yuyuko's attitude, leading to a change in the subsequent battle pace?",
+        "answer": "Lina points out that \"only children have the right to be willful\" and \"it's not good to be willful at such an old age,\" directly hitting Yuyuko's sensitive points regarding age and identity (D15:35, D15:37, D15:48). Originally, Yuyuko intended to \"go easy,\" but after being repeatedly reminded of her age and \"maturity\" by Lina (and Player5), she changes her mind, stating she \"doesn't want to go easy anymore\" (D15:42, D15:44). This causes Yuyuko's subsequent attacks to become more fierce, no longer merely defensive or teasing, but actively causing the Saigyou Ayakashi's branches to tremble, forcing everyone to face greater survival pressure.",
+        "evidence": [
+          "D15:35",
+          "D15:37",
+          "D15:42",
+          "D15:44",
+          "D15:48"
+        ],
+        "category": 4,
+        "id": 84,
+        "depth": 3
+      },
+      {
+        "question": "Based on Yuyuko's reaction after falling, her evaluation of Yukari Yakumo, and her attitude towards the Saigyou Ayakashi, what can be inferred about her current true mental state?",
+        "answer": "Yuyuko inexplicably falls during battle but doesn't care, even instantly switching back to an elegant lecturing mode, displaying extreme composure and even a degree of airheadedness (D15:6, D15:8). On one hand, she vehemently denies being an \"old hag\" and disparages Yukari Yakumo; on the other, she reveals her obsession and helplessness regarding the Saigyou Ayakashi's \"full bloom\" (D15:38, D15:48). Combined with details like her \"expressionlessly pretending to be scared\" (D15:64, D15:73), it can be inferred she is in a state of \"playful seriousness\":",
+        "evidence": [
+          "D15:6",
+          "D15:8",
+          "D15:38",
+          "D15:48",
+          "D15:64",
+          "D15:73"
+        ],
+        "category": 3,
+        "id": 85,
+        "depth": 3
+      },
+      {
+        "question": "Why did Ge Qing choose to transform his staff into fine needles for attack, instead of directly using large-scale spells?",
+        "answer": "Ge Qing's attack logic is to find and strike \"conceptual cracks\" and \"tiny flaws.\" She gathers energy through the giant eye to concentrate at a single point, pursuing the \"absolute will to pierce through all flaws.\" The needle form maximizes energy concentration for a pinpoint breakthrough, triggering a chain reaction of the shield shattering like a glacier.",
+        "evidence": [
+          "D16:8",
+          "D16:10",
+          "D16:22"
+        ],
+        "category": 1,
+        "id": 86,
+        "depth": 2
+      },
+      {
+        "question": "What contradiction exists between Yuyuko's claim that \"this shield is not broken\" and the previous narrative description? What does this reveal about the essence of her ability?",
+        "answer": "The narrative clearly describes the shield \"exploding violently\" and turning into mist, yet Yuyuko insists the shield was never destroyed. This contradiction, combined with the detail of Saigyou Ayakashi petals flowing backwards to reconstruct the shield, suggests she possesses the authority to reverse life/death/states, or that the \"shield\" in her definition is a conceptual existence. As long as the Saigyou Ayakashi exists, the shield's \"true form\" is not considered destroyed.",
+        "evidence": [
+          "D16:22",
+          "D16:24",
+          "D16:36",
+          "D16:52"
+        ],
+        "category": 2,
+        "id": 87,
+        "depth": 2
+      },
+      {
+        "question": "Based on the changes in the Saigyou Ayakashi and the details of Yuyuko's shield regenerating, what mechanism of Yuyuko's power source can be inferred?",
+        "answer": "The regeneration of Yuyuko's shield is accompanied by the Saigyou Ayakashi's petals withering, falling, and transforming into a stream of spirit particles flowing towards her. This indicates her power is symbiotic with or drawn from the Saigyou Ayakashi. She sacrifices the Saigyou Ayakashi's \"Spring Energy\" (petals) to rebuild her defenses, converting the tree's vitality into combat resources.",
+        "evidence": [
+          "D16:24",
+          "D16:32",
+          "D16:57"
+        ],
+        "category": 3,
+        "id": 88,
+        "depth": 3
+      },
+      {
+        "question": "In this Section, how did the reactions of Ge Qing and Long'er differ after their HP was reduced? What does this reflect about their respective fighting styles?",
+        "answer": "When under mental control, Long'er (HP-1) exhibits intense physical resistance, using one hand to tightly grip his,;HP-1/",
+        "evidence": [
+          "D16:70",
+          "D16:76",
+          "D16:77"
+        ],
+        "category": 5,
+        "id": 89,
+        "depth": 1
+      },
+      {
+        "question": "What subtle psychological logic exists between Yuyuko's words and actions when activating \"Feast of the Dead\" and her subsequent cessation of attack?",
+        "answer": "Yuyuko first issues a death threat and actually launches a mental attack, but then voluntarily stops,“”. This shows she still views the battle as a \"game\" or \"diversion.\" She demonstrates overwhelming power capable of causing death to establish, yet maintains the elegance and composure of the \"Princess of Spirits\" through self-restraint, disdaining to crush her opponents with full force.",
+        "evidence": [
+          "D16:60",
+          "D16:77",
+          "D16:79"
+        ],
+        "category": 1,
+        "id": 90,
+        "depth": 2
+      },
+      {
+        "question": "In the 'Soul Hunt' check at the end of this section, although everyone succeeded, what mechanism determination did the subsequent HP reduction reveal?",
+        "answer": "Despite Long'er and Ge Qing both succeeding in their 'Soul Hunt' checks (even with success levels), they still suffered HP reduction (Long'er -1, Ge Qing -1) and descriptions of mental control. This indicates that Yuyuko's attack carries mandatory damage or an extremely high saving threshold; even a successful check can only mitigate, not completely avoid the damage, or the damage is a cost incurred after a successful check.",
+        "evidence": [
+          "D16:65",
+          "D16:70",
+          "D16:74",
+          "D16:76",
+          "D16:77"
+        ],
+        "category": 5,
+        "id": 91,
+        "depth": 1
+      },
+      {
+        "question": "Lina (player2) forcibly changing the battlefield environment from \"Red Spider Lilies\" to \"Natural Vegetation\" reflects what kind of deep-seated motivation and self-perception?",
+        "answer": "Lina's actions are not only a tactical counter but also a strong affirmation and return to her identity as a \"fairy.\" By rejecting the other shore flowers of the Netherworld and instead summoning green vegetation representing vitality, she emphasizes her primal power as a nature fairy. Using \"willfulness\" as a reason, she asserts sovereignty over her domain, showing her unwillingness to be assimilated by the Netherworld's aura of death, choosing instead to cover death with life force.",
+        "evidence": [
+          "D17:3",
+          "D17:11",
+          "D17:14",
+          "D17:18"
+        ],
+        "category": 1,
+        "id": 92,
+        "depth": 2
+      },
+      {
+        "question": "Combining Yuyuko's (player1) change in attitude during the battle and her final ultimate move, what can be inferred about her judgment of the current battle situation?",
+        "answer": "Yuyuko initially displayed a playful and composed demeanor, even sending her Reverse Butterflies to probe. However, after Lina altered the environment and showed strong resistance, Yuyuko dropped her playfulness and unleashed the lethal \"Butterfly Sign: Deadly Butterfly Spear.\" This indicates she realized her opponents were no longer weaklings to be casually eliminated; she had to use a move capable of distorting space and carrying an absolute oppressive sense of death to secure victory. The battle escalated from toying to genuine combat.",
+        "evidence": [
+          "D17:1",
+          "D17:16",
+          "D17:19",
+          "D17:21"
+        ],
+        "category": 2,
+        "id": 93,
+        "depth": 2
+      },
+      {
+        "question": "How did Reimu Hakurei's intervention change the course of the battle both physically and psychologically?",
+        "answer": "On a physical level, Reimu's \"Fantasy Nature\" directly shattered Yuyuko's lethal \"Butterfly Sign: Deadly Butterfly Spear,\" resolving the death crisis for everyone. On a psychological level, her appearance instantly dispelled the primal fear shrouding everyone's hearts, reigniting the fighting spirit of Xueyu (player4), who had been paralyzed by despair, transforming the oppressive atmosphere of certain death into high morale for a counterattack.",
+        "evidence": [
+          "D17:21",
+          "D17:25",
+          "D17:27",
+          "D17:35"
+        ],
+        "category": 4,
+        "id": 94,
+        "depth": 3
+      },
+      {
+        "question": "Combining Lina's (player2) \"Nature Domain\" expansion and Yuyuko's (player1) \"Sanzu River\" descent, what core conflict of this battle does their confrontation reveal?",
+        "answer": "This is not just a battle between characters, but a direct clash between the concepts of \"Life\" and \"Death.\" Lina represents the vibrant, verdant, and noisy vitality of nature, while Yuyuko represents the solidified, pale, and silent law of death from the Netherworld. Both sides are attempting to erode and rewrite the reality of the battlefield with their own laws (vegetation coverage vs. the Sanzu River's descent), fighting for the right to define the environment.",
+        "evidence": [
+          "D17:3",
+          "D17:14",
+          "D17:19",
+          "D17:21"
+        ],
+        "category": 3,
+        "id": 95,
+        "depth": 3
+      },
+      {
+        "question": "In this section, how did player4 (Xueyu)'s reaction to Yuyuko's offensive change, and what external conditions did this change depend on?",
+        "answer": "Initially, Xueyu was in an extremely weak and fearful state, apologizing to Yuyuko's Reverse Butterflies and even crouching defensively in terror. However, Reimu's arrival, blocking the fatal blow and declaring \"It's alright now,\" served as a crucial external condition that allowed Xueyu to recover from despair. She quickly transformed into a state with shining eyes, ready to fight with her weapon, indicating her courage is highly dependent on the presence of a powerful protector.",
+        "evidence": [
+          "D17:0",
+          "D17:20",
+          "D17:26",
+          "D17:35"
+        ],
+        "category": 3,
+        "id": 96,
+        "depth": 3
+      },
+      {
+        "question": "In this section, how did the skill check results of player4 (Luo Xueyu) and player5 (Tenjōin Long'er) jointly contribute to the change in Yuyuko's attitude?",
+        "answer": "Luoxueyu created a significant threat through high damage output (SHM:70 and 51), forcing Yuyuko to face the assault. Long'er's subsequent self-sacrificing strike and flying kick (SHM:56), though caught by Yuyuko, successfully shattered the final shield and barrier. These two consecutive waves of high-intensity attacks proved the group's strength, leading Yuyuko to ultimately choose to voluntarily return the Spring Energy and concede defeat, rather than being completely defeated.",
+        "evidence": [
+          "D18:11",
+          "D18:15",
+          "D18:25",
+          "D18:32",
+          "D18:36",
+          "D18:38"
+        ],
+        "category": 5,
+        "id": 97,
+        "depth": 1
+      },
+      {
+        "question": "Yuyuko's words and actions after the battle show a contradictory state. What does this contradiction reveal about her true view of this incident?",
+        "answer": "On one hand, Yuyuko frankly admitted \"I lost\" and returned the Spring Energy; on the other hand, she expressed being \"a bit dissatisfied\" and sat on a branch teasing everyone in a good mood. This attitude of conceding yet remaining composed, even playful (like mocking Lina for biting a tree), indicates she wasn't genuinely intent on destroying everything. She likely viewed this incident as a \"game\" or trial with everyone, enjoying the process more than the outcome.",
+        "evidence": [
+          "D18:38",
+          "D18:42",
+          "D18:44",
+          "D18:57",
+          "D18:59"
+        ],
+        "category": 2,
+        "id": 98,
+        "depth": 2
+      },
+      {
+        "question": "Combining Ge Qing's (player6) actions and the final outcome, what role can be inferred that she played at the end of the battle?",
+        "answer": "Ge Qing maintained some kind of ritual or spell during the battle (like summoning the giant eye), only stopping her meditation and feeling the difficulty after the Spring Energy was returned. This suggests she was secretly maintaining the battlefield situation or suppressing some force. Once the incident was resolved, she immediately withdrew the giant eye and searched for her staff, indicating her role was auxiliary field control, ensuring the battle ended within controllable limits, not direct damage output.",
+        "evidence": [
+          "D18:2",
+          "D18:48",
+          "D18:61",
+          "D18:73"
+        ],
+        "category": 3,
+        "id": 99,
+        "depth": 3
+      },
+      {
+        "question": "After HP and MP reductions, how did player4 (Luo Xueyu)'s fighting style change drastically, and what kind of resolute psychology does this reflect in the character?",
+        "answer": "After MP reduction and SHM consumption, Luoxueyu not only didn't retreat but instead merged herself into the dark tide of shadows, transforming into countless devouring maws. This frenzied combat style, disregarding her own form and treating her weapon as lightly as a branch, coupled with her immediate collapse from exhaustion and hunger after the battle, reveals her desperate desire for recognition (especially from Yuyaka), willing to stake her life force in an all-or-nothing gamble.",
+        "evidence": [
+          "D18:8",
+          "D18:14",
+          "D18:17",
+          "D18:21",
+          "D18:39"
+        ],
+        "category": 5,
+        "id": 100,
+        "depth": 1
+      },
+      {
+        "question": "What deep impact did Yuyuko's final act of returning the Spring Energy have on the ecological balance between the Netherworld and the outside world?",
+        "answer": "Yuyuko returned the borrowed Spring Energy through the Netherworld gate to the outside world's plants, not only resolving the crisis of the Saigyou Ayakashi's full bloom but also restoring normal seasonal order to the outside world. This means the Netherworld no longer monopolizes spring's essence. Lina's subsequent shrinking confirms the dissipation of abnormal power, as the world returns from an imbalanced \"false spring\" to normal natural laws.",
+        "evidence": [
+          "D18:36",
+          "D18:38",
+          "D18:40",
+          "D18:42"
+        ],
+        "category": 4,
+        "id": 101,
+        "depth": 3
+      },
+      {
+        "question": "Combining the description of Long'er's (player5) attack and Yuyuko's response, what can be inferred about the true gap in strength between the two sides?",
+        "answer": "Long'er used multiple cards to stack statuses and even activated \"Self-Sacrificing Strike\" and \"Self-Destructing Flame,\" creating immense momentum and destructive force. However, Yuyuko merely grabbed him by the nape with one hand and threw him back, completely unharmed. This shows that despite Long'er's attacks piercing the barrier, Yuyuko's true power far surpasses the group's. She was either holding back or simply playing along to finish this \"finale.\"",
+        "evidence": [
+          "D18:22",
+          "D18:32",
+          "D18:36",
+          "D18:37"
+        ],
+        "category": 3,
+        "id": 102,
+        "depth": 3
+      },
+      {
+        "question": "In Reimu's conversation with Ge Qing, why did she refuse to directly describe the spring scenery and instead suggest Ge Qing \"don't look with my eyes\"? What attitude does this reflect?",
+        "answer": "Reimu believes mere visual descriptions cannot replace firsthand experience. She hopes Ge Qing can personally feel the revived vitality of Gensokyo (like new buds, sunlight, and bustling sounds). This reflects that Reimu, as a guardian, though usually appearing lazy, holds a deep love for Gensokyo in her heart and wishes for others to genuinely perceive the peace following the incident's resolution.",
+        "evidence": [
+          "D19:16",
+          "D19:18",
+          "D19:20"
+        ],
+        "category": 1,
+        "id": 103,
+        "depth": 2
+      },
+      {
+        "question": "In dealing with the \"new pet\" Lina, what contradictions and true intentions do Kazami Yuka's words and actions show?",
+        "answer": "Yuyaka superficially appears strong and dangerous, forcibly capturing Lina with a bug net and calling her a \"pet.\" However, she actually gives Lina the choice to stay or leave, gently explains their relationship using metaphors of \"family\" and \"cherry trees,\" and prepares a hot meal. This contradiction reveals her seemingly domineering yet truly maternal and, aiming to provide Xueyu and Lina with a warm home.",
+        "evidence": [
+          "D19:38",
+          "D19:40",
+          "D19:52",
+          "D19:55",
+          "D19:68"
+        ],
+        "category": 2,
+        "id": 104,
+        "depth": 2
+      },
+      {
+        "question": "Combining Yakumo Yukari's actions at Hakugyokurō and Yuka's final move, what role can be inferred that Yukari played after the battle?",
+        "answer": "Yukari first attempted to approach Yuyuko at Hakugyokurou but was. She then appeared near the Dream Palace, and was attacked by Yuyaka's parasol. Combined with her mention of \"someone talking bad\" while at her own home, it can be inferred that Yukari, though not directly participating in the overt celebrations, has been the post-battle situations of all parties, confirming the peace after the incident's resolution, maintaining her duties as Gensokyo's through \"\" and monitoring.",
+        "evidence": [
+          "D19:12",
+          "D19:38",
+          "D19:75"
+        ],
+        "category": 3,
+        "id": 105,
+        "depth": 3
+      },
+      {
+        "question": "Xueyu's lie and subsequent reaction when questioned by Yuka reveal what kind of psychological state she is in?",
+        "answer": "When questioned by Yuyaka, Xueyu, lying about going to the Human Village to play, because she didn't want Yuyaka to know she was involved in dangerous battles. However, when Yuyaka brought back Lina and gently accepted them, Xueyu's and subsequent excitement show she quickly transitioned from the tense state of a battle survivor back to the state of a ward, deepening her dependence on Yuyaka.",
+        "evidence": [
+          "D19:33",
+          "D19:37",
+          "D19:59",
+          "D19:60"
+        ],
+        "category": 2,
+        "id": 106,
+        "depth": 2
+      },
+      {
+        "question": "What immediate impact did Reimu's handling of the \"man-eating\" rumor have on player2 (Lina)?",
+        "answer": "Although Reimu denied the rumor about eating children, she deliberately teased Lina, saying she had a \"cherry flavor.\" This half-joking threat forced Lina to proactively offer her remaining cherries and perform a to beg for mercy in self-preservation. This not only established Reimu's in the eyes of fairies but also left Lina in a state of in subsequent, until being taken in by Yuyaka.",
+        "evidence": [
+          "D19:6",
+          "D19:7",
+          "D19:10"
+        ],
+        "category": 4,
+        "id": 107,
+        "depth": 3
+      },
+      {
+        "question": "Combining Reimu's changing attitude towards the Offering Box, what conclusion can be inferred?",
+        "answer": "Reimu initially showed no motivation and was about seeing Ge Qing off. But when Ge Qing mentioned that had come to the shrine (meaning offerings), she immediately became and left quickly. This that while Reimu is reliable in major matters (protecting Gensokyo), in daily life, \"money/offerings\" are the core for her actions, even surpassing.",
+        "evidence": [
+          "D19:20",
+          "D19:21",
+          "D19:22"
+        ],
+        "category": 3,
+        "id": 108,
+        "depth": 3
+      },
+      {
+        "question": "What deep logic and emotional motivation lie behind Long'er's act of giving the card with the Black Knight to Mokou?",
+        "answer": "Long'er giving the card to Mokou is not only a response to using Mokou's power in the previous battle but also an exchange of power and trust. He acknowledges that using power reminiscent of Mokou's Spell Cards was dangerous but effective. By returning the card and promising \"use it next time you want to use my power,\" he establishes a two-way bond, meaning the two will share power and fate in the future.",
+        "evidence": [
+          "D20:6",
+          "D20:8",
+          "D20:11"
+        ],
+        "category": 1,
+        "id": 109,
+        "depth": 2
+      },
+      {
+        "question": "What contrast exists between Kaguya's words and actions while being chased by Keine and her identity as a \"princess,\" and what does this contrast reveal about her true living state?",
+        "answer": "Kaguya, as the noble Lunar Princess, should be dignified and elegant. Yet here, she is Keine chasing, even trying to drag Long'er and Mokou down with her. This extremely full of reveals that in Gensokyo, she is not but has truly this noisy yet vibrant daily life, enjoying a with friends without barriers.",
+        "evidence": [
+          "D20:20",
+          "D20:24",
+          "D20:30"
+        ],
+        "category": 2,
+        "id": 110,
+        "depth": 2
+      },
+      {
+        "question": "Combining Mokou's view of time and Long'er's sigh, what difference in time perception can be inferred between Hourai people (or immortals) and ordinary humans?",
+        "answer": "Long'er that a single day of battle felt like a long time, reflecting an ordinary person's stretched perception of time during intense experiences. Mokou, as a long-lived being, believes \"a day or ten days are essentially similar,\". This contrast that while long-lived beings possess infinite time, they become to its passage. Long'er's appearance has brought her a.",
+        "evidence": [
+          "D20:13",
+          "D20:14",
+          "D20:16"
+        ],
+        "category": 3,
+        "id": 111,
+        "depth": 3
+      },
+      {
+        "question": "What direct consequences and atmosphere shift did Keine's out-of-control behavior during the full moon cause to the originally warm hotpot gathering?",
+        "answer": "Keine's directly shattered Long'er's anticipated scene, instantly transforming the into chaotic. This (headbutt,) the post-battle, in an absurd yet lively way, bringing everyone from the brink of back to Gensokyo's.",
+        "evidence": [
+          "D20:20",
+          "D20:24",
+          "D20:28"
+        ],
+        "category": 4,
+        "id": 112,
+        "depth": 3
+      },
+      {
+        "question": "After witnessing the protagonist group's \"mischief,\" Yukari and Yuyuko decided to hold a banquet. What is the deep-seated motivation behind this decision?",
+        "answer": "Yukari and Yuyuko, as observers of Gensokyo, seeing the protagonist group after experiencing a life-and-death crisis, confirms the restoration of Gensokyo's order and vitality post-incident. Holding a banquet is not only to celebrate the return of the Spring Energy but also to further this \"lively with many people\" vitality, the through ritualistic revelry.",
+        "evidence": [
+          "D20:30",
+          "D20:32"
+        ],
+        "category": 1,
+        "id": 113,
+        "depth": 2
+      },
+      {
+        "question": "Combining the poem recited by Long'er and the change in the ending environmental description, what philosophy of life does this passage metaphorically represent?",
+        "answer": "The chant recited by Long'er, \"Life, life, life, life, darkness births the beginning; Death, death, death, death, the Netherworld ends death,\". The subsequent of, this. Harsh winter (death/stagnation) is inevitably followed by warm spring (life/revival). Whether it's the natural change of seasons or everyone's, it the of life after enduring hardships.",
+        "evidence": [
+          "D20:31",
+          "D20:32"
+        ],
+        "category": 3,
+        "id": 114,
+        "depth": 3
+      },
+      {
+        "question": "How did Ge Qing's (Player 3) attitude and action strategy change when facing the source of the incident?",
+        "answer": "Initially gathering at the shrine, Ge Qing appeared, the shrine was empty through perception and guided the group. Facing Rumia and on the way to the Netherworld, she acted more as the team's (e.g., using eye illusions to dispel darkness). However, during the final battle at Hakugyokurou against Yuyuko, she displayed, even (MP/SHM) to find and Yuyuko's \"weak point,\" transitioning from a to a. Finally, after the incident was resolved, she expressed with Reimu's insights about spring, showing a.",
+        "evidence": [
+          "D01:9",
+          "D04:13",
+          "D16:8",
+          "D16:10",
+          "D19:19"
+        ],
+        "category": 1,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "01",
+          "04",
+          "16",
+          "19"
+        ],
+        "id": 115,
+        "depth": 2
+      },
+      {
+        "question": "As a fairy, how did Lina's (Player 2) understanding of \"spring\" deepen throughout the entire event?",
+        "answer": "Initially, Lina participated in resolving the incident simply for her own Cherry Grove and Sunflower Field, appearing. In the Netherworld, after hearing Yuyuko's theory about \"scenery only the dead can see,\" she stronglyed, believing sacrificing the present world's spring for Netherworld flowers wasn't worth it. In the final battle, she transformed the Spring Energy into pure,, that in her eyes, \"natural flowers full of vitality\" are the most beautiful, thus completing her from to.",
+        "evidence": [
+          "D02:7",
+          "D02:15",
+          "D15:7",
+          "D15:10",
+          "D17:3",
+          "D17:14"
+        ],
+        "category": 1,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "02",
+          "15",
+          "17"
+        ],
+        "id": 116,
+        "depth": 2
+      },
+      {
+        "question": "How was the relationship between Long'er (Player 5) and Mokou reflected and developed through details in the story?",
+        "answer": "In the Human Village, Long'er gave Mokou the candy figurine resembling her,. After the Netherworld battle, Long'er said \"the opponent was strong,\" but used power reminiscent of Mokou's Spell Cards (the card) and survived because of it. In the, Mokou waited for Long'er's return at the Bamboo Forest entrance. Though he was slow, she and invited him for hot pot. Long'er also gave Mokou the card engraved with a knight. The two/.",
+        "evidence": [
+          "D06:9",
+          "D06:17",
+          "D20:1",
+          "D20:8",
+          "D20:11"
+        ],
+        "category": 1,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "06",
+          "20"
+        ],
+        "id": 117,
+        "depth": 2
+      },
+      {
+        "question": "What was the chain of causality that nearly caused the Saigyou Ayakashi to fully bloom and trigger a crisis?",
+        "answer": "First, Yuyuko collected Gensokyo's Spring Energy to see the Saigyou Ayakashi in full bloom (Section 06/13). This caused Gensokyo to be covered in spring snow (Section 01). Subsequently, Yuyuko used the collected Spring Energy at Hakugyokurou to construct shields and attempted to (Section 13/16). Finally, although the group broke the shields, the Saigyou Ayakashi absorbed enough Spring Energy to. It was only when Reimu arrived and assisted in that full bloom was prevented (Section 18).",
+        "evidence": [
+          "D01:0",
+          "D06:0",
+          "D13:4",
+          "D16:7",
+          "D18:4"
+        ],
+        "category": 2,
+        "cross_section_count": 4,
+        "cross_section_ids": [
+          "01",
+          "06",
+          "13",
+          "16",
+          "18"
+        ],
+        "id": 118,
+        "depth": 2
+      },
+      {
+        "question": "How did the relationship between Luo Xueyu (Player 4) and her symbiotic organism \"Glutton\" change during the battle?",
+        "answer": "Initially, Xueyu showed towards Sunku, even its hunger (Section 06/10). During the battle with Youmu, she Sunku's appetite for attack (Section 10). By the final battle, facing Yuyuko's Spring Energy torrent, Xueyu Sunku, even letting it and merging herself into it. She transitioned from a \"controller\" to a state of \"\" with the monster, using to Yuyuko.",
+        "evidence": [
+          "D06:6",
+          "D10:12",
+          "D18:8",
+          "D18:17"
+        ],
+        "category": 1,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "06",
+          "10",
+          "18"
+        ],
+        "id": 119,
+        "depth": 2
+      },
+      {
+        "question": "Combining Keine's legend, Lunasa's warning, and Yuyuko's own account, what is the true nature of the Saigyou Ayakashi?",
+        "answer": "Keine mentioned the Saigyou Ayakashi is an ancient demon tree that and guides souls towards (Section 06). Lunasa that the master of Hakugyokurou (Yuyuko) possesses the ability to and is a for the living (Section 08). Yuyuko herself admitted she borrowed Spring Energy to make the Saigyou Ayakashi fully bloom, but this requires, even this scenery is a (Section 15)., the Saigyou Ayakashi is a that feeds on life force (Spring Energy/human lives) and connects life and death.",
+        "evidence": [
+          "D06:0",
+          "D06:19",
+          "D08:13",
+          "D15:4",
+          "D15:13"
+        ],
+        "category": 3,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "06",
+          "08",
+          "15"
+        ],
+        "id": 120,
+        "depth": 3
+      },
+      {
+        "question": "From Rumia to Yuyuko, how do villainous characters differ in their use of \"darkness\"?",
+        "answer": "Rumia uses darkness to create a \"hide-and-seek\" domain, psychologically oppressing opponents by sealing their vision; her darkness possesses physical cutting properties (Moon Sign \"Moonlight\") (Section 03/04). In contrast, Yuyuko's darkness (such as the light-devouring mentioned in Section 18) is more conceptual \"death,\" or serves as a backdrop to highlight the bewitching beauty of the Saigyou Ayakashi. More interestingly, the dark wave (\"Devouring\") created by the protagonist Luo Xueyu in the final battle is pure consumption and appetite, using darkness to counter Yuyuko instead.",
+        "evidence": [
+          "D03:5",
+          "D04:7",
+          "D18:17"
+        ],
+        "category": 3,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "03",
+          "04",
+          "18"
+        ],
+        "id": 121,
+        "depth": 3
+      },
+      {
+        "question": "Regarding Yukari Yakumo's role in this incident, what conclusion can be drawn by synthesizing various clues?",
+        "answer": "Although Yakumo Yukari did not directly participate in the battle, she was present throughout the background of the entire incident. Long'er has been searching for her (Section 02). Youmu confirms that Yukari is Yuyuko's close friend and often appears through gaps (spaces filled with eyes) (Section 12). The epilogue reveals that Yukari has been secretly observing the entire process from within the gaps and finally appears at Hakugyokurou to take Yuyuko away, hinting that she might be a tacit accomplice or behind-the-scenes observer of the incident, maintaining a delicate balance with Reimu and the others.",
+        "evidence": [
+          "D02:17",
+          "D12:7",
+          "D19:12"
+        ],
+        "category": 4,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "02",
+          "12",
+          "19"
+        ],
+        "id": 122,
+        "depth": 3
+      },
+      {
+        "question": "Tracking Luo Xueyu's (Player 4) SAN/HP changes, what do her losses in battle reflect?",
+        "answer": "Although Luo Xueyu was frightened when facing Rumia, she was not severely injured. During the battle with Youmu in the Netherworld, she began deducting MP to unleash the power of \"Devouring\" (Section 10). In the final battle against Yuyuko, she first had HP deducted (Section 16), and then, to launch the final strike, she significantly deducted SHM (Sanity/Mental Value) and MP (Section 18). This rapidly increasing self-depletion as the battles escalate reflects her transformation from a timid girl into a berserker willing to sacrifice herself and fully merge with the monster to protect spring.",
+        "evidence": [
+          "D10:15",
+          "D16:3",
+          "D18:12",
+          "D18:15"
+        ],
+        "category": 5,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "10",
+          "16",
+          "18"
+        ],
+        "id": 123,
+        "depth": 1
+      },
+      {
+        "question": "How do Youmu's attitude changes across different battle phases reveal her inner conflict?",
+        "answer": "Initially facing the group, Youmu showed a firm intent to block them, but also blushed with shame due to Lina's words (about being despicable) (Section 09). During the battle, she showed respect and a competitive spirit towards strong attacks (like those from Long'er and Xueyu) (Section 10). When the battle ended, although defeated, she still dutifully warned everyone about Yuyuko's danger (Section 11/12). This shows that while loyal to her duty, she is not without a sense of right and wrong internally, and holds a samurai-like respect for the strong.",
+        "evidence": [
+          "D09:13",
+          "D09:17",
+          "D10:10",
+          "D12:7"
+        ],
+        "category": 1,
+        "cross_section_count": 4,
+        "cross_section_ids": [
+          "09",
+          "10",
+          "11",
+          "12"
+        ],
+        "id": 124,
+        "depth": 2
+      },
+      {
+        "question": "How does the form of Lina's (Player 2) abilities evolve in battle as her state of mind changes?",
+        "answer": "When battling Rumia, Lina used a microphone to sing and inject vitality (Section 04). When battling Youmu, due to anger and urgency, her body became wooden and grew bamboo to physically block attacks (Section 11). In the final battle against Yuyuko, she abandoned the bewitching higanbana form, transformed the microphone into a conductor's baton, and summoned a purely natural orchestra (Section 17). This progression shows her abilities evolving from simple support/growth into a form with strong personal will and natural philosophy.",
+        "evidence": [
+          "D04:18",
+          "D11:2",
+          "D17:3",
+          "D17:14"
+        ],
+        "category": 5,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "04",
+          "11",
+          "17"
+        ],
+        "id": 125,
+        "depth": 1
+      },
+      {
+        "question": "How is Ge Qing's (Player 3) \"Eye\" ability applied in different combat scenarios?",
+        "answer": "Within Rumia's dark domain, Ge Qing opened the phantom eye on her forehead, saw through illusions, and blocked attacks (Section 04). When battling Yuyuko, she again used her eye ability to find \"weak points,\" transforming her staff into fine needles to attack conceptual cracks (Section 16). This indicates the core of her ability is \"insight into essence\"; whether it's physical darkness or conceptual shields, she can find a breakthrough through her \"eye.\"",
+        "evidence": [
+          "D04:13",
+          "D04:17",
+          "D16:8",
+          "D16:10"
+        ],
+        "category": 5,
+        "cross_section_count": 2,
+        "cross_section_ids": [
+          "04",
+          "16"
+        ],
+        "id": 126,
+        "depth": 1
+      },
+      {
+        "question": "How is Long'er's (Player 5) obsession with \"Yukari Yakumo\" manifested in the story, and what is the final outcome?",
+        "answer": "Long'er started asking if anyone had seen a blonde woman from the moment he entered the forest (Section 02). On the way to the Human Village and the Netherworld, he repeatedly associated with or inquired about Yakumo Yukari's information, even coaxing her name out of Youmu (Section 12). Although he always felt Yukari was the mastermind or someone in the know, he never directly met her until the end (Yukari hid in the gaps), and could only sigh after the battle, \"A suspicious person like her wouldn't show up\" (Section 19). This obsession forms a subplot of the story, hinting at Long'er's keen intuition about the deeper causes behind the incident.",
+        "evidence": [
+          "D02:17",
+          "D12:1",
+          "D12:8",
+          "D19:11"
+        ],
+        "category": 1,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "02",
+          "12",
+          "19"
+        ],
+        "id": 127,
+        "depth": 2
+      },
+      {
+        "question": "From Lunasa's harp music to Lina's final performance, what symbolic role does music play in the Netherworld chapter?",
+        "answer": "Lunasa's violin music is desolate and carries a sense of fragmentation, symbolizing the distortion and sorrow at the boundary between life and death in the Netherworld (Section 07). In contrast, the natural symphony (trumpet flowers, pomegranate seeds) conducted by Lina in the final battle is full of vitality and clamor (Section 17). The contrast between the two symbolizes the conflict between \"the silence/elegance of death\" and \"the clamor/vitality of life.\" Ultimately, Lina's music of life broke the deathly silence of the Netherworld, heralding the return of spring.",
+        "evidence": [
+          "D07:5",
+          "D08:0",
+          "D17:14"
+        ],
+        "category": 3,
+        "cross_section_count": 3,
+        "cross_section_ids": [
+          "07",
+          "08",
+          "17"
+        ],
+        "id": 128,
+        "depth": 3
+      },
+      {
+        "question": "How does Luo Xueyu's (Player 4) attitude towards the concept of \"eating\" undergo a reversal throughout the story?",
+        "answer": "Initially at the shrine, she was afraid of being eaten by youkai (Section 01). On the journey, she feared being eaten by Rumia while also trying to control the appetite of \"Devouring\" (Section 03/10). However, in the final battle, she actively let \"Devouring\" \"take a bite,\" even transforming into countless mouths to devour Yuyuko's power (Section 18). This shift from the victim mentality of \"afraid of being eaten\" to the attacker stance of \"actively devouring\" reflects her explosive breakthrough in a desperate situation.",
+        "evidence": [
+          "D01:7",
+          "D03:9",
+          "D10:12",
+          "D18:8"
+        ],
+        "category": 1,
+        "cross_section_count": 4,
+        "cross_section_ids": [
+          "01",
+          "03",
+          "10",
+          "18"
+        ],
+        "id": 129,
+        "depth": 2
+      },
+      {
+        "question": "How is Yuyuko's method of utilizing \"Spring Energy\" connected to her philosophical views on life and death?",
+        "answer": "Yuyuko collected Spring Energy to make the Saigyou Ayakashi bloom, believing it would bring about \"a breathtaking view only the dead can see\" (Section 13/15). She tried to persuade the group to abandon the present world, believing \"you must give up to gain,\" and that only by letting go of attachment to life can one appreciate the beauty of the Netherworld (Section 15). This act of transforming life force (Spring Energy) into the beauty of death is precisely the manifestation of her ability of \"absolute negation of life\" and the core philosophy of her as the Princess of the Dead.",
+        "evidence": [
+          "D13:4",
+          "D15:8",
+          "D15:13"
+        ],
+        "category": 4,
+        "cross_section_count": 2,
+        "cross_section_ids": [
+          "13",
+          "15"
+        ],
+        "id": 130,
+        "depth": 3
+      },
+      {
+        "question": "How does Reimu's words to Ge Qing at the story's end echo the opening description of the \"Spring Snow Incident\"?",
+        "answer": "The opening describes Gensokyo covered in spring snow, everything still, vitality suppressed (Section 01). At the end, Reimu tells Ge Qing that true spring is \"new buds after the snow melts,\" \"the offering box warmed by the sun,\" and \"the noisy voices of the little ones\" (Section 19). This not only echoes the scene of melting snow after the incident is resolved but also philosophically highlights that spring is not just a rise in temperature, but the revival of life's atmosphere and vitality, forming a stark contrast with the dead silence of the spring snow at the beginning.",
+        "evidence": [
+          "D01:0",
+          "D19:18"
+        ],
+        "category": 3,
+        "cross_section_count": 2,
+        "cross_section_ids": [
+          "01",
+          "19"
+        ],
+        "id": 131,
+        "depth": 3
+      }
+    ]
+  }
+]

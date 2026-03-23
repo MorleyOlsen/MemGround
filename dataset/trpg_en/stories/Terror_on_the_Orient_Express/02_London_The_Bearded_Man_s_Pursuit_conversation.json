@@ -1,0 +1,284 @@
+{
+  "section": "2. London: The Bearded Man's Pursuit",
+  "description": "After the lecture, the investigators notice the mysterious bearded man Apuman Hajimi following them, danger lurks in the streets of London",
+  "conversation": [
+    {
+      "speaker": "player5",
+      "text": "\"Are you all interested in this phenomenon?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Big beard,"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Well, that's how it is\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Okay\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Prepare to go look for Professor Smith"
+    },
+    {
+      "speaker": "player3",
+      "text": "It is now 23:00 at night"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Thinking of Professor Smith's speech, gripping the cross on my chest through my clothes"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Look up out the car window, admiring the not-so-beautiful night view."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Isn't Professor Smith's house under renovation?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Hold my breath and listen for any movement inside the house"
+    },
+    {
+      "speaker": "player3",
+      "text": "(Make a Listen check)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra Listen"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you hope for, it will surely be answered, <player4>'s Listen prayer:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra Listen"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you hope for, it will surely be answered, <player5>'s Listen prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": ".ra Listen"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you hope for, it will surely be answered, <player2>'s Listen prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "The street lamps beside the road sizzle"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Shine a flashlight at the professor's bedroom"
+    },
+    {
+      "speaker": "player5",
+      "text": "#Knock on the door politely"
+    },
+    {
+      "speaker": "player4",
+      "text": "[Persuade]"
+    },
+    {
+      "speaker": "player3",
+      "text": "player2 made a very impolite move, he circled the mansion shining light on the kitchen, dining room, and then found a bedroom, but inside wasn't the professor lying down, but an elderly man around 60 years old"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire, if it is what you hope for, it will surely be answered, <player3>'s Spot Hidden 60 prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "He opened his eyes, looked at player2 who was holding the flashlight"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Excuse the intrusion, is Professor Smith here?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "#Apologize to the old man inside, slip in dollars converted to pounds"
+    },
+    {
+      "speaker": "player3",
+      "text": "Then you hear footsteps coming downstairs inside the house, player2 was ignored by the old man inside, he saw Professor Smith enter that bedroom, the old man respectfully said something to Smith"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s coc7 attribute registration completed, 46 data entries updated this time"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st san-15"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s \"Sanity\" change: 60 ➯ 45 (deduction -15=-15)"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st cm 15"
+    },
+    {
+      "speaker": "player1",
+      "text": "Attribute modification commands, supporting the following subcommands:"
+    },
+    {
+      "speaker": "player5",
+      "text": ".st cm15"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player5>'s coc7 attribute registration completed, 1 data entry updated this time."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"We'd like to talk to you about what was discussed at tonight's banquet.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"We're very sorry to visit so late, Professor Smith. During your lecture, we noticed a foreigner with a big beard in the audience, which made us a bit uneasy. At the same time, we were very interested in your lecture, so we came to disturb you.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"But please forgive our late-night visit, we've disturbed your rest.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "Professor Smith opens the door and invites you into the living room. He rubs his sleepy eyes, yawns, but still manages to instruct James Bell—the 60-year-old man from earlier, Smith's valet—to pour coffee for you."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Observe Mr. Smith's condition, pick up those materials to see if there's anything unusual."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player5>'s Psychology prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "Then Bailan can sense that Professor Smith is somewhat dissatisfied with your late-night visit but is restraining himself."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Mentally formulate the questions to ask while secretly assessing Professor Smith's mental state."
+    },
+    {
+      "speaker": "player3",
+      "text": "As for those materials,"
+    },
+    {
+      "speaker": "player2",
+      "text": "#Sip coffee quietly on the side, wait for them to finish before joining the conversation."
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra medicine"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player4>'s Medicine prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": "He is sleepy."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mr. Smith, I remember you said haunted objects must go through a process of appearing, disappearing, and reappearing, right?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Mhm.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Read the room."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"We've disturbed you quite a bit. I will arrange your batch as soon as possible after I return.\""
+    },
+    {
+      "speaker": "player4",
+      "text": ".st show psychology"
+    },
+    {
+      "speaker": "player1",
+      "text": "<player4>'s currently registered personal information is as follows:"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra psychology"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely be answered. <player4>'s Psychology prayer:"
+    },
+    {
+      "speaker": "player4",
+      "text": "[Critical failure]"
+    },
+    {
+      "speaker": "player3",
+      "text": "player4 is infected by Professor Smith's yawn and also yawns."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Have any similar events happened in London recently?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Not at all.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Well then, Mr. Smith, you must be tired from today's lecture. We won't disturb you any further. May the Lord grant you pleasant dreams.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Well, alright.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#bows"
+    },
+    {
+      "speaker": "player3",
+      "text": "Smith stands up and bows to you."
+    },
+    {
+      "speaker": "player5",
+      "text": "#politely finishes the greeting and prepares to leave."
+    },
+    {
+      "speaker": "player2",
+      "text": "#scoot"
+    },
+    {
+      "speaker": "player4",
+      "text": "[sleep]"
+    },
+    {
+      "speaker": "player5",
+      "text": "#prepares to drive to the exhibition hall for the second time."
+    },
+    {
+      "speaker": "player2",
+      "text": "#drive gogogo"
+    },
+    {
+      "speaker": "player3",
+      "text": "January 4th"
+    }
+  ],
+  "start_line": 311,
+  "end_line": 622
+}

@@ -1,0 +1,396 @@
+{
+  "section": "6. Caesar Confrontation: Medical Student Dialogue",
+  "description": "Investigators pursue the suspect fugitive Caesar, maneuvering under the guise of medical students, engaging in verbal sparring to covertly extract information.",
+  "conversation": [
+    {
+      "speaker": "player3",
+      "text": "#Draw the pistol and aim at the person in front"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"A pistol? Do you know how the Blackshirts would view a foreigner having something like this?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"But dead men tell no tales.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You just need to shut up.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"And that's not the case.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Examine his attire"
+    },
+    {
+      "speaker": "player3",
+      "text": "#Put the gun away, prepare to start communicating"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I don't know who this Antonio you speak of is,\" Caesar says coldly, looking at Bolan."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Is there really a need to keep hiding? I know Antonio Termona isn't at ease with us, so he sent you.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar's pupils suddenly contract into vertical slits. For R'lyeh! The dagger whistles through the air, stabbing straight at Bolan's abdomen."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Prepare to dodge this attack and signal companions to knock him out"
+    },
+    {
+      "speaker": "player2",
+      "text": ".ra Brawl 40"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player2>'s Brawl 40 prayer:"
+    },
+    {
+      "speaker": "player3",
+      "text": ".ra Dodge"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player3>'s Dodge prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar's dagger grazes Bolan's wool coat, the blade tip scraping against the stone wall with a piercing sound."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Move forward to block his retreat path"
+    },
+    {
+      "speaker": "player2",
+      "text": "@player6 SAN82 HP12/12 DEX80"
+    },
+    {
+      "speaker": "player6",
+      "text": ".ra Sword"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player6>'s Sword prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": ".ra Brawl 40"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player2>'s Brawl 40 prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player6's rapier and Caesar's dagger slide past each other in the air, metal friction sparking sporadic sparks."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player2>'s Spear 50 prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": ".ra Dodge 40"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player2>'s Dodge 40 prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "Johnson's spear tip grazes Caesar's trouser leg. The other's backward step happens to land on scattered library flyers. Caesar stumbles and falls flat on his back, the back of his head hitting the paving stone with a dull thud, then the whole person goes limp and motionless. The dagger slips from his loosened fingers, making a crisp sound on the stone surface."
+    },
+    {
+      "speaker": "player7",
+      "text": "#Seeing he's motionless, take out hemp rope and tie him up"
+    },
+    {
+      "speaker": "player2",
+      "text": "So, while this side is fighting fiercely,"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Hello, old sir.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The other person suddenly looked up, his empty sleeves sweeping across the table. He opened his mouth, revealing the dark red cavity where his tongue root had been removed, and a bellows-like sucking sound came from his throat."
+    },
+    {
+      "speaker": "player4",
+      "text": "#takes a step back in fright"
+    },
+    {
+      "speaker": "player2",
+      "text": "Grausinger suddenly banged his forehead against the table, making a dull thumping sound. The librarian came over at the noise, \"What's wrong, sir?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ahem, this old gentleman bumped himself.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The other person stood up, his empty sleeves swaying slightly. He gave player4 a deep look, then turned and quickly walked towards the fire escape."
+    },
+    {
+      "speaker": "player4",
+      "text": "#tries to talk to the librarian"
+    },
+    {
+      "speaker": "player2",
+      "text": "The librarian picked up the knocked-askew glasses, \"Yes, I do. Mr. Grausinger... sigh, just pretend you never met him. He went mad after the shock, don't provoke him.\" He wiped his glasses."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh?? Why is that, can you tell me in detail?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The librarian spread his hands helplessly, \"To be honest, no one really knows. Four years ago, he suddenly became like this.\" He pointed towards the fire escape, \"Comes to read on time every day, but never allows anyone to question him.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"If possible, could you tell me your name? I'll include you in the acknowledgments.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Oh right, at first he tried to bite a pen to write some crazy things like 'skin brotherhood', 'face-peelers'.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The librarian took half a step back, showing a guarded expression. \"The way you say that...\" He forced a smile, \"Don't tell me you believe those ghost stories about peeling people's faces? Should I help you contact the Sant'Anna Sanatorium's car? They've recently opened a nice... uh... rest area there.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sigh, young man.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The librarian rapidly recited, \"The seventh metal box in the shack area west of Molo Wharf,\" then raised his voice: \"Closing time!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"But thank you anyway, I thank you on behalf of the FBI.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 pushes open the library's brass door and sees the companions gathered around Caesar who has fallen to the ground. Johnson has tied his hands and feet, and player6's rapier tip lightly presses against his throat."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You came just in time, do you have a way to make this guy pass out?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"But you can't just tie someone up and take them away.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Right here? That works too.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"That depends on his own constitution.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Sedatives, that kind of thing?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "(I might not have brought any."
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you wish for, it will surely be answered, <player4>'s lucky wish:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 discovers they've been carrying syringe candy as sedatives all along."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh, not bad.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then we'll have to try some primitive methods.\" #gestures for Xiao Tang to wrap the rope around him a few more times."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"But I have this.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#drapes the trench coat over this guy, lets Johnson carry him, don't let those measures show, then goes out to hail a taxi."
+    },
+    {
+      "speaker": "player7",
+      "text": "\"Alright then\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#Return to the hotel"
+    },
+    {
+      "speaker": "player2",
+      "text": "The doorman pulls open the carved glass door. His motion of taking the key ring carries a sense of unfamiliarity. Welcome back, gentlemen."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Check if the doorman has been replaced"
+    },
+    {
+      "speaker": "player4",
+      "text": "#Carefully observe the doorman's movements"
+    },
+    {
+      "speaker": "player2",
+      "text": "(player5, make a Spot Hidden check)"
+    },
+    {
+      "speaker": "player5",
+      "text": ".ra spot hidden"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player5>'s Spot Hidden prayer:"
+    },
+    {
+      "speaker": "player2",
+      "text": "player5 blinks and sees the doorman's facial skin slide off like melting wax, revealing a bloody skull eye socket, but the next second it returns to the ordinary young man's smiling face. What's wrong, sir? The doorman grins at him with the corners of his mouth stretched. (.sc 0/1d4)"
+    },
+    {
+      "speaker": "player5",
+      "text": ".sc0/1d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "Huh... another Sanity check? I understand, everyone is watching."
+    },
+    {
+      "speaker": "player2",
+      "text": "(player4 can also make a Spot Hidden check)"
+    },
+    {
+      "speaker": "player4",
+      "text": ".ra spot hidden"
+    },
+    {
+      "speaker": "player1",
+      "text": "Belief arises from desire; if it is what you hope for, it will surely receive a response. <player4>'s Spot Hidden prayer:"
+    },
+    {
+      "speaker": "player7",
+      "text": "#Carrying the person, step back to keep distance, check if the left arm belongs to a cultist."
+    },
+    {
+      "speaker": "player2",
+      "text": "player4 notices that when the doorman takes player5's coat, a three-centimeter stretch of pale skin is exposed between the cuff and the wrist bone, which should have been completely covered by the uniform. The other party also tiptoes too deliberately when hanging the coat hook, as if stepping on invisible stilts. As for the tattoo, it's not visible, blocked by the uniform."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Waves hand. \"We've already eaten outside.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "The waiter nods. Very well, sir."
+    },
+    {
+      "speaker": "player4",
+      "text": "#First return to my own room, check if anyone has touched my things."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Prepare to go back and thoroughly check my things."
+    },
+    {
+      "speaker": "player2",
+      "text": "The brass key turns smoothly. The furnishings inside the room are completely consistent with when you left."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"This person is probably the one sent by that collector we encountered earlier to keep an eye on us.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Those skinless lunatics\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar struggles with his eyelids amidst the ropes, trembling slightly."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Pat his face. \"Really don't remember?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar suddenly raises his head and bumps into player5's fingers. Don't touch me!"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"What is Rognir?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "Caesar clenches his teeth and turns his head away. He closes his eyes and remains silent for a moment, then suddenly forces out a twisted smile: My life... should have been left in the karst cave three years ago. I won't talk."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Oh my, a tough nut.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's cut off one of his testicles first.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"?\""
+    },
+    {
+      "speaker": "player6",
+      "text": "\"Seems... a bit cruel..\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I don't want to do this kind of surgery that dirties my hands\""
+    },
+    {
+      "speaker": "player5",
+      "text": "#claps hands \"I also don't wish to resort to overly cruel methods\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#pulls Xiao Tang, preparing to politely exit"
+    },
+    {
+      "speaker": "player6",
+      "text": "#honestly goes out"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mr. Caesar, is it?\""
+    }
+  ],
+  "start_line": 1551,
+  "end_line": 1861
+}

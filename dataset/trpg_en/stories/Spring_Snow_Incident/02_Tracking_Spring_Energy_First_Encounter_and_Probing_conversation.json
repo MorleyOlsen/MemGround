@@ -1,0 +1,584 @@
+{
+  "section": "2. Tracking Spring Energy: First Encounter and Probing",
+  "description": "The group follows the Spring Energy light points on their journey, encountering their first battle along the way. Each character demonstrates their abilities, and the beginnings of teamwork emerge.",
+  "conversation": [
+    {
+      "speaker": "player1",
+      "text": "Looks like my ability isn't strong enough to locate something that far away."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Sorry, maybe we'll just have to walk there first.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No problem, I know the way pretty well, and we can even buy some snacks along the way.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then let's set off.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#Walk ahead to lead the way, while also taking a look around at the surroundings."
+    },
+    {
+      "speaker": "player1",
+      "text": "Passing through the Snow Gate, the first thing you hear is a \"crunching\" sound. The snow layer underfoot is very thick and feels fluffy when stepped on. Dry branches snap crisply under your boots, and goose-feather-like snowflakes continuously slide off the pine branches. The depths of the Birch Forest are very dark, growing darker the further you go, seemingly endless. Accompanying you are still the pink light points, flying towards the depths."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Is all this the life force that's been drained...?\" Hope the Sunflower Field is okay."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"My grove...\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#It's all the same to Ge Qing, keep walking."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Where do you live, Miss Lina?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "You chat as you walk deeper in."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"A Cherry Grove recently grew next to the Sunflower Field, and I live there.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Huh? The Sunflower Field? I live there too!\" #Looking very surprised. \"Then we can meet often!\" \"Um, would that bother you, Miss Lina?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Not at all, I get a bit bored alone in the grove sometimes.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Then... can I come chat with you, Miss Lina?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If we can resolve the incident, you're welcome anytime!\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Miss Yuuka usually doesn't seem to like talking much...\" \"Great, great! Then let's work hard together! I'll do my best not to hold everyone back!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"I'd like to ask, have you seen a very suspicious-looking blonde woman?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"...Black and white one?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Blonde woman?\" #Thinking for a moment. \"I don't think I've seen one.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"I occasionally see a black-and-white blonde child stealing my cherries.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Not a child, a lady.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Then I don't have any impression of that.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Haven't seen one.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"It seems like youkai are all pretty big, right...?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "A voice from an unknown location."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Ahhhhh!\" #Startled."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Who's there?\" #Look towards the direction of the sound."
+    },
+    {
+      "speaker": "player1",
+      "text": "The voice seems to come from nowhere, but what can be felt is..."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Eek!\" #Covers head and lies flat on the ground."
+    },
+    {
+      "speaker": "player1",
+      "text": "It seems to be deep in the forest. \"Hehe.\" It seems to be amused by Lina's appearance."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Y-you, who are you!\" #Shouting with mustered courage."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Sense the flow of emotions."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Could you please show yourself?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"You there?\" \"Who am I...\""
+    },
+    {
+      "speaker": "player6",
+      "text": "[Observer Ge Qing]'s 'Soul Hunt' check: Roll: 1D20+3d4=12+{1+1+1}(3)=15 Challenge: 10 Success Success Level: 1"
+    },
+    {
+      "speaker": "player3",
+      "text": ".sh3d4"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Come find me!\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"You can't define your own existence?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The voice carries excitement. In Ge Qing's mind's eye, the emotions contain a mischievous excitement."
+    },
+    {
+      "speaker": "player5",
+      "text": "#Long'er, with dead-fish eyes, sighs helplessly."
+    },
+    {
+      "speaker": "player1",
+      "text": "That cluster of emotional energy is not far from you. It looks small. \"Huh... I don't understand.\" Deep in the forest, the voice continues. It's a young girl's voice. Even in Gensokyo, girls of that age are rare. \"Why not come see for yourself—\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Walk directly towards it."
+    },
+    {
+      "speaker": "player1",
+      "text": "The girl says this."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Do you think it might be a man-eating youkai in disguise...\" #Recalling childhood stories of youkai eating people, becoming even more scared."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hehehe...\" The girl laughs like this. And Ge Qing leads everyone deeper in first."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"So scary, are you trying to scare me?\" #Following Ge Qing."
+    },
+    {
+      "speaker": "player2",
+      "text": "\"Wait for me...\" #Crawling forward on the ground."
+    },
+    {
+      "speaker": "player4",
+      "text": "#Following behind fearfully."
+    },
+    {
+      "speaker": "player1",
+      "text": "The deeper you go into the forest, the denser the floating Spring Energy light points become in the air. These pale pink lights give the snow a coral-like texture. The entire Birch Forest is so quiet only breathing can be heard, all tree trunks adorned with translucent icicles. You head towards the deepest part of the forest. Those light points sink into the ground, flowing underground. And the voice is very, very close to you now. \"Closer, closer—\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I, I'm a little scared...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The voice tempts like this. \"Hehehe.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Could this be some disguised youkai?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"What do you think, hehe.\" #Amused by Xueyu's words."
+    },
+    {
+      "speaker": "player1",
+      "text": "As you get closer, you can feel the source of the voice is above you— Just then, a pair of legs clad in black stockings suddenly dangle down from the snow-laden tree canopy. \"Wah!!!\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#Can't see."
+    },
+    {
+      "speaker": "player1",
+      "text": "A girl hangs herself upside down from a birch branch with a red ribbon. Her short golden hair hangs down like inverted wheat stalks. Her crimson pupils curve into crescents on her inverted face: \"Wah—!\" The small mouth she opens reveals sharp fangs. The surrounding light dims slightly, but the smile lines at the corners of her mouth, which she can barely hold back, expose this as purely a prank."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Wahhhhhhhhh!\" #Starts screaming."
+    },
+    {
+      "speaker": "player3",
+      "text": "\"...What's wrong?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hahahahaha!\""
+    },
+    {
+      "speaker": "player2",
+      "text": "“I can't see, I can't see...” #Burying head in snow to escape reality"
+    },
+    {
+      "speaker": "player5",
+      "text": "“The blonde lady I'm looking for definitely isn't you.”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“There's, there's a monster ahhhhhhhhh”"
+    },
+    {
+      "speaker": "player1",
+      "text": "The dusk fairy Rumia"
+    },
+    {
+      "speaker": "player4",
+      "text": "“Huh?” #Staring blankly at the other person “I, I think I've seen you before...”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“Huh?”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“When I went to that stall run by the Night Sparrow boss before...” #Timidly hides a bit behind the nearest tree"
+    },
+    {
+      "speaker": "player1",
+      "text": "“The Night Sparrow proprietress...”"
+    },
+    {
+      "speaker": "player2",
+      "text": "“If only she were a fairy too...” #Looks up"
+    },
+    {
+      "speaker": "player1",
+      "text": "“I'm a man-eating fairy, Rumia”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“No... please don't eat her... the feast, no, I still want to go there to eat...” #Hiding behind the tree"
+    },
+    {
+      "speaker": "player3",
+      "text": "“Eat people?” #Frowning"
+    },
+    {
+      "speaker": "player1",
+      "text": "“No”"
+    },
+    {
+      "speaker": "player2",
+      "text": "“Won't you get eaten by the shrine maiden if you eat people?”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“The shrine maiden?”"
+    },
+    {
+      "speaker": "player5",
+      "text": "“Fairies preying on humans is the rule in Gensokyo.”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“Mhm mhm”"
+    },
+    {
+      "speaker": "player5",
+      "text": "“Probably.”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“It's the rule”"
+    },
+    {
+      "speaker": "player5",
+      "text": "“But I think you probably can't beat the Hakurei head.”"
+    },
+    {
+      "speaker": "player3",
+      "text": "“What kind of nonsense is that”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“What's this, are you looking down on me (。-`ω´-)”"
+    },
+    {
+      "speaker": "player5",
+      "text": "“Who are you again.”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“With the recent heavy snow, the nighttime has gotten longer”"
+    },
+    {
+      "speaker": "player4",
+      "text": "“Please, please don't eat me” #Eyes moistening"
+    },
+    {
+      "speaker": "player1",
+      "text": "“I already said”"
+    },
+    {
+      "speaker": "player3",
+      "text": "“Stop the tough talk, I have something I want to ask the fairy”"
+    },
+    {
+      "speaker": "player1",
+      "text": "“Huh?”"
+    },
+    {
+      "speaker": "player2",
+      "text": "“Grr... I'm actually getting weaker and weaker now”"
+    },
+    {
+      "speaker": "player1",
+      "text": "She points at herself"
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Mi... Miss Lina?\" #asks worriedly \"Are you alright?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Sorry, are you the most powerful fairy Rumia?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"It's snowing heavily even though it's spring. I wanted to visit the winter and spring fairies...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"That's me\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Human lives are far shorter than yours. Could you wait until we die before eating us?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Lily White?\" #asks in confusion"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"At least there's no answer yet, I'd say\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Alright\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Thank you for your mercy.\" #bows in courtesy"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hmm, living near the Sunflower Field, huh\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"Sunflower Field...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"I was just that——close\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Sun... flower Field?\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"You actually didn't see me\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Seems I need to walk around more from now on...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "Rumia paces back and forth below"
+    },
+    {
+      "speaker": "player2",
+      "text": "\"That sure sounds lively\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"She's a very cute child\""
+    },
+    {
+      "speaker": "player4",
+      "text": "#still hiding fearfully behind the tree"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Come out, Rumia won't eat you\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Wahhhhhhhhh\" #startled"
+    },
+    {
+      "speaker": "player1",
+      "text": "\"So strange...\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Boss Rumia, don't scare her, the kid's timid.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"So, did everyone come to play with Rumia?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"I, I'm here to end this disaster!\""
+    },
+    {
+      "speaker": "player1",
+      "text": "She climbs up the tree with her little legs"
+    },
+    {
+      "speaker": "player5",
+      "text": "\"The life force around here is being constantly drained by something underground.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Eh~\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If that's the case, all the plants will wither\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Sounds so boring\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"In that case, even the flower field won't bloom anymore...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Why not play with me instead?\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Then, how about I play a little game with you, Lady Rumia.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "She excitedly jumps down from the tree."
+    },
+    {
+      "speaker": "player3",
+      "text": "#Mentally debating whether to just leave."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"This thing is called a card.\" #Takes out a deck of playing cards from the pocket, and while walking forward, hands Rumia a Queen of Spades."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hmm... huh?\""
+    },
+    {
+      "speaker": "player4",
+      "text": "Interacting with youkai feels so difficult... I won't get suddenly eaten, will I... Sunshi, you must save me QAQ."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"Let's play a little game called Blackjack.\" #Explains the rules of Blackjack to Rumia."
+    },
+    {
+      "speaker": "player1",
+      "text": "\"No.\""
+    },
+    {
+      "speaker": "player3",
+      "text": "\"...Okay.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Rumia seeks, everyone hides.\""
+    },
+    {
+      "speaker": "player5",
+      "text": "\"What happens if we lose?\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"That could work too.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Stay and play with Rumia forever.\""
+    },
+    {
+      "speaker": "player4",
+      "text": "\"No... I don't want that.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "As she says this, some black substance begins to drip from her pale fingertips."
+    },
+    {
+      "speaker": "player5",
+      "text": "\"That won't do; if I don't go home for too long, Mokou will get angry.\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"Hehehe, then you better hide quickly.\""
+    },
+    {
+      "speaker": "player2",
+      "text": "\"If the grove withers, I'll disappear...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "The black substance drips onto the ground."
+    },
+    {
+      "speaker": "player4",
+      "text": "\"Are... are we supposed to start running for our lives now...\""
+    },
+    {
+      "speaker": "player1",
+      "text": "\"How about planting the grove right here?\""
+    },
+    {
+      "speaker": "player3",
+      "text": "#A sudden blow to the head!"
+    }
+  ],
+  "start_ts": "2025-10-24 23:59:53",
+  "end_ts": "2025-10-25 00:41:17"
+}
