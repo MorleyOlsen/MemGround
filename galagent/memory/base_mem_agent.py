@@ -1,35 +1,35 @@
 # galagent/memory/base_mem_agent.py
-"""记忆代理基类，定义统一接口"""
+"""Memory agent base class, defines the unified interface"""
 from abc import ABC, abstractmethod
 from typing import Dict, List, Any, Optional
 
 
 class BaseMemAgent(ABC):
-    """记忆代理基类
+    """Memory agent base class
 
-    所有记忆代理（Mem0、A-mem等）都应该继承此类并实现这些方法
+    All memory agents (Mem0, A-mem, etc.) should inherit from this class and implement these methods
     """
 
     def __init__(self, game_name: str = "game_agent", verbose: bool = False):
-        """初始化记忆代理
+        """Initialize the memory agent
 
         Args:
-            game_name: 游戏名称，用作 user_id 进行数据隔离
-            verbose: 是否输出详细日志
+            game_name: Game name, used as user_id for data isolation
+            verbose: Whether to print detailed logs
         """
         self.game_name = game_name
         self.verbose = verbose
 
     @abstractmethod
     def add_memory(self, content: str, metadata: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
-        """添加记忆
+        """Add a memory
 
         Args:
-            content: 记忆内容
-            metadata: 元数据（如 role, step, source 等）
+            content: Memory content
+            metadata: Metadata (e.g. role, step, source, etc.)
 
         Returns:
-            包含 success 和 memory_id 的字典
+            Dictionary containing success and memory_id
         """
         pass
 
@@ -40,27 +40,27 @@ class BaseMemAgent(ABC):
         top_k: int = 3,
         filters: Optional[Dict[str, Any]] = None
     ) -> List[Dict[str, Any]]:
-        """搜索记忆
+        """Search memories
 
         Args:
-            query: 搜索查询
-            top_k: 返回结果数量
-            filters: 过滤条件，支持简化格式如 {"role": "user"} 或 {"step": "2"}
+            query: Search query
+            top_k: Number of results to return
+            filters: Filter conditions, supports simplified format e.g. {"role": "user"} or {"step": "2"}
 
         Returns:
-            记忆列表，每个记忆包含 id, text, score, metadata 等字段
+            List of memories, each containing id, text, score, metadata, etc.
         """
         pass
 
     @abstractmethod
     def get_all_memories(self, filters: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
-        """获取所有记忆
+        """Get all memories
 
         Args:
-            filters: 可选的过滤条件，支持简化格式
+            filters: Optional filter conditions, supports simplified format
 
         Returns:
-            记忆列表
+            List of memories
         """
         pass
 
@@ -71,50 +71,50 @@ class BaseMemAgent(ABC):
         content: str,
         metadata: Optional[Dict[str, Any]] = None
     ) -> Dict[str, Any]:
-        """更新记忆
+        """Update a memory
 
         Args:
-            memory_id: 记忆ID
-            content: 新的内容
-            metadata: 新的元数据
+            memory_id: Memory ID
+            content: New content
+            metadata: New metadata
 
         Returns:
-            包含 success 的字典
+            Dictionary containing success
         """
         pass
 
     @abstractmethod
     def delete_memory(self, memory_id: str) -> Dict[str, Any]:
-        """删除单个记忆
+        """Delete a single memory
 
         Args:
-            memory_id: 记忆ID
+            memory_id: Memory ID
 
         Returns:
-            包含 success 的字典
+            Dictionary containing success
         """
         pass
 
     @abstractmethod
     def delete_all_memories(self) -> Dict[str, Any]:
-        """删除该游戏的所有记忆
+        """Delete all memories for this game
 
         Returns:
-            包含 success 的字典
+            Dictionary containing success
         """
         pass
 
     def get_memory_history(self, limit: int = 10) -> List[Dict[str, Any]]:
-        """获取最近的记忆历史（只有mem0实现了）
+        """Get recent memory history (only mem0 has implemented this)
 
         Args:
-            limit: 返回数量
+            limit: Number of items to return
 
         Returns:
-            记忆列表（按时间倒序）
+            Memory list (sorted in reverse chronological order)
         """
         all_memories = self.get_all_memories()
-        # 按创建时间倒序排序
+        # Sort in reverse order by creation time
         sorted_memories = sorted(
             all_memories,
             key=lambda x: x.get("created_at", ""),
@@ -123,13 +123,13 @@ class BaseMemAgent(ABC):
         return sorted_memories[:limit]
 
     def format_for_prompt(self, memories: List[Dict[str, Any]]) -> str:
-        """格式化记忆用于prompt（可选实现）
+        """Format memories for prompt (optional implementation)
 
         Args:
-            memories: 记忆列表
+            memories: List of memories
 
         Returns:
-            格式化的文本
+            Formatted text
         """
         if not memories:
             return "No relevant memories found."
@@ -144,10 +144,10 @@ class BaseMemAgent(ABC):
         return "\n".join(lines)
 
     def get_state(self) -> Dict[str, Any]:
-        """获取当前状态（用于checkpoint）
+        """Get current state (for checkpoint)
 
         Returns:
-            状态字典
+            State dictionary
         """
         return {
             "game_name": self.game_name,
@@ -155,13 +155,13 @@ class BaseMemAgent(ABC):
         }
 
     def restore_state(self, state: Dict[str, Any]) -> None:
-        """恢复状态（从checkpoint）
+        """Restore state (from checkpoint)
 
         Args:
-            state: 状态字典
+            state: State dictionary
         """
         self.game_name = state.get("game_name", self.game_name)
         self.verbose = state.get("verbose", self.verbose)
 
         if self.verbose:
-            print(f"[MemAgent] 状态已恢复: game_name={self.game_name}")
+            print(f"[MemAgent] State restored: game_name={self.game_name}")

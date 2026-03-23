@@ -1,0 +1,133 @@
+# env/type_help/utils/file_retriever.py
+"""File retriever for the Type Help game
+
+The LLM decides which files to open, then the content of those files is returned.
+"""
+from __future__ import annotations
+
+from typing import List, Dict, Any, Optional
+
+
+class TypeHelpFileRetriever:
+    """File retriever for the Type Help game
+
+    Instead of using vector/keyword retrieval, the LLM specifies filenames to open
+    and this class returns the complete information for those files.
+    """
+
+    def __init__(self, env):
+        """Initialize the file retriever
+
+        Args:
+            env: Type Help game environment instance
+        """
+        self.env = env
+
+    def retrieve_files(self, filenames: List[str]) -> List[Dict[str, Any]]:
+        """Retrieve file content by filename list
+
+        Args:
+            filenames: List of filenames to retrieve
+
+        Returns:
+            List of file info dicts, each containing name, content, key_info, etc.
+        """
+        results = []
+
+        for filename in filenames:
+            # Check whether the file exists
+            if filename not in self.env.nodes:
+                results.append({
+                    "name": filename,
+                    "exists": False,
+                    "error": "No file found"
+                })
+                continue
+
+            # Get file node information
+            node = self.env.nodes[filename]
+            memory_data = node.get("memory", {})
+
+            # Extract file information
+            file_info = {
+                "name": filename,
+                "exists": True,
+                "key_info": memory_data.get("key_info", []),
+                "location": memory_data.get("location", ""),
+                "scenes": memory_data.get("scenes", []),
+                "characters": []
+            }
+
+            # Extract character information
+            for char_data in memory_data.get("characters", []):
+                file_info["characters"].append({
+                    "name": char_data.get("name", ""),
+                    "number": char_data.get("number", 0),
+                    "description": char_data.get("description", ""),
+                    "key_info": char_data.get("key_info", []),
+                })
+
+            results.append(file_info)
+
+        return results
+
+    def format_single_file(self, file_info: Dict[str, Any]) -> str:
+        """Format a single file's information as text (general-purpose)
+
+        Args:
+            file_info: File info dict containing name, location, key_info, characters, etc.
+
+        Returns:
+            Formatted text string
+        """
+        if not file_info.get("exists", False):
+            return f"\n[{file_info['name']}] - No file found"
+
+        lines = [f"\n[{file_info['name']}]"]
+
+        # Location
+        if file_info.get("location"):
+            lines.append(f"location: {file_info['location']}")
+
+        # Scene descriptions
+        if file_info.get("scenes"):
+            lines.append("scenes:")
+            for scene in file_info["scenes"]:
+                lines.append(f"  - {scene.get('name', '')}: {scene.get('description', '')}")
+                for elem in scene.get("key_elements", []):
+                    lines.append(f"    * {elem}")
+
+        # Key information
+        if file_info.get("key_info"):
+            lines.append("key info:")
+            for info in file_info["key_info"]:
+                lines.append(f"  - {info}")
+
+        # Characters (name, number, description, key_info)
+        if file_info.get("characters"):
+            lines.append("characters:")
+            for char in file_info["characters"]:
+                char_str = f"  - {char.get('name', '')}"
+                if char.get("number"):
+                    char_str += f" (number: {char['number']})"
+                if char.get("description"):
+                    char_str += f": {char['description']}"
+                lines.append(char_str)
+                for ci in char.get("key_info", []):
+                    lines.append(f"    * {ci}")
+
+        return "\n".join(lines)
+
+    def format_retrieved_files(self, file_results: List[Dict[str, Any]]) -> str:
+        """Format retrieved file information as text
+
+        Args:
+            file_results: Result list returned by retrieve_files
+
+        Returns:
+            Formatted text string containing only name, key_info, location, character.name, character.number
+        """
+        if not file_results:
+            return "No files found"
+
+        return "\n".join([self.format_single_file(file_info) for file_info in file_results])

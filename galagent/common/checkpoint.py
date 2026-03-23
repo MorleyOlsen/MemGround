@@ -1,5 +1,5 @@
 # galagent/common/checkpoint.py
-"""Checkpoint管理器，用于保存和恢复游戏状态"""
+"""Checkpoint manager for saving and restoring game state"""
 from __future__ import annotations
 
 import json
@@ -9,13 +9,13 @@ from datetime import datetime
 
 
 class CheckpointManager:
-    """管理游戏状态的保存和恢复"""
+    """Manages saving and restoring game state"""
 
     def __init__(self, checkpoint_dir: str = "checkpoints"):
-        """初始化checkpoint管理器
+        """Initialize the checkpoint manager
 
         Args:
-            checkpoint_dir: checkpoint保存目录
+            checkpoint_dir: Directory where checkpoints are saved
         """
         self.checkpoint_dir = Path(checkpoint_dir)
         self.checkpoint_dir.mkdir(parents=True, exist_ok=True)
@@ -29,18 +29,18 @@ class CheckpointManager:
         session_name: Optional[str] = None,
         logger_session_id: Optional[str] = None
     ) -> Path:
-        """保存checkpoint
+        """Save a checkpoint
 
         Args:
-            step: 当前步数
-            env_state: 环境状态
-            memory_state: 记忆状态
-            game_utils_state: 游戏工具状态
-            session_name: 会话名称（可选）
-            logger_session_id: 日志记录器的session_id（用于恢复时继续写入同一个log文件）
+            step: Current step number
+            env_state: Environment state
+            memory_state: Memory state
+            game_utils_state: Game utilities state
+            session_name: Session name (optional)
+            logger_session_id: Logger session_id (used to continue writing to the same log file on resume)
 
         Returns:
-            保存的checkpoint文件路径
+            Path to the saved checkpoint file
         """
         if session_name is None:
             session_name = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -51,7 +51,7 @@ class CheckpointManager:
             "env_state": env_state,
             "memory_state": memory_state,
             "game_utils_state": game_utils_state,
-            "logger_session_id": logger_session_id  # 保存logger的session_id
+            "logger_session_id": logger_session_id  # Save the logger's session_id
         }
 
         checkpoint_file = self.checkpoint_dir / f"step_{step:06d}.json"
@@ -63,13 +63,13 @@ class CheckpointManager:
         return checkpoint_file
 
     def load_checkpoint(self, checkpoint_file: Path) -> Dict[str, Any]:
-        """加载checkpoint
+        """Load a checkpoint
 
         Args:
-            checkpoint_file: checkpoint文件路径
+            checkpoint_file: Path to the checkpoint file
 
         Returns:
-            checkpoint数据字典
+            Checkpoint data dictionary
         """
         with open(checkpoint_file, 'r', encoding='utf-8') as f:
             checkpoint_data = json.load(f)
@@ -81,13 +81,13 @@ class CheckpointManager:
         return checkpoint_data
 
     def list_checkpoints(self, session_name: Optional[str] = None) -> list[Path]:
-        """列出所有checkpoint文件
+        """List all checkpoint files
 
         Args:
-            session_name: 会话名称（可选），如果提供则只列出该会话的checkpoints
+            session_name: Session name (optional); if provided, only lists checkpoints for that session
 
         Returns:
-            checkpoint文件路径列表
+            List of checkpoint file paths
         """
         if session_name:
             pattern = f"step_*.json"
@@ -98,13 +98,13 @@ class CheckpointManager:
         return checkpoints
 
     def get_latest_checkpoint(self, session_name: Optional[str] = None) -> Optional[Path]:
-        """获取最新的checkpoint
+        """Get the most recent checkpoint
 
         Args:
-            session_name: 会话名称（可选）
+            session_name: Session name (optional)
 
         Returns:
-            最新的checkpoint文件路径，如果没有则返回None
+            Path to the latest checkpoint file, or None if none exist
         """
         checkpoints = self.list_checkpoints(session_name)
         return checkpoints[-1] if checkpoints else None

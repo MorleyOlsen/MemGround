@@ -4,13 +4,13 @@ analyze_logs.py — Post-processing and analysis tools for GalgameBench game log
 
 Operations
 ----------
-1. Extract structured step data from raw game logs (type_help / dust)
+1. Extract structured step data from raw game logs (type_help / no_case_should_remain_unsolved)
    - type_help: outputs {session_id}_full_steps.json + _full_steps.xlsx
-   - dust:      outputs {session_id}_steps.json + _steps.xlsx
+   - no_case_should_remain_unsolved: outputs {session_id}_steps.json + _steps.xlsx
 
 2. Generate Gantt-style unlock timeline charts
    - type_help: stem-plot style, blue = self-unlocked, orange = hint
-   - dust:      swim-lane event markers, 4-color coded
+   - no_case_should_remain_unsolved: swim-lane event markers, 4-color coded
 
 3. Build recall-based adjacency matrices from type_help full_steps JSON
    - Edges: recall_file → newly_unlocked_file per step
@@ -138,8 +138,8 @@ def extract_typehelp_steps(actions: list) -> list:
     return rows
 
 
-def extract_dust_steps(actions: list) -> tuple[list, list]:
-    """Extract per-step score and unlock counts from dust log actions.
+def extract_no_case_steps(actions: list) -> tuple[list, list]:
+    """Extract per-step score and unlock counts from no_case_should_remain_unsolved log actions.
 
     Returns
     -------
@@ -190,7 +190,7 @@ def process_log_file(log_file: Path, model_label: str) -> None:
     Output location: ``analysis/{model_label}_{game_type}/``
 
     - type_help → ``{session_id}_full_steps.json`` + ``_full_steps.xlsx``
-    - dust      → ``{session_id}_steps.json``       + ``_steps.xlsx``
+    - no_case_should_remain_unsolved → ``{session_id}_steps.json`` + ``_steps.xlsx``
     """
     print(f"Processing: {log_file}")
 
@@ -220,8 +220,8 @@ def process_log_file(log_file: Path, model_label: str) -> None:
         df.to_excel(excel_out, index=False)
         print(f"  Saved Excel: {excel_out}")
 
-    elif game_type == "dust":
-        steps_data, excel_rows = extract_dust_steps(actions)
+    elif game_type == "no_case_should_remain_unsolved":
+        steps_data, excel_rows = extract_no_case_steps(actions)
 
         json_out = out_dir / f"{session_id}_steps.json"
         with open(json_out, "w", encoding="utf-8") as f:
@@ -269,7 +269,7 @@ def collect_analysis_files() -> list[Path]:
     """Collect processed JSON files from ANALYSIS_DIR (used by Gantt plotter).
 
     - Folders whose name contains ``typehelp``:  collects ``*_full_steps.json``
-    - Folders whose name contains ``dust``:      collects ``*_steps.json``
+    - Folders whose name contains ``no_case_should_remain_unsolved``: collects ``*_steps.json``
       (excludes ``*_full_steps.json``)
     """
     all_json: list[Path] = []
@@ -280,7 +280,7 @@ def collect_analysis_files() -> list[Path]:
             continue
         if "typehelp" in folder.name or folder.name.startswith("type_"):
             all_json.extend(sorted(folder.glob("*_full_steps.json")))
-        elif "dust" in folder.name:
+        elif "no_case_should_remain_unsolved" in folder.name:
             for p in sorted(folder.glob("*_steps.json")):
                 if not p.stem.endswith("_full_steps"):
                     all_json.append(p)
@@ -288,7 +288,7 @@ def collect_analysis_files() -> list[Path]:
 
 
 def show_file_list(all_files: list[tuple[Path, str]]) -> None:
-    print("\n可用的 log 文件：")
+    print("\nAvailable log files:")
     print("-" * 60)
     for i, (log_file, model_label) in enumerate(all_files):
         print(f"  [{i + 1:>2}] {model_label} / {log_file.name}")
@@ -296,7 +296,7 @@ def show_file_list(all_files: list[tuple[Path, str]]) -> None:
 
 
 def show_json_list(all_json: list[Path]) -> None:
-    print("\n可用的 JSON 文件（已处理）：")
+    print("\nAvailable JSON files (processed):")
     print("-" * 70)
     for i, p in enumerate(all_json):
         print(f"  [{i + 1:>2}] {p.parent.name} / {p.name}")
@@ -482,8 +482,8 @@ def plot_typehelp_gantt(json_file: Path, model_label: str = "") -> None:
     print(f"  Copied  to  : {plots_dir / plot_out.name}")
 
 
-def _build_dust_events(steps: list) -> tuple[int, int, dict, list]:
-    """Parse a dust _steps.json into event sequences for Gantt plotting."""
+def _build_no_case_events(steps: list) -> tuple[int, int, dict, list]:
+    """Parse a no_case_should_remain_unsolved _steps.json into event sequences for Gantt plotting."""
     ever_seen: dict[str, set] = {"pink": set(), "purple": set(), "yellow": set()}
     event_unlock: dict[str, tuple] = {}
     score_events: list = []
@@ -514,8 +514,8 @@ def _build_dust_events(steps: list) -> tuple[int, int, dict, list]:
     return max_step, final_score, event_unlock, score_events
 
 
-def plot_dust_gantt(json_file: Path, model_label: str = "") -> None:
-    """Plot a swim-lane event marker chart for a dust _steps.json.
+def plot_no_case_gantt(json_file: Path, model_label: str = "") -> None:
+    """Plot a swim-lane event marker chart for a no_case_should_remain_unsolved _steps.json.
 
     Four event types are colour-coded: pink lock, purple lock, yellow lock,
     and score increase.  Saved as ``{session_id}_gantt.png``.
@@ -532,7 +532,7 @@ def plot_dust_gantt(json_file: Path, model_label: str = "") -> None:
     out_dir    = json_file.parent
     label      = model_label or session_id
 
-    max_step, final_score, event_unlock, score_events = _build_dust_events(steps)
+    max_step, final_score, event_unlock, score_events = _build_no_case_events(steps)
     if not event_unlock and not score_events:
         print(f"  [skip] No event data: {json_file.name}")
         return
@@ -601,7 +601,7 @@ def plot_dust_gantt(json_file: Path, model_label: str = "") -> None:
         ax.set_xlim(-max_step * 0.01, max_step * 1.02)
         ax.set_xlabel("Step", labelpad=28, fontsize=11)
         ax.set_title(
-            f"Dust  ·  Event Unlock Timeline  ·  {session_id}",
+            f"No Case Should Remain Unsolved  \u00b7  Event Unlock Timeline  \u00b7  {session_id}",
             pad=10, fontsize=12, fontweight="bold", color="#1a1a1a", loc="left",
         )
 
@@ -655,12 +655,12 @@ def _plot_json_file(json_file: Path) -> None:
     model_label = folder_name  # folder is already named {model}_{game_type}
 
     is_typehelp = "typehelp" in folder_name or folder_name.startswith("type_")
-    is_dust     = "dust" in folder_name
+    is_no_case  = "no_case_should_remain_unsolved" in folder_name
 
     if is_typehelp:
         plot_typehelp_gantt(json_file, model_label=model_label)
-    elif is_dust:
-        plot_dust_gantt(json_file, model_label=model_label)
+    elif is_no_case:
+        plot_no_case_gantt(json_file, model_label=model_label)
     else:
         print(f"  [skip] Cannot determine game type from folder: {folder_name!r}")
 
@@ -737,10 +737,10 @@ def build_recall_adj(json_file: Path, human_adj_csv: Path) -> pd.DataFrame:
 def run_recall_graph_flow() -> None:
     """Interactive: scan ANALYSIS_DIR for full_steps JSON and build adjacency matrices.
 
-    Human adjacency matrix is read from ``dataset/type_help-en/human_adj.csv``.
+    Human adjacency matrix is read from ``dataset/type_help-en/qa/human_adj.csv``.
     Output is written to ``analysis/dag/{model}/full_adj.csv``.
     """
-    human_adj_csv = DATASET_DIR / "human_adj.csv"
+    human_adj_csv = DATASET_DIR / "qa" / "human_adj.csv"
     if not human_adj_csv.exists():
         print(f"[error] Human adjacency matrix not found: {human_adj_csv}")
         return
@@ -757,27 +757,27 @@ def run_recall_graph_flow() -> None:
                 available.append((model_label, json_file))
 
     if not available:
-        print("未找到任何 *_full_steps.json 文件，请先执行操作1。")
+        print("No *_full_steps.json files found. Run operation 1 first.")
         return
 
-    print("\n可用的 full_steps JSON 文件：")
+    print("\nAvailable full_steps JSON files:")
     print("-" * 70)
     for i, (model, p) in enumerate(available):
         print(f"  [{i + 1:>2}] {model:20s}  {p.parent.name} / {p.name}")
     print("-" * 70)
-    print("请输入要处理的编号（逗号分隔、范围如 1-3、all、q 返回）：")
+    print("Enter file numbers to process (comma-separated, range like 1-3, all, q to go back):")
     raw = input("> ").strip()
     if raw.lower() == "q":
         return
 
     selected = parse_selection(raw, len(available))
     if not selected:
-        print("未选中任何有效文件。")
+        print("No valid files selected.")
         return
 
     for i in selected:
         model, json_file = available[i]
-        print(f"\n[{model}] 正在处理 {json_file.name} ...")
+        print(f"\n[{model}] Processing {json_file.name} ...")
         adj = build_recall_adj(json_file, human_adj_csv)
 
         out_dir = ANALYSIS_DIR / "dag" / model
@@ -795,7 +795,7 @@ def run_recall_graph_flow() -> None:
         print(f"[{model}] Self edges: {self_edges}  Hint edges: {hint_edges}  "
               f"Total: {self_edges + hint_edges}")
 
-    print("\n本次处理完成。")
+    print("\nProcessing complete.")
 
 
 # ─────────────────────────── Operation 4: DAG similarity ─────────────────────
@@ -882,34 +882,34 @@ def run_similarity_flow() -> None:
     ----------------
     1. All nodes (full matrix comparison)
     2. Unlocked-nodes subgraph (nodes the model actually reached)
-    3. Custom node-ID range (looked up in ``dataset/type_help-en/node_id_map.csv``)
+    3. Custom node-ID range (looked up in ``dataset/type_help-en/qa/node_id_map.csv``)
 
     Results are saved to ``analysis/dag/dag_similarity{suffix}.xlsx``.
     """
     dag_dir     = ANALYSIS_DIR / "dag"
-    human_path  = DATASET_DIR / "human_adj.csv"
-    id_map_path = DATASET_DIR / "node_id_map.csv"
+    human_path  = DATASET_DIR / "qa" / "human_adj.csv"
+    id_map_path = DATASET_DIR / "qa" / "node_id_map.csv"
 
     if not human_path.exists():
         print(f"[error] Human adjacency matrix not found: {human_path}")
         return
 
-    print("\n  相似度计算模式：")
-    print("  [1] 全节点比较")
-    print("  [2] 仅比较模型实际解锁节点的子图")
-    print("  [3] 指定节点 ID 范围（局部比较）")
-    sub = input("  选择 > ").strip()
+    print("\n  Similarity comparison mode:")
+    print("  [1] All nodes (full matrix comparison)")
+    print("  [2] Unlocked-nodes subgraph only")
+    print("  [3] Specify node ID range (partial comparison)")
+    sub = input("  Select > ").strip()
     if sub not in ("1", "2", "3"):
-        print("无效输入")
+        print("Invalid input")
         return
 
     partial_nodes: list | None = None
     if sub == "3":
-        print("  输入节点 ID 范围，支持格式：")
-        print("    单个：5")
-        print("    范围：13-20（含两端）")
-        print("    组合：1,3,5-10,15")
-        raw = input("  节点 ID > ").strip()
+        print("  Enter node ID range, supported formats:")
+        print("    Single: 5")
+        print("    Range: 13-20 (inclusive)")
+        print("    Combined: 1,3,5-10,15")
+        raw = input("  Node ID > ").strip()
         partial_nodes = []
         for part in raw.split(","):
             part = part.strip()
@@ -926,7 +926,7 @@ def run_similarity_flow() -> None:
                     print(f"  [warning] Cannot parse {part!r}, skipped")
         partial_ids = sorted(set(partial_nodes))
         if not partial_ids:
-            print("未指定任何有效节点，取消操作")
+            print("No valid nodes specified, cancelling")
             return
 
         if not id_map_path.exists():
@@ -940,9 +940,9 @@ def run_similarity_flow() -> None:
             else:
                 print(f"  [warning] ID {nid} not found in node_id_map.csv, skipped")
         if not partial_nodes:
-            print("所有指定 ID 均无对应节点，取消操作")
+            print("All specified IDs have no corresponding nodes, cancelling")
             return
-        print(f"  将只计算节点（{len(partial_nodes)}个）：{partial_nodes}")
+        print(f"  Will compute for nodes ({len(partial_nodes)}): {partial_nodes}")
 
     human_adj = pd.read_csv(human_path, index_col=0)
 
@@ -989,7 +989,7 @@ def run_similarity_flow() -> None:
               f"F1={metrics['f1']}  Jaccard={metrics['jaccard']}")
 
     if not rows:
-        print("[无结果]")
+        print("[No results]")
         return
 
     result_df = pd.DataFrame(rows)[
@@ -1007,7 +1007,7 @@ def run_similarity_flow() -> None:
     dag_dir.mkdir(parents=True, exist_ok=True)
     out_path = dag_dir / f"dag_similarity{suffix}.xlsx"
     result_df.to_excel(out_path, index=False)
-    print(f"\n[已保存] {out_path}")
+    print(f"\n[Saved] {out_path}")
 
 
 # ─────────────────────────── Interactive flows ────────────────────────────────
@@ -1016,66 +1016,66 @@ def run_extract_flow() -> None:
     """Interactive: select log files and extract structured step data."""
     all_files = collect_log_files()
     if not all_files:
-        print(f"未找到任何 log 文件（搜索目录：{LOG_DIR}）。")
+        print(f"No log files found (search directory: {LOG_DIR}).")
         return
 
     show_file_list(all_files)
-    print("请输入要处理的文件编号（支持逗号分隔、范围如 1-3、all、q 返回）：")
+    print("Enter file numbers to process (comma-separated, range like 1-3, all, q to go back):")
     raw = input("> ").strip()
     if raw.lower() == "q":
         return
 
     selected = parse_selection(raw, len(all_files))
     if not selected:
-        print("未选中任何有效文件。")
+        print("No valid files selected.")
         return
 
-    print(f"\n将处理以下 {len(selected)} 个文件：")
+    print(f"\nWill process the following {len(selected)} files:")
     for i in selected:
         log_file, model_label = all_files[i]
         print(f"  [{i + 1}] {model_label} / {log_file.name}")
 
-    if input("确认处理？(y/n) > ").strip().lower() != "y":
-        print("已取消。")
+    if input("Confirm processing? (y/n) > ").strip().lower() != "y":
+        print("Cancelled.")
         return
 
     for i in selected:
         log_file, model_label = all_files[i]
         process_log_file(log_file, model_label)
 
-    print("\n本次处理完成。")
+    print("\nProcessing complete.")
 
 
 def run_gantt_flow() -> None:
     """Interactive: select processed JSON files and generate Gantt charts."""
     all_json = collect_analysis_files()
     if not all_json:
-        print("未找到任何已处理的 JSON 文件，请先执行操作1。")
+        print("No processed JSON files found. Run operation 1 first.")
         return
 
     show_json_list(all_json)
-    print("请输入要绘图的文件编号（支持逗号分隔、范围如 1-3、all、q 返回）：")
+    print("Enter file numbers to plot (comma-separated, range like 1-3, all, q to go back):")
     raw = input("> ").strip()
     if raw.lower() == "q":
         return
 
     selected = parse_selection(raw, len(all_json))
     if not selected:
-        print("未选中任何有效文件。")
+        print("No valid files selected.")
         return
 
-    print(f"\n将对以下 {len(selected)} 个文件绘图：")
+    print(f"\nWill plot the following {len(selected)} files:")
     for i in selected:
         print(f"  [{i + 1}] {all_json[i].parent.name} / {all_json[i].name}")
 
-    if input("确认绘图？(y/n) > ").strip().lower() != "y":
-        print("已取消。")
+    if input("Confirm plotting? (y/n) > ").strip().lower() != "y":
+        print("Cancelled.")
         return
 
     for i in selected:
         _plot_json_file(all_json[i])
 
-    print("\n本次绘图完成。")
+    print("\nPlotting complete.")
 
 
 # ─────────────────────────── Entry point ─────────────────────────────────────
@@ -1083,17 +1083,17 @@ def run_gantt_flow() -> None:
 def main() -> None:
     while True:
         print("\n" + "=" * 40)
-        print("  请选择操作：")
-        print("  [1] 处理 log 文件（提取数据并保存 JSON/Excel）")
-        print("  [2] 绘制甘特图（解锁时间线）")
-        print("  [3] 从 recall 生成邻接矩阵")
-        print("  [4] 计算 DAG 相似度（与 human 对比）")
-        print("  [q] 退出")
+        print("  Select an operation:")
+        print("  [1] Process log files (extract data and save JSON/Excel)")
+        print("  [2] Plot Gantt charts (unlock timeline)")
+        print("  [3] Build adjacency matrices from recall")
+        print("  [4] Compute DAG similarity (compare with human)")
+        print("  [q] Quit")
         print("=" * 40)
         choice = input("> ").strip().lower()
 
         if choice == "q":
-            print("已退出。")
+            print("Exited.")
             break
         elif choice == "1":
             run_extract_flow()
@@ -1104,7 +1104,7 @@ def main() -> None:
         elif choice == "4":
             run_similarity_flow()
         else:
-            print("无效输入，请重新选择。")
+            print("Invalid input, please try again.")
 
 
 if __name__ == "__main__":

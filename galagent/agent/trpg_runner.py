@@ -1,5 +1,5 @@
 # galagent/agent/trpg_runner.py
-"""TRPG 跑团评测专用运行器"""
+"""TRPG evaluation runner"""
 from __future__ import annotations
 
 import io
@@ -31,7 +31,7 @@ from env.trpg.judges import (
 
 
 class TRPGRunner:
-    """TRPG 评测运行器：负责阅读阶段和QA阶段的完整流程"""
+    """TRPG evaluation runner: manages the complete flow of the reading phase and QA phase"""
 
     def __init__(
         self,
@@ -45,18 +45,18 @@ class TRPGRunner:
         ckpt_resume_from: Optional[str] = None,
         mem_agent: Optional[Any] = None,
     ):
-        """初始化 TRPG Runner
+        """Initialize the TRPG Runner
 
         Args:
-            env: TRPG 游戏环境
-            store: 记忆存储
-            config: Agent 配置
-            llm_config: 答题模型配置
-            judge_llm_config: 判题模型配置（可选，未配置时回退到答题模型）
-            log_dir: 日志目录
-            session_id: 会话ID
-            ckpt_resume_from: checkpoint 恢复路径
-            mem_agent: A-mem 记忆代理（可选，配置后 checkpoint 会包含其状态）
+            env: TRPG game environment
+            store: Memory store
+            config: Agent configuration
+            llm_config: Answer model configuration
+            judge_llm_config: Judge model configuration (optional; falls back to answer model if not set)
+            log_dir: Log directory
+            session_id: Session ID
+            ckpt_resume_from: Checkpoint resume path
+            mem_agent: A-mem memory agent (optional; checkpoint will include its state if set)
         """
         self.env = env
         self.store = store
@@ -66,12 +66,12 @@ class TRPGRunner:
         self.ckpt_resume_from = ckpt_resume_from
         self.mem_agent = mem_agent
 
-        # checkpoint 目录
+        # Checkpoint directory
         self.ckpt_dir = log_dir / "checkpoints" if log_dir else None
         if self.ckpt_dir:
             self.ckpt_dir.mkdir(parents=True, exist_ok=True)
 
-        # 答题模型配置
+        # Answer model configuration
         self._trpg_client = OpenAI(
             api_key=llm_config.api_key,
             base_url=llm_config.base_url,
@@ -80,7 +80,7 @@ class TRPGRunner:
         self._trpg_model = llm_config.model
         self._trpg_temperature = llm_config.temperature
 
-        # 判题模型配置（未配置时回退到答题模型）
+        # Judge model configuration (falls back to answer model if not set)
         if judge_llm_config:
             self._judge_client = OpenAI(
                 api_key=judge_llm_config.api_key,
@@ -92,17 +92,17 @@ class TRPGRunner:
             self._judge_client = self._trpg_client
             self._judge_model = self._trpg_model
 
-        # 阅读阶段状态
+        # Reading phase state
         self._trpg_total_turns = 0
         self._trpg_compressions = 0
         self._trpg_sec_idx = -1
         self._trpg_turn_idx = -2
 
-        # 证据查找表（用于 Read 指标）
+        # Evidence lookup table (used for the Read metric)
         self._evidence_lookup: Dict[str, str] = {}
 
     def run(self) -> None:
-        """执行 TRPG 两阶段评测"""
+        """Execute the two-phase TRPG evaluation"""
         verbose = getattr(self.config, 'verbose', True)
         print(f"\n{'='*60}")
         print(f"TRPG Evaluation  Story: {self.env.config.story_name}")
@@ -113,10 +113,10 @@ class TRPGRunner:
               f"Per compression: {self.config.compression_count}")
         print(f"{'='*60}\n")
 
-        # ── 尝试从 checkpoint 恢复 ──────────────────────────────────────────
+        # ── Attempt to resume from checkpoint ──────────────────────────────────────────
         ckpt = None
         if self.ckpt_resume_from:
-            # 直接使用指定的文件路径
+            # Use the specified file path directly
             ckpt_path = Path(self.ckpt_resume_from)
             if ckpt_path.exists():
                 with open(ckpt_path, encoding="utf-8") as _f:
@@ -131,7 +131,7 @@ class TRPGRunner:
                 key=lambda p: p.stat().st_mtime,
             )
             if ckpt_files:
-                ckpt_path = ckpt_files[-1]  # 最新的 checkpoint
+                ckpt_path = ckpt_files[-1]  # Most recent checkpoint
                 with open(ckpt_path, encoding="utf-8") as _f:
                     ckpt = json.load(_f)
                 print(f"[Checkpoint] Found checkpoint: {ckpt_path.name}, "
@@ -145,24 +145,24 @@ class TRPGRunner:
                     role=_item.get("role", "user"),
                     step=_item.get("step", ""),
                 )
-            # 注：amem 模式下 store_items 为空（reading 阶段消息直接写入 mem_agent），
-            # 实际记忆在 amem_state.memories 中，通过下方 restore_state 恢复；
-            # 非 amem 模式下 store_items 保存压缩后的滑动窗口，是有效数据。
+            # Note: in amem mode, store_items is empty (reading phase messages are written directly to mem_agent),
+            # and the actual memories are in amem_state.memories, restored below via restore_state;
+            # in non-amem mode, store_items holds the compressed sliding window, which is valid data.
             self._trpg_total_turns = ckpt.get("total_turns", 0)
             self._trpg_compressions = ckpt.get("compressions", 0)
             self._trpg_sec_idx = ckpt.get("sec_idx", 0)
             self._trpg_turn_idx = ckpt.get("turn_idx", -2)
 
-            # 恢复记忆代理状态：
-            # - amem_state 含 "memories" 字段 → amem（本地存储）：restore_state 重建全部 MemoryNote 和
-            #   ChromaDB 索引；恢复后 store.to_chat_messages() 将通过 store.mem_agent.get_all_memories()
-            #   返回这些记忆（store.use_mem=True 分支）
-            # - amem_state 不含 "memories" 字段 → mem0（云端存储）：restore_state 只重建 user_id，
-            #   实际记忆无需恢复
+            # Restore memory agent state:
+            # - amem_state contains "memories" field → amem (local storage): restore_state rebuilds all MemoryNote objects and
+            #   ChromaDB indexes; after restore, store.to_chat_messages() returns these memories via
+            #   store.mem_agent.get_all_memories() (store.use_mem=True branch)
+            # - amem_state does not contain "memories" field → mem0 (cloud storage): restore_state only rebuilds user_id,
+            #   actual memories need not be restored locally
             amem_state = ckpt.get("amem_state")
             if amem_state and self.mem_agent is not None:
                 if "memories" in amem_state:
-                    # amem：从 checkpoint 恢复完整本地记忆
+                    # amem: restore complete local memories from checkpoint
                     self.mem_agent.restore_state(amem_state)
                     print(f"[Checkpoint] amem state restored, {amem_state.get('total_memories', 0)} memories")
                 else:
@@ -170,7 +170,7 @@ class TRPGRunner:
                     self.mem_agent.restore_state(amem_state)
                     print(f"[Checkpoint] mem0 config restored (memories stored in cloud, no local restore needed)")
 
-        # ── Phase 1: 阅读 ─────────────────────────────────────────────────────────
+        # ── Phase 1: Reading ──────────────────────────────────────────────────────
         if not ckpt or ckpt["phase"] == "reading":
             self._reading_phase(resume_ckpt=ckpt)
         else:
@@ -183,30 +183,30 @@ class TRPGRunner:
             qa_start = ckpt.get("qa_idx", -1) + 1
             print(f"[Checkpoint] QA resuming from question {qa_start + 1}\n")
 
-        # 构建证据文本查找表（用于 Read 指标）
+        # Build evidence text lookup table (for the Read metric)
         self._evidence_lookup = build_evidence_lookup(
             self.env.config.data_path, self.env.config.story_name
         )
         self._qa_phase(start_idx=qa_start)
         self._save_trpg_results()
 
-    # ── Phase 1: 阅读 ─────────────────────────────────────────────────────────
+    # ── Phase 1: Reading ──────────────────────────────────────────────────────
 
     def _reading_phase(self, resume_ckpt=None) -> None:
-        """阅读阶段：逐步读取故事并进行记忆压缩"""
+        """Reading phase: step through the story and apply memory compression"""
         verbose = getattr(self.config, 'verbose', True)
         print("─── Phase 1: Reading story ───")
         threshold = self.config.compression_threshold
         compress_n = self.config.compression_count
         story_name = self.env.config.story_name
 
-        # checkpoint 恢复位置：skip_sec/skip_turn 之前（含）的内容已处理
+        # Checkpoint resume position: content at or before skip_sec/skip_turn has already been processed
         skip_sec = resume_ckpt.get("sec_idx", -1) if resume_ckpt else -1
         skip_turn = resume_ckpt.get("turn_idx", -2) if resume_ckpt else -2
 
         for sec_idx, section in enumerate(self.env.sections):
             if sec_idx < skip_sec:
-                continue  # 整个 section 已处理，跳过
+                continue  # Entire section already processed, skip
 
             section_title = section.get("section", f"Section {sec_idx+1}")
             description = section.get("description", "")
@@ -217,7 +217,7 @@ class TRPGRunner:
             if description:
                 header += f"\nDescription: {description}"
 
-            # header 已添加的条件：sec_idx == skip_sec 且 skip_turn >= -1
+            # Condition for header already added: sec_idx == skip_sec and skip_turn >= -1
             if not (sec_idx == skip_sec and skip_turn >= -1):
                 self.store.add_message(header, role="user", step=tag)
                 self._trpg_total_turns += 1
@@ -227,7 +227,7 @@ class TRPGRunner:
 
             for turn_idx, turn in enumerate(conversation):
                 if sec_idx == skip_sec and turn_idx <= skip_turn:
-                    continue  # 该 turn 已处理，跳过
+                    continue  # This turn already processed, skip
                 text = (turn.get("text") or "").replace("\n", " ").strip()
                 if not text:
                     continue
@@ -250,15 +250,15 @@ class TRPGRunner:
         self._save_trpg_checkpoint("reading_complete", name="reading_complete")
 
     def _maybe_compress(self, threshold: int, compress_n: int) -> None:
-        """根据阈值判断是否需要压缩"""
-        # use_mem=True 时 mem_agent 自行管理记忆，无需手动压缩
+        """Check whether compression is needed based on the threshold"""
+        # When use_mem=True, mem_agent manages memories automatically; no manual compression needed
         if hasattr(self.store, 'use_mem') and self.store.use_mem:
             return
         if len(self.store.items) >= threshold:
             self._compress_with_summary(compress_n)
 
     def _compress_with_summary(self, compress_n: int) -> None:
-        """使用 LLM 生成摘要压缩最早的 N 条记忆"""
+        """Compress the oldest N memories using an LLM-generated summary"""
         verbose = getattr(self.config, 'verbose', True)
         items = self.store.items
         if len(items) < compress_n:
@@ -270,14 +270,14 @@ class TRPGRunner:
         text_block = "\n".join(item.text for item in oldest)
         source_chars = len(text_block)
 
-        # 分别统计已有摘要和原始对话的字数，设定差异化压缩目标
+        # Count characters separately for existing summaries and raw dialogue, set differentiated compression targets
         summary_prefix = "[Story Summary]"
         prev_summary_chars = sum(
             len(item.text) for item in oldest
-            if item.text.startswith(("[故事摘要]", "[Story Summary]"))
+            if item.text.startswith(("[Story Summary]",))
         )
         raw_chars = source_chars - prev_summary_chars
-        # 摘要保留 65%，原始对话保留 50%，综合得出目标区间
+        # Retain 65% of summary text and 50% of raw dialogue; compute combined target range
         overall_target = int(prev_summary_chars * 0.65 + raw_chars * 0.50)
         min_chars = max(200, int(overall_target * 0.85))
         max_chars = max(min_chars + 50, int(overall_target * 1.15))
@@ -294,7 +294,7 @@ class TRPGRunner:
             {"role": "user", "content": text_block},
         ])
 
-        # ── 超出范围时重试一次 ──────────────────────────────────────────
+        # ── Retry once when out of range ────────────────────────────────────────
         actual = len(summary) if summary else 0
         if summary and not (min_chars <= actual <= max_chars):
             if actual > max_chars:
@@ -309,13 +309,13 @@ class TRPGRunner:
                 f"Do NOT output fewer than {min_chars} characters or more than {max_chars} characters."
             )
             if actual > max_chars:
-                # HIGH：基于摘要继续精简，不需要原文
+                # HIGH: continue condensing based on the summary; original text not needed
                 retry_messages = [
                     {"role": "system", "content": retry_system},
                     {"role": "user", "content": retry_prompt + "\n\n" + summary},
                 ]
             else:
-                # LOW：附上原文，让模型有材料可补充
+                # LOW: include original text so the model has material to expand on
                 retry_messages = [
                     {"role": "system", "content": retry_system},
                     {"role": "user", "content": (
@@ -329,17 +329,17 @@ class TRPGRunner:
                 summary = retry_summary
                 actual = len(summary)
 
-        # HIGH 仍超出 → 在 max_chars 前最近的句子边界截断
+        # HIGH still over limit → truncate at the nearest sentence boundary before max_chars
         if actual > max_chars:
             cut = summary[:max_chars]
-            # 找最后一个句末标点
+            # Find the last sentence-ending punctuation
             for punct in ("。", "！", "？", ".", "!", "?"):
                 idx = cut.rfind(punct)
                 if idx > min_chars:
                     cut = cut[:idx + 1]
                     break
             summary = cut
-        # LOW 仍不足 → 接受（信息完整优先，不强制截断）
+        # LOW still under limit → accept (prioritize information completeness over forced truncation)
 
         self.store.reset()
         if summary:
@@ -352,7 +352,7 @@ class TRPGRunner:
 
         self._trpg_compressions += 1
 
-        # 写入压缩日志
+        # Write compression log
         if self.log_dir:
             log_entry = {
                 "compression_index": self._trpg_compressions,
@@ -370,7 +370,7 @@ class TRPGRunner:
             with open(self.log_dir / "compressions.jsonl", "a", encoding="utf-8") as f:
                 f.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
 
-        # 每次压缩后保存 checkpoint
+        # Save checkpoint after each compression
         self._save_trpg_checkpoint("reading", name=f"reading_c{self._trpg_compressions:03d}")
         if verbose:
             print(f"    [Summary] Compressed {compress_n} items → 1 summary, current window={len(self.store.items)}")
@@ -378,7 +378,7 @@ class TRPGRunner:
     # ── Phase 2: QA ───────────────────────────────────────────────────────────
 
     def _qa_phase(self, start_idx: int = 0) -> None:
-        """QA 阶段：逐题回答并评分"""
+        """QA phase: answer each question and score it"""
         verbose = getattr(self.config, 'verbose', True)
         if not self.env.qa_list:
             print("─── Phase 2: No QA data, skipping ───")
@@ -386,29 +386,29 @@ class TRPGRunner:
 
         print("─── Phase 2: QA Evaluation ───")
         n = len(self.env.qa_list)
-        # 从已有结果中恢复计数（checkpoint 恢复场景）
+        # Restore counts from existing results (checkpoint resume scenario)
         correct = sum(1 for r in self.env.results if r.get("_judge_result") == "CONSISTENT")
         undet = sum(1 for r in self.env.results if r.get("_judge_result") == "UNDETERMINABLE")
 
         is_en = getattr(self.env.config, "test_language", "en") == "en"
 
-        # QA 阶段记忆不再增加，提前获取一次并缓存
+        # Memories do not grow during the QA phase; fetch and cache once upfront
         _all_store = self.store.to_chat_messages()
         story_messages = _all_store[-100:] if len(_all_store) > 100 else _all_store
 
         for i, qa in enumerate(self.env.qa_list):
             if i < start_idx:
-                continue  # 已在 checkpoint 中处理，跳过
+                continue  # Already processed in checkpoint, skip
 
             question = qa.get("question", "")
             gold = qa.get("answer", "")
             evidence = qa.get("evidence", [])
 
-            # 如果有 mem_agent，先检索与问题相关的记忆
+            # If mem_agent is available, retrieve memories relevant to the question first
             retrieved_mem_context = ""
             if self.mem_agent is not None:
                 retrieved = self.mem_agent.search_memories(question, top_k=5)
-                retrieved = retrieved[:5]  # 确保最多5条，统一 mem0 和 amem 行为
+                retrieved = retrieved[:5]  # Ensure at most 5 results, unifying mem0 and amem behavior
                 if retrieved:
                     mem_lines = [f"{idx}. {m.get('text', '')}" for idx, m in enumerate(retrieved, 1)]
                     retrieved_mem_context = "\n".join(mem_lines)
@@ -422,7 +422,7 @@ class TRPGRunner:
             messages = story_messages + [{"role": "user", "content": qa_user_msg}]
             raw_output = self._call_llm_trpg(messages).strip()
 
-            # 解析结构化输出
+            # Parse structured output
             reasoning, predicted = parse_qa_output(raw_output, is_en)
 
             # C. Acc
@@ -444,7 +444,7 @@ class TRPGRunner:
                 question, evidence, predicted, reasoning, is_en, call_llm=self._call_llm_trpg
             )
 
-            # Read（LLM judge，评估对 gold evidence 的实际阅读理解）
+            # Read (LLM judge: evaluate actual reading comprehension of gold evidence)
             ev_lookup = getattr(self, "_evidence_lookup", {})
             read_score, read_reason = judge_read(
                 question, reasoning, predicted, evidence, ev_lookup, is_en, call_llm=self._call_llm_trpg
@@ -466,7 +466,7 @@ class TRPGRunner:
                 **inst_info,
             })
 
-            # 每10题保存一次 checkpoint
+            # Save checkpoint every 10 questions
             if (i + 1) % 10 == 0:
                 self._save_trpg_checkpoint("qa", name=f"qa_{i+1:03d}", qa_idx=i, results=self.env.results)
 
@@ -482,10 +482,10 @@ class TRPGRunner:
         self._print_category_stats()
 
     def _print_category_stats(self) -> None:
-        """打印分类统计信息"""
+        """Print per-category statistics"""
         results = self.env.results
 
-        # 按 category 统计
+        # Aggregate by category
         by_cat: Dict[Any, List[str]] = {}
         for r in results:
             cat = r.get("category", "?")
@@ -497,7 +497,7 @@ class TRPGRunner:
                 parts.append(f"cat{cat}={c}/{len(rs)}")
             print(f"  By category: {'  '.join(parts)}")
 
-        # 按 depth 统计
+        # Aggregate by depth
         _DEPTH_LABELS = {1: "Surface", 2: "Character", 3: "Cross-sect"}
         by_depth: Dict[Any, List[str]] = {}
         for r in results:
@@ -511,13 +511,13 @@ class TRPGRunner:
                 parts.append(f"{label}={c}/{len(rs)}")
             print(f"  By depth: {'  '.join(parts)}")
 
-        # Inst 通过率
+        # Inst pass rate
         inst_results = [r for r in results if "_inst_pass" in r]
         if inst_results:
             inst_pass = sum(1 for r in inst_results if r["_inst_pass"])
             print(f"  Inst pass rate: {inst_pass}/{len(inst_results)} ({inst_pass/len(inst_results)*100:.1f}%)")
 
-        # E. Cit 分布
+        # E. Cit distribution
         cit_results = [r for r in results if "_cit_score" in r]
         if cit_results:
             cit_dist = {}
@@ -529,7 +529,7 @@ class TRPGRunner:
 
         print()
 
-    # ── LLM 调用 ──────────────────────────────────────────────────────────────
+    # ── LLM call ──────────────────────────────────────────────────────────────
 
     def _call_llm_trpg(
         self,
@@ -538,7 +538,7 @@ class TRPGRunner:
         temperature: Optional[float] = None,
         use_judge_client: bool = False,
     ) -> str:
-        """调用 LLM 生成回答（带重试）"""
+        """Call the LLM to generate a response (with retry)"""
         temp = temperature if temperature is not None else self._trpg_temperature
         client = self._judge_client if use_judge_client else self._trpg_client
         model = self._judge_model if use_judge_client else self._trpg_model
@@ -560,7 +560,7 @@ class TRPGRunner:
     # ── Checkpoint ────────────────────────────────────────────────────────────
 
     def _save_trpg_checkpoint(self, phase: str, name: str, **extra) -> None:
-        """保存 TRPG checkpoint 到 checkpoints/{session_id}/trpg_ckpt_{name}.json"""
+        """Save TRPG checkpoint to checkpoints/{session_id}/trpg_ckpt_{name}.json"""
         if not self.ckpt_dir:
             return
         store_items = [
@@ -571,7 +571,7 @@ class TRPGRunner:
             }
             for item in self.store.items
         ]
-        # 当前 section 的实际标题（方便人工核查）
+        # Actual title of the current section (for manual inspection)
         sections = getattr(self.env, "sections", [])
         if sections and 0 <= self._trpg_sec_idx < len(sections):
             sec_name = sections[self._trpg_sec_idx].get("section", f"Section {self._trpg_sec_idx + 1}")
@@ -611,10 +611,10 @@ class TRPGRunner:
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
-    # ── 结果保存 ──────────────────────────────────────────────────────────────
+    # ── Results saving ────────────────────────────────────────────────────────
 
     def _save_trpg_results(self) -> None:
-        """保存评测结果到 results.json"""
+        """Save evaluation results to results.json"""
         results = self.env.results
         n = len(results)
         correct = sum(1 for r in results if r.get("_judge_result") == "CONSISTENT")
@@ -772,12 +772,12 @@ class TRPGRunner:
             if read_r:
                 print(f"  Read HIGH rate: {read_dist.get('HIGH',0)}/{len(read_r)} ({output['read_coverage']['high_rate']}%)")
 
-            # ── 自动生成 summary.txt ─────────────────────────────────────────
+            # ── Auto-generate summary.txt ────────────────────────────────────
             if _SUMMARIZE_AVAILABLE:
                 self._write_summary(output)
 
     def _write_summary(self, output: dict) -> None:
-        """调用 summarize.compute_metrics 生成六维汇总表并保存到 summary.txt"""
+        """Call summarize.compute_metrics to generate a six-dimensional summary table and save to summary.txt"""
         if not self.log_dir:
             return
 
@@ -850,18 +850,18 @@ def run_trpg(
     ckpt_resume_from: Optional[str] = None,
     mem_agent: Optional[Any] = None,
 ) -> None:
-    """运行 TRPG 评测（入口函数）
+    """Run the TRPG evaluation (entry-point function)
 
     Args:
-        env: TRPG 游戏环境
-        store: 记忆存储
-        config: Agent 配置
-        llm_config: 答题模型配置
-        judge_llm_config: 判题模型配置
-        log_dir: 日志目录
-        session_id: 会话ID
-        ckpt_resume_from: checkpoint 恢复路径
-        mem_agent: A-mem 记忆代理（可选）
+        env: TRPG game environment
+        store: Memory store
+        config: Agent configuration
+        llm_config: Answer model configuration
+        judge_llm_config: Judge model configuration
+        log_dir: Log directory
+        session_id: Session ID
+        ckpt_resume_from: Checkpoint resume path
+        mem_agent: A-mem memory agent (optional)
     """
     runner = TRPGRunner(
         env=env,

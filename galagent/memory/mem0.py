@@ -20,12 +20,12 @@ class Mem0Agent(BaseMemAgent):
             model_name: LLM model name (used as part of user_id for data isolation)
             verbose: Whether to print debug information
         """
-        from mem0 import MemoryClient   # 延迟 import
+        from mem0 import MemoryClient   # Deferred import
         super().__init__(game_name, verbose)
         self.client = MemoryClient(api_key=api_key)
         self.model_name = model_name
 
-        # 创建组合的 user_id: 游戏名称_模型名称
+        # Construct combined user_id: game_name_model_name
         if model_name:
             self.user_id = f"{game_name}_{model_name}"
         else:
@@ -105,8 +105,8 @@ class Mem0Agent(BaseMemAgent):
 
             return {
                 "success": True,
-                "memory_id": result.get("id"),  # 保持向后兼容
-                "id": result.get("id"),          # 新增统一字段
+                "memory_id": result.get("id"),  # Keep backward compatibility
+                "id": result.get("id"),          # New unified field
                 "result": result
             }
         except Exception as e:
@@ -173,7 +173,7 @@ class Mem0Agent(BaseMemAgent):
                     continue
 
                 formatted_results.append({
-                    "id": result.get("id", ""),              # 统一字段名
+                    "id": result.get("id", ""),              # Unified field name
                     "text": result.get("memory", ""),
                     "score": result.get("score", 0.0),
                     "metadata": result.get("metadata", {}),
@@ -243,7 +243,7 @@ class Mem0Agent(BaseMemAgent):
                     continue
 
                 formatted_results.append({
-                    "id": result.get("id", ""),              # 统一字段名
+                    "id": result.get("id", ""),              # Unified field name
                     "text": result.get("memory", ""),
                     "metadata": result.get("metadata", {}),
                     "created_at": result.get("created_at", ""),
@@ -422,7 +422,7 @@ class Mem0Agent(BaseMemAgent):
         self.model_name = state.get("model_name", "")
         self.verbose = state.get("verbose", self.verbose)
 
-        # 重新构建 user_id
+        # Rebuild user_id
         if self.model_name:
             self.user_id = f"{self.game_name}_{self.model_name}"
         else:

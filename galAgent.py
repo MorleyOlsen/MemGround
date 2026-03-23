@@ -1,7 +1,7 @@
 # galAgent.py
 """
-Galgame Agent主程序
-使用LLM和向量检索来玩Galgame并达到最佳结局
+Galgame Agent main program
+Uses LLM and vector retrieval to play Galgame and reach the best ending
 """
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ from galagent.logger import GameLogger
 
 
 def parse_args():
-    """解析命令行参数"""
+    """Parse command-line arguments"""
     parser = argparse.ArgumentParser(
         description="Galgame Agent - Play galgames using LLM with memory recall"
     )
@@ -67,16 +67,16 @@ def parse_args():
 
 
 async def main_async():
-    """主程序入口"""
+    """Main program entry point"""
     args = parse_args()
 
-    # 设置项目根目录
+    # Set project root directory
     ROOT = Path(__file__).resolve().parent
     config_path = ROOT / args.config
 
     print(f"Loading configuration from: {config_path}")
 
-    # 加载所有配置
+    # Load all configurations
     config_loader = ConfigLoader(config_path)
     llm_config = config_loader.load_llm_config()
     embedding_config = config_loader.load_embedding_config()
@@ -86,7 +86,7 @@ async def main_async():
     mem_agent_config = config_loader.load_mem_agent_config()
     judge_llm_config = config_loader.load_judge_llm_config()
 
-    # 命令行参数覆盖配置文件
+    # Command-line arguments override config file
     if args.retriever:
         agent_config.retriever_type = args.retriever
     if args.top_k is not None:
@@ -106,26 +106,26 @@ async def main_async():
     print(f"[OK] Mem Agent: use_mem={mem_agent_config.use_mem}, mem_name={mem_agent_config.mem_name}")
     print()
 
-    # 初始化游戏环境
+    # Initialize game environment
     env = create_game_env(env_config, ROOT)
     print(f"[OK] Game environment initialized: {env_config.game_type}")
 
-    # 获取resume_from配置（需要在记忆代理初始化前使用）
+    # Get resume_from config (needed before memory agent initialization)
     resume_from = checkpoint_config.resume_from
 
-    # 初始化记忆代理（如果启用）
+    # Initialize memory agent (if enabled)
     mem_agent = None
     if mem_agent_config.use_mem:
         try:
-            # TRPG 模式用 story_name 作为 game_name，以区分不同故事的记忆
+            # TRPG mode uses story_name as game_name to distinguish memories for different stories
             _mem_game_name = (
                 env_config.story_name
                 if env_config.game_type == "trpg"
                 else env_config.game_type
             )
-            # 根据 mem_name 选择不同的记忆代理
+            # Select memory agent based on mem_name
             if mem_agent_config.mem_name == "mem_0":
-                # 使用 Mem0 云端记忆代理
+                # Use Mem0 cloud memory agent
                 from galagent.memory.mem0 import Mem0Agent
 
                 if not mem_agent_config.mem0_api_key:
@@ -141,7 +141,7 @@ async def main_async():
 
             elif mem_agent_config.mem_name == "a_mem":
                 from galagent.memory.amem import AMemAgent
-                # 使用 A-mem 本地记忆代理
+                # Use A-mem local memory agent
                 mem_agent = AMemAgent(
                     game_name=_mem_game_name,
                     embedding_model=mem_agent_config.amem_embedding_model,
@@ -155,17 +155,17 @@ async def main_async():
             else:
                 raise ValueError(f"Unknown mem_name: {mem_agent_config.mem_name}. Supported: 'mem_0', 'a_mem'")
 
-            # 根据配置决定是否清空记忆
-            # 如果是从checkpoint恢复，不清空；如果是新开始且配置了clear_on_start，则清空
+            # Decide whether to clear memory based on config
+            # If resuming from checkpoint, do not clear; if starting fresh and clear_on_start is set, clear
             if mem_agent_config.clear_on_start and not resume_from:
                 print(f"[MemAgent] Clearing existing memories for fresh start...")
                 result = mem_agent.delete_all_memories()
                 if result.get("success"):
-                    # 如果是 Mem0，等待云端完成异步删除操作
+                    # If Mem0, wait for async cloud deletion to complete
                     if mem_agent_config.mem_name == "mem_0":
                         time.sleep(3)
 
-                    # 验证删除是否成功
+                    # Verify deletion succeeded
                     remaining = mem_agent.get_all_memories()
                     print(f"[MemAgent] Verified: {len(remaining)} memories remaining")
                 else:
@@ -181,7 +181,7 @@ async def main_async():
             mem_agent_config.use_mem = False
             mem_agent = None
 
-    # 初始化记忆存储
+    # Initialize memory store
     store = MemoryStore(
         embedding_config=embedding_config,
         use_faiss=not mem_agent_config.use_mem,  # disable Faiss when using mem_agent
@@ -189,7 +189,7 @@ async def main_async():
         use_mem=mem_agent_config.use_mem
     )
 
-    # ── TRPG 模式：使用专用 runner ──────────────────────────────────────────
+    # ── TRPG mode: use dedicated runner ─────────────────────────────────────────
     if env_config.game_type == "trpg":
         from datetime import datetime
         from galagent.agent.trpg_runner import run_trpg
@@ -232,7 +232,7 @@ async def main_async():
             print("\n[Interrupted] TRPG evaluation interrupted by user")
         return
 
-    # 初始化检索器
+    # Initialize retriever
     if agent_config.retriever_type == "vector":
         retriever = VectorRetriever(store)
         print(f"[OK] Using VectorRetriever with Faiss")
@@ -240,25 +240,25 @@ async def main_async():
         retriever = KeywordRetrieverTool(store)
         print(f"[OK] Using KeywordRetrieverTool")
 
-    # 创建游戏特定的Prompt构建器
+    # Create game-specific Prompt builder
     prompt_builder = create_prompt_builder(env_config, llm_config.goal_instruction)
     print(f"[OK] PromptBuilder created for game: {env_config.game_type}")
 
-    # 创建游戏特定的工具类
+    # Create game-specific utility class
     game_utils = create_game_utils(env_config)
     print(f"[OK] GameUtils created for game: {env_config.game_type}")
 
-    # 初始化LLM策略（传入game_utils和agent_config用于记忆管理）
+    # Initialize LLM policy (pass game_utils and agent_config for memory management)
     policy = LLMPolicy(llm_config, prompt_builder, memory_store=store, game_utils=game_utils, agent_config=agent_config)
     print(f"[OK] LLMPolicy initialized")
 
-    # 初始化CheckpointManager（如果启用）
+    # Initialize CheckpointManager (if enabled)
     checkpoint_manager = None
     if checkpoint_config.enabled:
         checkpoint_manager = CheckpointManager(checkpoint_dir=checkpoint_config.dir)
         print(f"[OK] CheckpointManager initialized: {checkpoint_config.dir}")
 
-    # 如果需要从checkpoint恢复，先加载以获取logger_session_id
+    # If resuming from checkpoint, load first to obtain logger_session_id
     logger_session_id = None
     start_step = 0
     resume_from = checkpoint_config.resume_from
@@ -269,33 +269,33 @@ async def main_async():
         start_step = checkpoint_data['step']
         print(f"[OK] Resuming from checkpoint: step={start_step}, logger_session_id={logger_session_id}")
 
-    # 初始化GameLogger（每个 session 独立子目录）
+    # Initialize GameLogger (each session has its own subdirectory)
     if resume_from and logger_session_id:
-        # 恢复模式：使用 checkpoint 中记录的 session_id 对应的目录
+        # Resume mode: use the session directory recorded in the checkpoint
         log_dir = ROOT / "logs" / env_config.game_type / logger_session_id
         logger = GameLogger(log_dir, env_config.game_type, session_id=logger_session_id,
                             resume=True, model=llm_config.model, truncate_after_step=start_step)
     else:
-        # 新建模式：预生成 session_id 以便确定目录
+        # New session: pre-generate session_id to determine directory
         _sid = f"{env_config.game_type}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         log_dir = ROOT / "logs" / env_config.game_type / _sid
         log_dir.mkdir(parents=True, exist_ok=True)
         logger = GameLogger(log_dir, env_config.game_type, session_id=_sid, model=llm_config.model)
     print(f"[OK] GameLogger initialized: {logger.session_id}")
 
-    # 记忆日志文件放在 session 目录内
+    # Memory log file placed inside the session directory
     memory_log_file = log_dir / "memory.jsonl"
     store.verbose = agent_config.verbose
     store.memory_log_file = str(memory_log_file)
     print(f"[OK] Memory logging enabled: {memory_log_file}")
 
-    # CheckpointManager 目录更新为 session 子目录
+    # Update CheckpointManager directory to session subdirectory
     if checkpoint_config.enabled:
         ckpt_dir = log_dir / "checkpoints"
         checkpoint_manager = CheckpointManager(checkpoint_dir=ckpt_dir)
         print(f"[OK] CheckpointManager initialized: {ckpt_dir}")
 
-    # 初始化Agent
+    # Initialize Agent
     agent = GalgameAgent(
         env=env,
         store=store,
@@ -309,7 +309,7 @@ async def main_async():
         session_name=f"{env_config.game_type}_session"
     )
 
-    # 如果提供了checkpoint，则从checkpoint恢复状态
+    # If checkpoint provided, restore state from checkpoint
     if resume_from:
         start_step, _ = agent.load_checkpoint(resume_from)
         print(f"[OK] State restored, continuing from step {start_step + 1}")
@@ -318,15 +318,15 @@ async def main_async():
     print("Starting Galgame Agent...")
     print("=" * 70 + "\n")
 
-    # 运行Agent
+    # Run Agent
     try:
         await agent.run()
     except RuntimeError as e:
         print(f"\n[Agent] Game ended: {e}")
         # Continue to auto QA even when max_steps reached
 
-    # Auto QA evaluation for type_help / dust
-    if env_config.game_type in ("type_help", "dust"):
+    # Auto QA evaluation for type_help / no_case_should_remain_unsolved
+    if env_config.game_type in ("type_help", "no_case_should_remain_unsolved"):
         print("\n" + "=" * 70)
         print("Starting automatic QA evaluation...")
         print("=" * 70 + "\n")
@@ -353,14 +353,14 @@ async def main_async():
             print(f"[QA] Auto QA failed: {_e}")
             raise
 
-    # 保存Faiss索引
+    # Save Faiss index
     if store.use_faiss and store.faiss_manager:
         store.save_faiss_index()
         print("\n[OK] Faiss index saved")
 
 
 def main():
-    """程序入口"""
+    """Program entry point"""
     try:
         asyncio.run(main_async())
     except KeyboardInterrupt:

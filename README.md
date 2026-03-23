@@ -11,7 +11,7 @@ The agent reads scenes, makes decisions, retrieves relevant memories, and is tes
 | Game | Type | Core Challenge | Auto QA |
 |------|------|----------------|---------|
 | **Type Help** | File-system puzzle | Decode scene clues → type the correct filename to unlock each stage | ✅ runs after game |
-| **The Dust Settles** | Mystery investigation | Read fragmented events → reconstruct chronological order | ✅ runs after game |
+| **No Case Should Remain Unsolved** | Mystery investigation | Read fragmented events → reconstruct chronological order | ✅ runs after game |
 | **TRPG** | Tabletop RPG comprehension | Follow a multi-chapter story → answer factual questions about characters & plot | ✅ built-in |
 
 ---
@@ -224,20 +224,20 @@ env:
 
 ---
 
-### The Dust Settles
+### No Case Should Remain Unsolved
 
 A mystery investigation game. The agent encounters event fragments out of order and must reconstruct the correct chronological sequence to solve the case. Scoring rewards both correct ordering and correct causal inference.
 
 ```yaml
 env:
-  game_type: "dust"
-  scenes_path: "dataset/The_dust_settles-en/nodes.json"
+  game_type: "no_case_should_remain_unsolved"
+  scenes_path: "dataset/no_case_should_remain_unsolved-en/data/nodes.json"
   start_node_id: "start"
   test_language: "en"
   show_order_judgements_history: false   # Set true to include all past ordering judgements in the prompt
 ```
 
-**Evaluation:** QA runs automatically at game end. Results are saved to `logs/dust/<session_id>/`.
+**Evaluation:** QA runs automatically at game end. Results are saved to `logs/no_case_should_remain_unsolved/<session_id>/`.
 
 ---
 
@@ -262,11 +262,6 @@ env:
 | `Terror_on_the_Orient_Express` | Thriller |
 | `Cold_Wind_Howling` | Suspense |
 | `Spring_Snow_Incident` | Drama |
-| `Bread_or_Stone` | Mystery |
-| `The_Empathy_Algorithm` | Sci-Fi |
-| `Fall_of_the_Kingdom` | Fantasy |
-| `Long_Road_Home` | Slice-of-life |
-| `Snowball_Adventure_Party_Disbands` | Adventure |
 
 **Evaluation:** QA runs automatically as the final phase of the game. Results are saved to `logs/trpg/<session_id>/`.
 
@@ -290,8 +285,8 @@ logs/
 │       ├── results.json                ← QA evaluation scores
 │       └── summary.txt                 ← QA evaluation summary
 │
-├── dust/
-│   └── dust_20260301_143012/
+├── no_case_should_remain_unsolved/
+│   └── no_case_should_remain_unsolved_20260301_143012/
 │       └── ...                         ← same structure as type_help
 │
 └── trpg/
@@ -304,7 +299,7 @@ logs/
         └── summary.txt
 ```
 
-### `game_log.json` schema (type_help / dust)
+### `game_log.json` schema (type_help / no_case_should_remain_unsolved)
 
 ```jsonc
 {
@@ -326,7 +321,7 @@ logs/
       "file_retrieval": { "need_retrieval": true, "opened_files": [...], "reason": "..." },
       "unlocked_files": [...],   // type_help only
       "failed_files": [...],     // type_help only
-      // dust-specific fields: action_type, action_params, score, keys, ...
+      // no_case_should_remain_unsolved-specific fields: action_type, action_params, score, keys, ...
     }
   ]
 }
@@ -363,7 +358,7 @@ logs/
 
 All three games run QA automatically when they end — no manual step required:
 
-- **Type Help / Dust**: QA fires at the end of `galAgent.py` using the live memory store. No checkpoint reload needed.
+- **Type Help / No Case Should Remain Unsolved**: QA fires at the end of `galAgent.py` using the live memory store. No checkpoint reload needed.
 - **TRPG**: QA is the final phase of `trpg_runner.py`.
 
 Results always appear in `logs/<game_type>/<session_id>/results.json`.
@@ -379,8 +374,8 @@ If you want to re-run QA against a previously saved checkpoint (e.g. after the r
 #
 #   GAME_TYPE = "type_help"
 #   CHECKPOINT_PATH = {
-#       "type_help": "logs/type_help/type_help_20260224_210044/checkpoints/step_000199.json",
-#       "dust":      "logs/dust/dust_20260301_143012/checkpoints/step_000599.json",
+#       "type_help":                       "logs/type_help/type_help_20260224_210044/checkpoints/step_000199.json",
+#       "no_case_should_remain_unsolved":  "logs/no_case_should_remain_unsolved/no_case_should_remain_unsolved_20260301_143012/checkpoints/step_000599.json",
 #   }
 
 python scripts/run_qa.py
@@ -441,29 +436,8 @@ Export all results to color-coded Excel workbooks for comparison:
 ```bash
 python scripts/export_results_excel.py
 # Outputs: logs/type_help_results.xlsx
-#          logs/dust_results.xlsx
+#          logs/no_case_should_remain_unsolved_results.xlsx
 ```
-
----
-
-### Type Help Path-Level Evaluation (`predict/type_help/`)
-
-For detailed analysis of the navigation path taken during a Type Help run:
-
-```bash
-# Step 1 — extract path edges from the game log
-python predict/type_help/formal_file.py \
-  --input  logs/type_help/<session_id>/game_log.json \
-  --output pred_edges.jsonl
-
-# Step 2 — score against ground-truth path
-python predict/type_help/evaluate.py \
-  --pred pred_edges.jsonl \
-  --gt   dataset/type_help-en/<gt_file>.json \
-  --out  eval_report.json
-```
-
-A sample report is available at `predict/type_help/eval_report.json`.
 
 ---
 
@@ -529,8 +503,8 @@ An interactive menu offers four operations:
 
 | File | Description |
 |------|-------------|
-| `dataset/type_help-en/human_adj.csv` | Human-annotated ground-truth adjacency matrix |
-| `dataset/type_help-en/node_id_map.csv` | Integer node ID ↔ node name mapping |
+| `dataset/type_help-en/qa/human_adj.csv` | Human-annotated ground-truth adjacency matrix |
+| `dataset/type_help-en/qa/node_id_map.csv` | Integer node ID ↔ node name mapping |
 
 All output is written to `analysis/`.
 
@@ -541,27 +515,31 @@ All output is written to `analysis/`.
 ```
 dataset/
 ├── type_help-en/
-│   ├── nodes.json                    # Scene graph (main game data)
-│   ├── type_help_qa_eval.json        # QA evaluation questions
-│   ├── all_links_with_recall.json    # Ground-truth file unlock relationships
-│   ├── human_adj.csv                 # Human-annotated adjacency matrix
-│   ├── node_id_map.csv               # Node ID ↔ name mapping (for analysis)
-│   └── stories/                      # Story text assets
+│   ├── data/
+│   │   ├── nodes.json                    # Scene graph (main game data)
+│   │   ├── name.json                     # Character name aliases
+│   │   └── all_links_with_recall.json    # Ground-truth file unlock relationships
+│   ├── qa/
+│   │   ├── type_help_qa_eval.json        # QA evaluation questions
+│   │   ├── human_adj.csv                 # Human-annotated adjacency matrix
+│   │   └── node_id_map.csv               # Node ID ↔ name mapping (for analysis)
+│   └── stories/                          # Story text assets
 │
-├── The_dust_settles-en/
-│   ├── nodes.json                    # Scene graph
-│   ├── dust_qa_eval.json             # QA evaluation questions
-│   ├── dialogue-en.json              # NPC dialogue texts
-│   ├── order_gt-en.json              # Ground-truth event ordering
-│   └── stories/                      # Story text assets
+├── no_case_should_remain_unsolved-en/
+│   ├── data/
+│   │   ├── nodes.json                    # Scene graph
+│   │   ├── dialogue-en.json              # NPC dialogue texts
+│   │   └── order_gt-en.json              # Ground-truth event ordering
+│   ├── qa/
+│   │   └── no_case_should_remain_unsolved_qa_eval.json  # QA evaluation questions
+│   └── stories/                          # Story text assets
 │
 └── trpg_en/
     ├── stories/
-    │   └── <story_name>/             # One directory per story
-    │       └── *.json                # Story scene nodes
+    │   └── <story_name>/                 # One directory per story
+    │       └── *.json                    # Story scene nodes
     └── qa/
-        └── <story_name>/             # One directory per story
-            └── *.json                # QA evaluation pairs
+        └── <story_name>_qa.json          # QA evaluation pairs per story
 ```
 
 All data files use JSON format. No preprocessing is required.
@@ -572,20 +550,20 @@ All data files use JSON format. No preprocessing is required.
 
 ```
 GalgameBench/
-├── galAgent.py                   # Main entry point (type_help / dust / trpg)
+├── galAgent.py                   # Main entry point (type_help / no_case_should_remain_unsolved / trpg)
 ├── config.yaml                   # All configuration (API keys, game, agent settings)
 ├── requirements.txt
 │
 ├── galagent/                     # Core agent library
 │   ├── agent/
-│   │   ├── runner.py             # GalgameAgent — main step loop (type_help / dust)
+│   │   ├── runner.py             # GalgameAgent — main step loop (type_help / no_case)
 │   │   ├── policy.py             # LLMPolicy — prompt construction + LLM call
 │   │   └── trpg_runner.py        # TRPGRunner — TRPG-specific two-phase runner
 │   ├── env/
 │   │   ├── env_factory.py        # Creates the correct env/utils/prompt_builder
 │   │   ├── base_env.py           # Abstract game environment interface
 │   │   ├── type_help_env.py      # Type Help environment
-│   │   ├── dust_env.py           # Dust environment
+│   │   ├── no_case_should_remain_unsolved_env.py  # No Case environment
 │   │   └── trpg_env.py           # TRPG environment
 │   ├── memory/
 │   │   ├── store.py              # MemoryStore — conversation history management
@@ -599,7 +577,7 @@ GalgameBench/
 │
 ├── env/                          # Game-specific prompt builders and utilities
 │   ├── type_help/
-│   ├── dust/
+│   ├── no_case_should_remain_unsolved/
 │   └── trpg/
 │
 ├── scripts/                      # Evaluation and analysis scripts
@@ -610,7 +588,6 @@ GalgameBench/
 │   └── analyze_logs.py           # Post-hoc log analysis (Type Help)
 │
 ├── dataset/                      # Game datasets (see Dataset Structure)
-├── predict/type_help/            # Type Help path-level evaluation tools
 ├── logs/                         # Runtime output (git-ignored)
 └── faiss_data/                   # FAISS index cache (git-ignored)
 ```

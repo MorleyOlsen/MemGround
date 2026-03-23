@@ -62,20 +62,20 @@ checkpoint:
 # ── Type Help (file puzzle game) ─────────────────────────────────────────────
 env:
   # game_type: "type_help"
-  # scenes_path: "dataset/type_help-en/nodes.json"
+  # scenes_path: "dataset/type_help-en/data/nodes.json"
   # start_node_id: "Background"
   # test_language: "en"
   # enable_hint: true
   # hint_failure_threshold: 50
   # provide_naming_rules: false  # Set to true to show file naming rules in prompt
 
-# ── The Dust Settles (mystery investigation game) ────────────────────────────
+# ── No Case Should Remain Unsolved (mystery investigation game) ───────────────
 # env:
-#   game_type: "dust"
-#   scenes_path: "dataset/The_dust_settles-en/nodes.json"
+#   game_type: "no_case_should_remain_unsolved"
+#   scenes_path: "dataset/no_case_should_remain_unsolved-en/data/nodes.json"
 #   start_node_id: "start"
 #   test_language: "en"
-#   show_order_judgements_history: false  # Show all past ordering judgements in prompt (dust only)
+#   show_order_judgements_history: false  # Show all past ordering judgements in prompt (no_case only)
 
 # ── TRPG (tabletop RPG comprehension) ────────────────────────────────────────
 env:
@@ -84,11 +84,6 @@ env:
     story_name: "Terror_on_the_Orient_Express"
     # story_name: "Cold_Wind_Howling"
     # story_name: "Spring_Snow_Incident"
-    # story_name: "Bread_or_Stone"
-    # story_name: "The_Empathy_Algorithm"
-    # story_name: "Fall_of_the_Kingdom"
-    # story_name: "Long_Road_Home"
-    # story_name: "Snowball_Adventure_Party_Disbands"
     stories_dir: "dataset/trpg_en/stories"
     qa_dir: "dataset/trpg_en/qa"
     test_language: "en"

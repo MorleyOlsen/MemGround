@@ -1,5 +1,5 @@
 # galagent/logger/game_logger.py
-"""游戏运行日志记录系统"""
+"""Game run logging system"""
 from __future__ import annotations
 
 import json
@@ -11,48 +11,48 @@ from dataclasses import dataclass, asdict
 
 @dataclass
 class ActionLog:
-    """单次行动记录"""
+    """Single action record"""
     step: int
     timestamp: str
     node_id: str
     node_name: str
     scene_text: str
-    choices: Dict[str, str]  # 修改为字典：{"text": 文件名, "decision_rationale": 原因}
-    file_retrieval: Dict[str, Any] = None  # 文件检索信息（need_retrieval, opened_files, reason）
-    unlocked_files: List[str] = None  # type_help游戏专用
-    attempted_files: List[str] = None  # type_help游戏专用：所有尝试
-    success_files: List[str] = None  # type_help游戏专用：成功打开的文件
-    failed_files: List[str] = None  # type_help游戏专用：失败的尝试
-    hint_unlocked_files: List[str] = None  # type_help游戏专用：hint自动解锁的文件（累计）
-    consecutive_failures: int = None  # type_help游戏专用：当前连续失败次数
-    # Dust 游戏专用字段
-    action_type: Any = None  # Dust 游戏：动作类型
-    action_params: Dict[str, Any] = None  # Dust 游戏：动作参数
-    current_node_id: str = None  # Dust 游戏：当前节点ID
-    keyword_pool: List[str] = None  # Dust 游戏：关键词池
-    known_events: List[str] = None  # Dust 游戏：已知事件
-    event_pool: List[str] = None  # Dust 游戏：可阅读事件池
-    read_events: List[str] = None  # Dust 游戏：已阅读事件
-    locked_events: Dict[str, List[str]] = None  # Dust 游戏：锁定事件
-    score: int = None  # Dust 游戏：得分
-    keys: int = None  # Dust 游戏：钥匙数
-    character_orders: Dict[str, List[str]] = None  # Dust 游戏：角色事件排序
-    order_judgements: List[Dict] = None  # Dust 游戏：排序判断结果
-    awarded_pairs: List[List] = None  # Dust 游戏：已计分事件对
+    choices: Dict[str, str]  # Modified to dict: {"text": filename, "decision_rationale": reason}
+    file_retrieval: Dict[str, Any] = None  # File retrieval info (need_retrieval, opened_files, reason)
+    unlocked_files: List[str] = None  # type_help game only
+    attempted_files: List[str] = None  # type_help game only: all attempts
+    success_files: List[str] = None  # type_help game only: successfully opened files
+    failed_files: List[str] = None  # type_help game only: failed attempts
+    hint_unlocked_files: List[str] = None  # type_help game only: files auto-unlocked by hint (cumulative)
+    consecutive_failures: int = None  # type_help game only: current consecutive failure count
+    # Dust game specific fields
+    action_type: Any = None  # Dust game: action type
+    action_params: Dict[str, Any] = None  # Dust game: action parameters
+    current_node_id: str = None  # Dust game: current node ID
+    keyword_pool: List[str] = None  # Dust game: keyword pool
+    known_events: List[str] = None  # Dust game: known events
+    event_pool: List[str] = None  # Dust game: readable event pool
+    read_events: List[str] = None  # Dust game: read events
+    locked_events: Dict[str, List[str]] = None  # Dust game: locked events
+    score: int = None  # Dust game: score
+    keys: int = None  # Dust game: key count
+    character_orders: Dict[str, List[str]] = None  # Dust game: character event ordering
+    order_judgements: List[Dict] = None  # Dust game: ordering judgement results
+    awarded_pairs: List[List] = None  # Dust game: scored event pairs
 
 
 @dataclass
 class GameSession:
-    """游戏会话记录"""
+    """Game session record"""
     session_id: str
     game_type: str
     start_time: str
-    model: Optional[str] = None  # 使用的LLM模型
+    model: Optional[str] = None  # LLM model used
     end_time: Optional[str] = None
     total_steps: int = 0
     reached_ending: bool = False
     ending_node: Optional[str] = None
-    story_summary: Optional[str] = None  # 故事总结与推理
+    story_summary: Optional[str] = None  # Story summary and reasoning
     actions: List[ActionLog] = None
 
     def __post_init__(self):
@@ -61,17 +61,17 @@ class GameSession:
 
 
 class GameLogger:
-    """游戏日志记录器"""
+    """Game logger"""
 
     def __init__(self, log_dir: Path, game_type: str, session_id: Optional[str] = None, resume: bool = False, model: Optional[str] = None, truncate_after_step: Optional[int] = None):
-        """初始化日志记录器
+        """Initialize the logger
 
         Args:
-            log_dir: 日志目录
-            game_type: 游戏类型
-            session_id: 会话ID（如果要恢复现有session）
-            resume: 是否从现有session恢复
-            model: 使用的LLM模型名称
+            log_dir: Log directory
+            game_type: Game type
+            session_id: Session ID (if resuming an existing session)
+            resume: Whether to resume from an existing session
+            model: LLM model name used
         """
         self.log_dir = log_dir
         self.game_type = game_type
@@ -79,13 +79,13 @@ class GameLogger:
         self.truncate_after_step = truncate_after_step
         self.log_dir.mkdir(parents=True, exist_ok=True)
 
-        # 如果是恢复模式且提供了session_id，则加载现有session
+        # If in resume mode and session_id is provided, load the existing session
         if resume and session_id:
             self.session_id = session_id
             self.session_file = self.log_dir / "game_log.json"
             self.summary_file = self.log_dir / "game_log_summary.txt"
 
-            # 尝试加载现有session
+            # Attempt to load existing session
             if self.session_file.exists():
                 self._load_existing_session()
                 print(f"[Logger] Loaded existing session: {self.session_id}, {len(self.session.actions)} records")
@@ -93,7 +93,7 @@ class GameLogger:
                 print(f"[Logger] Warning: existing session file not found, creating new session")
                 self._create_new_session()
         else:
-            # 创建新的会话ID
+            # Create a new session ID
             if session_id:
                 self.session_id = session_id
             else:
@@ -105,7 +105,7 @@ class GameLogger:
             self._create_new_session()
 
     def _create_new_session(self):
-        """创建新的session"""
+        """Create a new session"""
         self.session = GameSession(
             session_id=self.session_id,
             game_type=self.game_type,
@@ -115,11 +115,11 @@ class GameLogger:
         )
 
     def _load_existing_session(self):
-        """加载现有的session"""
+        """Load an existing session"""
         with open(self.session_file, 'r', encoding='utf-8') as f:
             session_data = json.load(f)
 
-        # 重建session对象
+        # Rebuild the session object
         actions = [
             ActionLog(
                 step=action['step'],
@@ -152,7 +152,7 @@ class GameLogger:
             for action in session_data['actions']
         ]
 
-        # 不截断已有记录，直接保留全部历史，新步骤追加在后面
+        # Do not truncate existing records; keep full history and append new steps after
         # if self.truncate_after_step is not None:
         #     actions = [a for a in actions if a.step <= self.truncate_after_step]
 
@@ -182,7 +182,7 @@ class GameLogger:
         failed_files: Optional[List[str]] = None,
         hint_unlocked_files: Optional[List[str]] = None,
         consecutive_failures: Optional[int] = None,
-        # Dust 游戏专用参数
+        # Dust game specific parameters
         action_type: Any = None,
         action_params: Optional[Dict[str, Any]] = None,
         current_node_id: Optional[str] = None,
@@ -197,7 +197,7 @@ class GameLogger:
         order_judgements: Optional[List[Dict]] = None,
         awarded_pairs: Optional[List[List]] = None
     ) -> None:
-        """记录一次行动"""
+        """Record a single action"""
         action = ActionLog(
             step=step,
             timestamp=datetime.now().isoformat(),
@@ -207,12 +207,12 @@ class GameLogger:
             choices=choices,
             file_retrieval=file_retrieval,
             unlocked_files=unlocked_files,
-            attempted_files=None,  # 不记录
-            success_files=None,  # 不记录
+            attempted_files=None,  # not recorded
+            success_files=None,  # not recorded
             failed_files=failed_files,
             hint_unlocked_files=hint_unlocked_files,
             consecutive_failures=consecutive_failures,
-            # Dust 游戏字段
+            # Dust game fields
             action_type=action_type,
             action_params=action_params,
             current_node_id=current_node_id,
@@ -231,16 +231,16 @@ class GameLogger:
         self.session.actions.append(action)
         self.session.total_steps = step + 1
 
-        # 实时保存
+        # Save in real time
         self._save_session()
 
     def log_ending(self, ending_node: str, reached_ending: bool = True, story_summary: Optional[str] = None) -> None:
-        """记录游戏结束
+        """Record game ending
 
         Args:
-            ending_node: 结束节点ID
-            reached_ending: 是否达到结局
-            story_summary: 故事总结与推理（可选）
+            ending_node: Ending node ID
+            reached_ending: Whether an ending was reached
+            story_summary: Story summary and reasoning (optional)
         """
         self.session.end_time = datetime.now().isoformat()
         self.session.reached_ending = reached_ending
@@ -251,12 +251,12 @@ class GameLogger:
         self._generate_summary()
 
     def _save_session(self) -> None:
-        """保存会话到JSON文件"""
+        """Save session to JSON file"""
         with open(self.session_file, 'w', encoding='utf-8') as f:
             json.dump(asdict(self.session), f, ensure_ascii=False, indent=2)
 
     def _generate_summary(self) -> None:
-        """生成可读的摘要文件"""
+        """Generate a human-readable summary file"""
         lines = []
         lines.append("=" * 80)
         lines.append(f"Game Session Summary: {self.session_id}")
@@ -269,7 +269,7 @@ class GameLogger:
         lines.append(f"Ending Node: {self.session.ending_node}")
         lines.append("")
 
-        # 故事总结
+        # Story summary
         if self.session.story_summary:
             lines.append("=" * 80)
             lines.append("Story Summary & Analysis:")
@@ -277,7 +277,7 @@ class GameLogger:
             lines.append(self.session.story_summary)
             lines.append("")
 
-        # 统计信息
+        # Statistics
         if self.game_type == "type_help":
             all_unlocked = set()
             all_attempted = set()
@@ -294,7 +294,7 @@ class GameLogger:
             lines.append(f"  Attempted: {sorted(all_attempted)}")
             lines.append("")
 
-        # 行动轨迹
+        # Action trajectory
         lines.append("=" * 80)
         lines.append("Action Trajectory:")
         lines.append("=" * 80)
@@ -304,17 +304,17 @@ class GameLogger:
             lines.append(f"[Step {action.step}] {action.timestamp}")
             lines.append(f"{'=' * 80}")
 
-            # 1. 观察信息
+            # 1. Observation info
             lines.append(f"\n[Observation]")
             lines.append(f"  Node: {action.node_id} ({action.node_name})")
             lines.append(f"  Scene: {action.scene_text[:150]}...")
 
-            # 2. LLM决策
+            # 2. LLM decision
             lines.append(f"\n[LLM Decision]")
             lines.append(f"  Choice: {action.choices.get('text', 'N/A')}")
             lines.append(f"  Rationale: {action.choices.get('decision_rationale', 'N/A')}")
 
-            # 3. 文件检索决策（如果有）
+            # 3. File retrieval decision (if any)
             if action.file_retrieval:
                 lines.append(f"\n[File Retrieval Decision]")
                 need_retrieval = action.file_retrieval.get("need_retrieval", False)
@@ -328,19 +328,19 @@ class GameLogger:
                 else:
                     lines.append(f"  Need retrieval: No")
 
-            # 4. 文件追踪信息（Type Help游戏专用）
+            # 4. File tracking info (Type Help game only)
             if action.unlocked_files:
                 lines.append(f"\n[Unlocked Files]")
                 lines.append(f"  {', '.join(action.unlocked_files)}")
 
             # if action.attempted_files:
-            #     recent_attempts = action.attempted_files[-3:]  # 只显示最近3次
-            #     lines.append(f"\n[失败的尝试]")
+            #     recent_attempts = action.attempted_files[-3:]  # show only last 3
+            #     lines.append(f"\n[Failed Attempts]")
             #     lines.append(f"  {', '.join(recent_attempts)}")
 
             lines.append(f"\n{'-' * 80}")
 
-        # 写入文件
+        # Write to file
         with open(self.summary_file, 'w', encoding='utf-8') as f:
             f.write('\n'.join(lines))
 
@@ -349,9 +349,9 @@ class GameLogger:
         print(f"  - Summary: {self.summary_file}")
 
     def get_session_path(self) -> Path:
-        """获取会话文件路径"""
+        """Get the session file path"""
         return self.session_file
 
     def get_summary_path(self) -> Path:
-        """获取摘要文件路径"""
+        """Get the summary file path"""
         return self.summary_file

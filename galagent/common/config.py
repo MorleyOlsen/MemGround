@@ -1,5 +1,5 @@
 # galagent/common/config.py
-'''用于加载各个config'''
+'''Loads all configuration sections'''
 from __future__ import annotations
 
 import yaml
@@ -31,74 +31,74 @@ class EmbeddingConfig:
 
 @dataclass
 class MemAgentConfig:
-    """记忆代理配置（支持 Mem0、A-mem 等）"""
-    mem_name: str = "mem_0"  # "mem_0" 或 "a_mem"
-    use_mem: bool = False  # 是否使用记忆代理进行记忆管理
-    clear_on_start: bool = True  # 启动时是否清空记忆
+    """Memory agent configuration (supports Mem0, A-mem, etc.)"""
+    mem_name: str = "mem_0"  # "mem_0" or "a_mem"
+    use_mem: bool = False  # Whether to use a memory agent for memory management
+    clear_on_start: bool = True  # Whether to clear memory on startup
 
-    # Mem0 配置
+    # Mem0 configuration
     mem0_api_key: str = ""
 
-    # A-mem 配置
+    # A-mem configuration
     amem_embedding_model: str = "all-MiniLM-L6-v2"
-    amem_llm_backend: str = "openai"  # openai 或 ollama
+    amem_llm_backend: str = "openai"  # openai or ollama
     amem_llm_model: str = "gpt-4o-mini"
 
 
 @dataclass
 class AgentConfig:
-    """Agent运行配置"""
+    """Agent runtime configuration"""
     max_steps: int = 50
     retrieve_top_k: int = 3
     verbose: bool = True
-    retriever_type: str = "vector"  # keyword 或 vector
-    max_context_tokens: int = 4000  # 最大上下文token数
-    enable_compression: bool = True  # 是否启用记忆压缩
-    compression_threshold: int = 20  # 对话轮次超过此值时触发压缩
-    compression_count: int = 10  # 每次压缩最早的n轮对话
+    retriever_type: str = "vector"  # keyword or vector
+    max_context_tokens: int = 4000  # Maximum context token count
+    enable_compression: bool = True  # Whether to enable memory compression
+    compression_threshold: int = 20  # Trigger compression when conversation rounds exceed this value
+    compression_count: int = 10  # Number of earliest conversation rounds to compress each time
 
 
 @dataclass
 class CheckpointConfig:
-    """Checkpoint配置"""
-    enabled: bool = False  # 是否启用checkpoint
-    interval: int = 100  # 每隔多少步保存一次
-    dir: str = "checkpoints"  # checkpoint保存目录
-    resume_from: Optional[str] = None  # 从指定checkpoint恢复（文件路径）
+    """Checkpoint configuration"""
+    enabled: bool = False  # Whether to enable checkpoints
+    interval: int = 100  # Save interval in steps
+    dir: str = "checkpoints"  # Directory where checkpoints are saved
+    resume_from: Optional[str] = None  # Resume from a specific checkpoint (file path)
 
 
 @dataclass
 class EnvConfig:
-    """环境配置"""
-    game_type: str = "type_help"  # type_help, dust, trpg
+    """Environment configuration"""
+    game_type: str = "type_help"  # type_help, no_case_should_remain_unsolved, trpg
     scenes_path: str = "dataset/scenes.json"
     start_node_id: str = "start"
     test_language: str = "en"  # en (English prompts)
-    enable_hint: bool = False  # 是否启用失败次数提示功能 (仅type_help)
-    hint_failure_threshold: int = 15  # 触发提示的连续失败次数阈值 (仅type_help)
-    provide_naming_rules: bool = False  # 是否在prompt中明确告知文件命名规则 (仅type_help)
+    enable_hint: bool = False  # Whether to enable the failure-count hint feature (type_help only)
+    hint_failure_threshold: int = 15  # Consecutive failure threshold to trigger a hint (type_help only)
+    provide_naming_rules: bool = False  # Whether to explicitly state file naming rules in the prompt (type_help only)
     show_order_judgements_history: bool = True  # dust only: show all past ordering judgements in prompt
-    # TRPG 专用字段
+    # TRPG specific fields
     story_name: str = "Terror_on_the_Orient_Express"
     stories_dir: str = "dataset/trpg_en/stories"
     qa_dir: str = "dataset/trpg_en/qa"
 
 class ConfigLoader:
-    """配置加载器，用于加载所有配置"""
+    """Configuration loader for loading all configuration sections"""
 
     def __init__(self, config_path: Path):
         self.config_path = config_path
         self._data = self._load_config()
 
     def _load_config(self) -> Dict[str, Any]:
-        """加载配置文件"""
+        """Load the configuration file"""
         if not self.config_path.exists():
             raise FileNotFoundError(f"Config file not found: {self.config_path.resolve()}")
 
         return yaml.safe_load(self.config_path.read_text(encoding="utf-8"))
 
     def load_llm_config(self) -> LLMConfig:
-        """加载LLM配置"""
+        """Load LLM configuration"""
         llm = self._data.get("llm")
         if not llm:
             raise ValueError("LLM config not found in config file")
@@ -119,7 +119,7 @@ class ConfigLoader:
         )
 
     def load_embedding_config(self) -> EmbeddingConfig:
-        """加载Embedding配置"""
+        """Load Embedding configuration"""
         embedding = self._data.get("embedding")
         if not embedding:
             raise ValueError("Embedding config not found in config file")
@@ -139,7 +139,7 @@ class ConfigLoader:
         )
 
     def load_agent_config(self) -> AgentConfig:
-        """加载Agent配置"""
+        """Load Agent configuration"""
         agent = self._data.get("agent", {})
 
         return AgentConfig(
@@ -154,34 +154,34 @@ class ConfigLoader:
         )
 
     def load_checkpoint_config(self) -> CheckpointConfig:
-        """加载Checkpoint配置"""
+        """Load Checkpoint configuration"""
         checkpoint = self._data.get("checkpoint", {})
 
         return CheckpointConfig(
             enabled=bool(checkpoint.get("enabled", False)),
             interval=int(checkpoint.get("interval", 100)),
             dir=str(checkpoint.get("dir", "checkpoints")),
-            resume_from=checkpoint.get("resume_from"),  # 可以是None
+            resume_from=checkpoint.get("resume_from"),  # can be None
         )
 
     def load_mem_agent_config(self) -> MemAgentConfig:
-        """加载记忆代理配置"""
+        """Load memory agent configuration"""
         mem_agent = self._data.get("mem_agent", {})
 
         return MemAgentConfig(
             mem_name=str(mem_agent.get("mem_name", "mem_0")),
             use_mem=bool(mem_agent.get("use_mem", False)),
             clear_on_start=bool(mem_agent.get("clear_on_start", True)),
-            # Mem0 配置
+            # Mem0 configuration
             mem0_api_key=str(mem_agent.get("mem0_api_key", "")),
-            # A-mem 配置
+            # A-mem configuration
             amem_embedding_model=str(mem_agent.get("amem_embedding_model", "all-MiniLM-L6-v2")),
             amem_llm_backend=str(mem_agent.get("amem_llm_backend", "openai")),
             amem_llm_model=str(mem_agent.get("amem_llm_model", "gpt-4o-mini")),
         )
     
     def load_judge_llm_config(self) -> Optional[LLMConfig]:
-        """加载 judge 专用 LLM 配置，未配置时返回 None（回退到答题模型）"""
+        """Load judge-specific LLM configuration; returns None if not configured (falls back to the answer model)"""
         j = self._data.get("judge_llm")
         if not j:
             return None
@@ -197,7 +197,7 @@ class ConfigLoader:
         )
 
     def load_env_config(self) -> EnvConfig:
-        """加载环境配置"""
+        """Load environment configuration"""
         env = self._data.get("env", {})
         game_type = str(env.get("game_type", "type_help"))
         sub = env.get(game_type, {}) or {}
@@ -221,34 +221,34 @@ class ConfigLoader:
 
 
 def load_llm_config(path: Path) -> LLMConfig:
-    """加载LLM配置（保持向后兼容）"""
+    """Load LLM configuration (maintains backward compatibility)"""
     return ConfigLoader(path).load_llm_config()
 
 
 def load_embedding_config(path: Path) -> EmbeddingConfig:
-    """加载Embedding配置"""
+    """Load Embedding configuration"""
     return ConfigLoader(path).load_embedding_config()
 
 
 def load_agent_config(path: Path) -> AgentConfig:
-    """加载Agent配置"""
+    """Load Agent configuration"""
     return ConfigLoader(path).load_agent_config()
 
 
 def load_checkpoint_config(path: Path) -> CheckpointConfig:
-    """加载Checkpoint配置"""
+    """Load Checkpoint configuration"""
     return ConfigLoader(path).load_checkpoint_config()
 
 
 def load_env_config(path: Path) -> EnvConfig:
-    """加载环境配置"""
+    """Load environment configuration"""
     return ConfigLoader(path).load_env_config()
 
 
 def load_mem_agent_config(path: Path) -> MemAgentConfig:
-    """加载Mem0记忆管理配置"""
+    """Load memory agent configuration"""
     return ConfigLoader(path).load_mem_agent_config()
 
 def load_judge_llm_config(path: Path) -> Optional[LLMConfig]:
-    """加载judge LLM配置"""
+    """Load judge LLM configuration"""
     return ConfigLoader(path).load_judge_llm_config()

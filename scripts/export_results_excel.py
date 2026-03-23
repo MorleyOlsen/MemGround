@@ -1,7 +1,7 @@
 """
 Generate Excel from results.json files in logs/. Output format mirrors combined_results.xlsx.
 Output:
-  logs/dust_results.xlsx
+  logs/no_case_results.xlsx
   logs/type_help_results.xlsx
 """
 import json
@@ -146,7 +146,7 @@ def build_excel(rows: list[dict], out_path: Path):
 
 
 def main():
-    for game in ("dust", "type_help"):
+    for game in ("no_case_should_remain_unsolved", "type_help"):
         game_dir = LOGS / game
         if not game_dir.exists():
             print(f"[skip] {game_dir} not found")

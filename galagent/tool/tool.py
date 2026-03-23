@@ -17,7 +17,7 @@ from galagent.common.openai_harmony import (
 
 
 class ToolNamespaceConfig:
-    """工具命名空间配置类"""
+    """Tool namespace configuration class"""
     def __init__(self, name, description, tools):
         self.name = name
         self.description = description
@@ -26,24 +26,24 @@ class ToolNamespaceConfig:
 
 class Tool(ABC):
     """
-    工具基类，定义了工具的基本接口
+    Base class for tools, defines the basic tool interface
     """
 
     @property
     @abstractmethod
     def name(self) -> str:
-        """工具名称"""
+        """Tool name"""
         raise NotImplementedError
 
     @property
     @abstractmethod
     def instruction(self) -> str:
-        """工具使用说明"""
+        """Tool usage instructions"""
         raise NotImplementedError
 
     @property
     def tool_config(self) -> ToolNamespaceConfig:
-        """工具配置"""
+        """Tool configuration"""
         return ToolNamespaceConfig(
             name=self.name,
             description=self.instruction,
@@ -53,12 +53,12 @@ class Tool(ABC):
     def make_response(
         self,
         content: Content,
-        *, 
+        *,
         metadata: Dict[str, Any] | None = None,
         author: Author | None = None,
         channel: str | None = None,
     ) -> Message:
-        """创建工具响应消息，把响应结果交给assistant处理"""
+        """Create a tool response message and hand the result to the assistant"""
         author = Author(role=Role.TOOL, name=self.name)
 
         message = Message(
@@ -73,24 +73,24 @@ class Tool(ABC):
 
     @abstractmethod
     async def _process(self, message: Message) -> AsyncIterator[Message]:
-        """处理消息的具体实现"""
+        """Concrete implementation for processing messages"""
         if False:
             yield
         raise NotImplementedError
 
     async def process(self, message: Message) -> AsyncIterator[Message]:
-        """处理消息的公共接口"""
+        """Public interface for processing messages"""
         async for m in self._process(message):
             yield m
 
     def sync_process(self, message: Message) -> List[Message]:
-        """同步处理消息，返回消息列表"""
+        """Synchronously process a message, returning a list of messages"""
         import asyncio
         result = asyncio.run(self._sync_process(message))
         return result
 
     async def _sync_process(self, message: Message) -> List[Message]:
-        """内部同步处理实现"""
+        """Internal synchronous processing implementation"""
         messages = []
         async for msg in self._process(message):
             messages.append(msg)
@@ -99,7 +99,7 @@ class Tool(ABC):
 
 class LLMConfigLoaderTool(Tool):
     """
-    LLM配置加载工具，直接调用原有load_llm_config功能
+    LLM configuration loader tool, directly calls the original load_llm_config functionality
     """
 
     def __init__(self, name: str = "LLMConfigLoader"):
@@ -117,30 +117,30 @@ class LLMConfigLoaderTool(Tool):
     @property
     def instruction(self) -> str:
         return """
-        使用此工具加载LLM配置。支持从YAML文件加载配置。
-        输入格式：{"config_path": "配置文件路径"}
+        Use this tool to load LLM configuration. Supports loading configuration from a YAML file.
+        Input format: {"config_path": "path/to/config/file"}
         """
 
     async def _process(self, message: Message) -> AsyncIterator[Message]:
-        """直接调用原有函数加载LLM配置"""
+        """Directly call the original function to load LLM configuration"""
         import json
-        
+
         channel = message.channel
         raw_text = message.content[0].text
-        
+
         try:
             args = json.loads(raw_text)
             config_path = args.get("config_path")
-            
+
             if not config_path:
                 yield self.make_response(TextContent(text="Error: Missing 'config_path' parameter"), channel=channel)
                 return
-            
-            # 直接调用原有函数
+
+            # Directly call the original function
             from galagent.agent.llm_policy import load_llm_config
             config = load_llm_config(Path(config_path))
-            
-            # 返回配置结果
+
+            # Return the configuration result
             yield self.make_response(
                 TextContent(text=json.dumps({
                     "provider": config.provider,
@@ -161,7 +161,7 @@ class LLMConfigLoaderTool(Tool):
 
 class SceneLoaderTool(Tool):
     """
-    场景加载工具，直接调用原有load_nodes功能
+    Scene loader tool, directly calls the original load_nodes functionality
     """
 
     def __init__(self, name: str = "SceneLoader"):
@@ -183,26 +183,26 @@ class SceneLoaderTool(Tool):
     @property
     def instruction(self) -> str:
         return """
-        使用此工具加载场景数据。支持从JSON或YAML文件加载场景。
-        输入格式：{"file_path": "场景文件路径"}
+        Use this tool to load scene data. Supports loading scenes from JSON or YAML files.
+        Input format: {"file_path": "path/to/scene/file"}
         """
 
     async def _process(self, message: Message) -> AsyncIterator[Message]:
-        """直接调用原有函数加载场景数据"""
+        """Directly call the original function to load scene data"""
         import json
-        
+
         channel = message.channel
         raw_text = message.content[0].text
-        
+
         try:
             args = json.loads(raw_text)
             file_path = args.get("file_path")
-            
+
             if not file_path:
                 yield self.make_response(TextContent(text="Error: Missing 'file_path' parameter"), channel=channel)
                 return
-            
-            # 直接调用原有函数
+
+            # Directly call the original function
             from galagent.env.dataset_loader import load_nodes
             nodes = load_nodes(Path(file_path))
             
@@ -218,7 +218,7 @@ class SceneLoaderTool(Tool):
 
 class EmbeddingGeneratorTool(Tool):
     """
-    向量嵌入生成工具，直接调用原有get_qwen_embedding功能
+    Vector embedding generation tool, directly calls the original get_qwen_embedding functionality
     """
 
     def __init__(self, name: str = "EmbeddingGenerator"):
@@ -240,27 +240,27 @@ class EmbeddingGeneratorTool(Tool):
     @property
     def instruction(self) -> str:
         return """
-        使用此工具生成文本的向量嵌入。
-        输入格式：{"text": "文本内容", "dim": "嵌入维度(可选)"}
+        Use this tool to generate vector embeddings for text.
+        Input format: {"text": "text content", "dim": "embedding dimension (optional)"}
         """
 
     async def _process(self, message: Message) -> AsyncIterator[Message]:
-        """直接调用原有函数生成向量嵌入"""
+        """Directly call the original function to generate vector embeddings"""
         import json
-        
+
         channel = message.channel
         raw_text = message.content[0].text
-        
+
         try:
             args = json.loads(raw_text)
             text = args.get("text")
             dim = args.get("dim", 1536)
-            
+
             if not text:
                 yield self.make_response(TextContent(text="Error: Missing 'text' parameter"), channel=channel)
                 return
-            
-            # 直接调用原有函数
+
+            # Directly call the original function
             from galagent.memory.store import get_qwen_embedding
             embedding = get_qwen_embedding(text, dim)
             

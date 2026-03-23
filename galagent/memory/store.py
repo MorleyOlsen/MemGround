@@ -1,5 +1,5 @@
 # galagent/memory/store.py
-# 可以改成记忆滑动窗口的维护函数
+# Can be refactored into a memory sliding-window maintenance function
 from __future__ import annotations
 
 import requests
@@ -15,16 +15,16 @@ from galagent.memory.base_mem_agent import BaseMemAgent
 
 
 def get_qwen_embedding(text: str, config: EmbeddingConfig) -> List[float]:
-    """调用qwen3-vl-embedding接口生成真实的embedding
-    
+    """Call the qwen3-vl-embedding interface to generate a real embedding
+
     Args:
-        text: 要生成embedding的文本
-        config: Embedding配置
-        
+        text: The text to generate an embedding for
+        config: Embedding configuration
+
     Returns:
-        生成的embedding向量
+        The generated embedding vector
     """
-    # 根据配置决定是否使用真实embedding服务
+    # Decide whether to use the real embedding service based on configuration
     if config.use_real and config.api_key:
         try:
             client = OpenAI(
@@ -47,7 +47,7 @@ def get_qwen_embedding(text: str, config: EmbeddingConfig) -> List[float]:
 class MemoryItem:
     text: str
     meta: Dict[str, Any]
-    embedding: Optional[List[float]] = None  # 添加embedding字段
+    embedding: Optional[List[float]] = None  # Add embedding field
 
 
 class MemoryStore:
@@ -55,35 +55,35 @@ class MemoryStore:
         self._items: List[MemoryItem] = []
         self.use_faiss = use_faiss
         self.faiss_manager = None
-        self._next_id = 0  # 用于分配唯一ID
-        self.verbose = verbose  # 是否在控制台输出记忆
-        self.memory_log_file = memory_log_file  # 记忆日志文件路径
+        self._next_id = 0  # Used to assign unique IDs
+        self.verbose = verbose  # Whether to print memory output to console
+        self.memory_log_file = memory_log_file  # Path to the memory log file
 
-        # Mem agent 集成
+        # Mem agent integration
         self.mem_agent = mem_agent
         self.use_mem = use_mem and mem_agent is not None
 
-        # 获取项目根目录
+        # Get the project root directory
         root_path = Path(__file__).resolve().parent.parent.parent
 
-        # 加载embedding配置
+        # Load embedding configuration
         if embedding_config is None:
-            # 默认从项目根目录的config.yaml加载
+            # Load from config.yaml in the project root by default
             config_path = root_path / "config.yaml"
             embedding_config = load_embedding_config(config_path)
 
         self.embedding_config = embedding_config
         self.embedding_dim = embedding_config.dim
 
-        # 如果启用Faiss，初始化FaissManager
+        # If Faiss is enabled, initialize FaissManager
         if self.use_faiss and not self.use_mem:
             try:
-                # 创建faiss_data目录存储索引
+                # Create faiss_data directory for storing the index
                 faiss_dir = root_path / "faiss_data"
                 faiss_dir.mkdir(exist_ok=True)
                 index_file = faiss_dir / "memory.index"
 
-                # 使用内积（余弦相似度）作为度量
+                # Use inner product (cosine similarity) as the metric
                 self.faiss_manager = ThreadSafeFaissManager(
                     dim=self.embedding_dim,
                     index_file=str(index_file) if index_file.exists() else None,
@@ -95,10 +95,10 @@ class MemoryStore:
                 self.use_faiss = False
 
     def reset(self) -> None:
-        """重置内存存储"""
+        """Reset the memory store"""
         self._items.clear()
         self._next_id = 0
-        # 重新初始化Faiss索引
+        # Re-initialize the Faiss index
         if self.use_faiss and self.faiss_manager:
             try:
                 self.faiss_manager = ThreadSafeFaissManager(
@@ -110,24 +110,24 @@ class MemoryStore:
                 print(f"Faiss reset failed: {e}")
 
     def add(self, text: str, meta: Optional[Dict[str, Any]] = None, embedding: Optional[List[float]] = None) -> None:
-        """添加记忆项（仅负责添加，不管理窗口大小）
+        """Add a memory item (only handles adding, does not manage window size)
 
-        注意：添加后需要调用 game_utils.manage_memory() 来管理记忆窗口
+        Note: After adding, call game_utils.manage_memory() to manage the memory window
         """
         text = (text or "").strip()
         if not text:
             return
 
-        # 如果没有提供embedding，自动生成
+        # If no embedding is provided, generate one automatically
         if embedding is None:
             embedding = get_qwen_embedding(text, self.embedding_config)
 
-        # 如果使用Faiss且embedding生成失败，返回
+        # If using Faiss and embedding generation failed, return
         if self.use_faiss and embedding is None:
             print("Warning: embedding generation failed, skipping...")
             return
 
-        # 为embedding归一化（用于余弦相似度）
+        # Normalize embedding for cosine similarity
         if embedding and self.use_faiss:
             import numpy as np
             emb_array = np.array(embedding, dtype='float32')
@@ -135,14 +135,14 @@ class MemoryStore:
             if norm > 0:
                 embedding = (emb_array / norm).tolist()
 
-        # 创建新的记忆项
+        # Create a new memory item
         item_id = self._next_id
         item = MemoryItem(text=text, meta=meta or {}, embedding=embedding)
 
-        # 添加到内存列表
+        # Add to the in-memory list
         self._items.append(item)
 
-        # 添加到Faiss索引
+        # Add to the Faiss index
         if self.use_faiss and self.faiss_manager and embedding:
             try:
                 import numpy as np
@@ -156,21 +156,21 @@ class MemoryStore:
         self._next_id += 1
 
     def search_mem(self, query_embedding: List[float], top_k: int = 3, query_text: Optional[str] = None, filters: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
-        """使用Faiss或Mem agent搜索相似向量
+        """Search for similar vectors using Faiss or a Mem agent
 
         Args:
-            query_embedding: 查询向量（已归一化）
-            top_k: 返回的相似向量数量
-            query_text: 查询文本（用于Mem agent搜索）
-            filters: 可选的过滤条件（用于Mem agent搜索，如 {"role": "user"}）
+            query_embedding: Query vector (already normalized)
+            top_k: Number of similar vectors to return
+            query_text: Query text (used for Mem agent search)
+            filters: Optional filter conditions (used for Mem agent search, e.g. {"role": "user"})
 
         Returns:
-            搜索结果列表，每个结果包含text、meta和distance/score
+            List of search results, each containing text, meta, and distance/score
         """
-        # 如果使用Mem agent，使用Mem agent搜索
+        # If using Mem agent, search via Mem agent
         if self.use_mem and self.mem_agent and query_text:
             results = self.mem_agent.search_memories(query_text, top_k=top_k, filters=filters)
-            # 转换格式以匹配Faiss返回格式
+            # Convert format to match Faiss return format
             return [{
                 "text": r["text"],
                 "meta": r.get("metadata", {}),
@@ -178,31 +178,31 @@ class MemoryStore:
                 "similarity": r.get("score", 0.0)
             } for r in results]
 
-        # 否则使用Faiss
+        # Otherwise use Faiss
         if not self.use_faiss or not self.faiss_manager:
             return []
 
         try:
             import numpy as np
 
-            # 归一化查询向量
+            # Normalize the query vector
             query_array = np.array(query_embedding, dtype='float32')
             norm = np.linalg.norm(query_array)
             if norm > 0:
                 query_array = query_array / norm
 
-            # 搜索
+            # Search
             distances, indices = self.faiss_manager.search(
                 query_array.reshape(1, -1),
                 k=min(top_k, len(self._items))
             )
 
-            # 构建结果
+            # Build results
             results = []
             for dist, idx in zip(distances[0], indices[0]):
                 if idx != -1 and idx < len(self._items):
-                    # 计算在当前items中的实际索引
-                    # faiss中的ID是连续的，需要映射到当前的items
+                    # Calculate the actual index in the current items
+                    # IDs in Faiss are sequential; need to map them to the current items
                     actual_idx = idx - (self._next_id - len(self._items))
                     if 0 <= actual_idx < len(self._items):
                         item = self._items[actual_idx]
@@ -210,7 +210,7 @@ class MemoryStore:
                             "text": item.text,
                             "meta": item.meta,
                             "distance": float(dist),
-                            "similarity": float(dist)  # IP距离就是余弦相似度
+                            "similarity": float(dist)  # IP distance equals cosine similarity
                         })
 
             return results
@@ -219,19 +219,19 @@ class MemoryStore:
             return []
 
     def search_faiss(self, query_embedding: List[float], top_k: int = 3) -> List[Dict[str, Any]]:
-        """使用Faiss搜索相似向量（保留向后兼容性）
+        """Search for similar vectors using Faiss (kept for backward compatibility)
 
         Args:
-            query_embedding: 查询向量（已归一化）
-            top_k: 返回的相似向量数量
+            query_embedding: Query vector (already normalized)
+            top_k: Number of similar vectors to return
 
         Returns:
-            搜索结果列表，每个结果包含text、meta和distance
+            List of search results, each containing text, meta, and distance
         """
         return self.search_mem(query_embedding, top_k=top_k)
 
     def save_faiss_index(self) -> bool:
-        """保存Faiss索引到磁盘"""
+        """Save the Faiss index to disk"""
         if not self.use_faiss or not self.faiss_manager:
             return False
 
@@ -258,39 +258,39 @@ class MemoryStore:
 
     @property
     def embeddings(self) -> List[List[float]]:
-        """获取所有记忆项的embedding列表"""
+        """Get the list of embeddings for all memory items"""
         return [item.embedding for item in self._items if item.embedding is not None]
 
     def to_chat_messages(self, role_key: str = "role", include_system: bool = True, max_memories: int = 100) -> List[Dict[str, str]]:
-        """将记忆转换为多轮对话格式的消息列表
+        """Convert memories to a multi-turn conversation message list
 
         Args:
-            role_key: 从meta中提取角色的键名，默认为"role"
-            include_system: 是否包含system角色的消息，默认True
-            max_memories: 最多返回的记忆数量，默认100（仅对Mem agent有效）
+            role_key: Key name to extract the role from meta, defaults to "role"
+            include_system: Whether to include messages with the system role, defaults to True
+            max_memories: Maximum number of memories to return, defaults to 100 (only applies to Mem agent)
 
         Returns:
-            格式为 [{"role": "user/assistant/system", "content": "..."}] 的消息列表
+            A message list in the format [{"role": "user/assistant/system", "content": "..."}]
         """
-        # 如果使用Mem agent，从Mem agent获取记忆
+        # If using Mem agent, retrieve memories from the Mem agent
         if self.use_mem and self.mem_agent:
             all_memories = self.mem_agent.get_all_memories()
 
-            # 按 created_at 排序（从旧到新）
-            # created_at 是顶层字段，格式为 YYYYMMDDHHmm 或 ISO格式
+            # Sort by created_at (oldest first)
+            # created_at is a top-level field, formatted as YYYYMMDDHHmm or ISO format
             sorted_memories = sorted(
                 all_memories,
                 key=lambda m: m.get("created_at", "")
             )
 
-            # 获取最新的 max_memories 条
+            # Get the most recent max_memories entries
             recent_memories = sorted_memories[-max_memories:] if len(sorted_memories) > max_memories else sorted_memories
 
             messages = []
             for mem in recent_memories:
                 role = mem.get("metadata", {}).get(role_key, "user")
 
-                # 根据参数决定是否跳过system消息
+                # Skip system messages based on parameter
                 if not include_system and role == "system":
                     continue
 
@@ -300,12 +300,12 @@ class MemoryStore:
                 })
             return messages
 
-        # 否则使用传统方式
+        # Otherwise use the traditional approach
         messages = []
         for item in self._items:
-            role = item.meta.get(role_key, "user")  # 默认为user角色
+            role = item.meta.get(role_key, "user")  # Default to user role
 
-            # 根据参数决定是否跳过system消息
+            # Skip system messages based on parameter
             if not include_system and role == "system":
                 continue
 
@@ -317,34 +317,34 @@ class MemoryStore:
         return messages
 
     def add_message(self, content: str, role: str = "user", **extra_meta) -> None:
-        """便捷方法：添加一条对话消息到记忆中
+        """Convenience method: add a conversation message to memory
 
         Args:
-            content: 消息内容
-            role: 角色类型，可以是 "user", "assistant", "system"
-            **extra_meta: 额外的元数据
+            content: Message content
+            role: Role type, can be "user", "assistant", or "system"
+            **extra_meta: Additional metadata
 
-        示例:
-            store.add_message("请帮我分析这个问题", role="user", step=1)
-            store.add_message("好的，让我来分析", role="assistant", step=1)
+        Example:
+            store.add_message("Please help me analyze this problem", role="user", step=1)
+            store.add_message("Sure, let me analyze it", role="assistant", step=1)
         """
         meta = {"role": role, **extra_meta}
 
-        # 如果使用Mem agent，添加到Mem agent
+        # If using Mem agent, add to Mem agent
         if self.use_mem and self.mem_agent:
             self.mem_agent.add_memory(content, metadata=meta)
         else:
-            # 使用传统方式添加
+            # Use the traditional approach to add
             self.add(content, meta=meta)
 
-        # 输出到控制台
+        # Print to console
         if self.verbose:
             step = extra_meta.get('step', '?')
             role_emoji = {"user": "📄", "assistant": "🤖", "system": "ℹ️"}.get(role, "💬")
             print(f"\n{role_emoji} [Step {step}] [{role.upper()}]")
             print(f"  {content[:200]}{'...' if len(content) > 200 else ''}")
 
-        # 输出到文件
+        # Write to file
         if self.memory_log_file:
             try:
                 import json
@@ -363,36 +363,36 @@ class MemoryStore:
                 print(f"Failed to write memory log: {e}")
 
     def delete_oldest(self, count: int = 1) -> int:
-        """删除最早的若干条记忆（用于上下文长度管理）
+        """Delete the oldest memory items (for context length management)
 
         Args:
-            count: 要删除的记忆数量，默认为1
+            count: Number of memories to delete, defaults to 1
 
         Returns:
-            实际删除的记忆数量
+            The actual number of memories deleted
 
-        示例:
-            # 当检测到上下文超长时
+        Example:
+            # When context is detected to be too long
             deleted = store.delete_oldest(5)
-            print(f"删除了 {deleted} 条最早的记忆")
+            print(f"Deleted {deleted} oldest memories")
         """
         if count <= 0:
             return 0
 
-        # 计算实际可删除的数量
+        # Calculate the actual number that can be deleted
         actual_count = min(count, len(self._items))
 
         if actual_count == 0:
             return 0
 
-        # 删除最早的记忆
+        # Delete the oldest memories
         for _ in range(actual_count):
             oldest_item = self._items.pop(0)
 
-            # 从Faiss中删除对应的向量
+            # Remove the corresponding vector from Faiss
             if self.use_faiss and self.faiss_manager:
                 try:
-                    # 计算要删除的faiss ID
+                    # Calculate the Faiss ID to delete
                     oldest_id = self._next_id - len(self._items) - 1
                     if oldest_id >= 0:
                         self.faiss_manager.remove_ids([oldest_id])
@@ -404,41 +404,41 @@ class MemoryStore:
         return actual_count
 
     def delete_by_priority(self, count: int = 1) -> int:
-        """按优先级删除记忆（优先删除assistant消息）
+        """Delete memories by priority (prefer deleting assistant messages)
 
-        删除策略：
-        1. 优先删除role为assistant的消息（从最早的开始）
-        2. 如果assistant消息不足，再删除其他消息（从最早的开始）
+        Deletion strategy:
+        1. Prefer deleting messages with role=assistant (starting from the oldest)
+        2. If there are not enough assistant messages, delete other messages (starting from the oldest)
 
         Args:
-            count: 要删除的记忆数量，默认为1
+            count: Number of memories to delete, defaults to 1
 
         Returns:
-            实际删除的记忆数量
+            The actual number of memories deleted
 
-        示例:
-            # 当检测到上下文超长时，优先删除assistant消息
+        Example:
+            # When context is too long, prefer deleting assistant messages
             deleted = store.delete_by_priority(5)
-            print(f"删除了 {deleted} 条记忆（优先assistant）")
+            print(f"Deleted {deleted} memories (assistant first)")
         """
         if count <= 0:
             return 0
 
         deleted_count = 0
 
-        # 第一阶段：删除assistant消息（从最早的开始）
+        # Phase 1: Delete assistant messages (starting from the oldest)
         i = 0
         while i < len(self._items) and deleted_count < count:
             item = self._items[i]
             if item.meta.get("role") == "assistant":
-                # 删除这条记忆
+                # Delete this memory
                 deleted_item = self._items.pop(i)
                 deleted_count += 1
 
-                # 从Faiss中删除对应的向量
+                # Remove the corresponding vector from Faiss
                 if self.use_faiss and self.faiss_manager:
                     try:
-                        # 计算要删除的faiss ID
+                        # Calculate the Faiss ID to delete
                         item_id = self._next_id - len(self._items) - deleted_count
                         if item_id >= 0:
                             self.faiss_manager.remove_ids([item_id])
@@ -446,11 +446,11 @@ class MemoryStore:
                                 print(f"Deleted assistant memory (ID: {item_id}): {deleted_item.text[:30]}...")
                     except Exception as e:
                         print(f"Failed to remove vector from Faiss: {e}")
-                # 不增加i，因为删除后当前位置是下一个元素
+                # Do not increment i, because after deletion the current position holds the next element
             else:
                 i += 1
 
-        # 第二阶段：如果还需要删除更多，调用delete_oldest删除最早的其他消息
+        # Phase 2: If more deletions are needed, call delete_oldest to remove other messages
         remaining = count - deleted_count
         if remaining > 0:
             deleted_count += self.delete_oldest(remaining)
@@ -458,15 +458,15 @@ class MemoryStore:
         return deleted_count
 
     def get_total_tokens_estimate(self, chars_per_token: float = 2.5) -> int:
-        """估算当前所有记忆的token数量
+        """Estimate the total number of tokens for all current memories
 
         Args:
-            chars_per_token: 每个token的平均字符数，中文约2.5，英文约4
+            chars_per_token: Average characters per token (approx. 2.5 for Chinese, 4 for English)
 
         Returns:
-            估算的总token数
+            Estimated total token count
 
-        示例:
+        Example:
             tokens = store.get_total_tokens_estimate()
             if tokens > 4000:
                 store.delete_oldest(5)
@@ -476,14 +476,14 @@ class MemoryStore:
 
 
     def get_memory_context(self) -> Dict[str, Any]:
-        """获取当前存储的记忆作为游戏上下文
+        """Get the current stored memories as game context
 
         Returns:
-            包含对话历史和记忆统计信息的字典
+            A dictionary containing conversation history and memory statistics
             {
-                "conversation_history": List[Dict[str, str]],  # 对话历史
-                "total_items": int,  # 总记忆条数
-                "total_tokens": int,  # 估算的总token数
+                "conversation_history": List[Dict[str, str]],  # Conversation history
+                "total_items": int,  # Total number of memory items
+                "total_tokens": int,  # Estimated total token count
             }
         """
         return {
@@ -493,10 +493,10 @@ class MemoryStore:
         }
 
     def get_state(self) -> Dict[str, Any]:
-        """获取记忆存储状态用于checkpoint
+        """Get memory store state for checkpoint
 
         Returns:
-            包含所有记忆项的状态字典
+            State dictionary containing all memory items
         """
         state = {
             "items": [
@@ -513,17 +513,17 @@ class MemoryStore:
             "use_mem": self.use_mem
         }
 
-        # 如果使用Mem agent，保存Mem agent状态
+        # If using Mem agent, save the Mem agent state
         if self.use_mem and self.mem_agent:
             state["mem_agent_state"] = self.mem_agent.get_state()
 
         return state
 
     def restore_state(self, state: Dict[str, Any]) -> None:
-        """从checkpoint恢复记忆存储状态
+        """Restore memory store state from checkpoint
 
         Args:
-            state: 记忆状态字典
+            state: Memory state dictionary
         """
         from galagent.memory.store import MemoryItem
 
@@ -537,13 +537,13 @@ class MemoryStore:
             )
             self._items.append(item)
 
-        # 恢复next_id
+        # Restore next_id
         self._next_id = state.get("next_id", len(self._items))
 
-        # 恢复use_mem标志
+        # Restore the use_mem flag
         self.use_mem = state.get("use_mem", False)
 
-        # 如果使用Mem agent，恢复Mem agent状态
+        # If using Mem agent, restore the Mem agent state
         if self.use_mem and self.mem_agent and "mem_agent_state" in state:
             self.mem_agent.restore_state(state["mem_agent_state"])
 

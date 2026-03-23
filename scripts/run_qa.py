@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-run_qa.py — QA evaluation script for Dust / TypeHelp games
+run_qa.py — QA evaluation script for No Case Should Remain Unsolved / TypeHelp games
 
 Two calling modes:
-  1. Standalone CLI  : python scripts/run_qa.py [--game_type dust|type_help]
+  1. Standalone CLI  : python scripts/run_qa.py [--game_type no_case_should_remain_unsolved|type_help]
      Loads memory from a checkpoint file (path configured at top of file).
   2. Inline (auto)   : called from galAgent.py after game ends via run_qa_from_store().
      Uses the live MemoryStore directly — no checkpoint file needed.
@@ -19,10 +19,10 @@ from __future__ import annotations
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # ── Standalone mode config (edit here for CLI usage) ────────────────────────
-GAME_TYPE = "type_help"   # "dust" or "type_help"
+GAME_TYPE = "type_help"   # "no_case_should_remain_unsolved" or "type_help"
 
 CHECKPOINT_PATH = {
-    "dust":      "logs/dust/dust_20260224_210044/checkpoints/step_000599.json",
+    "no_case_should_remain_unsolved": "logs/no_case_should_remain_unsolved/no_case_should_remain_unsolved_20260224_210044/checkpoints/step_000599.json",
     "type_help": "logs/type_help/type_help_20260224_210044/checkpoints/step_000199.json",
 }
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -48,14 +48,14 @@ from galagent.memory.store import MemoryStore
 
 # ── Game routing config ─────────────────────────────────────────────────────────
 GAME_CONFIG: Dict[str, Optional[Dict]] = {
-    "dust": {
-        "qa_path":    "dataset/The_dust_settles-en/dust_qa_eval.json",
-        "stories_dir": "dataset/The_dust_settles-en/stories",
-        "story_name": "The_dust_settles_en",
+    "no_case_should_remain_unsolved": {
+        "qa_path":    "dataset/no_case_should_remain_unsolved-en/qa/no_case_should_remain_unsolved_qa_eval.json",
+        "stories_dir": "dataset/no_case_should_remain_unsolved-en/stories",
+        "story_name": "no_case_should_remain_unsolved_en",
         "language":   "en",
     },
     "type_help": {
-        "qa_path":    "dataset/type_help-en/type_help_qa_eval.json",
+        "qa_path":    "dataset/type_help-en/qa/type_help_qa_eval.json",
         "stories_dir": "dataset/type_help-en/stories",
         "story_name": "type_help_en",
         "language":   "en",
@@ -204,14 +204,14 @@ def build_evidence_lookup(stories_dir: Path, story_name: str) -> Dict[str, str]:
         m = re.match(r'^(T?)(\d+)_', fn.name)
         if not m:
             continue
-        prefix  = m.group(1) or "D"  # T or empty string (empty → dust uses D)
+        prefix  = m.group(1) or "D"  # T or empty string (empty → no_case_should_remain_unsolved uses D)
         sec_num = int(m.group(2))    # number part moved to group 2
         try:
             data = json.loads(fn.read_text(encoding="utf-8"))
         except Exception:
             continue
         for idx, conv in enumerate(data.get("conversation", [])):
-            key = f"{prefix}{sec_num:02d}:{idx}"  # dust→D01:0，type_help→T01:0
+            key = f"{prefix}{sec_num:02d}:{idx}"  # no_case_should_remain_unsolved→D01:0, type_help→T01:0
             lookup[key] = conv.get("text", "")
     return lookup
 
@@ -894,7 +894,7 @@ def run_qa(game_type: str) -> None:
     """Standalone QA evaluation: loads memory from a checkpoint file.
 
     Configure CHECKPOINT_PATH at the top of this file, then run:
-        python scripts/run_qa.py --game_type dust
+        python scripts/run_qa.py --game_type no_case_should_remain_unsolved
     """
     cfg_path = _ROOT / "config.yaml"
     cfg      = load_config(cfg_path)
@@ -1005,10 +1005,10 @@ def run_qa_from_store(
 ) -> None:
     """Inline QA evaluation: uses live MemoryStore, no checkpoint file needed.
 
-    Called automatically from galAgent.py after type_help / dust game ends.
+    Called automatically from galAgent.py after type_help / no_case_should_remain_unsolved game ends.
 
     Args:
-        game_type:        "type_help" or "dust"
+        game_type:        "type_help" or "no_case_should_remain_unsolved"
         store:            The live MemoryStore from galAgent.py
         memory_log_file:  Path to logs/memory_{session_id}.jsonl
         log_dir:          Output directory, e.g. logs/{game_type}/{session_id}/
