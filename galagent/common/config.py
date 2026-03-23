@@ -80,7 +80,7 @@ class EnvConfig:
     show_order_judgements_history: bool = True  # dust only: show all past ordering judgements in prompt
     # TRPG specific fields
     story_name: str = "Terror_on_the_Orient_Express"
-    stories_dir: str = "dataset/trpg_en/stories"
+    data_dir: str = "dataset/trpg_en/data"
     qa_dir: str = "dataset/trpg_en/qa"
 
 class ConfigLoader:
@@ -215,7 +215,7 @@ class ConfigLoader:
             provide_naming_rules=bool(get("provide_naming_rules", False)),
             show_order_judgements_history=bool(get("show_order_judgements_history", True)),
             story_name=str(get("story_name", "Terror_on_the_Orient_Express")),
-            stories_dir=str(get("stories_dir", "dataset/trpg_en/stories")),
+            data_dir=str(get("data_dir", "dataset/trpg_en/data")),
             qa_dir=str(get("qa_dir", "dataset/trpg_en/qa")),
         )
 

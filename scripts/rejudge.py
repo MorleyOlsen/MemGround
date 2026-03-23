@@ -21,7 +21,7 @@ _TARGET = {
     "output":      None,
 
     # story data directory
-    "stories_dir": "dataset/trpg_en/stories",
+    "data_dir": "dataset/trpg_en/data",
 
     # skip certain judges (True = keep existing value, skip LLM call)
     "skip_acc":  False,
@@ -387,7 +387,7 @@ def main():
     # CLI args take priority, fall back to _TARGET config
     results_str  = args.results      or _TARGET["results"]
     output_str   = args.output       or _TARGET["output"]
-    stories_str  = args.stories_dir  or _TARGET["stories_dir"]
+    stories_str  = args.data_dir  or _TARGET["data_dir"]
     skip_acc     = args.skip_acc  or _TARGET["skip_acc"]
     skip_inst    = args.skip_inst or _TARGET["skip_inst"]
     skip_cit     = args.skip_cit  or _TARGET["skip_cit"]

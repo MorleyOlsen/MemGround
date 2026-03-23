@@ -250,7 +250,7 @@ env:
   game_type: "trpg"
   trpg:
     story_name: "Terror_on_the_Orient_Express"  # see available stories below
-    stories_dir: "dataset/trpg_en/stories"
+    data_dir: "dataset/trpg_en/data"
     qa_dir: "dataset/trpg_en/qa"
     test_language: "en"
 ```
@@ -535,8 +535,8 @@ dataset/
 │   │   └── stories/no_case_should_remain_unsolved_en/  # Story text assets (used by QA)
 │
 └── trpg_en/
-    ├── stories/
-    │   └── <story_name>/                 # One directory per story
+    ├── data/
+    │   └── <story_name>/                 # One subdirectory per story
     │       └── *.json                    # Story scene nodes
     └── qa/
         └── <story_name>_qa.json          # QA evaluation pairs per story

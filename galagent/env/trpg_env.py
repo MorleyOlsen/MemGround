@@ -15,7 +15,7 @@ from galagent.common.schemas import Choice, Memory, Observation
 class TRPGConfig(GameConfig):
     """TRPG environment configuration"""
     game_type: str = "trpg"
-    data_path: Path = Path("dataset/trpg_en/stories")
+    data_path: Path = Path("dataset/trpg_en/data")
     qa_path: Path = Path("dataset/trpg_en/qa")
     story_name: str = "Terror_on_the_Orient_Express"
     test_language: str = "en"  # en (English)

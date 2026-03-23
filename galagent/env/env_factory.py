@@ -57,7 +57,7 @@ def create_game_env(env_config: EnvConfig, root_path: Path) -> BaseGameEnv:
         # TRPG game
         config = TRPGConfig(
             game_type="trpg",
-            data_path=root_path / env_config.stories_dir,
+            data_path=root_path / env_config.data_dir,
             qa_path=root_path / env_config.qa_dir,
             story_name=env_config.story_name,
             test_language=env_config.test_language,

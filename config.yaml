@@ -84,6 +84,6 @@ env:
     story_name: "Terror_on_the_Orient_Express"
     # story_name: "Cold_Wind_Howling"
     # story_name: "Spring_Snow_Incident"
-    stories_dir: "dataset/trpg_en/stories"
+    data_dir: "dataset/trpg_en/data"
     qa_dir: "dataset/trpg_en/qa"
     test_language: "en"
