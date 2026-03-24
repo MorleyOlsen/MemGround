@@ -1,4 +1,4 @@
-# galagent/memory/base_mem_agent.py
+# memground_agent/memory/base_mem_agent.py
 """Memory agent base class, defines the unified interface"""
 from abc import ABC, abstractmethod
 from typing import Dict, List, Any, Optional

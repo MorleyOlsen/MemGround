@@ -39,12 +39,12 @@ from typing import Any, Dict, List, Optional, Tuple
 import yaml
 from openai import OpenAI
 
-# ── Add project root to path for galagent imports ──────────────────────────────
+# ── Add project root to path for memground_agent imports ──────────────────────────────
 _ROOT = Path(__file__).resolve().parent.parent
 if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
-from galagent.memory.store import MemoryStore
+from memground_agent.memory.store import MemoryStore
 
 # ── Game routing config ─────────────────────────────────────────────────────────
 GAME_CONFIG: Dict[str, Optional[Dict]] = {
@@ -462,13 +462,13 @@ def _init_mem_agent(mem_cfg: Dict[str, Any], game_type: str, model_name: str = "
     mem_name = mem_cfg.get("mem_name", "mem_0")
     verbose  = mem_cfg.get("verbose", False)
     if mem_name == "mem_0":
-        from galagent.memory.mem0 import Mem0Agent
+        from memground_agent.memory.mem0 import Mem0Agent
         api_key = mem_cfg.get("mem0_api_key", "")
         if not api_key:
             raise ValueError("mem_agent.mem0_api_key is required when mem_name='mem_0'")
         return Mem0Agent(api_key=api_key, game_name=game_type, model_name=model_name, verbose=verbose)
     elif mem_name == "a_mem":
-        from galagent.memory.amem import AMemAgent
+        from memground_agent.memory.amem import AMemAgent
         return AMemAgent(
             game_name=game_type,
             embedding_model=mem_cfg.get("amem_embedding_model", "all-MiniLM-L6-v2"),

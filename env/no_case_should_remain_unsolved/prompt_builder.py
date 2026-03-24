@@ -4,8 +4,8 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional
 
-from galagent.common.schemas import Observation
-from galagent.env.base_prompt_builder import BasePromptBuilder
+from memground_agent.common.schemas import Observation
+from memground_agent.env.base_prompt_builder import BasePromptBuilder
 from env.no_case_should_remain_unsolved.utils.scoring import build_trace_structure, describe_trace
 
 

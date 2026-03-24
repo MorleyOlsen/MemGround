@@ -1,4 +1,4 @@
-# galagent/env/type_help_env.py
+# memground_agent/env/type_help_env.py
 """Type Help puzzle game environment"""
 from __future__ import annotations
 
@@ -7,8 +7,8 @@ from dataclasses import dataclass
 from typing import Any, Dict, List
 from pathlib import Path
 
-from galagent.common.schemas import Observation, Choice, Memory, Character
-from galagent.env.base_env import BaseGameEnv, GameConfig
+from memground_agent.common.schemas import Observation, Choice, Memory, Character
+from memground_agent.env.base_env import BaseGameEnv, GameConfig
 from env.type_help.utils.file_tracker import FileTracker
 
 

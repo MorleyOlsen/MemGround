@@ -1,4 +1,4 @@
-# galagent/env/trpg_env.py
+# memground_agent/env/trpg_env.py
 """TRPG evaluation environment"""
 from __future__ import annotations
 
@@ -7,8 +7,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List
 
-from galagent.env.base_env import BaseGameEnv, GameConfig
-from galagent.common.schemas import Choice, Memory, Observation
+from memground_agent.env.base_env import BaseGameEnv, GameConfig
+from memground_agent.common.schemas import Choice, Memory, Observation
 
 
 @dataclass

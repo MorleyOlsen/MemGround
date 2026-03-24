@@ -1,4 +1,4 @@
-# galagent/logger/game_logger.py
+# memground_agent/logger/game_logger.py
 """Game run logging system"""
 from __future__ import annotations
 

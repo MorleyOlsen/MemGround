@@ -1,4 +1,4 @@
-# galagent/env/no_case_should_remain_unsolved_env.py
+# memground_agent/env/no_case_should_remain_unsolved_env.py
 """No Case Should Remain Unsolved reasoning game environment"""
 from __future__ import annotations
 
@@ -9,8 +9,8 @@ from typing import Any, Dict, List, Set, Tuple
 from pathlib import Path
 import base64
 
-from galagent.common.schemas import Observation, Choice, Memory, Character
-from galagent.env.base_env import BaseGameEnv, GameConfig
+from memground_agent.common.schemas import Observation, Choice, Memory, Character
+from memground_agent.env.base_env import BaseGameEnv, GameConfig
 from env.no_case_should_remain_unsolved.utils.node_index import build_node_indices, get_events_by_tag, get_node_characters
 from env.no_case_should_remain_unsolved.utils.scoring import judge_character_orders, calculate_keys_earned, can_unlock_with_key
 

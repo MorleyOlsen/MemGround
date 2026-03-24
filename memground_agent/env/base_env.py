@@ -1,4 +1,4 @@
-# galagent/env/base_env.py
+# memground_agent/env/base_env.py
 """Game environment base class"""
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from typing import Any, Dict
 from pathlib import Path
 
-from galagent.common.schemas import Observation
+from memground_agent.common.schemas import Observation
 
 
 @dataclass

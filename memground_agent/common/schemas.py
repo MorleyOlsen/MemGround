@@ -1,4 +1,4 @@
-# galagent/common/schemas.py
+# memground_agent/common/schemas.py
 from __future__ import annotations
 
 from dataclasses import dataclass, field

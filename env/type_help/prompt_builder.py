@@ -4,8 +4,8 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional
 
-from galagent.common.schemas import Observation
-from galagent.env.base_prompt_builder import BasePromptBuilder
+from memground_agent.common.schemas import Observation
+from memground_agent.env.base_prompt_builder import BasePromptBuilder
 
 
 class TypeHelpPromptBuilder(BasePromptBuilder):

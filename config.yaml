@@ -1,22 +1,19 @@
 llm:
   provider: openai
-  # api_key: "YOUR_API_KEY_HERE"           # Replace with your OpenAI-compatible API key
-  # base_url: http://127.0.0.1:8000/v1     # Or e.g. https://api.openai.com/v1
-  # model: gpt-4o                          # Model name, e.g. gpt-4o, qwen3-32b, deepseek-chat
+  api_key: "YOUR_API_KEY_HERE"           # Replace with your OpenAI-compatible API key
+  base_url: http://127.0.0.1:8000/v1     # Or e.g. https://api.openai.com/v1
+  model: gpt-4o                          # Model name, e.g. gpt-4o, qwen3-32b, deepseek-chat
   temperature: 0.2
   max_output_tokens: 600
-  base_url: https://api.deepseek.com
-  model: "deepseek-reasoner"
-  api_key: "sk-f976c47739e6484fb8a2af8adb5628ee" 
   goal_instruction: |
     You are playing a galgame.
     Use retrieved memory to stay consistent with earlier hints.
 
 judge_llm:
   provider: openai
-  api_key: "sk-f976c47739e6484fb8a2af8adb5628ee"     # API key for the judge LLM (can be same as above)
-  base_url: https://api.deepseek.com
-  model: "deepseek-reasoner"
+  api_key: "YOUR_API_KEY_HERE"           # Replace with your OpenAI-compatible API key
+  base_url: http://127.0.0.1:8000/v1     # Or e.g. https://api.openai.com/v1
+  model: gpt-4o         
   temperature: 0.0
   max_output_tokens: 1024
 
@@ -39,6 +36,10 @@ agent:
   compression_count: 80      # Compress earliest N turns each time
 
 mem_agent:
+  # mem_name: "mem_0"
+  # use_mem: true
+  # clear_on_start: false  # 启动时是否清空记忆（true=每次重新开始，false=累积记忆）
+  # mem0_api_key: "m0-olEl3WJfYhDmDepihzfGN09o2dT8bJHrTTDc4I2I"
   use_mem: false
   # To enable A-mem (local) or Mem0 (cloud), uncomment and configure:
   # mem_name: "a_mem"
@@ -60,7 +61,7 @@ checkpoint:
 # Uncomment ONE game block at a time.
 
 # ── Type Help (file puzzle game) ─────────────────────────────────────────────
-env:
+# env:
   # game_type: "type_help"
   # scenes_path: "dataset/type_help-en/data/nodes.json"
   # start_node_id: "Background"

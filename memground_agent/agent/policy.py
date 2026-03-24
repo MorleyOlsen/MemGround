@@ -1,25 +1,14 @@
-# galagent/agent/policy.py
+# memground_agent/agent/policy.py
 from __future__ import annotations
 import json
 import time
 from typing import Any, Dict, List, Optional
 from openai import OpenAI
 
-from galagent.common.schemas import Decision, Observation
-from galagent.common.config import LLMConfig
-from galagent.env.base_prompt_builder import BasePromptBuilder
+from memground_agent.common.schemas import Decision, Observation
+from memground_agent.common.config import LLMConfig
+from memground_agent.env.base_prompt_builder import BasePromptBuilder
 
-class DummyPolicy:
-    """
-    MVP: always choose the first option.
-    Replace with LLM policy later (keep same interface).
-    """
-
-    def decide(self, obs: Observation, retrieved_hits: list[str]) -> Decision:
-        return Decision(
-            choice_index=0,
-            rationale=f"MVP policy: choose option 0; retrieved_hits={len(retrieved_hits)}.",
-        )
 
 class LLMPolicy:
     """

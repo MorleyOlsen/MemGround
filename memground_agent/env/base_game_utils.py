@@ -1,11 +1,11 @@
-# galagent/env/base_game_utils.py
+# memground_agent/env/base_game_utils.py
 """Base class for game-specific utilities"""
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Optional
 
-from galagent.common.schemas import Observation
+from memground_agent.common.schemas import Observation
 
 
 class BaseGameUtils(ABC):

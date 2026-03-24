@@ -7,7 +7,7 @@ from typing import AsyncIterator, Any, Dict, Optional, List
 from pathlib import Path
 import json
 import yaml
-from galagent.common.openai_harmony import (
+from memground_agent.common.openai_harmony import (
     Author,
     Content,
     Message,
@@ -137,7 +137,7 @@ class LLMConfigLoaderTool(Tool):
                 return
 
             # Directly call the original function
-            from galagent.agent.llm_policy import load_llm_config
+            from memground_agent.agent.llm_policy import load_llm_config
             config = load_llm_config(Path(config_path))
 
             # Return the configuration result
@@ -203,7 +203,7 @@ class SceneLoaderTool(Tool):
                 return
 
             # Directly call the original function
-            from galagent.env.dataset_loader import load_nodes
+            from memground_agent.env.dataset_loader import load_nodes
             nodes = load_nodes(Path(file_path))
             
             yield self.make_response(
@@ -261,7 +261,7 @@ class EmbeddingGeneratorTool(Tool):
                 return
 
             # Directly call the original function
-            from galagent.memory.store import get_qwen_embedding
+            from memground_agent.memory.store import get_qwen_embedding
             embedding = get_qwen_embedding(text, dim)
             
             yield self.make_response(

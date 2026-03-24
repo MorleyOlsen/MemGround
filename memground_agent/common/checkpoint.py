@@ -1,4 +1,4 @@
-# galagent/common/checkpoint.py
+# memground_agent/common/checkpoint.py
 """Checkpoint manager for saving and restoring game state"""
 from __future__ import annotations
 

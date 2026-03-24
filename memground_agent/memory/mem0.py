@@ -1,4 +1,4 @@
-# galagent/memory/mem0.py
+# memground_agent/memory/mem0.py
 """Mem0 memory management wrapper for game agent"""
 
 from __future__ import annotations

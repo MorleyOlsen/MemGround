@@ -1,20 +1,20 @@
-# galagent/agent/runner.py AgentLoop
+# memground_agent/agent/runner.py AgentLoop
 # TODO: investigate repeated file opens - 1.unlock list not updating 2.initial node needs more info 3.language 4.check LLM input
 from __future__ import annotations
 
 from typing import List, Union, Optional
 import json
 
-from galagent.common.schemas import Observation
-from galagent.common.openai_harmony import Message, TextContent, Author, Role
-from galagent.common.config import AgentConfig
-from galagent.common.checkpoint import CheckpointManager
-from galagent.env.base_env import BaseGameEnv
-from galagent.env.base_game_utils import BaseGameUtils
-from galagent.memory.store import MemoryStore
-from galagent.memory.retriever import KeywordRetrieverTool, VectorRetriever
-from galagent.agent.policy import DummyPolicy, LLMPolicy
-from galagent.logger import GameLogger
+from memground_agent.common.schemas import Observation
+from memground_agent.common.openai_harmony import Message, TextContent, Author, Role
+from memground_agent.common.config import AgentConfig
+from memground_agent.common.checkpoint import CheckpointManager
+from memground_agent.env.base_env import BaseGameEnv
+from memground_agent.env.base_game_utils import BaseGameUtils
+from memground_agent.memory.store import MemoryStore
+from memground_agent.memory.retriever import KeywordRetrieverTool, VectorRetriever
+from memground_agent.agent.policy import DummyPolicy, LLMPolicy
+from memground_agent.logger import GameLogger
 
 
 class GalgameAgent:

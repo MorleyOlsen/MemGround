@@ -1,4 +1,4 @@
-# galagent/common/config.py
+# memground_agent/common/config.py
 '''Loads all configuration sections'''
 from __future__ import annotations
 

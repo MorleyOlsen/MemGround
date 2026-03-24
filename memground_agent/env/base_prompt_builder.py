@@ -4,7 +4,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Any, Dict, List, Optional
 
-from galagent.common.schemas import Observation
+from memground_agent.common.schemas import Observation
 
 
 class BasePromptBuilder(ABC):

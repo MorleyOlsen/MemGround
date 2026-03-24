@@ -1,17 +1,17 @@
-# galagent/env/env_factory.py
+# memground_agent/env/env_factory.py
 """Game environment factory"""
 from __future__ import annotations
 
 from pathlib import Path
 from typing import Union
 
-from galagent.common.config import EnvConfig
-from galagent.env.base_env import BaseGameEnv
-from galagent.env.base_prompt_builder import BasePromptBuilder
-from galagent.env.base_game_utils import BaseGameUtils
-from galagent.env.type_help_env import TypeHelpEnv, TypeHelpConfig
-from galagent.env.no_case_should_remain_unsolved_env import NoCaseEnv, NoCaseConfig
-from galagent.env.trpg_env import TRPGEnv, TRPGConfig
+from memground_agent.common.config import EnvConfig
+from memground_agent.env.base_env import BaseGameEnv
+from memground_agent.env.base_prompt_builder import BasePromptBuilder
+from memground_agent.env.base_game_utils import BaseGameUtils
+from memground_agent.env.type_help_env import TypeHelpEnv, TypeHelpConfig
+from memground_agent.env.no_case_should_remain_unsolved_env import NoCaseEnv, NoCaseConfig
+from memground_agent.env.trpg_env import TRPGEnv, TRPGConfig
 
 
 def create_game_env(env_config: EnvConfig, root_path: Path) -> BaseGameEnv:

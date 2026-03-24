@@ -1,4 +1,4 @@
-# galagent/memory/store.py
+# memground_agent/memory/store.py
 # Can be refactored into a memory sliding-window maintenance function
 from __future__ import annotations
 
@@ -9,9 +9,9 @@ from pathlib import Path
 import os
 from openai import OpenAI
 
-from galagent.common.config import EmbeddingConfig, load_embedding_config
-from galagent.memory.FaissManager import ThreadSafeFaissManager
-from galagent.memory.base_mem_agent import BaseMemAgent
+from memground_agent.common.config import EmbeddingConfig, load_embedding_config
+from memground_agent.memory.FaissManager import ThreadSafeFaissManager
+from memground_agent.memory.base_mem_agent import BaseMemAgent
 
 
 def get_qwen_embedding(text: str, config: EmbeddingConfig) -> List[float]:
@@ -525,7 +525,7 @@ class MemoryStore:
         Args:
             state: Memory state dictionary
         """
-        from galagent.memory.store import MemoryItem
+        from memground_agent.memory.store import MemoryItem
 
         self._items.clear()
 

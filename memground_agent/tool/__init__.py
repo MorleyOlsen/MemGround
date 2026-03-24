@@ -1,6 +1,6 @@
-# galagent/tool/__init__.py
+# memground_agent/tool/__init__.py
 
-from galagent.tool.tool import (
+from memground_agent.tool.tool import (
     Tool,
     LLMConfigLoaderTool,
     SceneLoaderTool,

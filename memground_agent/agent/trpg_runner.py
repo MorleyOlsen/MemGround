@@ -1,4 +1,4 @@
-# galagent/agent/trpg_runner.py
+# memground_agent/agent/trpg_runner.py
 """TRPG evaluation runner"""
 from __future__ import annotations
 
@@ -16,8 +16,8 @@ try:
     _SUMMARIZE_AVAILABLE = True
 except ImportError:
     _SUMMARIZE_AVAILABLE = False
-from galagent.common.config import AgentConfig, LLMConfig, EnvConfig
-from galagent.memory.store import MemoryStore
+from memground_agent.common.config import AgentConfig, LLMConfig, EnvConfig
+from memground_agent.memory.store import MemoryStore
 from env.trpg.prompt_builder import (
     QA_SYSTEM_EN,
     SUMMARY_SYSTEM_EN,

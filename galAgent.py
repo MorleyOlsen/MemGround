@@ -11,14 +11,14 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-from galagent.env.env_factory import create_game_env, create_prompt_builder, create_game_utils, get_supported_game_types
-from galagent.memory.store import MemoryStore
-from galagent.memory.retriever import KeywordRetrieverTool, VectorRetriever
-from galagent.agent.policy import LLMPolicy
-from galagent.agent.runner import GalgameAgent
-from galagent.common.config import ConfigLoader
-from galagent.common.checkpoint import CheckpointManager
-from galagent.logger import GameLogger
+from memground_agent.env.env_factory import create_game_env, create_prompt_builder, create_game_utils, get_supported_game_types
+from memground_agent.memory.store import MemoryStore
+from memground_agent.memory.retriever import KeywordRetrieverTool, VectorRetriever
+from memground_agent.agent.policy import LLMPolicy
+from memground_agent.agent.runner import GalgameAgent
+from memground_agent.common.config import ConfigLoader
+from memground_agent.common.checkpoint import CheckpointManager
+from memground_agent.logger import GameLogger
 
 
 def parse_args():
@@ -126,7 +126,7 @@ async def main_async():
             # Select memory agent based on mem_name
             if mem_agent_config.mem_name == "mem_0":
                 # Use Mem0 cloud memory agent
-                from galagent.memory.mem0 import Mem0Agent
+                from memground_agent.memory.mem0 import Mem0Agent
 
                 if not mem_agent_config.mem0_api_key:
                     raise ValueError("Mem0 API key is required when mem_name='mem_0'")
@@ -140,7 +140,7 @@ async def main_async():
                 print(f"[OK] Mem0Agent initialized, user_id: {_mem_game_name}_{llm_config.model}")
 
             elif mem_agent_config.mem_name == "a_mem":
-                from galagent.memory.amem import AMemAgent
+                from memground_agent.memory.amem import AMemAgent
                 # Use A-mem local memory agent
                 mem_agent = AMemAgent(
                     game_name=_mem_game_name,
@@ -192,7 +192,7 @@ async def main_async():
     # ── TRPG mode: use dedicated runner ─────────────────────────────────────────
     if env_config.game_type == "trpg":
         from datetime import datetime
-        from galagent.agent.trpg_runner import run_trpg
+        from memground_agent.agent.trpg_runner import run_trpg
 
         _mem_tag = mem_agent_config.mem_name if mem_agent_config.use_mem else "nomem"
         _model_tag = llm_config.model.replace("/", "_")

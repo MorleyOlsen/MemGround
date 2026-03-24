@@ -1,4 +1,4 @@
-# galagent/env/dataset_loader.py
+# memground_agent/env/dataset_loader.py
 # This module is responsible for reading JSON data into the internal data structures used by the program
 from __future__ import annotations
 
@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Any, Dict, List, Union
 
-from galagent.common.schemas import Character, Link, Memory, Node
+from memground_agent.common.schemas import Character, Link, Memory, Node
 
 
 def _character_from_obj(obj: Dict[str, Any]) -> Character:

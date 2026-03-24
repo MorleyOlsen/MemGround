@@ -1,13 +1,13 @@
-# galagent/memory/retriever.py
+# memground_agent/memory/retriever.py
 # Implements two retrieval methods: keyword-based retrieval and vector embedding-based retrieval
 from __future__ import annotations
 
 import re
 from typing import List, Optional, Dict, Any, AsyncIterator
-from galagent.tool import Tool
-from galagent.memory.store import MemoryStore, get_qwen_embedding
+from memground_agent.tool import Tool
+from memground_agent.memory.store import MemoryStore, get_qwen_embedding
 
-from galagent.common.openai_harmony import (
+from memground_agent.common.openai_harmony import (
     Author,
     Content,
     Message,

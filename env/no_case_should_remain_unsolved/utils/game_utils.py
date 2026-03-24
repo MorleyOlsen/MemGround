@@ -4,8 +4,8 @@ from __future__ import annotations
 
 from typing import Any, Dict, Optional
 
-from galagent.common.schemas import Observation
-from galagent.env.base_game_utils import BaseGameUtils
+from memground_agent.common.schemas import Observation
+from memground_agent.env.base_game_utils import BaseGameUtils
 
 
 class NoCaseGameUtils(BaseGameUtils):

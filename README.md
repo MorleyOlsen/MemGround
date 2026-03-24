@@ -554,7 +554,7 @@ GalgameBench/
 ├── config.yaml                   # All configuration (API keys, game, agent settings)
 ├── requirements.txt
 │
-├── galagent/                     # Core agent library
+├── memground_agent/                     # Core agent library
 │   ├── agent/
 │   │   ├── runner.py             # GalgameAgent — main step loop (type_help / no_case)
 │   │   ├── policy.py             # LLMPolicy — prompt construction + LLM call

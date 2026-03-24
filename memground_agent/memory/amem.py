@@ -1,4 +1,4 @@
-# galagent/memory/amem.py
+# memground_agent/memory/amem.py
 """A-mem local memory management agent"""
 from typing import Dict, List, Any, Optional
 import os
