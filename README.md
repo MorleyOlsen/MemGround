@@ -115,7 +115,7 @@ env:
 ### Step 3 — Run the agent
 
 ```bash
-python galAgent.py
+python memground_agent.py
 ```
 
 The agent plays the selected game, logs every step, saves checkpoints, and automatically runs QA evaluation when the game ends.
@@ -123,7 +123,7 @@ The agent plays the selected game, logs every step, saves checkpoints, and autom
 **CLI overrides** (all are optional):
 
 ```bash
-python galAgent.py \
+python memground_agent.py \
   --config config.yaml \          # path to config file (default: config.yaml)
   --retriever vector \            # override retriever: "keyword" or "vector"
   --top_k 5 \                     # override number of memories retrieved per step
@@ -358,7 +358,7 @@ logs/
 
 All three games run QA automatically when they end — no manual step required:
 
-- **Type Help / No Case Should Remain Unsolved**: QA fires at the end of `galAgent.py` using the live memory store. No checkpoint reload needed.
+- **Type Help / No Case Should Remain Unsolved**: QA fires at the end of `memground_agent.py` using the live memory store. No checkpoint reload needed.
 - **TRPG**: QA is the final phase of `trpg_runner.py`.
 
 Results always appear in `logs/<game_type>/<session_id>/results.json`.
@@ -550,7 +550,7 @@ All data files use JSON format. No preprocessing is required.
 
 ```
 GalgameBench/
-├── galAgent.py                   # Main entry point (type_help / no_case_should_remain_unsolved / trpg)
+├── memground_agent.py                   # Main entry point (type_help / no_case_should_remain_unsolved / trpg)
 ├── config.yaml                   # All configuration (API keys, game, agent settings)
 ├── requirements.txt
 │

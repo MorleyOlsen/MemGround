@@ -171,6 +171,7 @@ def judge_answer(
         user_content = (
             f"Question: {question}\nGold answer: {gold}\nPredicted answer: {predicted}\n\nJudge:"
         )
+    msgs = [
         {"role": "system", "content": judge_sys},
         {"role": "user", "content": user_content},
     ]

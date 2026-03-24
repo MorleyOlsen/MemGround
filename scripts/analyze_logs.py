@@ -48,7 +48,7 @@ import pandas as pd
 # Root of the GalgameBench project (two levels up from scripts/)
 GALGAME_ROOT = Path(__file__).resolve().parent.parent
 
-# Directory where galAgent.py writes game log JSON files
+# Directory where memground_agent.py writes game log JSON files
 LOG_DIR = GALGAME_ROOT / "logs"
 
 # Output directory for all analysis artefacts (created on demand)

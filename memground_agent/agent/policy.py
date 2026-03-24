@@ -82,7 +82,8 @@ class LLMPolicy:
 
                 if attempt < 2:
                     time.sleep(5)
-        print("[LLM] 3 consecutive failures, skipping this step")        return ""
+        print("[LLM] 3 consecutive failures, skipping this step")
+        return ""
 
     def decide_retrieval(self, obs: Observation, game_context: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
         """Decide whether memory retrieval is needed and generate retrieval targets

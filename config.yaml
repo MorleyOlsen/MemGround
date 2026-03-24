@@ -61,14 +61,14 @@ checkpoint:
 # Uncomment ONE game block at a time.
 
 # ── Type Help (file puzzle game) ─────────────────────────────────────────────
-# env:
-  # game_type: "type_help"
-  # scenes_path: "dataset/type_help-en/data/nodes.json"
-  # start_node_id: "Background"
-  # test_language: "en"
-  # enable_hint: true
-  # hint_failure_threshold: 50
-  # provide_naming_rules: false  # Set to true to show file naming rules in prompt
+env:
+  game_type: "type_help"
+  scenes_path: "dataset/type_help-en/data/nodes.json"
+  start_node_id: "Background"
+  test_language: "en"
+  enable_hint: true
+  hint_failure_threshold: 50
+  provide_naming_rules: false  # Set to true to show file naming rules in prompt
 
 # ── No Case Should Remain Unsolved (mystery investigation game) ───────────────
 # env:
@@ -79,12 +79,12 @@ checkpoint:
 #   show_order_judgements_history: false  # Show all past ordering judgements in prompt (no_case only)
 
 # ── TRPG (tabletop RPG comprehension) ────────────────────────────────────────
-env:
-  game_type: "trpg"
-  trpg:
-    story_name: "Terror_on_the_Orient_Express"
-    # story_name: "Cold_Wind_Howling"
-    # story_name: "Spring_Snow_Incident"
-    data_dir: "dataset/trpg_en/data"
-    qa_dir: "dataset/trpg_en/qa"
-    test_language: "en"
+# env:
+#   game_type: "trpg"
+#   trpg:
+#     story_name: "Terror_on_the_Orient_Express"
+#     # story_name: "Cold_Wind_Howling"
+#     # story_name: "Spring_Snow_Incident"
+#     data_dir: "dataset/trpg_en/data"
+#     qa_dir: "dataset/trpg_en/qa"
+#     test_language: "en"

@@ -62,7 +62,7 @@ def request_one(appcode: str, img_file: str, extra_params: Optional[Dict[str, An
     return parse_aliyun_ocr_words(resp_text)
 
 def request_many(appcode: str, img_files: List[str], extra_params: Optional[Dict[str, Any]] = None) -> str:
-    “””Recognize a list of images and concatenate all recognition results into one block”””
+    """Recognize a list of images and concatenate all recognition results into one block"""
     parts: List[str] = []
     for i, img in enumerate(img_files, 1):
         try:
@@ -71,7 +71,7 @@ def request_many(appcode: str, img_files: List[str], extra_params: Optional[Dict
             # For fully continuous text: parts.append(text)
             parts.append(text)
         except Exception as e:
-            parts.append(f”[Image {i}]\n<OCR FAILED: {e}>”)
+            parts.append(f"[Image {i}]\n<OCR FAILED: {e}>")
 
     return "\n\n".join(parts)
 

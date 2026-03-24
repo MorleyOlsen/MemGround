@@ -1,4 +1,4 @@
-# galAgent.py
+# memground_agent.py
 """
 Galgame Agent main program
 Uses LLM and vector retrieval to play Galgame and reach the best ending
@@ -191,7 +191,6 @@ async def main_async():
 
     # ── TRPG mode: use dedicated runner ─────────────────────────────────────────
     if env_config.game_type == "trpg":
-        from datetime import datetime
         from memground_agent.agent.trpg_runner import run_trpg
 
         _mem_tag = mem_agent_config.mem_name if mem_agent_config.use_mem else "nomem"

@@ -5,7 +5,7 @@ run_qa.py — QA evaluation script for No Case Should Remain Unsolved / TypeHelp
 Two calling modes:
   1. Standalone CLI  : python scripts/run_qa.py [--game_type no_case_should_remain_unsolved|type_help]
      Loads memory from a checkpoint file (path configured at top of file).
-  2. Inline (auto)   : called from galAgent.py after game ends via run_qa_from_store().
+  2. Inline (auto)   : called from memground_agent.py after game ends via run_qa_from_store().
      Uses the live MemoryStore directly — no checkpoint file needed.
 
 Pipeline:
@@ -991,7 +991,7 @@ def run_qa(game_type: str) -> None:
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# ── Mode 2: Inline (called from galAgent.py after game ends) ────────────────────
+# ── Mode 2: Inline (called from memground_agent.py after game ends) ────────────────────
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 def run_qa_from_store(
@@ -1005,11 +1005,11 @@ def run_qa_from_store(
 ) -> None:
     """Inline QA evaluation: uses live MemoryStore, no checkpoint file needed.
 
-    Called automatically from galAgent.py after type_help / no_case_should_remain_unsolved game ends.
+    Called automatically from memground_agent.py after type_help / no_case_should_remain_unsolved game ends.
 
     Args:
         game_type:        "type_help" or "no_case_should_remain_unsolved"
-        store:            The live MemoryStore from galAgent.py
+        store:            The live MemoryStore from memground_agent.py
         memory_log_file:  Path to logs/memory_{session_id}.jsonl
         log_dir:          Output directory, e.g. logs/{game_type}/{session_id}/
         llm_config:       LLMConfig dataclass (api_key, base_url, model, temperature)

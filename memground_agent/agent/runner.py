@@ -13,7 +13,7 @@ from memground_agent.env.base_env import BaseGameEnv
 from memground_agent.env.base_game_utils import BaseGameUtils
 from memground_agent.memory.store import MemoryStore
 from memground_agent.memory.retriever import KeywordRetrieverTool, VectorRetriever
-from memground_agent.agent.policy import DummyPolicy, LLMPolicy
+from memground_agent.agent.policy import LLMPolicy
 from memground_agent.logger import GameLogger
 
 
