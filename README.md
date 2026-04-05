@@ -1,20 +1,9 @@
 # MemGround
 
-**MemGround** is an LLM agent benchmark built around interactive narrative puzzle games. It evaluates how well a language model can play story-driven games that require **long-term memory**, **logical reasoning**, and **language understanding** — abilities that are difficult to assess with static QA datasets alone.
+## Abstract
 
-The agent reads scenes, makes decisions, retrieves relevant memories, and is tested with comprehension questions after (or during) play. All three games push different cognitive limits of the model under evaluation.
+Current evaluations of long-term memory in LLMs are fundamentally static. By fixating on simple retrieval and short-context inference, they neglect the multifaceted nature of complex memory systems, such as dynamic state tracking and hierarchical reasoning in continuous interactions. To overcome these limitations, we propose MemGround, a rigorous long-term memory benchmark natively grounded in rich, gamified interactive scenarios. To systematically assess these capabilities, MemGround introduces a three-tier hierarchical framework that evaluates Surface State Memory, Temporal Associative Memory, and Reasoning-Based Memory through specialized interactive tasks. Furthermore, to comprehensively quantify both memory utilization and behavioral trajectories, we propose a multi-dimensional metric suite comprising Question-Answer Score (QA Overall), Memory Fragments Unlocked (MFU), Memory Fragments with Correct Order (MFCO), and Exploration Trajectory Diagrams (ETD). Extensive experiments reveal that state-of-the-art LLMs and memory agents still struggle with sustained dynamic tracking, temporal event association, and complex reasoning derived from long-term accumulated evidence in interactive environments.
 
----
-
-## Games at a Glance
-
-| Game | Type | Core Challenge | Auto QA |
-|------|------|----------------|---------|
-| **Type Help** | File-system puzzle | Decode scene clues → type the correct filename to unlock each stage | ✅ runs after game |
-| **No Case Should Remain Unsolved** | Mystery investigation | Read fragmented events → reconstruct chronological order | ✅ runs after game |
-| **TRPG** | Tabletop RPG comprehension | Follow a multi-chapter story → answer factual questions about characters & plot | ✅ built-in |
-
----
 
 ## Table of Contents
 
