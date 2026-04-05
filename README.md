@@ -1,6 +1,6 @@
-# GalgameBench
+# MemGround Agent
 
-**GalgameBench** is an LLM agent benchmark built around interactive narrative puzzle games. It evaluates how well a language model can play story-driven games that require **long-term memory**, **logical reasoning**, and **language understanding** — abilities that are difficult to assess with static QA datasets alone.
+**MemGround Agent** is an LLM agent benchmark built around interactive narrative puzzle games. It evaluates how well a language model can play story-driven games that require **long-term memory**, **logical reasoning**, and **language understanding** — abilities that are difficult to assess with static QA datasets alone.
 
 The agent reads scenes, makes decisions, retrieves relevant memories, and is tested with comprehension questions after (or during) play. All three games push different cognitive limits of the model under evaluation.
 
@@ -38,8 +38,8 @@ The agent reads scenes, makes decisions, retrieves relevant memories, and is tes
 **Requirements:** Python 3.9+
 
 ```bash
-git clone https://github.com/your-org/GalgameBench.git
-cd GalgameBench
+git clone https://github.com/your-org/MemGround Agent.git
+cd MemGround Agent
 pip install -r requirements.txt
 ```
 
@@ -549,14 +549,14 @@ All data files use JSON format. No preprocessing is required.
 ## Project Structure
 
 ```
-GalgameBench/
+MemGround Agent/
 ├── memground_agent.py                   # Main entry point (type_help / no_case_should_remain_unsolved / trpg)
 ├── config.yaml                   # All configuration (API keys, game, agent settings)
 ├── requirements.txt
 │
 ├── memground_agent/                     # Core agent library
 │   ├── agent/
-│   │   ├── runner.py             # GalgameAgent — main step loop (type_help / no_case)
+│   │   ├── runner.py             # MemGroundAgent — main step loop (type_help / no_case)
 │   │   ├── policy.py             # LLMPolicy — prompt construction + LLM call
 │   │   └── trpg_runner.py        # TRPGRunner — TRPG-specific two-phase runner
 │   ├── env/
