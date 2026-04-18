@@ -4,6 +4,24 @@
 
 Current evaluations of long-term memory in LLMs are fundamentally static. By fixating on simple retrieval and short-context inference, they neglect the multifaceted nature of complex memory systems, such as dynamic state tracking and hierarchical reasoning in continuous interactions. To overcome these limitations, we propose MemGround, a rigorous long-term memory benchmark natively grounded in rich, gamified interactive scenarios. To systematically assess these capabilities, MemGround introduces a three-tier hierarchical framework that evaluates Surface State Memory, Temporal Associative Memory, and Reasoning-Based Memory through specialized interactive tasks. Furthermore, to comprehensively quantify both memory utilization and behavioral trajectories, we propose a multi-dimensional metric suite comprising Question-Answer Score (QA Overall), Memory Fragments Unlocked (MFU), Memory Fragments with Correct Order (MFCO), and Exploration Trajectory Diagrams (ETD). Extensive experiments reveal that state-of-the-art LLMs and memory agents still struggle with sustained dynamic tracking, temporal event association, and complex reasoning derived from long-term accumulated evidence in interactive environments.
 
+![](./figs/fig1.png)
+
+## Method
+
+Model evaluation is conducted through a modular interactive framework, which simulates dynamic gameplay between models and the game environment.
+The system architecture is designed to separate environment logic, agent policy, memory mechanisms, and logging utilities, ensuring reproducibility and extensibility. At a high level, the evaluation process is constructed as:
+
+![](./figs/fig2.png)
+
+## Results
+
+(1) QA Overall, MFCO, MFU results
+
+![](./figs/tab1.png)
+
+(2) ETD results
+
+![](./figs/fig-dag.png)
 
 ## Installation
 
@@ -116,3 +134,19 @@ checkpoint:
 ## License
 
 This project is released under the [MIT License](LICENSE).
+
+## Citation
+
+If you find this work useful, please consider cite our paper:
+
+```
+@misc{ding2026memgroundlongtermmemoryevaluation,
+      title={MemGround: Long-Term Memory Evaluation Kit for Large Language Models in Gamified Scenarios}, 
+      author={Yihang Ding and Wanke Xia and Yiting Zhao and Jinbo Su and Jialiang Yang and Zhengbo Zhang and Ke Wang and Wenming Yang},
+      year={2026},
+      eprint={2604.14158},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.14158}, 
+}
+```
